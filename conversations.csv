@@ -1,0 +1,27 @@
+﻿Conversation ID;Type;Participants number;Languages ;Participants code;Module
+PBB024;intervista semistrutturata;2;italiano-dialetto;BOI091,,BOR030;ParlaBO
+PBB019;intervista semistrutturata;2;italiano;BOI057,,BOR009;ParlaBO
+PBB010;intervista semistrutturata;2;italiano;BOI030,,BOR007;ParlaBO
+PBC017;intervista semistrutturata;2;italiano;BOI042,,BOR009;ParlaBO
+PBB029;intervista semistrutturata;2;italiano;BOI101,,BOR036;ParlaBO
+PBA014;intervista semistrutturata;2;italiano;BOI076,,BOR019;ParlaBO
+PTA016;intervista semistrutturata;2;italiano;TOI033,,TOR006;ParlaTO
+PTD020;intervista semistrutturata;2;italiano;TOI008,,TOR001;ParlaTO
+PTB007;intervista semistrutturata;2;italiano-dialetto;TOI021,,TOR004;ParlaTO
+PTD003;intervista semistrutturata;2;italiano;TOI048,,TOR001;ParlaTO
+PTA018;intervista semistrutturata;2;italiano;TOI031,,TOR006;ParlaTO
+TOD2016;intervista semistrutturata;2;italiano;TO071,,TO080;ParlaTO
+BOC1005;esame;2;italiano;BO104,,BO105;KIP
+TOC1002;esame;2;italiano;TO006,,TO007;KIP
+TOC1001;esame;2;italiano;TO002,,TO003;KIP
+BOC1007;esame;2;italiano;BO104,,BO144;KIP
+BOC1002;esame;2;italiano;BO087,,BO089;KIP
+BOC1003;esame;2;italia;BO087,,BO090;KIP
+TOA1005;ricevimento studenti;2;italiano;TO075,,TO076;KIP
+TOA1003;ricevimento studenti;3;italiano;TO061,,TO065;KIP
+TOA3010;conversazione libera;2;italiano;TO085,,TO086;KIP
+KPS024;conversazione libera;2;italiano-dialetto;PKP125,,PKP131;KIPasti
+KPC004;conversazione libera;2;italiano;PKP027,,PKP028;KIPasti
+KPN027;conversazione libera;2;italiano;PKP115,,PKP116;KIPasti
+KPN017;conversazione libera;2;italiano-dialetto;PKP057,,PKP061;KIPasti
+KPS023;conversazione libera;2;italiano-dialetto;PKP125,,PKP130;KIPasti
