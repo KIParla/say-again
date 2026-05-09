@@ -1,0 +1,4 @@
+interaction_type_norm,BC,FP,SR,OR,n_conversations,BC_per_min,FP_per_min,SR_per_min,OR_per_min
+conversazione libera,530,175,48,14,6,4.416666666666667,1.4583333333333333,0.4,0.11666666666666667
+esami_ricevimento,642,762,133,18,8,4.0125,4.7625,0.83125,0.1125
+intervista semistrutturata,1368,781,62,0,12,5.7,3.254166666666667,0.25833333333333336,0.0
