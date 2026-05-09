@@ -20,7 +20,7 @@ for file_webanno in webanno_dir.glob("*.tsv"):
 
     tokens_to_update = {}
 
-    # --- leggi webanno ---
+    # Reads WebAnno file
     with open(file_webanno, encoding="utf-8") as fin:
         for line in fin:
             if line.strip() and not line.startswith("#"):
@@ -32,7 +32,7 @@ for file_webanno in webanno_dir.glob("*.tsv"):
                     if phenomena:
                         tokens_to_update[tok_id] = "|".join(phenomena) # casi in cui + di un'annotazione (esempio, una FP dentro a un SR)
 
-    # --- scrivi vert aggiornato ---
+    # Builds .vert file with annotations included
     out_path = output_dir / file_vert.name
 
     with open(file_vert, encoding="utf-8") as fin, \
