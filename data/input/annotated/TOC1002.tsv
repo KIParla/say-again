@@ -1,0 +1,3736 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Backchannel|backchannel_value
+#T_SP=webanno.custom.Fillers|fillers_values
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Repair|repair_value
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=bene allora buonasera
+1-1	0-4	bene	_	_	Falling	bene.	_	TO006	0-0	_	_	
+1-2	5-11	allora	_	_	weakly\_rising	allora,	_	_	0-1	_	_	
+1-3	12-21	buonasera	_	_	Falling	buonasera.	_	_	0-2	_	_	
+
+#Text=buonasera a lei
+2-1	22-31	buonasera	_	_	_	buonasera	_	TO007	1-0	_	_	
+2-2	32-33	a	_	_	_	a	_	_	1-1	_	_	
+2-3	34-37	lei	_	_	_	\[lei\]	_	_	1-2	*->14-1	*[14]	
+
+#Text=dunque lei ha già sostenuto una parte del programma in questo caso particolare porta soltanto
+3-1	38-44	dunque	_	_	_	\[dun\]que	_	TO006	2-0	_	_	
+3-1.1	38-41	dun	_	_	_	_	_	_	_	*->14-2	*[14]	
+3-2	45-48	lei	_	_	_	lei	_	_	2-1	_	_	
+3-3	49-51	ha	_	_	_	ha	_	_	2-2	_	_	
+3-4	52-55	già	_	_	_	già	_	_	2-3	_	_	
+3-5	56-65	sostenuto	_	_	_	sostenuto	_	_	2-4	_	_	
+3-6	66-69	una	_	_	_	una	_	_	2-5	_	_	
+3-7	70-75	parte	_	_	_	parte	_	_	2-6	_	_	
+3-8	76-79	del	_	_	_	del	_	_	2-7	_	_	
+3-9	80-89	programma	_	_	weakly\_rising	progra:mma,	_	_	2-8	_	_	
+3-10	90-92	in	_	_	_	in	_	_	2-9	_	_	
+3-11	93-99	questo	_	_	_	questo	_	_	2-10	_	_	
+3-12	100-104	caso	_	_	_	caso	_	_	2-11	_	_	
+3-13	105-116	particolare	_	_	_	particolare	_	_	2-12	_	_	
+3-14	117-122	porta	_	_	_	porta	_	_	2-13	_	_	
+3-15	123-131	soltanto	_	_	weakly\_rising	soltanto,	_	_	2-14	_	_	
+
+#Text=sì tutto il eh
+4-1	132-134	sì	BC	_	Falling	sì.	_	TO007	3-0	_	_	
+4-2	135-140	tutto	_	_	_	tutto	_	_	3-1	_	_	
+4-3	141-143	il	_	_	_	il	_	_	3-2	_	_	
+4-4	144-146	eh	_	FP	_	\[e:::h\]	_	_	3-3	*->18-1	*[18]	
+
+#Text=tutta la parte positiva
+5-1	147-152	tutta	_	_	_	\[tut\]ta	_	TO006	4-0	_	_	
+5-1.1	147-150	tut	_	_	_	_	_	_	_	*->18-2	*[18]	
+5-2	153-155	la	_	_	_	la	_	_	4-1	_	_	
+5-3	156-161	parte	_	_	_	parte	_	_	4-2	_	_	
+5-4	162-170	positiva	_	_	Falling	positiva.	_	_	4-3	_	_	
+
+#Text=tut~ x la parte storica
+6-1	171-175	tut~	_	_	weakly\_rising	tut~,	_	TO007	5-0	_	_	
+6-2	176-177	x	_	_	_	\[x	_	_	5-1	*->37-1	*[37]	
+6-3	178-180	la	_	_	_	la	_	_	5-2	*->37-2	*[37]	
+6-4	181-186	parte	_	_	_	parte	_	_	5-3	*->37-3	*[37]	
+6-5	187-194	storica	_	_	Falling	storica\].	_	_	5-4	*->37-4	*[37]	
+
+#Text=sulle dispense [PAUSE] non è frequentante
+7-1	195-200	sulle	_	_	_	\[sulle	_	TO006	6-0	*->37-5	*[37]	
+7-2	201-209	dispense	_	_	Falling	dispense\].	_	_	6-1	*->37-6	*[37]	
+7-3	210-217	[PAUSE]	_	_	_	(.)	_	_	6-2	_	_	
+7-4	218-221	non	_	_	_	non	_	_	6-3	_	_	
+7-5	222-223	è	_	_	_	è	_	_	6-4	_	_	
+7-6	224-236	frequentante	_	_	Falling	frequentante.	_	_	6-5	_	_	
+
+#Text=frequentante
+8-1	237-249	frequentante	_	_	Falling	frequentante.	_	TO007	7-0	_	_	
+
+#Text=allora mh [PAUSE] mi dica qualche cosa [PAUSE] eh mh sull' amministrazione nelle società di persone
+9-1	250-256	allora	_	_	weakly\_rising	allora,	_	TO006	8-0	_	_	
+9-2	257-259	mh	_	FP	_	m:::h	_	_	8-1	_	_	
+9-3	260-267	[PAUSE]	_	_	_	(.)	_	_	8-2	_	_	
+9-4	268-270	mi	_	_	_	mi	_	_	8-3	_	_	
+9-5	271-275	dica	_	_	_	dica	_	_	8-4	_	_	
+9-6	276-283	qualche	_	_	_	qualche	_	_	8-5	_	_	
+9-7	284-288	cosa	_	_	weakly\_rising	cosa,	_	_	8-6	_	_	
+9-8	289-296	[PAUSE]	_	_	_	(.)	_	_	8-7	_	_	
+9-9	297-299	eh	_	FP[26]	_	eh	_	_	8-8	_	_	
+9-10	300-302	mh	_	FP[26]	_	m:::h	_	_	8-9	_	_	
+9-11	303-308	sull'	_	_	_	sull'	_	_	8-10	_	_	
+9-12	309-324	amministrazione	_	_	_	amministrazione	_	_	8-11	_	_	
+9-13	325-330	nelle	_	_	_	nelle	_	_	8-12	_	_	
+9-14	331-338	società	_	_	_	società	_	_	8-13	_	_	
+9-15	339-341	di	_	_	_	di	_	_	8-14	_	_	
+9-16	342-349	persone	_	_	Falling	persone.	_	_	8-15	_	_	
+
+#Text=allora [PAUSE] l' amministrazione nella società di di persone spetta ai soci amministratori
+10-1	350-356	allora	_	_	weakly\_rising	>allora<,	_	TO007	9-0	_	_	
+10-2	357-364	[PAUSE]	_	_	_	(.)	_	_	9-1	_	_	
+10-3	365-367	l'	_	_	_	l'	_	_	9-2	_	_	
+10-4	368-383	amministrazione	_	_	_	amministrazione	_	_	9-3	_	_	
+10-5	384-389	nella	_	_	_	nella	_	_	9-4	_	_	
+10-6	390-397	società	_	_	_	società	_	_	9-5	_	_	
+10-7	398-400	di	_	_	_	di::	_	_	9-6	_	_	
+10-8	401-403	di	_	_	_	di	_	_	9-7	_	_	
+10-9	404-411	persone	_	_	weakly\_rising	persone,	_	_	9-8	_	_	
+10-10	412-418	spetta	_	_	_	spetta::	_	_	9-9	_	_	
+10-11	419-421	ai	_	_	_	ai	_	_	9-10	_	_	
+10-12	422-426	soci	_	_	_	soci	_	_	9-11	_	_	
+10-13	427-441	amministratori	_	_	weakly\_rising	amministratori,	_	_	9-12	_	_	
+
+#Text=che ehm si riuniscono eh a~ e agicono collegialmente
+11-1	442-445	che	_	_	_	che:	_	TO007	10-0	_	_	
+11-2	446-449	ehm	_	FP	_	ehm::	_	_	10-1	_	_	
+11-3	450-452	si	_	_	_	si	_	_	10-2	_	_	
+11-4	453-463	riuniscono	_	_	weakly\_rising	riuniscono,	_	_	10-3	_	_	
+11-5	464-466	eh	_	FP	_	e:h	_	_	10-4	_	_	
+11-6	467-469	a~	_	_	_	a~	_	_	10-5	_	_	
+11-7	470-471	e	_	_	_	e	_	_	10-6	_	_	
+11-8	472-479	agicono	_	_	_	agicono	_	_	10-7	_	_	
+11-9	480-494	collegialmente	_	_	Falling	collegialmente.	_	_	10-8	_	_	
+
+#Text=eh i~ in tal caso si ha l' amministrazione collegiale o possono eh am~ possono agire anche individualmente
+12-1	495-497	eh	_	FP	_	e::h	_	TO007	11-0	_	_	
+12-2	498-500	i~	_	_	_	i~	_	_	11-1	_	_	
+12-3	501-503	in	_	_	_	in	_	_	11-2	_	_	
+12-4	504-507	tal	_	_	_	tal	_	_	11-3	_	_	
+12-5	508-512	caso	_	_	_	caso	_	_	11-4	_	_	
+12-6	513-515	si	_	_	_	si	_	_	11-5	_	_	
+12-7	516-518	ha	_	_	_	ha	_	_	11-6	_	_	
+12-8	519-521	l'	_	_	_	l'	_	_	11-7	_	_	
+12-9	522-537	amministrazione	_	_	_	amministrazione	_	_	11-8	_	_	
+12-10	538-548	collegiale	_	_	Falling	collegiale.	_	_	11-9	_	_	
+12-11	549-550	o	_	_	_	o	_	_	11-10	_	_	
+12-12	551-558	possono	_	_	_	possono:	SR[32]	_	11-11	_	_	
+12-13	559-561	eh	_	FP	_	e::h	SR[32]	_	11-12	_	_	
+12-14	562-565	am~	_	_	weakly\_rising	am~,	SR[32]	_	11-13	_	_	
+12-15	566-573	possono	_	_	_	possono::	SR[32]	_	11-14	_	_	
+12-16	574-579	agire	_	_	weakly\_rising	agire,	SR[32]	_	11-15	_	_	
+12-17	580-585	anche	_	_	_	anche	_	_	11-16	_	_	
+12-18	586-601	individualmente	_	_	Falling	individualmente.	_	_	11-17	_	_	
+
+#Text=in quel caso vie~ in [PAUSE] questo caso viene delegato loro tramite [PAUSE] viene delegato loro eh nella figura del eh dell' amministratore delegato
+13-1	602-604	in	_	_	_	in	_	TO007	12-0	_	_	
+13-2	605-609	quel	_	_	_	quel	_	_	12-1	_	_	
+13-3	610-614	caso	_	_	_	caso	_	_	12-2	_	_	
+13-4	615-619	vie~	_	_	_	vie~	_	_	12-3	_	_	
+13-5	620-622	in	_	_	_	in	_	_	12-4	_	_	
+13-6	623-630	[PAUSE]	_	_	_	(.)	_	_	12-5	_	_	
+13-7	631-637	questo	_	_	_	questo	_	_	12-6	_	_	
+13-8	638-642	caso	_	_	_	caso	_	_	12-7	_	_	
+13-9	643-648	viene	_	_	_	viene::	_	_	12-8	_	_	
+13-10	649-657	delegato	_	_	_	delegato	_	_	12-9	_	_	
+13-11	658-662	loro	_	_	weakly\_rising	loro,	_	_	12-10	_	_	
+13-12	663-670	tramite	_	_	_	tramite	_	_	12-11	_	_	
+13-13	671-678	[PAUSE]	_	_	_	(.)	_	_	12-12	_	_	
+13-14	679-684	viene	_	_	_	viene	_	_	12-13	_	_	
+13-15	685-693	delegato	_	_	_	delegato	_	_	12-14	_	_	
+13-16	694-698	loro	_	_	_	loro:	_	_	12-15	_	_	
+13-17	699-701	eh	_	FP	_	e::h	_	_	12-16	_	_	
+13-18	702-707	nella	_	_	_	nella	_	_	12-17	_	_	
+13-19	708-714	figura	_	_	_	figura	_	_	12-18	_	_	
+13-20	715-718	del	_	_	_	del	_	_	12-19	_	_	
+13-21	719-721	eh	_	FP	_	eh	_	_	12-20	_	_	
+13-22	722-727	dell'	_	_	_	dell'	_	_	12-21	_	_	
+13-23	728-742	amministratore	_	_	_	amministratore	_	_	12-22	_	_	
+13-24	743-751	delegato	_	_	Falling	delegato.	_	_	12-23	_	_	
+
+#Text=aspetti aspetti aspetti
+14-1	752-759	aspetti	_	_	Falling	aspetti.	_	TO006	13-0	_	_	
+14-2	760-767	aspetti	_	_	Falling	aspetti.	_	_	13-1	_	_	
+14-3	768-775	aspetti	_	_	Falling	aspetti.	_	_	13-2	_	_	
+
+#Text=qui siamo in società di persone eh [PAUSE] non di capitali
+15-1	776-779	qui	_	_	_	qui	_	TO006	14-0	_	_	
+15-2	780-785	siamo	_	_	_	siamo	_	_	14-1	_	_	
+15-3	786-788	in	_	_	_	in	_	_	14-2	_	_	
+15-4	789-796	società	_	_	_	società	_	_	14-3	_	_	
+15-5	797-799	di	_	_	_	di	_	_	14-4	_	_	
+15-6	800-807	persone	_	_	_	<persone>	_	_	14-5	_	_	
+15-7	808-810	eh	_	_	weakly\_rising	eh,	_	_	14-6	_	_	
+15-8	811-818	[PAUSE]	_	_	_	(.)	_	_	14-7	_	_	
+15-9	819-822	non	_	_	_	non	_	_	14-8	_	_	
+15-10	823-825	di	_	_	_	di	_	_	14-9	_	_	
+15-11	826-834	capitali	_	_	Falling	capitali.	_	_	14-10	_	_	
+
+#Text=ah sc~ n~ n~ avevo capito nelle società di di capitali
+16-1	835-837	ah	BC	_	Falling	ah.	_	TO007	15-0	_	_	
+16-2	838-841	sc~	_	_	_	>sc~	_	_	15-1	_	_	
+16-3	842-844	n~	_	_	_	n~	_	_	15-2	_	_	
+16-4	845-847	n~	_	_	_	n~<	_	_	15-3	_	_	
+16-5	848-853	avevo	_	_	_	avevo	_	_	15-4	_	_	
+16-6	854-860	capito	_	_	_	capito	_	_	15-5	_	_	
+16-7	861-866	nelle	_	_	_	nelle	_	_	15-6	_	_	
+16-8	867-874	società	_	_	_	società	_	_	15-7	_	_	
+16-9	875-877	di	_	_	_	di::	_	_	15-8	_	_	
+16-10	878-880	di	_	_	_	di	_	_	15-9	_	_	
+16-11	881-889	capitali	_	_	Falling	capitali.	_	_	15-10	_	_	
+
+#Text=scusi
+17-1	890-895	scusi	_	_	_	s\[cusi\]	_	TO007	16-0	_	_	
+17-1.1	891-895	cusi	_	_	_	_	_	_	_	*->17-1	*[17]	
+
+#Text=persone
+18-1	896-903	persone	_	_	_	\[perso\]ne	_	TO006	17-0	_	_	
+18-1.1	896-896		_	_	_	_	_	_	_	*->17-1	*[17]	
+18-1.2	896-901	perso	_	_	_	_	_	_	_	*->17-2	*[17]	
+
+#Text=società eh eh di di persone quindi s~ mh
+19-1	904-911	società	_	_	_	società::	_	TO007	18-0	_	_	
+19-2	912-914	eh	_	FP	_	e::h	_	_	18-1	_	_	
+19-3	915-917	eh	_	FP	_	eh	_	_	18-2	_	_	
+19-4	918-920	di	_	_	_	di	_	_	18-3	_	_	
+19-5	921-923	di	_	_	_	di	_	_	18-4	_	_	
+19-6	924-931	persone	_	_	Falling	persone.	_	_	18-5	_	_	
+19-7	932-938	quindi	_	_	_	quindi	_	_	18-6	_	_	
+19-8	939-941	s~	_	_	_	s~	_	_	18-7	_	_	
+19-9	942-944	mh	_	FP	Falling	mh.	_	_	18-8	_	_	
+
+#Text=eh mh abbiamo diversi casi che possono essere mh [PAUSE] gli am~ gli amministratori che hanno la responsabilità limitata e gli amministratori che hanno la responsabilità illimitata
+20-1	945-947	eh	_	FP[27]	_	eh	_	TO007	19-0	_	_	
+20-2	948-950	mh	_	FP[27]	_	m:::h	_	_	19-1	_	_	
+20-3	951-958	abbiamo	_	_	_	abbiamo	_	_	19-2	_	_	
+20-4	959-966	diversi	_	_	_	diversi	_	_	19-3	_	_	
+20-5	967-971	casi	_	_	weakly\_rising	casi,	_	_	19-4	_	_	
+20-6	972-975	che	_	_	_	che	_	_	19-5	_	_	
+20-7	976-983	possono	_	_	_	possono	_	_	19-6	_	_	
+20-8	984-990	essere	_	_	_	essere::	_	_	19-7	_	_	
+20-9	991-993	mh	_	FP	_	m::h	_	_	19-8	_	_	
+20-10	994-1001	[PAUSE]	_	_	_	(.)	_	_	19-9	_	_	
+20-11	1002-1005	gli	_	_	_	gli	_	_	19-10	_	_	
+20-12	1006-1009	am~	_	_	_	am~	_	_	19-11	_	_	
+20-13	1010-1013	gli	_	_	_	gli	_	_	19-12	_	_	
+20-14	1014-1028	amministratori	_	_	_	amministratori	_	_	19-13	_	_	
+20-15	1029-1032	che	_	_	_	che	_	_	19-14	_	_	
+20-16	1033-1038	hanno	_	_	_	hanno	_	_	19-15	_	_	
+20-17	1039-1041	la	_	_	_	la	_	_	19-16	_	_	
+20-18	1042-1056	responsabilità	_	_	_	responsabilità	_	_	19-17	_	_	
+20-19	1057-1065	limitata	_	_	weakly\_rising	limitata,	_	_	19-18	_	_	
+20-20	1066-1067	e	_	_	_	e	_	_	19-19	_	_	
+20-21	1068-1071	gli	_	_	_	gli	_	_	19-20	_	_	
+20-22	1072-1086	amministratori	_	_	_	amministratori	_	_	19-21	_	_	
+20-23	1087-1090	che	_	_	_	che	_	_	19-22	_	_	
+20-24	1091-1096	hanno	_	_	_	hanno	_	_	19-23	_	_	
+20-25	1097-1099	la	_	_	_	la	_	_	19-24	_	_	
+20-26	1100-1114	responsabilità	_	_	_	responsabilità	_	_	19-25	_	_	
+20-27	1115-1125	illimitata	_	_	Falling	illimitata.	_	_	19-26	_	_	
+
+#Text=lei dice
+21-1	1126-1129	lei	_	_	_	lei	_	TO006	20-0	_	_	
+21-2	1130-1134	dice	_	_	Rising	dice?	_	_	20-1	_	_	
+
+#Text=per esempio nel eh nell' accomandita sen~ nella società in accomandi~
+22-1	1135-1138	per	_	_	_	per	_	TO007	21-0	_	_	
+22-2	1139-1146	esempio	_	_	_	esempio	_	_	21-1	_	_	
+22-3	1147-1150	nel	_	_	_	nel	_	_	21-2	_	_	
+22-4	1151-1153	eh	_	FP	_	e::h	_	_	21-3	_	_	
+22-5	1154-1159	nell'	_	_	_	nell'	_	_	21-4	_	_	
+22-6	1160-1171	accomandita	_	_	_	accomandita	_	_	21-5	_	_	
+22-7	1172-1176	sen~	_	_	weakly\_rising	sen~,	_	_	21-6	_	_	
+22-8	1177-1182	nella	_	_	_	nella	_	_	21-7	_	_	
+22-9	1183-1190	società	_	_	_	società	_	_	21-8	_	_	
+22-10	1191-1193	in	_	_	_	in	_	_	21-9	_	_	
+22-11	1194-1204	accomandi~	_	_	_	ac\[comandi~\]	_	_	21-10	_	_	
+22-11.1	1196-1204	comandi~	_	_	_	_	_	_	_	*->30-1	*[30]	
+
+#Text=ah [PAUSE] eh [PAUSE] beh [PAUSE] soci semmai che hanno la responsabilità limitata e il~ non amministratori
+23-1	1205-1207	ah	BC	_	Falling	\[ah\].	_	TO006	22-0	*->30-2	*[30]	
+23-1.1	1205-1206	a	_	_	_	_	_	_	_	*->30-1	*[30]	
+23-2	1208-1215	[PAUSE]	_	_	_	(.)	_	_	22-1	_	_	
+23-3	1216-1218	eh	_	FP	_	e:h	_	_	22-2	_	_	
+23-4	1219-1226	[PAUSE]	_	_	_	(.)	_	_	22-3	_	_	
+23-5	1227-1230	beh	_	_	_	beh	_	_	22-4	_	_	
+23-6	1231-1238	[PAUSE]	_	_	_	(.)	_	_	22-5	_	_	
+23-7	1239-1243	soci	_	_	_	soci	_	_	22-6	_	_	
+23-8	1244-1250	semmai	_	_	Falling	semmai.	_	_	22-7	_	_	
+23-9	1251-1254	che	_	_	_	che	_	_	22-8	_	_	
+23-10	1255-1260	hanno	_	_	_	hanno	_	_	22-9	_	_	
+23-11	1261-1263	la	_	_	_	la	_	_	22-10	_	_	
+23-12	1264-1278	responsabilità	_	_	_	res\[ponsabilità	_	_	22-11	_	_	
+23-12.1	1267-1278	ponsabilità	_	_	_	_	_	_	_	*->39-1	*[39]	
+23-13	1279-1287	limitata	_	_	_	limitata	_	_	22-12	*->39-2	*[39]	
+23-13.1	1279-1281	li	_	_	_	_	_	_	_	*->39-1	*[39]	
+23-14	1288-1289	e	_	_	_	e	_	_	22-13	*->39-3	*[39]	
+23-15	1290-1293	il~	_	_	_	il~	_	_	22-14	*->39-4	*[39]	
+23-16	1294-1297	non	_	_	weakly\_rising	non\],	_	_	22-15	*->39-5	*[39]	
+23-17	1298-1312	amministratori	_	_	Falling	amministratori.	_	_	22-16	_	_	
+
+#Text=i~ il [PAUSE] le
+24-1	1313-1315	i~	_	_	_	\[i~	_	TO007	23-0	*->39-6	*[39]	
+24-2	1316-1318	il	_	_	_	il	_	_	23-1	*->39-7	*[39]	
+24-3	1319-1326	[PAUSE]	_	_	_	(.)	_	_	23-2	_	_	
+24-3.1	1319-1322	[PA	_	_	_	_	_	_	_	*->39-8	*[39]	
+24-4	1327-1329	le	_	_	_	(le)\]	_	_	23-3	*->39-9	*[39]	
+
+#Text=perché amministratori
+25-1	1330-1336	perché	_	_	_	>perché<	_	TO006	24-0	_	_	
+25-2	1337-1351	amministratori	_	_	weakly\_rising	\[amministratori\],	_	_	24-1	*->8-1	*[8]	
+
+#Text=beh gli a~ eh mh [PAUSE] nella società in accomandita s~ in accomandita semplice chi ha la responsabilità il~ illi~ illimitata è mh è il eh mh il il socio accomandatario
+26-1	1352-1355	beh	_	_	_	\[beh	_	TO007	25-0	*->8-2	*[8]	
+26-2	1356-1359	gli	_	_	_	gli	_	_	25-1	*->8-3	*[8]	
+26-3	1360-1362	a~	_	_	_	a~	_	_	25-2	*->8-4	*[8]	
+26-4	1363-1365	eh	_	FP[28]	_	eh	_	_	25-3	*->8-5	*[8]	
+26-5	1366-1368	mh	_	FP[28]	_	m:h\]	_	_	25-4	*->8-6	*[8]	
+26-6	1369-1376	[PAUSE]	_	_	_	(.)	_	_	25-5	_	_	
+26-7	1377-1382	nella	_	_	_	nella	SR[33]	_	25-6	_	_	
+26-8	1383-1390	società	_	_	_	società	SR[33]	_	25-7	_	_	
+26-9	1391-1393	in	_	_	_	in	SR[33]	_	25-8	_	_	
+26-10	1394-1405	accomandita	_	_	_	accomandita	SR[33]	_	25-9	_	_	
+26-11	1406-1408	s~	_	_	_	s~	SR[33]	_	25-10	_	_	
+26-12	1409-1411	in	_	_	_	<in	SR[33]	_	25-11	_	_	
+26-13	1412-1423	accomandita	_	_	_	accomandita>	SR[33]	_	25-12	_	_	
+26-14	1424-1432	semplice	_	_	weakly\_rising	semplice,	SR[33]	_	25-13	_	_	
+26-15	1433-1436	chi	_	_	_	chi	_	_	25-14	_	_	
+26-16	1437-1439	ha	_	_	_	ha	_	_	25-15	_	_	
+26-17	1440-1442	la	_	_	_	la	_	_	25-16	_	_	
+26-18	1443-1457	responsabilità	_	_	_	responsabilità	_	_	25-17	_	_	
+26-19	1458-1461	il~	_	_	_	il~	_	_	25-18	_	_	
+26-20	1462-1467	illi~	_	_	_	<illi~>	_	_	25-19	_	_	
+26-21	1468-1478	illimitata	_	_	_	<illimitata>	_	_	25-20	_	_	
+26-22	1479-1480	è	_	_	_	è	_	_	25-21	_	_	
+26-23	1481-1483	mh	_	FP	_	m::h	_	_	25-22	_	_	
+26-24	1484-1485	è	_	_	_	è::	_	_	25-23	_	_	
+26-25	1486-1488	il	_	_	_	il	_	_	25-24	_	_	
+26-26	1489-1491	eh	_	FP[29]	_	e:h	_	_	25-25	_	_	
+26-27	1492-1494	mh	_	FP[29]	_	m::h	_	_	25-26	_	_	
+26-28	1495-1497	il	_	_	_	il	_	_	25-27	_	_	
+26-29	1498-1500	il	_	_	_	il	_	_	25-28	_	_	
+26-30	1501-1506	socio	_	_	weakly\_rising	socio,	_	_	25-29	_	_	
+26-31	1507-1521	accomandatario	_	_	Falling	accomandatario.	_	_	25-30	_	_	
+
+#Text=a differenza del socio accomandante
+27-1	1522-1523	a	_	_	_	a	_	TO007	26-0	_	_	
+27-2	1524-1534	differenza	_	_	_	differenza	_	_	26-1	_	_	
+27-3	1535-1538	del	_	_	_	del	_	_	26-2	_	_	
+27-4	1539-1544	socio	_	_	_	socio	_	_	26-3	_	_	
+27-5	1545-1557	accomandante	_	_	_	ac\[comandante\]	_	_	26-4	_	_	
+27-5.1	1547-1557	comandante	_	_	_	_	_	_	_	*->67-1	*[67]	
+
+#Text=e solo lui può essere
+28-1	1558-1559	e	_	_	_	\[e	_	TO006	27-0	*->67-1|*->67-2	*[67]|*[67]	
+28-2	1560-1564	solo	_	_	_	solo	_	_	27-1	*->67-3	*[67]	
+28-3	1565-1568	lui	_	_	_	lui	_	_	27-2	*->67-4	*[67]	
+28-4	1569-1572	può	_	_	_	può\]	_	_	27-3	*->67-5	*[67]	
+28-5	1573-1579	essere	_	_	weakly\_rising	essere,	_	_	27-4	_	_	
+
+#Text=e solo lui può essere amministratore della società
+29-1	1580-1581	e	_	_	_	e	_	TO007	28-0	_	_	
+29-2	1582-1586	solo	_	_	_	solo	_	_	28-1	_	_	
+29-3	1587-1590	lui	_	_	_	lui	_	_	28-2	_	_	
+29-4	1591-1594	può	_	_	_	può	_	_	28-3	_	_	
+29-5	1595-1601	essere	_	_	_	essere	_	_	28-4	_	_	
+29-6	1602-1616	amministratore	_	_	_	amministratore	_	_	28-5	_	_	
+29-7	1617-1622	della	_	_	_	della	_	_	28-6	_	_	
+29-8	1623-1630	società	_	_	Falling	società.	_	_	28-7	_	_	
+
+#Text=quindi un socio amministratore la responsabilità illimitata non ce l' ha
+30-1	1631-1637	quindi	_	_	_	quindi	_	TO006	29-0	_	_	
+30-2	1638-1640	un	_	_	_	un	_	_	29-1	_	_	
+30-3	1641-1646	socio	_	_	_	so\[cio	_	_	29-2	_	_	
+30-3.1	1643-1646	cio	_	_	_	_	_	_	_	*->36-1	*[36]	
+30-4	1647-1661	amministratore	_	_	weakly\_rising	ammi\]nistratore,	_	_	29-3	_	_	
+30-4.1	1647-1648	a	_	_	_	_	_	_	_	*->36-1	*[36]	
+30-4.2	1647-1651	ammi	_	_	_	_	_	_	_	*->36-2	*[36]	
+30-5	1662-1664	la	_	_	_	la	_	_	29-4	_	_	
+30-6	1665-1679	responsabilità	_	_	_	responsabilità	_	_	29-5	_	_	
+30-7	1680-1690	illimitata	_	_	_	illimitata	_	_	29-6	_	_	
+30-8	1691-1694	non	_	_	_	non	_	_	29-7	_	_	
+30-9	1695-1697	ce	_	_	_	ce	_	_	29-8	_	_	
+30-10	1698-1700	l'	_	_	_	l'	_	_	29-9	_	_	
+30-11	1701-1703	ha	_	_	Falling	ha.	_	_	29-10	_	_	
+
+#Text=in tal~
+31-1	1704-1706	in	_	_	_	\[in	_	TO007	30-0	*->36-3	*[36]	
+31-2	1707-1711	tal~	_	_	_	tal~\]	_	_	30-1	*->36-4	*[36]	
+
+#Text=mh no
+32-1	1712-1714	mh	_	FP	weakly\_rising	mh,	_	TO007	31-0	_	_	
+32-2	1715-1717	no	_	_	Falling	no.	_	_	31-1	_	_	
+
+#Text=in in tal caso il suo nome figura anche nella nella denominazione della della società
+33-1	1718-1720	in	_	_	_	in	_	TO007	32-0	_	_	
+33-2	1721-1723	in	_	_	_	in	_	_	32-1	_	_	
+33-3	1724-1727	tal	_	_	_	tal	_	_	32-2	_	_	
+33-4	1728-1732	caso	_	_	_	\[caso\]	_	_	32-3	*->50-1	*[50]	
+33-5	1733-1735	il	_	_	_	il	_	_	32-4	_	_	
+33-6	1736-1739	suo	_	_	_	suo	_	_	32-5	_	_	
+33-7	1740-1744	nome	_	_	_	nome	_	_	32-6	_	_	
+33-8	1745-1751	figura	_	_	_	figura	_	_	32-7	_	_	
+33-9	1752-1757	anche	_	_	_	anche	_	_	32-8	_	_	
+33-10	1758-1763	nella	_	_	_	nella::	_	_	32-9	_	_	
+33-11	1764-1769	nella	_	_	_	nella	_	_	32-10	_	_	
+33-12	1770-1783	denominazione	_	_	_	denominazione	_	_	32-11	_	_	
+33-13	1784-1789	della	_	_	_	della::	_	_	32-12	_	_	
+33-14	1790-1795	della	_	_	_	della	_	_	32-13	_	_	
+33-15	1796-1803	società	_	_	_	società	_	_	32-14	_	_	
+
+#Text=mai
+34-1	1804-1807	mai	_	_	Falling	\[mai\].	_	TO006	33-0	*->50-2	*[50]	
+
+#Text=benissimo
+35-1	1808-1817	benissimo	BC	_	Falling	benissimo.	_	TO006	34-0	_	_	
+
+#Text=ma noi facciamo il caso facciamo il caso generale prima di arrivare al caso particolare dell' accomandita facciamo il caso generale della società di persone tipo società semplice
+36-1	1818-1820	ma	_	_	_	ma	_	TO006	35-0	_	_	
+36-2	1821-1824	noi	_	_	_	noi	_	_	35-1	_	_	
+36-3	1825-1833	facciamo	_	_	_	\[facciamo	_	_	35-2	*->33-1	*[33]	
+36-4	1834-1836	il	_	_	_	il	_	_	35-3	*->33-2	*[33]	
+36-5	1837-1841	caso	_	_	weakly\_rising	caso,	_	_	35-4	*->33-3	*[33]	
+36-6	1842-1850	facciamo	_	_	_	facciamo	_	_	35-5	*->33-4	*[33]	
+36-7	1851-1853	il	_	_	_	il	_	_	35-6	*->33-5	*[33]	
+36-8	1854-1858	caso	_	_	_	ca\]so	_	_	35-7	_	_	
+36-8.1	1854-1856	ca	_	_	_	_	_	_	_	*->33-6	*[33]	
+36-9	1859-1867	generale	_	_	Falling	generale.	_	_	35-8	_	_	
+36-10	1868-1873	prima	_	_	_	prima	_	_	35-9	_	_	
+36-11	1874-1876	di	_	_	_	di	_	_	35-10	_	_	
+36-12	1877-1885	arrivare	_	_	_	arrivare	_	_	35-11	_	_	
+36-13	1886-1888	al	_	_	_	al	_	_	35-12	_	_	
+36-14	1889-1893	caso	_	_	_	caso	_	_	35-13	_	_	
+36-15	1894-1905	particolare	_	_	_	particolare	_	_	35-14	_	_	
+36-16	1906-1911	dell'	_	_	_	dell'	_	_	35-15	_	_	
+36-17	1912-1923	accomandita	_	_	Falling	accomandita.	_	_	35-16	_	_	
+36-18	1924-1932	facciamo	_	_	_	facciamo	_	_	35-17	_	_	
+36-19	1933-1935	il	_	_	_	il	_	_	35-18	_	_	
+36-20	1936-1940	caso	_	_	_	caso	_	_	35-19	_	_	
+36-21	1941-1949	generale	_	_	_	generale	_	_	35-20	_	_	
+36-22	1950-1955	della	_	_	_	della	_	_	35-21	_	_	
+36-23	1956-1963	società	_	_	_	società	_	_	35-22	_	_	
+36-24	1964-1966	di	_	_	_	di	_	_	35-23	_	_	
+36-25	1967-1974	persone	_	_	weakly\_rising	persone,	_	_	35-24	_	_	
+36-26	1975-1979	tipo	_	_	weakly\_rising	tipo,	_	_	35-25	_	_	
+36-27	1980-1987	società	_	_	_	società	_	_	35-26	_	_	
+36-28	1988-1996	semplice	_	_	Falling	sempli\[ce\].	_	_	35-27	_	_	
+36-28.1	1994-1996	ce	_	_	_	_	_	_	_	*->42-1	*[42]	
+
+#Text=che è detta denominazione socia~
+37-1	1997-2000	che	_	_	_	\[che	_	TO007	36-0	*->42-1|*->33-7	*[42]|*[33]	
+37-2	2001-2002	è	_	_	_	è	_	_	36-1	*->42-1|*->33-8	*[42]|*[33]	
+37-3	2003-2008	detta	_	_	_	detta	_	_	36-2	*->33-9	*[33]	
+37-4	2009-2022	denominazione	_	_	_	denominazione	_	_	36-3	*->33-10	*[33]	
+37-5	2023-2029	socia~	_	_	_	socia~\]	_	_	36-4	*->33-11	*[33]	
+
+#Text=mh mh
+38-1	2030-2032	mh	BC[1]	_	weakly\_rising	\[mh\],	_	TO007	37-0	*->42-2	*[42]	
+38-2	2033-2035	mh	BC[1]	_	Falling	mh.	_	_	37-1	_	_	
+
+#Text=in quel caso l' amministrazione per [PAUSE] diciamo per regola basilare di legge a chi spetta
+39-1	2036-2038	in	_	_	_	in	_	TO006	38-0	_	_	
+39-2	2039-2043	quel	_	_	_	quel	_	_	38-1	_	_	
+39-3	2044-2048	caso	_	_	_	caso	_	_	38-2	_	_	
+39-4	2049-2051	l'	_	_	_	l'	_	_	38-3	_	_	
+39-5	2052-2067	amministrazione	_	_	weakly\_rising	amministrazione,	_	_	38-4	_	_	
+39-6	2068-2071	per	_	_	weakly\_rising	per,	_	_	38-5	_	_	
+39-7	2072-2079	[PAUSE]	_	_	_	(.)	_	_	38-6	_	_	
+39-8	2080-2087	diciamo	_	_	_	diciamo	_	_	38-7	_	_	
+39-9	2088-2091	per	_	_	_	per	_	_	38-8	_	_	
+39-10	2092-2098	regola	_	_	_	regola	_	_	38-9	_	_	
+39-11	2099-2107	basilare	_	_	_	basilare	_	_	38-10	_	_	
+39-12	2108-2110	di	_	_	_	di	_	_	38-11	_	_	
+39-13	2111-2116	legge	_	_	_	legge	_	_	38-12	_	_	
+39-14	2117-2118	a	_	_	_	a	_	_	38-13	_	_	
+39-15	2119-2122	chi	_	_	_	chi	_	_	38-14	_	_	
+39-16	2123-2129	spetta	_	_	Rising	spetta?	_	_	38-15	_	_	
+
+#Text=l' amministrazione [PAUSE] no scusi può ripetere mi sono
+40-1	2130-2132	l'	_	_	_	l'	_	TO007	39-0	_	_	
+40-2	2133-2148	amministrazione	_	_	weakly\_rising	amministrazione:,	_	_	39-1	_	_	
+40-3	2149-2156	[PAUSE]	_	_	_	(.)	_	_	39-2	_	_	
+40-4	2157-2159	no	_	_	_	no	_	_	39-3	_	_	
+40-5	2160-2165	scusi	_	_	_	scusi	_	_	39-4	_	_	
+40-6	2166-2169	può	_	_	_	può	_	_	39-5	_	_	
+40-7	2170-2178	ripetere	_	_	_	ripetere	_	_	39-6	_	_	
+40-8	2179-2181	mi	_	_	_	mi	_	_	39-7	_	_	
+40-9	2182-2186	sono	_	_	_	sono:	_	_	39-8	_	_	
+
+#Text=nel caso della società semplice [PAUSE] come pure in nome collettivo quindi esclusa l' accomandita per legge l' amministrazione a quali soci spetta
+41-1	2187-2190	nel	_	_	_	nel	_	TO006	40-0	_	_	
+41-2	2191-2195	caso	_	_	weakly\_rising	caso,	_	_	40-1	_	_	
+41-3	2196-2201	della	_	_	_	della	_	_	40-2	_	_	
+41-4	2202-2209	società	_	_	_	società	_	_	40-3	_	_	
+41-5	2210-2218	semplice	_	_	weakly\_rising	sem\[plice\],	_	_	40-4	_	_	
+41-5.1	2213-2218	plice	_	_	_	_	_	_	_	*->51-1	*[51]	
+41-6	2219-2226	[PAUSE]	_	_	_	(.)	_	_	40-5	_	_	
+41-6.1	2219-2221	[P	_	_	_	_	_	_	_	*->51-1	*[51]	
+41-7	2227-2231	come	_	_	_	come	_	_	40-6	_	_	
+41-8	2232-2236	pure	_	_	_	pure	_	_	40-7	_	_	
+41-9	2237-2239	in	_	_	_	in	_	_	40-8	_	_	
+41-10	2240-2244	nome	_	_	_	nome	_	_	40-9	_	_	
+41-11	2245-2255	collettivo	_	_	Falling	collettivo.	_	_	40-10	_	_	
+41-12	2256-2262	quindi	_	_	_	quindi	_	_	40-11	_	_	
+41-13	2263-2270	esclusa	_	_	_	esclusa	_	_	40-12	_	_	
+41-14	2271-2273	l'	_	_	_	l'	_	_	40-13	_	_	
+41-15	2274-2285	accomandita	_	_	Falling	accomandita.	_	_	40-14	_	_	
+41-16	2286-2289	per	_	_	_	per	_	_	40-15	_	_	
+41-17	2290-2295	legge	_	_	weakly\_rising	legge,	_	_	40-16	_	_	
+41-18	2296-2298	l'	_	_	_	l'	_	_	40-17	_	_	
+41-19	2299-2314	amministrazione	_	_	_	amministrazione	_	_	40-18	_	_	
+41-20	2315-2316	a	_	_	_	a	_	_	40-19	_	_	
+41-21	2317-2322	quali	_	_	_	quali	_	_	40-20	_	_	
+41-22	2323-2327	soci	_	_	_	soci	_	_	40-21	_	_	
+41-23	2328-2334	spetta	_	_	Rising	spetta?	_	_	40-22	_	_	
+
+#Text=sì
+42-1	2335-2337	sì	BC	_	_	\[sì\]	_	TO007	41-0	*->51-2	*[51]	
+
+#Text=c' è una regola di base dalla quale poi si parte per eh eventuali [PAUSE] altri
+43-1	2338-2340	c'	_	_	_	c'	_	TO006	42-0	_	_	
+43-2	2341-2342	è	_	_	_	è	_	_	42-1	_	_	
+43-3	2343-2346	una	_	_	_	una	_	_	42-2	_	_	
+43-4	2347-2353	regola	_	_	_	regola	_	_	42-3	_	_	
+43-5	2354-2356	di	_	_	_	di	_	_	42-4	_	_	
+43-6	2357-2361	base	_	_	weakly\_rising	base,	_	_	42-5	_	_	
+43-7	2362-2367	dalla	_	_	_	dalla	_	_	42-6	_	_	
+43-8	2368-2373	quale	_	_	_	quale	_	_	42-7	_	_	
+43-9	2374-2377	poi	_	_	_	poi	_	_	42-8	_	_	
+43-10	2378-2380	si	_	_	_	si	_	_	42-9	_	_	
+43-11	2381-2386	parte	_	_	_	parte	_	_	42-10	_	_	
+43-12	2387-2390	per	_	_	_	per	_	_	42-11	_	_	
+43-13	2391-2393	eh	_	FP	_	eh	_	_	42-12	_	_	
+43-14	2394-2403	eventuali	_	_	_	eventuali:	_	_	42-13	_	_	
+43-15	2404-2411	[PAUSE]	_	_	_	(.)	_	_	42-14	_	_	
+43-16	2412-2417	altri	_	_	_	altri:::	_	_	42-15	_	_	
+
+#Text=no altre variazioni
+44-1	2418-2420	no	_	_	Rising	no?	_	TO006	43-0	_	_	
+44-2	2421-2426	altre	_	_	_	altre	_	_	43-1	_	_	
+44-3	2427-2437	variazioni	_	_	Falling	variazioni.	_	_	43-2	_	_	
+
+#Text=c' è una regola base per cui la legge stabilisce nelle società di persone l' amministrazione spetta
+45-1	2438-2440	c'	_	_	_	c'	_	TO006	44-0	_	_	
+45-2	2441-2442	è	_	_	_	è	_	_	44-1	_	_	
+45-3	2443-2446	una	_	_	_	una	_	_	44-2	_	_	
+45-4	2447-2453	regola	_	_	_	regola	_	_	44-3	_	_	
+45-5	2454-2458	base	_	_	Falling	base.	_	_	44-4	_	_	
+45-6	2459-2462	per	_	_	_	per	_	_	44-5	_	_	
+45-7	2463-2466	cui	_	_	_	cui	_	_	44-6	_	_	
+45-8	2467-2469	la	_	_	_	la	_	_	44-7	_	_	
+45-9	2470-2475	legge	_	_	_	legge	_	_	44-8	_	_	
+45-10	2476-2486	stabilisce	_	_	_	stabilisce	_	_	44-9	_	_	
+45-11	2487-2492	nelle	_	_	_	nelle	_	_	44-10	_	_	
+45-12	2493-2500	società	_	_	_	società	_	_	44-11	_	_	
+45-13	2501-2503	di	_	_	_	di	_	_	44-12	_	_	
+45-14	2504-2511	persone	_	_	_	persone	_	_	44-13	_	_	
+45-15	2512-2514	l'	_	_	_	l'	_	_	44-14	_	_	
+45-16	2515-2530	amministrazione	_	_	_	amministrazione	_	_	44-15	_	_	
+45-17	2531-2537	spetta	_	_	weakly\_rising	spetta,	_	_	44-16	_	_	
+
+#Text=a coloro che sono che sono nominati nell' atto n~ n~ che sono nominati nell' atto costitutivo
+46-1	2538-2539	a	_	_	_	a	_	TO007	45-0	_	_	
+46-2	2540-2546	coloro	_	_	_	coloro	_	_	45-1	_	_	
+46-3	2547-2550	che	_	_	_	che	_	_	45-2	_	_	
+46-4	2551-2555	sono	_	_	_	sono:::	_	_	45-3	_	_	
+46-5	2556-2559	che	_	_	_	che	_	_	45-4	_	_	
+46-6	2560-2564	sono	_	_	_	sono	_	_	45-5	_	_	
+46-7	2565-2573	nominati	_	_	weakly\_rising	nominati,	_	_	45-6	_	_	
+46-8	2574-2579	nell'	_	_	_	nell'	_	_	45-7	_	_	
+46-9	2580-2584	atto	_	_	_	atto:::	_	_	45-8	_	_	
+46-10	2585-2587	n~	_	_	_	n~	_	_	45-9	_	_	
+46-11	2588-2590	n~	_	_	_	n~	_	_	45-10	_	_	
+46-12	2591-2594	che	_	_	_	che	_	_	45-11	_	_	
+46-13	2595-2599	sono	_	_	_	sono	_	_	45-12	_	_	
+46-14	2600-2608	nominati	_	_	_	nominati	_	_	45-13	_	_	
+46-15	2609-2614	nell'	_	_	_	nell'	_	_	45-14	_	_	
+46-16	2615-2619	atto	_	_	_	atto	_	_	45-15	_	_	
+46-17	2620-2631	costitutivo	_	_	Falling	costitutivo.	_	_	45-16	_	_	
+
+#Text=e se non c' è l' atto costitutivo
+47-1	2632-2633	e	_	_	_	e	_	TO006	46-0	_	_	
+47-2	2634-2636	se	_	_	_	se	_	_	46-1	_	_	
+47-3	2637-2640	non	_	_	_	non	_	_	46-2	_	_	
+47-4	2641-2643	c'	_	_	_	c'	_	_	46-3	_	_	
+47-5	2644-2645	è	_	_	_	è	_	_	46-4	_	_	
+47-6	2646-2648	l'	_	_	_	l'	_	_	46-5	_	_	
+47-7	2649-2653	atto	_	_	_	atto	_	_	46-6	_	_	
+47-8	2654-2665	costitutivo	_	_	Falling	costitutivo.	_	_	46-7	_	_	
+
+#Text=sa che nelle società di persone può anche mancare [PAUSE] quindi adesso c' è una regola evidentemente che prescinde da questo
+48-1	2666-2668	sa	_	_	_	sa	_	TO006	47-0	_	_	
+48-2	2669-2672	che	_	_	_	che	_	_	47-1	_	_	
+48-3	2673-2678	nelle	_	_	_	nelle	_	_	47-2	_	_	
+48-4	2679-2686	società	_	_	_	società	_	_	47-3	_	_	
+48-5	2687-2689	di	_	_	_	di	_	_	47-4	_	_	
+48-6	2690-2697	persone	_	_	weakly\_rising	persone,	_	_	47-5	_	_	
+48-7	2698-2701	può	_	_	_	può	_	_	47-6	_	_	
+48-8	2702-2707	anche	_	_	_	anche	_	_	47-7	_	_	
+48-9	2708-2715	mancare	_	_	Falling	mancare.	_	_	47-8	_	_	
+48-10	2716-2723	[PAUSE]	_	_	_	(.)	_	_	47-9	_	_	
+48-11	2724-2730	quindi	_	_	_	quindi	_	_	47-10	_	_	
+48-12	2731-2737	adesso	_	_	_	adesso	_	_	47-11	_	_	
+48-13	2738-2740	c'	_	_	_	c'	_	_	47-12	_	_	
+48-14	2741-2742	è	_	_	_	è	_	_	47-13	_	_	
+48-15	2743-2746	una	_	_	_	una	_	_	47-14	_	_	
+48-16	2747-2753	regola	_	_	_	regola	_	_	47-15	_	_	
+48-17	2754-2767	evidentemente	_	_	_	>evidentemente<	_	_	47-16	_	_	
+48-18	2768-2771	che	_	_	_	che	_	_	47-17	_	_	
+48-19	2772-2781	prescinde	_	_	_	prescinde	_	_	47-18	_	_	
+48-20	2782-2784	da	_	_	_	da	_	_	47-19	_	_	
+48-21	2785-2791	questo	_	_	_	questo	_	_	47-20	_	_	
+
+#Text=dai sottoscrit tori
+49-1	2792-2795	dai	_	_	_	dai	_	TO007	48-0	_	_	
+49-2	2796-2806	sottoscrit	_	_	_	sottoscrit	_	_	48-1	_	_	
+49-3	2807-2811	tori	_	_	_	tori:::	_	_	48-2	_	_	
+
+#Text=più facile di come lei sta pensando eh una regola di base che è proprio terra terra nel senso che [PAUSE] essendo società di persone
+50-1	2812-2815	più	_	_	_	più	_	TO006	49-0	_	_	
+50-2	2816-2822	facile	_	_	_	facile	_	_	49-1	_	_	
+50-3	2823-2825	di	_	_	_	di	_	_	49-2	_	_	
+50-4	2826-2830	come	_	_	_	come	_	_	49-3	_	_	
+50-5	2831-2834	lei	_	_	_	lei	_	_	49-4	_	_	
+50-6	2835-2838	sta	_	_	_	sta	_	_	49-5	_	_	
+50-7	2839-2847	pensando	_	_	_	pen\[sando	_	_	49-6	_	_	
+50-7.1	2842-2847	sando	_	_	_	_	_	_	_	*->29-1	*[29]	
+50-8	2848-2850	eh	_	FP	weakly\_rising	eh,	_	_	49-7	*->29-1|*->29-2	*[29]|*[29]	
+50-9	2851-2854	una	_	_	_	una	_	_	49-8	*->29-3	*[29]	
+50-10	2855-2861	regola	_	_	_	rego\]la	_	_	49-9	_	_	
+50-10.1	2855-2859	rego	_	_	_	_	_	_	_	*->29-4	*[29]	
+50-11	2862-2864	di	_	_	_	di	_	_	49-10	_	_	
+50-12	2865-2869	base	_	_	_	base	_	_	49-11	_	_	
+50-13	2870-2873	che	_	_	_	che	_	_	49-12	_	_	
+50-14	2874-2875	è	_	_	_	è	_	_	49-13	_	_	
+50-15	2876-2883	proprio	_	_	_	proprio	_	_	49-14	_	_	
+50-16	2884-2889	terra	_	_	_	terra	_	_	49-15	_	_	
+50-17	2890-2895	terra	_	_	Falling	terra.	_	_	49-16	_	_	
+50-18	2896-2899	nel	_	_	_	nel	_	_	49-17	_	_	
+50-19	2900-2905	senso	_	_	_	senso	_	_	49-18	_	_	
+50-20	2906-2909	che	_	_	_	che	_	_	49-19	_	_	
+50-21	2910-2917	[PAUSE]	_	_	_	(.)	_	_	49-20	_	_	
+50-22	2918-2925	essendo	_	_	_	essendo	_	_	49-21	_	_	
+50-23	2926-2933	società	_	_	_	società	_	_	49-22	_	_	
+50-24	2934-2936	di	_	_	_	di	_	_	49-23	_	_	
+50-25	2937-2944	persone	_	_	weakly\_rising	persone,	_	_	49-24	_	_	
+
+#Text=eh infatti
+51-1	2945-2947	eh	BC[2]	_	_	\[e::h	_	TO007	50-0	*->29-5	*[29]	
+51-2	2948-2955	infatti	BC[2]	_	Falling	infatti\].	_	_	50-1	*->29-6	*[29]	
+
+#Text=dall' imprenditore dal titolare della della società
+52-1	2956-2961	dall'	_	_	_	dall'	_	TO007	51-0	_	_	
+52-2	2962-2974	imprenditore	_	_	Rising	imprenditore?	_	_	51-1	_	_	
+52-3	2975-2978	dal	_	_	_	dal	_	_	51-2	_	_	
+52-4	2979-2987	titolare	_	_	_	titolare	_	_	51-3	_	_	
+52-5	2988-2993	della	_	_	_	della::	_	_	51-4	_	_	
+52-6	2994-2999	della	_	_	_	della	_	_	51-5	_	_	
+52-7	3000-3007	società	_	_	Falling	società.	_	_	51-6	_	_	
+
+#Text=è una società non c' è un titolare quindi spetterà
+53-1	3008-3009	è	_	_	_	è	_	TO006	52-0	_	_	
+53-2	3010-3013	una	_	_	_	una	_	_	52-1	_	_	
+53-3	3014-3021	società	_	_	Falling	società.	_	_	52-2	_	_	
+53-4	3022-3025	non	_	_	_	non	_	_	52-3	_	_	
+53-5	3026-3028	c'	_	_	_	c'	_	_	52-4	_	_	
+53-6	3029-3030	è	_	_	_	è	_	_	52-5	_	_	
+53-7	3031-3033	un	_	_	_	un	_	_	52-6	_	_	
+53-8	3034-3042	titolare	_	_	_	titolare	_	_	52-7	_	_	
+53-9	3043-3049	quindi	_	_	weakly\_rising	quindi,	_	_	52-8	_	_	
+53-10	3050-3058	spetterà	_	_	weakly\_rising	spetterà,	_	_	52-9	_	_	
+
+#Text=immaginiamo che ci sia una società di tre soci
+54-1	3059-3070	immaginiamo	_	_	_	immaginiamo	_	TO006	53-0	_	_	
+54-2	3071-3074	che	_	_	_	che	_	_	53-1	_	_	
+54-3	3075-3077	ci	_	_	_	>ci<	_	_	53-2	_	_	
+54-4	3078-3081	sia	_	_	_	sia	_	_	53-3	_	_	
+54-5	3082-3085	una	_	_	_	una	_	_	53-4	_	_	
+54-6	3086-3093	società	_	_	_	società	_	_	53-5	_	_	
+54-7	3094-3096	di	_	_	_	di	_	_	53-6	_	_	
+54-8	3097-3100	tre	_	_	_	tre	_	_	53-7	_	_	
+54-9	3101-3105	soci	_	_	Falling	soci.	_	_	53-8	_	_	
+
+#Text=non hanno stabilito nulla chi sono gli amministratori
+55-1	3106-3109	non	_	_	_	non	_	TO006	54-0	_	_	
+55-2	3110-3115	hanno	_	_	_	hanno	_	_	54-1	_	_	
+55-3	3116-3125	stabilito	_	_	_	stabilito	_	_	54-2	_	_	
+55-4	3126-3131	nulla	_	_	weakly\_rising	nulla,	_	_	54-3	_	_	
+55-5	3132-3135	chi	_	_	_	chi	_	_	54-4	_	_	
+55-6	3136-3140	sono	_	_	_	sono	_	_	54-5	_	_	
+55-7	3141-3144	gli	_	_	_	gli	_	_	54-6	_	_	
+55-8	3145-3159	amministratori	_	_	Falling	amministratori.	_	_	54-7	_	_	
+
+#Text=ah s~ [PAUSE] sì spetta a colui il quale detiene la la maggioranza
+56-1	3160-3162	ah	_	_	Falling	ah:.	_	TO007	55-0	_	_	
+56-2	3163-3165	s~	_	_	_	s~	_	_	55-1	_	_	
+56-3	3166-3173	[PAUSE]	_	_	_	(.)	_	_	55-2	_	_	
+56-4	3174-3176	sì	_	_	Falling	sì.	_	_	55-3	_	_	
+56-5	3177-3183	spetta	_	_	_	spetta	_	_	55-4	_	_	
+56-6	3184-3185	a	_	_	_	a	_	_	55-5	_	_	
+56-7	3186-3191	colui	_	_	_	colui	_	_	55-6	_	_	
+56-8	3192-3194	il	_	_	_	il	_	_	55-7	_	_	
+56-9	3195-3200	quale	_	_	_	quale	_	_	55-8	_	_	
+56-10	3201-3208	detiene	_	_	_	detiene	_	_	55-9	_	_	
+56-11	3209-3211	la	_	_	_	la:::	_	_	55-10	_	_	
+56-12	3212-3214	la	_	_	_	la	_	_	55-11	_	_	
+56-13	3215-3226	maggioranza	_	_	weakly\_rising	maggioranza:,	_	_	55-12	_	_	
+
+#Text=no
+57-1	3227-3229	no	_	_	Falling	°no.°	_	TO006	56-0	_	_	
+
+#Text=secondo me sta pensando a cose complicate [PAUSE] x e non alla cosa più semplice del mondo
+58-1	3230-3237	secondo	_	_	_	secondo	_	TO006	57-0	_	_	
+58-2	3238-3240	me	_	_	_	me	_	_	57-1	_	_	
+58-3	3241-3244	sta	_	_	_	sta	_	_	57-2	_	_	
+58-4	3245-3253	pensando	_	_	_	pensando	_	_	57-3	_	_	
+58-5	3254-3255	a	_	_	_	a	_	_	57-4	_	_	
+58-6	3256-3260	cose	_	_	_	cose	_	_	57-5	_	_	
+58-7	3261-3271	complicate	_	_	weakly\_rising	complicate,	_	_	57-6	_	_	
+58-8	3272-3279	[PAUSE]	_	_	_	(.)	_	_	57-7	_	_	
+58-9	3280-3281	x	_	_	_	\[\]	_	_	57-8	_	_	
+58-10	3282-3283	e	_	_	_	e	_	_	57-9	_	_	
+58-11	3284-3287	non	_	_	_	non	_	_	57-10	_	_	
+58-12	3288-3292	alla	_	_	_	alla	_	_	57-11	_	_	
+58-13	3293-3297	cosa	_	_	_	cosa	_	_	57-12	_	_	
+58-14	3298-3301	più	_	_	_	più	_	_	57-13	_	_	
+58-15	3302-3310	semplice	_	_	_	semplice	_	_	57-14	_	_	
+58-16	3311-3314	del	_	_	_	del	_	_	57-15	_	_	
+58-17	3315-3320	mondo	_	_	Falling	mondo.	_	_	57-16	_	_	
+
+#Text=eh
+59-1	3321-3323	eh	BC	_	Falling	\[eh\].	_	TO007	58-0	*->40-1	*[40]	
+
+#Text=per quali se si ricorda un pezzo della società [PAUSE] della parte storica [PAUSE] le società di persone derivano da quale [PAUSE] antica
+60-1	3324-3327	per	_	_	_	per	_	TO006	59-0	_	_	
+60-2	3328-3333	quali	_	_	weakly\_rising	quali::,	_	_	59-1	_	_	
+60-3	3334-3336	se	_	_	_	se	_	_	59-2	_	_	
+60-4	3337-3339	si	_	_	_	si	_	_	59-3	_	_	
+60-5	3340-3347	ricorda	_	_	_	ricorda	_	_	59-4	_	_	
+60-6	3348-3350	un	_	_	_	un	_	_	59-5	_	_	
+60-7	3351-3356	pezzo	_	_	_	pezzo	_	_	59-6	_	_	
+60-8	3357-3362	della	_	_	_	della	_	_	59-7	_	_	
+60-9	3363-3370	società	_	_	Falling	società.	_	_	59-8	_	_	
+60-10	3371-3378	[PAUSE]	_	_	_	(.)	_	_	59-9	_	_	
+60-11	3379-3384	della	_	_	_	della	_	_	59-10	_	_	
+60-12	3385-3390	parte	_	_	_	parte	_	_	59-11	_	_	
+60-13	3391-3398	storica	_	_	Falling	storica.	_	_	59-12	_	_	
+60-14	3399-3406	[PAUSE]	_	_	_	(.)	_	_	59-13	_	_	
+60-15	3407-3409	le	_	_	_	>le	_	_	59-14	_	_	
+60-16	3410-3417	società	_	_	_	società<	_	_	59-15	_	_	
+60-17	3418-3420	di	_	_	_	di	_	_	59-16	_	_	
+60-18	3421-3428	persone	_	_	_	persone	_	_	59-17	_	_	
+60-19	3429-3437	derivano	_	_	_	derivano	_	_	59-18	_	_	
+60-20	3438-3440	da	_	_	_	da	_	_	59-19	_	_	
+60-21	3441-3446	quale	_	_	weakly\_rising	quale,	_	_	59-20	_	_	
+60-22	3447-3454	[PAUSE]	_	_	_	(.)	_	_	59-21	_	_	
+60-23	3455-3461	antica	_	_	_	antica::	_	_	59-22	_	_	
+
+#Text=dalla società familiare
+61-1	3462-3467	dalla	_	_	_	dalla	_	TO007	60-0	_	_	
+61-2	3468-3475	società	_	_	_	società	_	_	60-1	_	_	
+61-3	3476-3485	familiare	_	_	Falling	familiare.	_	_	60-2	_	_	
+
+#Text=dove ad amministrare erano
+62-1	3486-3490	dove	_	_	_	dove	_	TO006	61-0	_	_	
+62-2	3491-3493	ad	_	_	_	ad	_	_	61-1	_	_	
+62-3	3494-3506	amministrare	_	_	_	amministrare	_	_	61-2	_	_	
+62-4	3507-3512	erano	_	_	Rising	erano?	_	_	61-3	_	_	
+
+#Text=i i i il il eh [PAUSE] i f~ i f~ i familiari come come anche
+63-1	3513-3514	i	_	_	_	i:::	_	TO007	62-0	_	_	
+63-2	3515-3516	i	_	_	Falling	i.	_	_	62-1	_	_	
+63-3	3517-3518	i	_	_	_	i	_	_	62-2	_	_	
+63-4	3519-3521	il	_	_	_	il	_	_	62-3	_	_	
+63-5	3522-3524	il	_	_	_	il	_	_	62-4	_	_	
+63-6	3525-3527	eh	_	FP	weakly\_rising	eh,	_	_	62-5	_	_	
+63-7	3528-3535	[PAUSE]	_	_	_	(.)	_	_	62-6	_	_	
+63-8	3536-3537	i	_	_	_	i	_	_	62-7	_	_	
+63-9	3538-3540	f~	_	_	_	f~	_	_	62-8	_	_	
+63-10	3541-3542	i	_	_	_	i	_	_	62-9	_	_	
+63-11	3543-3545	f~	_	_	_	f~	_	_	62-10	_	_	
+63-12	3546-3547	i	_	_	_	i	_	_	62-11	_	_	
+63-13	3548-3557	familiari	_	_	Falling	familiari.	_	_	62-12	_	_	
+63-14	3558-3562	come	_	_	_	come:	_	_	62-13	_	_	
+63-15	3563-3567	come	_	_	_	come	_	_	62-14	_	_	
+63-16	3568-3573	anche	_	_	_	an\[che\]	_	_	62-15	_	_	
+63-16.1	3570-3573	che	_	_	_	_	_	_	_	*->77-1	*[77]	
+
+#Text=quindi
+64-1	3574-3580	quindi	_	_	Rising	\[quin\]di?	_	TO006	63-0	_	_	
+64-1.1	3574-3575	q	_	_	_	_	_	_	_	*->77-1	*[77]	
+64-1.2	3574-3578	quin	_	_	_	_	_	_	_	*->77-2	*[77]	
+
+#Text=come anche nel eh nella società in nome collettivo che [PAUSE] è la trasposizione moderna della
+65-1	3581-3585	come	_	_	_	come	_	TO007	64-0	_	_	
+65-2	3586-3591	anche	_	_	_	anche	_	_	64-1	_	_	
+65-3	3592-3595	nel	_	_	_	nel	_	_	64-2	_	_	
+65-4	3596-3598	eh	_	FP	_	eh	_	_	64-3	_	_	
+65-5	3599-3604	nella	_	_	_	nella	_	_	64-4	_	_	
+65-6	3605-3612	società	_	_	_	società	_	_	64-5	_	_	
+65-7	3613-3615	in	_	_	_	in	_	_	64-6	_	_	
+65-8	3616-3620	nome	_	_	_	nome	_	_	64-7	_	_	
+65-9	3621-3631	collettivo	_	_	_	collettivo	_	_	64-8	_	_	
+65-10	3632-3635	che	_	_	_	che	_	_	64-9	_	_	
+65-11	3636-3643	[PAUSE]	_	_	_	(.)	_	_	64-10	_	_	
+65-12	3644-3645	è	_	_	_	è	_	_	64-11	_	_	
+65-13	3646-3648	la	_	_	_	la	_	_	64-12	_	_	
+65-14	3649-3662	trasposizione	_	_	_	trasposizione	_	_	64-13	_	_	
+65-15	3663-3670	moderna	_	_	_	mo\[derna	_	_	64-14	_	_	
+65-15.1	3665-3670	derna	_	_	_	_	_	_	_	*->3-1	*[3]	
+65-16	3671-3676	della	_	_	_	della:\]	_	_	64-15	*->3-2	*[3]	
+65-16.1	3671-3672	d	_	_	_	_	_	_	_	*->3-1	*[3]	
+
+#Text=quindi ad avere il potere di amministrazione sono
+66-1	3677-3683	quindi	_	_	Rising	\[quindi?	_	TO006	65-0	*->3-3	*[3]	
+66-2	3684-3686	ad	_	_	_	ad	_	_	65-1	*->3-4	*[3]	
+66-3	3687-3692	avere	_	_	_	ave\]re	_	_	65-2	_	_	
+66-3.1	3687-3690	ave	_	_	_	_	_	_	_	*->3-5	*[3]	
+66-4	3693-3695	il	_	_	_	il	_	_	65-3	_	_	
+66-5	3696-3702	potere	_	_	_	potere	_	_	65-4	_	_	
+66-6	3703-3705	di	_	_	_	di	_	_	65-5	_	_	
+66-7	3706-3721	amministrazione	_	_	_	amministrazione	_	_	65-6	_	_	
+66-8	3722-3726	sono	_	_	Rising	sono?	_	_	65-7	_	_	
+
+#Text=i familiari
+67-1	3727-3728	i	_	_	_	i	_	TO007	66-0	_	_	
+67-2	3729-3738	familiari	_	_	Falling	familiari.	_	_	66-1	_	_	
+
+#Text=mh mi deve dire quali o quanti
+68-1	3739-3741	mh	BC	_	Falling	mh.	_	TO006	67-0	_	_	
+68-2	3742-3744	mi	_	_	_	mi	_	_	67-1	_	_	
+68-3	3745-3749	deve	_	_	_	deve	_	_	67-2	_	_	
+68-4	3750-3754	dire	_	_	_	dire	_	_	67-3	_	_	
+68-5	3755-3760	quali	_	_	Falling	quali.	_	_	67-4	_	_	
+68-6	3761-3762	o	_	_	_	o	_	_	67-5	_	_	
+68-7	3763-3769	quanti	_	_	Falling	quanti.	_	_	67-6	_	_	
+
+#Text=genericamente [PAUSE] i familiari potrebbe voler dire uno due tre
+69-1	3770-3783	genericamente	_	_	_	genericamente	_	TO006	68-0	_	_	
+69-2	3784-3791	[PAUSE]	_	_	_	(.)	_	_	68-1	_	_	
+69-3	3792-3793	i	_	_	_	i	_	_	68-2	_	_	
+69-4	3794-3803	familiari	_	_	_	familiari	_	_	68-3	_	_	
+69-5	3804-3812	potrebbe	_	_	_	potrebbe	_	_	68-4	_	_	
+69-6	3813-3818	voler	_	_	_	>voler	_	_	68-5	_	_	
+69-7	3819-3823	dire	_	_	_	dire<	_	_	68-6	_	_	
+69-8	3824-3827	uno	_	_	weakly\_rising	uno,	_	_	68-7	_	_	
+69-9	3828-3831	due	_	_	weakly\_rising	due,	_	_	68-8	_	_	
+69-10	3832-3835	tre	_	_	weakly\_rising	tre,	_	_	68-9	_	_	
+
+#Text=x torniamo al tema [PAUSE] che le proponevo in una società in nome collettivo di tre soci chi ha l' amministrazione se nulla è previsto
+70-1	3836-3837	x	_	_	_	x	_	TO006	69-0	_	_	
+70-2	3838-3846	torniamo	_	_	_	torniamo	_	_	69-1	_	_	
+70-3	3847-3849	al	_	_	_	al	_	_	69-2	_	_	
+70-4	3850-3854	tema	_	_	weakly\_rising	tema,	_	_	69-3	_	_	
+70-5	3855-3862	[PAUSE]	_	_	_	(.)	_	_	69-4	_	_	
+70-6	3863-3866	che	_	_	_	che	_	_	69-5	_	_	
+70-7	3867-3869	le	_	_	_	le	_	_	69-6	_	_	
+70-8	3870-3879	proponevo	_	_	Falling	proponevo.	_	_	69-7	_	_	
+70-9	3880-3882	in	_	_	_	in	_	_	69-8	_	_	
+70-10	3883-3886	una	_	_	_	una	_	_	69-9	_	_	
+70-11	3887-3894	società	_	_	_	società	_	_	69-10	_	_	
+70-12	3895-3897	in	_	_	_	in	_	_	69-11	_	_	
+70-13	3898-3902	nome	_	_	_	nome	_	_	69-12	_	_	
+70-14	3903-3913	collettivo	_	_	_	collettivo	_	_	69-13	_	_	
+70-15	3914-3916	di	_	_	_	di	_	_	69-14	_	_	
+70-16	3917-3920	tre	_	_	_	tre	_	_	69-15	_	_	
+70-17	3921-3925	soci	_	_	Falling	soci.	_	_	69-16	_	_	
+70-18	3926-3929	chi	_	_	_	chi	_	_	69-17	_	_	
+70-19	3930-3932	ha	_	_	_	ha	_	_	69-18	_	_	
+70-20	3933-3935	l'	_	_	_	l'	_	_	69-19	_	_	
+70-21	3936-3951	amministrazione	_	_	_	amministrazione	_	_	69-20	_	_	
+70-22	3952-3954	se	_	_	_	se	_	_	69-21	_	_	
+70-23	3955-3960	nulla	_	_	_	nulla	_	_	69-22	_	_	
+70-24	3961-3962	è	_	_	_	è	_	_	69-23	_	_	
+70-25	3963-3971	previsto	_	_	Falling	\[previsto\].	_	_	69-24	*->2-1	*[2]	
+
+#Text=tutti e tre
+71-1	3972-3977	tutti	_	_	_	\[tutti	_	TO007	70-0	*->2-2	*[2]	
+71-2	3978-3979	e	_	_	_	e	_	_	70-1	*->2-3	*[2]	
+71-3	3980-3983	tre	_	_	Falling	tre\].	_	_	70-2	*->2-4	*[2]	
+
+#Text=eh è esatto questa è la risposta
+72-1	3984-3986	eh	BC[3]	_	_	eh	_	TO006	71-0	_	_	
+72-2	3987-3988	è	BC[3]	_	_	è	_	_	71-1	_	_	
+72-3	3989-3995	esatto	BC[3]	_	Falling	esatto.	_	_	71-2	_	_	
+72-4	3996-4002	questa	_	_	_	questa	_	_	71-3	_	_	
+72-5	4003-4004	è	_	_	_	è	_	_	71-4	_	_	
+72-6	4005-4007	la	_	_	_	la	_	_	71-5	_	_	
+72-7	4008-4016	risposta	_	_	Falling	risposta.	_	_	71-6	_	_	
+
+#Text=quindi qual è la regola dovendola riformulare adesso
+73-1	4017-4023	quindi	_	_	_	quindi	_	TO006	72-0	_	_	
+73-2	4024-4028	qual	_	_	_	qual	_	_	72-1	_	_	
+73-3	4029-4030	è	_	_	_	è	_	_	72-2	_	_	
+73-4	4031-4033	la	_	_	_	la	_	_	72-3	_	_	
+73-5	4034-4040	regola	_	_	_	regola	_	_	72-4	_	_	
+73-6	4041-4050	dovendola	_	_	_	dovendola	_	_	72-5	_	_	
+73-7	4051-4062	riformulare	_	_	_	riformu\[lare	_	_	72-6	_	_	
+73-7.1	4058-4062	lare	_	_	_	_	_	_	_	*->72-1	*[72]	
+73-8	4063-4069	adesso	_	_	weakly\_rising	adesso\],	_	_	72-7	*->72-1|*->72-2	*[72]|*[72]	
+
+#Text=ah rispondono solidalmen~
+74-1	4070-4072	ah	BC	_	weakly\_rising	\[ah,	_	TO007	73-0	*->72-3	*[72]	
+74-2	4073-4083	rispondono	_	_	Falling	rispon\]dono.	_	_	73-1	_	_	
+74-2.1	4073-4079	rispon	_	_	_	_	_	_	_	*->72-4	*[72]	
+74-3	4084-4095	solidalmen~	_	_	weakly\_rising	soli\[dalmen~\],	_	_	73-2	_	_	
+74-3.1	4088-4095	dalmen~	_	_	_	_	_	_	_	*->21-1	*[21]	
+
+#Text=non rispondono qui stiamo parlando di amministrazione l' amministrazione
+75-1	4096-4099	non	_	_	_	\[non	_	TO006	74-0	*->21-1|*->21-2	*[21]|*[21]	
+75-2	4100-4110	rispondono	_	_	Falling	>rispon\]dono<.	_	_	74-1	_	_	
+75-2.1	4100-4106	rispon	_	_	_	_	_	_	_	*->21-3	*[21]	
+75-3	4111-4114	qui	_	_	_	qui	_	_	74-2	_	_	
+75-4	4115-4121	stiamo	_	_	_	stiamo	_	_	74-3	_	_	
+75-5	4122-4130	parlando	_	_	_	parlando	_	_	74-4	_	_	
+75-6	4131-4133	di	_	_	_	di	_	_	74-5	_	_	
+75-7	4134-4149	amministrazione	_	_	Falling	\[amministrazione.	_	_	74-6	*->31-1	*[31]	
+75-8	4150-4152	l'	_	_	_	l'	_	_	74-7	*->31-2	*[31]	
+75-9	4153-4168	amministrazione	_	_	weakly\_rising	amministrazione\],	_	_	74-8	*->31-3	*[31]	
+
+#Text=sì eh amministrano solidalmen~
+76-1	4169-4171	sì	BC	_	Falling	\[sì.	_	TO007	75-0	*->31-4	*[31]	
+76-2	4172-4174	eh	_	FP	_	e::h	_	_	75-1	*->31-5	*[31]	
+76-3	4175-4187	amministrano	_	_	weakly\_rising	amministrano\],	_	_	75-2	*->31-6	*[31]	
+76-4	4188-4199	solidalmen~	_	_	weakly\_rising	solidalmen~,	_	_	75-3	_	_	
+
+#Text=amminist~
+77-1	4200-4209	amminist~	_	_	_	am\[minist~\]	_	TO007	76-0	_	_	
+77-1.1	4202-4209	minist~	_	_	_	_	_	_	_	*->44-1	*[44]	
+
+#Text=l' amministrazione spetta
+78-1	4210-4212	l'	_	_	_	\[l'	_	TO006	77-0	*->44-2	*[44]	
+78-1.1	4210-4211	l	_	_	_	_	_	_	_	*->44-1	*[44]	
+78-2	4213-4228	amministrazione	_	_	_	amminis\]trazione	_	_	77-1	_	_	
+78-2.1	4213-4220	amminis	_	_	_	_	_	_	_	*->44-3	*[44]	
+78-3	4229-4235	spetta	_	_	weakly\_rising	spetta,	_	_	77-2	_	_	
+
+#Text=a a tutti a tutti
+79-1	4236-4237	a	_	_	_	a:::	_	TO007	78-0	_	_	
+79-2	4238-4239	a	_	_	_	a	_	_	78-1	_	_	
+79-3	4240-4245	tutti	_	_	weakly\_rising	tutti:::,	_	_	78-2	_	_	
+79-4	4246-4247	a	_	_	_	a	_	_	78-3	_	_	
+79-5	4248-4253	tutti	_	_	Falling	tutti.	_	_	78-4	_	_	
+
+#Text=a tutti i soci
+80-1	4254-4255	a	_	_	_	a	_	TO006	79-0	_	_	
+80-2	4256-4261	tutti	_	_	_	tutti	_	_	79-1	_	_	
+80-3	4262-4263	i	_	_	_	i	_	_	79-2	_	_	
+80-4	4264-4268	soci	_	_	Falling	\[soci\].	_	_	79-3	*->9-1	*[9]	
+
+#Text=alla alla totalità dei soci
+81-1	4269-4273	alla	BC[4]	_	_	\[alla\]	_	TO007	80-0	*->9-2	*[9]	
+81-2	4274-4278	alla	BC[4]	_	_	alla	_	_	80-1	_	_	
+81-3	4279-4287	totalità	BC[4]	_	_	totali\[tà	_	_	80-2	_	_	
+81-3.1	4285-4287	tà	_	_	_	_	_	_	_	*->46-1	*[46]	
+81-4	4288-4291	dei	BC[4]	_	_	dei	_	_	80-3	*->46-1|*->46-2	*[46]|*[46]	
+81-5	4292-4296	soci	BC[4]	_	Falling	soci\].	_	_	80-4	*->46-3	*[46]	
+81-5.1	4292-4293	s	_	_	_	_	_	_	_	*->46-1	*[46]	
+
+#Text=vede che e~ era facilissimo non alla totalità perché potrebbe far pensare che devono decidere in un certo modo adesso mi deve dire come questi soci [PAUSE] amministrano
+82-1	4297-4301	vede	_	_	_	\[vede	_	TO006	81-0	*->46-4	*[46]	
+82-2	4302-4305	che	_	_	_	che	_	_	81-1	*->46-5	*[46]	
+82-3	4306-4308	e~	_	_	_	e~\]	_	_	81-2	*->46-6	*[46]	
+82-4	4309-4312	era	_	_	_	e:ra	_	_	81-3	_	_	
+82-5	4313-4324	facilissimo	_	_	weakly\_rising	facilissimo,	_	_	81-4	_	_	
+82-6	4325-4328	non	_	_	_	non	_	_	81-5	_	_	
+82-7	4329-4333	alla	_	_	_	\[alla	_	_	81-6	*->41-1	*[41]	
+82-8	4334-4342	totalità	_	_	weakly\_rising	totalità,	_	_	81-7	*->41-2	*[41]	
+82-9	4343-4349	perché	_	_	_	per\]ché	_	_	81-8	_	_	
+82-9.1	4343-4346	per	_	_	_	_	_	_	_	*->41-3	*[41]	
+82-10	4350-4358	potrebbe	_	_	_	potrebbe	_	_	81-9	_	_	
+82-11	4359-4362	far	_	_	_	far	_	_	81-10	_	_	
+82-12	4363-4370	pensare	_	_	_	pensare	_	_	81-11	_	_	
+82-13	4371-4374	che	_	_	_	che	_	_	81-12	_	_	
+82-14	4375-4381	devono	_	_	_	devono	_	_	81-13	_	_	
+82-15	4382-4390	decidere	_	_	weakly\_rising	decidere,	_	_	81-14	_	_	
+82-16	4391-4393	in	_	_	_	in	_	_	81-15	_	_	
+82-17	4394-4396	un	_	_	_	un	_	_	81-16	_	_	
+82-18	4397-4402	certo	_	_	_	certo	_	_	81-17	_	_	
+82-19	4403-4407	modo	_	_	Falling	modo.	_	_	81-18	_	_	
+82-20	4408-4414	adesso	_	_	_	adesso	_	_	81-19	_	_	
+82-21	4415-4417	mi	_	_	_	mi	_	_	81-20	_	_	
+82-22	4418-4422	deve	_	_	_	deve	_	_	81-21	_	_	
+82-23	4423-4427	dire	_	_	_	dire	_	_	81-22	_	_	
+82-24	4428-4432	come	_	_	_	come	_	_	81-23	_	_	
+82-25	4433-4439	questi	_	_	_	questi	_	_	81-24	_	_	
+82-26	4440-4444	soci	_	_	_	soci	_	_	81-25	_	_	
+82-27	4445-4452	[PAUSE]	_	_	_	(.)	_	_	81-26	_	_	
+82-28	4453-4465	amministrano	_	_	_	amministrano	_	_	81-27	_	_	
+
+#Text=e mi mi sono anda~
+83-1	4466-4467	e	_	_	_	\[(>e	_	TO007	82-0	*->41-4	*[41]	
+83-2	4468-4470	mi	_	_	_	mi<)	_	_	82-1	*->41-5	*[41]	
+83-3	4471-4473	mi	_	_	_	mi	_	_	82-2	*->41-6	*[41]	
+83-4	4474-4478	sono	_	_	_	sono	_	_	82-3	*->41-7	*[41]	
+83-5	4479-4484	anda~	_	_	weakly\_rising	anda~\],	_	_	82-4	*->41-8	*[41]	
+
+#Text=ci sono due modelli di amministrazione
+84-1	4485-4487	ci	_	_	_	ci	_	TO006	83-0	_	_	
+84-2	4488-4492	sono	_	_	_	sono	_	_	83-1	_	_	
+84-3	4493-4496	due	_	_	_	due	_	_	83-2	_	_	
+84-4	4497-4504	modelli	_	_	_	modelli	_	_	83-3	_	_	
+84-5	4505-4507	di	_	_	_	di	_	_	83-4	_	_	
+84-6	4508-4523	amministrazione	_	_	weakly\_rising	amminis\[trazione\],	_	_	83-5	_	_	
+84-6.1	4515-4523	trazione	_	_	_	_	_	_	_	*->63-1	*[63]	
+
+#Text=l' amministrazione congiuntiva e l' amministrazione disgiuntiva
+85-1	4524-4526	l'	_	_	_	\[l'	_	TO007	84-0	*->63-1|*->63-2	*[63]|*[63]	
+85-2	4527-4542	amministrazione	_	_	_	amministrazione\]	_	_	84-1	*->63-3	*[63]	
+85-2.1	4527-4530	amm	_	_	_	_	_	_	_	*->63-1	*[63]	
+85-3	4543-4554	congiuntiva	_	_	weakly\_rising	congiuntiva,	_	_	84-2	_	_	
+85-4	4555-4556	e	_	_	_	\[e	_	_	84-3	*->38-1	*[38]	
+85-5	4557-4559	l'	_	_	_	l'	_	_	84-4	*->38-2	*[38]	
+85-6	4560-4575	amministrazione	_	_	_	amministrazione	_	_	84-5	*->38-3	*[38]	
+85-7	4576-4587	disgiuntiva	_	_	Falling	disgiuntiva\].	_	_	84-6	*->38-4	*[38]	
+
+#Text=esatto quello di base mh proposto dalla legge
+86-1	4588-4594	esatto	BC	_	Falling	\[esatto.	_	TO006	85-0	*->38-5	*[38]	
+86-2	4595-4601	quello	_	_	_	quello	_	_	85-1	*->38-6	*[38]	
+86-3	4602-4604	di	_	_	_	di	_	_	85-2	*->38-7	*[38]	
+86-4	4605-4609	base	_	_	weakly\_rising	base\],	_	_	85-3	*->38-8	*[38]	
+86-5	4610-4612	mh	_	FP	_	m::h	_	_	85-4	_	_	
+86-6	4613-4621	proposto	_	_	_	proposto	_	_	85-5	_	_	
+86-7	4622-4627	dalla	_	_	_	dalla	_	_	85-6	_	_	
+86-8	4628-4633	legge	_	_	weakly\_rising	legge,	_	_	85-7	_	_	
+
+#Text=come regola dispositiva è l' amministrazione
+87-1	4634-4638	come	_	_	_	come	_	TO006	86-0	_	_	
+87-2	4639-4645	regola	_	_	_	regola	_	_	86-1	_	_	
+87-3	4646-4657	dispositiva	_	_	weakly\_rising	dispositiva,	_	_	86-2	_	_	
+87-4	4658-4659	è	_	_	_	è	_	_	86-3	_	_	
+87-5	4660-4662	l'	_	_	_	l'	_	_	86-4	_	_	
+87-6	4663-4678	amministrazione	_	_	weakly\_rising	amministrazione,	_	_	86-5	_	_	
+
+#Text=congiuntiva de~ disgiuntiva
+88-1	4679-4690	congiuntiva	_	_	weakly\_rising	congiuntiva,	SR[34]	TO007	87-0	_	_	
+88-2	4691-4694	de~	_	_	_	de~	SR[34]	_	87-1	_	_	
+88-3	4695-4706	disgiuntiva	_	_	Falling	disgiuntiva.	SR[34]	_	87-2	_	_	
+
+#Text=disgiuntiva che significa cosa
+89-1	4707-4718	disgiuntiva	BC	_	Falling	dis\[giuntiva\].	_	TO006	88-0	_	_	
+89-1.1	4710-4718	giuntiva	_	_	_	_	_	_	_	*->4-1	*[4]	
+89-2	4719-4722	che	_	_	_	che	_	_	88-1	_	_	
+89-2.1	4719-4721	ch	_	_	_	_	_	_	_	*->4-1	*[4]	
+89-3	4723-4732	significa	_	_	weakly\_rising	significa,	_	_	88-2	_	_	
+89-4	4733-4737	cosa	_	_	Falling	cosa.	_	_	88-3	_	_	
+
+#Text=disgiuntiva
+90-1	4738-4749	disgiuntiva	_	_	Falling	\[disgiuntiva\].	_	TO007	89-0	*->4-2	*[4]	
+
+#Text=che ((si_schiarisce_la_voce)) le eh le d~ le decisioni vengono prese eh singolarmente eh indipendentemente dagli altri
+91-1	4750-4753	che	_	_	_	che::::	_	TO007	90-0	_	_	
+91-2	4754-4779	((si_schiarisce_la_voce))	_	_	_	((si\_schiarisce\_la\_voce))	_	_	90-1	_	_	
+91-3	4780-4782	le	_	_	_	le::	_	_	90-2	_	_	
+91-4	4783-4785	eh	_	FP	_	eh	_	_	90-3	_	_	
+91-5	4786-4788	le	_	_	_	le	_	_	90-4	_	_	
+91-6	4789-4791	d~	_	_	_	d~	_	_	90-5	_	_	
+91-7	4792-4794	le	_	_	_	le	_	_	90-6	_	_	
+91-8	4795-4804	decisioni	_	_	_	decisioni	_	_	90-7	_	_	
+91-9	4805-4812	vengono	_	_	_	vengono	_	_	90-8	_	_	
+91-10	4813-4818	prese	_	_	weakly\_rising	prese,	_	_	90-9	_	_	
+91-11	4819-4821	eh	_	FP	_	eh	_	_	90-10	_	_	
+91-12	4822-4835	singolarmente	_	_	Falling	singolarmente.	_	_	90-11	_	_	
+91-13	4836-4838	eh	_	FP	_	e:h	_	_	90-12	_	_	
+91-14	4839-4856	indipendentemente	_	_	_	indipendentemente	_	_	90-13	_	_	
+91-15	4857-4862	dagli	_	_	_	dagli	_	_	90-14	_	_	
+91-16	4863-4868	altri	_	_	_	altri:	_	_	90-15	_	_	
+
+#Text=mh benissimo
+92-1	4869-4871	mh	BC[5]	_	Falling	mh.	_	TO006	91-0	_	_	
+92-2	4872-4881	benissimo	BC[5]	_	Falling	benissimo.	_	_	91-1	_	_	
+
+#Text=congiuntiva invece vorrebbe dire
+93-1	4882-4893	congiuntiva	_	_	_	congiuntiva	_	TO006	92-0	_	_	
+93-2	4894-4900	invece	_	_	Rising	invece?	_	_	92-1	_	_	
+93-3	4901-4909	vorrebbe	_	_	_	vorrebbe	_	_	92-2	_	_	
+93-4	4910-4914	dire	_	_	Rising	dire?	_	_	92-3	_	_	
+
+#Text=in maniera contestuale
+94-1	4915-4917	in	_	_	_	in	_	TO007	93-0	_	_	
+94-2	4918-4925	maniera	_	_	_	maniera	_	_	93-1	_	_	
+94-3	4926-4937	contestuale	_	_	Rising	contestuale?	_	_	93-2	_	_	
+
+#Text=no [PAUSE] contestuale è un' altra cosa
+95-1	4938-4940	no	_	_	Falling	°no.	_	TO006	94-0	_	_	
+95-2	4941-4948	[PAUSE]	_	_	_	(.)	_	_	94-1	_	_	
+95-3	4949-4960	contestuale	_	_	_	contestuale	_	_	94-2	_	_	
+95-4	4961-4962	è	_	_	_	è	_	_	94-3	_	_	
+95-5	4963-4966	un'	_	_	_	un'	_	_	94-4	_	_	
+95-6	4967-4972	altra	_	_	_	altra	_	_	94-5	_	_	
+95-7	4973-4977	cosa	_	_	Falling	cosa.°	_	_	94-6	_	_	
+
+#Text=condu~ congiuntiva sarà il contrario di disgiuntiva e quindi vorrà dire che ven~ vengono prese
+96-1	4978-4984	condu~	_	_	_	condu~	SR[35]	TO006	95-0	_	_	
+96-2	4985-4996	congiuntiva	_	_	_	congiuntiva	SR[35]	_	95-1	_	_	
+96-3	4997-5001	sarà	_	_	_	sarà	_	_	95-2	_	_	
+96-4	5002-5004	il	_	_	_	il	_	_	95-3	_	_	
+96-5	5005-5014	contrario	_	_	_	contrario	_	_	95-4	_	_	
+96-6	5015-5017	di	_	_	_	di	_	_	95-5	_	_	
+96-7	5018-5029	disgiuntiva	_	_	weakly\_rising	disgiuntiva,	_	_	95-6	_	_	
+96-8	5030-5031	e	_	_	_	e	_	_	95-7	_	_	
+96-9	5032-5038	quindi	_	_	_	quindi	_	_	95-8	_	_	
+96-10	5039-5044	vorrà	_	_	_	vorrà	_	_	95-9	_	_	
+96-11	5045-5049	dire	_	_	Rising	dire?	_	_	95-10	_	_	
+96-12	5050-5053	che	_	_	_	che	_	_	95-11	_	_	
+96-13	5054-5058	ven~	_	_	_	ven~	_	_	95-12	_	_	
+96-14	5059-5066	vengono	_	_	_	vengono	_	_	95-13	_	_	
+96-15	5067-5072	prese	_	_	Rising	prese?	_	_	95-14	_	_	
+
+#Text=eh all' un~ al ehm
+97-1	5073-5075	eh	_	FP	_	e::h	_	TO007	96-0	_	_	
+97-2	5076-5080	all'	_	_	_	all'	_	_	96-1	_	_	
+97-3	5081-5084	un~	_	_	_	un~	_	_	96-2	_	_	
+97-4	5085-5087	al	_	_	_	al	_	_	96-3	_	_	
+97-5	5088-5091	ehm	_	FP	_	ehm::	_	_	96-4	_	_	
+
+#Text=stiamo disturbando
+98-1	5092-5098	stiamo	_	_	_	°stiamo	_	???	97-0	_	_	
+98-2	5099-5110	disturbando	_	_	Rising	disturbando?°	_	_	97-1	_	_	
+
+#Text=no assolutamente no
+99-1	5111-5113	no	_	_	Falling	°(no.)	_	TO007	98-0	_	_	
+99-2	5114-5127	assolutamente	_	_	_	assolutamente	_	_	98-1	_	_	
+99-3	5128-5130	no	_	_	Falling	no.°	_	_	98-2	_	_	
+
+#Text=scusi mi sono
+100-1	5131-5136	scusi	_	_	weakly\_rising	°scusi,	_	TO007	99-0	_	_	
+100-2	5137-5139	mi	_	_	_	mi	_	_	99-1	_	_	
+100-3	5140-5144	sono	_	_	_	sono°	_	_	99-2	_	_	
+
+#Text=sarà il contrario di disgiuntiva e quindi vorrà dire che le decisioni vengono prese
+101-1	5145-5149	sarà	_	_	_	sarà	_	TO006	100-0	_	_	
+101-2	5150-5152	il	_	_	_	il	_	_	100-1	_	_	
+101-3	5153-5162	contrario	_	_	_	contrario	_	_	100-2	_	_	
+101-4	5163-5165	di	_	_	_	di	_	_	100-3	_	_	
+101-5	5166-5177	disgiuntiva	_	_	Falling	disgiuntiva.	_	_	100-4	_	_	
+101-6	5178-5179	e	_	_	_	e	_	_	100-5	_	_	
+101-7	5180-5186	quindi	_	_	_	quindi	_	_	100-6	_	_	
+101-8	5187-5192	vorrà	_	_	_	vorrà	_	_	100-7	_	_	
+101-9	5193-5197	dire	_	_	_	dire	_	_	100-8	_	_	
+101-10	5198-5201	che	_	_	_	che	_	_	100-9	_	_	
+101-11	5202-5204	le	_	_	_	le	_	_	100-10	_	_	
+101-12	5205-5214	decisioni	_	_	_	decisioni	_	_	100-11	_	_	
+101-13	5215-5222	vengono	_	_	_	vengono	_	_	100-12	_	_	
+101-14	5223-5228	prese	_	_	Rising	prese?	_	_	100-13	_	_	
+
+#Text=in di~ i~ in dipendenza tu~ eh dei
+102-1	5229-5231	in	_	_	_	in	_	TO007	101-0	_	_	
+102-2	5232-5235	di~	_	_	_	di~	_	_	101-1	_	_	
+102-3	5236-5238	i~	_	_	_	i~	_	_	101-2	_	_	
+102-4	5239-5241	in	_	_	_	in	_	_	101-3	_	_	
+102-5	5242-5252	dipendenza	_	_	_	dipendenza	_	_	101-4	_	_	
+102-6	5253-5256	tu~	_	_	_	tu~	_	_	101-5	_	_	
+102-7	5257-5259	eh	_	FP	_	e::h	_	_	101-6	_	_	
+102-8	5260-5263	dei	_	_	_	dei	_	_	101-7	_	_	
+
+#Text=se nella disgiuntiva lei mei ha detto che ognuno decide indipendentemente dagli altri nella congiuntiva
+103-1	5264-5266	se	_	_	_	se	_	TO006	102-0	_	_	
+103-2	5267-5272	nella	_	_	_	nella	_	_	102-1	_	_	
+103-3	5273-5284	disgiuntiva	_	_	_	disgiuntiva	_	_	102-2	_	_	
+103-4	5285-5288	lei	_	_	_	lei	_	_	102-3	_	_	
+103-5	5289-5292	mei	_	_	_	mei	_	_	102-4	_	_	
+103-6	5293-5295	ha	_	_	_	ha	_	_	102-5	_	_	
+103-7	5296-5301	detto	_	_	_	detto	_	_	102-6	_	_	
+103-8	5302-5305	che	_	_	_	che	_	_	102-7	_	_	
+103-9	5306-5312	ognuno	_	_	weakly\_rising	ognuno,	_	_	102-8	_	_	
+103-10	5313-5319	decide	_	_	_	decide	_	_	102-9	_	_	
+103-11	5320-5337	indipendentemente	_	_	_	indi\[pendentemente	_	_	102-10	_	_	
+103-11.1	5324-5337	pendentemente	_	_	_	_	_	_	_	*->79-1	*[79]	
+103-12	5338-5343	dagli	_	_	_	dagli	_	_	102-11	*->79-2	*[79]	
+103-12.1	5338-5341	dag	_	_	_	_	_	_	_	*->79-1	*[79]	
+103-13	5344-5349	altri	_	_	weakly\_rising	al\]tri,	_	_	102-12	_	_	
+103-13.1	5344-5346	al	_	_	_	_	_	_	_	*->79-3	*[79]	
+103-14	5350-5355	nella	_	_	_	nella	_	_	102-13	_	_	
+103-15	5356-5367	congiuntiva	_	_	Rising	congiuntiva?	_	_	102-14	_	_	
+
+#Text=indipendentemente
+104-1	5368-5385	indipendentemente	_	_	weakly\_rising	\[indipendentemente\],	_	TO007	103-0	*->79-4	*[79]	
+
+#Text=collegialmente
+105-1	5386-5400	collegialmente	_	_	Falling	collegialmente.	_	TO007	104-0	_	_	
+
+#Text=diciamo [PAUSE] approssimativamente prendiamo per buona diciamo collegialmente anche se non è esattamente la stessa cosa perché collegialmente vorrebbe dire contestualmente in~ [PAUSE] no
+106-1	5401-5408	diciamo	_	_	_	diciamo	_	TO006	105-0	_	_	
+106-2	5409-5416	[PAUSE]	_	_	_	(.)	_	_	105-1	_	_	
+106-3	5417-5436	approssimativamente	_	_	_	approssimativamente	_	_	105-2	_	_	
+106-4	5437-5446	prendiamo	_	_	_	prendiamo	_	_	105-3	_	_	
+106-5	5447-5450	per	_	_	_	per	_	_	105-4	_	_	
+106-6	5451-5456	buona	_	_	_	buona	_	_	105-5	_	_	
+106-7	5457-5464	diciamo	_	_	_	diciamo	_	_	105-6	_	_	
+106-8	5465-5479	collegialmente	_	_	Falling	collegial\[mente\].	_	_	105-7	_	_	
+106-8.1	5474-5479	mente	_	_	_	_	_	_	_	*->64-1	*[64]	
+106-9	5480-5485	anche	_	_	_	anche	_	_	105-8	*->64-1	*[64]	
+106-10	5486-5488	se	_	_	_	se	_	_	105-9	*->64-1	*[64]	
+106-11	5489-5492	non	_	_	_	non	_	_	105-10	_	_	
+106-12	5493-5494	è	_	_	_	è	_	_	105-11	_	_	
+106-13	5495-5506	esattamente	_	_	_	\[esattamente	_	_	105-12	*->73-1	*[73]	
+106-14	5507-5509	la	_	_	_	la	_	_	105-13	*->73-2	*[73]	
+106-15	5510-5516	stessa	_	_	_	stessa	_	_	105-14	*->73-3	*[73]	
+106-16	5517-5521	cosa	_	_	weakly\_rising	co\]sa,	_	_	105-15	_	_	
+106-16.1	5517-5519	co	_	_	_	_	_	_	_	*->73-4	*[73]	
+106-17	5522-5528	perché	_	_	_	perché	_	_	105-16	_	_	
+106-18	5529-5543	collegialmente	_	_	_	collegialmente	_	_	105-17	_	_	
+106-19	5544-5552	vorrebbe	_	_	_	vorrebbe	_	_	105-18	_	_	
+106-20	5553-5557	dire	_	_	_	dire	_	_	105-19	_	_	
+106-21	5558-5573	contestualmente	_	_	_	contestual\[mente	_	_	105-20	_	_	
+106-21.1	5568-5573	mente	_	_	_	_	_	_	_	*->49-1	*[49]	
+106-22	5574-5577	in~	_	_	_	in~	_	_	105-21	*->49-1|*->49-2	*[49]|*[49]	
+106-23	5578-5585	[PAUSE]	_	_	_	(.)	_	_	105-22	_	_	
+106-23.1	5578-5583	[PAUS	_	_	_	_	_	_	_	*->49-1	*[49]	
+106-23.2	5578-5581	[PA	_	_	_	_	_	_	_	*->49-3	*[49]	
+106-24	5586-5588	no	_	_	weakly\_rising	no\],	_	_	105-23	*->49-4	*[49]	
+
+#Text=co~
+107-1	5589-5592	co~	_	_	_	\[co~\]	_	TO007	106-0	*->64-2	*[64]	
+
+#Text=non collegialmente
+108-1	5593-5596	non	_	_	_	\[non	_	TO007	107-0	*->73-5	*[73]	
+108-2	5597-5611	collegialmente	_	_	Falling	collegialmente\].	_	_	107-1	*->73-6	*[73]	
+
+#Text=contestualmente nello nello stesso momento
+109-1	5612-5627	contestualmente	BC	_	_	\[contestualmente\]	_	TO007	108-0	*->49-5	*[49]	
+109-2	5628-5633	nello	_	_	_	nello:	_	_	108-1	_	_	
+109-3	5634-5639	nello	_	_	_	nello	_	_	108-2	_	_	
+109-4	5640-5646	stesso	_	_	_	stesso	_	_	108-3	_	_	
+109-5	5647-5654	momento	_	_	Falling	mo\[mento\].	_	_	108-4	_	_	
+109-5.1	5649-5654	mento	_	_	_	_	_	_	_	*->10-1	*[10]	
+
+#Text=viceversa per la congiuntiva si a~ ci si accontenta che
+110-1	5655-5664	viceversa	_	_	_	\[viceversa\]	_	TO006	109-0	*->10-2	*[10]	
+110-1.1	5655-5656	v	_	_	_	_	_	_	_	*->10-1	*[10]	
+110-2	5665-5668	per	_	_	_	per	_	_	109-1	_	_	
+110-3	5669-5671	la	_	_	_	la	_	_	109-2	_	_	
+110-4	5672-5683	congiuntiva	_	_	_	congiuntiva	_	_	109-3	_	_	
+110-5	5684-5686	si	_	_	_	si	_	_	109-4	_	_	
+110-6	5687-5689	a~	_	_	_	a~	_	_	109-5	_	_	
+110-7	5690-5692	ci	_	_	_	ci	_	_	109-6	_	_	
+110-8	5693-5695	si	_	_	_	si	_	_	109-7	_	_	
+110-9	5696-5706	accontenta	_	_	_	accontenta	_	_	109-8	_	_	
+110-10	5707-5710	che	_	_	weakly\_rising	che,	_	_	109-9	_	_	
+
+#Text=i soci siano
+111-1	5711-5712	i	_	_	_	i	_	TO006	110-0	_	_	
+111-2	5713-5717	soci	_	_	_	soci	_	_	110-1	_	_	
+111-3	5718-5723	siano	_	_	weakly\_rising	siano,	_	_	110-2	_	_	
+
+#Text=siano d' accordo
+112-1	5724-5729	siano	_	_	_	siano	_	TO007	111-0	_	_	
+112-2	5730-5732	d'	_	_	_	d'	_	_	111-1	_	_	
+112-3	5733-5740	accordo	_	_	Falling	accordo.	_	_	111-2	_	_	
+
+#Text=siano d' accordo tutti quanti quindi congiuntiva vuol dire che ci vuole
+113-1	5741-5746	siano	BC[6]	_	_	siano	_	TO006	112-0	_	_	
+113-2	5747-5749	d'	BC[6]	_	_	d'	_	_	112-1	_	_	
+113-3	5750-5757	accordo	BC[6]	_	Falling	accordo.	_	_	112-2	_	_	
+113-4	5758-5763	tutti	_	_	_	tutti	_	_	112-3	_	_	
+113-5	5764-5770	quanti	_	_	Falling	quanti.	_	_	112-4	_	_	
+113-6	5771-5777	quindi	_	_	_	quindi	_	_	112-5	_	_	
+113-7	5778-5789	congiuntiva	_	_	_	congiun\[tiva	_	_	112-6	_	_	
+113-7.1	5785-5789	tiva	_	_	_	_	_	_	_	*->45-1	*[45]	
+113-8	5790-5794	vuol	_	_	_	vuol	_	_	112-7	*->45-1|*->45-2	*[45]|*[45]	
+113-9	5795-5799	dire	_	_	_	dire	_	_	112-8	*->45-3	*[45]	
+113-9.1	5795-5796	d	_	_	_	_	_	_	_	*->45-1	*[45]	
+113-10	5800-5803	che	_	_	_	che	_	_	112-9	*->45-4	*[45]	
+113-11	5804-5806	ci	_	_	_	ci	_	_	112-10	*->45-5	*[45]	
+113-12	5807-5812	vuole	_	_	weakly\_rising	vuole\],	_	_	112-11	*->45-6	*[45]	
+
+#Text=questo volevo dire [PAUSE] perché con~ n~ contestualmente sem~ ((si_schiarisce_la_voce)) può voler dire che si devono riunire nello stesso posto proprio e e prendere la stessa decisione mentre invece così
+114-1	5813-5819	questo	_	_	_	\[questo	_	TO007	113-0	*->45-7	*[45]	
+114-2	5820-5826	volevo	_	_	_	volevo	_	_	113-1	*->45-8	*[45]	
+114-3	5827-5831	dire	_	_	Falling	dire\].	_	_	113-2	*->45-9	*[45]	
+114-4	5832-5839	[PAUSE]	_	_	_	(.)	_	_	113-3	_	_	
+114-5	5840-5846	perché	_	_	_	perché	_	_	113-4	_	_	
+114-6	5847-5851	con~	_	_	_	con~	_	_	113-5	_	_	
+114-7	5852-5854	n~	_	_	_	n~	_	_	113-6	_	_	
+114-8	5855-5870	contestualmente	_	_	_	contestualmente	_	_	113-7	_	_	
+114-9	5871-5875	sem~	_	_	_	sem~	_	_	113-8	_	_	
+114-10	5876-5901	((si_schiarisce_la_voce))	_	_	_	((si\_schiarisce\_la\_voce))	_	_	113-9	_	_	
+114-11	5902-5905	può	_	_	_	può	_	_	113-10	_	_	
+114-12	5906-5911	voler	_	_	_	voler	_	_	113-11	_	_	
+114-13	5912-5916	dire	_	_	_	dire	_	_	113-12	_	_	
+114-14	5917-5920	che	_	_	_	che	_	_	113-13	_	_	
+114-15	5921-5923	si	_	_	_	si	_	_	113-14	_	_	
+114-16	5924-5930	devono	_	_	_	devono	_	_	113-15	_	_	
+114-17	5931-5938	riunire	_	_	_	riunire	_	_	113-16	_	_	
+114-18	5939-5944	nello	_	_	_	\[nello	_	_	113-17	*->66-1	*[66]	
+114-19	5945-5951	stesso	_	_	_	stesso	_	_	113-18	*->66-2	*[66]	
+114-20	5952-5957	posto	_	_	weakly\_rising	posto,	_	_	113-19	*->66-3	*[66]	
+114-21	5958-5965	proprio	_	_	_	>pro\]prio	_	_	113-20	_	_	
+114-21.1	5958-5961	pro	_	_	_	_	_	_	_	*->66-4	*[66]	
+114-22	5966-5967	e	_	_	_	e<	_	_	113-21	_	_	
+114-23	5968-5969	e	_	_	_	e	_	_	113-22	_	_	
+114-24	5970-5978	prendere	_	_	_	prendere	_	_	113-23	_	_	
+114-25	5979-5981	la	_	_	_	la	_	_	113-24	_	_	
+114-26	5982-5988	stessa	_	_	_	\[stessa	_	_	113-25	*->7-1	*[7]	
+114-27	5989-5998	decisione	_	_	Falling	decisione.	_	_	113-26	*->7-2	*[7]	
+114-28	5999-6005	mentre	_	_	_	mentre	_	_	113-27	*->7-3	*[7]	
+114-29	6006-6012	invece	_	_	_	invece	_	_	113-28	*->7-4	*[7]	
+114-30	6013-6017	così	_	_	weakly\_rising	così\],	_	_	113-29	*->7-5	*[7]	
+
+#Text=esatto esatto
+115-1	6018-6024	esatto	BC[7]	_	Falling	\[esatto.	_	TO006	114-0	*->66-5	*[66]	
+115-2	6025-6031	esatto	BC[7]	_	Falling	esatto\].	_	_	114-1	*->66-6	*[66]	
+
+#Text=esatto mentre questo nelle società di persone
+116-1	6032-6038	esatto	BC	_	Falling	\[esatto.	_	TO006	115-0	*->7-6	*[7]	
+116-2	6039-6045	mentre	_	_	_	mentre	_	_	115-1	*->7-7	*[7]	
+116-3	6046-6052	questo	_	_	_	questo	_	_	115-2	*->7-8	*[7]	
+116-4	6053-6058	nelle	_	_	_	nelle	_	_	115-3	*->7-9	*[7]	
+116-5	6059-6066	società	_	_	_	socie\]tà	_	_	115-4	_	_	
+116-5.1	6059-6064	socie	_	_	_	_	_	_	_	*->7-10	*[7]	
+116-6	6067-6069	di	_	_	_	di	_	_	115-5	_	_	
+116-7	6070-6077	persone	_	_	_	persone	_	_	115-6	_	_	
+
+#Text=non eh x basta che ci sia a~ a~ l' accordo tra gli amministratori
+117-1	6078-6081	non	_	_	_	non	_	TO007	116-0	_	_	
+117-2	6082-6084	eh	_	FP	_	e:::h	_	_	116-1	_	_	
+117-3	6085-6086	x	_	_	_	xx	_	_	116-2	_	_	
+117-4	6087-6092	basta	_	_	_	basta	_	_	116-3	_	_	
+117-5	6093-6096	che	_	_	_	che	_	_	116-4	_	_	
+117-6	6097-6099	ci	_	_	_	ci	_	_	116-5	_	_	
+117-7	6100-6103	sia	_	_	_	sia:::	_	_	116-6	_	_	
+117-8	6104-6106	a~	_	_	_	a~	_	_	116-7	_	_	
+117-9	6107-6109	a~	_	_	_	a~	_	_	116-8	_	_	
+117-10	6110-6112	l'	_	_	_	l'	_	_	116-9	_	_	
+117-11	6113-6120	accordo	_	_	_	accordo	_	_	116-10	_	_	
+117-12	6121-6124	tra	_	_	_	tra	_	_	116-11	_	_	
+117-13	6125-6128	gli	_	_	_	gli	_	_	116-12	_	_	
+117-14	6129-6143	amministratori	_	_	Falling	amministratori.	_	_	116-13	_	_	
+
+#Text=può essere raccolta [PAUSE] con metodo referendario
+118-1	6144-6147	può	_	_	_	può	_	TO006	117-0	_	_	
+118-2	6148-6154	essere	_	_	_	essere	_	_	117-1	_	_	
+118-3	6155-6163	raccolta	_	_	_	raccolta	_	_	117-2	_	_	
+118-4	6164-6171	[PAUSE]	_	_	_	(.)	_	_	117-3	_	_	
+118-5	6172-6175	con	_	_	_	con	_	_	117-4	_	_	
+118-6	6176-6182	metodo	_	_	_	metodo	_	_	117-5	_	_	
+118-7	6183-6195	referendario	_	_	Falling	referendario.	_	_	117-6	_	_	
+
+#Text=stabilito questo
+119-1	6196-6205	stabilito	_	_	_	stabilito	_	TO006	118-0	_	_	
+119-2	6206-6212	questo	_	_	weakly\_rising	questo,	_	_	118-1	_	_	
+
+#Text=si può pattuire la congiuntiva quindi in una società di persone normalmente la legge dispone che l' amministrazione sia disgiuntiva è possibile pattuire la congiuntiva
+120-1	6213-6215	si	_	_	_	si	_	TO006	119-0	_	_	
+120-2	6216-6219	può	_	_	_	può	_	_	119-1	_	_	
+120-3	6220-6228	pattuire	_	_	_	pattuire	_	_	119-2	_	_	
+120-4	6229-6231	la	_	_	_	la	_	_	119-3	_	_	
+120-5	6232-6243	congiuntiva	_	_	_	congiuntiva	_	_	119-4	_	_	
+120-6	6244-6250	quindi	_	_	_	quindi	_	_	119-5	_	_	
+120-7	6251-6253	in	_	_	_	in	_	_	119-6	_	_	
+120-8	6254-6257	una	_	_	_	una	_	_	119-7	_	_	
+120-9	6258-6265	società	_	_	_	società	_	_	119-8	_	_	
+120-10	6266-6268	di	_	_	_	di	_	_	119-9	_	_	
+120-11	6269-6276	persone	_	_	Rising	persone?	_	_	119-10	_	_	
+120-12	6277-6288	normalmente	_	_	_	normalmente	_	_	119-11	_	_	
+120-13	6289-6291	la	_	_	_	la	_	_	119-12	_	_	
+120-14	6292-6297	legge	_	_	_	legge	_	_	119-13	_	_	
+120-15	6298-6305	dispone	_	_	_	dispone	_	_	119-14	_	_	
+120-16	6306-6309	che	_	_	_	che	_	_	119-15	_	_	
+120-17	6310-6312	l'	_	_	_	l'	_	_	119-16	_	_	
+120-18	6313-6328	amministrazione	_	_	_	amministrazione	_	_	119-17	_	_	
+120-19	6329-6332	sia	_	_	_	sia	_	_	119-18	_	_	
+120-20	6333-6344	disgiuntiva	_	_	Falling	disgiuntiva.	_	_	119-19	_	_	
+120-21	6345-6346	è	_	_	_	è	_	_	119-20	_	_	
+120-22	6347-6356	possibile	_	_	_	possibile	_	_	119-21	_	_	
+120-23	6357-6365	pattuire	_	_	_	pattuire	_	_	119-22	_	_	
+120-24	6366-6368	la	_	_	_	la	_	_	119-23	_	_	
+120-25	6369-6380	congiuntiva	_	_	Rising	congiuntiva?	_	_	119-24	_	_	
+
+#Text=se pattui~ se stabilito nell' atto costitutivo
+121-1	6381-6383	se	_	_	_	se	_	TO007	120-0	_	_	
+121-2	6384-6391	pattui~	_	_	_	pattui~	_	_	120-1	_	_	
+121-3	6392-6394	se	_	_	_	se	_	_	120-2	_	_	
+121-4	6395-6404	stabilito	_	_	_	stabilito	_	_	120-3	_	_	
+121-5	6405-6410	nell'	_	_	_	nell'	_	_	120-4	_	_	
+121-6	6411-6415	atto	_	_	_	atto	_	_	120-5	_	_	
+121-7	6416-6427	costitutivo	_	_	Falling	costitutivo.	_	_	120-6	_	_	
+
+#Text=se stabilito nell' atto costitutivo o contratto sociale
+122-1	6428-6430	se	BC[8]	_	_	se	_	TO006	121-0	_	_	
+122-2	6431-6440	stabilito	BC[8]	_	_	stabilito	_	_	121-1	_	_	
+122-3	6441-6446	nell'	BC[8]	_	_	nell'	_	_	121-2	_	_	
+122-4	6447-6451	atto	BC[8]	_	_	atto	_	_	121-3	_	_	
+122-5	6452-6463	costitutivo	BC[8]	_	weakly\_rising	costitutivo,	_	_	121-4	_	_	
+122-6	6464-6465	o	_	_	_	o	_	_	121-5	_	_	
+122-7	6466-6475	contratto	_	_	_	contratto	_	_	121-6	_	_	
+122-8	6476-6483	sociale	_	_	Falling	socia\[le\].	_	_	121-7	_	_	
+122-8.1	6481-6483	le	_	_	_	_	_	_	_	*->23-1	*[23]	
+
+#Text=o contratto sociale
+123-1	6484-6485	o	BC[9]	_	_	\[o\]	_	TO007	122-0	*->23-1|*->23-2	*[23]|*[23]	
+123-2	6486-6495	contratto	BC[9]	_	_	contratto	_	_	122-1	_	_	
+123-2.1	6486-6488	co	_	_	_	_	_	_	_	*->23-1	*[23]	
+123-3	6496-6503	sociale	BC[9]	_	Falling	sociale.	_	_	122-2	_	_	
+
+#Text=è possibile qui facciamo un passo avanti è possibile [PAUSE] stabilire [PAUSE] posto che l' amministrazione spetti a tu~ spetta a tutti è possibile stabilire che spetti solo ad alcuni e ad altri no
+124-1	6504-6505	è	_	_	_	è	_	TO006	123-0	_	_	
+124-2	6506-6515	possibile	_	_	weakly\_rising	possibile,	_	_	123-1	_	_	
+124-3	6516-6519	qui	_	_	_	qui	_	_	123-2	_	_	
+124-4	6520-6528	facciamo	_	_	_	facciamo	_	_	123-3	_	_	
+124-5	6529-6531	un	_	_	_	un	_	_	123-4	_	_	
+124-6	6532-6537	passo	_	_	_	passo	_	_	123-5	_	_	
+124-7	6538-6544	avanti	_	_	weakly\_rising	avanti,	_	_	123-6	_	_	
+124-8	6545-6546	è	_	_	_	è	_	_	123-7	_	_	
+124-9	6547-6556	possibile	_	_	_	possibile	_	_	123-8	_	_	
+124-10	6557-6564	[PAUSE]	_	_	_	(.)	_	_	123-9	_	_	
+124-11	6565-6574	stabilire	_	_	_	stabilire	_	_	123-10	_	_	
+124-12	6575-6582	[PAUSE]	_	_	_	(.)	_	_	123-11	_	_	
+124-13	6583-6588	posto	_	_	_	posto	_	_	123-12	_	_	
+124-14	6589-6592	che	_	_	_	che	_	_	123-13	_	_	
+124-15	6593-6595	l'	_	_	_	l'	_	_	123-14	_	_	
+124-16	6596-6611	amministrazione	_	_	_	amministrazione	_	_	123-15	_	_	
+124-17	6612-6618	spetti	_	_	_	spetti	_	_	123-16	_	_	
+124-18	6619-6620	a	_	_	_	a	_	_	123-17	_	_	
+124-19	6621-6624	tu~	_	_	_	tu~	_	_	123-18	_	_	
+124-20	6625-6631	spetta	_	_	_	spetta	_	_	123-19	_	_	
+124-21	6632-6633	a	_	_	_	a	_	_	123-20	_	_	
+124-22	6634-6639	tutti	_	_	weakly\_rising	tutti,	_	_	123-21	_	_	
+124-23	6640-6641	è	_	_	_	è	_	_	123-22	_	_	
+124-24	6642-6651	possibile	_	_	_	possibile	_	_	123-23	_	_	
+124-25	6652-6661	stabilire	_	_	_	stabilire	_	_	123-24	_	_	
+124-26	6662-6665	che	_	_	_	che	_	_	123-25	_	_	
+124-27	6666-6672	spetti	_	_	_	spetti	_	_	123-26	_	_	
+124-28	6673-6677	solo	_	_	_	solo	_	_	123-27	_	_	
+124-29	6678-6680	ad	_	_	_	ad	_	_	123-28	_	_	
+124-30	6681-6687	alcuni	_	_	Rising	alcuni?	_	_	123-29	_	_	
+124-31	6688-6689	e	_	_	_	e	_	_	123-30	_	_	
+124-32	6690-6692	ad	_	_	_	ad	_	_	123-31	_	_	
+124-33	6693-6698	altri	_	_	_	altri	_	_	123-32	_	_	
+124-34	6699-6701	no	_	_	Rising	no?	_	_	123-33	_	_	
+
+#Text=sì [PAUSE] può essere demandata ad alcuni s~ ad alcuni soci e a e ad altri no però deve sempre essere stabilito nell' atto nell' atto costitutivo
+125-1	6702-6704	sì	_	_	Falling	sì.	_	TO007	124-0	_	_	
+125-2	6705-6712	[PAUSE]	_	_	_	(.)	_	_	124-1	_	_	
+125-3	6713-6716	può	_	_	_	può	_	_	124-2	_	_	
+125-4	6717-6723	essere	_	_	_	essere:	_	_	124-3	_	_	
+125-5	6724-6733	demandata	_	_	_	demandata::	_	_	124-4	_	_	
+125-6	6734-6736	ad	_	_	_	ad	_	_	124-5	_	_	
+125-7	6737-6743	alcuni	_	_	_	alcuni:	_	_	124-6	_	_	
+125-8	6744-6746	s~	_	_	_	s~	_	_	124-7	_	_	
+125-9	6747-6749	ad	_	_	_	ad	_	_	124-8	_	_	
+125-10	6750-6756	alcuni	_	_	_	alcuni	_	_	124-9	_	_	
+125-11	6757-6761	soci	_	_	_	soci	_	_	124-10	_	_	
+125-12	6762-6763	e	_	_	_	e	_	_	124-11	_	_	
+125-13	6764-6765	a	_	_	_	a	_	_	124-12	_	_	
+125-14	6766-6767	e	_	_	_	e	_	_	124-13	_	_	
+125-15	6768-6770	ad	_	_	_	ad	_	_	124-14	_	_	
+125-16	6771-6776	altri	_	_	_	altri	_	_	124-15	_	_	
+125-17	6777-6779	no	_	_	weakly\_rising	no,	_	_	124-16	_	_	
+125-18	6780-6784	però	_	_	_	però	_	_	124-17	_	_	
+125-19	6785-6789	deve	_	_	_	deve	_	_	124-18	_	_	
+125-20	6790-6796	sempre	_	_	_	sempre	_	_	124-19	_	_	
+125-21	6797-6803	essere	_	_	_	essere	_	_	124-20	_	_	
+125-22	6804-6813	stabilito	_	_	_	stabilito	_	_	124-21	_	_	
+125-23	6814-6819	nell'	_	_	_	nell'	_	_	124-22	_	_	
+125-24	6820-6824	atto	_	_	_	atto::	_	_	124-23	_	_	
+125-25	6825-6830	nell'	_	_	_	nell'	_	_	124-24	_	_	
+125-26	6831-6835	atto	_	_	_	atto	_	_	124-25	_	_	
+125-27	6836-6847	costitutivo	_	_	Falling	costitutivo.	_	_	124-26	_	_	
+
+#Text=o nell' atto costitutivo o in un secondo modo [PAUSE] se se lo ricorda
+126-1	6848-6849	o	_	_	_	o	_	TO006	125-0	_	_	
+126-2	6850-6855	nell'	_	_	_	nell'	_	_	125-1	_	_	
+126-3	6856-6860	atto	_	_	_	atto	_	_	125-2	_	_	
+126-4	6861-6872	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	125-3	_	_	
+126-5	6873-6874	o	_	_	_	o	_	_	125-4	_	_	
+126-6	6875-6877	in	_	_	_	in	_	_	125-5	_	_	
+126-7	6878-6880	un	_	_	_	un	_	_	125-6	_	_	
+126-8	6881-6888	secondo	_	_	_	secondo	_	_	125-7	_	_	
+126-9	6889-6893	modo	_	_	Falling	modo.	_	_	125-8	_	_	
+126-10	6894-6901	[PAUSE]	_	_	_	(.)	_	_	125-9	_	_	
+126-11	6902-6904	se	_	_	_	se	_	_	125-10	_	_	
+126-12	6905-6907	se	_	_	_	se	_	_	125-11	_	_	
+126-13	6908-6910	lo	_	_	_	lo	_	_	125-12	_	_	
+126-14	6911-6918	ricorda	_	_	Falling	ricorda.	_	_	125-13	_	_	
+
+#Text=o con atto
+127-1	6919-6920	o	_	_	_	o	_	TO006	126-0	_	_	
+127-2	6921-6924	con	_	_	_	con	_	_	126-1	_	_	
+127-3	6925-6929	atto	_	_	weakly\_rising	atto,	_	_	126-2	_	_	
+
+#Text=o con atto separato
+128-1	6930-6931	o	_	_	_	o	_	TO007	127-0	_	_	
+128-2	6932-6935	con	_	_	_	con	_	_	127-1	_	_	
+128-3	6936-6940	atto	_	_	_	atto	_	_	127-2	_	_	
+128-4	6941-6949	separato	_	_	weakly\_rising	separato,	_	_	127-3	_	_	
+
+#Text=o con atto separato
+129-1	6950-6951	o	BC[10]	_	_	o	_	TO006	128-0	_	_	
+129-2	6952-6955	con	BC[10]	_	_	con	_	_	128-1	_	_	
+129-3	6956-6960	atto	BC[10]	_	_	atto	_	_	128-2	_	_	
+129-4	6961-6969	separato	BC[10]	_	Falling	separato.	_	_	128-3	_	_	
+
+#Text=qual è la differenza [PAUSE] che si manifesta sotto il profilo della stab~ della maggiore o minore stabilità della carica
+130-1	6970-6974	qual	_	_	_	>qual	_	TO006	129-0	_	_	
+130-2	6975-6976	è	_	_	_	è	_	_	129-1	_	_	
+130-3	6977-6979	la	_	_	_	la	_	_	129-2	_	_	
+130-4	6980-6990	differenza	_	_	Rising	differenza<?	_	_	129-3	_	_	
+130-5	6991-6998	[PAUSE]	_	_	_	(.)	_	_	129-4	_	_	
+130-6	6999-7002	che	_	_	_	che	_	_	129-5	_	_	
+130-7	7003-7005	si	_	_	_	si	_	_	129-6	_	_	
+130-8	7006-7015	manifesta	_	_	_	manifesta	_	_	129-7	_	_	
+130-9	7016-7021	sotto	_	_	_	sotto	_	_	129-8	_	_	
+130-10	7022-7024	il	_	_	_	il	_	_	129-9	_	_	
+130-11	7025-7032	profilo	_	_	_	profilo	_	_	129-10	_	_	
+130-12	7033-7038	della	_	_	_	della	_	_	129-11	_	_	
+130-13	7039-7044	stab~	_	_	_	stab~	_	_	129-12	_	_	
+130-14	7045-7050	della	_	_	_	della	_	_	129-13	_	_	
+130-15	7051-7059	maggiore	_	_	_	maggiore	_	_	129-14	_	_	
+130-16	7060-7061	o	_	_	_	o	_	_	129-15	_	_	
+130-17	7062-7068	minore	_	_	_	minore	_	_	129-16	_	_	
+130-18	7069-7078	stabilità	_	_	_	stabilità	_	_	129-17	_	_	
+130-19	7079-7084	della	_	_	_	della	_	_	129-18	_	_	
+130-20	7085-7091	carica	_	_	Falling	carica.	_	_	129-19	_	_	
+
+#Text=beh mh mh [PAUSE] se stabilito nell' atto costitutivo noi a~ avremo ab originem un eh una carica che è [PAUSE] che è che è prefissa~ no aspetti
+131-1	7092-7095	beh	_	_	weakly\_rising	beh,	_	TO007	130-0	_	_	
+131-2	7096-7098	mh	_	FP	Falling	mh.	_	_	130-1	_	_	
+131-3	7099-7101	mh	_	FP	Falling	mh.	_	_	130-2	_	_	
+131-4	7102-7109	[PAUSE]	_	_	_	(.)	_	_	130-3	_	_	
+131-5	7110-7112	se	_	_	_	se	_	_	130-4	_	_	
+131-6	7113-7122	stabilito	_	_	_	stabilito	_	_	130-5	_	_	
+131-7	7123-7128	nell'	_	_	_	nell'	_	_	130-6	_	_	
+131-8	7129-7133	atto	_	_	_	atto	_	_	130-7	_	_	
+131-9	7134-7145	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	130-8	_	_	
+131-10	7146-7149	noi	_	_	_	noi	_	_	130-9	_	_	
+131-11	7150-7152	a~	_	_	_	a:~	_	_	130-10	_	_	
+131-12	7153-7159	avremo	_	_	_	avremo	_	_	130-11	_	_	
+131-13	7160-7162	ab	_	_	_	ab	_	_	130-12	_	_	
+131-14	7163-7171	originem	_	_	_	originem	_	_	130-13	_	_	
+131-15	7172-7174	un	_	_	_	un	_	_	130-14	_	_	
+131-16	7175-7177	eh	_	FP	_	e::h	_	_	130-15	_	_	
+131-17	7178-7181	una	_	_	_	una	_	_	130-16	_	_	
+131-18	7182-7188	carica	_	_	_	carica	_	_	130-17	_	_	
+131-19	7189-7192	che	_	_	_	che	_	_	130-18	_	_	
+131-20	7193-7194	è	_	_	weakly\_rising	è:,	_	_	130-19	_	_	
+131-21	7195-7202	[PAUSE]	_	_	_	(.)	_	_	130-20	_	_	
+131-22	7203-7206	che	_	_	_	che	_	_	130-21	_	_	
+131-23	7207-7208	è	_	_	weakly\_rising	è,	_	_	130-22	_	_	
+131-24	7209-7212	che	_	_	_	che	_	_	130-23	_	_	
+131-25	7213-7214	è	_	_	_	è	_	_	130-24	_	_	
+131-26	7215-7224	prefissa~	_	_	_	prefissa~	_	_	130-25	_	_	
+131-27	7225-7227	no	_	_	_	no	_	_	130-26	_	_	
+131-28	7228-7235	aspetti	_	_	Falling	aspetti.	_	_	130-27	_	_	
+
+#Text=non ho capito la
+132-1	7236-7239	non	_	_	_	non	_	TO007	131-0	_	_	
+132-2	7240-7242	ho	_	_	_	ho	_	_	131-1	_	_	
+132-3	7243-7249	capito	_	_	_	capito	_	_	131-2	_	_	
+132-4	7250-7252	la	_	_	_	la::	_	_	131-3	_	_	
+
+#Text=c' è una differenza la legge riscontra una differenza fra l' ipotesi in cui [PAUSE] questa nomina di alcuni soci come amministratori avvenga nell' atto costitutivo o con atto separato
+133-1	7253-7255	c'	_	_	_	c'	_	TO006	132-0	_	_	
+133-2	7256-7257	è	_	_	_	è	_	_	132-1	_	_	
+133-3	7258-7261	una	_	_	_	una	_	_	132-2	_	_	
+133-4	7262-7272	differenza	_	_	weakly\_rising	differenza,	_	_	132-3	_	_	
+133-5	7273-7275	la	_	_	_	la	_	_	132-4	_	_	
+133-6	7276-7281	legge	_	_	_	legge	_	_	132-5	_	_	
+133-7	7282-7291	riscontra	_	_	_	riscontra	_	_	132-6	_	_	
+133-8	7292-7295	una	_	_	_	una	_	_	132-7	_	_	
+133-9	7296-7306	differenza	_	_	weakly\_rising	differenza,	_	_	132-8	_	_	
+133-10	7307-7310	fra	_	_	_	fra	_	_	132-9	_	_	
+133-11	7311-7313	l'	_	_	_	l'	_	_	132-10	_	_	
+133-12	7314-7321	ipotesi	_	_	_	ipotesi	_	_	132-11	_	_	
+133-13	7322-7324	in	_	_	_	in	_	_	132-12	_	_	
+133-14	7325-7328	cui	_	_	weakly\_rising	cui,	_	_	132-13	_	_	
+133-15	7329-7336	[PAUSE]	_	_	_	(.)	_	_	132-14	_	_	
+133-16	7337-7343	questa	_	_	_	questa	_	_	132-15	_	_	
+133-17	7344-7350	nomina	_	_	_	nomina	_	_	132-16	_	_	
+133-18	7351-7353	di	_	_	_	di	_	_	132-17	_	_	
+133-19	7354-7360	alcuni	_	_	_	alcuni:::	_	_	132-18	_	_	
+133-20	7361-7365	soci	_	_	_	soci	_	_	132-19	_	_	
+133-21	7366-7370	come	_	_	_	come	_	_	132-20	_	_	
+133-22	7371-7385	amministratori	_	_	_	amministratori	_	_	132-21	_	_	
+133-23	7386-7393	avvenga	_	_	_	avvenga	_	_	132-22	_	_	
+133-24	7394-7399	nell'	_	_	_	nell'	_	_	132-23	_	_	
+133-25	7400-7404	atto	_	_	_	atto	_	_	132-24	_	_	
+133-26	7405-7416	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	132-25	_	_	
+133-27	7417-7418	o	_	_	_	o	_	_	132-26	_	_	
+133-28	7419-7422	con	_	_	_	con	_	_	132-27	_	_	
+133-29	7423-7427	atto	_	_	_	atto	_	_	132-28	_	_	
+133-30	7428-7436	separato	_	_	Falling	separato.	_	_	132-29	_	_	
+
+#Text=e questa manifes~ e q~ differenza come le suggerivo si manifesta nella maggiore o minore stabilità della carica
+134-1	7437-7438	e	_	_	_	e	_	TO006	133-0	_	_	
+134-2	7439-7445	questa	_	_	_	questa	SR[36]	_	133-1	_	_	
+134-3	7446-7454	manifes~	_	_	_	manifes~	SR[36]	_	133-2	_	_	
+134-4	7455-7456	e	_	_	_	e	SR[36]	_	133-3	_	_	
+134-5	7457-7459	q~	_	_	_	q~	SR[36]	_	133-4	_	_	
+134-6	7460-7470	differenza	_	_	weakly\_rising	differenza,	SR[36]	_	133-5	_	_	
+134-7	7471-7475	come	_	_	_	come	SR[36]	_	133-6	_	_	
+134-8	7476-7478	le	_	_	_	le	SR[36]	_	133-7	_	_	
+134-9	7479-7488	suggerivo	_	_	weakly\_rising	suggerivo,	SR[36]	_	133-8	_	_	
+134-10	7489-7491	si	_	_	_	si	SR[36]	_	133-9	_	_	
+134-11	7492-7501	manifesta	_	_	_	manifesta	SR[36]	_	133-10	_	_	
+134-12	7502-7507	nella	_	_	_	nella	_	_	133-11	_	_	
+134-13	7508-7516	maggiore	_	_	_	maggiore	_	_	133-12	_	_	
+134-14	7517-7518	o	_	_	_	o	_	_	133-13	_	_	
+134-15	7519-7525	minore	_	_	_	minore	_	_	133-14	_	_	
+134-16	7526-7535	stabilità	_	_	_	stabilità	_	_	133-15	_	_	
+134-17	7536-7541	della	_	_	_	della	_	_	133-16	_	_	
+134-18	7542-7548	carica	_	_	Falling	carica.	_	_	133-17	_	_	
+
+#Text=stabilità della carica sto facendo riferimento alla revoca
+135-1	7549-7558	stabilità	_	_	_	stabilità	_	TO006	134-0	_	_	
+135-2	7559-7564	della	_	_	_	della	_	_	134-1	_	_	
+135-3	7565-7571	carica	_	_	weakly\_rising	carica,	_	_	134-2	_	_	
+135-4	7572-7575	sto	_	_	_	sto	_	_	134-3	_	_	
+135-5	7576-7583	facendo	_	_	_	facendo	_	_	134-4	_	_	
+135-6	7584-7595	riferimento	_	_	_	riferimento	_	_	134-5	_	_	
+135-7	7596-7600	alla	_	_	_	alla	_	_	134-6	_	_	
+135-8	7601-7607	revoca	_	_	Falling	revoca.	_	_	134-7	_	_	
+
+#Text=posso ragionare un secondo
+136-1	7608-7613	posso	_	_	_	posso	_	TO007	135-0	_	_	
+136-2	7614-7623	ragionare	_	_	_	ragionare	_	_	135-1	_	_	
+136-3	7624-7626	un	_	_	_	un	_	_	135-2	_	_	
+136-4	7627-7634	secondo	_	_	Rising	secondo?	_	_	135-3	_	_	
+
+#Text=mh
+137-1	7635-7637	mh	_	_	Falling	mh.	_	TO006	136-0	_	_	
+
+#Text=se è stabilita
+138-1	7638-7640	se	_	_	_	°se	_	TO007	137-0	_	_	
+138-2	7641-7642	è	_	_	_	è	_	_	137-1	_	_	
+138-3	7643-7652	stabilita	_	_	weakly\_rising	stabilita,°	_	_	137-2	_	_	
+
+#Text=detto in termini più espliciti [PAUSE] se uno è nominato nell' atto costitutivo per revocarlo ci vuole puntini puntini se è nominato con atto separato per revocarlo ci vuole qualcosa di diverso c' è una diversità in tema di revoca nei due casi
+139-1	7653-7658	detto	_	_	_	detto	_	TO006	138-0	_	_	
+139-2	7659-7661	in	_	_	_	in	_	_	138-1	_	_	
+139-3	7662-7669	termini	_	_	_	termini	_	_	138-2	_	_	
+139-4	7670-7673	più	_	_	_	più	_	_	138-3	_	_	
+139-5	7674-7683	espliciti	_	_	Falling	espliciti.	_	_	138-4	_	_	
+139-6	7684-7691	[PAUSE]	_	_	_	(.)	_	_	138-5	_	_	
+139-7	7692-7694	se	_	_	_	se	_	_	138-6	_	_	
+139-8	7695-7698	uno	_	_	_	uno	_	_	138-7	_	_	
+139-9	7699-7700	è	_	_	_	è	_	_	138-8	_	_	
+139-10	7701-7709	nominato	_	_	_	nominato	_	_	138-9	_	_	
+139-11	7710-7715	nell'	_	_	_	nell'	_	_	138-10	_	_	
+139-12	7716-7720	atto	_	_	_	atto	_	_	138-11	_	_	
+139-13	7721-7732	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	138-12	_	_	
+139-14	7733-7736	per	_	_	_	per	_	_	138-13	_	_	
+139-15	7737-7746	revocarlo	_	_	_	revocarlo	_	_	138-14	_	_	
+139-16	7747-7749	ci	_	_	_	ci	_	_	138-15	_	_	
+139-17	7750-7755	vuole	_	_	Rising	vuole?	_	_	138-16	_	_	
+139-18	7756-7763	puntini	_	_	_	puntini	_	_	138-17	_	_	
+139-19	7764-7771	puntini	_	_	Falling	puntini.	_	_	138-18	_	_	
+139-20	7772-7774	se	_	_	_	se	_	_	138-19	_	_	
+139-21	7775-7776	è	_	_	_	è	_	_	138-20	_	_	
+139-22	7777-7785	nominato	_	_	_	nominato	_	_	138-21	_	_	
+139-23	7786-7789	con	_	_	_	con	_	_	138-22	_	_	
+139-24	7790-7794	atto	_	_	_	atto	_	_	138-23	_	_	
+139-25	7795-7803	separato	_	_	weakly\_rising	separato,	_	_	138-24	_	_	
+139-26	7804-7807	per	_	_	_	per	_	_	138-25	_	_	
+139-27	7808-7817	revocarlo	_	_	_	revocarlo	_	_	138-26	_	_	
+139-28	7818-7820	ci	_	_	_	ci	_	_	138-27	_	_	
+139-29	7821-7826	vuole	_	_	_	vuole	_	_	138-28	_	_	
+139-30	7827-7835	qualcosa	_	_	_	qualcosa	_	_	138-29	_	_	
+139-31	7836-7838	di	_	_	_	di	_	_	138-30	_	_	
+139-32	7839-7846	diverso	_	_	Falling	diverso.	_	_	138-31	_	_	
+139-33	7847-7849	c'	_	_	_	c'	_	_	138-32	_	_	
+139-34	7850-7851	è	_	_	_	è	_	_	138-33	_	_	
+139-35	7852-7855	una	_	_	_	una	_	_	138-34	_	_	
+139-36	7856-7865	diversità	_	_	Falling	diversità.	_	_	138-35	_	_	
+139-37	7866-7868	in	_	_	_	in	_	_	138-36	_	_	
+139-38	7869-7873	tema	_	_	_	tema	_	_	138-37	_	_	
+139-39	7874-7876	di	_	_	_	di	_	_	138-38	_	_	
+139-40	7877-7883	revoca	_	_	_	revoca	_	_	138-39	_	_	
+139-41	7884-7887	nei	_	_	_	\[nei	_	_	138-40	*->57-1	*[57]	
+139-42	7888-7891	due	_	_	_	due	_	_	138-41	*->57-2	*[57]	
+139-43	7892-7896	casi	_	_	Falling	ca\]si.	_	_	138-42	_	_	
+139-43.1	7892-7894	ca	_	_	_	_	_	_	_	*->57-3	*[57]	
+
+#Text=sì
+140-1	7897-7899	sì	BC	_	Falling	\[sì\].	_	TO007	139-0	*->57-4	*[57]	
+
+#Text=mh eh mh sto facendo una confusio~ m~ mi sono [PAUSE] se nominato
+141-1	7900-7902	mh	_	FP	_	mh	_	TO007	140-0	_	_	
+141-2	7903-7905	eh	_	FP	_	eh	_	_	140-1	_	_	
+141-3	7906-7908	mh	_	FP	_	m::h	_	_	140-2	_	_	
+141-4	7909-7912	sto	_	_	_	sto	_	_	140-3	_	_	
+141-5	7913-7920	facendo	_	_	_	facendo	_	_	140-4	_	_	
+141-6	7921-7924	una	_	_	_	una	_	_	140-5	_	_	
+141-7	7925-7934	confusio~	_	_	weakly\_rising	confusio~,	_	_	140-6	_	_	
+141-8	7935-7937	m~	_	_	_	m~	_	_	140-7	_	_	
+141-9	7938-7940	mi	_	_	_	mi	_	_	140-8	_	_	
+141-10	7941-7945	sono	_	_	_	sono:	_	_	140-9	_	_	
+141-11	7946-7953	[PAUSE]	_	_	_	(.)	_	_	140-10	_	_	
+141-12	7954-7956	se	_	_	_	\[se	_	_	140-11	*->34-1	*[34]	
+141-13	7957-7965	nominato	_	_	weakly\_rising	nominato\],	_	_	140-12	*->34-2	*[34]	
+
+#Text=no no ma non mh non ce~ mh
+142-1	7966-7968	no	BC[11]	_	_	\[no	_	TO006	141-0	*->34-3	*[34]	
+142-2	7969-7971	no	BC[11]	_	_	no	_	_	141-1	*->34-4	*[34]	
+142-3	7972-7974	ma	_	_	_	ma	_	_	141-2	*->34-5	*[34]	
+142-4	7975-7978	non	_	_	_	non	_	_	141-3	*->34-6	*[34]	
+142-5	7979-7981	mh	_	FP	_	m:h	_	_	141-4	*->34-7	*[34]	
+142-6	7982-7985	non	_	_	_	non	_	_	141-5	*->34-8	*[34]	
+142-7	7986-7989	ce~	_	_	weakly\_rising	ce~\],	_	_	141-6	*->34-9	*[34]	
+142-8	7990-7992	mh	_	FP	weakly\_rising	m::h,	_	_	141-7	_	_	
+
+#Text=resti [PAUSE] non è che sia una [PAUSE] s~ questione semplicissima è un dato mnemonico se se lo ricorda
+143-1	7993-7998	resti	_	_	weakly\_rising	resti,	_	TO006	142-0	_	_	
+143-2	7999-8006	[PAUSE]	_	_	_	(.)	_	_	142-1	_	_	
+143-3	8007-8010	non	_	_	_	non	_	_	142-2	_	_	
+143-4	8011-8012	è	_	_	_	è	_	_	142-3	_	_	
+143-5	8013-8016	che	_	_	_	che	_	_	142-4	_	_	
+143-6	8017-8020	sia	_	_	_	>sia	_	_	142-5	_	_	
+143-7	8021-8024	una	_	_	_	una<	_	_	142-6	_	_	
+143-8	8025-8032	[PAUSE]	_	_	_	(.)	_	_	142-7	_	_	
+143-9	8033-8035	s~	_	_	_	s~	_	_	142-8	_	_	
+143-10	8036-8045	questione	_	_	_	questione	_	_	142-9	_	_	
+143-11	8046-8059	semplicissima	_	_	Falling	semplicissima.	_	_	142-10	_	_	
+143-12	8060-8061	è	_	_	_	è	_	_	142-11	_	_	
+143-13	8062-8064	un	_	_	_	un	_	_	142-12	_	_	
+143-14	8065-8069	dato	_	_	_	dato	_	_	142-13	_	_	
+143-15	8070-8079	mnemonico	_	_	Falling	mnemonico.	_	_	142-14	_	_	
+143-16	8080-8082	se	_	_	_	se	_	_	142-15	_	_	
+143-17	8083-8085	se	_	_	_	se	_	_	142-16	_	_	
+143-18	8086-8088	lo	_	_	_	lo	_	_	142-17	_	_	
+143-19	8089-8096	ricorda	_	_	weakly\_rising	ricorda,	_	_	142-18	_	_	
+
+#Text=no ehm in questo momento mi sfugge so~ perché sono
+144-1	8097-8099	no	_	_	Falling	no.	_	TO007	143-0	_	_	
+144-2	8100-8103	ehm	_	FP	weakly\_rising	ehm:,	_	_	143-1	_	_	
+144-3	8104-8106	in	_	_	_	in	_	_	143-2	_	_	
+144-4	8107-8113	questo	_	_	_	ques\[to	_	_	143-3	_	_	
+144-4.1	8111-8113	to	_	_	_	_	_	_	_	*->60-1	*[60]	
+144-5	8114-8121	momento	_	_	_	momento	_	_	143-4	*->60-2	*[60]	
+144-5.1	8114-8117	mom	_	_	_	_	_	_	_	*->60-1	*[60]	
+144-6	8122-8124	mi	_	_	_	mi	_	_	143-5	*->60-3	*[60]	
+144-7	8125-8131	sfugge	_	_	Falling	sfugge\].	_	_	143-6	*->60-4	*[60]	
+144-8	8132-8135	so~	_	_	weakly\_rising	so:~,	_	_	143-7	_	_	
+144-9	8136-8142	perché	_	_	_	perché	_	_	143-8	_	_	
+144-10	8143-8147	sono	_	_	weakly\_rising	sono,	_	_	143-9	_	_	
+
+#Text=non se lo ricorda
+145-1	8148-8151	non	_	_	_	\[non	_	TO006	144-0	*->60-5	*[60]	
+145-2	8152-8154	se	_	_	_	se	_	_	144-1	*->60-6	*[60]	
+145-3	8155-8157	lo	_	_	_	lo	_	_	144-2	*->60-7	*[60]	
+145-4	8158-8165	ricorda	_	_	Falling	ricorda\].	_	_	144-3	*->60-8	*[60]	
+
+#Text=si ricorda almeno quanti soci devono votare per poter revocare l' amminis~
+146-1	8166-8168	si	_	_	_	si	_	TO006	145-0	_	_	
+146-2	8169-8176	ricorda	_	_	_	ricorda	_	_	145-1	_	_	
+146-3	8177-8183	almeno	_	_	weakly\_rising	almeno,	_	_	145-2	_	_	
+146-4	8184-8190	quanti	_	_	_	quanti	_	_	145-3	_	_	
+146-5	8191-8195	soci	_	_	_	soci	_	_	145-4	_	_	
+146-6	8196-8202	devono	_	_	_	devono	_	_	145-5	_	_	
+146-7	8203-8209	votare	_	_	_	votare	_	_	145-6	_	_	
+146-8	8210-8213	per	_	_	_	per	_	_	145-7	_	_	
+146-9	8214-8219	poter	_	_	_	poter	_	_	145-8	_	_	
+146-10	8220-8228	revocare	_	_	_	revocare	_	_	145-9	_	_	
+146-11	8229-8231	l'	_	_	_	\[l'	_	_	145-10	*->62-1	*[62]	
+146-12	8232-8240	amminis~	_	_	_	amminis~\]	_	_	145-11	*->62-2	*[62]	
+
+#Text=la maggioranza
+147-1	8241-8243	la	_	_	_	\[la	_	TO007	146-0	*->62-3	*[62]	
+147-2	8244-8255	maggioranza	_	_	Falling	maggio\]ranza.	_	_	146-1	_	_	
+147-2.1	8244-8250	maggio	_	_	_	_	_	_	_	*->62-4	*[62]	
+
+#Text=è sicuro che sia sufficiente la ma~
+148-1	8256-8257	è	_	_	_	è	_	TO006	147-0	_	_	
+148-2	8258-8264	sicuro	_	_	weakly\_rising	sicuro,	_	_	147-1	_	_	
+148-3	8265-8268	che	_	_	_	che	_	_	147-2	_	_	
+148-4	8269-8272	sia	_	_	_	sia	_	_	147-3	_	_	
+148-5	8273-8284	sufficiente	_	_	_	suffi\[ciente	_	_	147-4	_	_	
+148-5.1	8278-8284	ciente	_	_	_	_	_	_	_	*->53-1	*[53]	
+148-6	8285-8287	la	_	_	_	la	_	_	147-5	*->53-1|*->53-2	*[53]|*[53]	
+148-7	8288-8291	ma~	_	_	_	ma~\]	_	_	147-6	*->53-3	*[53]	
+148-7.1	8288-8289	m	_	_	_	_	_	_	_	*->53-1	*[53]	
+
+#Text=la p~ mh eh l' u~ l' unanimità perché nelle società di eh di persone a differenza nelle di eh di capitali prevale il il principio unanimistico a differenza del
+149-1	8292-8294	la	_	_	Falling	\[la.	_	TO007	148-0	*->53-4	*[53]	
+149-2	8295-8297	p~	_	_	_	p~	_	_	148-1	*->53-5	*[53]	
+149-3	8298-8300	mh	_	FP	_	mh	_	_	148-2	*->53-6	*[53]	
+149-4	8301-8303	eh	_	FP	_	e:h\]	_	_	148-3	*->53-7	*[53]	
+149-5	8304-8306	l'	_	_	_	l'	_	_	148-4	_	_	
+149-6	8307-8309	u~	_	_	_	u~	_	_	148-5	_	_	
+149-7	8310-8312	l'	_	_	_	l'	_	_	148-6	_	_	
+149-8	8313-8322	unanimità	_	_	Falling	u\[nanimità.	_	_	148-7	_	_	
+149-8.1	8314-8322	nanimità	_	_	_	_	_	_	_	*->78-1	*[78]	
+149-9	8323-8329	perché	_	_	_	perché\]	_	_	148-8	*->78-2	*[78]	
+149-9.1	8323-8323		_	_	_	_	_	_	_	*->78-1	*[78]	
+149-10	8330-8335	nelle	_	_	_	nelle	_	_	148-9	_	_	
+149-11	8336-8343	società	_	_	_	società	_	_	148-10	_	_	
+149-12	8344-8346	di	_	_	_	di::	_	_	148-11	_	_	
+149-13	8347-8349	eh	_	FP	_	eh	_	_	148-12	_	_	
+149-14	8350-8352	di	_	_	_	di	_	_	148-13	_	_	
+149-15	8353-8360	persone	_	_	weakly\_rising	persone,	_	_	148-14	_	_	
+149-16	8361-8362	a	_	_	_	a	_	_	148-15	_	_	
+149-17	8363-8373	differenza	_	_	_	differenza	_	_	148-16	_	_	
+149-18	8374-8379	nelle	_	_	_	>nelle<	_	_	148-17	_	_	
+149-19	8380-8382	di	_	_	_	di::	_	_	148-18	_	_	
+149-20	8383-8385	eh	_	FP	_	eh	_	_	148-19	_	_	
+149-21	8386-8388	di	_	_	_	di	_	_	148-20	_	_	
+149-22	8389-8397	capitali	_	_	_	capitali	_	_	148-21	_	_	
+149-23	8398-8405	prevale	_	_	_	prevale	_	_	148-22	_	_	
+149-24	8406-8408	il	_	_	_	il:	_	_	148-23	_	_	
+149-25	8409-8411	il	_	_	_	il	_	_	148-24	_	_	
+149-26	8412-8421	principio	_	_	_	principio	_	_	148-25	_	_	
+149-27	8422-8434	unanimistico	_	_	_	\[unanimistico	_	_	148-26	*->76-1	*[76]	
+149-28	8435-8436	a	_	_	_	a	_	_	148-27	*->76-2	*[76]	
+149-29	8437-8447	differenza	_	_	_	differenza	_	_	148-28	*->76-3	*[76]	
+149-30	8448-8451	del	_	_	_	del\]	_	_	148-29	*->76-4	*[76]	
+
+#Text=l' unanimità
+150-1	8452-8454	l'	BC[12]	_	_	\[l'	_	TO006	149-0	*->78-3	*[78]	
+150-2	8455-8464	unanimità	BC[12]	_	Falling	unanimità\].	_	_	149-1	*->78-4	*[78]	
+
+#Text=qui~ [PAUSE] quindi nel dubbio conviene dire l' unanimità perché [PAUSE] si hanno molte più probabilità insomma di di di azzeccare sono rari i casi di maggioranza no
+151-1	8465-8469	qui~	_	_	_	\[°qui~°	_	TO006	150-0	*->76-5	*[76]	
+151-2	8470-8477	[PAUSE]	_	_	_	(.)	_	_	150-1	_	_	
+151-2.1	8470-8473	[PA	_	_	_	_	_	_	_	*->76-6	*[76]	
+151-3	8478-8484	quindi	_	_	_	quindi	_	_	150-2	*->76-7	*[76]	
+151-4	8485-8488	nel	_	_	_	nel	_	_	150-3	*->76-8	*[76]	
+151-5	8489-8495	dubbio	_	_	_	dub\]bio	_	_	150-4	_	_	
+151-5.1	8489-8492	dub	_	_	_	_	_	_	_	*->76-9	*[76]	
+151-6	8496-8504	conviene	_	_	_	conviene	_	_	150-5	_	_	
+151-7	8505-8509	dire	_	_	_	dire	_	_	150-6	_	_	
+151-8	8510-8512	l'	_	_	_	l'	_	_	150-7	_	_	
+151-9	8513-8522	unanimità	_	_	_	unanimità	_	_	150-8	_	_	
+151-10	8523-8529	perché	_	_	_	perché	_	_	150-9	_	_	
+151-11	8530-8537	[PAUSE]	_	_	_	(.)	_	_	150-10	_	_	
+151-12	8538-8540	si	_	_	_	\[si	_	_	150-11	*->28-1	*[28]	
+151-13	8541-8546	hanno	_	_	_	hanno	_	_	150-12	*->28-2	*[28]	
+151-14	8547-8552	molte	_	_	_	molte	_	_	150-13	*->28-3	*[28]	
+151-15	8553-8556	più	_	_	_	più\]	_	_	150-14	*->28-4	*[28]	
+151-16	8557-8568	probabilità	_	_	weakly\_rising	probabilità,	_	_	150-15	_	_	
+151-17	8569-8576	insomma	_	_	_	\[insomma	_	_	150-16	*->69-1	*[69]	
+151-18	8577-8579	di	_	_	_	di:	_	_	150-17	*->69-2	*[69]	
+151-19	8580-8582	di	_	_	_	di:	_	_	150-18	*->69-3	*[69]	
+151-20	8583-8585	di	_	_	_	di	_	_	150-19	*->69-4	*[69]	
+151-21	8586-8595	azzeccare	_	_	Falling	azzeccare.	_	_	150-20	*->69-5	*[69]	
+151-22	8596-8600	sono	_	_	_	sono	_	_	150-21	*->69-6	*[69]	
+151-23	8601-8605	rari	_	_	_	ra\]ri	_	_	150-22	_	_	
+151-23.1	8601-8603	ra	_	_	_	_	_	_	_	*->69-7	*[69]	
+151-24	8606-8607	i	_	_	_	i	_	_	150-23	_	_	
+151-25	8608-8612	casi	_	_	_	casi	_	_	150-24	_	_	
+151-26	8613-8615	di	_	_	_	di	_	_	150-25	_	_	
+151-27	8616-8627	maggioranza	_	_	Falling	maggioranza.	_	_	150-26	_	_	
+151-28	8628-8630	no	_	_	weakly\_rising	no,	_	_	150-27	_	_	
+
+#Text=no perché nel~ sì
+152-1	8631-8633	no	BC	_	Falling	\[no.	_	TO007	151-0	*->28-5	*[28]	
+152-2	8634-8640	perché	_	_	_	perché	_	_	151-1	*->28-6	*[28]	
+152-3	8641-8645	nel~	_	_	_	nel~	_	_	151-2	*->28-7	*[28]	
+152-4	8646-8648	sì	BC	_	Falling	sì\].	_	_	151-3	*->28-8	*[28]	
+
+#Text=mh eh eh esatto a differenza de~ s~ delle soc~ delle società di p~
+153-1	8649-8651	mh	BC	_	Falling	\[mh.	_	TO007	152-0	*->69-8	*[69]	
+153-2	8652-8654	eh	_	FP	_	eh	_	_	152-1	*->69-9	*[69]	
+153-3	8655-8657	eh	_	FP	_	eh	_	_	152-2	*->69-10	*[69]	
+153-4	8658-8664	esatto	BC	_	Falling	e:satto.	_	_	152-3	*->69-11	*[69]	
+153-5	8665-8666	a	_	_	_	>a	_	_	152-4	*->69-12	*[69]	
+153-6	8667-8677	differenza	_	_	_	differenza	_	_	152-5	*->69-13	*[69]	
+153-7	8678-8681	de~	_	_	_	de~	_	_	152-6	*->69-14	*[69]	
+153-8	8682-8684	s~	_	_	_	s~<	_	_	152-7	*->69-15	*[69]	
+153-9	8685-8690	delle	_	_	_	delle	_	_	152-8	*->69-16	*[69]	
+153-10	8691-8695	soc~	_	_	_	soc~	_	_	152-9	*->69-17	*[69]	
+153-11	8696-8701	delle	_	_	_	delle	_	_	152-10	*->69-18	*[69]	
+153-12	8702-8709	società	_	_	_	società::	_	_	152-11	*->69-19	*[69]	
+153-13	8710-8712	di	_	_	_	di	_	_	152-12	*->69-20	*[69]	
+153-14	8713-8715	p~	_	_	_	p~\]	_	_	152-13	*->69-21	*[69]	
+
+#Text=a questo punto posto che per revocare l' uno e per revocare l' altro ci vuole l' unanimità si ricorda se nell' am~ per revocare l' amministratore nominato nell' atto costitutivo ci vuole qualcosa in più che si aggiunge all' unanimità ci vuole unanimità più
+154-1	8716-8717	a	_	_	_	a	_	TO006	153-0	_	_	
+154-2	8718-8724	questo	_	_	_	questo	_	_	153-1	_	_	
+154-3	8725-8730	punto	_	_	Falling	punto.	_	_	153-2	_	_	
+154-4	8731-8736	posto	_	_	_	posto	_	_	153-3	_	_	
+154-5	8737-8740	che	_	_	_	che	_	_	153-4	_	_	
+154-6	8741-8744	per	_	_	_	per	_	_	153-5	_	_	
+154-7	8745-8753	revocare	_	_	_	revocare	_	_	153-6	_	_	
+154-8	8754-8756	l'	_	_	_	l'	_	_	153-7	_	_	
+154-9	8757-8760	uno	_	_	_	uno	_	_	153-8	_	_	
+154-10	8761-8762	e	_	_	_	e	_	_	153-9	_	_	
+154-11	8763-8766	per	_	_	_	per	_	_	153-10	_	_	
+154-12	8767-8775	revocare	_	_	_	revocare	_	_	153-11	_	_	
+154-13	8776-8778	l'	_	_	_	l'	_	_	153-12	_	_	
+154-14	8779-8784	altro	_	_	_	altro	_	_	153-13	_	_	
+154-15	8785-8787	ci	_	_	_	ci	_	_	153-14	_	_	
+154-16	8788-8793	vuole	_	_	_	vuole	_	_	153-15	_	_	
+154-17	8794-8796	l'	_	_	_	l'	_	_	153-16	_	_	
+154-18	8797-8806	unanimità	_	_	weakly\_rising	unanimità,	_	_	153-17	_	_	
+154-19	8807-8809	si	_	_	_	si	_	_	153-18	_	_	
+154-20	8810-8817	ricorda	_	_	_	ricorda	_	_	153-19	_	_	
+154-21	8818-8820	se	_	_	weakly\_rising	se,	_	_	153-20	_	_	
+154-22	8821-8826	nell'	_	_	_	nell'	_	_	153-21	_	_	
+154-23	8827-8830	am~	_	_	_	am~	_	_	153-22	_	_	
+154-24	8831-8834	per	_	_	_	per	_	_	153-23	_	_	
+154-25	8835-8843	revocare	_	_	_	revocare	_	_	153-24	_	_	
+154-26	8844-8846	l'	_	_	_	l'	_	_	153-25	_	_	
+154-27	8847-8861	amministratore	_	_	_	amministratore	_	_	153-26	_	_	
+154-28	8862-8870	nominato	_	_	_	nominato	_	_	153-27	_	_	
+154-29	8871-8876	nell'	_	_	_	nell'	_	_	153-28	_	_	
+154-30	8877-8881	atto	_	_	_	atto	_	_	153-29	_	_	
+154-31	8882-8893	costitutivo	_	_	_	costitutivo	_	_	153-30	_	_	
+154-32	8894-8896	ci	_	_	_	ci	_	_	153-31	_	_	
+154-33	8897-8902	vuole	_	_	_	vuole	_	_	153-32	_	_	
+154-34	8903-8911	qualcosa	_	_	_	qualcosa	_	_	153-33	_	_	
+154-35	8912-8914	in	_	_	_	in	_	_	153-34	_	_	
+154-36	8915-8918	più	_	_	Rising	più?	_	_	153-35	_	_	
+154-37	8919-8922	che	_	_	_	che	_	_	153-36	_	_	
+154-38	8923-8925	si	_	_	_	si	_	_	153-37	_	_	
+154-39	8926-8934	aggiunge	_	_	_	aggiunge	_	_	153-38	_	_	
+154-40	8935-8939	all'	_	_	_	all'	_	_	153-39	_	_	
+154-41	8940-8949	unanimità	_	_	Falling	unanimità.	_	_	153-40	_	_	
+154-42	8950-8952	ci	_	_	_	ci	_	_	153-41	_	_	
+154-43	8953-8958	vuole	_	_	_	vuole	_	_	153-42	_	_	
+154-44	8959-8968	unanimità	_	_	Falling	unanimità.	_	_	153-43	_	_	
+154-45	8969-8972	più	_	_	weakly\_rising	più,	_	_	153-44	_	_	
+
+#Text=allora
+155-1	8973-8979	allora	_	_	Falling	allora.	_	TO007	154-0	_	_	
+
+#Text=quello nominato nell' atto costitutivo glielo dico io è più stabile rispetto a quello nominato con atto separato di amministratore
+156-1	8980-8986	quello	_	_	_	quello	_	TO006	155-0	_	_	
+156-2	8987-8995	nominato	_	_	_	>nominato<	_	_	155-1	_	_	
+156-3	8996-9001	nell'	_	_	_	nell'	_	_	155-2	_	_	
+156-4	9002-9006	atto	_	_	_	atto	_	_	155-3	_	_	
+156-5	9007-9018	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	155-4	_	_	
+156-6	9019-9025	glielo	_	_	_	glielo	_	_	155-5	_	_	
+156-7	9026-9030	dico	_	_	_	dico	_	_	155-6	_	_	
+156-8	9031-9033	io	_	_	weakly\_rising	io,	_	_	155-7	_	_	
+156-9	9034-9035	è	_	_	_	è	_	_	155-8	_	_	
+156-10	9036-9039	più	_	_	_	più	_	_	155-9	_	_	
+156-11	9040-9047	stabile	_	_	_	sta:bile	_	_	155-10	_	_	
+156-12	9048-9056	rispetto	_	_	_	rispetto	_	_	155-11	_	_	
+156-13	9057-9058	a	_	_	_	a	_	_	155-12	_	_	
+156-14	9059-9065	quello	_	_	_	quello	_	_	155-13	_	_	
+156-15	9066-9074	nominato	_	_	_	nominato	_	_	155-14	_	_	
+156-16	9075-9078	con	_	_	_	con	_	_	155-15	_	_	
+156-17	9079-9083	atto	_	_	_	atto	_	_	155-16	_	_	
+156-18	9084-9092	separato	_	_	_	separato	_	_	155-17	_	_	
+156-19	9093-9095	di	_	_	_	(di)	_	_	155-18	_	_	
+156-20	9096-9110	amministratore	_	_	Falling	amministratore.	_	_	155-19	_	_	
+
+#Text=più stabile vuol dire che per revocarlo non basta l' unanimità ma occorre anche
+157-1	9111-9114	più	_	_	_	più	_	TO006	156-0	_	_	
+157-2	9115-9122	stabile	_	_	_	stabile	_	_	156-1	_	_	
+157-3	9123-9127	vuol	_	_	_	vuol	_	_	156-2	_	_	
+157-4	9128-9132	dire	_	_	_	dire	_	_	156-3	_	_	
+157-5	9133-9136	che	_	_	_	che	_	_	156-4	_	_	
+157-6	9137-9140	per	_	_	_	per	_	_	156-5	_	_	
+157-7	9141-9150	revocarlo	_	_	_	revocarlo	_	_	156-6	_	_	
+157-8	9151-9154	non	_	_	_	non	_	_	156-7	_	_	
+157-9	9155-9160	basta	_	_	_	basta	_	_	156-8	_	_	
+157-10	9161-9163	l'	_	_	_	l'	_	_	156-9	_	_	
+157-11	9164-9173	unanimità	_	_	weakly\_rising	unanimità,	_	_	156-10	_	_	
+157-12	9174-9176	ma	_	_	_	ma	_	_	156-11	_	_	
+157-13	9177-9184	occorre	_	_	_	occorre	_	_	156-12	_	_	
+157-14	9185-9190	anche	_	_	Rising	anche?	_	_	156-13	_	_	
+
+#Text=una delibera del eh
+158-1	9191-9194	una	_	_	_	una	_	TO007	157-0	_	_	
+158-2	9195-9203	delibera	_	_	_	delibera	_	_	157-1	_	_	
+158-3	9204-9207	del	_	_	_	del	_	_	157-2	_	_	
+158-4	9208-9210	eh	_	FP	weakly\_rising	e::h,	_	_	157-3	_	_	
+
+#Text=qui non si parla di delibere perché siamo in una società di persone
+159-1	9211-9214	qui	_	_	_	qui	_	TO006	158-0	_	_	
+159-2	9215-9218	non	_	_	_	non	_	_	158-1	_	_	
+159-3	9219-9221	si	_	_	_	si	_	_	158-2	_	_	
+159-4	9222-9227	parla	_	_	_	parla	_	_	158-3	_	_	
+159-5	9228-9230	di	_	_	_	di	_	_	158-4	_	_	
+159-6	9231-9239	delibere	_	_	Falling	delibere.	_	_	158-5	_	_	
+159-7	9240-9246	perché	_	_	_	perché	_	_	158-6	_	_	
+159-8	9247-9252	siamo	_	_	_	siamo	_	_	158-7	_	_	
+159-9	9253-9255	in	_	_	_	in	_	_	158-8	_	_	
+159-10	9256-9259	una	_	_	_	>una<	_	_	158-9	_	_	
+159-11	9260-9267	società	_	_	_	società	_	_	158-10	_	_	
+159-12	9268-9270	di	_	_	_	di	_	_	158-11	_	_	
+159-13	9271-9278	persone	_	_	Falling	persone.	_	_	158-12	_	_	
+
+#Text=non sarà un elemento procedurale qui [PAUSE] per giustificare la revoca sarà un elemento sostanziale
+160-1	9279-9282	non	_	_	_	non	_	TO006	159-0	_	_	
+160-2	9283-9287	sarà	_	_	_	sarà	_	_	159-1	_	_	
+160-3	9288-9290	un	_	_	_	un	_	_	159-2	_	_	
+160-4	9291-9299	elemento	_	_	_	elemento	_	_	159-3	_	_	
+160-5	9300-9311	procedurale	_	_	_	procedurale	_	_	159-4	_	_	
+160-6	9312-9315	qui	_	_	Falling	qui.	_	_	159-5	_	_	
+160-7	9316-9323	[PAUSE]	_	_	_	(.)	_	_	159-6	_	_	
+160-8	9324-9327	per	_	_	_	per	_	_	159-7	_	_	
+160-9	9328-9340	giustificare	_	_	_	giustificare	_	_	159-8	_	_	
+160-10	9341-9343	la	_	_	_	la	_	_	159-9	_	_	
+160-11	9344-9350	revoca	_	_	weakly\_rising	revoca,	_	_	159-10	_	_	
+160-12	9351-9355	sarà	_	_	_	sarà	_	_	159-11	_	_	
+160-13	9356-9358	un	_	_	_	un	_	_	159-12	_	_	
+160-14	9359-9367	elemento	_	_	_	elemento	_	_	159-13	_	_	
+160-15	9368-9379	sostanziale	_	_	Falling	sostanziale.	_	_	159-14	_	_	
+
+#Text=cioè non basterà che i soci dicano n~ [PAUSE] che gli altri soci dicano non ti vogliamo più come amministratore [PAUSE] essendo n~ stato nominato nell' atto costitutivo occorrerà che adducano una
+161-1	9380-9384	cioè	_	_	_	>cioè<	_	TO006	160-0	_	_	
+161-2	9385-9388	non	_	_	_	non	_	_	160-1	_	_	
+161-3	9389-9396	basterà	_	_	_	basterà	_	_	160-2	_	_	
+161-4	9397-9400	che	_	_	_	che	_	_	160-3	_	_	
+161-5	9401-9402	i	_	_	_	i	_	_	160-4	_	_	
+161-6	9403-9407	soci	_	_	_	soci	_	_	160-5	_	_	
+161-7	9408-9414	dicano	_	_	_	dicano	_	_	160-6	_	_	
+161-8	9415-9417	n~	_	_	_	n~	_	_	160-7	_	_	
+161-9	9418-9425	[PAUSE]	_	_	_	(.)	_	_	160-8	_	_	
+161-10	9426-9429	che	_	_	_	che	_	_	160-9	_	_	
+161-11	9430-9433	gli	_	_	_	gli	_	_	160-10	_	_	
+161-12	9434-9439	altri	_	_	_	altri	_	_	160-11	_	_	
+161-13	9440-9444	soci	_	_	_	soci	_	_	160-12	_	_	
+161-14	9445-9451	dicano	_	_	_	dicano	_	_	160-13	_	_	
+161-15	9452-9455	non	_	_	_	non	_	_	160-14	_	_	
+161-16	9456-9458	ti	_	_	_	ti	_	_	160-15	_	_	
+161-17	9459-9467	vogliamo	_	_	_	vogliamo	_	_	160-16	_	_	
+161-18	9468-9471	più	_	_	_	più	_	_	160-17	_	_	
+161-19	9472-9476	come	_	_	_	come	_	_	160-18	_	_	
+161-20	9477-9491	amministratore	_	_	Falling	amministratore.	_	_	160-19	_	_	
+161-21	9492-9499	[PAUSE]	_	_	_	(.)	_	_	160-20	_	_	
+161-22	9500-9507	essendo	_	_	_	essendo	_	_	160-21	_	_	
+161-23	9508-9510	n~	_	_	_	n~	_	_	160-22	_	_	
+161-24	9511-9516	stato	_	_	_	stato	_	_	160-23	_	_	
+161-25	9517-9525	nominato	_	_	_	nominato	_	_	160-24	_	_	
+161-26	9526-9531	nell'	_	_	_	nell'	_	_	160-25	_	_	
+161-27	9532-9536	atto	_	_	_	atto	_	_	160-26	_	_	
+161-28	9537-9548	costitutivo	_	_	weakly\_rising	costitutivo,	_	_	160-27	_	_	
+161-29	9549-9558	occorrerà	_	_	_	occorrerà	_	_	160-28	_	_	
+161-30	9559-9562	che	_	_	_	che	_	_	160-29	_	_	
+161-31	9563-9571	adducano	_	_	weakly\_rising	adducano,	_	_	160-30	_	_	
+161-32	9572-9575	una	_	_	Rising	una?	_	_	160-31	_	_	
+
+#Text=una condizione
+162-1	9576-9579	una	_	_	_	una	_	TO007	161-0	_	_	
+162-2	9580-9590	condizione	_	_	Rising	condizione?	_	_	161-1	_	_	
+
+#Text=no attenzione
+163-1	9591-9593	no	_	_	Falling	no.	_	TO006	162-0	_	_	
+163-2	9594-9604	attenzione	_	_	Falling	°attenzione.°	_	_	162-1	_	_	
+
+#Text=non si adduce una condizione una condizione semmai si pone prima che adducano una giusta
+164-1	9605-9608	non	_	_	_	non	_	TO006	163-0	_	_	
+164-2	9609-9611	si	_	_	_	si	_	_	163-1	_	_	
+164-3	9612-9618	adduce	_	_	_	adduce	_	_	163-2	_	_	
+164-4	9619-9622	una	_	_	_	una	_	_	163-3	_	_	
+164-5	9623-9633	condizione	_	_	Falling	condizione.	_	_	163-4	_	_	
+164-6	9634-9637	una	_	_	_	una	_	_	163-5	_	_	
+164-7	9638-9648	condizione	_	_	_	condizione	_	_	163-6	_	_	
+164-8	9649-9655	semmai	_	_	_	semmai	_	_	163-7	_	_	
+164-9	9656-9658	si	_	_	_	si	_	_	163-8	_	_	
+164-10	9659-9663	pone	_	_	_	pone	_	_	163-9	_	_	
+164-11	9664-9669	prima	_	_	Falling	prima.	_	_	163-10	_	_	
+164-12	9670-9673	che	_	_	_	che	_	_	163-11	_	_	
+164-13	9674-9682	adducano	_	_	_	adducano	_	_	163-12	_	_	
+164-14	9683-9686	una	_	_	_	una	_	_	163-13	_	_	
+164-15	9687-9693	giusta	_	_	Rising	giusta?	_	_	163-14	_	_	
+
+#Text=eh eh una giusta causa
+165-1	9694-9696	eh	_	FP	_	eh	_	TO007	164-0	_	_	
+165-2	9697-9699	eh	_	FP	_	e:::h	_	_	164-1	_	_	
+165-3	9700-9703	una	_	_	_	una	_	_	164-2	_	_	
+165-4	9704-9710	giusta	_	_	_	giusta	_	_	164-3	_	_	
+165-5	9711-9716	causa	_	_	Falling	causa.	_	_	164-4	_	_	
+
+#Text=una giusta causa di revoca
+166-1	9717-9720	una	_	_	_	una	_	TO006	165-0	_	_	
+166-2	9721-9727	giusta	_	_	_	giusta	_	_	165-1	_	_	
+166-3	9728-9733	causa	_	_	_	causa	_	_	165-2	_	_	
+166-4	9734-9736	di	_	_	_	di	_	_	165-3	_	_	
+166-5	9737-9743	revoca	_	_	Falling	revoca.	_	_	165-4	_	_	
+
+#Text=vediamo una cosa in tema di società per azioni
+167-1	9744-9751	vediamo	_	_	_	vediamo	_	TO006	166-0	_	_	
+167-2	9752-9755	una	_	_	_	una	_	_	166-1	_	_	
+167-3	9756-9760	cosa	_	_	_	cosa	_	_	166-2	_	_	
+167-4	9761-9763	in	_	_	_	in	_	_	166-3	_	_	
+167-5	9764-9768	tema	_	_	_	tema	_	_	166-4	_	_	
+167-6	9769-9771	di	_	_	_	di	_	_	166-5	_	_	
+167-7	9772-9779	società	_	_	_	società	_	_	166-6	_	_	
+167-8	9780-9783	per	_	_	_	per	_	_	166-7	_	_	
+167-9	9784-9790	azioni	_	_	Falling	azioni.	_	_	166-8	_	_	
+
+#Text=eh mh [PAUSE] sa dirmi qual è il rapporto fra assemblea e amministratori nelle società [PAUSE] per azioni
+168-1	9791-9793	eh	_	FP[30]	_	e:::h	_	TO006	167-0	_	_	
+168-2	9794-9796	mh	_	FP[30]	_	m:::h	_	_	167-1	_	_	
+168-3	9797-9804	[PAUSE]	_	_	_	(.)	_	_	167-2	_	_	
+168-4	9805-9807	sa	_	_	_	sa	_	_	167-3	_	_	
+168-5	9808-9813	dirmi	_	_	_	dirmi	_	_	167-4	_	_	
+168-6	9814-9818	qual	_	_	_	qual	_	_	167-5	_	_	
+168-7	9819-9820	è	_	_	_	è	_	_	167-6	_	_	
+168-8	9821-9823	il	_	_	_	il	_	_	167-7	_	_	
+168-9	9824-9832	rapporto	_	_	_	rapporto	_	_	167-8	_	_	
+168-10	9833-9836	fra	_	_	_	fra	_	_	167-9	_	_	
+168-11	9837-9846	assemblea	_	_	_	assemblea	_	_	167-10	_	_	
+168-12	9847-9848	e	_	_	_	e	_	_	167-11	_	_	
+168-13	9849-9863	amministratori	_	_	_	amministratori	_	_	167-12	_	_	
+168-14	9864-9869	nelle	_	_	_	nelle	_	_	167-13	_	_	
+168-15	9870-9877	società	_	_	weakly\_rising	società,	_	_	167-14	_	_	
+168-16	9878-9885	[PAUSE]	_	_	_	(.)	_	_	167-15	_	_	
+168-17	9886-9889	per	_	_	_	per	_	_	167-16	_	_	
+168-18	9890-9896	azioni	_	_	Falling	azioni.	_	_	167-17	_	_	
+
+#Text=allo~ a~ eh gli amministratori sono nominati dal eh dall' assemblea dei soci
+169-1	9897-9902	allo~	_	_	_	>allo~<	_	TO007	168-0	_	_	
+169-2	9903-9905	a~	_	_	_	a~	_	_	168-1	_	_	
+169-3	9906-9908	eh	_	FP	_	e:::h	_	_	168-2	_	_	
+169-4	9909-9912	gli	_	_	_	gli	_	_	168-3	_	_	
+169-5	9913-9927	amministratori	_	_	_	amministratori	_	_	168-4	_	_	
+169-6	9928-9932	sono	_	_	_	sono	_	_	168-5	_	_	
+169-7	9933-9941	nominati	_	_	_	nominati	_	_	168-6	_	_	
+169-8	9942-9945	dal	_	_	_	dal	_	_	168-7	_	_	
+169-9	9946-9948	eh	_	FP	_	e::h	_	_	168-8	_	_	
+169-10	9949-9954	dall'	_	_	_	dall'	_	_	168-9	_	_	
+169-11	9955-9964	assemblea	_	_	_	assemblea	_	_	168-10	_	_	
+169-12	9965-9968	dei	_	_	_	\[dei	_	_	168-11	*->11-1	*[11]	
+169-13	9969-9973	soci	_	_	Falling	so\]ci.	_	_	168-12	_	_	
+169-13.1	9969-9971	so	_	_	_	_	_	_	_	*->11-2	*[11]	
+
+#Text=mh
+170-1	9974-9976	mh	BC	_	Falling	\[mh\].	_	TO006	169-0	*->11-3	*[11]	
+
+#Text=quindi vi è un un rapporto di subordinazione degli amministratori
+171-1	9977-9983	quindi	_	_	_	quindi	_	TO007	170-0	_	_	
+171-2	9984-9986	vi	_	_	_	vi	_	_	170-1	_	_	
+171-3	9987-9988	è	_	_	_	è	_	_	170-2	_	_	
+171-4	9989-9991	un	_	_	_	un	_	_	170-3	_	_	
+171-5	9992-9994	un	_	_	_	un	_	_	170-4	_	_	
+171-6	9995-10003	rapporto	_	_	_	rapporto	_	_	170-5	_	_	
+171-7	10004-10006	di	_	_	_	di	_	_	170-6	_	_	
+171-8	10007-10021	subordinazione	_	_	_	subordinazione	_	_	170-7	_	_	
+171-9	10022-10027	degli	_	_	_	degli	_	_	170-8	_	_	
+171-10	10028-10042	amministratori	_	_	weakly\_rising	amministratori,	_	_	170-9	_	_	
+
+#Text=un po' troppo dire subordinazione se ci sente un giuslavorista dice ah beh allora l' amministratore è un lavoratore subordinato
+172-1	10043-10045	un	_	_	_	un	_	TO006	171-0	_	_	
+172-2	10046-10049	po'	_	_	_	po'	_	_	171-1	_	_	
+172-3	10050-10056	troppo	_	_	_	troppo	_	_	171-2	_	_	
+172-4	10057-10061	dire	_	_	_	dire	_	_	171-3	_	_	
+172-5	10062-10076	subordinazione	_	_	Falling	subordinazione.	_	_	171-4	_	_	
+172-6	10077-10079	se	_	_	_	se	_	_	171-5	_	_	
+172-7	10080-10082	ci	_	_	_	ci	_	_	171-6	_	_	
+172-8	10083-10088	sente	_	_	_	sente	_	_	171-7	_	_	
+172-9	10089-10091	un	_	_	_	un	_	_	171-8	_	_	
+172-10	10092-10105	giuslavorista	_	_	_	giuslavorista	_	_	171-9	_	_	
+172-11	10106-10110	dice	_	_	_	dice	_	_	171-10	_	_	
+172-12	10111-10113	ah	_	_	_	\[ah	_	_	171-11	*->12-1	*[12]	
+172-13	10114-10117	beh	_	_	_	beh	_	_	171-12	*->12-2	*[12]	
+172-14	10118-10124	allora	_	_	_	allora\]	_	_	171-13	*->12-3	*[12]	
+172-15	10125-10127	l'	_	_	_	l'	_	_	171-14	_	_	
+172-16	10128-10142	amministratore	_	_	_	amministratore	_	_	171-15	_	_	
+172-17	10143-10144	è	_	_	_	è	_	_	171-16	_	_	
+172-18	10145-10147	un	_	_	_	un	_	_	171-17	_	_	
+172-19	10148-10158	lavoratore	_	_	_	lavoratore	_	_	171-18	_	_	
+172-20	10159-10170	subordinato	_	_	Falling	subordinato.	_	_	171-19	_	_	
+
+#Text=mh
+173-1	10171-10173	mh	_	FP	_	\[m:h\]	_	TO007	172-0	*->12-4	*[12]	
+
+#Text=vi è un rapporto di dipendenza fo~
+174-1	10174-10176	vi	_	_	_	vi	_	TO007	173-0	_	_	
+174-2	10177-10178	è	_	_	_	è	_	_	173-1	_	_	
+174-3	10179-10181	un	_	_	_	un	_	_	173-2	_	_	
+174-4	10182-10190	rapporto	_	_	_	rapporto	_	_	173-3	_	_	
+174-5	10191-10193	di	_	_	_	di	_	_	173-4	_	_	
+174-6	10194-10204	dipendenza	_	_	weakly\_rising	dipendenza,	_	_	173-5	_	_	
+174-7	10205-10208	fo~	_	_	Falling	fo~.	_	_	173-6	_	_	
+
+#Text=neanche neanche
+175-1	10209-10216	neanche	_	_	Falling	neanche.	_	TO006	174-0	_	_	
+175-2	10217-10224	neanche	_	_	Falling	neanche.	_	_	174-1	_	_	
+
+#Text=gli amministratori devono riferire eh
+176-1	10225-10228	gli	_	_	_	gli	_	TO007	175-0	_	_	
+176-2	10229-10243	amministratori	_	_	_	amministratori	_	_	175-1	_	_	
+176-3	10244-10250	devono	_	_	_	devono	_	_	175-2	_	_	
+176-4	10251-10259	riferire	_	_	weakly\_rising	riferire::,	_	_	175-3	_	_	
+176-5	10260-10262	eh	_	FP	_	e::h	_	_	175-4	_	_	
+
+#Text=no lei voleva dire un' altra cosa
+177-1	10263-10265	no	_	_	Falling	\[no.	_	TO006	176-0	*->13-1	*[13]	
+177-2	10266-10269	lei	_	_	_	lei	_	_	176-1	*->13-2	*[13]	
+177-3	10270-10276	voleva	_	_	_	voleva	_	_	176-2	*->13-3	*[13]	
+177-4	10277-10281	dire	_	_	_	dire	_	_	176-3	*->13-4	*[13]	
+177-5	10282-10285	un'	_	_	_	un'	_	_	176-4	*->13-5	*[13]	
+177-6	10286-10291	altra	_	_	_	altra	_	_	176-5	*->13-6	*[13]	
+177-7	10292-10296	cosa	_	_	Falling	cosa\].	_	_	176-6	*->13-7	*[13]	
+
+#Text=n~ n~ eh n~ nei con~ nei confronti del degli amministratori l' assemblea
+178-1	10297-10299	n~	_	_	_	\[n~	_	TO007	177-0	*->13-8	*[13]	
+178-2	10300-10302	n~	_	_	_	n~	_	_	177-1	*->13-9	*[13]	
+178-3	10303-10305	eh	_	FP	_	eh	_	_	177-2	*->13-10	*[13]	
+178-4	10306-10308	n~	_	_	_	n~	_	_	177-3	*->13-11	*[13]	
+178-5	10309-10312	nei	_	_	_	nei	_	_	177-4	*->13-12	*[13]	
+178-6	10313-10317	con~	_	_	_	con~\]	_	_	177-5	*->13-13	*[13]	
+178-7	10318-10321	nei	_	_	_	nei	_	_	177-6	_	_	
+178-8	10322-10331	confronti	_	_	_	confronti	_	_	177-7	_	_	
+178-9	10332-10335	del	_	_	_	del	_	_	177-8	_	_	
+178-10	10336-10341	degli	_	_	_	degli	_	_	177-9	_	_	
+178-11	10342-10356	amministratori	_	_	_	amministrato:ri	_	_	177-10	_	_	
+178-12	10357-10359	l'	_	_	_	l'	_	_	177-11	_	_	
+178-13	10360-10369	assemblea	_	_	weakly\_rising	assemblea,	_	_	177-12	_	_	
+
+#Text=lei voleva dire un' altra cosa che gli amministratori [PAUSE] vengono
+179-1	10370-10373	lei	_	_	_	lei	_	TO006	178-0	_	_	
+179-2	10374-10380	voleva	_	_	_	voleva	_	_	178-1	_	_	
+179-3	10381-10385	dire	_	_	_	dire	_	_	178-2	_	_	
+179-4	10386-10389	un'	_	_	_	un'	_	_	178-3	_	_	
+179-5	10390-10395	altra	_	_	_	altra	_	_	178-4	_	_	
+179-6	10396-10400	cosa	_	_	Falling	cosa.	_	_	178-5	_	_	
+179-7	10401-10404	che	_	_	weakly\_rising	che,	_	_	178-6	_	_	
+179-8	10405-10408	gli	_	_	_	gli	_	_	178-7	_	_	
+179-9	10409-10423	amministratori	_	_	weakly\_rising	amministratori,	_	_	178-8	_	_	
+179-10	10424-10431	[PAUSE]	_	_	_	(.)	_	_	178-9	_	_	
+179-11	10432-10439	vengono	_	_	weakly\_rising	vengono,	_	_	178-10	_	_	
+
+#Text=nominati
+180-1	10440-10448	nominati	_	_	Falling	nominati.	_	TO007	179-0	_	_	
+
+#Text=dall' as~ dall' assemblea
+181-1	10449-10454	dall'	_	_	_	dall'	_	TO007	180-0	_	_	
+181-2	10455-10458	as~	_	_	_	as~	_	_	180-1	_	_	
+181-3	10459-10464	dall'	_	_	_	dall'	_	_	180-2	_	_	
+181-4	10465-10474	assemblea	_	_	Falling	assem\[blea\].	_	_	180-3	_	_	
+181-4.1	10470-10474	blea	_	_	_	_	_	_	_	*->15-1	*[15]	
+
+#Text=esatto
+182-1	10475-10481	esatto	BC	_	Falling	\[esat\]to.	_	TO006	181-0	_	_	
+182-1.1	10475-10479	esat	_	_	_	_	_	_	_	*->15-1|*->15-2	*[15]|*[15]	
+
+#Text=questo è il punto n~ da dedurne da questo che le siano sottoposti questo è un altro discorso sono nomina~
+183-1	10482-10488	questo	_	_	_	questo	_	TO006	182-0	_	_	
+183-2	10489-10490	è	_	_	_	è	_	_	182-1	_	_	
+183-3	10491-10493	il	_	_	_	il	_	_	182-2	_	_	
+183-4	10494-10499	punto	_	_	Falling	punto.	_	_	182-3	_	_	
+183-5	10500-10502	n~	_	_	_	n~	_	_	182-4	_	_	
+183-6	10503-10505	da	_	_	weakly\_rising	da,	_	_	182-5	_	_	
+183-7	10506-10513	dedurne	_	_	_	dedurne	_	_	182-6	_	_	
+183-8	10514-10516	da	_	_	_	da	_	_	182-7	_	_	
+183-9	10517-10523	questo	_	_	_	questo	_	_	182-8	_	_	
+183-10	10524-10527	che	_	_	_	che	_	_	182-9	_	_	
+183-11	10528-10530	le	_	_	_	le	_	_	182-10	_	_	
+183-12	10531-10536	siano	_	_	_	siano	_	_	182-11	_	_	
+183-13	10537-10547	sottoposti	_	_	weakly\_rising	sottoposti,	_	_	182-12	_	_	
+183-14	10548-10554	questo	_	_	_	questo	_	_	182-13	_	_	
+183-15	10555-10556	è	_	_	_	è	_	_	182-14	_	_	
+183-16	10557-10559	un	_	_	_	un	_	_	182-15	_	_	
+183-17	10560-10565	altro	_	_	_	al\[tro	_	_	182-16	_	_	
+183-17.1	10562-10565	tro	_	_	_	_	_	_	_	*->26-1	*[26]	
+183-18	10566-10574	discorso	_	_	Falling	discorso.	_	_	182-17	*->26-2	*[26]	
+183-18.1	10566-10567	d	_	_	_	_	_	_	_	*->26-1	*[26]	
+183-19	10575-10579	sono	_	_	_	sono	_	_	182-18	*->26-3	*[26]	
+183-20	10580-10587	nomina~	_	_	_	nomina~\]	_	_	182-19	*->26-4	*[26]	
+
+#Text=no io poi stavo pensando anche al fatto che [PAUSE] l' assemblea deve [PAUSE] o può [PAUSE] ha tutta la discrezionalità eh proporre degli indirizzi proporre eh
+184-1	10588-10590	no	_	_	weakly\_rising	\[no,	_	TO007	183-0	*->26-5	*[26]	
+184-2	10591-10593	io	_	_	_	io	_	_	183-1	*->26-6	*[26]	
+184-3	10594-10597	poi	_	_	_	poi	_	_	183-2	*->26-7	*[26]	
+184-4	10598-10603	stavo	_	_	_	stavo	_	_	183-3	*->26-8	*[26]	
+184-5	10604-10612	pensando	_	_	_	pensando	_	_	183-4	*->26-9	*[26]	
+184-6	10613-10618	anche	_	_	_	anche	_	_	183-5	*->26-10	*[26]	
+184-7	10619-10621	al	_	_	_	al\]	_	_	183-6	*->26-11	*[26]	
+184-8	10622-10627	fatto	_	_	_	fatto	_	_	183-7	_	_	
+184-9	10628-10631	che	_	_	_	che	_	_	183-8	_	_	
+184-10	10632-10639	[PAUSE]	_	_	_	(.)	_	_	183-9	_	_	
+184-11	10640-10642	l'	_	_	_	l'	_	_	183-10	_	_	
+184-12	10643-10652	assemblea	_	_	_	assemblea	_	_	183-11	_	_	
+184-13	10653-10657	deve	_	_	weakly\_rising	deve,	_	_	183-12	_	_	
+184-14	10658-10665	[PAUSE]	_	_	_	(.)	_	_	183-13	_	_	
+184-15	10666-10667	o	_	_	_	o	_	_	183-14	_	_	
+184-16	10668-10671	può	_	_	weakly\_rising	può,	_	_	183-15	_	_	
+184-17	10672-10679	[PAUSE]	_	_	_	(.)	_	_	183-16	_	_	
+184-18	10680-10682	ha	_	_	_	ha:	_	_	183-17	_	_	
+184-19	10683-10688	tutta	_	_	_	tutta	_	_	183-18	_	_	
+184-20	10689-10691	la	_	_	_	la	_	_	183-19	_	_	
+184-21	10692-10707	discrezionalità	_	_	_	discrezionalità	_	_	183-20	_	_	
+184-22	10708-10710	eh	_	FP	_	eh	_	_	183-21	_	_	
+184-23	10711-10719	proporre	_	_	_	proporre	_	_	183-22	_	_	
+184-24	10720-10725	degli	_	_	_	degli	_	_	183-23	_	_	
+184-25	10726-10735	indirizzi	_	_	weakly\_rising	indirizzi,	_	_	183-24	_	_	
+184-26	10736-10744	proporre	_	_	_	proporre:	_	_	183-25	_	_	
+184-27	10745-10747	eh	_	FP	_	e:h	_	_	183-26	_	_	
+
+#Text=è sicuro [PAUSE] che l' amm~ mh oggi l' assemblea possa proporre indirizzi agli amministratori
+185-1	10748-10749	è	_	_	_	è	_	TO006	184-0	_	_	
+185-2	10750-10756	sicuro	_	_	Falling	sicuro.	_	_	184-1	_	_	
+185-3	10757-10764	[PAUSE]	_	_	_	(.)	_	_	184-2	_	_	
+185-4	10765-10768	che	_	_	_	che	SR[37]	_	184-3	_	_	
+185-5	10769-10771	l'	_	_	_	l'	SR[37]	_	184-4	_	_	
+185-6	10772-10776	amm~	_	_	_	amm~	SR[37]	_	184-5	_	_	
+185-7	10777-10779	mh	_	FP	_	mh	SR[37]	_	184-6	_	_	
+185-8	10780-10784	oggi	_	_	_	oggi	SR[37]	_	184-7	_	_	
+185-9	10785-10787	l'	_	_	_	l'	SR[37]	_	184-8	_	_	
+185-10	10788-10797	assemblea	_	_	_	assemblea	SR[37]	_	184-9	_	_	
+185-11	10798-10803	possa	_	_	_	possa	_	_	184-10	_	_	
+185-12	10804-10812	proporre	_	_	_	proporre	_	_	184-11	_	_	
+185-13	10813-10822	indirizzi	_	_	_	indirizzi	_	_	184-12	_	_	
+185-14	10823-10827	agli	_	_	_	agli	_	_	184-13	_	_	
+185-15	10828-10842	amministratori	_	_	Rising	amministratori?	_	_	184-14	_	_	
+
+#Text=cioè p~ potrebbe farlo [PAUSE] però n eh non accade nella n~ n~ nella pratica
+186-1	10843-10847	cioè	_	_	_	>cioè<	_	TO007	185-0	_	_	
+186-2	10848-10850	p~	_	_	_	p~	_	_	185-1	_	_	
+186-3	10851-10859	potrebbe	_	_	_	potrebbe	_	_	185-2	_	_	
+186-4	10860-10865	farlo	_	_	Falling	farlo.	_	_	185-3	_	_	
+186-5	10866-10873	[PAUSE]	_	_	_	(.)	_	_	185-4	_	_	
+186-6	10874-10878	però	_	_	_	però	_	_	185-5	_	_	
+186-7	10879-10880	n	_	_	_	n	_	_	185-6	_	_	
+186-8	10881-10883	eh	_	FP	_	e:::::h	_	_	185-7	_	_	
+186-9	10884-10887	non	_	_	_	non	_	_	185-8	_	_	
+186-10	10888-10894	accade	_	_	_	accade	_	_	185-9	_	_	
+186-11	10895-10900	nella	_	_	_	nella::	_	_	185-10	_	_	
+186-12	10901-10903	n~	_	_	_	n~	_	_	185-11	_	_	
+186-13	10904-10906	n~	_	_	_	n~	_	_	185-12	_	_	
+186-14	10907-10912	nella	_	_	_	nella	_	_	185-13	_	_	
+186-15	10913-10920	pratica	_	_	Falling	pratica.	_	_	185-14	_	_	
+
+#Text=non c' è questa democraticità
+187-1	10921-10924	non	_	_	_	non	_	TO007	186-0	_	_	
+187-2	10925-10927	c'	_	_	_	c'	_	_	186-1	_	_	
+187-3	10928-10929	è	_	_	_	è	_	_	186-2	_	_	
+187-4	10930-10936	questa	_	_	_	questa	_	_	186-3	_	_	
+187-5	10937-10950	democraticità	_	_	Falling	democraticità.	_	_	186-4	_	_	
+
+#Text=e non c' è quello che mi sta dicendo è appunto il cosiddetto modello democratico che era vigente nel
+188-1	10951-10952	e	_	_	_	e	_	TO006	187-0	_	_	
+188-2	10953-10956	non	_	_	_	non	_	_	187-1	_	_	
+188-3	10957-10959	c'	_	_	_	c'	_	_	187-2	_	_	
+188-4	10960-10961	è	_	_	Falling	è.	_	_	187-3	_	_	
+188-5	10962-10968	quello	_	_	_	quello	_	_	187-4	_	_	
+188-6	10969-10972	che	_	_	_	che	_	_	187-5	_	_	
+188-7	10973-10975	mi	_	_	_	mi	_	_	187-6	_	_	
+188-8	10976-10979	sta	_	_	_	sta	_	_	187-7	_	_	
+188-9	10980-10987	dicendo	_	_	_	dicendo	_	_	187-8	_	_	
+188-10	10988-10989	è	_	_	_	è	_	_	187-9	_	_	
+188-11	10990-10997	appunto	_	_	_	appunto	_	_	187-10	_	_	
+188-12	10998-11000	il	_	_	_	il	_	_	187-11	_	_	
+188-13	11001-11011	cosiddetto	_	_	_	cosiddetto	_	_	187-12	_	_	
+188-14	11012-11019	modello	_	_	_	modello	_	_	187-13	_	_	
+188-15	11020-11031	democratico	_	_	weakly\_rising	democratico,	_	_	187-14	_	_	
+188-16	11032-11035	che	_	_	_	che	_	_	187-15	_	_	
+188-17	11036-11039	era	_	_	_	era	_	_	187-16	_	_	
+188-18	11040-11047	vigente	_	_	weakly\_rising	vigente,	_	_	187-17	_	_	
+188-19	11048-11051	nel	_	_	Rising	nel?	_	_	187-18	_	_	
+
+#Text=nel medioevo
+189-1	11052-11055	nel	_	_	_	nel	_	TO007	188-0	_	_	
+189-2	11056-11064	medioevo	_	_	Rising	medioevo?	_	_	188-1	_	_	
+
+#Text=un po' dopo non c' era nel medievo l' esse pi a
+190-1	11065-11067	un	_	_	_	(un)	_	TO006	189-0	_	_	
+190-2	11068-11071	po'	_	_	_	po'	_	_	189-1	_	_	
+190-3	11072-11076	dopo	_	_	Falling	dopo.	_	_	189-2	_	_	
+190-4	11077-11080	non	_	_	_	non	_	_	189-3	_	_	
+190-5	11081-11083	c'	_	_	_	c'	_	_	189-4	_	_	
+190-6	11084-11087	era	_	_	_	era	_	_	189-5	_	_	
+190-7	11088-11091	nel	_	_	_	nel	_	_	189-6	_	_	
+190-8	11092-11099	medievo	_	_	_	\[medievo\]	_	_	189-7	*->43-1	*[43]	
+190-9	11100-11102	l'	_	_	_	l'	_	_	189-8	_	_	
+190-10	11103-11107	esse	_	_	_	esse	_	_	189-9	_	_	
+190-11	11108-11110	pi	_	_	_	pi	_	_	189-10	_	_	
+190-12	11111-11112	a	_	_	Falling	a.	_	_	189-11	_	_	
+
+#Text=mh
+191-1	11113-11115	mh	_	FP	_	\[m:::h\]	_	TO007	190-0	*->43-2	*[43]	
+
+#Text=si parla di modello democratico per le esse pi a del
+192-1	11116-11118	si	_	_	_	si	_	TO006	191-0	_	_	
+192-2	11119-11124	parla	_	_	_	parla	_	_	191-1	_	_	
+192-3	11125-11127	di	_	_	_	di	_	_	191-2	_	_	
+192-4	11128-11135	modello	_	_	_	modello	_	_	191-3	_	_	
+192-5	11136-11147	democratico	_	_	weakly\_rising	democratico,	_	_	191-4	_	_	
+192-6	11148-11151	per	_	_	_	per	_	_	191-5	_	_	
+192-7	11152-11154	le	_	_	_	le	_	_	191-6	_	_	
+192-8	11155-11159	esse	_	_	_	esse	_	_	191-7	_	_	
+192-9	11160-11162	pi	_	_	_	pi	_	_	191-8	_	_	
+192-10	11163-11164	a	_	_	weakly\_rising	a,	_	_	191-9	_	_	
+192-11	11165-11168	del	_	_	Rising	del?	_	_	191-10	_	_	
+
+#Text=mille e
+193-1	11169-11174	mille	_	_	weakly\_rising	mille,	_	TO006	192-0	_	_	
+193-2	11175-11176	e	_	_	Rising	e?	_	_	192-1	_	_	
+
+#Text=ah non me lo ricord~ eh del eh
+194-1	11177-11179	ah	_	_	Falling	ah.	_	TO007	193-0	_	_	
+194-2	11180-11183	non	_	_	_	non	_	_	193-1	_	_	
+194-3	11184-11186	me	_	_	_	me	_	_	193-2	_	_	
+194-4	11187-11189	lo	_	_	_	lo	_	_	193-3	_	_	
+194-5	11190-11197	ricord~	_	_	Falling	ricord~.	_	_	193-4	_	_	
+194-6	11198-11200	eh	_	FP	_	e::h	_	_	193-5	_	_	
+194-7	11201-11204	del	_	_	_	del	_	_	193-6	_	_	
+194-8	11205-11207	eh	_	FP	weakly\_rising	e::h,	_	_	193-7	_	_	
+
+#Text=non è una domanda della parte che porta oggi però [PAUSE] serve per rimetterci
+195-1	11208-11211	non	_	_	_	non	_	TO006	194-0	_	_	
+195-2	11212-11213	è	_	_	_	è	_	_	194-1	_	_	
+195-3	11214-11217	una	_	_	_	una	_	_	194-2	_	_	
+195-4	11218-11225	domanda	_	_	_	domanda	_	_	194-3	_	_	
+195-5	11226-11231	della	_	_	_	della	_	_	194-4	_	_	
+195-6	11232-11237	parte	_	_	_	parte	_	_	194-5	_	_	
+195-7	11238-11241	che	_	_	_	che	_	_	194-6	_	_	
+195-8	11242-11247	porta	_	_	_	porta	_	_	194-7	_	_	
+195-9	11248-11252	oggi	_	_	Falling	oggi.	_	_	194-8	_	_	
+195-10	11253-11257	però	_	_	weakly\_rising	però,	_	_	194-9	_	_	
+195-11	11258-11265	[PAUSE]	_	_	_	(.)	_	_	194-10	_	_	
+195-12	11266-11271	serve	_	_	_	serve	_	_	194-11	_	_	
+195-13	11272-11275	per	_	_	_	per	_	_	194-12	_	_	
+195-14	11276-11286	rimetterci	_	_	_	ri\[metterci\]	_	_	194-13	_	_	
+195-14.1	11278-11286	metterci	_	_	_	_	_	_	_	*->70-1	*[70]	
+
+#Text=prima della riforma del eh del settanta quattro
+196-1	11287-11292	prima	_	_	_	\[prima	_	TO007	195-0	*->70-2	*[70]	
+196-1.1	11287-11288	p	_	_	_	_	_	_	_	*->70-1	*[70]	
+196-2	11293-11298	della	_	_	_	della	_	_	195-1	*->70-3	*[70]	
+196-3	11299-11306	riforma	_	_	_	rifor\]ma	_	_	195-2	_	_	
+196-3.1	11299-11304	rifor	_	_	_	_	_	_	_	*->70-4	*[70]	
+196-4	11307-11310	del	_	_	_	del	_	_	195-3	_	_	
+196-5	11311-11313	eh	_	FP	_	e::::h	_	_	195-4	_	_	
+196-6	11314-11317	del	_	_	_	del	_	_	195-5	_	_	
+196-7	11318-11326	settanta	_	_	_	settanta::	_	_	195-6	_	_	
+196-8	11327-11334	quattro	_	_	weakly\_rising	quat\[tro\],	_	_	195-7	_	_	
+196-8.1	11331-11334	tro	_	_	_	_	_	_	_	*->20-1	*[20]	
+
+#Text=sì ma an che prim~ prima del novecento della s~ della società [PAUSE] per azioni dell' ottocento lì si parla di principio democratico l' assemblea poteva dare ordini oggi no perché no mi spieghi il perché
+197-1	11335-11337	sì	BC	_	Falling	\[sì.	_	TO006	196-0	*->20-1|*->20-2	*[20]|*[20]	
+197-2	11338-11340	ma	_	_	_	ma	_	_	196-1	*->20-3	*[20]	
+197-2.1	11338-11338		_	_	_	_	_	_	_	*->20-1	*[20]	
+197-3	11341-11343	an	_	_	_	an\]	_	_	196-2	*->20-4	*[20]	
+197-4	11344-11347	che	_	_	_	che	_	_	196-3	_	_	
+197-5	11348-11353	prim~	_	_	_	prim~	_	_	196-4	_	_	
+197-6	11354-11359	prima	_	_	_	prima	_	_	196-5	_	_	
+197-7	11360-11363	del	_	_	_	del	_	_	196-6	_	_	
+197-8	11364-11373	novecento	_	_	Falling	novecento.	_	_	196-7	_	_	
+197-9	11374-11379	della	_	_	weakly\_rising	della,	_	_	196-8	_	_	
+197-10	11380-11382	s~	_	_	_	s~	_	_	196-9	_	_	
+197-11	11383-11388	della	_	_	_	della	_	_	196-10	_	_	
+197-12	11389-11396	società	_	_	weakly\_rising	società,	_	_	196-11	_	_	
+197-13	11397-11404	[PAUSE]	_	_	_	(.)	_	_	196-12	_	_	
+197-14	11405-11408	per	_	_	_	per	_	_	196-13	_	_	
+197-15	11409-11415	azioni	_	_	_	azioni	_	_	196-14	_	_	
+197-16	11416-11421	dell'	_	_	_	dell'	_	_	196-15	_	_	
+197-17	11422-11431	ottocento	_	_	Falling	ottocento.	_	_	196-16	_	_	
+197-18	11432-11434	lì	_	_	_	lì	_	_	196-17	_	_	
+197-19	11435-11437	si	_	_	_	si	_	_	196-18	_	_	
+197-20	11438-11443	parla	_	_	_	parla	_	_	196-19	_	_	
+197-21	11444-11446	di	_	_	_	di	_	_	196-20	_	_	
+197-22	11447-11456	principio	_	_	_	principio	_	_	196-21	_	_	
+197-23	11457-11468	democratico	_	_	Falling	democratico.	_	_	196-22	_	_	
+197-24	11469-11471	l'	_	_	_	l'	_	_	196-23	_	_	
+197-25	11472-11481	assemblea	_	_	_	assemblea	_	_	196-24	_	_	
+197-26	11482-11488	poteva	_	_	_	poteva	_	_	196-25	_	_	
+197-27	11489-11493	dare	_	_	_	dare	_	_	196-26	_	_	
+197-28	11494-11500	ordini	_	_	Falling	ordini.	_	_	196-27	_	_	
+197-29	11501-11505	oggi	_	_	weakly\_rising	oggi,	_	_	196-28	_	_	
+197-30	11506-11508	no	_	_	Falling	no.	_	_	196-29	_	_	
+197-31	11509-11515	perché	_	_	Rising	perché?	_	_	196-30	_	_	
+197-32	11516-11518	no	_	_	_	no	_	_	196-31	_	_	
+197-33	11519-11521	mi	_	_	_	mi	_	_	196-32	_	_	
+197-34	11522-11529	spieghi	_	_	_	spieghi	_	_	196-33	_	_	
+197-35	11530-11532	il	_	_	_	il	_	_	196-34	_	_	
+197-36	11533-11539	perché	_	_	Falling	perché.	_	_	196-35	_	_	
+
+#Text=quindi oggi l' amministrato~ l eh l' assemblea non può dare ordini al eh all' amministratore
+198-1	11540-11546	quindi	_	_	Falling	quindi.	_	TO007	197-0	_	_	
+198-2	11547-11551	oggi	_	_	weakly\_rising	oggi,	_	_	197-1	_	_	
+198-3	11552-11554	l'	_	_	_	l'	_	_	197-2	_	_	
+198-4	11555-11568	amministrato~	_	_	_	amministrato~	_	_	197-3	_	_	
+198-5	11569-11570	l	_	_	_	l	_	_	197-4	_	_	
+198-6	11571-11573	eh	_	FP	_	e::h	_	_	197-5	_	_	
+198-7	11574-11576	l'	_	_	_	l'	_	_	197-6	_	_	
+198-8	11577-11586	assemblea	_	_	_	assemblea	_	_	197-7	_	_	
+198-9	11587-11590	non	_	_	_	non	_	_	197-8	_	_	
+198-10	11591-11594	può	_	_	_	può	_	_	197-9	_	_	
+198-11	11595-11599	dare	_	_	_	dare	_	_	197-10	_	_	
+198-12	11600-11606	ordini	_	_	weakly\_rising	ordini,	_	_	197-11	_	_	
+198-13	11607-11609	al	_	_	_	al	_	_	197-12	_	_	
+198-14	11610-11612	eh	_	FP	_	e::h	_	_	197-13	_	_	
+198-15	11613-11617	all'	_	_	_	all'	_	_	197-14	_	_	
+198-16	11618-11632	amministratore	_	_	Falling	amministrato\[re\].	_	_	197-15	_	_	
+198-16.1	11630-11632	re	_	_	_	_	_	_	_	*->19-1	*[19]	
+
+#Text=non so perché lei ha detto questa cosa che l' ha messa [PAUSE] nei guai perché una volta che lei mi ha detto che l' assemblea nomina gli amministratori [PAUSE] passavamo direttamente al tema della revoca
+199-1	11633-11636	non	_	_	_	\[non\]	_	TO006	198-0	*->19-1|*->19-2	*[19]|*[19]	
+199-2	11637-11639	so	_	_	_	so	_	_	198-1	*->19-1	*[19]	
+199-3	11640-11646	perché	_	_	_	perché	_	_	198-2	_	_	
+199-3.1	11640-11644	perc	_	_	_	_	_	_	_	*->19-1	*[19]	
+199-4	11647-11650	lei	_	_	_	lei	_	_	198-3	_	_	
+199-5	11651-11653	ha	_	_	_	ha	_	_	198-4	_	_	
+199-6	11654-11659	detto	_	_	weakly\_rising	detto,	_	_	198-5	_	_	
+199-7	11660-11666	questa	_	_	_	questa	_	_	198-6	_	_	
+199-8	11667-11671	cosa	_	_	_	cosa	_	_	198-7	_	_	
+199-9	11672-11675	che	_	_	_	che	_	_	198-8	_	_	
+199-10	11676-11678	l'	_	_	_	l'	_	_	198-9	_	_	
+199-11	11679-11681	ha	_	_	_	ha	_	_	198-10	_	_	
+199-12	11682-11687	messa	_	_	weakly\_rising	messa,	_	_	198-11	_	_	
+199-13	11688-11695	[PAUSE]	_	_	_	(.)	_	_	198-12	_	_	
+199-14	11696-11699	nei	_	_	_	nei	_	_	198-13	_	_	
+199-15	11700-11704	guai	_	_	Falling	guai.	_	_	198-14	_	_	
+199-16	11705-11711	perché	_	_	_	perché	_	_	198-15	_	_	
+199-17	11712-11715	una	_	_	_	una	_	_	198-16	_	_	
+199-18	11716-11721	volta	_	_	_	volta	_	_	198-17	_	_	
+199-19	11722-11725	che	_	_	_	che	_	_	198-18	_	_	
+199-20	11726-11729	lei	_	_	_	lei	_	_	198-19	_	_	
+199-21	11730-11732	mi	_	_	_	mi	_	_	198-20	_	_	
+199-22	11733-11735	ha	_	_	_	ha	_	_	198-21	_	_	
+199-23	11736-11741	detto	_	_	_	detto	_	_	198-22	_	_	
+199-24	11742-11745	che	_	_	_	che	_	_	198-23	_	_	
+199-25	11746-11748	l'	_	_	_	l'	_	_	198-24	_	_	
+199-26	11749-11758	assemblea	_	_	_	assemblea	_	_	198-25	_	_	
+199-27	11759-11765	nomina	_	_	_	nomina	_	_	198-26	_	_	
+199-28	11766-11769	gli	_	_	_	gli	_	_	198-27	_	_	
+199-29	11770-11784	amministratori	_	_	weakly\_rising	amministratori,	_	_	198-28	_	_	
+199-30	11785-11792	[PAUSE]	_	_	_	(.)	_	_	198-29	_	_	
+199-31	11793-11802	passavamo	_	_	_	passavamo	_	_	198-30	_	_	
+199-32	11803-11815	direttamente	_	_	_	direttamente	_	_	198-31	_	_	
+199-33	11816-11818	al	_	_	_	al	_	_	198-32	_	_	
+199-34	11819-11823	tema	_	_	_	tema	_	_	198-33	_	_	
+199-35	11824-11829	della	_	_	_	della	_	_	198-34	_	_	
+199-36	11830-11836	revoca	_	_	Falling	revoca.	_	_	198-35	_	_	
+
+#Text=li nomina [PAUSE] e eventualmente
+200-1	11837-11839	li	_	_	_	li	_	TO006	199-0	_	_	
+200-2	11840-11846	nomina	_	_	weakly\_rising	nomina,	_	_	199-1	_	_	
+200-3	11847-11854	[PAUSE]	_	_	_	(.)	_	_	199-2	_	_	
+200-4	11855-11856	e	_	_	weakly\_rising	e,	_	_	199-3	_	_	
+200-5	11857-11870	eventualmente	_	_	weakly\_rising	eventualmente,	_	_	199-4	_	_	
+
+#Text=li revoca
+201-1	11871-11873	li	_	_	_	li	_	TO007	200-0	_	_	
+201-2	11874-11880	revoca	_	_	Falling	revoca.	_	_	200-1	_	_	
+
+#Text=li revoca
+202-1	11881-11883	li	BC[13]	_	_	li	_	TO006	201-0	_	_	
+202-2	11884-11890	revoca	BC[13]	_	Falling	revoca.	_	_	201-1	_	_	
+
+#Text=questo [PAUSE] è una cosa diversa dal dare ordini no capisce li nomina e li revoca a questo punto lei [PAUSE] senza problemi [PAUSE] diciamo [PAUSE] di maggiore complessità mi dica in che casi può revocarli
+203-1	11891-11897	questo	_	_	weakly\_rising	questo,	_	TO006	202-0	_	_	
+203-2	11898-11905	[PAUSE]	_	_	_	(.)	_	_	202-1	_	_	
+203-3	11906-11907	è	_	_	_	è	_	_	202-2	_	_	
+203-4	11908-11911	una	_	_	_	una	_	_	202-3	_	_	
+203-5	11912-11916	cosa	_	_	_	cosa	_	_	202-4	_	_	
+203-6	11917-11924	diversa	_	_	_	diversa	_	_	202-5	_	_	
+203-7	11925-11928	dal	_	_	_	dal	_	_	202-6	_	_	
+203-8	11929-11933	dare	_	_	_	dare	_	_	202-7	_	_	
+203-9	11934-11940	ordini	_	_	weakly\_rising	o:rdini,	_	_	202-8	_	_	
+203-10	11941-11943	no	_	_	Rising	no?	_	_	202-9	_	_	
+203-11	11944-11951	capisce	_	_	Rising	capisce?	_	_	202-10	_	_	
+203-12	11952-11954	li	_	_	_	li	_	_	202-11	_	_	
+203-13	11955-11961	nomina	_	_	weakly\_rising	nomina,	_	_	202-12	_	_	
+203-14	11962-11963	e	_	_	_	e	_	_	202-13	_	_	
+203-15	11964-11966	li	_	_	_	li	_	_	202-14	_	_	
+203-16	11967-11973	revoca	_	_	Falling	revoca.	_	_	202-15	_	_	
+203-17	11974-11975	a	_	_	_	a	_	_	202-16	_	_	
+203-18	11976-11982	questo	_	_	_	questo	_	_	202-17	_	_	
+203-19	11983-11988	punto	_	_	_	punto	_	_	202-18	_	_	
+203-20	11989-11992	lei	_	_	weakly\_rising	\[lei,	_	_	202-19	*->80-1	*[80]	
+203-21	11993-12000	[PAUSE]	_	_	_	(.)	_	_	202-20	_	_	
+203-21.1	11993-11996	[PA	_	_	_	_	_	_	_	*->80-2	*[80]	
+203-22	12001-12006	senza	_	_	_	senza	_	_	202-21	*->80-3	*[80]	
+203-23	12007-12015	problemi	_	_	_	problemi\]	_	_	202-22	*->80-4	*[80]	
+203-24	12016-12023	[PAUSE]	_	_	_	(.)	_	_	202-23	_	_	
+203-25	12024-12031	diciamo	_	_	weakly\_rising	diciamo,	_	_	202-24	_	_	
+203-26	12032-12039	[PAUSE]	_	_	_	(.)	_	_	202-25	_	_	
+203-27	12040-12042	di	_	_	weakly\_rising	di,	_	_	202-26	_	_	
+203-28	12043-12051	maggiore	_	_	_	maggiore	_	_	202-27	_	_	
+203-29	12052-12063	complessità	_	_	weakly\_rising	complessità,	_	_	202-28	_	_	
+203-30	12064-12066	mi	_	_	_	mi	_	_	202-29	_	_	
+203-31	12067-12071	dica	_	_	_	dica	_	_	202-30	_	_	
+203-32	12072-12074	in	_	_	_	in	_	_	202-31	_	_	
+203-33	12075-12078	che	_	_	_	che	_	_	202-32	_	_	
+203-34	12079-12083	casi	_	_	_	casi	_	_	202-33	_	_	
+203-35	12084-12087	può	_	_	_	può	_	_	202-34	_	_	
+203-36	12088-12097	revocarli	_	_	Falling	revocarli.	_	_	202-35	_	_	
+
+#Text=no ma più che ordini [PAUSE] mh
+204-1	12098-12100	no	_	_	Falling	\[no.	_	TO007	203-0	*->80-5	*[80]	
+204-2	12101-12103	ma	_	_	_	ma	_	_	203-1	*->80-6	*[80]	
+204-3	12104-12107	più	_	_	_	più	_	_	203-2	*->80-7	*[80]	
+204-4	12108-12111	che	_	_	_	che	_	_	203-3	*->80-8	*[80]	
+204-5	12112-12118	ordini	_	_	weakly\_rising	ordini,	_	_	203-4	*->80-9	*[80]	
+204-6	12119-12126	[PAUSE]	_	_	_	(.)	_	_	203-5	_	_	
+204-6.1	12119-12122	[PA	_	_	_	_	_	_	_	*->80-10	*[80]	
+204-7	12127-12129	mh	BC	_	Falling	mh\].	_	_	203-6	*->80-11	*[80]	
+
+#Text=o se può o se ci sono dei casi o se [PAUSE] questa revoca è [PAUSE] completi lei
+205-1	12130-12131	o	_	_	_	o	_	TO006	204-0	_	_	
+205-2	12132-12134	se	_	_	_	se	_	_	204-1	_	_	
+205-3	12135-12138	può	_	_	weakly\_rising	può,	_	_	204-2	_	_	
+205-4	12139-12140	o	_	_	_	o	_	_	204-3	_	_	
+205-5	12141-12143	se	_	_	_	se	_	_	204-4	_	_	
+205-6	12144-12146	ci	_	_	_	ci	_	_	204-5	_	_	
+205-7	12147-12151	sono	_	_	_	sono	_	_	204-6	_	_	
+205-8	12152-12155	dei	_	_	_	dei	_	_	204-7	_	_	
+205-9	12156-12160	casi	_	_	Falling	casi.	_	_	204-8	_	_	
+205-10	12161-12162	o	_	_	_	o	_	_	204-9	_	_	
+205-11	12163-12165	se	_	_	weakly\_rising	se,	_	_	204-10	_	_	
+205-12	12166-12173	[PAUSE]	_	_	_	(.)	_	_	204-11	_	_	
+205-13	12174-12180	questa	_	_	_	questa	_	_	204-12	_	_	
+205-14	12181-12187	revoca	_	_	_	revoca	_	_	204-13	_	_	
+205-15	12188-12189	è	_	_	weakly\_rising	è,	_	_	204-14	_	_	
+205-16	12190-12197	[PAUSE]	_	_	_	(.)	_	_	204-15	_	_	
+205-17	12198-12206	completi	_	_	_	comple\[ti	_	_	204-16	_	_	
+205-17.1	12204-12206	ti	_	_	_	_	_	_	_	*->55-1	*[55]	
+205-18	12207-12210	lei	_	_	Falling	lei\].	_	_	204-17	*->55-1|*->55-2	*[55]|*[55]	
+
+#Text=ci s~ ci sono dei d~ dei casi in cui il eh
+206-1	12211-12213	ci	_	_	_	\[ci	_	TO007	205-0	*->55-3	*[55]	
+206-1.1	12211-12212	c	_	_	_	_	_	_	_	*->55-1	*[55]	
+206-2	12214-12216	s~	_	_	_	s~\]	_	_	205-1	*->55-4	*[55]	
+206-3	12217-12219	ci	_	_	_	ci	_	_	205-2	_	_	
+206-4	12220-12224	sono	_	_	_	sono	_	_	205-3	_	_	
+206-5	12225-12228	dei	_	_	_	dei::	_	_	205-4	_	_	
+206-6	12229-12231	d~	_	_	_	d~	_	_	205-5	_	_	
+206-7	12232-12235	dei	_	_	_	dei	_	_	205-6	_	_	
+206-8	12236-12240	casi	_	_	_	casi	_	_	205-7	_	_	
+206-9	12241-12243	in	_	_	_	in	_	_	205-8	_	_	
+206-10	12244-12247	cui	_	_	_	cui::	_	_	205-9	_	_	
+206-11	12248-12250	il	_	_	_	il	_	_	205-10	_	_	
+206-12	12251-12253	eh	_	FP	_	e:h	_	_	205-11	_	_	
+
+#Text=n~ n~ no [PAUSE] l' amministratore può essere revocato in qualsiasi momento dal eh da eh eh eh dall' assemblea anche senza giusta causa e a [PAUSE] a descrizione del eh [PAUSE] x dell' assemblea
+207-1	12254-12256	n~	_	_	_	n~	_	TO007	206-0	_	_	
+207-2	12257-12259	n~	_	_	_	n~	_	_	206-1	_	_	
+207-3	12260-12262	no	_	_	Falling	no.	_	_	206-2	_	_	
+207-4	12263-12270	[PAUSE]	_	_	_	(.)	_	_	206-3	_	_	
+207-5	12271-12273	l'	_	_	_	l'	_	_	206-4	_	_	
+207-6	12274-12288	amministratore	_	_	_	amministratore	_	_	206-5	_	_	
+207-7	12289-12292	può	_	_	_	può	_	_	206-6	_	_	
+207-8	12293-12299	essere	_	_	_	essere	_	_	206-7	_	_	
+207-9	12300-12308	revocato	_	_	weakly\_rising	revocato,	_	_	206-8	_	_	
+207-10	12309-12311	in	_	_	_	in	_	_	206-9	_	_	
+207-11	12312-12321	qualsiasi	_	_	_	qualsiasi	_	_	206-10	_	_	
+207-12	12322-12329	momento	_	_	weakly\_rising	momento,	_	_	206-11	_	_	
+207-13	12330-12333	dal	_	_	_	\[dal	_	_	206-12	_	_	
+207-14	12334-12336	eh	_	FP	_	e:h	_	_	206-13	_	_	
+207-15	12337-12339	da	_	_	_	da	_	_	206-14	_	_	
+207-16	12340-12342	eh	_	FP	_	eh	_	_	206-15	_	_	
+207-17	12343-12345	eh	_	FP	_	eh	_	_	206-16	_	_	
+207-18	12346-12348	eh	_	FP	_	eh	_	_	206-17	_	_	
+207-19	12349-12354	dall'	_	_	_	dall'	_	_	206-18	_	_	
+207-20	12355-12364	assemblea	_	_	weakly\_rising	assemblea,	_	_	206-19	_	_	
+207-21	12365-12370	anche	_	_	_	anche	_	_	206-20	_	_	
+207-22	12371-12376	senza	_	_	_	senza	_	_	206-21	_	_	
+207-23	12377-12383	giusta	_	_	_	giusta	_	_	206-22	_	_	
+207-24	12384-12389	causa	_	_	Falling	causa.	_	_	206-23	_	_	
+207-25	12390-12391	e	_	_	_	e	_	_	206-24	_	_	
+207-26	12392-12393	a	_	_	_	a	_	_	206-25	_	_	
+207-27	12394-12401	[PAUSE]	_	_	_	(.)	_	_	206-26	_	_	
+207-28	12402-12403	a	_	_	_	a	_	_	206-27	_	_	
+207-29	12404-12415	descrizione	_	_	_	descri\]zione	_	_	206-28	_	_	
+207-30	12416-12419	del	_	_	_	del	_	_	206-29	_	_	
+207-31	12420-12422	eh	_	FP	_	eh	_	_	206-30	_	_	
+207-32	12423-12430	[PAUSE]	_	_	_	(.)	_	_	206-31	_	_	
+207-33	12431-12432	x	_	_	_	\[\]	_	_	206-32	_	_	
+207-34	12433-12438	dell'	_	_	_	>dell'	_	_	206-33	_	_	
+207-35	12439-12448	assemblea	_	_	Falling	assemblea<.	_	_	206-34	_	_	
+
+#Text=oh questa è la risposta in qualsiasi momento dall' assemblea anche senza giusta causa
+208-1	12449-12451	oh	BC[14]	_	Falling	\[oh.	_	TO006	207-0	*->24-1	*[24]	
+208-2	12452-12458	questa	BC[14]	_	_	questa	_	_	207-1	*->24-2	*[24]	
+208-3	12459-12460	è	BC[14]	_	_	è	_	_	207-2	*->24-3	*[24]	
+208-4	12461-12463	la	BC[14]	_	_	la	_	_	207-3	*->24-4	*[24]	
+208-5	12464-12472	risposta	BC[14]	_	Falling	risposta.	_	_	207-4	*->24-5	*[24]	
+208-6	12473-12475	in	_	_	_	in	_	_	207-5	*->24-6	*[24]	
+208-7	12476-12485	qualsiasi	_	_	_	qualsiasi	_	_	207-6	*->24-7	*[24]	
+208-8	12486-12493	momento	_	_	_	momento	_	_	207-7	*->24-8	*[24]	
+208-9	12494-12499	dall'	_	_	_	dall'	_	_	207-8	*->24-9	*[24]	
+208-10	12500-12509	assemblea	_	_	Falling	assemblea.	_	_	207-9	*->24-10	*[24]	
+208-11	12510-12515	anche	BC[15]	_	_	anche	_	_	207-10	*->24-11	*[24]	
+208-12	12516-12521	senza	BC[15]	_	_	senza	_	_	207-11	*->24-12	*[24]	
+208-13	12522-12528	giusta	BC[15]	_	_	giusta	_	_	207-12	*->24-13	*[24]	
+208-14	12529-12534	causa	BC[15]	_	Falling	causa\].	_	_	207-13	*->24-14	*[24]	
+
+#Text=esatto
+209-1	12535-12541	esatto	BC	_	Falling	\[esatto\].	_	TO006	208-0	*->74-1	*[74]	
+
+#Text=che poi questo determini [PAUSE] che sono subordinati no che sono lavoratori subordinati e non determina nemmeno [PAUSE] quello che lei diceva prima cioè il potere di dare ordini
+210-1	12542-12545	che	_	_	_	che	_	TO006	209-0	_	_	
+210-2	12546-12549	poi	_	_	_	poi	_	_	209-1	_	_	
+210-3	12550-12556	questo	_	_	Falling	questo.	_	_	209-2	_	_	
+210-4	12557-12566	determini	_	_	Falling	determini.	_	_	209-3	_	_	
+210-5	12567-12574	[PAUSE]	_	_	_	(.)	_	_	209-4	_	_	
+210-6	12575-12578	che	_	_	_	che	_	_	209-5	_	_	
+210-7	12579-12583	sono	_	_	_	sono	_	_	209-6	_	_	
+210-8	12584-12595	subordinati	_	_	weakly\_rising	subordinati,	_	_	209-7	_	_	
+210-9	12596-12598	no	_	_	Falling	no.	_	_	209-8	_	_	
+210-10	12599-12602	che	_	_	_	>che	_	_	209-9	_	_	
+210-11	12603-12607	sono	_	_	_	sono	_	_	209-10	_	_	
+210-12	12608-12618	lavoratori	_	_	_	lavoratori	_	_	209-11	_	_	
+210-13	12619-12630	subordinati	_	_	Falling	subordinati<.	_	_	209-12	_	_	
+210-14	12631-12632	e	_	_	_	e	_	_	209-13	_	_	
+210-15	12633-12636	non	_	_	_	non	_	_	209-14	_	_	
+210-16	12637-12646	determina	_	_	_	determina	_	_	209-15	_	_	
+210-17	12647-12654	nemmeno	_	_	weakly\_rising	nemmeno,	_	_	209-16	_	_	
+210-18	12655-12662	[PAUSE]	_	_	_	(.)	_	_	209-17	_	_	
+210-19	12663-12669	quello	_	_	_	quello	_	_	209-18	_	_	
+210-20	12670-12673	che	_	_	_	che	_	_	209-19	_	_	
+210-21	12674-12677	lei	_	_	_	lei	_	_	209-20	_	_	
+210-22	12678-12684	diceva	_	_	_	diceva	_	_	209-21	_	_	
+210-23	12685-12690	prima	_	_	Falling	prima.	_	_	209-22	_	_	
+210-24	12691-12695	cioè	_	_	_	cioè	_	_	209-23	_	_	
+210-25	12696-12698	il	_	_	_	il	_	_	209-24	_	_	
+210-26	12699-12705	potere	_	_	_	potere	_	_	209-25	_	_	
+210-27	12706-12708	di	_	_	_	di	_	_	209-26	_	_	
+210-28	12709-12713	dare	_	_	_	dare	_	_	209-27	_	_	
+210-29	12714-12720	ordini	_	_	weakly\_rising	or\[dini\],	_	_	209-28	_	_	
+210-29.1	12716-12720	dini	_	_	_	_	_	_	_	*->6-1	*[6]	
+
+#Text=sì no quello che intendevo io e mi sono espresso male è che l' amministra~ l' assemblea può chiedere conto dell' operato del eh dell' amministratore
+211-1	12721-12723	sì	_	_	_	\[sì	_	TO007	210-0	*->6-2	*[6]	
+211-1.1	12721-12722	s	_	_	_	_	_	_	_	*->6-1	*[6]	
+211-2	12724-12726	no	_	_	Falling	no\].	_	_	210-1	*->6-3	*[6]	
+211-3	12727-12733	quello	_	_	_	quello	_	_	210-2	_	_	
+211-4	12734-12737	che	_	_	_	che	_	_	210-3	_	_	
+211-5	12738-12747	intendevo	_	_	_	intendevo	_	_	210-4	_	_	
+211-6	12748-12750	io	_	_	weakly\_rising	io,	_	_	210-5	_	_	
+211-7	12751-12752	e	_	_	_	e	_	_	210-6	_	_	
+211-8	12753-12755	mi	_	_	_	mi	_	_	210-7	_	_	
+211-9	12756-12760	sono	_	_	_	sono	_	_	210-8	_	_	
+211-10	12761-12769	espresso	_	_	_	espresso	_	_	210-9	_	_	
+211-11	12770-12774	male	_	_	weakly\_rising	male,	_	_	210-10	_	_	
+211-12	12775-12776	è	_	_	_	\[è	_	_	210-11	*->54-1	*[54]	
+211-13	12777-12780	che	_	_	_	che::\]	_	_	210-12	*->54-2	*[54]	
+211-14	12781-12783	l'	_	_	_	l'	SR[38]	_	210-13	_	_	
+211-15	12784-12795	amministra~	_	_	_	amministra~	SR[38]	_	210-14	_	_	
+211-16	12796-12798	l'	_	_	_	l'	SR[38]	_	210-15	_	_	
+211-17	12799-12808	assemblea	_	_	_	assemblea	SR[38]	_	210-16	_	_	
+211-18	12809-12812	può	_	_	_	può	_	_	210-17	_	_	
+211-19	12813-12821	chiedere	_	_	_	chiedere	_	_	210-18	_	_	
+211-20	12822-12827	conto	_	_	_	conto	_	_	210-19	_	_	
+211-21	12828-12833	dell'	_	_	_	dell'	_	_	210-20	_	_	
+211-22	12834-12841	operato	_	_	_	operato	_	_	210-21	_	_	
+211-23	12842-12845	del	_	_	_	del	_	_	210-22	_	_	
+211-24	12846-12848	eh	_	FP	_	e::h	_	_	210-23	_	_	
+211-25	12849-12854	dell'	_	_	_	dell'	_	_	210-24	_	_	
+211-26	12855-12869	amministratore	_	_	Falling	amministratore.	_	_	210-25	_	_	
+
+#Text=ah
+212-1	12870-12872	ah	BC	_	Falling	\[ah\].	_	TO006	211-0	*->54-3	*[54]	
+
+#Text=sì può chiedere conto ma
+213-1	12873-12875	sì	BC	_	_	sì	_	TO006	212-0	_	_	
+213-2	12876-12879	può	_	_	_	può	_	_	212-1	_	_	
+213-3	12880-12888	chiedere	_	_	_	chiedere	_	_	212-2	_	_	
+213-4	12889-12894	conto	_	_	Falling	con\[to.	_	_	212-3	_	_	
+213-4.1	12892-12894	to	_	_	_	_	_	_	_	*->32-1	*[32]	
+213-5	12895-12897	ma	_	_	weakly\_rising	ma\],	_	_	212-4	*->32-1|*->32-2	*[32]|*[32]	
+
+#Text=eh eh infa~ quello mi sono
+214-1	12898-12900	eh	BC[16]	_	_	\[eh	_	TO007	213-0	*->32-3	*[32]	
+214-2	12901-12903	eh	BC[16]	_	Falling	eh.	_	_	213-1	*->32-4	*[32]	
+214-3	12904-12909	infa~	_	_	weakly\_rising	infa~\],	_	_	213-2	*->32-5	*[32]	
+214-4	12910-12916	quello	_	_	_	quello	_	_	213-3	_	_	
+214-5	12917-12919	mi	_	_	_	mi	_	_	213-4	_	_	
+214-6	12920-12924	sono	_	_	weakly\_rising	sono::,	_	_	213-5	_	_	
+
+#Text=ma [PAUSE] diciamo c~ a livello di sanzione l' unica sanzione che l' assemblea a parte un' altra che poi vedremo eh eh è la revoca
+215-1	12925-12927	ma	_	_	weakly\_rising	ma,	_	TO006	214-0	_	_	
+215-2	12928-12935	[PAUSE]	_	_	_	(.)	_	_	214-1	_	_	
+215-3	12936-12943	diciamo	_	_	_	diciamo	_	_	214-2	_	_	
+215-4	12944-12946	c~	_	_	weakly\_rising	c~,	_	_	214-3	_	_	
+215-5	12947-12948	a	_	_	_	a	_	_	214-4	_	_	
+215-6	12949-12956	livello	_	_	_	livello	_	_	214-5	_	_	
+215-7	12957-12959	di	_	_	_	di	_	_	214-6	_	_	
+215-8	12960-12968	sanzione	_	_	weakly\_rising	sanzione,	_	_	214-7	_	_	
+215-9	12969-12971	l'	_	_	_	l'	_	_	214-8	_	_	
+215-10	12972-12977	unica	_	_	_	unica	_	_	214-9	_	_	
+215-11	12978-12986	sanzione	_	_	_	sanzione	_	_	214-10	_	_	
+215-12	12987-12990	che	_	_	_	che	_	_	214-11	_	_	
+215-13	12991-12993	l'	_	_	_	l'	_	_	214-12	_	_	
+215-14	12994-13003	assemblea	_	_	weakly\_rising	assemblea,	_	_	214-13	_	_	
+215-15	13004-13005	a	_	_	_	a	_	_	214-14	_	_	
+215-16	13006-13011	parte	_	_	_	parte	_	_	214-15	_	_	
+215-17	13012-13015	un'	_	_	_	un'	_	_	214-16	_	_	
+215-18	13016-13021	altra	_	_	_	altra	_	_	214-17	_	_	
+215-19	13022-13025	che	_	_	_	\[che	_	_	214-18	*->75-1	*[75]	
+215-20	13026-13029	poi	_	_	_	poi	_	_	214-19	*->75-2	*[75]	
+215-21	13030-13037	vedremo	_	_	weakly\_rising	ved\]remo,	_	_	214-20	_	_	
+215-21.1	13030-13033	ved	_	_	_	_	_	_	_	*->75-3	*[75]	
+215-22	13038-13040	eh	BC	_	_	eh	_	_	214-21	_	_	
+215-23	13041-13043	eh	_	FP	_	e::h	_	_	214-22	_	_	
+215-24	13044-13045	è	BC[17]	_	_	è:	_	_	214-23	_	_	
+215-25	13046-13048	la	BC[17]	_	_	la	_	_	214-24	_	_	
+215-26	13049-13055	revoca	BC[17]	_	Falling	revoca.	_	_	214-25	_	_	
+
+#Text=è la revoca
+216-1	13056-13057	è	_	_	_	\[è	_	TO007	215-0	*->75-4	*[75]	
+216-2	13058-13060	la	_	_	_	la	_	_	215-1	*->75-5	*[75]	
+216-3	13061-13067	revoca	_	_	Falling	revoca\].	_	_	215-2	*->75-6	*[75]	
+
+#Text=certo che poi con l~ con la spada di damocle della revoca [PAUSE] gli amministratori tendenzialmente faranno quello che vuole [PAUSE] la maggioranza assembleare però
+217-1	13068-13073	certo	_	_	_	certo	_	TO006	216-0	_	_	
+217-2	13074-13077	che	_	_	_	che	_	_	216-1	_	_	
+217-3	13078-13081	poi	_	_	weakly\_rising	poi,	_	_	216-2	_	_	
+217-4	13082-13085	con	_	_	_	con	_	_	216-3	_	_	
+217-5	13086-13088	l~	_	_	_	l~	_	_	216-4	_	_	
+217-6	13089-13092	con	_	_	_	con	_	_	216-5	_	_	
+217-7	13093-13095	la	_	_	_	la	_	_	216-6	_	_	
+217-8	13096-13101	spada	_	_	_	spada	_	_	216-7	_	_	
+217-9	13102-13104	di	_	_	_	di	_	_	216-8	_	_	
+217-10	13105-13112	damocle	_	_	_	damocle	_	_	216-9	_	_	
+217-11	13113-13118	della	_	_	_	della	_	_	216-10	_	_	
+217-12	13119-13125	revoca	_	_	weakly\_rising	revoca,	_	_	216-11	_	_	
+217-13	13126-13133	[PAUSE]	_	_	_	(.)	_	_	216-12	_	_	
+217-14	13134-13137	gli	_	_	_	gli	_	_	216-13	_	_	
+217-15	13138-13152	amministratori	_	_	weakly\_rising	amministratori,	_	_	216-14	_	_	
+217-16	13153-13168	tendenzialmente	_	_	weakly\_rising	tendenzialmente,	_	_	216-15	_	_	
+217-17	13169-13176	faranno	_	_	_	faranno	_	_	216-16	_	_	
+217-18	13177-13183	quello	_	_	_	quello	_	_	216-17	_	_	
+217-19	13184-13187	che	_	_	_	che	_	_	216-18	_	_	
+217-20	13188-13193	vuole	_	_	weakly\_rising	vuole,	_	_	216-19	_	_	
+217-21	13194-13201	[PAUSE]	_	_	_	(.)	_	_	216-20	_	_	
+217-22	13202-13204	la	_	_	_	la	_	_	216-21	_	_	
+217-23	13205-13216	maggioranza	_	_	_	maggioranza	_	_	216-22	_	_	
+217-24	13217-13228	assembleare	_	_	Falling	assembleare.	_	_	216-23	_	_	
+217-25	13229-13233	però	_	_	weakly\_rising	\[però\],	_	_	216-24	*->47-1	*[47]	
+
+#Text=cer~
+218-1	13234-13238	cer~	BC	_	_	\[cer~\]	_	TO007	217-0	*->47-2	*[47]	
+
+#Text=da un punto di vista legale [PAUSE] l' assemblea non può dare ordini agli investitori e la ragione [PAUSE] ci arriviamo subito al perché l' assemblea oltre a deliberare eventualmente la revoca degli amministratori può far loro un' altra cosa poco piacevole può chiedere loro può deliberare contro di loro
+219-1	13239-13241	da	_	_	_	>da<	_	TO006	218-0	_	_	
+219-2	13242-13244	un	_	_	_	un	_	_	218-1	_	_	
+219-3	13245-13250	punto	_	_	_	punto	_	_	218-2	_	_	
+219-4	13251-13253	di	_	_	_	di	_	_	218-3	_	_	
+219-5	13254-13259	vista	_	_	_	vista	_	_	218-4	_	_	
+219-6	13260-13266	legale	_	_	weakly\_rising	legale,	_	_	218-5	_	_	
+219-7	13267-13274	[PAUSE]	_	_	_	(.)	_	_	218-6	_	_	
+219-8	13275-13277	l'	_	_	_	l'	_	_	218-7	_	_	
+219-9	13278-13287	assemblea	_	_	_	assemblea	_	_	218-8	_	_	
+219-10	13288-13291	non	_	_	_	non	_	_	218-9	_	_	
+219-11	13292-13295	può	_	_	_	può	_	_	218-10	_	_	
+219-12	13296-13300	dare	_	_	_	dare	_	_	218-11	_	_	
+219-13	13301-13307	ordini	_	_	_	ordini	_	_	218-12	_	_	
+219-14	13308-13312	agli	_	_	_	agli	_	_	218-13	_	_	
+219-15	13313-13324	investitori	_	_	Falling	investitori.	_	_	218-14	_	_	
+219-16	13325-13326	e	_	_	_	e	_	_	218-15	_	_	
+219-17	13327-13329	la	_	_	_	la	_	_	218-16	_	_	
+219-18	13330-13337	ragione	_	_	weakly\_rising	ragione,	_	_	218-17	_	_	
+219-19	13338-13345	[PAUSE]	_	_	_	(.)	_	_	218-18	_	_	
+219-20	13346-13348	ci	_	_	_	ci	_	_	218-19	_	_	
+219-21	13349-13358	arriviamo	_	_	_	arriviamo	_	_	218-20	_	_	
+219-22	13359-13365	subito	_	_	_	subito	_	_	218-21	_	_	
+219-23	13366-13368	al	_	_	_	al	_	_	218-22	_	_	
+219-24	13369-13375	perché	_	_	Falling	perché.	_	_	218-23	_	_	
+219-25	13376-13378	l'	_	_	_	l'	_	_	218-24	_	_	
+219-26	13379-13388	assemblea	_	_	weakly\_rising	assemblea,	_	_	218-25	_	_	
+219-27	13389-13394	oltre	_	_	_	oltre	_	_	218-26	_	_	
+219-28	13395-13396	a	_	_	_	a	_	_	218-27	_	_	
+219-29	13397-13407	deliberare	_	_	_	deliberare	_	_	218-28	_	_	
+219-30	13408-13421	eventualmente	_	_	_	eventualmente	_	_	218-29	_	_	
+219-31	13422-13424	la	_	_	_	la	_	_	218-30	_	_	
+219-32	13425-13431	revoca	_	_	_	revoca	_	_	218-31	_	_	
+219-33	13432-13437	degli	_	_	_	degli	_	_	218-32	_	_	
+219-34	13438-13452	amministratori	_	_	weakly\_rising	amministratori,	_	_	218-33	_	_	
+219-35	13453-13456	può	_	_	_	può	_	_	218-34	_	_	
+219-36	13457-13460	far	_	_	_	far	_	_	218-35	_	_	
+219-37	13461-13465	loro	_	_	_	loro	_	_	218-36	_	_	
+219-38	13466-13469	un'	_	_	_	un'	_	_	218-37	_	_	
+219-39	13470-13475	altra	_	_	_	altra	_	_	218-38	_	_	
+219-40	13476-13480	cosa	_	_	_	cosa	_	_	218-39	_	_	
+219-41	13481-13485	poco	_	_	_	poco	_	_	218-40	_	_	
+219-42	13486-13495	piacevole	_	_	Falling	piacevole.	_	_	218-41	_	_	
+219-43	13496-13499	può	_	_	_	può	_	_	218-42	_	_	
+219-44	13500-13508	chiedere	_	_	_	chiedere	_	_	218-43	_	_	
+219-45	13509-13513	loro	_	_	Rising	loro?	_	_	218-44	_	_	
+219-46	13514-13517	può	_	_	_	può	_	_	218-45	_	_	
+219-47	13518-13528	deliberare	_	_	_	deliberare	_	_	218-46	_	_	
+219-48	13529-13535	contro	_	_	_	contro	_	_	218-47	_	_	
+219-49	13536-13538	di	_	_	_	di	_	_	218-48	_	_	
+219-50	13539-13543	loro	_	_	Rising	loro?	_	_	218-49	_	_	
+
+#Text=pensi alle competenze dell' assemblea ordinaria
+220-1	13544-13549	pensi	_	_	_	pensi	_	TO006	219-0	_	_	
+220-2	13550-13554	alle	_	_	_	alle	_	_	219-1	_	_	
+220-3	13555-13565	competenze	_	_	_	competenze	_	_	219-2	_	_	
+220-4	13566-13571	dell'	_	_	_	dell'	_	_	219-3	_	_	
+220-5	13572-13581	assemblea	_	_	_	assemblea	_	_	219-4	_	_	
+220-6	13582-13591	ordinaria	_	_	Falling	ordinaria.	_	_	219-5	_	_	
+
+#Text=non la revoca degli amministratori il bilancio
+221-1	13592-13595	non	_	_	_	°non	_	TO007	220-0	_	_	
+221-2	13596-13598	la	_	_	_	la	_	_	220-1	_	_	
+221-3	13599-13605	revoca	_	_	_	revoca	_	_	220-2	_	_	
+221-4	13606-13611	degli	_	_	_	degli	_	_	220-3	_	_	
+221-5	13612-13626	amministratori	_	_	weakly\_rising	amministratori,	_	_	220-4	_	_	
+221-6	13627-13629	il	_	_	_	il	_	_	220-5	_	_	
+221-7	13630-13638	bilancio	_	_	weakly\_rising	bilancio,°	_	_	220-6	_	_	
+
+#Text=m~ mi può ripetere la domanda scusi
+222-1	13639-13641	m~	_	_	_	m~	_	TO007	221-0	_	_	
+222-2	13642-13644	mi	_	_	_	mi	_	_	221-1	_	_	
+222-3	13645-13648	può	_	_	_	può	_	_	221-2	_	_	
+222-4	13649-13657	ripetere	_	_	_	ripetere	_	_	221-3	_	_	
+222-5	13658-13660	la	_	_	_	la	_	_	221-4	_	_	
+222-6	13661-13668	domanda	_	_	Rising	domanda?	_	_	221-5	_	_	
+222-7	13669-13674	scusi	_	_	Falling	scusi.	_	_	221-6	_	_	
+
+#Text=mi sono
+223-1	13675-13677	mi	_	_	_	mi	_	TO007	222-0	_	_	
+223-2	13678-13682	sono	_	_	weakly\_rising	sono,	_	_	222-1	_	_	
+
+#Text=l' assemblea
+224-1	13683-13685	l'	_	_	_	l'	_	TO006	223-0	_	_	
+224-2	13686-13695	assemblea	_	_	weakly\_rising	assemblea,	_	_	223-1	_	_	
+
+#Text=sì
+225-1	13696-13698	sì	BC	_	Falling	sì.	_	TO007	224-0	_	_	
+
+#Text=con nomina gli amministratori li può revocare
+226-1	13699-13702	con	_	_	weakly\_rising	(con,)	_	TO006	225-0	_	_	
+226-2	13703-13709	nomina	_	_	_	nomina	_	_	225-1	_	_	
+226-3	13710-13713	gli	_	_	_	gli	_	_	225-2	_	_	
+226-4	13714-13728	amministratori	_	_	weakly\_rising	amministratori,	_	_	225-3	_	_	
+226-5	13729-13731	li	_	_	_	li	_	_	225-4	_	_	
+226-6	13732-13735	può	_	_	_	\[può	_	_	225-5	*->25-1	*[25]	
+226-7	13736-13744	revocare	_	_	Falling	revocare\].	_	_	225-6	*->25-2	*[25]	
+
+#Text=li può revocare
+227-1	13745-13747	li	BC[18]	_	_	\[li	_	TO007	226-0	*->25-3	*[25]	
+227-2	13748-13751	può	BC[18]	_	_	può	_	_	226-1	*->25-4	*[25]	
+227-3	13752-13760	revocare	BC[18]	_	Falling	revocare\].	_	_	226-2	*->25-5	*[25]	
+
+#Text=c' è anche un altro tipo di delibera [PAUSE] che può prendere nei confronti degli amministratori [PAUSE] non gradevole per loro [PAUSE] che è deliberare verso di loro
+228-1	13761-13763	c'	_	_	_	c'	_	TO006	227-0	_	_	
+228-2	13764-13765	è	_	_	_	è	_	_	227-1	_	_	
+228-3	13766-13771	anche	_	_	_	anche	_	_	227-2	_	_	
+228-4	13772-13774	un	_	_	_	un	_	_	227-3	_	_	
+228-5	13775-13780	altro	_	_	_	altro	_	_	227-4	_	_	
+228-6	13781-13785	tipo	_	_	_	tipo	_	_	227-5	_	_	
+228-7	13786-13788	di	_	_	_	di	_	_	227-6	_	_	
+228-8	13789-13797	delibera	_	_	weakly\_rising	delibera,	_	_	227-7	_	_	
+228-9	13798-13805	[PAUSE]	_	_	_	(.)	_	_	227-8	_	_	
+228-10	13806-13809	che	_	_	_	che	_	_	227-9	_	_	
+228-11	13810-13813	può	_	_	_	può	_	_	227-10	_	_	
+228-12	13814-13822	prendere	_	_	_	prendere	_	_	227-11	_	_	
+228-13	13823-13826	nei	_	_	_	nei	_	_	227-12	_	_	
+228-14	13827-13836	confronti	_	_	_	confronti	_	_	227-13	_	_	
+228-15	13837-13842	degli	_	_	_	degli	_	_	227-14	_	_	
+228-16	13843-13857	amministratori	_	_	Falling	amministratori.	_	_	227-15	_	_	
+228-17	13858-13865	[PAUSE]	_	_	_	(.)	_	_	227-16	_	_	
+228-18	13866-13869	non	_	_	_	non	_	_	227-17	_	_	
+228-19	13870-13879	gradevole	_	_	_	gradevole	_	_	227-18	_	_	
+228-20	13880-13883	per	_	_	_	per	_	_	227-19	_	_	
+228-21	13884-13888	loro	_	_	weakly\_rising	loro,	_	_	227-20	_	_	
+228-22	13889-13896	[PAUSE]	_	_	_	(.)	_	_	227-21	_	_	
+228-23	13897-13900	che	_	_	_	che(	_	_	227-22	_	_	
+228-24	13901-13902	è	_	_	_	è)	_	_	227-23	_	_	
+228-25	13903-13913	deliberare	_	_	_	deliberare	_	_	227-24	_	_	
+228-26	13914-13919	verso	_	_	_	verso	_	_	227-25	_	_	
+228-27	13920-13922	di	_	_	_	di	_	_	227-26	_	_	
+228-28	13923-13927	loro	_	_	Rising	loro?	_	_	227-27	_	_	
+
+#Text=l' esclus~
+229-1	13928-13930	l'	_	_	_	l'	_	TO007	228-0	_	_	
+229-2	13931-13938	esclus~	_	_	_	esclus~	_	_	228-1	_	_	
+
+#Text=non è l' esclusione
+230-1	13939-13942	non	_	_	_	non	_	TO007	229-0	_	_	
+230-2	13943-13944	è	_	_	_	è	_	_	229-1	_	_	
+230-3	13945-13947	l'	_	_	_	l'	_	_	229-2	_	_	
+230-4	13948-13958	esclusione	_	_	Falling	esclusione.	_	_	229-3	_	_	
+
+#Text=la sospens~
+231-1	13959-13961	la	_	_	_	la	_	TO007	230-0	_	_	
+231-2	13962-13970	sospens~	_	_	_	sospens~	_	_	230-1	_	_	
+
+#Text=l' ha studiata con diciamo che è un tema che può essere oggetto di un' autonoma domanda
+232-1	13971-13973	l'	_	_	_	l'	_	TO006	231-0	_	_	
+232-2	13974-13976	ha	_	_	_	ha	_	_	231-1	_	_	
+232-3	13977-13985	studiata	_	_	weakly\_rising	studiata::,	_	_	231-2	_	_	
+232-4	13986-13989	con	_	_	_	con	_	_	231-3	_	_	
+232-5	13990-13997	diciamo	_	_	_	diciamo	_	_	231-4	_	_	
+232-6	13998-14001	che	_	_	_	che	_	_	231-5	_	_	
+232-7	14002-14003	è	_	_	_	è	_	_	231-6	_	_	
+232-8	14004-14006	un	_	_	_	un	_	_	231-7	_	_	
+232-9	14007-14011	tema	_	_	_	tema	_	_	231-8	_	_	
+232-10	14012-14015	che	_	_	_	che	_	_	231-9	_	_	
+232-11	14016-14019	può	_	_	_	può	_	_	231-10	_	_	
+232-12	14020-14026	essere	_	_	_	essere::	_	_	231-11	_	_	
+232-13	14027-14034	oggetto	_	_	_	oggetto	_	_	231-12	_	_	
+232-14	14035-14037	di	_	_	_	di	_	_	231-13	_	_	
+232-15	14038-14041	un'	_	_	_	un'	_	_	231-14	_	_	
+232-16	14042-14050	autonoma	_	_	_	autonoma	_	_	231-15	_	_	
+232-17	14051-14058	domanda	_	_	Falling	domanda.	_	_	231-16	_	_	
+
+#Text=quindi di sicuro lei lo conosce deve solo trovarlo
+233-1	14059-14065	quindi	_	_	_	quindi	_	TO006	232-0	_	_	
+233-2	14066-14068	di	_	_	_	di	_	_	232-1	_	_	
+233-3	14069-14075	sicuro	_	_	_	sicuro	_	_	232-2	_	_	
+233-4	14076-14079	lei	_	_	_	lei	_	_	232-3	_	_	
+233-5	14080-14082	lo	_	_	_	lo	_	_	232-4	_	_	
+233-6	14083-14090	conosce	_	_	Falling	conosce.	_	_	232-5	_	_	
+233-7	14091-14095	deve	_	_	_	deve	_	_	232-6	_	_	
+233-8	14096-14100	solo	_	_	_	solo	_	_	232-7	_	_	
+233-9	14101-14109	trovarlo	_	_	Falling	trovarlo.	_	_	232-8	_	_	
+
+#Text=sicuramen~
+234-1	14110-14120	sicuramen~	BC	_	_	sicuramen~	_	TO007	233-0	_	_	
+
+#Text=delibera sugli am~ del~ responsabilità degli amministratori quando quando hanno [PAUSE] provocato
+235-1	14121-14129	delibera	_	_	_	delibera	_	TO006	234-0	_	_	
+235-2	14130-14135	sugli	_	_	_	>sugli	_	_	234-1	_	_	
+235-3	14136-14139	am~	_	_	_	am~<	SR[39]	_	234-2	_	_	
+235-4	14140-14144	del~	_	_	_	del~	SR[39]	_	234-3	_	_	
+235-5	14145-14159	responsabilità	_	_	_	responsabilità	SR[39]	_	234-4	_	_	
+235-6	14160-14165	degli	_	_	_	degli	SR[39]	_	234-5	_	_	
+235-7	14166-14180	amministratori	_	_	_	amministratori	SR[39]	_	234-6	_	_	
+235-8	14181-14187	quando	_	_	weakly\_rising	quando,	_	_	234-7	_	_	
+235-9	14188-14194	quando	_	_	_	quando	_	_	234-8	_	_	
+235-10	14195-14200	hanno	_	_	weakly\_rising	hanno,	_	_	234-9	_	_	
+235-11	14201-14208	[PAUSE]	_	_	_	(.)	_	_	234-10	_	_	
+235-12	14209-14218	provocato	_	_	weakly\_rising	provocato,	_	_	234-11	_	_	
+
+#Text=un eh un danno grave attuo u~ un danno grave alla [PAUSE] x un danno [PAUSE] alla alla [PAUSE] alla società
+236-1	14219-14221	un	_	_	_	un	_	TO007	235-0	_	_	
+236-2	14222-14224	eh	_	FP	_	e::h	_	_	235-1	_	_	
+236-3	14225-14227	un	_	_	_	un	_	_	235-2	_	_	
+236-4	14228-14233	danno	_	_	_	danno::	_	_	235-3	_	_	
+236-5	14234-14239	grave	_	_	_	grave::	_	_	235-4	_	_	
+236-6	14240-14245	attuo	_	_	weakly\_rising	(attuo),	_	_	235-5	_	_	
+236-7	14246-14248	u~	_	_	_	u~	_	_	235-6	_	_	
+236-8	14249-14251	un	_	_	_	un	_	_	235-7	_	_	
+236-9	14252-14257	danno	_	_	_	danno	_	_	235-8	_	_	
+236-10	14258-14263	grave	_	_	_	grave	_	_	235-9	_	_	
+236-11	14264-14268	alla	_	_	_	alla:	_	_	235-10	_	_	
+236-12	14269-14276	[PAUSE]	_	_	_	(.)	_	_	235-11	_	_	
+236-13	14277-14278	x	_	_	_	\[\]	_	_	235-12	_	_	
+236-14	14279-14281	un	_	_	_	un	_	_	235-13	_	_	
+236-15	14282-14287	danno	_	_	weakly\_rising	danno,	_	_	235-14	_	_	
+236-16	14288-14295	[PAUSE]	_	_	_	(.)	_	_	235-15	_	_	
+236-17	14296-14300	alla	_	_	weakly\_rising	alla::,	_	_	235-16	_	_	
+236-18	14301-14305	alla	_	_	_	alla	_	_	235-17	_	_	
+236-19	14306-14313	[PAUSE]	_	_	_	(.)	_	_	235-18	_	_	
+236-20	14314-14318	alla	_	_	_	alla	_	_	235-19	_	_	
+236-21	14319-14326	società	_	_	Falling	società.	_	_	235-20	_	_	
+
+#Text=tolga il grave
+237-1	14327-14332	tolga	_	_	_	\[tolga	_	TO006	236-0	*->56-1	*[56]	
+237-2	14333-14335	il	_	_	_	il	_	_	236-1	*->56-2	*[56]	
+237-3	14336-14341	grave	_	_	Falling	grave\].	_	_	236-2	*->56-3	*[56]	
+
+#Text=alla società
+238-1	14342-14346	alla	BC[19]	_	_	°alla	_	TO006	237-0	_	_	
+238-2	14347-14354	società	BC[19]	_	Falling	società.°	_	_	237-1	_	_	
+
+#Text=riesce a mettere in collegamento [PAUSE] questa risposta con [PAUSE] l' altra inesatta che aveva dato cioè che [PAUSE] la società può dare ordine agli amministratori
+239-1	14355-14361	riesce	_	_	_	riesce	_	TO006	238-0	_	_	
+239-2	14362-14363	a	_	_	_	a	_	_	238-1	_	_	
+239-3	14364-14371	mettere	_	_	_	mettere	_	_	238-2	_	_	
+239-4	14372-14374	in	_	_	_	in	_	_	238-3	_	_	
+239-5	14375-14387	collegamento	_	_	_	collegamento	_	_	238-4	_	_	
+239-6	14388-14395	[PAUSE]	_	_	_	(.)	_	_	238-5	_	_	
+239-7	14396-14402	questa	_	_	_	questa	_	_	238-6	_	_	
+239-8	14403-14411	risposta	_	_	weakly\_rising	risposta,	_	_	238-7	_	_	
+239-9	14412-14415	con	_	_	_	con	_	_	238-8	_	_	
+239-10	14416-14423	[PAUSE]	_	_	_	(.)	_	_	238-9	_	_	
+239-11	14424-14426	l'	_	_	_	l'	_	_	238-10	_	_	
+239-12	14427-14432	altra	_	_	weakly\_rising	altra,	_	_	238-11	_	_	
+239-13	14433-14441	inesatta	_	_	_	inesatta	_	_	238-12	_	_	
+239-14	14442-14445	che	_	_	_	che	_	_	238-13	_	_	
+239-15	14446-14451	aveva	_	_	_	aveva	_	_	238-14	_	_	
+239-16	14452-14456	dato	_	_	weakly\_rising	dato,	_	_	238-15	_	_	
+239-17	14457-14461	cioè	_	_	_	cioè	_	_	238-16	_	_	
+239-18	14462-14465	che	_	_	weakly\_rising	che,	_	_	238-17	_	_	
+239-19	14466-14473	[PAUSE]	_	_	_	(.)	_	_	238-18	_	_	
+239-20	14474-14476	la	_	_	_	la	_	_	238-19	_	_	
+239-21	14477-14484	società	_	_	_	società	_	_	238-20	_	_	
+239-22	14485-14488	può	_	_	_	può	_	_	238-21	_	_	
+239-23	14489-14493	dare	_	_	_	dare	_	_	238-22	_	_	
+239-24	14494-14500	ordine	_	_	_	ordine	_	_	238-23	_	_	
+239-25	14501-14505	agli	_	_	_	agli	_	_	238-24	_	_	
+239-26	14506-14520	amministratori	_	_	Rising	amministratori?	_	_	238-25	_	_	
+
+#Text=perché la società non può dare o~ l' assemblea diciamo l' assemblea non può dare ordini agli amministratori perché gli amministratori
+240-1	14521-14527	perché	_	_	_	perché	_	TO006	239-0	_	_	
+240-2	14528-14530	la	_	_	_	la	_	_	239-1	_	_	
+240-3	14531-14538	società	_	_	_	società	_	_	239-2	_	_	
+240-4	14539-14542	non	_	_	_	non	_	_	239-3	_	_	
+240-5	14543-14546	può	_	_	_	può	_	_	239-4	_	_	
+240-6	14547-14551	dare	_	_	_	dare	_	_	239-5	_	_	
+240-7	14552-14554	o~	_	_	weakly\_rising	o~,	_	_	239-6	_	_	
+240-8	14555-14557	l'	_	_	_	l'	_	_	239-7	_	_	
+240-9	14558-14567	assemblea	_	_	_	assemblea	_	_	239-8	_	_	
+240-10	14568-14575	diciamo	_	_	_	diciamo	_	_	239-9	_	_	
+240-11	14576-14578	l'	_	_	_	\[l'	_	_	239-10	*->16-1	*[16]	
+240-12	14579-14588	assemblea	_	_	_	assemblea\]	_	_	239-11	*->16-2	*[16]	
+240-13	14589-14592	non	_	_	_	non	_	_	239-12	_	_	
+240-14	14593-14596	può	_	_	_	può	_	_	239-13	_	_	
+240-15	14597-14601	dare	_	_	_	dare	_	_	239-14	_	_	
+240-16	14602-14608	ordini	_	_	_	ordini	_	_	239-15	_	_	
+240-17	14609-14613	agli	_	_	_	agli	_	_	239-16	_	_	
+240-18	14614-14628	amministratori	_	_	Rising	amministratori?	_	_	239-17	_	_	
+240-19	14629-14635	perché	_	_	_	perché	_	_	239-18	_	_	
+240-20	14636-14639	gli	_	_	_	gli	_	_	239-19	_	_	
+240-21	14640-14654	amministratori	_	_	weakly\_rising	amministratori,	_	_	239-20	_	_	
+
+#Text=l' assemblea
+241-1	14655-14657	l'	_	_	_	\[l'	_	TO007	240-0	*->16-3	*[16]	
+241-2	14658-14667	assemblea	_	_	Falling	assemblea\].	_	_	240-1	*->16-4	*[16]	
+
+#Text=sono comunque [PAUSE] sono comunque personalmente
+242-1	14668-14672	sono	_	_	_	so\[no	_	TO006	241-0	_	_	
+242-1.1	14670-14672	no	_	_	_	_	_	_	_	*->81-1	*[81]	
+242-2	14673-14681	comunque	_	_	weakly\_rising	comunque\],	_	_	241-1	*->81-2	*[81]	
+242-2.1	14673-14674	c	_	_	_	_	_	_	_	*->81-1	*[81]	
+242-3	14682-14689	[PAUSE]	_	_	_	(.)	_	_	241-2	_	_	
+242-4	14690-14694	sono	_	_	_	sono	_	_	241-3	_	_	
+242-5	14695-14703	comunque	_	_	weakly\_rising	comunque,	_	_	241-4	_	_	
+242-6	14704-14717	personalmente	_	_	weakly\_rising	personalmente,	_	_	241-5	_	_	
+
+#Text=godono di responsabili~
+243-1	14718-14724	godono	_	_	_	\[godono	_	TO007	242-0	*->81-3	*[81]	
+243-2	14725-14727	di	_	_	_	di	_	_	242-1	*->81-4	*[81]	
+243-3	14728-14741	responsabili~	_	_	_	responsabili~\]	_	_	242-2	*->81-5	*[81]	
+
+#Text=res~ responsabili limtatamente
+244-1	14742-14746	res~	_	_	_	res~	_	TO007	243-0	_	_	
+244-2	14747-14759	responsabili	_	_	_	responsabili	_	_	243-1	_	_	
+244-3	14760-14772	limtatamente	_	_	Falling	limtatamente.	_	_	243-2	_	_	
+
+#Text=non illimitatamente
+245-1	14773-14776	non	_	_	_	non	_	TO006	244-0	_	_	
+245-2	14777-14792	illimitatamente	_	_	Falling	illimitatamen\[te\].	_	_	244-1	_	_	
+245-2.1	14790-14792	te	_	_	_	_	_	_	_	*->35-1	*[35]	
+
+#Text=limitatamente limitatamente
+246-1	14793-14806	limitatamente	_	_	Falling	\[li\]mitata\[mente.	_	TO007	245-0	_	_	
+246-1.1	14793-14805	limitatament	_	_	_	_	_	_	_	*->35-1	*[35]	
+246-1.2	14793-14795	li	_	_	_	_	_	_	_	*->35-2	*[35]	
+246-1.3	14801-14806	mente	_	_	_	_	_	_	_	*->68-1	*[68]	
+246-2	14807-14820	limitatamente	_	_	Falling	limitatamente\].	_	_	245-1	*->68-2	*[68]	
+246-2.1	14807-14814	limitat	_	_	_	_	_	_	_	*->68-1	*[68]	
+
+#Text=limitatamente voglio dire che se l' assemblea potesse dare [PAUSE] agli amministratori degli ordini e contemporaneamente chiedere poi loro
+247-1	14821-14834	limitatamente	BC	_	Falling	\[limitatamente.	_	TO006	246-0	*->68-3	*[68]	
+247-2	14835-14841	voglio	_	_	_	voglio	_	_	246-1	*->68-4	*[68]	
+247-3	14842-14846	dire	_	_	_	dire\]	_	_	246-2	*->68-5	*[68]	
+247-4	14847-14850	che	_	_	Falling	che.	_	_	246-3	_	_	
+247-5	14851-14853	se	_	_	_	se	_	_	246-4	_	_	
+247-6	14854-14856	l'	_	_	_	l'	_	_	246-5	_	_	
+247-7	14857-14866	assemblea	_	_	_	assemblea	_	_	246-6	_	_	
+247-8	14867-14874	potesse	_	_	_	potesse	_	_	246-7	_	_	
+247-9	14875-14879	dare	_	_	_	dare	_	_	246-8	_	_	
+247-10	14880-14887	[PAUSE]	_	_	_	(.)	_	_	246-9	_	_	
+247-11	14888-14892	agli	_	_	_	agli	_	_	246-10	_	_	
+247-12	14893-14907	amministratori	_	_	_	amministratori	_	_	246-11	_	_	
+247-13	14908-14913	degli	_	_	_	degli	_	_	246-12	_	_	
+247-14	14914-14920	ordini	_	_	_	ordini	_	_	246-13	_	_	
+247-15	14921-14922	e	_	_	_	e	_	_	246-14	_	_	
+247-16	14923-14941	contemporaneamente	_	_	_	contemporaneamente	_	_	246-15	_	_	
+247-17	14942-14950	chiedere	_	_	_	chiedere	_	_	246-16	_	_	
+247-18	14951-14954	poi	_	_	_	poi	_	_	246-17	_	_	
+247-19	14955-14959	loro	_	_	weakly\_rising	loro,	_	_	246-18	_	_	
+
+#Text=la
+248-1	14960-14962	la	_	_	Rising	la?	_	TO006	247-0	_	_	
+
+#Text=la responsabilità
+249-1	14963-14965	la	_	_	_	la	_	TO007	248-0	_	_	
+249-2	14966-14980	responsabilità	_	_	weakly\_rising	responsabilità,	_	_	248-1	_	_	
+
+#Text=non sarebbe giusto le pare
+250-1	14981-14984	non	_	_	_	non	_	TO006	249-0	_	_	
+250-2	14985-14992	sarebbe	_	_	_	sarebbe	_	_	249-1	_	_	
+250-3	14993-14999	giusto	_	_	Falling	gius\[to.	_	_	249-2	_	_	
+250-3.1	14997-14999	to	_	_	_	_	_	_	_	*->22-1	*[22]	
+250-4	15000-15002	le	_	_	_	le	_	_	249-3	*->22-1|*->22-2	*[22]|*[22]	
+250-5	15003-15007	pare	_	_	Rising	pare\]?	_	_	249-4	*->22-3	*[22]	
+250-5.1	15003-15003		_	_	_	_	_	_	_	*->22-1	*[22]	
+
+#Text=non sarebbe sì sarebbe in contraddizione
+251-1	15008-15011	non	BC[20]	_	_	\[non	_	TO007	250-0	*->22-4	*[22]	
+251-2	15012-15019	sarebbe	BC[20]	_	weakly\_rising	sarebbe,	_	_	250-1	*->22-5	*[22]	
+251-3	15020-15022	sì	BC[20]	_	_	sì\]	_	_	250-2	*->22-6	*[22]	
+251-4	15023-15030	sarebbe	_	_	weakly\_rising	sarebbe:,	_	_	250-3	_	_	
+251-5	15031-15033	in	_	_	_	in	_	_	250-4	_	_	
+251-6	15034-15048	contraddizione	_	_	Falling	contraddizio\[ne\].	_	_	250-5	_	_	
+251-6.1	15046-15048	ne	_	_	_	_	_	_	_	*->48-1	*[48]	
+
+#Text=sarebbe in contraddizione esatto e quindi è proprio questa contraddizione che [PAUSE] spiega perché attualmente a differenza del eh dell' epoca ottocentesca [PAUSE] gli amministratori sono liberi di sbagliare
+252-1	15049-15056	sarebbe	BC[21]	_	_	\[sa\]rebbe	_	TO006	251-0	*->48-1	*[48]	
+252-1.1	15049-15051	sa	_	_	_	_	_	_	_	*->48-2	*[48]	
+252-2	15057-15059	in	BC[21]	_	_	in	_	_	251-1	*->48-1	*[48]	
+252-3	15060-15074	contraddizione	BC[21]	_	Falling	contraddizione.	_	_	251-2	_	_	
+252-3.1	15060-15060		_	_	_	_	_	_	_	*->48-1	*[48]	
+252-4	15075-15081	esatto	BC[21]	_	Falling	esatto.	_	_	251-3	_	_	
+252-5	15082-15083	e	_	_	_	e	_	_	251-4	_	_	
+252-6	15084-15090	quindi	_	_	_	quindi	_	_	251-5	_	_	
+252-7	15091-15092	è	_	_	_	è	_	_	251-6	_	_	
+252-8	15093-15100	proprio	_	_	_	proprio	_	_	251-7	_	_	
+252-9	15101-15107	questa	_	_	_	questa	_	_	251-8	_	_	
+252-10	15108-15122	contraddizione	_	_	weakly\_rising	contraddizione,	_	_	251-9	_	_	
+252-11	15123-15126	che	_	_	_	che	_	_	251-10	_	_	
+252-12	15127-15134	[PAUSE]	_	_	_	(.)	_	_	251-11	_	_	
+252-13	15135-15141	spiega	_	_	_	spiega	_	_	251-12	_	_	
+252-14	15142-15148	perché	_	_	weakly\_rising	perché,	_	_	251-13	_	_	
+252-15	15149-15160	attualmente	_	_	weakly\_rising	attualmente,	_	_	251-14	_	_	
+252-16	15161-15162	a	_	_	_	a	_	_	251-15	_	_	
+252-17	15163-15173	differenza	_	_	_	differenza	_	_	251-16	_	_	
+252-18	15174-15177	del	_	_	_	del	_	_	251-17	_	_	
+252-19	15178-15180	eh	_	FP	_	eh	_	_	251-18	_	_	
+252-20	15181-15186	dell'	_	_	_	dell'	_	_	251-19	_	_	
+252-21	15187-15192	epoca	_	_	_	epoca	_	_	251-20	_	_	
+252-22	15193-15205	ottocentesca	_	_	weakly\_rising	ottocentesca,	_	_	251-21	_	_	
+252-23	15206-15213	[PAUSE]	_	_	_	(.)	_	_	251-22	_	_	
+252-24	15214-15217	gli	_	_	_	gli	_	_	251-23	_	_	
+252-25	15218-15232	amministratori	_	_	_	amministratori	_	_	251-24	_	_	
+252-26	15233-15237	sono	_	_	_	sono	_	_	251-25	_	_	
+252-27	15238-15244	liberi	_	_	_	liberi	_	_	251-26	_	_	
+252-28	15245-15247	di	_	_	_	di	_	_	251-27	_	_	
+252-29	15248-15257	sbagliare	_	_	Falling	sbagliare.	_	_	251-28	_	_	
+
+#Text=diciamo così salvo poi pagare o con la revoca
+253-1	15258-15265	diciamo	_	_	_	diciamo	_	TO006	252-0	_	_	
+253-2	15266-15270	così	_	_	Falling	così.	_	_	252-1	_	_	
+253-3	15271-15276	salvo	_	_	_	salvo	_	_	252-2	_	_	
+253-4	15277-15280	poi	_	_	_	poi	_	_	252-3	_	_	
+253-5	15281-15287	pagare	_	_	weakly\_rising	pagare,	_	_	252-4	_	_	
+253-6	15288-15289	o	_	_	_	o	_	_	252-5	_	_	
+253-7	15290-15293	con	_	_	_	con	_	_	252-6	_	_	
+253-8	15294-15296	la	_	_	_	la	_	_	252-7	_	_	
+253-9	15297-15303	revoca	_	_	weakly\_rising	revo\[ca\],	_	_	252-8	_	_	
+253-9.1	15301-15303	ca	_	_	_	_	_	_	_	*->52-1	*[52]	
+
+#Text=anche perché c' è [PAUSE] il~ e~ e~ essere amministratore di una grossa società comporta un grosso rischio quindi [PAUSE] magar~ quindi è è anche può [PAUSE] è è anche dovuto [PAUSE] a a questo il eh il la facoltà dell' amminis~ [PAUSE] la possibilità data all' amministratore d~ d~ di [PAUSE] di rischiare
+254-1	15304-15309	anche	_	_	_	\[an\]che	_	TO007	253-0	_	_	
+254-1.1	15304-15307	anc	_	_	_	_	_	_	_	*->52-1	*[52]	
+254-1.2	15304-15306	an	_	_	_	_	_	_	_	*->52-2	*[52]	
+254-2	15310-15316	perché	_	_	_	perché	_	_	253-1	_	_	
+254-3	15317-15319	c'	_	_	_	c'	_	_	253-2	_	_	
+254-4	15320-15321	è	_	_	_	è:::	_	_	253-3	_	_	
+254-5	15322-15329	[PAUSE]	_	_	_	(.)	_	_	253-4	_	_	
+254-6	15330-15333	il~	_	_	_	il~	_	_	253-5	_	_	
+254-7	15334-15336	e~	_	_	_	e~	_	_	253-6	_	_	
+254-8	15337-15339	e~	_	_	_	e~	_	_	253-7	_	_	
+254-9	15340-15346	essere	_	_	_	essere	_	_	253-8	_	_	
+254-10	15347-15361	amministratore	_	_	_	amministratore	_	_	253-9	_	_	
+254-11	15362-15364	di	_	_	_	di	_	_	253-10	_	_	
+254-12	15365-15368	una	_	_	_	una	_	_	253-11	_	_	
+254-13	15369-15375	grossa	_	_	_	grossa	_	_	253-12	_	_	
+254-14	15376-15383	società	_	_	weakly\_rising	società,	_	_	253-13	_	_	
+254-15	15384-15392	comporta	_	_	_	comporta	_	_	253-14	_	_	
+254-16	15393-15395	un	_	_	_	un	_	_	253-15	_	_	
+254-17	15396-15402	grosso	_	_	_	grosso	_	_	253-16	_	_	
+254-18	15403-15410	rischio	_	_	Falling	rischio.	_	_	253-17	_	_	
+254-19	15411-15417	quindi	_	_	weakly\_rising	quindi,	_	_	253-18	_	_	
+254-20	15418-15425	[PAUSE]	_	_	_	(.)	_	_	253-19	_	_	
+254-21	15426-15432	magar~	_	_	_	magar~	_	_	253-20	_	_	
+254-22	15433-15439	quindi	_	_	_	quindi	_	_	253-21	_	_	
+254-23	15440-15441	è	_	_	_	è	_	_	253-22	_	_	
+254-24	15442-15443	è	_	_	_	è:	_	_	253-23	_	_	
+254-25	15444-15449	anche	_	_	_	anche	_	_	253-24	_	_	
+254-26	15450-15453	può	_	_	_	può	_	_	253-25	_	_	
+254-27	15454-15461	[PAUSE]	_	_	_	(.)	_	_	253-26	_	_	
+254-28	15462-15463	è	_	_	_	è	_	_	253-27	_	_	
+254-29	15464-15465	è	_	_	_	è	_	_	253-28	_	_	
+254-30	15466-15471	anche	_	_	_	anche	_	_	253-29	_	_	
+254-31	15472-15478	dovuto	_	_	_	dovuto::	_	_	253-30	_	_	
+254-32	15479-15486	[PAUSE]	_	_	_	(.)	_	_	253-31	_	_	
+254-33	15487-15488	a	_	_	_	a	_	_	253-32	_	_	
+254-34	15489-15490	a	_	_	_	a	_	_	253-33	_	_	
+254-35	15491-15497	questo	_	_	_	questo	_	_	253-34	_	_	
+254-36	15498-15500	il	_	_	_	il	_	_	253-35	_	_	
+254-37	15501-15503	eh	_	FP	_	e:::h	_	_	253-36	_	_	
+254-38	15504-15506	il	_	_	_	il	_	_	253-37	_	_	
+254-39	15507-15509	la	_	_	_	la	SR[40]	_	253-38	_	_	
+254-40	15510-15517	facoltà	_	_	_	facoltà	SR[40]	_	253-39	_	_	
+254-41	15518-15523	dell'	_	_	_	dell'	SR[40]	_	253-40	_	_	
+254-42	15524-15532	amminis~	_	_	_	amminis~	SR[40]	_	253-41	_	_	
+254-43	15533-15540	[PAUSE]	_	_	_	(.)	SR[40]	_	253-42	_	_	
+254-44	15541-15543	la	_	_	_	la	SR[40]	_	253-43	_	_	
+254-45	15544-15555	possibilità	_	_	_	possibilità	SR[40]	_	253-44	_	_	
+254-46	15556-15560	data	_	_	_	data	SR[40]	_	253-45	_	_	
+254-47	15561-15565	all'	_	_	_	all'	SR[40]	_	253-46	_	_	
+254-48	15566-15580	amministratore	_	_	weakly\_rising	amministratore,	SR[40]	_	253-47	_	_	
+254-49	15581-15583	d~	_	_	_	d~	_	_	253-48	_	_	
+254-50	15584-15586	d~	_	_	_	d~	_	_	253-49	_	_	
+254-51	15587-15589	di	_	_	_	di	_	_	253-50	_	_	
+254-52	15590-15597	[PAUSE]	_	_	_	(.)	_	_	253-51	_	_	
+254-53	15598-15600	di	_	_	_	di	_	_	253-52	_	_	
+254-54	15601-15610	rischiare	_	_	Falling	rischiare.	_	_	253-53	_	_	
+
+#Text=cioè n~ noi non possiamo dire cioè p~ più grossa è l' impresa più grossa è la società [PAUSE] e maggiore è il è è il rischio che è demandato al eh all' amministratore quindi n~ non si possono mettere dei mh
+255-1	15611-15615	cioè	_	_	_	>cioè<	_	TO007	254-0	_	_	
+255-2	15616-15618	n~	_	_	_	n~	_	_	254-1	_	_	
+255-3	15619-15622	noi	_	_	_	noi	_	_	254-2	_	_	
+255-4	15623-15626	non	_	_	_	non	_	_	254-3	_	_	
+255-5	15627-15635	possiamo	_	_	_	possiamo	_	_	254-4	_	_	
+255-6	15636-15640	dire	_	_	weakly\_rising	dire,	_	_	254-5	_	_	
+255-7	15641-15645	cioè	_	_	_	>cioè<	_	_	254-6	_	_	
+255-8	15646-15648	p~	_	_	_	p~	_	_	254-7	_	_	
+255-9	15649-15652	più	_	_	_	più	_	_	254-8	_	_	
+255-10	15653-15659	grossa	_	_	_	grossa	_	_	254-9	_	_	
+255-11	15660-15661	è	_	_	_	è	_	_	254-10	_	_	
+255-12	15662-15664	l'	_	_	_	l'	_	_	254-11	_	_	
+255-13	15665-15672	impresa	_	_	weakly\_rising	impresa,	_	_	254-12	_	_	
+255-14	15673-15676	più	_	_	_	più	_	_	254-13	_	_	
+255-15	15677-15683	grossa	_	_	_	grossa	_	_	254-14	_	_	
+255-16	15684-15685	è	_	_	_	è	_	_	254-15	_	_	
+255-17	15686-15688	la	_	_	_	la	_	_	254-16	_	_	
+255-18	15689-15696	società	_	_	weakly\_rising	società,	_	_	254-17	_	_	
+255-19	15697-15704	[PAUSE]	_	_	_	(.)	_	_	254-18	_	_	
+255-20	15705-15706	e	_	_	_	e	_	_	254-19	_	_	
+255-21	15707-15715	maggiore	_	_	_	maggiore	_	_	254-20	_	_	
+255-22	15716-15717	è	_	_	_	è	_	_	254-21	_	_	
+255-23	15718-15720	il	_	_	_	il	_	_	254-22	_	_	
+255-24	15721-15722	è	_	_	_	è	_	_	254-23	_	_	
+255-25	15723-15724	è	_	_	_	è	_	_	254-24	_	_	
+255-26	15725-15727	il	_	_	_	il	_	_	254-25	_	_	
+255-27	15728-15735	rischio	_	_	_	rischio	_	_	254-26	_	_	
+255-28	15736-15739	che	_	_	_	che	_	_	254-27	_	_	
+255-29	15740-15741	è	_	_	_	è	_	_	254-28	_	_	
+255-30	15742-15751	demandato	_	_	_	demandato	_	_	254-29	_	_	
+255-31	15752-15754	al	_	_	_	al	_	_	254-30	_	_	
+255-32	15755-15757	eh	_	FP	_	e::h	_	_	254-31	_	_	
+255-33	15758-15762	all'	_	_	_	all'	_	_	254-32	_	_	
+255-34	15763-15777	amministratore	_	_	Falling	amministratore.	_	_	254-33	_	_	
+255-35	15778-15784	quindi	_	_	_	quindi	_	_	254-34	_	_	
+255-36	15785-15787	n~	_	_	_	n~	_	_	254-35	_	_	
+255-37	15788-15791	non	_	_	_	non	_	_	254-36	_	_	
+255-38	15792-15794	si	_	_	_	si	_	_	254-37	_	_	
+255-39	15795-15802	possono	_	_	_	possono	_	_	254-38	_	_	
+255-40	15803-15810	mettere	_	_	_	mettere	_	_	254-39	_	_	
+255-41	15811-15814	dei	_	_	_	dei::	_	_	254-40	_	_	
+255-42	15815-15817	mh	_	FP	Falling	mh.	_	_	254-41	_	_	
+
+#Text=esatto l' amministr~ la figura dell' amministratore oggi è conformata così giusto o sbagliato che sia la cosa c' è qualcuno che dice che eh mh appunto i soci sono emarginati [PAUSE] dal governo della società che gli amministratori han preso [PAUSE] e le le realmente i~ il eh il eh le redini di una di un' istituzione che
+256-1	15818-15824	esatto	BC	_	Falling	esatto.	_	TO006	255-0	_	_	
+256-2	15825-15827	l'	_	_	_	l'	_	_	255-1	_	_	
+256-3	15828-15838	amministr~	_	_	_	amministr~	_	_	255-2	_	_	
+256-4	15839-15841	la	_	_	_	la	_	_	255-3	_	_	
+256-5	15842-15848	figura	_	_	_	figura	_	_	255-4	_	_	
+256-6	15849-15854	dell'	_	_	_	dell'	_	_	255-5	_	_	
+256-7	15855-15869	amministratore	_	_	_	amministratore	_	_	255-6	_	_	
+256-8	15870-15874	oggi	_	_	_	oggi	_	_	255-7	_	_	
+256-9	15875-15876	è	_	_	_	è	_	_	255-8	_	_	
+256-10	15877-15887	conformata	_	_	_	conformata	_	_	255-9	_	_	
+256-11	15888-15892	così	_	_	Falling	così.	_	_	255-10	_	_	
+256-12	15893-15899	giusto	_	_	_	giusto	_	_	255-11	_	_	
+256-13	15900-15901	o	_	_	_	o	_	_	255-12	_	_	
+256-14	15902-15911	sbagliato	_	_	_	sbagliato	_	_	255-13	_	_	
+256-15	15912-15915	che	_	_	_	che	_	_	255-14	_	_	
+256-16	15916-15919	sia	_	_	_	sia	_	_	255-15	_	_	
+256-17	15920-15922	la	_	_	_	la	_	_	255-16	_	_	
+256-18	15923-15927	cosa	_	_	weakly\_rising	cosa,	_	_	255-17	_	_	
+256-19	15928-15930	c'	_	_	_	c'	_	_	255-18	_	_	
+256-20	15931-15932	è	_	_	_	è	_	_	255-19	_	_	
+256-21	15933-15941	qualcuno	_	_	_	qualcuno	_	_	255-20	_	_	
+256-22	15942-15945	che	_	_	_	che	_	_	255-21	_	_	
+256-23	15946-15950	dice	_	_	_	dice	_	_	255-22	_	_	
+256-24	15951-15954	che	_	_	_	che	_	_	255-23	_	_	
+256-25	15955-15957	eh	_	FP[31]	_	eh	_	_	255-24	_	_	
+256-26	15958-15960	mh	_	FP[31]	_	mh	_	_	255-25	_	_	
+256-27	15961-15968	appunto	_	_	_	appunto	_	_	255-26	_	_	
+256-28	15969-15970	i	_	_	_	i	_	_	255-27	_	_	
+256-29	15971-15975	soci	_	_	_	soci	_	_	255-28	_	_	
+256-30	15976-15980	sono	_	_	_	sono	_	_	255-29	_	_	
+256-31	15981-15991	emarginati	_	_	_	emargina:ti	_	_	255-30	_	_	
+256-32	15992-15999	[PAUSE]	_	_	_	(.)	_	_	255-31	_	_	
+256-33	16000-16003	dal	_	_	_	dal	_	_	255-32	_	_	
+256-34	16004-16011	governo	_	_	_	governo	_	_	255-33	_	_	
+256-35	16012-16017	della	_	_	_	della	_	_	255-34	_	_	
+256-36	16018-16025	società	_	_	weakly\_rising	società,	_	_	255-35	_	_	
+256-37	16026-16029	che	_	_	_	che	_	_	255-36	_	_	
+256-38	16030-16033	gli	_	_	_	gli	_	_	255-37	_	_	
+256-39	16034-16048	amministratori	_	_	_	amministratori:::	_	_	255-38	_	_	
+256-40	16049-16052	han	_	_	_	han	_	_	255-39	_	_	
+256-41	16053-16058	preso	_	_	_	\[preso\]	_	_	255-40	*->5-1	*[5]	
+256-42	16059-16066	[PAUSE]	_	_	_	(.)	_	_	255-41	_	_	
+256-43	16067-16068	e	_	_	_	(e	_	_	255-42	_	_	
+256-44	16069-16071	le	_	_	_	)le	_	_	255-43	_	_	
+256-45	16072-16074	le	_	_	_	le::	_	_	255-44	_	_	
+256-46	16075-16084	realmente	_	_	_	realmente	_	_	255-45	_	_	
+256-47	16085-16087	i~	_	_	_	i~	_	_	255-46	_	_	
+256-48	16088-16090	il	_	_	_	il	_	_	255-47	_	_	
+256-49	16091-16093	eh	_	FP	_	e:h	_	_	255-48	_	_	
+256-50	16094-16096	il	_	_	_	il	_	_	255-49	_	_	
+256-51	16097-16099	eh	_	FP	_	e:h	_	_	255-50	_	_	
+256-52	16100-16102	le	_	_	_	le	_	_	255-51	_	_	
+256-53	16103-16109	redini	_	_	_	redini	_	_	255-52	_	_	
+256-54	16110-16112	di	_	_	_	di	_	_	255-53	_	_	
+256-55	16113-16116	una	_	_	_	una::	_	_	255-54	_	_	
+256-56	16117-16119	di	_	_	_	di	_	_	255-55	_	_	
+256-57	16120-16123	un'	_	_	_	un'	_	_	255-56	_	_	
+256-58	16124-16135	istituzione	_	_	_	istituzione	_	_	255-57	_	_	
+256-59	16136-16139	che	_	_	weakly\_rising	che,	_	_	255-58	_	_	
+
+#Text=è relativo
+257-1	16140-16141	è	_	_	_	\[è	_	TO007	256-0	*->5-2	*[5]	
+257-2	16142-16150	relativo	_	_	Falling	relativo\].	_	_	256-1	*->5-3	*[5]	
+
+#Text=che non è di loro proprietà o non necessariamente loro perché gli amministratori possono anche essere non soci
+258-1	16151-16154	che	_	_	_	che	_	TO006	257-0	_	_	
+258-2	16155-16158	non	_	_	_	non	_	_	257-1	_	_	
+258-3	16159-16160	è	_	_	_	è	_	_	257-2	_	_	
+258-4	16161-16163	di	_	_	_	di	_	_	257-3	_	_	
+258-5	16164-16168	loro	_	_	_	loro	_	_	257-4	_	_	
+258-6	16169-16178	proprietà	_	_	weakly\_rising	proprietà,	_	_	257-5	_	_	
+258-7	16179-16180	o	_	_	_	o	_	_	257-6	_	_	
+258-8	16181-16184	non	_	_	_	non	_	_	257-7	_	_	
+258-9	16185-16200	necessariamente	_	_	_	necessariamente	_	_	257-8	_	_	
+258-10	16201-16205	loro	_	_	weakly\_rising	loro,	_	_	257-9	_	_	
+258-11	16206-16212	perché	_	_	_	perché	_	_	257-10	_	_	
+258-12	16213-16216	gli	_	_	_	gli	_	_	257-11	_	_	
+258-13	16217-16231	amministratori	_	_	_	amministratori	_	_	257-12	_	_	
+258-14	16232-16239	possono	_	_	_	possono	_	_	257-13	_	_	
+258-15	16240-16245	anche	_	_	_	anche	_	_	257-14	_	_	
+258-16	16246-16252	essere	_	_	_	essere	_	_	257-15	_	_	
+258-17	16253-16256	non	_	_	_	non	_	_	257-16	_	_	
+258-18	16257-16261	soci	_	_	Falling	soci.	_	_	257-17	_	_	
+
+#Text=quindi c' è qualcuno appunto è un grosso discorso quello sul manager e se sia giusto o non giusto che il manager [PAUSE] diciamo gestisca in autonomia
+259-1	16262-16268	quindi	_	_	_	quindi	_	TO006	258-0	_	_	
+259-2	16269-16271	c'	_	_	_	c'	_	_	258-1	_	_	
+259-3	16272-16273	è	_	_	_	è	_	_	258-2	_	_	
+259-4	16274-16282	qualcuno	_	_	weakly\_rising	qualcuno,	_	_	258-3	_	_	
+259-5	16283-16290	appunto	_	_	weakly\_rising	appunto,	_	_	258-4	_	_	
+259-6	16291-16292	è	_	_	_	è	_	_	258-5	_	_	
+259-7	16293-16295	un	_	_	_	un	_	_	258-6	_	_	
+259-8	16296-16302	grosso	_	_	_	grosso	_	_	258-7	_	_	
+259-9	16303-16311	discorso	_	_	_	discorso	_	_	258-8	_	_	
+259-10	16312-16318	quello	_	_	_	quello	_	_	258-9	_	_	
+259-11	16319-16322	sul	_	_	_	sul	_	_	258-10	_	_	
+259-12	16323-16330	manager	_	_	_	manager	_	_	258-11	_	_	
+259-13	16331-16332	e	_	_	_	e	_	_	258-12	_	_	
+259-14	16333-16335	se	_	_	_	se	_	_	258-13	_	_	
+259-15	16336-16339	sia	_	_	_	sia	_	_	258-14	_	_	
+259-16	16340-16346	giusto	_	_	_	giusto	_	_	258-15	_	_	
+259-17	16347-16348	o	_	_	_	o	_	_	258-16	_	_	
+259-18	16349-16352	non	_	_	_	non	_	_	258-17	_	_	
+259-19	16353-16359	giusto	_	_	_	giusto	_	_	258-18	_	_	
+259-20	16360-16363	che	_	_	_	che	_	_	258-19	_	_	
+259-21	16364-16366	il	_	_	_	il	_	_	258-20	_	_	
+259-22	16367-16374	manager	_	_	_	manager	_	_	258-21	_	_	
+259-23	16375-16382	[PAUSE]	_	_	_	(.)	_	_	258-22	_	_	
+259-24	16383-16390	diciamo	_	_	weakly\_rising	diciamo:,	_	_	258-23	_	_	
+259-25	16391-16399	gestisca	_	_	_	gestisca	_	_	258-24	_	_	
+259-26	16400-16402	in	_	_	_	in	_	_	258-25	_	_	
+259-27	16403-16412	autonomia	_	_	weakly\_rising	autonomia:,	_	_	258-26	_	_	
+
+#Text=però [PAUSE] l~ l' assetto attuale della della sittuazione è questo che un amministratore che si prende piena responsabilità di quello che fa e l' assemblea che eventualmente lo sanziona [PAUSE] x ma non può comandarlo
+260-1	16413-16417	però	_	_	weakly\_rising	però,	_	TO006	259-0	_	_	
+260-2	16418-16425	[PAUSE]	_	_	_	(.)	_	_	259-1	_	_	
+260-3	16426-16428	l~	_	_	_	l~	_	_	259-2	_	_	
+260-4	16429-16431	l'	_	_	_	l'	_	_	259-3	_	_	
+260-5	16432-16439	assetto	_	_	_	assetto	_	_	259-4	_	_	
+260-6	16440-16447	attuale	_	_	_	attuale	_	_	259-5	_	_	
+260-7	16448-16453	della	_	_	_	della	_	_	259-6	_	_	
+260-8	16454-16459	della	_	_	_	della	_	_	259-7	_	_	
+260-9	16460-16471	sittuazione	_	_	weakly\_rising	sittuazione,	_	_	259-8	_	_	
+260-10	16472-16473	è	_	_	_	è	_	_	259-9	_	_	
+260-11	16474-16480	questo	_	_	Falling	questo.	_	_	259-10	_	_	
+260-12	16481-16484	che	_	_	_	che	_	_	259-11	_	_	
+260-13	16485-16487	un	_	_	_	un	_	_	259-12	_	_	
+260-14	16488-16502	amministratore	_	_	_	amministratore	_	_	259-13	_	_	
+260-15	16503-16506	che	_	_	_	che	_	_	259-14	_	_	
+260-16	16507-16509	si	_	_	_	si	_	_	259-15	_	_	
+260-17	16510-16516	prende	_	_	_	prende	_	_	259-16	_	_	
+260-18	16517-16522	piena	_	_	_	piena	_	_	259-17	_	_	
+260-19	16523-16537	responsabilità	_	_	_	responsabilità	_	_	259-18	_	_	
+260-20	16538-16540	di	_	_	_	di	_	_	259-19	_	_	
+260-21	16541-16547	quello	_	_	_	quello	_	_	259-20	_	_	
+260-22	16548-16551	che	_	_	_	che	_	_	259-21	_	_	
+260-23	16552-16554	fa	_	_	weakly\_rising	fa,	_	_	259-22	_	_	
+260-24	16555-16556	e	_	_	_	e	_	_	259-23	_	_	
+260-25	16557-16559	l'	_	_	_	l'	_	_	259-24	_	_	
+260-26	16560-16569	assemblea	_	_	_	assemblea	_	_	259-25	_	_	
+260-27	16570-16573	che	_	_	weakly\_rising	che,	_	_	259-26	_	_	
+260-28	16574-16587	eventualmente	_	_	_	eventualmente	_	_	259-27	_	_	
+260-29	16588-16590	lo	_	_	_	lo	_	_	259-28	_	_	
+260-30	16591-16599	sanziona	_	_	weakly\_rising	sanziona,	_	_	259-29	_	_	
+260-31	16600-16607	[PAUSE]	_	_	_	(.)	_	_	259-30	_	_	
+260-32	16608-16609	x	_	_	_	\[\]	_	_	259-31	_	_	
+260-33	16610-16612	ma	_	_	_	ma	_	_	259-32	_	_	
+260-34	16613-16616	non	_	_	_	non	_	_	259-33	_	_	
+260-35	16617-16620	può	_	_	_	può	_	_	259-34	_	_	
+260-36	16621-16631	comandarlo	_	_	Falling	comandarlo.	_	_	259-35	_	_	
+
+#Text=mh mh
+261-1	16632-16634	mh	BC[22]	_	weakly\_rising	\[mh,	_	TO007	260-0	*->59-1	*[59]	
+261-2	16635-16637	mh	BC[22]	_	Falling	mh\].	_	_	260-1	*->59-2	*[59]	
+
+#Text=ehm
+262-1	16638-16641	ehm	_	FP	_	ehm::	_	TO006	261-0	_	_	
+
+#Text=dunque abbiamo detto tutto sul rapporto sugli amministratori direi di sì abbiamo chiarito la nomina la revoca [PAUSE] una cosa ci resta da dire
+263-1	16642-16648	dunque	_	_	_	dunque	_	TO006	262-0	_	_	
+263-2	16649-16656	abbiamo	_	_	_	abbiamo	_	_	262-1	_	_	
+263-3	16657-16662	detto	_	_	_	detto	_	_	262-2	_	_	
+263-4	16663-16668	tutto	_	_	_	tutto	_	_	262-3	_	_	
+263-5	16669-16672	sul	_	_	_	sul	_	_	262-4	_	_	
+263-6	16673-16681	rapporto	_	_	_	rapporto	_	_	262-5	_	_	
+263-7	16682-16687	sugli	_	_	_	(sugli)	_	_	262-6	_	_	
+263-8	16688-16702	amministratori	_	_	weakly\_rising	amministratori,	_	_	262-7	_	_	
+263-9	16703-16708	direi	_	_	_	direi	_	_	262-8	_	_	
+263-10	16709-16711	di	_	_	_	di	_	_	262-9	_	_	
+263-11	16712-16714	sì	_	_	Falling	sì.	_	_	262-10	_	_	
+263-12	16715-16722	abbiamo	_	_	_	abbiamo	_	_	262-11	_	_	
+263-13	16723-16731	chiarito	_	_	_	chiarito	_	_	262-12	_	_	
+263-14	16732-16734	la	_	_	_	la	_	_	262-13	_	_	
+263-15	16735-16741	nomina	_	_	weakly\_rising	nomina,	_	_	262-14	_	_	
+263-16	16742-16744	la	_	_	_	la	_	_	262-15	_	_	
+263-17	16745-16751	revoca	_	_	weakly\_rising	revoca,	_	_	262-16	_	_	
+263-18	16752-16759	[PAUSE]	_	_	_	(.)	_	_	262-17	_	_	
+263-19	16760-16763	una	_	_	_	una	_	_	262-18	_	_	
+263-20	16764-16768	cosa	_	_	_	cosa	_	_	262-19	_	_	
+263-21	16769-16771	ci	_	_	_	ci	_	_	262-20	_	_	
+263-22	16772-16777	resta	_	_	_	resta	_	_	262-21	_	_	
+263-23	16778-16780	da	_	_	_	da	_	_	262-22	_	_	
+263-24	16781-16785	dire	_	_	Falling	dire.	_	_	262-23	_	_	
+
+#Text=un dato mnemonico se se lo ricorda lei mi ha detto che possono essere revocati [PAUSE] con o senza giusta causa
+264-1	16786-16788	un	_	_	_	un	_	TO006	263-0	_	_	
+264-2	16789-16793	dato	_	_	_	dato	_	_	263-1	_	_	
+264-3	16794-16803	mnemonico	_	_	_	mnemonico	_	_	263-2	_	_	
+264-4	16804-16806	se	_	_	_	se	_	_	263-3	_	_	
+264-5	16807-16809	se	_	_	_	se	_	_	263-4	_	_	
+264-6	16810-16812	lo	_	_	_	lo	_	_	263-5	_	_	
+264-7	16813-16820	ricorda	_	_	Falling	ricorda.	_	_	263-6	_	_	
+264-8	16821-16824	lei	_	_	_	lei	_	_	263-7	_	_	
+264-9	16825-16827	mi	_	_	_	mi	_	_	263-8	_	_	
+264-10	16828-16830	ha	_	_	_	ha	_	_	263-9	_	_	
+264-11	16831-16836	detto	_	_	_	detto	_	_	263-10	_	_	
+264-12	16837-16840	che	_	_	_	che	_	_	263-11	_	_	
+264-13	16841-16848	possono	_	_	_	possono	_	_	263-12	_	_	
+264-14	16849-16855	essere	_	_	_	essere	_	_	263-13	_	_	
+264-15	16856-16864	revocati	_	_	weakly\_rising	revocati,	_	_	263-14	_	_	
+264-16	16865-16872	[PAUSE]	_	_	_	(.)	_	_	263-15	_	_	
+264-17	16873-16876	con	_	_	weakly\_rising	con,	_	_	263-16	_	_	
+264-18	16877-16878	o	_	_	_	o	_	_	263-17	_	_	
+264-19	16879-16884	senza	_	_	_	senza	_	_	263-18	_	_	
+264-20	16885-16891	giusta	_	_	_	giusta	_	_	263-19	_	_	
+264-21	16892-16897	causa	_	_	Falling	causa.	_	_	263-20	_	_	
+
+#Text=mh mh
+265-1	16898-16900	mh	BC[23]	_	_	mh	_	TO007	264-0	_	_	
+265-2	16901-16903	mh	BC[23]	_	Falling	mh.	_	_	264-1	_	_	
+
+#Text=c' è una differenza però nelle conseguenze economiche nei due casi
+266-1	16904-16906	c'	_	_	_	c'	_	TO006	265-0	_	_	
+266-2	16907-16908	è	_	_	_	è	_	_	265-1	_	_	
+266-3	16909-16912	una	_	_	_	una	_	_	265-2	_	_	
+266-4	16913-16923	differenza	_	_	_	differenza	_	_	265-3	_	_	
+266-5	16924-16928	però	_	_	weakly\_rising	però,	_	_	265-4	_	_	
+266-6	16929-16934	nelle	_	_	_	nelle	_	_	265-5	_	_	
+266-7	16935-16946	conseguenze	_	_	_	conseguenze	_	_	265-6	_	_	
+266-8	16947-16957	economiche	_	_	_	economiche	_	_	265-7	_	_	
+266-9	16958-16961	nei	_	_	_	nei	_	_	265-8	_	_	
+266-10	16962-16965	due	_	_	_	due	_	_	265-9	_	_	
+266-11	16966-16970	casi	_	_	Falling	casi.	_	_	265-10	_	_	
+
+#Text=nel caso in cui non
+267-1	16971-16974	nel	_	_	_	nel	_	TO007	266-0	_	_	
+267-2	16975-16979	caso	_	_	_	caso	_	_	266-1	_	_	
+267-3	16980-16982	in	_	_	_	in	_	_	266-2	_	_	
+267-4	16983-16986	cui	_	_	_	cui	_	_	266-3	_	_	
+267-5	16987-16990	non	_	_	_	non	_	_	266-4	_	_	
+
+#Text=in cas~ nel caso in cui venga revocato con giusta causa all' amministratore è dovuto un eh un
+268-1	16991-16993	in	_	_	_	in	_	TO007	267-0	_	_	
+268-2	16994-16998	cas~	_	_	_	cas~	_	_	267-1	_	_	
+268-3	16999-17002	nel	_	_	_	nel	_	_	267-2	_	_	
+268-4	17003-17007	caso	_	_	_	caso	_	_	267-3	_	_	
+268-5	17008-17010	in	_	_	_	in	_	_	267-4	_	_	
+268-6	17011-17014	cui	_	_	_	cui	_	_	267-5	_	_	
+268-7	17015-17020	venga	_	_	_	venga	_	_	267-6	_	_	
+268-8	17021-17029	revocato	_	_	_	revocato	_	_	267-7	_	_	
+268-9	17030-17033	con	_	_	_	con	_	_	267-8	_	_	
+268-10	17034-17040	giusta	_	_	_	giusta	_	_	267-9	_	_	
+268-11	17041-17046	causa	_	_	weakly\_rising	causa,	_	_	267-10	_	_	
+268-12	17047-17051	all'	_	_	_	all'	_	_	267-11	_	_	
+268-13	17052-17066	amministratore	_	_	_	amministratore:	_	_	267-12	_	_	
+268-14	17067-17068	è	_	_	_	è	_	_	267-13	_	_	
+268-15	17069-17075	dovuto	_	_	_	dovuto	_	_	267-14	_	_	
+268-16	17076-17078	un	_	_	_	un	_	_	267-15	_	_	
+268-17	17079-17081	eh	_	FP	_	e:h	_	_	267-16	_	_	
+268-18	17082-17084	un	_	_	_	un	_	_	267-17	_	_	
+
+#Text=con o senza gius~
+269-1	17085-17088	con	_	_	weakly\_rising	con,	_	TO006	268-0	_	_	
+269-2	17089-17090	o	_	_	_	o	_	_	268-1	_	_	
+269-3	17091-17096	senza	_	_	_	senza	_	_	268-2	_	_	
+269-4	17097-17102	gius~	_	_	Falling	gius~.	_	_	268-3	_	_	
+
+#Text=con giusta caus~
+270-1	17103-17106	con	_	_	Falling	con.	_	TO007	269-0	_	_	
+270-2	17107-17113	giusta	_	_	_	giusta	_	_	269-1	_	_	
+270-3	17114-17119	caus~	_	_	_	caus~	_	_	269-2	_	_	
+
+#Text=no se c' è una giusta causa
+271-1	17120-17122	no	_	_	Falling	no.	_	TO006	270-0	_	_	
+271-2	17123-17125	se	_	_	_	se	_	_	270-1	_	_	
+271-3	17126-17128	c'	_	_	_	c'	_	_	270-2	_	_	
+271-4	17129-17130	è	_	_	_	è	_	_	270-3	_	_	
+271-5	17131-17134	una	_	_	_	una	_	_	270-4	_	_	
+271-6	17135-17141	giusta	_	_	_	giusta	_	_	270-5	_	_	
+271-7	17142-17147	causa	_	_	weakly\_rising	causa,	_	_	270-6	_	_	
+
+#Text=no senza giusta causa [PAUSE] gli gli viene mh gli viene concesso un eh un indennizzo
+272-1	17148-17150	no	_	_	_	no	_	TO007	271-0	_	_	
+272-2	17151-17156	senza	_	_	_	senza	_	_	271-1	_	_	
+272-3	17157-17163	giusta	_	_	_	gius\[ta	_	_	271-2	_	_	
+272-3.1	17161-17163	ta	_	_	_	_	_	_	_	*->58-1	*[58]	
+272-4	17164-17169	causa	_	_	Falling	causa.	_	_	271-3	*->58-2	*[58]	
+272-4.1	17164-17167	cau	_	_	_	_	_	_	_	*->58-1	*[58]	
+272-5	17170-17177	[PAUSE]	_	_	_	(.)	_	_	271-4	_	_	
+272-5.1	17170-17173	[PA	_	_	_	_	_	_	_	*->58-3	*[58]	
+272-6	17178-17181	gli	_	_	_	gli	_	_	271-5	*->58-4	*[58]	
+272-7	17182-17185	gli	_	_	_	gli	_	_	271-6	*->58-5	*[58]	
+272-8	17186-17191	viene	_	_	_	viene::\]	_	_	271-7	*->58-6	*[58]	
+272-9	17192-17194	mh	_	FP	_	mh	_	_	271-8	_	_	
+272-10	17195-17198	gli	_	_	_	gli	_	_	271-9	_	_	
+272-11	17199-17204	viene	_	_	_	viene	_	_	271-10	_	_	
+272-12	17205-17213	concesso	_	_	_	concesso	_	_	271-11	_	_	
+272-13	17214-17216	un	_	_	_	un	_	_	271-12	_	_	
+272-14	17217-17219	eh	_	FP	_	e:h	_	_	271-13	_	_	
+272-15	17220-17222	un	_	_	_	un	_	_	271-14	_	_	
+272-16	17223-17233	indennizzo	_	_	Falling	indennizzo.	_	_	271-15	_	_	
+
+#Text=senza giusta causa esatto
+273-1	17234-17239	senza	BC[24]	_	_	\[senza	_	TO006	272-0	*->58-7	*[58]	
+273-2	17240-17246	giusta	BC[24]	_	_	giusta	_	_	272-1	*->58-8	*[58]	
+273-3	17247-17252	causa	BC[24]	_	Falling	causa.	_	_	272-2	*->58-9	*[58]	
+273-4	17253-17259	esatto	BC[24]	_	Falling	esatto\].	_	_	272-3	*->58-10	*[58]	
+
+#Text=gli viene concesso un indennizzo perché
+274-1	17260-17263	gli	BC[25]	_	_	gli	_	TO006	273-0	_	_	
+274-2	17264-17269	viene	BC[25]	_	_	viene	_	_	273-1	_	_	
+274-3	17270-17278	concesso	BC[25]	_	_	concesso	_	_	273-2	_	_	
+274-4	17279-17281	un	BC[25]	_	_	un	_	_	273-3	_	_	
+274-5	17282-17292	indennizzo	BC[25]	_	Falling	indennizzo.	_	_	273-4	_	_	
+274-6	17293-17299	perché	_	_	weakly\_rising	\[perché\],	_	_	273-5	*->27-1	*[27]	
+
+#Text=perché [PAUSE] se è colpevole e ha una grossa responsabilità
+275-1	17300-17306	perché	_	_	_	\[perché\]	_	TO007	274-0	*->27-2	*[27]	
+275-2	17307-17314	[PAUSE]	_	_	_	(.)	_	_	274-1	_	_	
+275-3	17315-17317	se	_	_	_	se	_	_	274-2	_	_	
+275-4	17318-17319	è	_	_	_	è	_	_	274-3	_	_	
+275-5	17320-17329	colpevole	_	_	_	colpevole	_	_	274-4	_	_	
+275-6	17330-17331	e	_	_	_	e	_	_	274-5	_	_	
+275-7	17332-17334	ha	_	_	_	ha	_	_	274-6	_	_	
+275-8	17335-17338	una	_	_	_	una	_	_	274-7	_	_	
+275-9	17339-17345	grossa	_	_	_	grossa	_	_	274-8	_	_	
+275-10	17346-17360	responsabilità	_	_	weakly\_rising	responsabilità,	_	_	274-9	_	_	
+
+#Text=no perché se le giusta causa c' è allora [PAUSE] viene mandato via giustamente ma se non c' è vuol dire che
+276-1	17361-17363	no	_	_	weakly\_rising	no,	_	TO006	275-0	_	_	
+276-2	17364-17370	perché	_	_	_	\[per\]ché	_	_	275-1	_	_	
+276-2.1	17364-17367	per	_	_	_	_	_	_	_	*->65-1	*[65]	
+276-3	17371-17373	se	_	_	_	se	_	_	275-2	_	_	
+276-4	17374-17376	le	_	_	_	le	_	_	275-3	_	_	
+276-5	17377-17383	giusta	_	_	_	giusta	_	_	275-4	_	_	
+276-6	17384-17389	causa	_	_	_	causa	_	_	275-5	_	_	
+276-7	17390-17392	c'	_	_	_	c'	_	_	275-6	_	_	
+276-8	17393-17394	è	_	_	weakly\_rising	è,	_	_	275-7	_	_	
+276-9	17395-17401	allora	_	_	weakly\_rising	allora,	_	_	275-8	_	_	
+276-10	17402-17409	[PAUSE]	_	_	_	(.)	_	_	275-9	_	_	
+276-11	17410-17415	viene	_	_	_	viene	_	_	275-10	_	_	
+276-12	17416-17423	mandato	_	_	_	manda\[to	_	_	275-11	_	_	
+276-12.1	17421-17423	to	_	_	_	_	_	_	_	*->1-1	*[1]	
+276-13	17424-17427	via	_	_	_	via	_	_	275-12	*->1-1|*->1-2	*[1]|*[1]	
+276-14	17428-17439	giustamente	_	_	Falling	giustamente.	_	_	275-13	*->1-3	*[1]	
+276-14.1	17428-17428		_	_	_	_	_	_	_	*->1-1	*[1]	
+276-15	17440-17442	ma	_	_	_	ma	_	_	275-14	*->1-4	*[1]	
+276-16	17443-17445	se	_	_	_	se	_	_	275-15	*->1-5	*[1]	
+276-17	17446-17449	non	_	_	_	non	_	_	275-16	*->1-6	*[1]	
+276-18	17450-17452	c'	_	_	_	c'	_	_	275-17	*->1-7	*[1]	
+276-19	17453-17454	è	_	_	_	è	_	_	275-18	*->1-8	*[1]	
+276-20	17455-17459	vuol	_	_	_	vuol	_	_	275-19	*->1-9	*[1]	
+276-21	17460-17464	dire	_	_	_	dire	_	_	275-20	*->1-10	*[1]	
+276-22	17465-17468	che	_	_	weakly\_rising	che\],	_	_	275-21	*->1-11	*[1]	
+
+#Text=n~
+277-1	17469-17471	n~	_	_	_	\[n~\]	_	TO007	276-0	*->65-2	*[65]	
+
+#Text=appunto viene mandato [PAUSE] perché ha sbagliato e quindi è giusto che venga
+278-1	17472-17479	appunto	BC	_	Falling	\[appunto.	_	TO007	277-0	*->1-12	*[1]	
+278-2	17480-17485	viene	_	_	_	viene	_	_	277-1	*->1-13	*[1]	
+278-3	17486-17493	mandato	_	_	weakly\_rising	mandato,	_	_	277-2	*->1-14	*[1]	
+278-4	17494-17501	[PAUSE]	_	_	_	(.)	_	_	277-3	_	_	
+278-4.1	17494-17497	[PA	_	_	_	_	_	_	_	*->1-15	*[1]	
+278-5	17502-17508	perché	_	_	_	perché	_	_	277-4	*->1-16	*[1]	
+278-6	17509-17511	ha	_	_	_	ha	_	_	277-5	*->1-17	*[1]	
+278-7	17512-17521	sbagliato	_	_	_	sbagliato\]	_	_	277-6	*->1-18	*[1]	
+278-8	17522-17523	e	_	_	_	e	_	_	277-7	_	_	
+278-9	17524-17530	quindi	_	_	_	quindi	_	_	277-8	_	_	
+278-10	17531-17532	è	_	_	_	è	_	_	277-9	_	_	
+278-11	17533-17539	giusto	_	_	_	giusto	_	_	277-10	_	_	
+278-12	17540-17543	che	_	_	_	che	_	_	277-11	_	_	
+278-13	17544-17549	venga	_	_	_	ven\[ga:\]	_	_	277-12	_	_	
+278-13.1	17547-17549	ga	_	_	_	_	_	_	_	*->71-1	*[71]	
+
+#Text=ma se non c' è se è senza giusta causa lì sostanzialmente subisce un danno
+279-1	17550-17552	ma	_	_	_	\[ma\]	_	TO006	278-0	*->71-1|*->71-2	*[71]|*[71]	
+279-2	17553-17555	se	_	_	_	se	_	_	278-1	_	_	
+279-3	17556-17559	non	_	_	_	non	_	_	278-2	_	_	
+279-4	17560-17562	c'	_	_	_	c'	_	_	278-3	_	_	
+279-5	17563-17564	è	_	_	weakly\_rising	è,	_	_	278-4	_	_	
+279-6	17565-17567	se	_	_	_	se	_	_	278-5	_	_	
+279-7	17568-17569	è	_	_	_	è	_	_	278-6	_	_	
+279-8	17570-17575	senza	_	_	_	senza	_	_	278-7	_	_	
+279-9	17576-17582	giusta	_	_	_	giusta	_	_	278-8	_	_	
+279-10	17583-17588	causa	_	_	weakly\_rising	causa,	_	_	278-9	_	_	
+279-11	17589-17591	lì	_	_	_	lì	_	_	278-10	_	_	
+279-12	17592-17607	sostanzialmente	_	_	_	sostanzialmente	_	_	278-11	_	_	
+279-13	17608-17615	subisce	_	_	_	subisce	_	_	278-12	_	_	
+279-14	17616-17618	un	_	_	_	un	_	_	278-13	_	_	
+279-15	17619-17624	danno	_	_	Falling	danno.	_	_	278-14	_	_	
+
+#Text=no
+280-1	17625-17627	no	_	_	Rising	no?	_	TO006	279-0	_	_	
+
+#Text=e quindi gli viene dato quest' indennizzo
+281-1	17628-17629	e	_	_	_	e	_	TO006	280-0	_	_	
+281-2	17630-17636	quindi	_	_	weakly\_rising	quindi,	_	_	280-1	_	_	
+281-3	17637-17640	gli	_	_	_	gli	_	_	280-2	_	_	
+281-4	17641-17646	viene	_	_	_	viene	_	_	280-3	_	_	
+281-5	17647-17651	dato	_	_	_	dato	_	_	280-4	_	_	
+281-6	17652-17658	quest'	_	_	_	quest'	_	_	280-5	_	_	
+281-7	17659-17669	indennizzo	_	_	weakly\_rising	\[indennizzo\],	_	_	280-6	*->61-1	*[61]	
+
+#Text=il discorse che si fa è questo eh i~ eh io non ti devo spiegazioni però
+282-1	17670-17672	il	_	_	_	\[il	_	TO007	281-0	*->61-2	*[61]	
+282-2	17673-17681	discorse	_	_	_	discorse	_	_	281-1	*->61-3	*[61]	
+282-3	17682-17685	che	_	_	_	che:\]	_	_	281-2	*->61-4	*[61]	
+282-4	17686-17688	si	_	_	_	si	_	_	281-3	_	_	
+282-5	17689-17691	fa	_	_	weakly\_rising	fa::,	_	_	281-4	_	_	
+282-6	17692-17693	è	_	_	_	è	_	_	281-5	_	_	
+282-7	17694-17700	questo	_	_	Falling	questo.	_	_	281-6	_	_	
+282-8	17701-17703	eh	_	FP	_	eh	_	_	281-7	_	_	
+282-9	17704-17706	i~	_	_	_	i~	_	_	281-8	_	_	
+282-10	17707-17709	eh	_	FP	_	e::h	_	_	281-9	_	_	
+282-11	17710-17712	io	_	_	_	io	_	_	281-10	_	_	
+282-12	17713-17716	non	_	_	_	non	_	_	281-11	_	_	
+282-13	17717-17719	ti	_	_	_	ti	_	_	281-12	_	_	
+282-14	17720-17724	devo	_	_	_	devo	_	_	281-13	_	_	
+282-15	17725-17736	spiegazioni	_	_	weakly\_rising	spiegazioni,	_	_	281-14	_	_	
+282-16	17737-17741	però	_	_	weakly\_rising	però,	_	_	281-15	_	_	
+
+#Text=come come [PAUSE] per un eh per una questione di equità e e e di giustizia ti concedo un indennizzo
+283-1	17742-17746	come	_	_	_	come:::	_	TO007	282-0	_	_	
+283-2	17747-17751	come	_	_	_	come	_	_	282-1	_	_	
+283-3	17752-17759	[PAUSE]	_	_	_	(.)	_	_	282-2	_	_	
+283-4	17760-17763	per	_	_	_	per	_	_	282-3	_	_	
+283-5	17764-17766	un	_	_	_	un	_	_	282-4	_	_	
+283-6	17767-17769	eh	_	FP	_	eh	_	_	282-5	_	_	
+283-7	17770-17773	per	_	_	_	per	_	_	282-6	_	_	
+283-8	17774-17777	una	_	_	_	una	_	_	282-7	_	_	
+283-9	17778-17787	questione	_	_	_	questione	_	_	282-8	_	_	
+283-10	17788-17790	di	_	_	_	di	_	_	282-9	_	_	
+283-11	17791-17797	equità	_	_	_	equità	_	_	282-10	_	_	
+283-12	17798-17799	e	_	_	_	e::	_	_	282-11	_	_	
+283-13	17800-17801	e	_	_	_	e	_	_	282-12	_	_	
+283-14	17802-17803	e	_	_	_	e	_	_	282-13	_	_	
+283-15	17804-17806	di	_	_	_	di	_	_	282-14	_	_	
+283-16	17807-17816	giustizia	_	_	weakly\_rising	giustizia,	_	_	282-15	_	_	
+283-17	17817-17819	ti	_	_	_	ti	_	_	282-16	_	_	
+283-18	17820-17827	concedo	_	_	_	concedo	_	_	282-17	_	_	
+283-19	17828-17830	un	_	_	_	un	_	_	282-18	_	_	
+283-20	17831-17841	indennizzo	_	_	Falling	indennizzo.	_	_	282-19	_	_	
+
+#Text=certamente
+284-1	17842-17852	certamente	BC	_	Falling	certamente.	_	TO006	283-0	_	_	

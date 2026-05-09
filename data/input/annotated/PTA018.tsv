@@ -1,0 +1,4176 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Backchannel|backchannel_value
+#T_SP=webanno.custom.Fillers|fillers_values
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Repair|repair_value
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=ciao come ti chiami
+1-1	0-4	ciao	_	_	WeaklyRising	ciao,	_	TOR006	0-0	_	_	
+1-2	5-9	come	_	_	_	come	_	_	0-1	_	_	
+1-3	10-12	ti	_	_	_	ti	_	_	0-2	_	_	
+1-4	13-19	chiami	_	_	Rising	chiami?	_	_	0-3	_	_	
+
+#Text=io sono davide
+2-1	20-22	io	_	_	_	io	_	TOI031	1-0	_	_	
+2-2	23-27	sono	_	_	_	sono	_	_	1-1	_	_	
+2-3	28-34	davide	_	_	Falling	davide.	_	_	1-2	_	_	
+
+#Text=okay e che lavoro fai
+3-1	35-39	okay	BC	_	WeaklyRising	okay,	_	TOR006	2-0	_	_	
+3-2	40-41	e	_	_	_	e	_	_	2-1	_	_	
+3-3	42-45	che	_	_	_	che	_	_	2-2	_	_	
+3-4	46-52	lavoro	_	_	_	lavoro	_	_	2-3	_	_	
+3-5	53-56	fai	_	_	Rising	fai?	_	_	2-4	_	_	
+
+#Text=faccio il giardiniere
+4-1	57-63	faccio	_	_	_	faccio	_	TOI031	3-0	_	_	
+4-2	64-66	il	_	_	_	il	_	_	3-1	_	_	
+4-3	67-78	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	3-2	_	_	
+
+#Text=da quanto tempo
+5-1	79-81	da	_	_	_	da::	_	TOR006	4-0	_	_	
+5-2	82-88	quanto	_	_	_	quanto	_	_	4-1	_	_	
+5-3	89-94	tempo	_	_	Rising	tempo?	_	_	4-2	_	_	
+
+#Text=da circa mh [PAUSE] otto anni
+6-1	95-97	da	_	_	_	da	_	TOI031	5-0	_	_	
+6-2	98-103	circa	_	_	_	circa::	_	_	5-1	_	_	
+6-3	104-106	mh	_	FP	WeaklyRising	m::h,	_	_	5-2	_	_	
+6-4	107-114	[PAUSE]	_	_	_	(.)	_	_	5-3	_	_	
+6-5	115-119	otto	_	_	_	otto	_	_	5-4	_	_	
+6-6	120-124	anni	_	_	WeaklyRising	anni,	_	_	5-5	_	_	
+
+#Text=mh mh
+7-1	125-127	mh	BC[1]	_	_	mh	_	TOR006	6-0	_	_	
+7-2	128-130	mh	BC[1]	_	_	mh	_	_	6-1	_	_	
+
+#Text=e come mai hai deciso di fare il giardiniere
+8-1	131-132	e	_	_	_	e:::	_	TOR006	7-0	_	_	
+8-2	133-137	come	_	_	_	come	_	_	7-1	_	_	
+8-3	138-141	mai	_	_	_	mai	_	_	7-2	_	_	
+8-4	142-145	hai	_	_	_	hai	_	_	7-3	_	_	
+8-5	146-152	deciso	_	_	_	deciso	_	_	7-4	_	_	
+8-6	153-155	di	_	_	_	di	_	_	7-5	_	_	
+8-7	156-160	fare	_	_	_	fare	_	_	7-6	_	_	
+8-8	161-163	il	_	_	_	il	_	_	7-7	_	_	
+8-9	164-175	giardiniere	_	_	Rising	giardiniere?	_	_	7-8	_	_	
+
+#Text=ma ehm in realtà non ho proprio deciso di fare il giardiniere
+9-1	176-178	ma	_	_	_	ma	_	TOI031	8-0	_	_	
+9-2	179-182	ehm	_	FP	_	ehm	_	_	8-1	_	_	
+9-3	183-185	in	_	_	_	in	_	_	8-2	_	_	
+9-4	186-192	realtà	_	_	_	realtà	_	_	8-3	_	_	
+9-5	193-196	non	_	_	_	non	_	_	8-4	_	_	
+9-6	197-199	ho	_	_	_	ho	_	_	8-5	_	_	
+9-7	200-207	proprio	_	_	_	proprio	_	_	8-6	_	_	
+9-8	208-214	deciso	_	_	_	deciso	_	_	8-7	_	_	
+9-9	215-217	di	_	_	_	di	_	_	8-8	_	_	
+9-10	218-222	fare	_	_	_	fare	_	_	8-9	_	_	
+9-11	223-225	il	_	_	_	il	_	_	8-10	_	_	
+9-12	226-237	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	8-11	_	_	
+
+#Text=ma ehm
+10-1	238-240	ma	_	_	_	ma	_	TOI031	9-0	_	_	
+10-2	241-244	ehm	_	FP	_	ehm	_	_	9-1	_	_	
+
+#Text=un mio carissimo amico
+11-1	245-247	un	_	_	_	un	_	TOI031	10-0	_	_	
+11-2	248-251	mio	_	_	_	mio	_	_	10-1	_	_	
+11-3	252-261	carissimo	_	_	_	carissimo	_	_	10-2	_	_	
+11-4	262-267	amico	_	_	WeaklyRising	amico,	_	_	10-3	_	_	
+
+#Text=faceva il giardiniere
+12-1	268-274	faceva	_	_	_	faceva	_	TOI031	11-0	_	_	
+12-2	275-277	il	_	_	_	il	_	_	11-1	_	_	
+12-3	278-289	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	11-2	_	_	
+
+#Text=io ho iniziato a lavorare nei primi miei due anni di lavoro in una fabbrica
+13-1	290-292	io	_	_	_	io	_	TOI031	12-0	_	_	
+13-2	293-295	ho	_	_	_	ho	_	_	12-1	_	_	
+13-3	296-304	iniziato	_	_	_	iniziato	_	_	12-2	_	_	
+13-4	305-306	a	_	_	_	a	_	_	12-3	_	_	
+13-5	307-315	lavorare	_	_	WeaklyRising	lavorare,	_	_	12-4	_	_	
+13-6	316-319	nei	_	_	_	nei	_	_	12-5	_	_	
+13-7	320-325	primi	_	_	_	primi	_	_	12-6	_	_	
+13-8	326-330	miei	_	_	_	miei	_	_	12-7	_	_	
+13-9	331-334	due	_	_	_	due	_	_	12-8	_	_	
+13-10	335-339	anni	_	_	_	anni	_	_	12-9	_	_	
+13-11	340-342	di	_	_	_	di	_	_	12-10	_	_	
+13-12	343-349	lavoro	_	_	_	lavoro	_	_	12-11	_	_	
+13-13	350-352	in	_	_	_	in	_	_	12-12	_	_	
+13-14	353-356	una	_	_	_	una	_	_	12-13	_	_	
+13-15	357-365	fabbrica	_	_	WeaklyRising	fabbrica,	_	_	12-14	_	_	
+
+#Text=e nel tempo libero andavo a dargli una mano
+14-1	366-367	e	_	_	_	e	_	TOI031	13-0	_	_	
+14-2	368-371	nel	_	_	_	nel	_	_	13-1	_	_	
+14-3	372-377	tempo	_	_	_	tempo	_	_	13-2	_	_	
+14-4	378-384	libero	_	_	_	libero	_	_	13-3	_	_	
+14-5	385-391	andavo	_	_	_	andavo	_	_	13-4	_	_	
+14-6	392-393	a	_	_	_	a	_	_	13-5	_	_	
+14-7	394-400	dargli	_	_	_	dargli	_	_	13-6	_	_	
+14-8	401-404	una	_	_	_	una	_	_	13-7	_	_	
+14-9	405-409	mano	_	_	Falling	mano.	_	_	13-8	_	_	
+
+#Text=mh
+15-1	410-412	mh	BC	_	_	mh	_	TOR006	14-0	_	_	
+
+#Text=lo trovavo molto più
+16-1	413-415	lo	_	_	_	lo	_	TOI031	15-0	_	_	
+16-2	416-423	trovavo	_	_	_	trovavo	_	_	15-1	_	_	
+16-3	424-429	molto	_	_	_	molto	_	_	15-2	_	_	
+16-4	430-433	più	_	_	WeaklyRising	più,	_	_	15-3	_	_	
+
+#Text=più bello ((ride)) piuttosto che ((ride)) [PAUSE] lavorare in una fabbrica
+17-1	434-437	più	_	_	_	più	_	TOI031	16-0	_	_	
+17-2	438-443	bello	_	_	_	bello	_	_	16-1	_	_	
+17-3	444-452	((ride))	_	_	_	((ride))	_	_	16-2	_	_	
+17-4	453-462	piuttosto	_	_	_	piuttosto	_	_	16-3	_	_	
+17-5	463-466	che	_	_	_	che	_	_	16-4	_	_	
+17-6	467-475	((ride))	_	_	_	((ride))	_	_	16-5	_	_	
+17-7	476-483	[PAUSE]	_	_	_	(.)	_	_	16-6	_	_	
+17-8	484-492	lavorare	_	_	_	lavorare	_	_	16-7	_	_	
+17-9	493-495	in	_	_	_	in	_	_	16-8	_	_	
+17-10	496-499	una	_	_	_	una	_	_	16-9	_	_	
+17-11	500-508	fabbrica	_	_	WeaklyRising	fabbrica,	_	_	16-10	_	_	
+
+#Text=e poi un bel giorno questo mio amico
+18-1	509-510	e	_	_	_	e	_	TOI031	17-0	_	_	
+18-2	511-514	poi	_	_	_	poi	_	_	17-1	_	_	
+18-3	515-517	un	_	_	_	un	_	_	17-2	_	_	
+18-4	518-521	bel	_	_	_	bel	_	_	17-3	_	_	
+18-5	522-528	giorno	_	_	_	giorno	_	_	17-4	_	_	
+18-6	529-535	questo	_	_	WeaklyRising	questo,	_	_	17-5	_	_	
+18-7	536-539	mio	_	_	_	mio	_	_	17-6	_	_	
+18-8	540-545	amico	_	_	WeaklyRising	amico,	_	_	17-7	_	_	
+
+#Text=mi ha proposto di [PAUSE] di lavorare con lui
+19-1	546-548	mi	_	_	_	mi	_	TOI031	18-0	_	_	
+19-2	549-551	ha	_	_	_	ha	_	_	18-1	_	_	
+19-3	552-560	proposto	_	_	_	proposto	_	_	18-2	_	_	
+19-4	561-563	di	_	_	WeaklyRising	di,	_	_	18-3	_	_	
+19-5	564-571	[PAUSE]	_	_	_	(.)	_	_	18-4	_	_	
+19-6	572-574	di	_	_	_	di	_	_	18-5	_	_	
+19-7	575-583	lavorare	_	_	_	lavorare	_	_	18-6	_	_	
+19-8	584-587	con	_	_	_	con	_	_	18-7	_	_	
+19-9	588-591	lui	_	_	Falling	lui.	_	_	18-8	_	_	
+
+#Text=okay quindi il giardiniere
+20-1	592-596	okay	BC	_	WeaklyRising	okay,	_	TOR006	19-0	_	_	
+20-2	597-603	quindi	_	_	_	quindi	_	_	19-1	_	_	
+20-3	604-606	il	_	_	_	il	_	_	19-2	_	_	
+20-4	607-618	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	19-3	_	_	
+
+#Text=come mi hai detto non è il tuo primo lavoro
+21-1	619-623	come	_	_	_	come	_	TOR006	20-0	_	_	
+21-2	624-626	mi	_	_	_	mi	_	_	20-1	_	_	
+21-3	627-630	hai	_	_	_	hai	_	_	20-2	_	_	
+21-4	631-636	detto	_	_	_	detto	_	_	20-3	_	_	
+21-5	637-640	non	_	_	_	non	_	_	20-4	_	_	
+21-6	641-642	è	_	_	_	è	_	_	20-5	_	_	
+21-7	643-645	il	_	_	_	il	_	_	20-6	_	_	
+21-8	646-649	tuo	_	_	_	tuo	_	_	20-7	_	_	
+21-9	650-655	primo	_	_	_	primo	_	_	20-8	_	_	
+21-10	656-662	lavoro	_	_	WeaklyRising	lavoro,	_	_	20-9	_	_	
+
+#Text=ma prima lavoravi in fabbrica mi puoi raccontare qualcosa su
+22-1	663-665	ma	_	_	_	ma	_	TOR006	21-0	_	_	
+22-2	666-671	prima	_	_	_	prima	_	_	21-1	_	_	
+22-3	672-680	lavoravi	_	_	_	lavoravi	_	_	21-2	_	_	
+22-4	681-683	in	_	_	_	in	_	_	21-3	_	_	
+22-5	684-692	fabbrica	_	_	Falling	fabbrica.	_	_	21-4	_	_	
+22-6	693-695	mi	_	_	_	mi	_	_	21-5	_	_	
+22-7	696-700	puoi	_	_	_	puoi	_	_	21-6	_	_	
+22-8	701-711	raccontare	_	_	_	raccontare	_	_	21-7	_	_	
+22-9	712-720	qualcosa	_	_	_	qualcosa	_	_	21-8	_	_	
+22-10	721-723	su	_	_	WeaklyRising	su::,	_	_	21-9	_	_	
+
+#Text=cosa facevi in fabbrica
+23-1	724-728	cosa	_	_	_	cosa	_	TOR006	22-0	_	_	
+23-2	729-735	facevi	_	_	_	facevi	_	_	22-1	_	_	
+23-3	736-738	in	_	_	_	in	_	_	22-2	_	_	
+23-4	739-747	fabbrica	_	_	Rising	fabbrica?	_	_	22-3	_	_	
+
+#Text=allora in fabbrica era una fabbrica di imballaggi di pezzi auto
+24-1	748-754	allora	_	_	_	allora	_	TOI031	23-0	_	_	
+24-2	755-757	in	_	_	_	in	_	_	23-1	_	_	
+24-3	758-766	fabbrica	_	_	_	fabbrica	_	_	23-2	_	_	
+24-4	767-770	era	_	_	_	era	_	_	23-3	_	_	
+24-5	771-774	una	_	_	_	una	_	_	23-4	_	_	
+24-6	775-783	fabbrica	_	_	WeaklyRising	fabbrica:,	_	_	23-5	_	_	
+24-7	784-786	di	_	_	_	di	_	_	23-6	_	_	
+24-8	787-797	imballaggi	_	_	_	imballaggi	_	_	23-7	_	_	
+24-9	798-800	di	_	_	_	di	_	_	23-8	_	_	
+24-10	801-806	pezzi	_	_	_	pezzi	_	_	23-9	_	_	
+24-11	807-811	auto	_	_	WeaklyRising	auto,	_	_	23-10	_	_	
+
+#Text=di @nomeazienda
+25-1	812-814	di	_	_	_	di	_	TOI031	24-0	_	_	
+25-2	815-827	@nomeazienda	_	_	_	@nomeazienda	_	_	24-1	_	_	
+
+#Text=che venivano imballati e spediti all' estero
+26-1	828-831	che	_	_	_	che	_	TOI031	25-0	_	_	
+26-2	832-840	venivano	_	_	_	venivano	_	_	25-1	_	_	
+26-3	841-850	imballati	_	_	_	imballati	_	_	25-2	_	_	
+26-4	851-852	e	_	_	_	e	_	_	25-3	_	_	
+26-5	853-860	spediti	_	_	_	spediti	_	_	25-4	_	_	
+26-6	861-865	all'	_	_	_	all'	_	_	25-5	_	_	
+26-7	866-872	estero	_	_	Falling	estero.	_	_	25-6	_	_	
+
+#Text=in argentina in brasile in turchia
+27-1	873-875	in	_	_	_	in	_	TOI031	26-0	_	_	
+27-2	876-885	argentina	_	_	WeaklyRising	argentina,	_	_	26-1	_	_	
+27-3	886-888	in	_	_	_	in	_	_	26-2	_	_	
+27-4	889-896	brasile	_	_	WeaklyRising	brasile,	_	_	26-3	_	_	
+27-5	897-899	in	_	_	_	in	_	_	26-4	_	_	
+27-6	900-907	turchia	_	_	WeaklyRising	turchia,	_	_	26-5	_	_	
+
+#Text=a seconda del viaggio che dovevano affrontare venivano imballati in modo diverso
+28-1	908-909	a	_	_	_	a	_	TOI031	27-0	_	_	
+28-2	910-917	seconda	_	_	_	seconda	_	_	27-1	_	_	
+28-3	918-921	del	_	_	_	del	_	_	27-2	_	_	
+28-4	922-929	viaggio	_	_	_	viaggio	_	_	27-3	_	_	
+28-5	930-933	che	_	_	WeaklyRising	che::,	_	_	27-4	_	_	
+28-6	934-942	dovevano	_	_	_	dovevano	_	_	27-5	_	_	
+28-7	943-953	affrontare	_	_	WeaklyRising	affrontare,	_	_	27-6	_	_	
+28-8	954-962	venivano	_	_	_	venivano	_	_	27-7	_	_	
+28-9	963-972	imballati	_	_	_	imballati	_	_	27-8	_	_	
+28-10	973-975	in	_	_	_	in	_	_	27-9	_	_	
+28-11	976-980	modo	_	_	_	modo	_	_	27-10	_	_	
+28-12	981-988	diverso	_	_	Falling	diverso.	_	_	27-11	_	_	
+
+#Text=e anche a seconda della tipologia dei
+29-1	989-990	e	_	_	_	e	_	TOI031	28-0	_	_	
+29-2	991-996	anche	_	_	_	\[anche	_	_	28-1	*->138-1	*[138]	
+29-3	997-998	a	_	_	_	a	_	_	28-2	*->138-2	*[138]	
+29-4	999-1006	seconda	_	_	_	sec\]onda	_	_	28-3	_	_	
+29-4.1	999-1002	sec	_	_	_	_	_	_	_	*->138-3	*[138]	
+29-5	1007-1012	della	_	_	_	della	_	_	28-4	_	_	
+29-6	1013-1022	tipologia	_	_	_	tipologia	_	_	28-5	_	_	
+29-7	1023-1026	dei	_	_	WeaklyRising	dei,	_	_	28-6	_	_	
+
+#Text=okay
+30-1	1027-1031	okay	BC	_	_	\[okay\]	_	TOR006	29-0	*->138-4	*[138]	
+
+#Text=dei pezzi del
+31-1	1032-1035	dei	_	_	_	dei	_	TOI031	30-0	_	_	
+31-2	1036-1041	pezzi	_	_	WeaklyRising	pezzi,	_	_	30-1	_	_	
+31-3	1042-1045	del	_	_	WeaklyRising	del,	_	_	30-2	_	_	
+
+#Text=di auto o camion
+32-1	1046-1048	di	_	_	_	di	_	TOI031	31-0	_	_	
+32-2	1049-1053	auto	_	_	_	auto	_	_	31-1	_	_	
+32-3	1054-1055	o	_	_	_	o	_	_	31-2	_	_	
+32-4	1056-1062	camion	_	_	Falling	camion.	_	_	31-3	_	_	
+
+#Text=mh mh
+33-1	1063-1065	mh	BC[2]	_	_	mh	_	TOR006	32-0	_	_	
+33-2	1066-1068	mh	BC[2]	_	_	mh	_	_	32-1	_	_	
+
+#Text=e tu concretamente di cosa ti occupavi in questa
+34-1	1069-1070	e	_	_	_	e	_	TOR006	33-0	_	_	
+34-2	1071-1073	tu	_	_	WeaklyRising	tu,	_	_	33-1	_	_	
+34-3	1074-1087	concretamente	_	_	_	concretamente	_	_	33-2	_	_	
+34-4	1088-1090	di	_	_	_	di	_	_	33-3	_	_	
+34-5	1091-1095	cosa	_	_	_	cosa	_	_	33-4	_	_	
+34-6	1096-1098	ti	_	_	_	ti	_	_	33-5	_	_	
+34-7	1099-1107	occupavi	_	_	_	occupavi	_	_	33-6	_	_	
+34-8	1108-1110	in	_	_	_	in	_	_	33-7	_	_	
+34-9	1111-1117	questa	_	_	WeaklyRising	quest\[a:::\],	_	_	33-8	_	_	
+34-9.1	1116-1117	a	_	_	_	_	_	_	_	*->86-1	*[86]	
+
+#Text=io costruivo delle casse in legno con delle
+35-1	1118-1120	io	_	_	_	\[io	_	TOI031	34-0	*->86-1|*->86-2	*[86]|*[86]	
+35-2	1121-1130	costruivo	_	_	_	co\]struivo	_	_	34-1	_	_	
+35-2.1	1121-1122	c	_	_	_	_	_	_	_	*->86-1	*[86]	
+35-2.2	1121-1123	co	_	_	_	_	_	_	_	*->86-3	*[86]	
+35-3	1131-1136	delle	_	_	_	delle	_	_	34-2	_	_	
+35-4	1137-1142	casse	_	_	_	casse	_	_	34-3	_	_	
+35-5	1143-1145	in	_	_	_	in	_	_	34-4	_	_	
+35-6	1146-1151	legno	_	_	_	legno	_	_	34-5	_	_	
+35-7	1152-1155	con	_	_	_	con	_	_	34-6	_	_	
+35-8	1156-1161	delle	_	_	WeaklyRising	delle::,	_	_	34-7	_	_	
+
+#Text=delle pistole sparachiodi
+36-1	1162-1167	delle	_	_	_	delle	_	TOI031	35-0	_	_	
+36-2	1168-1175	pistole	_	_	_	pistole	_	_	35-1	_	_	
+36-3	1176-1187	sparachiodi	_	_	WeaklyRising	sparachiodi,	_	_	35-2	_	_	
+
+#Text=mi portavano delle casse in legno
+37-1	1188-1190	mi	_	_	_	mi	_	TOI031	36-0	_	_	
+37-2	1191-1200	portavano	_	_	_	portavano	_	_	36-1	_	_	
+37-3	1201-1206	delle	_	_	_	delle	_	_	36-2	_	_	
+37-4	1207-1212	casse	_	_	_	casse	_	_	36-3	_	_	
+37-5	1213-1215	in	_	_	_	in	_	_	36-4	_	_	
+37-6	1216-1221	legno	_	_	WeaklyRising	legno,	_	_	36-5	_	_	
+
+#Text=((ride))
+38-1	1222-1230	((ride))	_	_	_	((ride))	_	TOR006	37-0	_	_	
+
+#Text=è vero
+39-1	1231-1232	è	_	_	_	è	_	TOI031	38-0	_	_	
+39-2	1233-1237	vero	_	_	_	vero	_	_	38-1	_	_	
+
+#Text=delle cioè dei mh
+40-1	1238-1243	delle	_	_	_	delle	_	TOI031	39-0	_	_	
+40-2	1244-1248	cioè	_	_	_	c(io)è	_	_	39-1	_	_	
+40-3	1249-1252	dei	_	_	_	dei	_	_	39-2	_	_	
+40-4	1253-1255	mh	_	FP	_	mh	_	_	39-3	_	_	
+
+#Text=portav~ mi portavano dei pezzi di legno da assemblare
+41-1	1256-1263	portav~	_	_	_	portav~	SR[20]	TOI031	40-0	_	_	
+41-2	1264-1266	mi	_	_	_	mi	SR[20]	_	40-1	_	_	
+41-3	1267-1276	portavano	_	_	_	portavano	SR[20]	_	40-2	_	_	
+41-4	1277-1280	dei	_	_	_	dei	_	_	40-3	_	_	
+41-5	1281-1286	pezzi	_	_	_	pezzi	_	_	40-4	_	_	
+41-6	1287-1289	di	_	_	_	di	_	_	40-5	_	_	
+41-7	1290-1295	legno	_	_	_	legno	_	_	40-6	_	_	
+41-8	1296-1298	da	_	_	_	da	_	_	40-7	_	_	
+41-9	1299-1309	assemblare	_	_	WeaklyRising	assemblare,	_	_	40-8	_	_	
+
+#Text=con queste pistole sparachiodi
+42-1	1310-1313	con	_	_	_	\[con	_	TOI031	41-0	*->161-1	*[161]	
+42-2	1314-1320	queste	_	_	_	queste\]	_	_	41-1	*->161-2	*[161]	
+42-3	1321-1328	pistole	_	_	_	pistole	_	_	41-2	_	_	
+42-4	1329-1340	sparachiodi	_	_	WeaklyRising	sparachiodi,	_	_	41-3	_	_	
+
+#Text=okay
+43-1	1341-1345	okay	BC	_	_	\[okay\]	_	TOR006	42-0	*->161-3	*[161]	
+
+#Text=okay
+44-1	1346-1350	okay	BC	_	_	\[okay\]	_	TOR006	43-0	*->59-1	*[59]	
+
+#Text=io le allestivo a seconda appunto di
+45-1	1351-1353	io	_	_	_	\[io	_	TOI031	44-0	*->59-2	*[59]	
+45-2	1354-1356	le	_	_	_	le\]	_	_	44-1	*->59-3	*[59]	
+45-3	1357-1366	allestivo	_	_	WeaklyRising	allestivo,	_	_	44-2	_	_	
+45-4	1367-1368	a	_	_	_	a	_	_	44-3	_	_	
+45-5	1369-1376	seconda	_	_	_	seconda	_	_	44-4	_	_	
+45-6	1377-1384	appunto	_	_	_	appunto	_	_	44-5	_	_	
+45-7	1385-1387	di	_	_	WeaklyRising	di,	_	_	44-6	_	_	
+
+#Text=di cosa avrei imballato
+46-1	1388-1390	di	_	_	_	di	_	TOI031	45-0	_	_	
+46-2	1391-1395	cosa	_	_	_	cosa	_	_	45-1	_	_	
+46-3	1396-1401	avrei	_	_	_	avrei	_	_	45-2	_	_	
+46-4	1402-1411	imballato	_	_	WeaklyRising	imballato,	_	_	45-3	_	_	
+
+#Text=e dove sarebbero andati
+47-1	1412-1413	e	_	_	_	e	_	TOI031	46-0	_	_	
+47-2	1414-1418	dove	_	_	_	dove	_	_	46-1	_	_	
+47-3	1419-1428	sarebbero	_	_	_	sarebbero	_	_	46-2	_	_	
+47-4	1429-1435	andati	_	_	WeaklyRising	andati,	_	_	46-3	_	_	
+
+#Text=e poi le chiudevo
+48-1	1436-1437	e	_	_	_	e	_	TOI031	47-0	_	_	
+48-2	1438-1441	poi	_	_	_	poi	_	_	47-1	_	_	
+48-3	1442-1444	le	_	_	_	le	_	_	47-2	_	_	
+48-4	1445-1453	chiudevo	_	_	WeaklyRising	chiudevo,	_	_	47-3	_	_	
+
+#Text=gli mettevo un [PAUSE] un documento sopra
+49-1	1454-1457	gli	_	_	_	gli	_	TOI031	48-0	_	_	
+49-2	1458-1465	mettevo	_	_	_	mettevo	_	_	48-1	_	_	
+49-3	1466-1468	un	_	_	_	un	_	_	48-2	_	_	
+49-4	1469-1476	[PAUSE]	_	_	_	(.)	_	_	48-3	_	_	
+49-5	1477-1479	un	_	_	_	un	_	_	48-4	_	_	
+49-6	1480-1489	documento	_	_	_	documento	_	_	48-5	_	_	
+49-7	1490-1495	sopra	_	_	WeaklyRising	sopra,	_	_	48-6	_	_	
+
+#Text=poi [PAUSE] veniva il
+50-1	1496-1499	poi	_	_	WeaklyRising	\[poi\],	_	TOI031	49-0	*->156-1	*[156]	
+50-2	1500-1507	[PAUSE]	_	_	_	(.)	_	_	49-1	_	_	
+50-3	1508-1514	veniva	_	_	_	veniva	_	_	49-2	_	_	
+50-4	1515-1517	il	_	_	WeaklyRising	il::,	_	_	49-3	_	_	
+
+#Text=mh mh
+51-1	1518-1520	mh	BC[3]	_	_	\[mh	_	TOR006	50-0	*->156-2	*[156]	
+51-2	1521-1523	mh	BC[3]	_	_	mh\]	_	_	50-1	*->156-3	*[156]	
+
+#Text=l' addetto al carico e le caricava poi sul container e partivano
+52-1	1524-1526	l'	_	_	_	l'	_	TOI031	51-0	_	_	
+52-2	1527-1534	addetto	_	_	_	addetto	_	_	51-1	_	_	
+52-3	1535-1537	al	_	_	_	al	_	_	51-2	_	_	
+52-4	1538-1544	carico	_	_	_	carico	_	_	51-3	_	_	
+52-5	1545-1546	e	_	_	_	e	_	_	51-4	_	_	
+52-6	1547-1549	le	_	_	_	le	_	_	51-5	_	_	
+52-7	1550-1558	caricava	_	_	_	caricava	_	_	51-6	_	_	
+52-8	1559-1562	poi	_	_	_	poi	_	_	51-7	_	_	
+52-9	1563-1566	sul	_	_	_	sul	_	_	51-8	_	_	
+52-10	1567-1576	container	_	_	_	container	_	_	51-9	_	_	
+52-11	1577-1578	e	_	_	_	e	_	_	51-10	_	_	
+52-12	1579-1588	partivano	_	_	Falling	partivano.	_	_	51-11	_	_	
+
+#Text=okay
+53-1	1589-1593	okay	BC	_	_	okay	_	TOR006	52-0	_	_	
+
+#Text=e questa sparachiodi era un' arma di mh anche di difesa era diventata
+54-1	1594-1595	e	_	_	WeaklyRising	e,	_	TOR006	53-0	_	_	
+54-2	1596-1602	questa	_	_	_	questa	_	_	53-1	_	_	
+54-3	1603-1614	sparachiodi	_	_	_	sparachiodi	_	_	53-2	_	_	
+54-4	1615-1618	era	_	_	_	era	_	_	53-3	_	_	
+54-5	1619-1622	un'	_	_	_	un'	_	_	53-4	_	_	
+54-6	1623-1627	arma	_	_	_	arma	_	_	53-5	_	_	
+54-7	1628-1630	di	_	_	WeaklyRising	di,	_	_	53-6	_	_	
+54-8	1631-1633	mh	_	FP	_	m::h	_	_	53-7	_	_	
+54-9	1634-1639	anche	_	_	_	anche	_	_	53-8	_	_	
+54-10	1640-1642	di	_	_	_	di	_	_	53-9	_	_	
+54-11	1643-1649	difesa	_	_	_	difesa	_	_	53-10	_	_	
+54-12	1650-1653	era	_	_	_	era	_	_	53-11	_	_	
+54-13	1654-1663	diventata	_	_	Rising	diventata?	_	_	53-12	_	_	
+
+#Text=((ride)) no assolutamente no
+55-1	1664-1672	((ride))	_	_	_	((ride))	_	TOI031	54-0	_	_	
+55-2	1673-1675	no	_	_	Falling	no.	_	_	54-1	_	_	
+55-3	1676-1689	assolutamente	_	_	_	assolutamente	_	_	54-2	_	_	
+55-4	1690-1692	no	_	_	Falling	no.	_	_	54-3	_	_	
+
+#Text=ma ti sei mai sparato un chiodo per sbaglio su un dito
+56-1	1693-1695	ma	_	_	_	ma	_	TOR006	55-0	_	_	
+56-2	1696-1698	ti	_	_	_	ti	_	_	55-1	_	_	
+56-3	1699-1702	sei	_	_	_	sei	_	_	55-2	_	_	
+56-4	1703-1706	mai	_	_	_	mai	_	_	55-3	_	_	
+56-5	1707-1714	sparato	_	_	_	sparato	_	_	55-4	_	_	
+56-6	1715-1717	un	_	_	_	un	_	_	55-5	_	_	
+56-7	1718-1724	chiodo	_	_	_	chiodo	_	_	55-6	_	_	
+56-8	1725-1728	per	_	_	_	per	_	_	55-7	_	_	
+56-9	1729-1736	sbaglio	_	_	_	sbaglio	_	_	55-8	_	_	
+56-10	1737-1739	su	_	_	_	su	_	_	55-9	_	_	
+56-11	1740-1742	un	_	_	_	un	_	_	55-10	_	_	
+56-12	1743-1747	dito	_	_	Rising	dito?	_	_	55-11	_	_	
+
+#Text=no
+57-1	1748-1750	no	_	_	Falling	no.	_	TOI031	56-0	_	_	
+
+#Text=però qualche collega sì
+58-1	1751-1755	però	_	_	_	però	_	TOI031	57-0	_	_	
+58-2	1756-1763	qualche	_	_	_	qualche	_	_	57-1	_	_	
+58-3	1764-1771	collega	_	_	_	collega	_	_	57-2	_	_	
+58-4	1772-1774	sì	_	_	Falling	sì.	_	_	57-3	_	_	
+
+#Text=cacchio e poi come avete fatto
+59-1	1775-1782	cacchio	BC	_	Falling	cacchio.	_	TOR006	58-0	_	_	
+59-2	1783-1784	e	_	_	_	e	_	_	58-1	_	_	
+59-3	1785-1788	poi	_	_	_	poi	_	_	58-2	_	_	
+59-4	1789-1793	come	_	_	_	come	_	_	58-3	_	_	
+59-5	1794-1799	avete	_	_	_	avete	_	_	58-4	_	_	
+59-6	1800-1805	fatto	_	_	Rising	fatto?	_	_	58-5	_	_	
+
+#Text=ma nien~ in realtà un mio collega se l' è sparato in pancia cioè gli ha ((ride))
+60-1	1806-1808	ma	_	_	_	ma::	_	TOI031	59-0	_	_	
+60-2	1809-1814	nien~	_	_	WeaklyRising	nien~,	_	_	59-1	_	_	
+60-3	1815-1817	in	_	_	_	in	_	_	59-2	_	_	
+60-4	1818-1824	realtà	_	_	_	realtà	_	_	59-3	_	_	
+60-5	1825-1827	un	_	_	_	un	_	_	59-4	_	_	
+60-6	1828-1831	mio	_	_	_	mio	_	_	59-5	_	_	
+60-7	1832-1839	collega	_	_	_	collega	_	_	59-6	_	_	
+60-8	1840-1842	se	_	_	_	se	_	_	59-7	_	_	
+60-9	1843-1845	l'	_	_	_	l'	_	_	59-8	_	_	
+60-10	1846-1847	è	_	_	_	è	_	_	59-9	_	_	
+60-11	1848-1855	sparato	_	_	_	sparato	_	_	59-10	_	_	
+60-12	1856-1858	in	_	_	_	in	_	_	59-11	_	_	
+60-13	1859-1865	pancia	_	_	_	pancia	_	_	59-12	_	_	
+60-14	1866-1870	cioè	_	_	_	c(io)è	_	_	59-13	_	_	
+60-15	1871-1874	gli	_	_	_	gli	_	_	59-14	_	_	
+60-16	1875-1877	ha	_	_	_	ha	_	_	59-15	_	_	
+60-17	1878-1886	((ride))	_	_	_	((ride))	_	_	59-16	_	_	
+
+#Text=((ride))
+61-1	1887-1895	((ride))	_	_	_	((ride))	_	TOR006	60-0	_	_	
+
+#Text=gli ha pizzicato
+62-1	1896-1899	gli	_	_	_	gli	_	TOI031	61-0	_	_	
+62-2	1900-1902	ha	_	_	_	ha	_	_	61-1	_	_	
+62-3	1903-1912	pizzicato	_	_	WeaklyRising	pizzicato::,	_	_	61-2	_	_	
+
+#Text=un po' la maglietta insomma
+63-1	1913-1915	un	_	_	_	un	_	TOI031	62-0	_	_	
+63-2	1916-1919	po'	_	_	_	po'	_	_	62-1	_	_	
+63-3	1920-1922	la	_	_	_	la	_	_	62-2	_	_	
+63-4	1923-1932	maglietta	_	_	_	maglietta	_	_	62-3	_	_	
+63-5	1933-1940	insomma	_	_	WeaklyRising	insomma,	_	_	62-4	_	_	
+
+#Text=però non è successo nulla
+64-1	1941-1945	però	_	_	_	però	_	TOI031	63-0	_	_	
+64-2	1946-1949	non	_	_	_	non	_	_	63-1	_	_	
+64-3	1950-1951	è	_	_	_	è	_	_	63-2	_	_	
+64-4	1952-1960	successo	_	_	_	successo	_	_	63-3	_	_	
+64-5	1961-1966	nulla	_	_	Falling	nulla.	_	_	63-4	_	_	
+
+#Text=non avete chiamato l' ambulanza
+65-1	1967-1970	non	_	_	_	non	_	TOR006	64-0	_	_	
+65-2	1971-1976	avete	_	_	_	avete	_	_	64-1	_	_	
+65-3	1977-1985	chiamato	_	_	_	chiamato	_	_	64-2	_	_	
+65-4	1986-1988	l'	_	_	_	l'	_	_	64-3	_	_	
+65-5	1989-1998	ambulanza	_	_	Rising	ambulanza?	_	_	64-4	_	_	
+
+#Text=no no no
+66-1	1999-2001	no	_	_	_	no	_	TOI031	65-0	_	_	
+66-2	2002-2004	no	_	_	_	no	_	_	65-1	_	_	
+66-3	2005-2007	no	_	_	Falling	no.	_	_	65-2	_	_	
+
+#Text=poi qualcuno so che
+67-1	2008-2011	poi	_	_	_	poi	_	TOI031	66-0	_	_	
+67-2	2012-2020	qualcuno	_	_	_	qualcuno	_	_	66-1	_	_	
+67-3	2021-2023	so	_	_	_	so	_	_	66-2	_	_	
+67-4	2024-2027	che	_	_	WeaklyRising	che,	_	_	66-3	_	_	
+
+#Text=s' è fatto un po' più male
+68-1	2028-2030	s'	_	_	_	s'	_	TOI031	67-0	_	_	
+68-2	2031-2032	è	_	_	_	è	_	_	67-1	_	_	
+68-3	2033-2038	fatto	_	_	_	fatto	_	_	67-2	_	_	
+68-4	2039-2041	un	_	_	_	un	_	_	67-3	_	_	
+68-5	2042-2045	po'	_	_	_	po'	_	_	67-4	_	_	
+68-6	2046-2049	più	_	_	_	più	_	_	67-5	_	_	
+68-7	2050-2054	male	_	_	Falling	male.	_	_	67-6	_	_	
+
+#Text=però ogni tanto partiva qualche qualche chiodo
+69-1	2055-2059	però	_	_	_	però	_	TOI031	68-0	_	_	
+69-2	2060-2064	ogni	_	_	_	ogni	_	_	68-1	_	_	
+69-3	2065-2070	tanto	_	_	_	tanto	_	_	68-2	_	_	
+69-4	2071-2078	partiva	_	_	_	partiva	_	_	68-3	_	_	
+69-5	2079-2086	qualche	_	_	WeaklyRising	qualche:,	_	_	68-4	_	_	
+69-6	2087-2094	qualche	_	_	_	qualche	_	_	68-5	_	_	
+69-7	2095-2101	chiodo	_	_	Falling	chiodo.	_	_	68-6	_	_	
+
+#Text=a destra e a manca
+70-1	2102-2103	a	_	_	_	a	_	TOI031	69-0	_	_	
+70-2	2104-2110	destra	_	_	_	destra	_	_	69-1	_	_	
+70-3	2111-2112	e	_	_	_	e	_	_	69-2	_	_	
+70-4	2113-2114	a	_	_	_	a	_	_	69-3	_	_	
+70-5	2115-2120	manca	_	_	_	manca	_	_	69-4	_	_	
+
+#Text=((ride))
+71-1	2121-2129	((ride))	_	_	_	((ride))	_	TOR006	70-0	_	_	
+
+#Text=diciamo che il lavoro era
+72-1	2130-2137	diciamo	_	_	_	diciamo	_	TOI031	71-0	_	_	
+72-2	2138-2141	che	_	_	_	che	_	_	71-1	_	_	
+72-3	2142-2144	il	_	_	_	il	_	_	71-2	_	_	
+72-4	2145-2151	lavoro	_	_	_	lavoro	_	_	71-3	_	_	
+72-5	2152-2155	era	_	_	WeaklyRising	era,	_	_	71-4	_	_	
+
+#Text=più pericoloso era imballare proprio
+73-1	2156-2159	più	_	_	_	più	_	TOI031	72-0	_	_	
+73-2	2160-2170	pericoloso	_	_	_	pericoloso	_	_	72-1	_	_	
+73-3	2171-2174	era	_	_	_	era	_	_	72-2	_	_	
+73-4	2175-2184	imballare	_	_	_	imballare	_	_	72-3	_	_	
+73-5	2185-2192	proprio	_	_	_	>proprio<	_	_	72-4	_	_	
+
+#Text=le lamiere
+74-1	2193-2195	le	_	_	_	le	_	TOI031	73-0	_	_	
+74-2	2196-2203	lamiere	_	_	Falling	lamiere.	_	_	73-1	_	_	
+
+#Text=perché erano molto
+75-1	2204-2210	perché	_	_	_	perché	_	TOI031	74-0	_	_	
+75-2	2211-2216	erano	_	_	_	erano	_	_	74-1	_	_	
+75-3	2217-2222	molto	_	_	WeaklyRising	molto,	_	_	74-2	_	_	
+
+#Text=le lamiere delle macchine come sai sono molto
+76-1	2223-2225	le	_	_	_	le	_	TOI031	75-0	_	_	
+76-2	2226-2233	lamiere	_	_	_	lamiere	_	_	75-1	_	_	
+76-3	2234-2239	delle	_	_	_	delle	_	_	75-2	_	_	
+76-4	2240-2248	macchine	_	_	_	macchine	_	_	75-3	_	_	
+76-5	2249-2253	come	_	_	_	come	_	_	75-4	_	_	
+76-6	2254-2257	sai	_	_	_	sai	_	_	75-5	_	_	
+76-7	2258-2262	sono	_	_	_	sono	_	_	75-6	_	_	
+76-8	2263-2268	molto	_	_	WeaklyRising	molto,	_	_	75-7	_	_	
+
+#Text=affilate
+77-1	2269-2277	affilate	_	_	Falling	affilate.	_	TOI031	76-0	_	_	
+
+#Text=no
+78-1	2278-2280	no	_	_	Rising	no?	_	TOI031	77-0	_	_	
+
+#Text=quindi quello era molto più pericoloso che
+79-1	2281-2287	quindi	_	_	_	quindi	_	TOI031	78-0	_	_	
+79-2	2288-2294	quello	_	_	_	quello	_	_	78-1	_	_	
+79-3	2295-2298	era	_	_	_	era	_	_	78-2	_	_	
+79-4	2299-2304	molto	_	_	_	molto	_	_	78-3	_	_	
+79-5	2305-2308	più	_	_	_	più	_	_	78-4	_	_	
+79-6	2309-2319	pericoloso	_	_	_	pericoloso	_	_	78-5	_	_	
+79-7	2320-2323	che	_	_	WeaklyRising	che,	_	_	78-6	_	_	
+
+#Text=che spara~ che montare le casse in legno
+80-1	2324-2327	che	_	_	_	che	SR[21]	TOI031	79-0	_	_	
+80-2	2328-2334	spara~	_	_	WeaklyRising	spara~,	SR[21]	_	79-1	_	_	
+80-3	2335-2338	che	_	_	_	che	SR[21]	_	79-2	_	_	
+80-4	2339-2346	montare	_	_	_	montare	SR[21]	_	79-3	_	_	
+80-5	2347-2349	le	_	_	_	le	_	_	79-4	_	_	
+80-6	2350-2355	casse	_	_	_	casse	_	_	79-5	_	_	
+80-7	2356-2358	in	_	_	_	\[in	_	_	79-6	*->75-1	*[75]	
+80-8	2359-2364	legno	_	_	_	legno\]	_	_	79-7	*->75-2	*[75]	
+
+#Text=quindi partivano le dita nel reparto lamiere
+81-1	2365-2371	quindi	_	_	_	\[quindi\]	_	TOR006	80-0	*->75-3	*[75]	
+81-2	2372-2381	partivano	_	_	_	partivano	_	_	80-1	_	_	
+81-3	2382-2384	le	_	_	_	le	_	_	80-2	_	_	
+81-4	2385-2389	dita	_	_	_	dita	_	_	80-3	_	_	
+81-5	2390-2393	nel	_	_	_	nel	_	_	80-4	_	_	
+81-6	2394-2401	reparto	_	_	_	reparto	_	_	80-5	_	_	
+81-7	2402-2409	lamiere	_	_	WeaklyRising	lamiere,	_	_	80-6	_	_	
+
+#Text=esatto a me è partito un polpastrello un giorno infatti c' è un polpastrello di plastica
+82-1	2410-2416	esatto	BC	_	Falling	esatto.	_	TOI031	81-0	_	_	
+82-2	2417-2418	a	_	_	_	a	_	_	81-1	_	_	
+82-3	2419-2421	me	_	_	_	me	_	_	81-2	_	_	
+82-4	2422-2423	è	_	_	_	è	_	_	81-3	_	_	
+82-5	2424-2431	partito	_	_	_	partito	_	_	81-4	_	_	
+82-6	2432-2434	un	_	_	_	un	_	_	81-5	_	_	
+82-7	2435-2447	polpastrello	_	_	_	polpastrello	_	_	81-6	_	_	
+82-8	2448-2450	un	_	_	_	un	_	_	81-7	_	_	
+82-9	2451-2457	giorno	_	_	Falling	giorno.	_	_	81-8	_	_	
+82-10	2458-2465	infatti	_	_	_	infatti	_	_	81-9	_	_	
+82-11	2466-2468	c'	_	_	_	(c'	_	_	81-10	_	_	
+82-12	2469-2470	è	_	_	_	è)	_	_	81-11	_	_	
+82-13	2471-2473	un	_	_	_	un	_	_	81-12	_	_	
+82-14	2474-2486	polpastrello	_	_	_	polpastrello	_	_	81-13	_	_	
+82-15	2487-2489	di	_	_	_	di	_	_	81-14	_	_	
+82-16	2490-2498	plastica	_	_	Falling	plastica.	_	_	81-15	_	_	
+
+#Text=in che senso
+83-1	2499-2501	in	_	_	_	in	_	TOR006	82-0	_	_	
+83-2	2502-2505	che	_	_	_	che	_	_	82-1	_	_	
+83-3	2506-2511	senso	_	_	Rising	senso?	_	_	82-2	_	_	
+
+#Text=eh che me l' hanno incollato ((ride))
+84-1	2512-2514	eh	_	_	_	eh	_	TOI031	83-0	_	_	
+84-2	2515-2518	che	_	_	_	che	_	_	83-1	_	_	
+84-3	2519-2521	me	_	_	_	me	_	_	83-2	_	_	
+84-4	2522-2524	l'	_	_	_	l'	_	_	83-3	_	_	
+84-5	2525-2530	hanno	_	_	_	hanno	_	_	83-4	_	_	
+84-6	2531-2540	incollato	_	_	Falling	incollato.	_	_	83-5	_	_	
+84-7	2541-2549	((ride))	_	_	_	((ride))	_	_	83-6	_	_	
+
+#Text=((ride)) ma no allora è carne
+85-1	2550-2558	((ride))	_	_	_	((ride))	_	TOR006	84-0	_	_	
+85-2	2559-2561	ma	_	_	_	ma	_	_	84-1	_	_	
+85-3	2562-2564	no	_	_	WeaklyRising	no,	_	_	84-2	_	_	
+85-4	2565-2571	allora	_	_	_	allora	_	_	84-3	_	_	
+85-5	2572-2573	è	_	_	_	è	_	_	84-4	_	_	
+85-6	2574-2579	carne	_	_	_	carne	_	_	84-5	_	_	
+
+#Text=no è carne incollata però qui non ho la sensibilità
+86-1	2580-2582	no	_	_	_	no	_	TOI031	85-0	_	_	
+86-2	2583-2584	è	_	_	_	è	_	_	85-1	_	_	
+86-3	2585-2590	carne	_	_	_	carne	_	_	85-2	_	_	
+86-4	2591-2600	incollata	_	_	WeaklyRising	incollata,	_	_	85-3	_	_	
+86-5	2601-2605	però	_	_	_	però	_	_	85-4	_	_	
+86-6	2606-2609	qui	_	_	_	qui	_	_	85-5	_	_	
+86-7	2610-2613	non	_	_	_	non	_	_	85-6	_	_	
+86-8	2614-2616	ho	_	_	_	ho	_	_	85-7	_	_	
+86-9	2617-2619	la	_	_	_	la	_	_	85-8	_	_	
+86-10	2620-2631	sensibilità	_	_	_	sensibilità	_	_	85-9	_	_	
+
+#Text=((ride))
+87-1	2632-2640	((ride))	_	_	_	((ride))	_	TOR006	86-0	_	_	
+
+#Text=è come se fosse plastica
+88-1	2641-2642	è	_	_	_	è	_	TOI031	87-0	_	_	
+88-2	2643-2647	come	_	_	_	come	_	_	87-1	_	_	
+88-3	2648-2650	se	_	_	_	se	_	_	87-2	_	_	
+88-4	2651-2656	fosse	_	_	_	fosse	_	_	87-3	_	_	
+88-5	2657-2665	plastica	_	_	Falling	plas\[tica\].	_	_	87-4	_	_	
+88-5.1	2661-2665	tica	_	_	_	_	_	_	_	*->132-1	*[132]	
+
+#Text=((sospira))
+89-1	2666-2677	((sospira))	_	_	_	((sospira))	_	TOR006	88-0	_	_	
+89-1.1	2666-2669	((s	_	_	_	_	_	_	_	*->132-1	*[132]	
+
+#Text=quindi puoi toccare il fuoco
+90-1	2678-2684	quindi	_	_	_	\[quindi\]	_	TOR006	89-0	*->132-2	*[132]	
+90-2	2685-2689	puoi	_	_	_	puoi	_	_	89-1	_	_	
+90-3	2690-2697	toccare	_	_	_	toccare	_	_	89-2	_	_	
+90-4	2698-2700	il	_	_	_	il	_	_	89-3	_	_	
+90-5	2701-2706	fuoco	_	_	Rising	fuoco?	_	_	89-4	_	_	
+
+#Text=è vero ci dovrei provare però non ci ho mai provato ((ride))
+91-1	2707-2708	è	_	_	_	è	_	TOI031	90-0	_	_	
+91-2	2709-2713	vero	_	_	_	vero	_	_	90-1	_	_	
+91-3	2714-2716	ci	_	_	_	ci	_	_	90-2	_	_	
+91-4	2717-2723	dovrei	_	_	_	dovrei	_	_	90-3	_	_	
+91-5	2724-2731	provare	_	_	WeaklyRising	provare,	_	_	90-4	_	_	
+91-6	2732-2736	però	_	_	_	però	_	_	90-5	_	_	
+91-7	2737-2740	non	_	_	_	non	_	_	90-6	_	_	
+91-8	2741-2743	ci	_	_	_	ci	_	_	90-7	_	_	
+91-9	2744-2746	ho	_	_	_	ho	_	_	90-8	_	_	
+91-10	2747-2750	mai	_	_	_	mai	_	_	90-9	_	_	
+91-11	2751-2758	provato	_	_	_	provato	_	_	90-10	_	_	
+91-12	2759-2767	((ride))	_	_	_	((ride))	_	_	90-11	_	_	
+
+#Text=e provaci
+92-1	2768-2769	e	_	_	_	e	_	TOR006	91-0	_	_	
+92-2	2770-2777	provaci	_	_	WeaklyRising	provaci,	_	_	91-1	_	_	
+
+#Text=però non ho capito
+93-1	2778-2782	però	_	_	WeaklyRising	però,	_	TOR006	92-0	_	_	
+93-2	2783-2786	non	_	_	_	non	_	_	92-1	_	_	
+93-3	2787-2789	ho	_	_	_	ho	_	_	92-2	_	_	
+93-4	2790-2796	capito	_	_	Falling	capito.	_	_	92-3	_	_	
+
+#Text=tu facevi gli imballaggi ma ogni tanto andavi anche alle lamiere
+94-1	2797-2799	tu	_	_	_	tu	_	TOR006	93-0	_	_	
+94-2	2800-2806	facevi	_	_	_	facevi	_	_	93-1	_	_	
+94-3	2807-2810	gli	_	_	_	gli	_	_	93-2	_	_	
+94-4	2811-2821	imballaggi	_	_	_	imballaggi	_	_	93-3	_	_	
+94-5	2822-2824	ma	_	_	_	ma	_	_	93-4	_	_	
+94-6	2825-2829	ogni	_	_	_	ogni	_	_	93-5	_	_	
+94-7	2830-2835	tanto	_	_	_	tanto	_	_	93-6	_	_	
+94-8	2836-2842	andavi	_	_	_	andavi	_	_	93-7	_	_	
+94-9	2843-2848	anche	_	_	_	anche	_	_	93-8	_	_	
+94-10	2849-2853	alle	_	_	_	alle	_	_	93-9	_	_	
+94-11	2854-2861	lamiere	_	_	Rising	lamiere?	_	_	93-10	_	_	
+
+#Text=no l' imballaggio nel senso che consisteva
+95-1	2862-2864	no	_	_	_	no	_	TOI031	94-0	_	_	
+95-2	2865-2867	l'	_	_	_	l'	_	_	94-1	_	_	
+95-3	2868-2879	imballaggio	_	_	_	imballaggio	_	_	94-2	_	_	
+95-4	2880-2883	nel	_	_	_	nel	_	_	94-3	_	_	
+95-5	2884-2889	senso	_	_	_	senso	_	_	94-4	_	_	
+95-6	2890-2893	che	_	_	WeaklyRising	che,	_	_	94-5	_	_	
+95-7	2894-2904	consisteva	_	_	WeaklyRising	consisteva,	_	_	94-6	_	_	
+
+#Text=nella parte di
+96-1	2905-2910	nella	_	_	_	nella	_	TOI031	95-0	_	_	
+96-2	2911-2916	parte	_	_	_	parte	_	_	95-1	_	_	
+96-3	2917-2919	di	_	_	WeaklyRising	di,	_	_	95-2	_	_	
+
+#Text=montaggio di questa cassa
+97-1	2920-2929	montaggio	_	_	_	montaggio	_	TOI031	96-0	_	_	
+97-2	2930-2932	di	_	_	_	di	_	_	96-1	_	_	
+97-3	2933-2939	questa	_	_	_	questa	_	_	96-2	_	_	
+97-4	2940-2945	cassa	_	_	WeaklyRising	cassa,	_	_	96-3	_	_	
+
+#Text=mh mh
+98-1	2946-2948	mh	BC[4]	_	_	\[mh	_	TOR006	97-0	*->152-1	*[152]	
+98-2	2949-2951	mh	BC[4]	_	_	mh\]	_	_	97-1	*->152-2	*[152]	
+
+#Text=in legno no
+99-1	2952-2954	in	_	_	_	\[in	_	TOI031	98-0	*->152-3	*[152]	
+99-2	2955-2960	legno	_	_	WeaklyRising	legno\],	_	_	98-1	*->152-4	*[152]	
+99-3	2961-2963	no	_	_	Rising	no?	_	_	98-2	_	_	
+
+#Text=che era il contenitore
+100-1	2964-2967	che	_	_	_	che	_	TOI031	99-0	_	_	
+100-2	2968-2971	era	_	_	_	era	_	_	99-1	_	_	
+100-3	2972-2974	il	_	_	_	il	_	_	99-2	_	_	
+100-4	2975-2986	contenitore	_	_	WeaklyRising	contenitore,	_	_	99-3	_	_	
+
+#Text=del materiale imballato e poi mi portavano il materiale da imballare
+101-1	2987-2990	del	_	_	_	del	_	TOI031	100-0	_	_	
+101-2	2991-3000	materiale	_	_	_	materiale	_	_	100-1	_	_	
+101-3	3001-3010	imballato	_	_	Falling	imballato.	_	_	100-2	_	_	
+101-4	3011-3012	e	_	_	_	e	_	_	100-3	_	_	
+101-5	3013-3016	poi	_	_	_	poi	_	_	100-4	_	_	
+101-6	3017-3019	mi	_	_	_	\[mi	_	_	100-5	*->61-1	*[61]	
+101-7	3020-3029	portavano	_	_	_	portavano\]	_	_	100-6	*->61-2	*[61]	
+101-8	3030-3032	il	_	_	_	il	_	_	100-7	_	_	
+101-9	3033-3042	materiale	_	_	_	materiale	_	_	100-8	_	_	
+101-10	3043-3045	da	_	_	_	da	_	_	100-9	_	_	
+101-11	3046-3055	imballare	_	_	WeaklyRising	imballare,	_	_	100-10	_	_	
+
+#Text=ah okay
+102-1	3056-3058	ah	BC[5]	_	_	\[ah	_	TOR006	101-0	*->61-3	*[61]	
+102-2	3059-3063	okay	BC[5]	_	_	okay\]	_	_	101-1	*->61-4	*[61]	
+
+#Text=ah e il materiale poteva esse~
+103-1	3064-3066	ah	BC	_	_	ah	_	TOR006	102-0	_	_	
+103-2	3067-3068	e	_	_	_	e	_	_	102-1	_	_	
+103-3	3069-3071	il	_	_	_	il	_	_	102-2	_	_	
+103-4	3072-3081	materiale	_	_	_	mate\[riale	_	_	102-3	_	_	
+103-4.1	3076-3081	riale	_	_	_	_	_	_	_	*->34-1	*[34]	
+103-5	3082-3088	poteva	_	_	_	poteva	_	_	102-4	*->34-2	*[34]	
+103-5.1	3082-3085	pot	_	_	_	_	_	_	_	*->34-1	*[34]	
+103-6	3089-3094	esse~	_	_	_	esse~\]	_	_	102-5	*->34-3	*[34]	
+
+#Text=e io e dovevo caricarlo io
+104-1	3095-3096	e	_	_	_	\[e	_	TOI031	103-0	*->34-4	*[34]	
+104-2	3097-3099	io	_	_	WeaklyRising	io,	_	_	103-1	*->34-5	*[34]	
+104-3	3100-3101	e	_	_	_	e	_	_	103-2	*->34-6	*[34]	
+104-4	3102-3108	dovevo	_	_	_	dovevo	_	_	103-3	*->34-7	*[34]	
+104-5	3109-3118	caricarlo	_	_	_	caricarlo\]	_	_	103-4	*->34-8	*[34]	
+104-6	3119-3121	io	_	_	Falling	io.	_	_	103-5	_	_	
+
+#Text=potevano essere dei pezzi di plastica come dei paraurti
+105-1	3122-3130	potevano	_	_	_	potevano	_	TOI031	104-0	_	_	
+105-2	3131-3137	essere	_	_	_	essere	_	_	104-1	_	_	
+105-3	3138-3141	dei	_	_	_	dei	_	_	104-2	_	_	
+105-4	3142-3147	pezzi	_	_	_	pezzi	_	_	104-3	_	_	
+105-5	3148-3150	di	_	_	_	di	_	_	104-4	_	_	
+105-6	3151-3159	plastica	_	_	WeaklyRising	plastica,	_	_	104-5	_	_	
+105-7	3160-3164	come	_	_	_	come	_	_	104-6	_	_	
+105-8	3165-3168	dei	_	_	_	dei	_	_	104-7	_	_	
+105-9	3169-3177	paraurti	_	_	WeaklyRising	paraurti,	_	_	104-8	_	_	
+
+#Text=okay
+106-1	3178-3182	okay	BC	_	_	okay	_	TOR006	105-0	_	_	
+
+#Text=oppure delle lamiere oppure che ne so le lucine
+107-1	3183-3189	oppure	_	_	_	oppure	_	TOI031	106-0	_	_	
+107-2	3190-3195	delle	_	_	_	delle	_	_	106-1	_	_	
+107-3	3196-3203	lamiere	_	_	WeaklyRising	lamiere,	_	_	106-2	_	_	
+107-4	3204-3210	oppure	_	_	_	oppure	_	_	106-3	_	_	
+107-5	3211-3214	che	_	_	_	che	_	_	106-4	_	_	
+107-6	3215-3217	ne	_	_	_	ne	_	_	106-5	_	_	
+107-7	3218-3220	so	_	_	_	so	_	_	106-6	_	_	
+107-8	3221-3223	le	_	_	_	le	_	_	106-7	_	_	
+107-9	3224-3230	lucine	_	_	WeaklyRising	lucine,	_	_	106-8	_	_	
+
+#Text=interne cioè
+108-1	3231-3238	interne	_	_	WeaklyRising	interne,	_	TOI031	107-0	_	_	
+108-2	3239-3243	cioè	_	_	WeaklyRising	c(io)è,	_	_	107-1	_	_	
+
+#Text=qualsiasi
+109-1	3244-3253	qualsiasi	_	_	_	qualsiasi	_	TOI031	108-0	_	_	
+
+#Text=oddio
+110-1	3254-3259	oddio	_	_	_	oddio	_	TOI031	109-0	_	_	
+
+#Text=((ride))
+111-1	3260-3268	((ride))	_	_	_	((ride))	_	TOR006	110-0	_	_	
+
+#Text=vabbè non importa ((ride))
+112-1	3269-3274	vabbè	_	_	WeaklyRising	vabbè,	_	TOI031	111-0	_	_	
+112-2	3275-3278	non	_	_	_	non	_	_	111-1	_	_	
+112-3	3279-3286	importa	_	_	_	importa	_	_	111-2	_	_	
+112-4	3287-3295	((ride))	_	_	_	((ride))	_	_	111-3	_	_	
+
+#Text=mi hai fatto solo cadere il libro a cui tenevo di più
+113-1	3296-3298	mi	_	_	_	mi	_	TOI031	112-0	_	_	
+113-2	3299-3302	hai	_	_	_	hai	_	_	112-1	_	_	
+113-3	3303-3308	fatto	_	_	_	fatto	_	_	112-2	_	_	
+113-4	3309-3313	solo	_	_	_	solo	_	_	112-3	_	_	
+113-5	3314-3320	cadere	_	_	_	cadere	_	_	112-4	_	_	
+113-6	3321-3323	il	_	_	_	il	_	_	112-5	_	_	
+113-7	3324-3329	libro	_	_	_	libro	_	_	112-6	_	_	
+113-8	3330-3331	a	_	_	_	a	_	_	112-7	_	_	
+113-9	3332-3335	cui	_	_	_	cui	_	_	112-8	_	_	
+113-10	3336-3342	tenevo	_	_	_	tenevo	_	_	112-9	_	_	
+113-11	3343-3345	di	_	_	_	di	_	_	112-10	_	_	
+113-12	3346-3349	più	_	_	_	più	_	_	112-11	_	_	
+
+#Text=ma
+114-1	3350-3352	ma	_	_	WeaklyRising	ma,	_	TOI031	113-0	_	_	
+
+#Text=qual è il libro a cui tieni di più
+115-1	3353-3357	qual	_	_	_	qual	_	TOR006	114-0	_	_	
+115-2	3358-3359	è	_	_	_	è	_	_	114-1	_	_	
+115-3	3360-3362	il	_	_	_	il	_	_	114-2	_	_	
+115-4	3363-3368	libro	_	_	_	libro	_	_	114-3	_	_	
+115-5	3369-3370	a	_	_	_	a	_	_	114-4	_	_	
+115-6	3371-3374	cui	_	_	_	cui	_	_	114-5	_	_	
+115-7	3375-3380	tieni	_	_	_	tieni	_	_	114-6	_	_	
+115-8	3381-3383	di	_	_	_	di	_	_	114-7	_	_	
+115-9	3384-3387	più	_	_	Rising	più?	_	_	114-8	_	_	
+
+#Text=me l' hanno appena regalato
+116-1	3388-3390	me	_	_	_	me	_	TOI031	115-0	_	_	
+116-2	3391-3393	l'	_	_	_	l'	_	_	115-1	_	_	
+116-3	3394-3399	hanno	_	_	_	hanno	_	_	115-2	_	_	
+116-4	3400-3406	appena	_	_	_	appena	_	_	115-3	_	_	
+116-5	3407-3415	regalato	_	_	Falling	regalato.	_	_	115-4	_	_	
+
+#Text=è quello che hai appena fatto cadere per terra ((ride))
+117-1	3416-3417	è	_	_	_	\[è	_	TOI031	116-0	_	_	
+117-2	3418-3424	quello	_	_	_	quello	_	_	116-1	_	_	
+117-3	3425-3428	che	_	_	_	che	_	_	116-2	_	_	
+117-4	3429-3432	hai	_	_	_	hai	_	_	116-3	_	_	
+117-5	3433-3439	appena	_	_	_	appena	_	_	116-4	_	_	
+117-6	3440-3445	fatto	_	_	_	fa\]tto	_	_	116-5	_	_	
+117-7	3446-3452	cadere	_	_	_	cadere	_	_	116-6	_	_	
+117-8	3453-3456	per	_	_	_	per	_	_	116-7	_	_	
+117-9	3457-3462	terra	_	_	_	terra	_	_	116-8	_	_	
+117-10	3463-3471	((ride))	_	_	_	((ride))	_	_	116-9	_	_	
+
+#Text=oh merda
+118-1	3472-3474	oh	BC[6]	_	_	\[oh	_	TOR006	117-0	*->82-1	*[82]	
+118-2	3475-3480	merda	BC[6]	_	_	merda\]	_	_	117-1	*->82-2	*[82]	
+
+#Text=col mio sedere
+119-1	3481-3484	col	_	_	_	col	_	TOR006	118-0	_	_	
+119-2	3485-3488	mio	_	_	_	mio	_	_	118-1	_	_	
+119-3	3489-3495	sedere	_	_	_	sedere	_	_	118-2	_	_	
+
+#Text=parliamo di questo libro
+120-1	3496-3504	parliamo	_	_	_	parliamo	_	TOR006	119-0	_	_	
+120-2	3505-3507	di	_	_	_	di	_	_	119-1	_	_	
+120-3	3508-3514	questo	_	_	_	questo	_	_	119-2	_	_	
+120-4	3515-3520	libro	_	_	WeaklyRising	libro,	_	_	119-3	_	_	
+
+#Text=facciamo un excursus su perché questo libro è così importante per te
+121-1	3521-3529	facciamo	_	_	_	facciamo	_	TOR006	120-0	_	_	
+121-2	3530-3532	un	_	_	_	un	_	_	120-1	_	_	
+121-3	3533-3541	excursus	_	_	_	excursus	_	_	120-2	_	_	
+121-4	3542-3544	su	_	_	WeaklyRising	su,	_	_	120-3	_	_	
+121-5	3545-3551	perché	_	_	_	perché	_	_	120-4	_	_	
+121-6	3552-3558	questo	_	_	_	questo	_	_	120-5	_	_	
+121-7	3559-3564	libro	_	_	_	libro	_	_	120-6	_	_	
+121-8	3565-3566	è	_	_	_	è	_	_	120-7	_	_	
+121-9	3567-3571	così	_	_	_	così	_	_	120-8	_	_	
+121-10	3572-3582	importante	_	_	_	importante	_	_	120-9	_	_	
+121-11	3583-3586	per	_	_	_	per	_	_	120-10	_	_	
+121-12	3587-3589	te	_	_	Falling	te.	_	_	120-11	_	_	
+
+#Text=davide
+122-1	3590-3596	davide	_	_	_	davide	_	TOR006	121-0	_	_	
+
+#Text=no perché eh
+123-1	3597-3599	no	_	_	_	no	_	TOI031	122-0	_	_	
+123-2	3600-3606	perché	_	_	_	perché	_	_	122-1	_	_	
+123-3	3607-3609	eh	_	FP	_	eh	_	_	122-2	_	_	
+
+#Text=questo libro è inferno di dante alighieri
+124-1	3610-3616	questo	_	_	_	questo	_	TOI031	123-0	_	_	
+124-2	3617-3622	libro	_	_	_	libro	_	_	123-1	_	_	
+124-3	3623-3624	è	_	_	_	è	_	_	123-2	_	_	
+124-4	3625-3632	inferno	_	_	WeaklyRising	inferno,	_	_	123-3	_	_	
+124-5	3633-3635	di	_	_	_	di	_	_	123-4	_	_	
+124-6	3636-3641	dante	_	_	_	dante	_	_	123-5	_	_	
+124-7	3642-3651	alighieri	_	_	WeaklyRising	alighieri,	_	_	123-6	_	_	
+
+#Text=appena ehm
+125-1	3652-3658	appena	_	_	_	appena	_	TOI031	124-0	_	_	
+125-2	3659-3662	ehm	_	FP	_	ehm	_	_	124-1	_	_	
+
+#Text=come si dice
+126-1	3663-3667	come	_	_	_	come	_	TOI031	125-0	_	_	
+126-2	3668-3670	si	_	_	_	si	_	_	125-1	_	_	
+126-3	3671-3675	dice	_	_	Rising	dice?	_	_	125-2	_	_	
+
+#Text=appena ri~
+127-1	3676-3682	appena	_	_	_	appena	_	TOI031	126-0	_	_	
+127-2	3683-3686	ri~	_	_	_	ri::~	_	_	126-1	_	_	
+
+#Text=riproposto
+128-1	3687-3697	riproposto	_	_	WeaklyRising	riproposto,	_	TOI031	127-0	_	_	
+
+#Text=da ehm
+129-1	3698-3700	da	_	_	_	da	_	TOI031	128-0	_	_	
+129-2	3701-3704	ehm	_	FP	_	e::hm	_	_	128-1	_	_	
+
+#Text=da franco nembrini
+130-1	3705-3707	da	_	_	_	da	_	TOI031	129-0	_	_	
+130-2	3708-3714	franco	_	_	_	franco	_	_	129-1	_	_	
+130-3	3715-3723	nembrini	_	_	WeaklyRising	nembrini,	_	_	129-2	_	_	
+
+#Text=illustrato da dellotto
+131-1	3724-3734	illustrato	_	_	_	illustrato	_	TOI031	130-0	_	_	
+131-2	3735-3737	da	_	_	_	da	_	_	130-1	_	_	
+131-3	3738-3746	dellotto	_	_	WeaklyRising	dellotto,	_	_	130-2	_	_	
+
+#Text=con la prefazione di alessandro d' avenia
+132-1	3747-3750	con	_	_	_	con	_	TOI031	131-0	_	_	
+132-2	3751-3753	la	_	_	_	la	_	_	131-1	_	_	
+132-3	3754-3764	prefazione	_	_	_	prefazione	_	_	131-2	_	_	
+132-4	3765-3767	di	_	_	_	di	_	_	131-3	_	_	
+132-5	3768-3778	alessandro	_	_	_	alessandro	_	_	131-4	_	_	
+132-6	3779-3781	d'	_	_	_	d'	_	_	131-5	_	_	
+132-7	3782-3788	avenia	_	_	Falling	avenia.	_	_	131-6	_	_	
+
+#Text=e perché è il tuo libro preferito
+133-1	3789-3790	e	_	_	_	e	_	TOR006	132-0	_	_	
+133-2	3791-3797	perché	_	_	_	perché	_	_	132-1	_	_	
+133-3	3798-3799	è	_	_	_	è	_	_	132-2	_	_	
+133-4	3800-3802	il	_	_	_	il	_	_	132-3	_	_	
+133-5	3803-3806	tuo	_	_	_	tuo	_	_	132-4	_	_	
+133-6	3807-3812	libro	_	_	_	libro	_	_	132-5	_	_	
+133-7	3813-3822	preferito	_	_	Rising	preferito?	_	_	132-6	_	_	
+
+#Text=ma eh non l' ho ancora letto e non so se è il mio libro preferito
+134-1	3823-3825	ma	_	_	_	ma	_	TOI031	133-0	_	_	
+134-2	3826-3828	eh	_	FP	_	eh	_	_	133-1	_	_	
+134-3	3829-3832	non	_	_	_	non	_	_	133-2	_	_	
+134-4	3833-3835	l'	_	_	_	l'	_	_	133-3	_	_	
+134-5	3836-3838	ho	_	_	_	ho	_	_	133-4	_	_	
+134-6	3839-3845	ancora	_	_	_	ancora	_	_	133-5	_	_	
+134-7	3846-3851	letto	_	_	WeaklyRising	letto,	_	_	133-6	_	_	
+134-8	3852-3853	e	_	_	_	e	_	_	133-7	_	_	
+134-9	3854-3857	non	_	_	_	non	_	_	133-8	_	_	
+134-10	3858-3860	so	_	_	_	so	_	_	133-9	_	_	
+134-11	3861-3863	se	_	_	_	se	_	_	133-10	_	_	
+134-12	3864-3865	è	_	_	_	è	_	_	133-11	_	_	
+134-13	3866-3868	il	_	_	_	il	_	_	133-12	_	_	
+134-14	3869-3872	mio	_	_	_	mio	_	_	133-13	_	_	
+134-15	3873-3878	libro	_	_	_	libro	_	_	133-14	_	_	
+134-16	3879-3888	preferito	_	_	WeaklyRising	preferito,	_	_	133-15	_	_	
+
+#Text=però siccome dante
+135-1	3889-3893	però	_	_	_	però	_	TOI031	134-0	_	_	
+135-2	3894-3901	siccome	_	_	WeaklyRising	siccome::,	_	_	134-1	_	_	
+135-3	3902-3907	dante	_	_	WeaklyRising	dante,	_	_	134-2	_	_	
+
+#Text=è il mio autore preferito
+136-1	3908-3909	è	_	_	_	è	_	TOI031	135-0	_	_	
+136-2	3910-3912	il	_	_	_	il	_	_	135-1	_	_	
+136-3	3913-3916	mio	_	_	_	mio	_	_	135-2	_	_	
+136-4	3917-3923	autore	_	_	_	autore	_	_	135-3	_	_	
+136-5	3924-3933	preferito	_	_	WeaklyRising	preferito,	_	_	135-4	_	_	
+
+#Text=allora
+137-1	3934-3940	allora	_	_	WeaklyRising	allora,	_	TOI031	136-0	_	_	
+
+#Text=questa riedizione mi affascinava
+138-1	3941-3947	questa	_	_	_	questa	_	TOI031	137-0	_	_	
+138-2	3948-3958	riedizione	_	_	_	riedizione	_	_	137-1	_	_	
+138-3	3959-3961	mi	_	_	_	mi	_	_	137-2	_	_	
+138-4	3962-3973	affascinava	_	_	WeaklyRising	affascinava,	_	_	137-3	_	_	
+
+#Text=allora non vedo l' ora di leggerlo
+139-1	3974-3980	allora	_	_	_	allora	_	TOI031	138-0	_	_	
+139-2	3981-3984	non	_	_	_	non	_	_	138-1	_	_	
+139-3	3985-3989	vedo	_	_	_	vedo	_	_	138-2	_	_	
+139-4	3990-3992	l'	_	_	_	l'	_	_	138-3	_	_	
+139-5	3993-3996	ora	_	_	_	ora	_	_	138-4	_	_	
+139-6	3997-3999	di	_	_	_	di	_	_	138-5	_	_	
+139-7	4000-4008	leggerlo	_	_	_	leggerlo	_	_	138-6	_	_	
+
+#Text=e perché dante è il tuo autore preferito
+140-1	4009-4010	e	_	_	_	e	_	TOR006	139-0	_	_	
+140-2	4011-4017	perché	_	_	_	perché	_	_	139-1	_	_	
+140-3	4018-4023	dante	_	_	_	dante	_	_	139-2	_	_	
+140-4	4024-4025	è	_	_	_	è	_	_	139-3	_	_	
+140-5	4026-4028	il	_	_	_	il	_	_	139-4	_	_	
+140-6	4029-4032	tuo	_	_	_	tuo	_	_	139-5	_	_	
+140-7	4033-4039	autore	_	_	_	autore	_	_	139-6	_	_	
+140-8	4040-4049	preferito	_	_	Rising	preferito?	_	_	139-7	_	_	
+
+#Text=perché
+141-1	4050-4056	perché	_	_	WeaklyRising	perché::,	_	TOI031	140-0	_	_	
+
+#Text=secondo me è uno di
+142-1	4057-4064	secondo	_	_	_	secondo	_	TOI031	141-0	_	_	
+142-2	4065-4067	me	_	_	_	me	_	_	141-1	_	_	
+142-3	4068-4069	è	_	_	_	è	_	_	141-2	_	_	
+142-4	4070-4073	uno	_	_	_	uno	_	_	141-3	_	_	
+142-5	4074-4076	di	_	_	WeaklyRising	di::,	_	_	141-4	_	_	
+
+#Text=quegli scrittori eterni
+143-1	4077-4083	quegli	_	_	_	quegli	_	TOI031	142-0	_	_	
+143-2	4084-4093	scrittori	_	_	_	scrittori	_	_	142-1	_	_	
+143-3	4094-4100	eterni	_	_	WeaklyRising	eterni,	_	_	142-2	_	_	
+
+#Text=ehm
+144-1	4101-4104	ehm	_	FP	_	e:hm	_	TOI031	143-0	_	_	
+
+#Text=avvincenti che
+145-1	4105-4115	avvincenti	_	_	WeaklyRising	avvincenti,	_	TOI031	144-0	_	_	
+145-2	4116-4119	che	_	_	WeaklyRising	che,	_	_	144-1	_	_	
+
+#Text=non smetteremo mai di
+146-1	4120-4123	non	_	_	_	non	_	TOI031	145-0	_	_	
+146-2	4124-4134	smetteremo	_	_	_	smetteremo	_	_	145-1	_	_	
+146-3	4135-4138	mai	_	_	_	mai	_	_	145-2	_	_	
+146-4	4139-4141	di	_	_	WeaklyRising	di,	_	_	145-3	_	_	
+
+#Text=né di studiare né di leggere
+147-1	4142-4144	né	_	_	_	né	_	TOI031	146-0	_	_	
+147-2	4145-4147	di	_	_	_	di	_	_	146-1	_	_	
+147-3	4148-4156	studiare	_	_	_	studiare	_	_	146-2	_	_	
+147-4	4157-4159	né	_	_	_	né	_	_	146-3	_	_	
+147-5	4160-4162	di	_	_	_	di	_	_	146-4	_	_	
+147-6	4163-4170	leggere	_	_	Falling	leggere.	_	_	146-5	_	_	
+
+#Text=ho capito
+148-1	4171-4173	ho	BC[7]	_	_	ho	_	TOR006	147-0	_	_	
+148-2	4174-4180	capito	BC[7]	_	_	capito	_	_	147-1	_	_	
+
+#Text=ma invece hai letto anche dei libri di alessandro d' avenia
+149-1	4181-4183	ma	_	_	WeaklyRising	ma:::,	_	TOR006	148-0	_	_	
+149-2	4184-4190	invece	_	_	_	invece	_	_	148-1	_	_	
+149-3	4191-4194	hai	_	_	_	hai	_	_	148-2	_	_	
+149-4	4195-4200	letto	_	_	_	letto	_	_	148-3	_	_	
+149-5	4201-4206	anche	_	_	_	anche	_	_	148-4	_	_	
+149-6	4207-4210	dei	_	_	_	dei	_	_	148-5	_	_	
+149-7	4211-4216	libri	_	_	_	libri	_	_	148-6	_	_	
+149-8	4217-4219	di	_	_	_	di	_	_	148-7	_	_	
+149-9	4220-4230	alessandro	_	_	_	alessandro	_	_	148-8	_	_	
+149-10	4231-4233	d'	_	_	_	d'	_	_	148-9	_	_	
+149-11	4234-4240	avenia	_	_	Rising	avenia?	_	_	148-10	_	_	
+
+#Text=sì
+150-1	4241-4243	sì	_	_	Falling	sì.	_	TOI031	149-0	_	_	
+
+#Text=quali
+151-1	4244-4249	quali	_	_	Rising	quali?	_	TOR006	150-0	_	_	
+
+#Text=ho letto ogni storia è una storia d' amore
+152-1	4250-4252	ho	_	_	_	ho	_	TOI031	151-0	_	_	
+152-2	4253-4258	letto	_	_	WeaklyRising	letto:,	_	_	151-1	_	_	
+152-3	4259-4263	ogni	_	_	_	ogni	_	_	151-2	_	_	
+152-4	4264-4270	storia	_	_	_	storia	_	_	151-3	_	_	
+152-5	4271-4272	è	_	_	_	è	_	_	151-4	_	_	
+152-6	4273-4276	una	_	_	_	una	_	_	151-5	_	_	
+152-7	4277-4283	storia	_	_	_	storia	_	_	151-6	_	_	
+152-8	4284-4286	d'	_	_	_	d'	_	_	151-7	_	_	
+152-9	4287-4292	amore	_	_	WeaklyRising	amore,	_	_	151-8	_	_	
+
+#Text=ah ce l' ha pure mia sorella a casa
+153-1	4293-4295	ah	BC	_	_	a::h	_	TOR006	152-0	_	_	
+153-2	4296-4298	ce	_	_	_	ce	_	_	152-1	_	_	
+153-3	4299-4301	l'	_	_	_	l'	_	_	152-2	_	_	
+153-4	4302-4304	ha	_	_	_	ha	_	_	152-3	_	_	
+153-5	4305-4309	pure	_	_	_	pure	_	_	152-4	_	_	
+153-6	4310-4313	mia	_	_	_	mia	_	_	152-5	_	_	
+153-7	4314-4321	sorella	_	_	_	sorella	_	_	152-6	_	_	
+153-8	4322-4323	a	_	_	_	a	_	_	152-7	_	_	
+153-9	4324-4328	casa	_	_	_	casa	_	_	152-8	_	_	
+
+#Text=poi
+154-1	4329-4332	poi	_	_	_	\[poi\]	_	TOI031	153-0	*->127-1	*[127]	
+
+#Text=ti è piaciuto
+155-1	4333-4335	ti	_	_	_	\[ti	_	TOR006	154-0	*->127-2	*[127]	
+155-2	4336-4337	è	_	_	_	è\]	_	_	154-1	*->127-3	*[127]	
+155-3	4338-4346	piaciuto	_	_	Rising	piaciuto?	_	_	154-2	_	_	
+
+#Text=sì
+156-1	4347-4349	sì	_	_	_	sì	_	TOI031	155-0	_	_	
+
+#Text=sì sì
+157-1	4350-4352	sì	_	_	_	\[sì	_	TOI031	156-0	*->123-1	*[123]	
+157-2	4353-4355	sì	_	_	_	sì\]	_	_	156-1	*->123-2	*[123]	
+
+#Text=di cosa parla
+158-1	4356-4358	di	_	_	_	\[di	_	TOR006	157-0	*->123-3	*[123]	
+158-2	4359-4363	cosa	_	_	_	cosa\]	_	_	157-1	*->123-4	*[123]	
+158-3	4364-4369	parla	_	_	Rising	parla?	_	_	157-2	_	_	
+
+#Text=in realtà parla di varie
+159-1	4370-4372	in	_	_	_	in	_	TOI031	158-0	_	_	
+159-2	4373-4379	realtà	_	_	_	realtà	_	_	158-1	_	_	
+159-3	4380-4385	parla	_	_	_	parla	_	_	158-2	_	_	
+159-4	4386-4388	di	_	_	WeaklyRising	di:::,	_	_	158-3	_	_	
+159-5	4389-4394	varie	_	_	WeaklyRising	varie:::,	_	_	158-4	_	_	
+
+#Text=variegate storie d' amore
+160-1	4395-4404	variegate	_	_	_	variegate	_	TOI031	159-0	_	_	
+160-2	4405-4411	storie	_	_	_	storie	_	_	159-1	_	_	
+160-3	4412-4414	d'	_	_	_	d'	_	_	159-2	_	_	
+160-4	4415-4420	amore	_	_	WeaklyRising	amore,	_	_	159-3	_	_	
+
+#Text=di donne illustri
+161-1	4421-4423	di	_	_	_	di	_	TOI031	160-0	_	_	
+161-2	4424-4429	donne	_	_	_	donne	_	_	160-1	_	_	
+161-3	4430-4438	illustri	_	_	WeaklyRising	illustri,	_	_	160-2	_	_	
+
+#Text=e c' è un filo rosso che accompagna queste storie
+162-1	4439-4440	e	_	_	_	e	_	TOI031	161-0	_	_	
+162-2	4441-4443	c'	_	_	_	c'	_	_	161-1	_	_	
+162-3	4444-4445	è	_	_	_	è	_	_	161-2	_	_	
+162-4	4446-4448	un	_	_	_	un	_	_	161-3	_	_	
+162-5	4449-4453	filo	_	_	_	filo	_	_	161-4	_	_	
+162-6	4454-4459	rosso	_	_	_	rosso	_	_	161-5	_	_	
+162-7	4460-4463	che	_	_	_	che	_	_	161-6	_	_	
+162-8	4464-4474	accompagna	_	_	_	accompagna	_	_	161-7	_	_	
+162-9	4475-4481	queste	_	_	_	queste	_	_	161-8	_	_	
+162-10	4482-4488	storie	_	_	WeaklyRising	storie,	_	_	161-9	_	_	
+
+#Text=ch' è la la sto~ il mito di orfeo e di euridice
+163-1	4489-4492	ch'	_	_	_	ch'	_	TOI031	162-0	_	_	
+163-2	4493-4494	è	_	_	_	è	_	_	162-1	_	_	
+163-3	4495-4497	la	_	_	_	la	_	_	162-2	_	_	
+163-4	4498-4500	la	_	_	_	la	SR[22]	_	162-3	_	_	
+163-5	4501-4505	sto~	_	_	_	sto~	SR[22]	_	162-4	_	_	
+163-6	4506-4508	il	_	_	_	il	SR[22]	_	162-5	_	_	
+163-7	4509-4513	mito	_	_	_	mito	SR[22]	_	162-6	_	_	
+163-8	4514-4516	di	_	_	_	di	_	_	162-7	_	_	
+163-9	4517-4522	orfeo	_	_	_	orfeo	_	_	162-8	_	_	
+163-10	4523-4524	e	_	_	_	e	_	_	162-9	_	_	
+163-11	4525-4527	di	_	_	_	di	_	_	162-10	_	_	
+163-12	4528-4536	euridice	_	_	WeaklyRising	euridice,	_	_	162-11	_	_	
+
+#Text=che d' avenia
+164-1	4537-4540	che	_	_	_	che	_	TOI031	163-0	_	_	
+164-2	4541-4543	d'	_	_	_	d'	_	_	163-1	_	_	
+164-3	4544-4550	avenia	_	_	WeaklyRising	avenia,	_	_	163-2	_	_	
+
+#Text=commenta
+165-1	4551-4559	commenta	_	_	WeaklyRising	commenta,	_	TOI031	164-0	_	_	
+
+#Text=in questo lungo questo
+166-1	4560-4562	in	_	_	_	in	_	TOI031	165-0	_	_	
+166-2	4563-4569	questo	_	_	WeaklyRising	questo,	_	_	165-1	_	_	
+166-3	4570-4575	lungo	_	_	_	lungo	_	_	165-2	_	_	
+166-4	4576-4582	questo	_	_	WeaklyRising	questo,	_	_	165-3	_	_	
+
+#Text=questa scrittura
+167-1	4583-4589	questa	_	_	_	questa	_	TOI031	166-0	_	_	
+167-2	4590-4599	scrittura	_	_	Falling	scrittura.	_	_	166-1	_	_	
+
+#Text=ho capito
+168-1	4600-4602	ho	BC[8]	_	_	ho	_	TOR006	167-0	_	_	
+168-2	4603-4609	capito	BC[8]	_	Falling	capito.	_	_	167-1	_	_	
+
+#Text=ehm
+169-1	4610-4613	ehm	_	FP	_	e::hm	_	TOR006	168-0	_	_	
+
+#Text=ma di dante quindi ti piace cioè tra inferno purgatorio e paradiso
+170-1	4614-4616	ma	_	_	_	ma	_	TOR006	169-0	_	_	
+170-2	4617-4619	di	_	_	_	di	_	_	169-1	_	_	
+170-3	4620-4625	dante	_	_	_	dante	_	_	169-2	_	_	
+170-4	4626-4632	quindi	_	_	_	quindi	_	_	169-3	_	_	
+170-5	4633-4635	ti	_	_	_	ti	_	_	169-4	_	_	
+170-6	4636-4641	piace	_	_	WeaklyRising	piace,	_	_	169-5	_	_	
+170-7	4642-4646	cioè	_	_	_	c(io)è	_	_	169-6	_	_	
+170-8	4647-4650	tra	_	_	_	tra	_	_	169-7	_	_	
+170-9	4651-4658	inferno	_	_	WeaklyRising	inferno,	_	_	169-8	_	_	
+170-10	4659-4669	purgatorio	_	_	_	purgatorio	_	_	169-9	_	_	
+170-11	4670-4671	e	_	_	_	e	_	_	169-10	_	_	
+170-12	4672-4680	paradiso	_	_	WeaklyRising	paradiso,	_	_	169-11	_	_	
+
+#Text=ti piace più l' inferno
+171-1	4681-4683	ti	_	_	_	ti	_	TOR006	170-0	_	_	
+171-2	4684-4689	piace	_	_	_	piace	_	_	170-1	_	_	
+171-3	4690-4693	più	_	_	_	più	_	_	170-2	_	_	
+171-4	4694-4696	l'	_	_	_	l'	_	_	170-3	_	_	
+171-5	4697-4704	inferno	_	_	Rising	inferno?	_	_	170-4	_	_	
+
+#Text=sì
+172-1	4705-4707	sì	_	_	Falling	sì.	_	TOI031	171-0	_	_	
+
+#Text=poi loro credo e spero
+173-1	4708-4711	poi	_	_	_	poi	_	TOI031	172-0	_	_	
+173-2	4712-4716	loro	_	_	WeaklyRising	loro,	_	_	172-1	_	_	
+173-3	4717-4722	credo	_	_	_	credo	_	_	172-2	_	_	
+173-4	4723-4724	e	_	_	_	e	_	_	172-3	_	_	
+173-5	4725-4730	spero	_	_	WeaklyRising	spero,	_	_	172-4	_	_	
+
+#Text=questi tre autori
+174-1	4731-4737	questi	_	_	_	questi	_	TOI031	173-0	_	_	
+174-2	4738-4741	tre	_	_	_	tre	_	_	173-1	_	_	
+174-3	4742-4748	autori	_	_	WeaklyRising	autori,	_	_	173-2	_	_	
+
+#Text=adesso sono alla prima edizione che
+175-1	4749-4755	adesso	_	_	_	(adesso	_	TOI031	174-0	_	_	
+175-2	4756-4760	sono	_	_	_	sono)	_	_	174-1	_	_	
+175-3	4761-4765	alla	_	_	_	alla	_	_	174-2	_	_	
+175-4	4766-4771	prima	_	_	_	prima	_	_	174-3	_	_	
+175-5	4772-4780	edizione	_	_	_	edizione	_	_	174-4	_	_	
+175-6	4781-4784	che	_	_	WeaklyRising	che,	_	_	174-5	_	_	
+
+#Text=che facciano anche
+176-1	4785-4788	che	_	_	_	che	_	TOI031	175-0	_	_	
+176-2	4789-4797	facciano	_	_	_	facciano	_	_	175-1	_	_	
+176-3	4798-4803	anche	_	_	WeaklyRising	anche,	_	_	175-2	_	_	
+
+#Text=poi il purgatorio e il paradiso perché
+177-1	4804-4807	poi	_	_	_	poi	_	TOI031	176-0	_	_	
+177-2	4808-4810	il	_	_	_	il	_	_	176-1	_	_	
+177-3	4811-4821	purgatorio	_	_	_	purgatorio	_	_	176-2	_	_	
+177-4	4822-4823	e	_	_	_	\[e	_	_	176-3	*->126-1	*[126]	
+177-5	4824-4826	il	_	_	_	il	_	_	176-4	*->126-2	*[126]	
+177-6	4827-4835	paradiso	_	_	WeaklyRising	paradiso\],	_	_	176-5	*->126-3	*[126]	
+177-7	4836-4842	perché	_	_	WeaklyRising	perché,	_	_	176-6	_	_	
+
+#Text=ah ho capito
+178-1	4843-4845	ah	BC[9]	_	_	\[ah	_	TOR006	177-0	*->126-4	*[126]	
+178-2	4846-4848	ho	BC[9]	_	_	ho	_	_	177-1	*->126-5	*[126]	
+178-3	4849-4855	capito	BC[9]	_	Falling	capito\].	_	_	177-2	*->126-6	*[126]	
+
+#Text=è una
+179-1	4856-4857	è	_	_	_	è	_	TOI031	178-0	_	_	
+179-2	4858-4861	una	_	_	WeaklyRising	una:,	_	_	178-1	_	_	
+
+#Text=è una nuova uscita insomma
+180-1	4862-4863	è	_	_	_	è	_	TOI031	179-0	_	_	
+180-2	4864-4867	una	_	_	_	una	_	_	179-1	_	_	
+180-3	4868-4873	nuova	_	_	_	nuova	_	_	179-2	_	_	
+180-4	4874-4880	uscita	_	_	_	uscita	_	_	179-3	_	_	
+180-5	4881-4888	insomma	_	_	_	insomma	_	_	179-4	_	_	
+
+#Text=mh mh
+181-1	4889-4891	mh	BC[10]	_	_	mh	_	TOR006	180-0	_	_	
+181-2	4892-4894	mh	BC[10]	_	_	mh	_	_	180-1	_	_	
+
+#Text=ma come mai ti piace di più l' inferno
+182-1	4895-4897	ma	_	_	_	ma	_	TOR006	181-0	_	_	
+182-2	4898-4902	come	_	_	_	come	_	_	181-1	_	_	
+182-3	4903-4906	mai	_	_	_	mai	_	_	181-2	_	_	
+182-4	4907-4909	ti	_	_	_	ti	_	_	181-3	_	_	
+182-5	4910-4915	piace	_	_	_	piace	_	_	181-4	_	_	
+182-6	4916-4918	di	_	_	_	(di	_	_	181-5	_	_	
+182-7	4919-4922	più	_	_	_	più)	_	_	181-6	_	_	
+182-8	4923-4925	l'	_	_	_	l'	_	_	181-7	_	_	
+182-9	4926-4933	inferno	_	_	Rising	inferno?	_	_	181-8	_	_	
+
+#Text=di dante
+183-1	4934-4936	di	_	_	_	di	_	TOR006	182-0	_	_	
+183-2	4937-4942	dante	_	_	_	dante	_	_	182-1	_	_	
+
+#Text=mah perché
+184-1	4943-4946	mah	_	_	_	mah	_	TOI031	183-0	_	_	
+184-2	4947-4953	perché	_	_	WeaklyRising	perché::,	_	_	183-1	_	_	
+
+#Text=perché è quello che stuzzica di più
+185-1	4954-4960	perché	_	_	_	perché	_	TOI031	184-0	_	_	
+185-2	4961-4962	è	_	_	_	è	_	_	184-1	_	_	
+185-3	4963-4969	quello	_	_	_	quello	_	_	184-2	_	_	
+185-4	4970-4973	che	_	_	_	che	_	_	184-3	_	_	
+185-5	4974-4982	stuzzica	_	_	_	stuzzica	_	_	184-4	_	_	
+185-6	4983-4985	di	_	_	_	di	_	_	184-5	_	_	
+185-7	4986-4989	più	_	_	Falling	più.	_	_	184-6	_	_	
+
+#Text=e il tuo cioè il tuo passo preferito
+186-1	4990-4991	e	_	_	WeaklyRising	e:::,	_	TOR006	185-0	_	_	
+186-2	4992-4994	il	_	_	_	il	_	_	185-1	_	_	
+186-3	4995-4998	tuo	_	_	WeaklyRising	tuo:::,	_	_	185-2	_	_	
+186-4	4999-5003	cioè	_	_	_	c(io)è	_	_	185-3	_	_	
+186-5	5004-5006	il	_	_	_	il	_	_	185-4	_	_	
+186-6	5007-5010	tuo	_	_	_	tuo	_	_	185-5	_	_	
+186-7	5011-5016	passo	_	_	_	passo	_	_	185-6	_	_	
+186-8	5017-5026	preferito	_	_	Rising	preferito?	_	_	185-7	_	_	
+
+#Text=è il passo di
+187-1	5027-5028	è	_	_	_	è::	_	TOI031	186-0	_	_	
+187-2	5029-5031	il	_	_	_	il	_	_	186-1	_	_	
+187-3	5032-5037	passo	_	_	_	passo	_	_	186-2	_	_	
+187-4	5038-5040	di	_	_	WeaklyRising	di::,	_	_	186-3	_	_	
+
+#Text=di paolo e francesca
+188-1	5041-5043	di	_	_	_	di	_	TOI031	187-0	_	_	
+188-2	5044-5049	paolo	_	_	_	paolo	_	_	187-1	_	_	
+188-3	5050-5051	e	_	_	_	e	_	_	187-2	_	_	
+188-4	5052-5061	francesca	_	_	Falling	francesca.	_	_	187-3	_	_	
+
+#Text=perché
+189-1	5062-5068	perché	_	_	Rising	perché?	_	TOR006	188-0	_	_	
+
+#Text=ma perché è una storia d' amore
+190-1	5069-5071	ma	_	_	_	ma	_	TOI031	189-0	_	_	
+190-2	5072-5078	perché	_	_	_	perché	_	_	189-1	_	_	
+190-3	5079-5080	è	_	_	_	è	_	_	189-2	_	_	
+190-4	5081-5084	una	_	_	_	una	_	_	189-3	_	_	
+190-5	5085-5091	storia	_	_	_	storia	_	_	189-4	_	_	
+190-6	5092-5094	d'	_	_	_	d'	_	_	189-5	_	_	
+190-7	5095-5100	amore	_	_	Falling	amore.	_	_	189-6	_	_	
+
+#Text=quindi sei uno un po' romantico
+191-1	5101-5107	quindi	_	_	_	quindi	_	TOR006	190-0	_	_	
+191-2	5108-5111	sei	_	_	_	sei	_	_	190-1	_	_	
+191-3	5112-5115	uno	_	_	_	uno	_	_	190-2	_	_	
+191-4	5116-5118	un	_	_	_	un	_	_	190-3	_	_	
+191-5	5119-5122	po'	_	_	_	po'	_	_	190-4	_	_	
+191-6	5123-5132	romantico	_	_	Falling	romantico.	_	_	190-5	_	_	
+
+#Text=io sì sono un romanticone
+192-1	5133-5135	io	_	_	_	io	_	TOI031	191-0	_	_	
+192-2	5136-5138	sì	_	_	Falling	sì.	_	_	191-1	_	_	
+192-3	5139-5143	sono	_	_	_	sono	_	_	191-2	_	_	
+192-4	5144-5146	un	_	_	_	un	_	_	191-3	_	_	
+192-5	5147-5158	romanticone	_	_	Falling	romanticone.	_	_	191-4	_	_	
+
+#Text=va bene
+193-1	5159-5161	va	BC[11]	_	_	va	_	TOR006	192-0	_	_	
+193-2	5162-5166	bene	BC[11]	_	Falling	bene.	_	_	192-1	_	_	
+
+#Text=riponiamo il libro sacro
+194-1	5167-5176	riponiamo	_	_	_	riponiamo	_	TOR006	193-0	_	_	
+194-2	5177-5179	il	_	_	_	il	_	_	193-1	_	_	
+194-3	5180-5185	libro	_	_	_	libro	_	_	193-2	_	_	
+194-4	5186-5191	sacro	_	_	WeaklyRising	sacro,	_	_	193-3	_	_	
+
+#Text=dove doveva s~
+195-1	5192-5196	dove	_	_	_	dove	_	TOR006	194-0	_	_	
+195-2	5197-5203	doveva	_	_	_	\[doveva	_	_	194-1	*->84-1	*[84]	
+195-3	5204-5206	s~	_	_	_	s~\]	_	_	194-2	*->84-2	*[84]	
+
+#Text=ecco vedi di non farmelo cader di nuovo
+196-1	5207-5211	ecco	_	_	_	\[ecco	_	TOI031	195-0	*->84-3	*[84]	
+196-2	5212-5216	vedi	_	_	_	vedi\]	_	_	195-1	*->84-4	*[84]	
+196-3	5217-5219	di	_	_	_	di	_	_	195-2	_	_	
+196-4	5220-5223	non	_	_	_	non	_	_	195-3	_	_	
+196-5	5224-5231	farmelo	_	_	_	farmelo	_	_	195-4	_	_	
+196-6	5232-5237	cader	_	_	_	cader	_	_	195-5	_	_	
+196-7	5238-5240	di	_	_	_	di	_	_	195-6	_	_	
+196-8	5241-5246	nuovo	_	_	WeaklyRising	nuovo,	_	_	195-7	_	_	
+
+#Text=((ride))
+197-1	5247-5255	((ride))	_	_	_	((ride))	_	TOR006	196-0	_	_	
+
+#Text=benissimo ritorniamo al tuo lavoro
+198-1	5256-5265	benissimo	_	_	WeaklyRising	benissimo,	_	TOR006	197-0	_	_	
+198-2	5266-5276	ritorniamo	_	_	_	ritorniamo	_	_	197-1	_	_	
+198-3	5277-5279	al	_	_	_	al	_	_	197-2	_	_	
+198-4	5280-5283	tuo	_	_	_	tuo	_	_	197-3	_	_	
+198-5	5284-5290	lavoro	_	_	Falling	lavoro.	_	_	197-4	_	_	
+
+#Text=quindi mi stavi dicendo che partivano i diti nelle lamiere
+199-1	5291-5297	quindi	_	_	_	quindi	_	TOR006	198-0	_	_	
+199-2	5298-5300	mi	_	_	_	mi	_	_	198-1	_	_	
+199-3	5301-5306	stavi	_	_	_	stavi	_	_	198-2	_	_	
+199-4	5307-5314	dicendo	_	_	_	dicendo	_	_	198-3	_	_	
+199-5	5315-5318	che	_	_	_	che	_	_	198-4	_	_	
+199-6	5319-5328	partivano	_	_	_	partivano	_	_	198-5	_	_	
+199-7	5329-5330	i	_	_	_	i	_	_	198-6	_	_	
+199-8	5331-5335	diti	_	_	_	diti	_	_	198-7	_	_	
+199-9	5336-5341	nelle	_	_	_	nelle	_	_	198-8	_	_	
+199-10	5342-5349	lamiere	_	_	WeaklyRising	lamiere,	_	_	198-9	_	_	
+
+#Text=i diti
+200-1	5350-5351	i	_	_	_	i	_	TOI031	199-0	_	_	
+200-2	5352-5356	diti	_	_	_	diti	_	_	199-1	_	_	
+
+#Text=i diti sì ((ride))
+201-1	5357-5358	i	_	_	_	i	_	TOR006	200-0	_	_	
+201-2	5359-5363	diti	_	_	_	diti	_	_	200-1	_	_	
+201-3	5364-5366	sì	_	_	_	sì	_	_	200-2	_	_	
+201-4	5367-5375	((ride))	_	_	_	((ride))	_	_	200-3	_	_	
+
+#Text=((ride))
+202-1	5376-5384	((ride))	_	_	_	((ride))	_	TOI031	201-0	_	_	
+
+#Text=dunque poi mi stavi dicendo che nel tempo libero aiutavi il tuo amico
+203-1	5385-5391	dunque	_	_	_	dunque	_	TOR006	202-0	_	_	
+203-2	5392-5395	poi	_	_	_	poi	_	_	202-1	_	_	
+203-3	5396-5398	mi	_	_	_	mi	_	_	202-2	_	_	
+203-4	5399-5404	stavi	_	_	_	stavi	_	_	202-3	_	_	
+203-5	5405-5412	dicendo	_	_	_	dicendo	_	_	202-4	_	_	
+203-6	5413-5416	che	_	_	_	che	_	_	202-5	_	_	
+203-7	5417-5420	nel	_	_	_	nel	_	_	202-6	_	_	
+203-8	5421-5426	tempo	_	_	_	tempo	_	_	202-7	_	_	
+203-9	5427-5433	libero	_	_	_	libero	_	_	202-8	_	_	
+203-10	5434-5441	aiutavi	_	_	_	aiutavi	_	_	202-9	_	_	
+203-11	5442-5444	il	_	_	_	il	_	_	202-10	_	_	
+203-12	5445-5448	tuo	_	_	_	tuo	_	_	202-11	_	_	
+203-13	5449-5454	amico	_	_	_	amico	_	_	202-12	_	_	
+
+#Text=sì
+204-1	5455-5457	sì	BC	_	Falling	sì.	_	TOI031	203-0	_	_	
+
+#Text=poi com' è andata cioè ti sei licenziato
+205-1	5458-5461	poi	_	_	_	poi	_	TOR006	204-0	_	_	
+205-2	5462-5466	com'	_	_	_	com'	_	_	204-1	_	_	
+205-3	5467-5468	è	_	_	_	è	_	_	204-2	_	_	
+205-4	5469-5475	andata	_	_	Rising	andata?	_	_	204-3	_	_	
+205-5	5476-5480	cioè	_	_	_	c(io)è	_	_	204-4	_	_	
+205-6	5481-5483	ti	_	_	_	ti	_	_	204-5	_	_	
+205-7	5484-5487	sei	_	_	_	sei	_	_	204-6	_	_	
+205-8	5488-5498	licenziato	_	_	Rising	licenziato?	_	_	204-7	_	_	
+
+#Text=ti hanno licenziato
+206-1	5499-5501	ti	_	_	_	ti	_	TOR006	205-0	_	_	
+206-2	5502-5507	hanno	_	_	_	hanno	_	_	205-1	_	_	
+206-3	5508-5518	licenziato	_	_	Rising	licenzi\[ato\]?	_	_	205-2	_	_	
+206-3.1	5515-5518	ato	_	_	_	_	_	_	_	*->26-1	*[26]	
+
+#Text=no
+207-1	5519-5521	no	_	_	Falling	\[no\].	_	TOI031	206-0	*->26-1|*->26-2	*[26]|*[26]	
+
+#Text=no no no
+208-1	5522-5524	no	_	_	_	no	_	TOI031	207-0	*->26-1	*[26]	
+208-2	5525-5527	no	_	_	_	no	_	_	207-1	_	_	
+208-2.1	5525-5525		_	_	_	_	_	_	_	*->26-1	*[26]	
+208-3	5528-5530	no	_	_	_	no	_	_	207-2	_	_	
+
+#Text=poi
+209-1	5531-5534	poi	_	_	WeaklyRising	poi::,	_	TOI031	208-0	_	_	
+
+#Text=ma eh poi in realtà
+210-1	5535-5537	ma	_	_	_	ma	_	TOI031	209-0	_	_	
+210-2	5538-5540	eh	_	FP	_	eh	_	_	209-1	_	_	
+210-3	5541-5544	poi	_	_	_	poi	_	_	209-2	_	_	
+210-4	5545-5547	in	_	_	_	in	_	_	209-3	_	_	
+210-5	5548-5554	realtà	_	_	WeaklyRising	realtà,	_	_	209-4	_	_	
+
+#Text=la storia prosegue diversamente da come ti ho detto
+211-1	5555-5557	la	_	_	_	la	_	TOI031	210-0	_	_	
+211-2	5558-5564	storia	_	_	_	storia	_	_	210-1	_	_	
+211-3	5565-5573	prosegue	_	_	_	prosegue	_	_	210-2	_	_	
+211-4	5574-5586	diversamente	_	_	_	diversamente	_	_	210-3	_	_	
+211-5	5587-5589	da	_	_	_	da	_	_	210-4	_	_	
+211-6	5590-5594	come	_	_	_	come	_	_	210-5	_	_	
+211-7	5595-5597	ti	_	_	_	ti	_	_	210-6	_	_	
+211-8	5598-5600	ho	_	_	_	ho	_	_	210-7	_	_	
+211-9	5601-5606	detto	_	_	WeaklyRising	detto,	_	_	210-8	_	_	
+
+#Text=mh
+212-1	5607-5609	mh	BC	_	_	mh	_	TOR006	211-0	_	_	
+
+#Text=perché son stato leggermente sintetico
+213-1	5610-5616	perché	_	_	_	perché	_	TOI031	212-0	_	_	
+213-2	5617-5620	son	_	_	_	son	_	_	212-1	_	_	
+213-3	5621-5626	stato	_	_	_	stato	_	_	212-2	_	_	
+213-4	5627-5638	leggermente	_	_	_	leggermente	_	_	212-3	_	_	
+213-5	5639-5648	sintetico	_	_	Falling	sintetico.	_	_	212-4	_	_	
+
+#Text=e non bisogna essere mai sintetici
+214-1	5649-5650	e	_	_	_	e	_	TOR006	213-0	_	_	
+214-2	5651-5654	non	_	_	_	non	_	_	213-1	_	_	
+214-3	5655-5662	bisogna	_	_	_	bisogna	_	_	213-2	_	_	
+214-4	5663-5669	essere	_	_	_	essere	_	_	213-3	_	_	
+214-5	5670-5673	mai	_	_	_	mai	_	_	213-4	_	_	
+214-6	5674-5683	sintetici	_	_	_	\[sintetici\]	_	_	213-5	*->22-1	*[22]	
+
+#Text=hai ragione
+215-1	5684-5687	hai	BC[12]	_	_	\[hai	_	TOI031	214-0	*->22-2	*[22]	
+215-2	5688-5695	ragione	BC[12]	_	_	ragione\]	_	_	214-1	*->22-3	*[22]	
+
+#Text=ho lavorato questi due anni in fabbrica
+216-1	5696-5698	ho	_	_	_	ho	_	TOI031	215-0	_	_	
+216-2	5699-5707	lavorato	_	_	_	lavorato	_	_	215-1	_	_	
+216-3	5708-5714	questi	_	_	_	questi	_	_	215-2	_	_	
+216-4	5715-5718	due	_	_	_	due	_	_	215-3	_	_	
+216-5	5719-5723	anni	_	_	_	anni	_	_	215-4	_	_	
+216-6	5724-5726	in	_	_	_	in	_	_	215-5	_	_	
+216-7	5727-5735	fabbrica	_	_	WeaklyRising	fabbrica,	_	_	215-6	_	_	
+
+#Text=poi mi è arrivato
+217-1	5736-5739	poi	_	_	_	poi	_	TOI031	216-0	_	_	
+217-2	5740-5742	mi	_	_	_	mi	_	_	216-1	_	_	
+217-3	5743-5744	è	_	_	_	è	_	_	216-2	_	_	
+217-4	5745-5753	arrivato	_	_	WeaklyRising	arrivato,	_	_	216-3	_	_	
+
+#Text=nel frattempo lavoravo nel tempo libero lavoravo con questo mio carissimo amico nel verde
+218-1	5754-5757	nel	_	_	_	nel	_	TOI031	217-0	_	_	
+218-2	5758-5767	frattempo	_	_	_	frattempo	_	_	217-1	_	_	
+218-3	5768-5776	lavoravo	_	_	WeaklyRising	lavoravo,	_	_	217-2	_	_	
+218-4	5777-5780	nel	_	_	_	nel	_	_	217-3	_	_	
+218-5	5781-5786	tempo	_	_	_	tempo	_	_	217-4	_	_	
+218-6	5787-5793	libero	_	_	WeaklyRising	libero,	_	_	217-5	_	_	
+218-7	5794-5802	lavoravo	_	_	_	lavoravo	_	_	217-6	_	_	
+218-8	5803-5806	con	_	_	_	con	_	_	217-7	_	_	
+218-9	5807-5813	questo	_	_	_	questo	_	_	217-8	_	_	
+218-10	5814-5817	mio	_	_	_	mio	_	_	217-9	_	_	
+218-11	5818-5827	carissimo	_	_	_	carissimo	_	_	217-10	_	_	
+218-12	5828-5833	amico	_	_	_	amico	_	_	217-11	_	_	
+218-13	5834-5837	nel	_	_	_	nel	_	_	217-12	_	_	
+218-14	5838-5843	verde	_	_	WeaklyRising	verde,	_	_	217-13	_	_	
+
+#Text=okay
+219-1	5844-5848	okay	BC	_	Falling	okay.	_	TOR006	218-0	_	_	
+
+#Text=poi ho cambiato lavoro [PAUSE] e sono andato a lavorare
+220-1	5849-5852	poi	_	_	_	poi	_	TOI031	219-0	_	_	
+220-2	5853-5855	ho	_	_	_	ho	_	_	219-1	_	_	
+220-3	5856-5864	cambiato	_	_	_	cambiato	_	_	219-2	_	_	
+220-4	5865-5871	lavoro	_	_	WeaklyRising	lavoro,	_	_	219-3	_	_	
+220-5	5872-5879	[PAUSE]	_	_	_	(.)	_	_	219-4	_	_	
+220-6	5880-5881	e	_	_	_	e	_	_	219-5	_	_	
+220-7	5882-5886	sono	_	_	_	sono	_	_	219-6	_	_	
+220-8	5887-5893	andato	_	_	_	andato	_	_	219-7	_	_	
+220-9	5894-5895	a	_	_	_	a	_	_	219-8	_	_	
+220-10	5896-5904	lavorare	_	_	WeaklyRising	lavorare,	_	_	219-9	_	_	
+
+#Text=col papà di una mia amica
+221-1	5905-5908	col	_	_	_	col	_	TOI031	220-0	_	_	
+221-2	5909-5913	papà	_	_	_	papà	_	_	220-1	_	_	
+221-3	5914-5916	di	_	_	_	di	_	_	220-2	_	_	
+221-4	5917-5920	una	_	_	_	una	_	_	220-3	_	_	
+221-5	5921-5924	mia	_	_	_	mia	_	_	220-4	_	_	
+221-6	5925-5930	amica	_	_	WeaklyRising	amica,	_	_	220-5	_	_	
+
+#Text=che vendeva finestre
+222-1	5931-5934	che	_	_	_	che	_	TOI031	221-0	_	_	
+222-2	5935-5942	vendeva	_	_	_	vendeva	_	_	221-1	_	_	
+222-3	5943-5951	finestre	_	_	Falling	finestre.	_	_	221-2	_	_	
+
+#Text=okay
+223-1	5952-5956	okay	BC	_	_	okay	_	TOR006	222-0	_	_	
+
+#Text=quindi ho fatto per due anni mi sono licenziato da [PAUSE] dalla fabbrica
+224-1	5957-5963	quindi	_	_	_	quindi	_	TOI031	223-0	_	_	
+224-2	5964-5966	ho	_	_	_	ho	_	_	223-1	_	_	
+224-3	5967-5972	fatto	_	_	_	fatto	_	_	223-2	_	_	
+224-4	5973-5976	per	_	_	_	per	_	_	223-3	_	_	
+224-5	5977-5980	due	_	_	_	due	_	_	223-4	_	_	
+224-6	5981-5985	anni	_	_	WeaklyRising	anni,	_	_	223-5	_	_	
+224-7	5986-5988	mi	_	_	_	mi	_	_	223-6	_	_	
+224-8	5989-5993	sono	_	_	_	sono	_	_	223-7	_	_	
+224-9	5994-6004	licenziato	_	_	WeaklyRising	licenziato,	_	_	223-8	_	_	
+224-10	6005-6007	da	_	_	WeaklyRising	da:,	_	_	223-9	_	_	
+224-11	6008-6015	[PAUSE]	_	_	_	(.)	_	_	223-10	_	_	
+224-12	6016-6021	dalla	_	_	_	dalla	_	_	223-11	_	_	
+224-13	6022-6030	fabbrica	_	_	WeaklyRising	fabbrica,	_	_	223-12	_	_	
+
+#Text=ho aperto partita iva
+225-1	6031-6033	ho	_	_	_	ho	_	TOI031	224-0	_	_	
+225-2	6034-6040	aperto	_	_	_	aperto	_	_	224-1	_	_	
+225-3	6041-6048	partita	_	_	_	partita	_	_	224-2	_	_	
+225-4	6049-6052	iva	_	_	WeaklyRising	iva,	_	_	224-3	_	_	
+
+#Text=e
+226-1	6053-6054	e	_	_	WeaklyRising	e,	_	TOI031	225-0	_	_	
+
+#Text=sono andato a fare il rappresentante per questa ditta di finestre
+227-1	6055-6059	sono	_	_	_	sono	_	TOI031	226-0	_	_	
+227-2	6060-6066	andato	_	_	_	andato	_	_	226-1	_	_	
+227-3	6067-6068	a	_	_	_	a	_	_	226-2	_	_	
+227-4	6069-6073	fare	_	_	_	fare	_	_	226-3	_	_	
+227-5	6074-6076	il	_	_	_	il	_	_	226-4	_	_	
+227-6	6077-6091	rappresentante	_	_	_	rappresentante	_	_	226-5	_	_	
+227-7	6092-6095	per	_	_	_	per	_	_	226-6	_	_	
+227-8	6096-6102	questa	_	_	_	questa	_	_	226-7	_	_	
+227-9	6103-6108	ditta	_	_	_	ditta	_	_	226-8	_	_	
+227-10	6109-6111	di	_	_	_	di	_	_	226-9	_	_	
+227-11	6112-6120	finestre	_	_	WeaklyRising	finestre,	_	_	226-10	_	_	
+
+#Text=mh mh
+228-1	6121-6123	mh	BC[13]	_	_	mh	_	TOR006	227-0	_	_	
+228-2	6124-6126	mh	BC[13]	_	_	mh	_	_	227-1	_	_	
+
+#Text=per lui e per per altre ma in particolare per lui
+229-1	6127-6130	per	_	_	_	per	_	TOI031	228-0	_	_	
+229-2	6131-6134	lui	_	_	_	lui	_	_	228-1	_	_	
+229-3	6135-6136	e	_	_	_	e	_	_	228-2	_	_	
+229-4	6137-6140	per	_	_	WeaklyRising	per::,	_	_	228-3	_	_	
+229-5	6141-6144	per	_	_	_	per	_	_	228-4	_	_	
+229-6	6145-6150	altre	_	_	Falling	altre.	_	_	228-5	_	_	
+229-7	6151-6153	ma	_	_	_	ma	_	_	228-6	_	_	
+229-8	6154-6156	in	_	_	_	in	_	_	228-7	_	_	
+229-9	6157-6168	particolare	_	_	_	particolare	_	_	228-8	_	_	
+229-10	6169-6172	per	_	_	_	per	_	_	228-9	_	_	
+229-11	6173-6176	lui	_	_	WeaklyRising	lui,	_	_	228-10	_	_	
+
+#Text=okay
+230-1	6177-6181	okay	BC	_	_	okay	_	TOR006	229-0	_	_	
+
+#Text=ehm
+231-1	6182-6185	ehm	_	FP	_	e:hm	_	TOI031	230-0	_	_	
+
+#Text=e niente quindi mi
+232-1	6186-6187	e	_	_	_	e	_	TOI031	231-0	_	_	
+232-2	6188-6194	niente	_	_	_	niente	_	_	231-1	_	_	
+232-3	6195-6201	quindi	_	_	_	quindi	_	_	231-2	_	_	
+232-4	6202-6204	mi	_	_	WeaklyRising	mi::,	_	_	231-3	_	_	
+
+#Text=e tipo
+233-1	6205-6206	e	_	_	_	e	_	TOR006	232-0	_	_	
+233-2	6207-6211	tipo	_	_	WeaklyRising	tipo,	_	_	232-1	_	_	
+
+#Text=mi occupavo di
+234-1	6212-6214	mi	_	_	_	mi	_	TOI031	233-0	_	_	
+234-2	6215-6223	occupavo	_	_	_	occupavo	_	_	233-1	_	_	
+234-3	6224-6226	di	_	_	WeaklyRising	\[di::\],	_	_	233-2	*->16-1	*[16]	
+
+#Text=come face~ cioè concretamente tipo suonavi al campanello e dicevi ciao ti voglio vendere una finestra
+235-1	6227-6231	come	_	_	_	\[come\]	_	TOR006	234-0	*->16-2	*[16]	
+235-2	6232-6237	face~	_	_	WeaklyRising	face~,	_	_	234-1	_	_	
+235-3	6238-6242	cioè	_	_	_	c(io)è	_	_	234-2	_	_	
+235-4	6243-6256	concretamente	_	_	_	concretamente	_	_	234-3	_	_	
+235-5	6257-6261	tipo	_	_	_	tipo	_	_	234-4	_	_	
+235-6	6262-6269	suonavi	_	_	_	suonavi	_	_	234-5	_	_	
+235-7	6270-6272	al	_	_	_	al	_	_	234-6	_	_	
+235-8	6273-6283	campanello	_	_	_	campanello	_	_	234-7	_	_	
+235-9	6284-6285	e	_	_	_	e	_	_	234-8	_	_	
+235-10	6286-6292	dicevi	_	_	WeaklyRising	dicevi,	_	_	234-9	_	_	
+235-11	6293-6297	ciao	_	_	_	ciao	_	_	234-10	_	_	
+235-12	6298-6300	ti	_	_	_	ti	_	_	234-11	_	_	
+235-13	6301-6307	voglio	_	_	_	voglio	_	_	234-12	_	_	
+235-14	6308-6315	vendere	_	_	_	vendere	_	_	234-13	_	_	
+235-15	6316-6319	una	_	_	_	una	_	_	234-14	_	_	
+235-16	6320-6328	finestra	_	_	WeaklyRising	\[finestra\],	_	_	234-15	*->91-1	*[91]	
+
+#Text=sì insomma ho fatto formazione da lui e
+236-1	6329-6331	sì	_	_	_	\[sì:\]	_	TOI031	235-0	*->91-2	*[91]	
+236-2	6332-6339	insomma	_	_	_	insomma	_	_	235-1	_	_	
+236-3	6340-6342	ho	_	_	_	ho	_	_	235-2	_	_	
+236-4	6343-6348	fatto	_	_	_	fatto	_	_	235-3	_	_	
+236-5	6349-6359	formazione	_	_	_	formazione	_	_	235-4	_	_	
+236-6	6360-6362	da	_	_	_	da	_	_	235-5	_	_	
+236-7	6363-6366	lui	_	_	WeaklyRising	lui,	_	_	235-6	_	_	
+236-8	6367-6368	e	_	_	WeaklyRising	e:,	_	_	235-7	_	_	
+
+#Text=e poi
+237-1	6369-6370	e	_	_	_	e	_	TOI031	236-0	_	_	
+237-2	6371-6374	poi	_	_	WeaklyRising	poi,	_	_	236-1	_	_	
+
+#Text=e poi
+238-1	6375-6376	e	_	_	_	e	_	TOI031	237-0	_	_	
+238-2	6377-6380	poi	_	_	WeaklyRising	poi,	_	_	237-1	_	_	
+
+#Text=sostanzialmente andavo cantiere per cantiere
+239-1	6381-6396	sostanzialmente	_	_	_	sostanzialmente	_	TOI031	238-0	_	_	
+239-2	6397-6403	andavo	_	_	_	andavo	_	_	238-1	_	_	
+239-3	6404-6412	cantiere	_	_	_	cantiere	_	_	238-2	_	_	
+239-4	6413-6416	per	_	_	_	per	_	_	238-3	_	_	
+239-5	6417-6425	cantiere	_	_	WeaklyRising	cantiere,	_	_	238-4	_	_	
+
+#Text=quindi nelle case che sapevo in costruzione
+240-1	6426-6432	quindi	_	_	_	quindi	_	TOI031	239-0	_	_	
+240-2	6433-6438	nelle	_	_	_	nelle	_	_	239-1	_	_	
+240-3	6439-6443	case	_	_	_	case	_	_	239-2	_	_	
+240-4	6444-6447	che	_	_	_	che	_	_	239-3	_	_	
+240-5	6448-6454	sapevo	_	_	_	sapevo	_	_	239-4	_	_	
+240-6	6455-6457	in	_	_	_	in	_	_	239-5	_	_	
+240-7	6458-6469	costruzione	_	_	WeaklyRising	costruzione,	_	_	239-6	_	_	
+
+#Text=nel chiarese e dintorni
+241-1	6470-6473	nel	_	_	_	nel	_	TOI031	240-0	_	_	
+241-2	6474-6482	chiarese	_	_	_	chiarese	_	_	240-1	_	_	
+241-3	6483-6484	e	_	_	_	e	_	_	240-2	_	_	
+241-4	6485-6493	dintorni	_	_	WeaklyRising	dintorni,	_	_	240-3	_	_	
+
+#Text=e ehm
+242-1	6494-6495	e	_	_	_	e	_	TOI031	241-0	_	_	
+242-2	6496-6499	ehm	_	FP	_	ehm	_	_	241-1	_	_	
+
+#Text=proponevi
+243-1	6500-6509	proponevi	_	_	Falling	proponevi.	_	TOR006	242-0	_	_	
+
+#Text=proponevo
+244-1	6510-6519	proponevo	BC	_	Falling	proponevo.	_	TOI031	243-0	_	_	
+
+#Text=e tipo la cosa più divertente che ti sia mai successa vendendo finestre
+245-1	6520-6521	e	_	_	_	e	_	TOR006	244-0	_	_	
+245-2	6522-6526	tipo	_	_	_	tipo	_	_	244-1	_	_	
+245-3	6527-6529	la	_	_	_	la	_	_	244-2	_	_	
+245-4	6530-6534	cosa	_	_	_	cosa	_	_	244-3	_	_	
+245-5	6535-6538	più	_	_	_	più	_	_	244-4	_	_	
+245-6	6539-6549	divertente	_	_	_	divertente	_	_	244-5	_	_	
+245-7	6550-6553	che	_	_	_	che	_	_	244-6	_	_	
+245-8	6554-6556	ti	_	_	_	ti	_	_	244-7	_	_	
+245-9	6557-6560	sia	_	_	_	sia	_	_	244-8	_	_	
+245-10	6561-6564	mai	_	_	_	mai	_	_	244-9	_	_	
+245-11	6565-6573	successa	_	_	_	successa	_	_	244-10	_	_	
+245-12	6574-6582	vendendo	_	_	_	vendendo	_	_	244-11	_	_	
+245-13	6583-6591	finestre	_	_	Rising	finestre?	_	_	244-12	_	_	
+
+#Text=vendendo non lo so
+246-1	6592-6600	vendendo	_	_	WeaklyRising	vendendo,	_	TOI031	245-0	_	_	
+246-2	6601-6604	non	_	_	_	non	_	_	245-1	_	_	
+246-3	6605-6607	lo	_	_	_	lo	_	_	245-2	_	_	
+246-4	6608-6610	so	_	_	Falling	so.	_	_	245-3	_	_	
+
+#Text=ma [PAUSE] provando a vendere
+247-1	6611-6613	ma	_	_	_	ma:	_	TOI031	246-0	_	_	
+247-2	6614-6621	[PAUSE]	_	_	_	(.)	_	_	246-1	_	_	
+247-3	6622-6630	provando	_	_	_	provando	_	_	246-2	_	_	
+247-4	6631-6632	a	_	_	_	a	_	_	246-3	_	_	
+247-5	6633-6640	vendere	_	_	WeaklyRising	vendere,	_	_	246-4	_	_	
+
+#Text=((ride))
+248-1	6641-6649	((ride))	_	_	_	((ride))	_	TOR006	247-0	_	_	
+
+#Text=mi è successo di
+249-1	6650-6652	mi	_	_	_	mi	_	TOI031	248-0	_	_	
+249-2	6653-6654	è	_	_	_	è	_	_	248-1	_	_	
+249-3	6655-6663	successo	_	_	_	successo	_	_	248-2	_	_	
+249-4	6664-6666	di	_	_	WeaklyRising	di,	_	_	248-3	_	_	
+
+#Text=eh finire in una cascina dove
+250-1	6667-6669	eh	_	FP	_	e:h	_	TOI031	249-0	_	_	
+250-2	6670-6676	finire	_	_	_	finire	_	_	249-1	_	_	
+250-3	6677-6679	in	_	_	_	in	_	_	249-2	_	_	
+250-4	6680-6683	una	_	_	_	una	_	_	249-3	_	_	
+250-5	6684-6691	cascina	_	_	_	cascina	_	_	249-4	_	_	
+250-6	6692-6696	dove	_	_	WeaklyRising	dove,	_	_	249-5	_	_	
+
+#Text=in una strada insomma
+251-1	6697-6699	in	_	_	_	in	_	TOI031	250-0	_	_	
+251-2	6700-6703	una	_	_	_	una	_	_	250-1	_	_	
+251-3	6704-6710	strada	_	_	_	strada	_	_	250-2	_	_	
+251-4	6711-6718	insomma	_	_	WeaklyRising	insomma,	_	_	250-3	_	_	
+
+#Text=sperduta di campagna
+252-1	6719-6727	sperduta	_	_	WeaklyRising	sperduta,	_	TOI031	251-0	_	_	
+252-2	6728-6730	di	_	_	_	di	_	_	251-1	_	_	
+252-3	6731-6739	campagna	_	_	WeaklyRising	campagna,	_	_	251-2	_	_	
+
+#Text=e sapevo di dover cercar cioè [PAUSE] determinato indirizzo
+253-1	6740-6741	e	_	_	_	e	_	TOI031	252-0	_	_	
+253-2	6742-6748	sapevo	_	_	_	sapevo	_	_	252-1	_	_	
+253-3	6749-6751	di	_	_	_	di	_	_	252-2	_	_	
+253-4	6752-6757	dover	_	_	_	dover	_	_	252-3	_	_	
+253-5	6758-6764	cercar	_	_	_	cercar	_	_	252-4	_	_	
+253-6	6765-6769	cioè	_	_	WeaklyRising	c(io)è,	_	_	252-5	_	_	
+253-7	6770-6777	[PAUSE]	_	_	_	(.)	_	_	252-6	_	_	
+253-8	6778-6789	determinato	_	_	_	determinato	_	_	252-7	_	_	
+253-9	6790-6799	indirizzo	_	_	WeaklyRising	indirizzo,	_	_	252-8	_	_	
+
+#Text=mi presentai a quello sbagliato
+254-1	6800-6802	mi	_	_	_	mi	_	TOI031	253-0	_	_	
+254-2	6803-6812	presentai	_	_	_	presentai	_	_	253-1	_	_	
+254-3	6813-6814	a	_	_	_	a	_	_	253-2	_	_	
+254-4	6815-6821	quello	_	_	_	quello	_	_	253-3	_	_	
+254-5	6822-6831	sbagliato	_	_	WeaklyRising	sbagliato,	_	_	253-4	_	_	
+
+#Text=e citofonando
+255-1	6832-6833	e	_	_	_	e	_	TOI031	254-0	_	_	
+255-2	6834-6845	citofonando	_	_	WeaklyRising	citofonando,	_	_	254-1	_	_	
+
+#Text=((ride))
+256-1	6846-6854	((ride))	_	_	_	((ride))	_	TOR006	255-0	_	_	
+
+#Text=saltò fuori una donna
+257-1	6855-6860	saltò	_	_	_	saltò	_	TOI031	256-0	_	_	
+257-2	6861-6866	fuori	_	_	_	fuori	_	_	256-1	_	_	
+257-3	6867-6870	una	_	_	_	una	_	_	256-2	_	_	
+257-4	6871-6876	donna	_	_	WeaklyRising	donna,	_	_	256-3	_	_	
+
+#Text=nuda
+258-1	6877-6881	nuda	_	_	Falling	nuda.	_	TOI031	257-0	_	_	
+
+#Text=((ride))
+259-1	6882-6890	((ride))	_	_	_	((ride))	_	TOR006	258-0	_	_	
+
+#Text=era estate
+260-1	6891-6894	era	_	_	_	era	_	TOI031	259-0	_	_	
+260-2	6895-6901	estate	_	_	WeaklyRising	estate,	_	_	259-1	_	_	
+
+#Text=quindi ci poteva stare
+261-1	6902-6908	quindi	_	_	_	quindi	_	TOI031	260-0	_	_	
+261-2	6909-6911	ci	_	_	_	ci	_	_	260-1	_	_	
+261-3	6912-6918	poteva	_	_	_	poteva	_	_	260-2	_	_	
+261-4	6919-6924	stare	_	_	WeaklyRising	stare,	_	_	260-3	_	_	
+
+#Text=ma completamente
+262-1	6925-6927	ma	_	_	_	ma	_	TOR006	261-0	_	_	
+262-2	6928-6941	completamente	_	_	Rising	completamente?	_	_	261-1	_	_	
+
+#Text=eh era completamente nuda
+263-1	6942-6944	eh	_	_	_	eh	_	TOI031	262-0	_	_	
+263-2	6945-6948	era	_	_	_	era	_	_	262-1	_	_	
+263-3	6949-6962	completamente	_	_	_	completamente	_	_	262-2	_	_	
+263-4	6963-6967	nuda	_	_	Falling	nuda.	_	_	262-3	_	_	
+
+#Text=ma cosa stava facendo ((ride))
+264-1	6968-6970	ma	_	_	_	ma	_	TOR006	263-0	_	_	
+264-2	6971-6975	cosa	_	_	_	cosa	_	_	263-1	_	_	
+264-3	6976-6981	stava	_	_	_	stava	_	_	263-2	_	_	
+264-4	6982-6989	facendo	_	_	Rising	\[facendo\]?	_	_	263-3	*->49-1	*[49]	
+264-5	6990-6998	((ride))	_	_	_	((ride))	_	_	263-4	_	_	
+
+#Text=eh prendeva il sole
+265-1	6999-7001	eh	_	_	_	\[eh	_	TOI031	264-0	*->49-2	*[49]	
+265-2	7002-7010	prendeva	_	_	_	prendeva\]	_	_	264-1	*->49-3	*[49]	
+265-3	7011-7013	il	_	_	_	il	_	_	264-2	_	_	
+265-4	7014-7018	sole	_	_	_	sole	_	_	264-3	_	_	
+
+#Text=((ride))
+266-1	7019-7027	((ride))	_	_	_	((ride))	_	TOR006	265-0	_	_	
+
+#Text=((ride))
+267-1	7028-7036	((ride))	_	_	_	((ride))	_	TOI031	266-0	_	_	
+
+#Text=prendeva il sole
+268-1	7037-7045	prendeva	_	_	_	prendeva	_	TOI031	267-0	_	_	
+268-2	7046-7048	il	_	_	_	il	_	_	267-1	_	_	
+268-3	7049-7053	sole	_	_	WeaklyRising	sole,	_	_	267-2	_	_	
+
+#Text=e io ero dal cancello ho suonato
+269-1	7054-7055	e	_	_	_	e	_	TOI031	268-0	_	_	
+269-2	7056-7058	io	_	_	WeaklyRising	io,	_	_	268-1	_	_	
+269-3	7059-7062	ero	_	_	_	ero	_	_	268-2	_	_	
+269-4	7063-7066	dal	_	_	_	dal	_	_	268-3	_	_	
+269-5	7067-7075	cancello	_	_	WeaklyRising	cancello,	_	_	268-4	_	_	
+269-6	7076-7078	ho	_	_	_	ho	_	_	268-5	_	_	
+269-7	7079-7086	suonato	_	_	WeaklyRising	suonato,	_	_	268-6	_	_	
+
+#Text=lei avrebbe tranquillamente potuto far finta di niente però forse era un po' esibizionista non so
+270-1	7087-7090	lei	_	_	_	lei	_	TOI031	269-0	_	_	
+270-2	7091-7098	avrebbe	_	_	_	avrebbe	_	_	269-1	_	_	
+270-3	7099-7114	tranquillamente	_	_	_	tranquillamente	_	_	269-2	_	_	
+270-4	7115-7121	potuto	_	_	_	potuto	_	_	269-3	_	_	
+270-5	7122-7125	far	_	_	_	far	_	_	269-4	_	_	
+270-6	7126-7131	finta	_	_	_	finta	_	_	269-5	_	_	
+270-7	7132-7134	di	_	_	_	di	_	_	269-6	_	_	
+270-8	7135-7141	niente	_	_	WeaklyRising	niente,	_	_	269-7	_	_	
+270-9	7142-7146	però	_	_	_	però	_	_	269-8	_	_	
+270-10	7147-7152	forse	_	_	_	forse	_	_	269-9	_	_	
+270-11	7153-7156	era	_	_	_	era	_	_	269-10	_	_	
+270-12	7157-7159	un	_	_	_	un	_	_	269-11	_	_	
+270-13	7160-7163	po'	_	_	_	po'	_	_	269-12	_	_	
+270-14	7164-7177	esibizionista	_	_	_	esibizionista	_	_	269-13	_	_	
+270-15	7178-7181	non	_	_	_	non	_	_	269-14	_	_	
+270-16	7182-7184	so	_	_	_	so	_	_	269-15	_	_	
+
+#Text=((ride))
+271-1	7185-7193	((ride))	_	_	_	((ride))	_	TOR006	270-0	_	_	
+
+#Text=per cui
+272-1	7194-7197	per	_	_	_	per	_	TOI031	271-0	_	_	
+272-2	7198-7201	cui	_	_	WeaklyRising	cui,	_	_	271-1	_	_	
+
+#Text=si è alzata
+273-1	7202-7204	si	_	_	_	si	_	TOI031	272-0	_	_	
+273-2	7205-7206	è	_	_	_	è	_	_	272-1	_	_	
+273-3	7207-7213	alzata	_	_	WeaklyRising	alzata,	_	_	272-2	_	_	
+
+#Text=no quindi x
+274-1	7214-7216	no	_	_	WeaklyRising	no,	_	TOI031	273-0	_	_	
+274-2	7217-7223	quindi	_	_	WeaklyRising	quindi,	_	_	273-1	_	_	
+274-3	7224-7225	x	_	_	_	xxx	_	_	273-2	_	_	
+
+#Text=((ride))
+275-1	7226-7234	((ride))	_	_	_	((ride))	_	TOR006	274-0	_	_	
+
+#Text=ha reso la giornata ((ride)) notevole
+276-1	7235-7237	ha	_	_	_	ha	_	TOI031	275-0	_	_	
+276-2	7238-7242	reso	_	_	_	reso	_	_	275-1	_	_	
+276-3	7243-7245	la	_	_	_	la	_	_	275-2	_	_	
+276-4	7246-7254	giornata	_	_	_	giornata	_	_	275-3	_	_	
+276-5	7255-7263	((ride))	_	_	_	((ride))	_	_	275-4	_	_	
+276-6	7264-7272	notevole	_	_	WeaklyRising	notevole,	_	_	275-5	_	_	
+
+#Text=((ride))
+277-1	7273-7281	((ride))	_	_	_	((ride))	_	TOR006	276-0	_	_	
+
+#Text=si è alzata
+278-1	7282-7284	si	_	_	_	si	_	TOI031	277-0	_	_	
+278-2	7285-7286	è	_	_	_	è	_	_	277-1	_	_	
+278-3	7287-7293	alzata	_	_	WeaklyRising	alzata,	_	_	277-2	_	_	
+
+#Text=si è vestita con grande calma si è messa una cosa addosso
+279-1	7294-7296	si	_	_	_	si	_	TOI031	278-0	_	_	
+279-2	7297-7298	è	_	_	_	è	_	_	278-1	_	_	
+279-3	7299-7306	vestita	_	_	_	vestita	_	_	278-2	_	_	
+279-4	7307-7310	con	_	_	_	con	_	_	278-3	_	_	
+279-5	7311-7317	grande	_	_	_	grande	_	_	278-4	_	_	
+279-6	7318-7323	calma	_	_	WeaklyRising	calma,	_	_	278-5	_	_	
+279-7	7324-7326	si	_	_	_	si	_	_	278-6	_	_	
+279-8	7327-7328	è	_	_	_	è	_	_	278-7	_	_	
+279-9	7329-7334	messa	_	_	_	messa	_	_	278-8	_	_	
+279-10	7335-7338	una	_	_	_	una	_	_	278-9	_	_	
+279-11	7339-7343	cosa	_	_	_	cosa	_	_	278-10	_	_	
+279-12	7344-7351	addosso	_	_	WeaklyRising	addosso,	_	_	278-11	_	_	
+
+#Text=((ride))
+280-1	7352-7360	((ride))	_	_	_	((ride))	_	TOR006	279-0	_	_	
+
+#Text=poi è venuta a chiedermi che cosa volevo
+281-1	7361-7364	poi	_	_	_	poi	_	TOI031	280-0	_	_	
+281-2	7365-7366	è	_	_	_	è	_	_	280-1	_	_	
+281-3	7367-7373	venuta	_	_	_	venuta	_	_	280-2	_	_	
+281-4	7374-7375	a	_	_	_	a	_	_	280-3	_	_	
+281-5	7376-7385	chiedermi	_	_	_	chiedermi	_	_	280-4	_	_	
+281-6	7386-7389	che	_	_	_	che	_	_	280-5	_	_	
+281-7	7390-7394	cosa	_	_	_	cosa	_	_	280-6	_	_	
+281-8	7395-7401	volevo	_	_	WeaklyRising	volevo,	_	_	280-7	_	_	
+
+#Text=((ride))
+282-1	7402-7410	((ride))	_	_	_	((ride))	_	TOR006	281-0	_	_	
+
+#Text=io
+283-1	7411-7413	io	_	_	WeaklyRising	io,	_	TOI031	282-0	_	_	
+
+#Text=((ride))
+284-1	7414-7422	((ride))	_	_	_	((ride))	_	TOR006	283-0	_	_	
+
+#Text=((ride))
+285-1	7423-7431	((ride))	_	_	_	((ride))	_	TOR006	284-0	_	_	
+
+#Text=fossi stato dentro un film le avrei detto senz' altro
+286-1	7432-7437	fossi	_	_	_	fossi	_	TOI031	285-0	_	_	
+286-2	7438-7443	stato	_	_	_	stato	_	_	285-1	_	_	
+286-3	7444-7450	dentro	_	_	_	dentro	_	_	285-2	_	_	
+286-4	7451-7453	un	_	_	_	un	_	_	285-3	_	_	
+286-5	7454-7458	film	_	_	_	film	_	_	285-4	_	_	
+286-6	7459-7461	le	_	_	_	le	_	_	285-5	_	_	
+286-7	7462-7467	avrei	_	_	_	avrei	_	_	285-6	_	_	
+286-8	7468-7473	detto	_	_	_	detto	_	_	285-7	_	_	
+286-9	7474-7479	senz'	_	_	_	senz'	_	_	285-8	_	_	
+286-10	7480-7485	altro	_	_	WeaklyRising	altro,	_	_	285-9	_	_	
+
+#Text=((ride)) un' altra cosa ma
+287-1	7486-7494	((ride))	_	_	_	((ride))	_	TOI031	286-0	_	_	
+287-2	7495-7498	un'	_	_	_	un'	_	_	286-1	_	_	
+287-3	7499-7504	altra	_	_	_	altra	_	_	286-2	_	_	
+287-4	7505-7509	cosa	_	_	WeaklyRising	cosa,	_	_	286-3	_	_	
+287-5	7510-7512	ma	_	_	WeaklyRising	ma,	_	_	286-4	_	_	
+
+#Text=sono rimasto
+288-1	7513-7517	sono	_	_	_	sono	_	TOI031	287-0	_	_	
+288-2	7518-7525	rimasto	_	_	WeaklyRising	rimasto,	_	_	287-1	_	_	
+
+#Text=alle regole del gioco e quindi
+289-1	7526-7530	alle	_	_	_	alle	_	TOI031	288-0	_	_	
+289-2	7531-7537	regole	_	_	_	regole	_	_	288-1	_	_	
+289-3	7538-7541	del	_	_	_	del	_	_	288-2	_	_	
+289-4	7542-7547	gioco	_	_	_	gioco	_	_	288-3	_	_	
+289-5	7548-7549	e	_	_	_	e	_	_	288-4	_	_	
+289-6	7550-7556	quindi	_	_	WeaklyRising	quindi,	_	_	288-5	_	_	
+
+#Text=((ride))
+290-1	7557-7565	((ride))	_	_	_	((ride))	_	TOR006	289-0	_	_	
+
+#Text=e quindi le ho chiesto ((ride))
+291-1	7566-7567	e	_	_	_	e	_	TOI031	290-0	_	_	
+291-2	7568-7574	quindi	_	_	_	quindi	_	_	290-1	_	_	
+291-3	7575-7577	le	_	_	_	le	_	_	290-2	_	_	
+291-4	7578-7580	ho	_	_	_	ho	_	_	290-3	_	_	
+291-5	7581-7588	chiesto	_	_	_	chiesto	_	_	290-4	_	_	
+291-6	7589-7597	((ride))	_	_	_	((ride))	_	_	290-5	_	_	
+
+#Text=se le interessavano dei serramenti
+292-1	7598-7600	se	_	_	_	se	_	TOI031	291-0	_	_	
+292-2	7601-7603	le	_	_	_	le	_	_	291-1	_	_	
+292-3	7604-7617	interessavano	_	_	_	interessavano	_	_	291-2	_	_	
+292-4	7618-7621	dei	_	_	_	dei	_	_	291-3	_	_	
+292-5	7622-7632	serramenti	_	_	_	serramenti	_	_	291-4	_	_	
+
+#Text=((ride))
+293-1	7633-7641	((ride))	_	_	_	((ride))	_	TOI031	292-0	_	_	
+
+#Text=e lei cos' ha risp~ ((ride))
+294-1	7642-7643	e	_	_	_	e	_	TOR006	293-0	_	_	
+294-2	7644-7647	lei	_	_	_	lei	_	_	293-1	_	_	
+294-3	7648-7652	cos'	_	_	_	cos'	_	_	293-2	_	_	
+294-4	7653-7655	ha	_	_	_	ha	_	_	293-3	_	_	
+294-5	7656-7661	risp~	_	_	WeaklyRising	risp~,	_	_	293-4	_	_	
+294-6	7662-7670	((ride))	_	_	_	((ride))	_	_	293-5	_	_	
+
+#Text=((ride)) mi fa male la pancia
+295-1	7671-7679	((ride))	_	_	_	((ride))	_	TOR006	294-0	_	_	
+295-2	7680-7682	mi	_	_	_	mi	_	_	294-1	_	_	
+295-3	7683-7685	fa	_	_	_	fa	_	_	294-2	_	_	
+295-4	7686-7690	male	_	_	_	male	_	_	294-3	_	_	
+295-5	7691-7693	la	_	_	_	la	_	_	294-4	_	_	
+295-6	7694-7700	pancia	_	_	_	pancia	_	_	294-5	_	_	
+
+#Text=e lei cos' ha risposto ((ride))
+296-1	7701-7702	e	_	_	_	e	_	TOR006	295-0	_	_	
+296-2	7703-7706	lei	_	_	_	lei	_	_	295-1	_	_	
+296-3	7707-7711	cos'	_	_	_	cos'	_	_	295-2	_	_	
+296-4	7712-7714	ha	_	_	_	ha	_	_	295-3	_	_	
+296-5	7715-7723	risposto	_	_	Rising	risposto?	_	_	295-4	_	_	
+296-6	7724-7732	((ride))	_	_	_	((ride))	_	_	295-5	_	_	
+
+#Text=lei ha detto di no
+297-1	7733-7736	lei	_	_	_	lei	_	TOI031	296-0	_	_	
+297-2	7737-7739	ha	_	_	_	ha	_	_	296-1	_	_	
+297-3	7740-7745	detto	_	_	_	detto	_	_	296-2	_	_	
+297-4	7746-7748	di	_	_	_	di	_	_	296-3	_	_	
+297-5	7749-7751	no	_	_	WeaklyRising	no,	_	_	296-4	_	_	
+
+#Text=ho io le ho detto
+298-1	7752-7754	ho	_	_	_	ho	_	TOI031	297-0	_	_	
+298-2	7755-7757	io	_	_	_	io	_	_	297-1	_	_	
+298-3	7758-7760	le	_	_	_	le	_	_	297-2	_	_	
+298-4	7761-7763	ho	_	_	_	ho	_	_	297-3	_	_	
+298-5	7764-7769	detto	_	_	WeaklyRising	detto,	_	_	297-4	_	_	
+
+#Text=che
+299-1	7770-7773	che	_	_	_	che	_	TOI031	298-0	_	_	
+
+#Text=((ride))
+300-1	7774-7782	((ride))	_	_	_	((ride))	_	TOR006	299-0	_	_	
+
+#Text=quasi certamente avevo sbagliato indirizzo
+301-1	7783-7788	quasi	_	_	_	quasi	_	TOI031	300-0	_	_	
+301-2	7789-7799	certamente	_	_	_	certamente	_	_	300-1	_	_	
+301-3	7800-7805	avevo	_	_	_	avevo	_	_	300-2	_	_	
+301-4	7806-7815	sbagliato	_	_	_	sbagliato	_	_	300-3	_	_	
+301-5	7816-7825	indirizzo	_	_	Falling	indirizzo.	_	_	300-4	_	_	
+
+#Text=((ride))
+302-1	7826-7834	((ride))	_	_	_	((ride))	_	TOI031	301-0	_	_	
+
+#Text=no però ((ride))
+303-1	7835-7837	no	_	_	_	no	_	TOR006	302-0	_	_	
+303-2	7838-7842	però	_	_	WeaklyRising	però,	_	_	302-1	_	_	
+303-3	7843-7851	((ride))	_	_	_	((ride))	_	_	302-2	_	_	
+
+#Text=di lì tutti i miei amici poi
+304-1	7852-7854	di	_	_	_	(di)	_	TOI031	303-0	_	_	
+304-2	7855-7857	lì	_	_	_	lì	_	_	303-1	_	_	
+304-3	7858-7863	tutti	_	_	_	tutti	_	_	303-2	_	_	
+304-4	7864-7865	i	_	_	_	i	_	_	303-3	_	_	
+304-5	7866-7870	miei	_	_	_	miei	_	_	303-4	_	_	
+304-6	7871-7876	amici	_	_	_	amici	_	_	303-5	_	_	
+304-7	7877-7880	poi	_	_	WeaklyRising	poi,	_	_	303-6	_	_	
+
+#Text=beh ero giovanissimo e
+305-1	7881-7884	beh	_	_	_	beh	_	TOI031	304-0	_	_	
+305-2	7885-7888	ero	_	_	_	ero	_	_	304-1	_	_	
+305-3	7889-7901	giovanissimo	_	_	WeaklyRising	giovanissimo,	_	_	304-2	_	_	
+305-4	7902-7903	e	_	_	_	e::	_	_	304-3	_	_	
+
+#Text=((ride)) quanti anni avevi
+306-1	7904-7912	((ride))	_	_	_	((ride))	_	TOR006	305-0	_	_	
+306-2	7913-7919	quanti	_	_	_	quanti	_	_	305-1	_	_	
+306-3	7920-7924	anni	_	_	_	anni	_	_	305-2	_	_	
+306-4	7925-7930	avevi	_	_	Rising	avevi?	_	_	305-3	_	_	
+
+#Text=eh venti
+307-1	7931-7933	eh	_	_	_	eh	_	TOI031	306-0	_	_	
+307-2	7934-7939	venti	_	_	Falling	venti.	_	_	306-1	_	_	
+
+#Text=((ride))
+308-1	7940-7948	((ride))	_	_	_	((ride))	_	TOR006	307-0	_	_	
+
+#Text=eh giovanissimo e un po' ingenuo
+309-1	7949-7951	eh	_	_	_	eh	_	TOI031	308-0	_	_	
+309-2	7952-7964	giovanissimo	_	_	_	giovanissimo	_	_	308-1	_	_	
+309-3	7965-7966	e	_	_	_	\[e	_	_	308-2	*->124-1	*[124]	
+309-4	7967-7969	un	_	_	_	un	_	_	308-3	*->124-2	*[124]	
+309-5	7970-7973	po'	_	_	_	po'	_	_	308-4	*->124-3	*[124]	
+309-6	7974-7981	ingenuo	_	_	WeaklyRising	ingenuo\],	_	_	308-5	*->124-4	*[124]	
+
+#Text=ma questa donna quanti anni aveva
+310-1	7982-7984	ma	_	_	_	\[ma	_	TOR006	309-0	*->124-5	*[124]	
+310-2	7985-7991	questa	_	_	_	questa	_	_	309-1	*->124-6	*[124]	
+310-3	7992-7997	donna	_	_	_	donna	_	_	309-2	*->124-7	*[124]	
+310-4	7998-8004	quanti	_	_	_	quanti\]	_	_	309-3	*->124-8	*[124]	
+310-5	8005-8009	anni	_	_	_	anni	_	_	309-4	_	_	
+310-6	8010-8015	aveva	_	_	Rising	aveva?	_	_	309-5	_	_	
+
+#Text=mah trentacinque
+311-1	8016-8019	mah	_	_	_	mah	_	TOI031	310-0	_	_	
+311-2	8020-8032	trentacinque	_	_	WeaklyRising	trentacinque,	_	_	310-1	_	_	
+
+#Text=era una bella donna
+312-1	8033-8036	era	_	_	_	\[era	_	TOR006	311-0	*->92-1	*[92]	
+312-2	8037-8040	una	_	_	_	una	_	_	311-1	*->92-2	*[92]	
+312-3	8041-8046	bella	_	_	_	bella\]	_	_	311-2	*->92-3	*[92]	
+312-4	8047-8052	donna	_	_	Rising	donna?	_	_	311-3	_	_	
+
+#Text=una bella donna
+313-1	8053-8056	una	_	_	_	\[una	_	TOI031	312-0	*->92-4	*[92]	
+313-2	8057-8062	bella	_	_	_	bella	_	_	312-1	*->92-5	*[92]	
+313-3	8063-8068	donna	_	_	_	donna\]	_	_	312-2	*->92-6	*[92]	
+
+#Text=bella molto bella
+314-1	8069-8074	bella	_	_	WeaklyRising	bella,	_	TOI031	313-0	_	_	
+314-2	8075-8080	molto	_	_	_	molto	_	_	313-1	_	_	
+314-3	8081-8086	bella	_	_	Falling	bella.	_	_	313-2	_	_	
+
+#Text=com' era
+315-1	8087-8091	com'	_	_	_	com'	_	TOR006	314-0	_	_	
+315-2	8092-8095	era	_	_	Rising	era?	_	_	314-1	_	_	
+
+#Text=eh alta
+316-1	8096-8098	eh	_	_	_	eh	_	TOI031	315-0	_	_	
+316-2	8099-8103	alta	_	_	WeaklyRising	alta,	_	_	315-1	_	_	
+
+#Text=abbronzatissima
+317-1	8104-8119	abbronzatissima	_	_	WeaklyRising	abbronzatissima,	_	TOI031	316-0	_	_	
+
+#Text=((ride)) cazzo stava nu~ ((ride))
+318-1	8120-8128	((ride))	_	_	_	((ride))	_	TOR006	317-0	_	_	
+318-2	8129-8134	cazzo	BC	_	_	cazzo	_	_	317-1	_	_	
+318-3	8135-8140	stava	_	_	_	stava	_	_	317-2	_	_	
+318-4	8141-8144	nu~	_	_	_	nu~	_	_	317-3	_	_	
+318-5	8145-8153	((ride))	_	_	_	((ride))	_	_	317-4	_	_	
+
+#Text=eh cazzo al mattino alle undici al so~ ((ride))
+319-1	8154-8156	eh	BC[14]	_	_	eh	_	TOI031	318-0	_	_	
+319-2	8157-8162	cazzo	BC[14]	_	_	cazzo	_	_	318-1	_	_	
+319-3	8163-8165	al	_	_	_	al	_	_	318-2	_	_	
+319-4	8166-8173	mattino	_	_	_	mattino	_	_	318-3	_	_	
+319-5	8174-8178	alle	_	_	_	\[alle	_	_	318-4	_	_	
+319-6	8179-8185	undici	_	_	_	undici	_	_	318-5	_	_	
+319-7	8186-8188	al	_	_	_	al	_	_	318-6	_	_	
+319-8	8189-8192	so~	_	_	Falling	so~.	_	_	318-7	_	_	
+319-9	8193-8201	((ride))	_	_	_	((ride))	_	_	318-8	_	_	
+
+#Text=((ride))
+320-1	8202-8210	((ride))	_	_	_	((ride))	_	TOR006	319-0	_	_	
+
+#Text=oddio ho male alla pancia è la parmigiana
+321-1	8211-8216	oddio	_	_	_	oddio	_	TOR006	320-0	_	_	
+321-2	8217-8219	ho	_	_	_	ho	_	_	320-1	_	_	
+321-3	8220-8224	male	_	_	_	male	_	_	320-2	_	_	
+321-4	8225-8229	alla	_	_	_	alla	_	_	320-3	_	_	
+321-5	8230-8236	pancia	_	_	_	pancia	_	_	320-4	_	_	
+321-6	8237-8238	è	_	_	_	è	_	_	320-5	_	_	
+321-7	8239-8241	la	_	_	_	la	_	_	320-6	_	_	
+321-8	8242-8252	parmigiana	_	_	_	parmig:iana	_	_	320-7	_	_	
+
+#Text=e quindi niente ero un po' giovane ingenuo quindi niente mi sono fatto prendere
+322-1	8253-8254	e	_	_	_	e	_	TOI031	321-0	_	_	
+322-2	8255-8261	quindi	_	_	_	quindi	_	_	321-1	_	_	
+322-3	8262-8268	niente	_	_	Falling	niente.	_	_	321-2	_	_	
+322-4	8269-8272	ero	_	_	_	ero	_	_	321-3	_	_	
+322-5	8273-8275	un	_	_	_	un	_	_	321-4	_	_	
+322-6	8276-8279	po'	_	_	_	po'	_	_	321-5	_	_	
+322-7	8280-8287	giovane	_	_	WeaklyRising	giovane,	_	_	321-6	_	_	
+322-8	8288-8295	ingenuo	_	_	WeaklyRising	ingenuo,	_	_	321-7	_	_	
+322-9	8296-8302	quindi	_	_	WeaklyRising	quindi,	_	_	321-8	_	_	
+322-10	8303-8309	niente	_	_	_	niente	_	_	321-9	_	_	
+322-11	8310-8312	mi	_	_	_	mi	_	_	321-10	_	_	
+322-12	8313-8317	sono	_	_	_	sono	_	_	321-11	_	_	
+322-13	8318-8323	fatto	_	_	_	fatto	_	_	321-12	_	_	
+322-14	8324-8332	prendere	_	_	WeaklyRising	prendere:,	_	_	321-13	_	_	
+
+#Text=quindi x tutti i miei amici poi mi han detto ma come ma dovevi entrare scavalcare il cancello seh
+323-1	8333-8339	quindi	_	_	_	quindi	_	TOI031	322-0	_	_	
+323-2	8340-8341	x	_	_	_	xxx	_	_	322-1	_	_	
+323-3	8342-8347	tutti	_	_	_	tutti	_	_	322-2	_	_	
+323-4	8348-8349	i	_	_	_	i	_	_	322-3	_	_	
+323-5	8350-8354	miei	_	_	_	miei	_	_	322-4	_	_	
+323-6	8355-8360	amici	_	_	_	amici	_	_	322-5	_	_	
+323-7	8361-8364	poi	_	_	_	poi	_	_	322-6	_	_	
+323-8	8365-8367	mi	_	_	_	mi	_	_	322-7	_	_	
+323-9	8368-8371	han	_	_	_	han	_	_	322-8	_	_	
+323-10	8372-8377	detto	_	_	WeaklyRising	detto,	_	_	322-9	_	_	
+323-11	8378-8380	ma	_	_	_	ma	_	_	322-10	_	_	
+323-12	8381-8385	come	_	_	WeaklyRising	come,	_	_	322-11	_	_	
+323-13	8386-8388	ma	_	_	_	ma	_	_	322-12	_	_	
+323-14	8389-8395	dovevi	_	_	_	dovevi	_	_	322-13	_	_	
+323-15	8396-8403	entrare	_	_	WeaklyRising	entrare,	_	_	322-14	_	_	
+323-16	8404-8414	scavalcare	_	_	_	scavalcare	_	_	322-15	_	_	
+323-17	8415-8417	il	_	_	_	il	_	_	322-16	_	_	
+323-18	8418-8426	cancello	_	_	_	cancello	_	_	322-17	_	_	
+323-19	8427-8430	seh	_	_	_	se:::h	_	_	322-18	_	_	
+
+#Text=((ride))
+324-1	8431-8439	((ride))	_	_	_	((ride))	_	TOR006	323-0	_	_	
+
+#Text=ma infatti
+325-1	8440-8442	ma	_	_	_	\[ma	_	TOR006	324-0	*->109-1	*[109]	
+325-2	8443-8450	infatti	_	_	WeaklyRising	infatti\],	_	_	324-1	*->109-2	*[109]	
+
+#Text=mi arrestava ((ride))
+326-1	8451-8453	mi	_	_	_	\[mi	_	TOI031	325-0	*->109-3	*[109]	
+326-2	8454-8463	arrestava	_	_	_	arrestava\]	_	_	325-1	*->109-4	*[109]	
+326-3	8464-8472	((ride))	_	_	_	((ride))	_	_	325-2	_	_	
+
+#Text=((ride))
+327-1	8473-8481	((ride))	_	_	_	((ride))	_	TOR006	326-0	_	_	
+
+#Text=ma questa non ce l' aveva tipo un marito
+328-1	8482-8484	ma	_	_	_	ma	_	TOR006	327-0	_	_	
+328-2	8485-8491	questa	_	_	_	questa	_	_	327-1	_	_	
+328-3	8492-8495	non	_	_	_	non	_	_	327-2	_	_	
+328-4	8496-8498	ce	_	_	_	ce	_	_	327-3	_	_	
+328-5	8499-8501	l'	_	_	_	l'	_	_	327-4	_	_	
+328-6	8502-8507	aveva	_	_	_	aveva	_	_	327-5	_	_	
+328-7	8508-8512	tipo	_	_	_	tipo	_	_	327-6	_	_	
+328-8	8513-8515	un	_	_	_	un	_	_	327-7	_	_	
+328-9	8516-8522	marito	_	_	Rising	marito?	_	_	327-8	_	_	
+
+#Text=eh no
+329-1	8523-8525	eh	_	_	_	eh	_	TOI031	328-0	_	_	
+329-2	8526-8528	no	_	_	WeaklyRising	no,	_	_	328-1	_	_	
+
+#Text=è arrivata lei
+330-1	8529-8530	è	_	_	_	è	_	TOI031	329-0	_	_	
+330-2	8531-8539	arrivata	_	_	_	arrivata	_	_	329-1	_	_	
+330-3	8540-8543	lei	_	_	_	lei	_	_	329-2	_	_	
+
+#Text=ma porca miseria e allora perché non sei entrato pure tu scemo
+331-1	8544-8546	ma	_	_	_	ma	_	TOR006	330-0	_	_	
+331-2	8547-8552	porca	_	_	_	porca	_	_	330-1	_	_	
+331-3	8553-8560	miseria	_	_	WeaklyRising	miseria,	_	_	330-2	_	_	
+331-4	8561-8562	e	_	_	_	e	_	_	330-3	_	_	
+331-5	8563-8569	allora	_	_	_	allora	_	_	330-4	_	_	
+331-6	8570-8576	perché	_	_	_	perché	_	_	330-5	_	_	
+331-7	8577-8580	non	_	_	_	non	_	_	330-6	_	_	
+331-8	8581-8584	sei	_	_	_	sei	_	_	330-7	_	_	
+331-9	8585-8592	entrato	_	_	_	entrato	_	_	330-8	_	_	
+331-10	8593-8597	pure	_	_	_	pure	_	_	330-9	_	_	
+331-11	8598-8600	tu	_	_	_	tu	_	_	330-10	_	_	
+331-12	8601-8606	scemo	_	_	_	\[scemo\]	_	_	330-11	*->48-1	*[48]	
+
+#Text=ma tutti me l' han detto però ehm
+332-1	8607-8609	ma	_	_	_	\[ma	_	TOI031	331-0	*->48-2	*[48]	
+332-2	8610-8615	tutti	_	_	_	tutti\]	_	_	331-1	*->48-3	*[48]	
+332-3	8616-8618	me	_	_	_	me	_	_	331-2	_	_	
+332-4	8619-8621	l'	_	_	_	l'	_	_	331-3	_	_	
+332-5	8622-8625	han	_	_	_	han	_	_	331-4	_	_	
+332-6	8626-8631	detto	_	_	_	detto	_	_	331-5	_	_	
+332-7	8632-8636	però	_	_	_	però	_	_	331-6	_	_	
+332-8	8637-8640	ehm	_	FP	_	e::hm	_	_	331-7	_	_	
+
+#Text=secondo me c' è c' è una certa
+333-1	8641-8648	secondo	_	_	_	secondo	_	TOI031	332-0	_	_	
+333-2	8649-8651	me	_	_	_	me	_	_	332-1	_	_	
+333-3	8652-8654	c'	_	_	_	c'	_	_	332-2	_	_	
+333-4	8655-8656	è	_	_	WeaklyRising	è,	_	_	332-3	_	_	
+333-5	8657-8659	c'	_	_	_	c'	_	_	332-4	_	_	
+333-6	8660-8661	è	_	_	_	è	_	_	332-5	_	_	
+333-7	8662-8665	una	_	_	_	una	_	_	332-6	_	_	
+333-8	8666-8671	certa	_	_	WeaklyRising	certa,	_	_	332-7	_	_	
+
+#Text=come si dice
+334-1	8672-8676	come	_	_	_	come	_	TOI031	333-0	_	_	
+334-2	8677-8679	si	_	_	_	si	_	_	333-1	_	_	
+334-3	8680-8684	dice	_	_	Rising	dice?	_	_	333-2	_	_	
+
+#Text=((ride)) professionalità
+335-1	8685-8693	((ride))	_	_	_	((ride))	_	TOR006	334-0	_	_	
+335-2	8694-8709	professionalità	_	_	Falling	professionalità.	_	_	334-1	_	_	
+
+#Text=no apparte quella
+336-1	8710-8712	no	_	_	_	no	_	TOI031	335-0	_	_	
+336-2	8713-8720	apparte	_	_	_	apparte	_	_	335-1	_	_	
+336-3	8721-8727	quella	_	_	WeaklyRising	quella,	_	_	335-2	_	_	
+
+#Text=la distinzione dai film alla realtà
+337-1	8728-8730	la	_	_	_	la	_	TOI031	336-0	_	_	
+337-2	8731-8742	distinzione	_	_	_	distinzione	_	_	336-1	_	_	
+337-3	8743-8746	dai	_	_	_	dai	_	_	336-2	_	_	
+337-4	8747-8751	film	_	_	_	film	_	_	336-3	_	_	
+337-5	8752-8756	alla	_	_	_	alla	_	_	336-4	_	_	
+337-6	8757-8763	realtà	_	_	WeaklyRising	realtà,	_	_	336-5	_	_	
+
+#Text=la realtà quindi cioè come facevo
+338-1	8764-8766	la	_	_	_	la	_	TOI031	337-0	_	_	
+338-2	8767-8773	realtà	_	_	WeaklyRising	realtà,	_	_	337-1	_	_	
+338-3	8774-8780	quindi	_	_	_	quindi	_	_	337-2	_	_	
+338-4	8781-8785	cioè	_	_	_	c(io)è	_	_	337-3	_	_	
+338-5	8786-8790	come	_	_	_	come	_	_	337-4	_	_	
+338-6	8791-8797	facevo	_	_	Rising	facevo?	_	_	337-5	_	_	
+
+#Text=((ride))
+339-1	8798-8806	((ride))	_	_	_	((ride))	_	TOR006	338-0	_	_	
+
+#Text=cioè i miei amici ma potevi entrare con una scusa
+340-1	8807-8811	cioè	_	_	_	c(io)è	_	TOI031	339-0	_	_	
+340-2	8812-8813	i	_	_	_	i	_	_	339-1	_	_	
+340-3	8814-8818	miei	_	_	_	miei	_	_	339-2	_	_	
+340-4	8819-8824	amici	_	_	_	amici	_	_	339-3	_	_	
+340-5	8825-8827	ma	_	_	_	ma	_	_	339-4	_	_	
+340-6	8828-8834	potevi	_	_	_	potevi	_	_	339-5	_	_	
+340-7	8835-8842	entrare	_	_	_	entrare	_	_	339-6	_	_	
+340-8	8843-8846	con	_	_	_	con	_	_	339-7	_	_	
+340-9	8847-8850	una	_	_	_	una	_	_	339-8	_	_	
+340-10	8851-8856	scusa	_	_	WeaklyRising	scusa,	_	_	339-9	_	_	
+
+#Text=sì ma eh quelle scene da film che
+341-1	8857-8859	sì	_	_	_	sì	_	TOI031	340-0	_	_	
+341-2	8860-8862	ma	_	_	_	ma	_	_	340-1	_	_	
+341-3	8863-8865	eh	_	FP	_	eh	_	_	340-2	_	_	
+341-4	8866-8872	quelle	_	_	_	quelle	_	_	340-3	_	_	
+341-5	8873-8878	scene	_	_	_	scene	_	_	340-4	_	_	
+341-6	8879-8881	da	_	_	_	da	_	_	340-5	_	_	
+341-7	8882-8886	film	_	_	_	film	_	_	340-6	_	_	
+341-8	8887-8890	che	_	_	WeaklyRising	che,	_	_	340-7	_	_	
+
+#Text=non esistono cioè
+342-1	8891-8894	non	_	_	_	non	_	TOI031	341-0	_	_	
+342-2	8895-8903	esistono	_	_	_	esistono	_	_	341-1	_	_	
+342-3	8904-8908	cioè	_	_	_	c(io)è	_	_	341-2	_	_	
+
+#Text=ma già cioè
+343-1	8909-8911	ma	_	_	_	ma	_	TOR006	342-0	_	_	
+343-2	8912-8915	già	_	_	WeaklyRising	già,	_	_	342-1	_	_	
+343-3	8916-8920	cioè	_	_	WeaklyRising	c(io)è,	_	_	342-2	_	_	
+
+#Text=io [PAUSE] nuda ((ride))
+344-1	8921-8923	io	_	_	WeaklyRising	io,	_	TOR006	343-0	_	_	
+344-2	8924-8931	[PAUSE]	_	_	_	(.)	_	_	343-1	_	_	
+344-3	8932-8936	nuda	_	_	_	nuda	_	_	343-2	_	_	
+344-4	8937-8945	((ride))	_	_	_	((ride))	_	_	343-3	_	_	
+
+#Text=è chiaro se mi avesse chiesto
+345-1	8946-8947	è	_	_	_	è	_	TOI031	344-0	_	_	
+345-2	8948-8954	chiaro	_	_	_	chiaro	_	_	344-1	_	_	
+345-3	8955-8957	se	_	_	_	se	_	_	344-2	_	_	
+345-4	8958-8960	mi	_	_	_	mi	_	_	344-3	_	_	
+345-5	8961-8967	avesse	_	_	_	avesse	_	_	344-4	_	_	
+345-6	8968-8975	chiesto	_	_	WeaklyRising	chiesto,	_	_	344-5	_	_	
+
+#Text=vuole entrare
+346-1	8976-8981	vuole	_	_	_	vuole	_	TOI031	345-0	_	_	
+346-2	8982-8989	entrare	_	_	Rising	entrare?	_	_	345-1	_	_	
+
+#Text=allora è chiaro che [PAUSE] tutto si [PAUSE] rendeva più facile ma
+347-1	8990-8996	allora	_	_	WeaklyRising	allora,	_	TOI031	346-0	_	_	
+347-2	8997-8998	è	_	_	_	è::	_	_	346-1	_	_	
+347-3	8999-9005	chiaro	_	_	_	chiaro	_	_	346-2	_	_	
+347-4	9006-9009	che	_	_	WeaklyRising	che,	_	_	346-3	_	_	
+347-5	9010-9017	[PAUSE]	_	_	_	(.)	_	_	346-4	_	_	
+347-6	9018-9023	tutto	_	_	_	tutto	_	_	346-5	_	_	
+347-7	9024-9026	si	_	_	WeaklyRising	si,	_	_	346-6	_	_	
+347-8	9027-9034	[PAUSE]	_	_	_	(.)	_	_	346-7	_	_	
+347-9	9035-9042	rendeva	_	_	_	rendeva	_	_	346-8	_	_	
+347-10	9043-9046	più	_	_	_	più	_	_	346-9	_	_	
+347-11	9047-9053	facile	_	_	_	facile	_	_	346-10	_	_	
+347-12	9054-9056	ma	_	_	WeaklyRising	ma,	_	_	346-11	_	_	
+
+#Text=((ride))
+348-1	9057-9065	((ride))	_	_	_	((ride))	_	TOR006	347-0	_	_	
+
+#Text=dietro le sbarre
+349-1	9066-9072	dietro	_	_	_	dietro	_	TOI031	348-0	_	_	
+349-2	9073-9075	le	_	_	_	le	_	_	348-1	_	_	
+349-3	9076-9082	sbarre	_	_	WeaklyRising	sbarre::,	_	_	348-2	_	_	
+
+#Text=era solo una
+350-1	9083-9086	era	_	_	_	era	_	TOI031	349-0	_	_	
+350-2	9087-9091	solo	_	_	_	solo	_	_	349-1	_	_	
+350-3	9092-9095	una	_	_	WeaklyRising	una::,	_	_	349-2	_	_	
+
+#Text=una
+351-1	9096-9099	una	_	_	_	una::	_	TOI031	350-0	_	_	
+
+#Text=una tentazione infernale come dante
+352-1	9100-9103	una	_	_	_	una	_	TOI031	351-0	_	_	
+352-2	9104-9114	tentazione	_	_	_	tentazione	_	_	351-1	_	_	
+352-3	9115-9124	infernale	_	_	WeaklyRising	infernale,	_	_	351-2	_	_	
+352-4	9125-9129	come	_	_	_	come	_	_	351-3	_	_	
+352-5	9130-9135	dante	_	_	Falling	dante.	_	_	351-4	_	_	
+
+#Text=((ride)) ho capito
+353-1	9136-9144	((ride))	_	_	_	((ride))	_	TOR006	352-0	_	_	
+353-2	9145-9147	ho	BC[15]	_	_	ho	_	_	352-1	_	_	
+353-3	9148-9154	capito	BC[15]	_	WeaklyRising	capito,	_	_	352-2	_	_	
+
+#Text=però posso dirti una cosa
+354-1	9155-9159	però	_	_	WeaklyRising	però,	_	TOR006	353-0	_	_	
+354-2	9160-9165	posso	_	_	_	posso	_	_	353-1	_	_	
+354-3	9166-9171	dirti	_	_	_	dirti	_	_	353-2	_	_	
+354-4	9172-9175	una	_	_	_	una	_	_	353-3	_	_	
+354-5	9176-9180	cosa	_	_	Rising	cosa?	_	_	353-4	_	_	
+
+#Text=sì
+355-1	9181-9183	sì	_	_	Falling	sì.	_	TOI031	354-0	_	_	
+
+#Text=sarò un po' volgare però
+356-1	9184-9188	sarò	_	_	_	sarò	_	TOR006	355-0	_	_	
+356-2	9189-9191	un	_	_	_	un	_	_	355-1	_	_	
+356-3	9192-9195	po'	_	_	_	po'	_	_	355-2	_	_	
+356-4	9196-9203	volgare	_	_	WeaklyRising	volgare,	_	_	355-3	_	_	
+356-5	9204-9208	però	_	_	WeaklyRising	però,	_	_	355-4	_	_	
+
+#Text=se questa già magari è una che prende il nu~
+357-1	9209-9211	se	_	_	_	se	_	TOR006	356-0	_	_	
+357-2	9212-9218	questa	_	_	_	questa	_	_	356-1	_	_	
+357-3	9219-9222	già	_	_	_	già	_	_	356-2	_	_	
+357-4	9223-9229	magari	_	_	_	magari	_	_	356-3	_	_	
+357-5	9230-9231	è	_	_	_	è	_	_	356-4	_	_	
+357-6	9232-9235	una	_	_	_	una	_	_	356-5	_	_	
+357-7	9236-9239	che	_	_	_	che	SR[23]	_	356-6	_	_	
+357-8	9240-9246	prende	_	_	_	prende	SR[23]	_	356-7	_	_	
+357-9	9247-9249	il	_	_	_	il	SR[23]	_	356-8	_	_	
+357-10	9250-9253	nu~	_	_	WeaklyRising	nu~,	SR[23]	_	356-9	_	_	
+
+#Text=c' è il sole nuda magari è una un po'
+358-1	9254-9256	c'	_	_	_	c'	SR[23]	TOR006	357-0	_	_	
+358-2	9257-9258	è	_	_	_	è	SR[23]	_	357-1	_	_	
+358-3	9259-9261	il	_	_	_	il	SR[23]	_	357-2	_	_	
+358-4	9262-9266	sole	_	_	_	sole	SR[23]	_	357-3	_	_	
+358-5	9267-9271	nuda	_	_	WeaklyRising	nuda,	SR[23]	_	357-4	_	_	
+358-6	9272-9278	magari	_	_	_	magari	_	_	357-5	_	_	
+358-7	9279-9280	è	_	_	_	è	_	_	357-6	_	_	
+358-8	9281-9284	una	_	_	_	una	_	_	357-7	_	_	
+358-9	9285-9287	un	_	_	_	un	_	_	357-8	_	_	
+358-10	9288-9291	po'	_	_	WeaklyRising	po',	_	_	357-9	_	_	
+
+#Text=che ci sta no
+359-1	9292-9295	che	_	_	_	che	_	TOR006	358-0	_	_	
+359-2	9296-9298	ci	_	_	_	ci	_	_	358-1	_	_	
+359-3	9299-9302	sta	_	_	_	sta	_	_	358-2	_	_	
+359-4	9303-9305	no	_	_	Rising	no?	_	_	358-3	_	_	
+
+#Text=perché qui x stai prendendo un luogo comune
+360-1	9306-9312	perché	_	_	_	perché	_	TOI031	359-0	_	_	
+360-2	9313-9316	qui	_	_	_	qui	_	_	359-1	_	_	
+360-3	9317-9318	x	_	_	_	xxx	_	_	359-2	_	_	
+360-4	9319-9323	stai	_	_	_	stai	_	_	359-3	_	_	
+360-5	9324-9333	prendendo	_	_	_	prendendo	_	_	359-4	_	_	
+360-6	9334-9336	un	_	_	_	un	_	_	359-5	_	_	
+360-7	9337-9342	luogo	_	_	_	luogo	_	_	359-6	_	_	
+360-8	9343-9349	comune	_	_	Falling	comune.	_	_	359-7	_	_	
+
+#Text=sì io vivo di luoghi comuni
+361-1	9350-9352	sì	BC	_	WeaklyRising	sì::,	_	TOR006	360-0	_	_	
+361-2	9353-9355	io	_	_	_	io	_	_	360-1	_	_	
+361-3	9356-9360	vivo	_	_	_	vivo	_	_	360-2	_	_	
+361-4	9361-9363	di	_	_	_	di	_	_	360-3	_	_	
+361-5	9364-9370	luoghi	_	_	_	luoghi	_	_	360-4	_	_	
+361-6	9371-9377	comuni	_	_	Falling	comuni.	_	_	360-5	_	_	
+
+#Text=però
+362-1	9378-9382	però	_	_	WeaklyRising	però,	_	TOR006	361-0	_	_	
+
+#Text=se tu vai lì e dici vuole un serramento lei magari l' ha interpretato un po'
+363-1	9383-9385	se	_	_	_	se	_	TOR006	362-0	_	_	
+363-2	9386-9388	tu	_	_	_	tu	_	_	362-1	_	_	
+363-3	9389-9392	vai	_	_	_	vai	_	_	362-2	_	_	
+363-4	9393-9395	lì	_	_	_	lì	_	_	362-3	_	_	
+363-5	9396-9397	e	_	_	_	e	_	_	362-4	_	_	
+363-6	9398-9402	dici	_	_	WeaklyRising	dici,	_	_	362-5	_	_	
+363-7	9403-9408	vuole	_	_	_	vuole	_	_	362-6	_	_	
+363-8	9409-9411	un	_	_	_	un	_	_	362-7	_	_	
+363-9	9412-9422	serramento	_	_	WeaklyRising	serramento,	_	_	362-8	_	_	
+363-10	9423-9426	lei	_	_	_	lei	_	_	362-9	_	_	
+363-11	9427-9433	magari	_	_	_	magari	_	_	362-10	_	_	
+363-12	9434-9436	l'	_	_	_	l'	_	_	362-11	_	_	
+363-13	9437-9439	ha	_	_	_	ha	_	_	362-12	_	_	
+363-14	9440-9452	interpretato	_	_	_	interpretato	_	_	362-13	_	_	
+363-15	9453-9455	un	_	_	_	un	_	_	362-14	_	_	
+363-16	9456-9459	po'	_	_	WeaklyRising	po'\[::\],	_	_	362-15	_	_	
+363-16.1	9458-9459	'	_	_	_	_	_	_	_	*->30-1	*[30]	
+
+#Text=sì non gliel' ho detto in modo così
+364-1	9460-9462	sì	BC	_	_	\[sì\]	_	TOI031	363-0	*->30-2	*[30]	
+364-1.1	9460-9461	s	_	_	_	_	_	_	_	*->30-1	*[30]	
+364-2	9463-9466	non	_	_	_	non	_	_	363-1	_	_	
+364-3	9467-9473	gliel'	_	_	_	gliel'	_	_	363-2	_	_	
+364-4	9474-9476	ho	_	_	_	ho	_	_	363-3	_	_	
+364-5	9477-9482	detto	_	_	_	detto	_	_	363-4	_	_	
+364-6	9483-9485	in	_	_	_	in	_	_	363-5	_	_	
+364-7	9486-9490	modo	_	_	_	modo	_	_	363-6	_	_	
+364-8	9491-9495	così	_	_	WeaklyRising	così,	_	_	363-7	_	_	
+
+#Text=non l' hai detto in modo un po'
+365-1	9496-9499	non	_	_	_	non	_	TOR006	364-0	_	_	
+365-2	9500-9502	l'	_	_	_	l'	_	_	364-1	_	_	
+365-3	9503-9506	hai	_	_	_	hai	_	_	364-2	_	_	
+365-4	9507-9512	detto	_	_	_	detto	_	_	364-3	_	_	
+365-5	9513-9515	in	_	_	_	in	_	_	364-4	_	_	
+365-6	9516-9520	modo	_	_	_	modo	_	_	364-5	_	_	
+365-7	9521-9523	un	_	_	_	\[un	_	_	364-6	*->38-1	*[38]	
+365-8	9524-9527	po'	_	_	WeaklyRising	po'::\],	_	_	364-7	*->38-2	*[38]	
+
+#Text=no ambiguo no
+366-1	9528-9530	no	_	_	_	\[no	_	TOI031	365-0	*->38-3	*[38]	
+366-2	9531-9538	ambiguo	_	_	_	amb\]iguo	_	_	365-1	_	_	
+366-2.1	9531-9534	amb	_	_	_	_	_	_	_	*->38-4	*[38]	
+366-3	9539-9541	no	_	_	Falling	no.	_	_	365-2	_	_	
+
+#Text=non son stato ambiguo son stato professionale
+367-1	9542-9545	non	_	_	_	non	_	TOI031	366-0	_	_	
+367-2	9546-9549	son	_	_	_	\[son	_	_	366-1	*->11-1	*[11]	
+367-3	9550-9555	stato	_	_	_	stato	_	_	366-2	*->11-2	*[11]	
+367-4	9556-9563	ambiguo	_	_	WeaklyRising	ambiguo,	_	_	366-3	*->11-3	*[11]	
+367-5	9564-9567	son	_	_	_	son	_	_	366-4	*->11-4	*[11]	
+367-6	9568-9573	stato	_	_	_	stato\]	_	_	366-5	*->11-5	*[11]	
+367-7	9574-9587	professionale	_	_	Falling	professionale.	_	_	366-6	_	_	
+
+#Text=sei stato professionale
+368-1	9588-9591	sei	BC[16]	_	_	\[sei	_	TOR006	367-0	*->11-6	*[11]	
+368-2	9592-9597	stato	BC[16]	_	_	stato	_	_	367-1	*->11-7	*[11]	
+368-3	9598-9611	professionale	BC[16]	_	_	professionale\]	_	_	367-2	*->11-8	*[11]	
+
+#Text=allora è per quello che ti ha detto di no
+369-1	9612-9618	allora	_	_	_	allora	_	TOR006	368-0	_	_	
+369-2	9619-9620	è	_	_	_	è	_	_	368-1	_	_	
+369-3	9621-9624	per	_	_	_	per	_	_	368-2	_	_	
+369-4	9625-9631	quello	_	_	_	quello	_	_	368-3	_	_	
+369-5	9632-9635	che	_	_	_	che	_	_	368-4	_	_	
+369-6	9636-9638	ti	_	_	_	ti	_	_	368-5	_	_	
+369-7	9639-9641	ha	_	_	_	ha	_	_	368-6	_	_	
+369-8	9642-9647	detto	_	_	_	detto	_	_	368-7	_	_	
+369-9	9648-9650	di	_	_	_	di	_	_	368-8	_	_	
+369-10	9651-9653	no	_	_	_	no	_	_	368-9	_	_	
+
+#Text=se tu l' avessi detto in modo
+370-1	9654-9656	se	_	_	_	se	_	TOR006	369-0	_	_	
+370-2	9657-9659	tu	_	_	_	tu	_	_	369-1	_	_	
+370-3	9660-9662	l'	_	_	_	l'	_	_	369-2	_	_	
+370-4	9663-9669	avessi	_	_	_	avessi	_	_	369-3	_	_	
+370-5	9670-9675	detto	_	_	_	detto	_	_	369-4	_	_	
+370-6	9676-9678	in	_	_	_	in	_	_	369-5	_	_	
+370-7	9679-9683	modo	_	_	WeaklyRising	modo,	_	_	369-6	_	_	
+
+#Text=in modo ambiguo
+371-1	9684-9686	in	_	_	_	in	_	TOR006	370-0	_	_	
+371-2	9687-9691	modo	_	_	WeaklyRising	modo::::,	_	_	370-1	_	_	
+371-3	9692-9699	ambiguo	_	_	WeaklyRising	ambiguo,	_	_	370-2	_	_	
+
+#Text=magari
+372-1	9700-9706	magari	_	_	WeaklyRising	magari,	_	TOR006	371-0	_	_	
+
+#Text=a quest' ora
+373-1	9707-9708	a	_	_	_	a	_	TOR006	372-0	_	_	
+373-2	9709-9715	quest'	_	_	_	quest'	_	_	372-1	_	_	
+373-3	9716-9719	ora	_	_	WeaklyRising	ora,	_	_	372-2	_	_	
+
+#Text=eh hai anche ragione però
+374-1	9720-9722	eh	BC	_	_	eh	_	TOI031	373-0	_	_	
+374-2	9723-9726	hai	_	_	_	hai	_	_	373-1	_	_	
+374-3	9727-9732	anche	_	_	_	anche	_	_	373-2	_	_	
+374-4	9733-9740	ragione	_	_	_	ragione	_	_	373-3	_	_	
+374-5	9741-9745	però	_	_	WeaklyRising	però:,	_	_	373-4	_	_	
+
+#Text=sai nella vita
+375-1	9746-9749	sai	_	_	_	sai	_	TOI031	374-0	_	_	
+375-2	9750-9755	nella	_	_	_	nella	_	_	374-1	_	_	
+375-3	9756-9760	vita	_	_	WeaklyRising	vita,	_	_	374-2	_	_	
+
+#Text=quando si è giovani
+376-1	9761-9767	quando	_	_	_	quando	_	TOI031	375-0	_	_	
+376-2	9768-9770	si	_	_	_	si	_	_	375-1	_	_	
+376-3	9771-9772	è	_	_	_	è	_	_	375-2	_	_	
+376-4	9773-9780	giovani	_	_	WeaklyRising	giovani,	_	_	375-3	_	_	
+
+#Text=vabbè
+377-1	9781-9786	vabbè	_	_	_	vabbè	_	TOR006	376-0	_	_	
+
+#Text=quindi
+378-1	9787-9793	quindi	_	_	WeaklyRising	quindi,	_	TOR006	377-0	_	_	
+
+#Text=hai venduto finestre
+379-1	9794-9797	hai	_	_	_	hai	_	TOR006	378-0	_	_	
+379-2	9798-9805	venduto	_	_	_	venduto	_	_	378-1	_	_	
+379-3	9806-9814	finestre	_	_	WeaklyRising	finestre,	_	_	378-2	_	_	
+
+#Text=sì poi
+380-1	9815-9817	sì	BC	_	Falling	sì.	_	TOI031	379-0	_	_	
+380-2	9818-9821	poi	_	_	WeaklyRising	\[poi\],	_	_	379-1	*->143-1	*[143]	
+
+#Text=poi cos' è successo
+381-1	9822-9825	poi	_	_	_	\[poi	_	TOR006	380-0	*->143-2	*[143]	
+381-2	9826-9830	cos'	_	_	_	cos'	_	_	380-1	*->143-3	*[143]	
+381-3	9831-9832	è	_	_	_	è	_	_	380-2	*->143-4	*[143]	
+381-4	9833-9841	successo	_	_	Rising	su\]ccesso?	_	_	380-3	_	_	
+381-4.1	9833-9835	su	_	_	_	_	_	_	_	*->143-5	*[143]	
+
+#Text=poi
+382-1	9842-9845	poi	_	_	WeaklyRising	poi,	_	TOI031	381-0	_	_	
+
+#Text=mi sono stufato perch' era un lavoro statico
+383-1	9846-9848	mi	_	_	_	mi	_	TOI031	382-0	_	_	
+383-2	9849-9853	sono	_	_	_	sono	_	_	382-1	_	_	
+383-3	9854-9861	stufato	_	_	WeaklyRising	stufato,	_	_	382-2	_	_	
+383-4	9862-9868	perch'	_	_	_	perch'	_	_	382-3	_	_	
+383-5	9869-9872	era	_	_	_	era	_	_	382-4	_	_	
+383-6	9873-9875	un	_	_	_	un	_	_	382-5	_	_	
+383-7	9876-9882	lavoro	_	_	_	lavoro	_	_	382-6	_	_	
+383-8	9883-9890	statico	_	_	WeaklyRising	statico,	_	_	382-7	_	_	
+
+#Text=monotono
+384-1	9891-9899	monotono	_	_	WeaklyRising	monotono,	_	TOI031	383-0	_	_	
+
+#Text=noioso
+385-1	9900-9906	noioso	_	_	WeaklyRising	noioso,	_	TOI031	384-0	_	_	
+
+#Text=poco
+386-1	9907-9911	poco	_	_	WeaklyRising	poco::,	_	TOI031	385-0	_	_	
+
+#Text=felice
+387-1	9912-9918	felice	_	_	WeaklyRising	felice,	_	TOI031	386-0	_	_	
+
+#Text=perché nel boom della crisi edilizia tra l' altro
+388-1	9919-9925	perché	_	_	_	perché	_	TOI031	387-0	_	_	
+388-2	9926-9929	nel	_	_	_	nel	_	_	387-1	_	_	
+388-3	9930-9934	boom	_	_	_	boom	_	_	387-2	_	_	
+388-4	9935-9940	della	_	_	_	della	_	_	387-3	_	_	
+388-5	9941-9946	crisi	_	_	_	crisi	_	_	387-4	_	_	
+388-6	9947-9955	edilizia	_	_	_	edilizia	_	_	387-5	_	_	
+388-7	9956-9959	tra	_	_	_	tra	_	_	387-6	_	_	
+388-8	9960-9962	l'	_	_	_	l'	_	_	387-7	_	_	
+388-9	9963-9968	altro	_	_	WeaklyRising	altro,	_	_	387-8	_	_	
+
+#Text=eh quindi ehm
+389-1	9969-9971	eh	_	FP	_	e:h	_	TOI031	388-0	_	_	
+389-2	9972-9978	quindi	_	_	WeaklyRising	quindi,	_	_	388-1	_	_	
+389-3	9979-9982	ehm	_	FP	_	ehm	_	_	388-2	_	_	
+
+#Text=fare il giardiniere lo trovo un lavoro molto più divertente molto più [PAUSE] dinamico
+390-1	9983-9987	fare	_	_	_	fare	_	TOI031	389-0	_	_	
+390-2	9988-9990	il	_	_	_	il	_	_	389-1	_	_	
+390-3	9991-10002	giardiniere	_	_	_	giardiniere	_	_	389-2	_	_	
+390-4	10003-10005	lo	_	_	_	lo	_	_	389-3	_	_	
+390-5	10006-10011	trovo	_	_	_	trovo	_	_	389-4	_	_	
+390-6	10012-10014	un	_	_	_	un	_	_	389-5	_	_	
+390-7	10015-10021	lavoro	_	_	_	lavoro	_	_	389-6	_	_	
+390-8	10022-10027	molto	_	_	_	molto	_	_	389-7	_	_	
+390-9	10028-10031	più	_	_	_	più	_	_	389-8	_	_	
+390-10	10032-10042	divertente	_	_	WeaklyRising	divertente,	_	_	389-9	_	_	
+390-11	10043-10048	molto	_	_	_	molto	_	_	389-10	_	_	
+390-12	10049-10052	più	_	_	WeaklyRising	più,	_	_	389-11	_	_	
+390-13	10053-10060	[PAUSE]	_	_	_	(.)	_	_	389-12	_	_	
+390-14	10061-10069	dinamico	_	_	WeaklyRising	dinamico,	_	_	389-13	_	_	
+
+#Text=e
+391-1	10070-10071	e	_	_	_	e::	_	TOI031	390-0	_	_	
+
+#Text=e molto più
+392-1	10072-10073	e	_	_	_	e	_	TOI031	391-0	_	_	
+392-2	10074-10079	molto	_	_	_	molto	_	_	391-1	_	_	
+392-3	10080-10083	più	_	_	WeaklyRising	più,	_	_	391-2	_	_	
+
+#Text=che ne so
+393-1	10084-10087	che	_	_	_	che	_	TOI031	392-0	_	_	
+393-2	10088-10090	ne	_	_	_	ne	_	_	392-1	_	_	
+393-3	10091-10093	so	_	_	WeaklyRising	so,	_	_	392-2	_	_	
+
+#Text=okay
+394-1	10094-10098	okay	BC	_	_	okay	_	TOR006	393-0	_	_	
+
+#Text=gratificante no
+395-1	10099-10111	gratificante	_	_	WeaklyRising	gratificante,	_	TOI031	394-0	_	_	
+395-2	10112-10114	no	_	_	WeaklyRising	no,	_	_	394-1	_	_	
+
+#Text=ti piace
+396-1	10115-10117	ti	_	_	_	ti	_	TOR006	395-0	_	_	
+396-2	10118-10123	piace	_	_	WeaklyRising	piace,	_	_	395-1	_	_	
+
+#Text=e quindi
+397-1	10124-10125	e	_	_	_	e	_	TOI031	396-0	_	_	
+397-2	10126-10132	quindi	_	_	WeaklyRising	quindi,	_	_	396-1	_	_	
+
+#Text=quindi niente a quella famosa proposta
+398-1	10133-10139	quindi	_	_	_	quindi	_	TOI031	397-0	_	_	
+398-2	10140-10146	niente	_	_	WeaklyRising	niente,	_	_	397-1	_	_	
+398-3	10147-10148	a	_	_	_	a	_	_	397-2	_	_	
+398-4	10149-10155	quella	_	_	_	quella	_	_	397-3	_	_	
+398-5	10156-10162	famosa	_	_	_	famosa	_	_	397-4	_	_	
+398-6	10163-10171	proposta	_	_	WeaklyRising	proposta,	_	_	397-5	_	_	
+
+#Text=che prima avevo
+399-1	10172-10175	che	_	_	_	che	_	TOI031	398-0	_	_	
+399-2	10176-10181	prima	_	_	_	prima	_	_	398-1	_	_	
+399-3	10182-10187	avevo	_	_	WeaklyRising	avevo,	_	_	398-2	_	_	
+
+#Text=saltato cioè avevo saltato questo pezzo di storia ho detto
+400-1	10188-10195	saltato	_	_	Falling	saltato.	_	TOI031	399-0	_	_	
+400-2	10196-10200	cioè	_	_	_	c(io)è	_	_	399-1	_	_	
+400-3	10201-10206	avevo	_	_	_	avevo	_	_	399-2	_	_	
+400-4	10207-10214	saltato	_	_	_	saltato	_	_	399-3	_	_	
+400-5	10215-10221	questo	_	_	_	questo	_	_	399-4	_	_	
+400-6	10222-10227	pezzo	_	_	_	pezzo	_	_	399-5	_	_	
+400-7	10228-10230	di	_	_	_	di	_	_	399-6	_	_	
+400-8	10231-10237	storia	_	_	WeaklyRising	storia,	_	_	399-7	_	_	
+400-9	10238-10240	ho	_	_	_	ho	_	_	399-8	_	_	
+400-10	10241-10246	detto	_	_	WeaklyRising	detto,	_	_	399-9	_	_	
+
+#Text=vaffanculo alle finestre
+401-1	10247-10257	vaffanculo	_	_	_	vaffanculo	_	TOI031	400-0	_	_	
+401-2	10258-10262	alle	_	_	_	alle	_	_	400-1	_	_	
+401-3	10263-10271	finestre	_	_	WeaklyRising	finestre,	_	_	400-2	_	_	
+
+#Text=okay
+402-1	10272-10276	okay	BC	_	_	okay	_	TOR006	401-0	_	_	
+
+#Text=però tu
+403-1	10277-10281	però	_	_	_	però	_	TOR006	402-0	_	_	
+403-2	10282-10284	tu	_	_	WeaklyRising	tu,	_	_	402-1	_	_	
+
+#Text=sei quindi un dipendente
+404-1	10285-10288	sei	_	_	_	sei	_	TOR006	403-0	_	_	
+404-2	10289-10295	quindi	_	_	_	quindi	_	_	403-1	_	_	
+404-3	10296-10298	un	_	_	_	un	_	_	403-2	_	_	
+404-4	10299-10309	dipendente	_	_	Falling	dipendente.	_	_	403-3	_	_	
+
+#Text=sì
+405-1	10310-10312	sì	_	_	Falling	sì.	_	TOI031	404-0	_	_	
+
+#Text=sì sono un lavoratore dipendente sì
+406-1	10313-10315	sì	_	_	_	\[sì	_	TOI031	405-0	*->31-1	*[31]	
+406-2	10316-10320	sono	_	_	_	sono	_	_	405-1	*->31-2	*[31]	
+406-3	10321-10323	un	_	_	_	un	_	_	405-2	*->31-3	*[31]	
+406-4	10324-10334	lavoratore	_	_	_	lavorato\]re	_	_	405-3	_	_	
+406-4.1	10324-10332	lavorato	_	_	_	_	_	_	_	*->31-4	*[31]	
+406-5	10335-10345	dipendente	_	_	_	dipendente	_	_	405-4	_	_	
+406-6	10346-10348	sì	_	_	Falling	sì.	_	_	405-5	_	_	
+
+#Text=del tuo amico
+407-1	10349-10352	del	_	_	_	\[del	_	TOR006	406-0	*->31-5	*[31]	
+407-2	10353-10356	tuo	_	_	_	tuo	_	_	406-1	*->31-6	*[31]	
+407-3	10357-10362	amico	_	_	_	amico\]	_	_	406-2	*->31-7	*[31]	
+
+#Text=okay
+408-1	10363-10367	okay	BC	_	_	okay	_	TOR006	407-0	_	_	
+
+#Text=ehm
+409-1	10368-10371	ehm	_	FP	_	e::hm	_	TOR006	408-0	_	_	
+
+#Text=cioè raccontami un po' di x
+410-1	10372-10376	cioè	_	_	_	c(io)è	_	TOR006	409-0	_	_	
+410-2	10377-10387	raccontami	_	_	_	raccontami	_	_	409-1	_	_	
+410-3	10388-10390	un	_	_	_	un	_	_	409-2	_	_	
+410-4	10391-10394	po'	_	_	_	po'	_	_	409-3	_	_	
+410-5	10395-10397	di	_	_	_	di	_	_	409-4	_	_	
+410-6	10398-10399	x	_	_	_	xxx	_	_	409-5	_	_	
+
+#Text=cioè di quando fai il giardiniere
+411-1	10400-10404	cioè	_	_	_	c(io)è	_	TOR006	410-0	_	_	
+411-2	10405-10407	di	_	_	_	di	_	_	410-1	_	_	
+411-3	10408-10414	quando	_	_	_	quando	_	_	410-2	_	_	
+411-4	10415-10418	fai	_	_	_	fai	_	_	410-3	_	_	
+411-5	10419-10421	il	_	_	_	il	_	_	410-4	_	_	
+411-6	10422-10433	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	410-5	_	_	
+
+#Text=tipo
+412-1	10434-10438	tipo	_	_	WeaklyRising	tipo,	_	TOR006	411-0	_	_	
+
+#Text=di cosa succede quando andate a casa delle persone
+413-1	10439-10441	di	_	_	_	di	_	TOR006	412-0	_	_	
+413-2	10442-10446	cosa	_	_	_	cosa	_	_	412-1	_	_	
+413-3	10447-10454	succede	_	_	_	succede	_	_	412-2	_	_	
+413-4	10455-10461	quando	_	_	_	quando	_	_	412-3	_	_	
+413-5	10462-10468	andate	_	_	_	andate	_	_	412-4	_	_	
+413-6	10469-10470	a	_	_	_	a	_	_	412-5	_	_	
+413-7	10471-10475	casa	_	_	_	casa	_	_	412-6	_	_	
+413-8	10476-10481	delle	_	_	_	delle	_	_	412-7	_	_	
+413-9	10482-10489	persone	_	_	WeaklyRising	persone,	_	_	412-8	_	_	
+
+#Text=cioè tutte le cose strane che vi succedono
+414-1	10490-10494	cioè	_	_	_	c(io)è	_	TOR006	413-0	_	_	
+414-2	10495-10500	tutte	_	_	_	tutte	_	_	413-1	_	_	
+414-3	10501-10503	le	_	_	_	le	_	_	413-2	_	_	
+414-4	10504-10508	cose	_	_	_	cose	_	_	413-3	_	_	
+414-5	10509-10515	strane	_	_	WeaklyRising	strane,	_	_	413-4	_	_	
+414-6	10516-10519	che	_	_	_	che	_	_	413-5	_	_	
+414-7	10520-10522	vi	_	_	_	vi	_	_	413-6	_	_	
+414-8	10523-10532	succedono	_	_	WeaklyRising	succedono,	_	_	413-7	_	_	
+
+#Text=eh cose strane
+415-1	10533-10535	eh	BC	_	_	eh	_	TOI031	414-0	_	_	
+415-2	10536-10540	cose	_	_	_	cose	_	_	414-1	_	_	
+415-3	10541-10547	strane	_	_	Falling	strane.	_	_	414-2	_	_	
+
+#Text=((ride))
+416-1	10548-10556	((ride))	_	_	_	((ride))	_	TOI031	415-0	_	_	
+
+#Text=eh io lo so
+417-1	10557-10559	eh	BC	_	_	eh	_	TOR006	416-0	_	_	
+417-2	10560-10562	io	_	_	_	io	_	_	416-1	_	_	
+417-3	10563-10565	lo	_	_	_	lo	_	_	416-2	_	_	
+417-4	10566-10568	so	_	_	Falling	so.	_	_	416-3	_	_	
+
+#Text=eh tu lo sai
+418-1	10569-10571	eh	BC[17]	_	_	eh	_	TOI031	417-0	_	_	
+418-2	10572-10574	tu	BC[17]	_	_	tu	_	_	417-1	_	_	
+418-3	10575-10577	lo	BC[17]	_	_	lo	_	_	417-2	_	_	
+418-4	10578-10581	sai	BC[17]	_	WeaklyRising	sai,	_	_	417-3	_	_	
+
+#Text=e quindi
+419-1	10582-10583	e	_	_	_	e	_	TOR006	418-0	_	_	
+419-2	10584-10590	quindi	_	_	WeaklyRising	quindi,	_	_	418-1	_	_	
+
+#Text=parliamone
+420-1	10591-10601	parliamone	_	_	Falling	parliamone.	_	TOR006	419-0	_	_	
+
+#Text=mah la giornata tipo
+421-1	10602-10605	mah	_	_	_	mah	_	TOI031	420-0	_	_	
+421-2	10606-10608	la	_	_	_	la	_	_	420-1	_	_	
+421-3	10609-10617	giornata	_	_	_	giornata	_	_	420-2	_	_	
+421-4	10618-10622	tipo	_	_	WeaklyRising	tipo,	_	_	420-3	_	_	
+
+#Text=in realtà non è troppo strana
+422-1	10623-10625	in	_	_	_	in	_	TOI031	421-0	_	_	
+422-2	10626-10632	realtà	_	_	_	realtà	_	_	421-1	_	_	
+422-3	10633-10636	non	_	_	_	non	_	_	421-2	_	_	
+422-4	10637-10638	è	_	_	_	è	_	_	421-3	_	_	
+422-5	10639-10645	troppo	_	_	_	troppo	_	_	421-4	_	_	
+422-6	10646-10652	strana	_	_	Falling	strana.	_	_	421-5	_	_	
+
+#Text=okay com' è la tua giornata tipo
+423-1	10653-10657	okay	BC	_	Falling	okay.	_	TOR006	422-0	_	_	
+423-2	10658-10662	com'	_	_	_	com'	_	_	422-1	_	_	
+423-3	10663-10664	è	_	_	_	è	_	_	422-2	_	_	
+423-4	10665-10667	la	_	_	_	la	_	_	422-3	_	_	
+423-5	10668-10671	tua	_	_	_	tua	_	_	422-4	_	_	
+423-6	10672-10680	giornata	_	_	_	giornata	_	_	422-5	_	_	
+423-7	10681-10685	tipo	_	_	Rising	\[tipo\]?	_	_	422-6	*->128-1	*[128]	
+
+#Text=la giornata tipo è che io
+424-1	10686-10688	la	_	_	_	\[la	_	TOI031	423-0	*->128-2	*[128]	
+424-2	10689-10697	giornata	_	_	_	giornata\]	_	_	423-1	*->128-3	*[128]	
+424-3	10698-10702	tipo	_	_	_	tipo	_	_	423-2	_	_	
+424-4	10703-10704	è	_	_	_	è	_	_	423-3	_	_	
+424-5	10705-10708	che	_	_	_	che	_	_	423-4	_	_	
+424-6	10709-10711	io	_	_	WeaklyRising	io,	_	_	423-5	_	_	
+
+#Text=come vedi abito qui
+425-1	10712-10716	come	_	_	_	come	_	TOI031	424-0	_	_	
+425-2	10717-10721	vedi	_	_	_	vedi	_	_	424-1	_	_	
+425-3	10722-10727	abito	_	_	_	abito	_	_	424-2	_	_	
+425-4	10728-10731	qui	_	_	_	qui	_	_	424-3	_	_	
+
+#Text=e la sede del [PAUSE] della della mia ditta è
+426-1	10732-10733	e	_	_	_	e	_	TOI031	425-0	_	_	
+426-2	10734-10736	la	_	_	_	la	_	_	425-1	_	_	
+426-3	10737-10741	sede	_	_	_	sede	_	_	425-2	_	_	
+426-4	10742-10745	del	_	_	WeaklyRising	del::,	_	_	425-3	_	_	
+426-5	10746-10753	[PAUSE]	_	_	_	(.)	_	_	425-4	_	_	
+426-6	10754-10759	della	_	_	WeaklyRising	della,	_	_	425-5	_	_	
+426-7	10760-10765	della	_	_	_	della	_	_	425-6	_	_	
+426-8	10766-10769	mia	_	_	_	mia	_	_	425-7	_	_	
+426-9	10770-10775	ditta	_	_	WeaklyRising	ditta,	_	_	425-8	_	_	
+426-10	10776-10777	è	_	_	WeaklyRising	è,	_	_	425-9	_	_	
+
+#Text=sotto casa
+427-1	10778-10783	sotto	_	_	_	sotto	_	TOI031	426-0	_	_	
+427-2	10784-10788	casa	_	_	Falling	casa.	_	_	426-1	_	_	
+
+#Text=praticamente dall' altro lato del cortile
+428-1	10789-10801	praticamente	_	_	_	praticamente	_	TOI031	427-0	_	_	
+428-2	10802-10807	dall'	_	_	_	dall'	_	_	427-1	_	_	
+428-3	10808-10813	altro	_	_	_	altro	_	_	427-2	_	_	
+428-4	10814-10818	lato	_	_	_	lato	_	_	427-3	_	_	
+428-5	10819-10822	del	_	_	_	del	_	_	427-4	_	_	
+428-6	10823-10830	cortile	_	_	Falling	cortile.	_	_	427-5	_	_	
+
+#Text=quindi non posso mai arrivare in ritardo al lavoro perché
+429-1	10831-10837	quindi	_	_	WeaklyRising	quindi,	_	TOI031	428-0	_	_	
+429-2	10838-10841	non	_	_	_	non	_	_	428-1	_	_	
+429-3	10842-10847	posso	_	_	_	posso	_	_	428-2	_	_	
+429-4	10848-10851	mai	_	_	_	mai	_	_	428-3	_	_	
+429-5	10852-10860	arrivare	_	_	_	arrivare	_	_	428-4	_	_	
+429-6	10861-10863	in	_	_	_	in	_	_	428-5	_	_	
+429-7	10864-10871	ritardo	_	_	_	ritardo	_	_	428-6	_	_	
+429-8	10872-10874	al	_	_	_	al	_	_	428-7	_	_	
+429-9	10875-10881	lavoro	_	_	WeaklyRising	lavoro,	_	_	428-8	_	_	
+429-10	10882-10888	perché	_	_	WeaklyRising	perché,	_	_	428-9	_	_	
+
+#Text=((ride))
+430-1	10889-10897	((ride))	_	_	_	((ride))	_	TOR006	429-0	_	_	
+
+#Text=sarei proprio un demente no
+431-1	10898-10903	sarei	_	_	_	sarei	_	TOI031	430-0	_	_	
+431-2	10904-10911	proprio	_	_	_	proprio	_	_	430-1	_	_	
+431-3	10912-10914	un	_	_	_	un	_	_	430-2	_	_	
+431-4	10915-10922	demente	_	_	_	demente	_	_	430-3	_	_	
+431-5	10923-10925	no	_	_	WeaklyRising	no,	_	_	430-4	_	_	
+
+#Text=anzi sono il primo ad arrivare
+432-1	10926-10930	anzi	_	_	_	anzi	_	TOI031	431-0	_	_	
+432-2	10931-10935	sono	_	_	_	sono	_	_	431-1	_	_	
+432-3	10936-10938	il	_	_	_	il	_	_	431-2	_	_	
+432-4	10939-10944	primo	_	_	_	primo	_	_	431-3	_	_	
+432-5	10945-10947	ad	_	_	_	ad	_	_	431-4	_	_	
+432-6	10948-10956	arrivare	_	_	WeaklyRising	arrivare,	_	_	431-5	_	_	
+
+#Text=giusto
+433-1	10957-10963	giusto	BC	_	_	giusto	_	TOR006	432-0	_	_	
+
+#Text=quindi preparo carico i mezzi
+434-1	10964-10970	quindi	_	_	_	quindi	_	TOI031	433-0	_	_	
+434-2	10971-10978	preparo	_	_	WeaklyRising	preparo,	_	_	433-1	_	_	
+434-3	10979-10985	carico	_	_	_	carico	_	_	433-2	_	_	
+434-4	10986-10987	i	_	_	_	i	_	_	433-3	_	_	
+434-5	10988-10993	mezzi	_	_	WeaklyRising	mezzi,	_	_	433-4	_	_	
+
+#Text=che abbiamo il camion e il pickup
+435-1	10994-10997	che	_	_	_	che	_	TOI031	434-0	_	_	
+435-2	10998-11005	abbiamo	_	_	WeaklyRising	abbiamo,	_	_	434-1	_	_	
+435-3	11006-11008	il	_	_	_	il	_	_	434-2	_	_	
+435-4	11009-11015	camion	_	_	_	camion	_	_	434-3	_	_	
+435-5	11016-11017	e	_	_	_	e	_	_	434-4	_	_	
+435-6	11018-11020	il	_	_	_	il	_	_	434-5	_	_	
+435-7	11021-11027	pickup	_	_	_	pickup	_	_	434-6	_	_	
+
+#Text=poi arrivano gli altri due operai
+436-1	11028-11031	poi	_	_	_	poi	_	TOI031	435-0	_	_	
+436-2	11032-11040	arrivano	_	_	_	arrivano	_	_	435-1	_	_	
+436-3	11041-11044	gli	_	_	_	gli	_	_	435-2	_	_	
+436-4	11045-11050	altri	_	_	_	altri	_	_	435-3	_	_	
+436-5	11051-11054	due	_	_	_	due	_	_	435-4	_	_	
+436-6	11055-11061	operai	_	_	WeaklyRising	operai,	_	_	435-5	_	_	
+
+#Text=mh mh
+437-1	11062-11064	mh	BC[18]	_	_	mh	_	TOR006	436-0	_	_	
+437-2	11065-11067	mh	BC[18]	_	_	mh	_	_	436-1	_	_	
+
+#Text=e poi scende per ultimo
+438-1	11068-11069	e	_	_	_	e	_	TOI031	437-0	_	_	
+438-2	11070-11073	poi	_	_	_	poi	_	_	437-1	_	_	
+438-3	11074-11080	scende	_	_	_	scende	_	_	437-2	_	_	
+438-4	11081-11084	per	_	_	_	per	_	_	437-3	_	_	
+438-5	11085-11091	ultimo	_	_	WeaklyRising	ultimo,	_	_	437-4	_	_	
+
+#Text=come
+439-1	11092-11096	come	_	_	WeaklyRising	come,	_	TOI031	438-0	_	_	
+
+#Text=i grandi eroi
+440-1	11097-11098	i	_	_	_	i	_	TOI031	439-0	_	_	
+440-2	11099-11105	grandi	_	_	_	grandi	_	_	439-1	_	_	
+440-3	11106-11110	eroi	_	_	WeaklyRising	eroi,	_	_	439-2	_	_	
+
+#Text=((ride)) il mio capo
+441-1	11111-11119	((ride))	_	_	_	((ride))	_	TOI031	440-0	_	_	
+441-2	11120-11122	il	_	_	_	il	_	_	440-1	_	_	
+441-3	11123-11126	mio	_	_	_	mio	_	_	440-2	_	_	
+441-4	11127-11131	capo	_	_	Falling	ca\[po\].	_	_	440-3	_	_	
+441-4.1	11129-11131	po	_	_	_	_	_	_	_	*->157-1	*[157]	
+
+#Text=ma quanti siete in questa
+442-1	11132-11134	ma	_	_	_	\[ma\]	_	TOR006	441-0	*->157-2	*[157]	
+442-1.1	11132-11133	m	_	_	_	_	_	_	_	*->157-1	*[157]	
+442-2	11135-11141	quanti	_	_	_	quanti	_	_	441-1	_	_	
+442-3	11142-11147	siete	_	_	_	siete	_	_	441-2	_	_	
+442-4	11148-11150	in	_	_	_	in	_	_	441-3	_	_	
+442-5	11151-11157	questa	_	_	WeaklyRising	questa::,	_	_	441-4	_	_	
+
+#Text=siamo in quattro
+443-1	11158-11163	siamo	_	_	_	siamo	_	TOI031	442-0	_	_	
+443-2	11164-11166	in	_	_	_	in	_	_	442-1	_	_	
+443-3	11167-11174	quattro	_	_	Falling	quattro.	_	_	442-2	_	_	
+
+#Text=okay
+444-1	11175-11179	okay	BC	_	Falling	okay.	_	TOR006	443-0	_	_	
+
+#Text=tre più il mio capo
+445-1	11180-11183	tre	_	_	WeaklyRising	tre,	_	TOI031	444-0	_	_	
+445-2	11184-11187	più	_	_	_	più	_	_	444-1	_	_	
+445-3	11188-11190	il	_	_	_	il	_	_	444-2	_	_	
+445-4	11191-11194	mio	_	_	_	mio	_	_	444-3	_	_	
+445-5	11195-11199	capo	_	_	Falling	capo.	_	_	444-4	_	_	
+
+#Text=okay
+446-1	11200-11204	okay	BC	_	Falling	okay.	_	TOR006	445-0	_	_	
+
+#Text=e poi cosa
+447-1	11205-11206	e	_	_	_	e	_	TOR006	446-0	_	_	
+447-2	11207-11210	poi	_	_	Rising	poi?	_	_	446-1	_	_	
+447-3	11211-11215	cosa	_	_	WeaklyRising	cosa::,	_	_	446-2	_	_	
+
+#Text=poi ci dividiamo a coppie
+448-1	11216-11219	poi	_	_	_	poi	_	TOI031	447-0	_	_	
+448-2	11220-11222	ci	_	_	_	ci	_	_	447-1	_	_	
+448-3	11223-11232	dividiamo	_	_	_	dividiamo	_	_	447-2	_	_	
+448-4	11233-11234	a	_	_	_	a	_	_	447-3	_	_	
+448-5	11235-11241	coppie	_	_	WeaklyRising	coppie,	_	_	447-4	_	_	
+
+#Text=ognuno prende un mezzo
+449-1	11242-11248	ognuno	_	_	_	ognuno	_	TOI031	448-0	_	_	
+449-2	11249-11255	prende	_	_	_	prende	_	_	448-1	_	_	
+449-3	11256-11258	un	_	_	_	un	_	_	448-2	_	_	
+449-4	11259-11264	mezzo	_	_	WeaklyRising	mezzo,	_	_	448-3	_	_	
+
+#Text=e
+450-1	11265-11266	e	_	_	WeaklyRising	e:::,	_	TOI031	449-0	_	_	
+
+#Text=ha un cliente ha una serie di clienti
+451-1	11267-11269	ha	_	_	_	ha	_	TOI031	450-0	_	_	
+451-2	11270-11272	un	_	_	_	un	_	_	450-1	_	_	
+451-3	11273-11280	cliente	_	_	WeaklyRising	cliente,	_	_	450-2	_	_	
+451-4	11281-11283	ha	_	_	_	ha	_	_	450-3	_	_	
+451-5	11284-11287	una	_	_	_	una	_	_	450-4	_	_	
+451-6	11288-11293	serie	_	_	_	serie	_	_	450-5	_	_	
+451-7	11294-11296	di	_	_	_	di	_	_	450-6	_	_	
+451-8	11297-11304	clienti	_	_	Falling	clienti.	_	_	450-7	_	_	
+
+#Text=mhmh
+452-1	11305-11309	mhmh	BC	_	_	mhmh	_	TOR006	451-0	_	_	
+
+#Text=da cui dobbiamo andare [PAUSE] ogni giorno
+453-1	11310-11312	da	_	_	_	da	_	TOI031	452-0	_	_	
+453-2	11313-11316	cui	_	_	_	cui	_	_	452-1	_	_	
+453-3	11317-11325	dobbiamo	_	_	_	dobbiamo	_	_	452-2	_	_	
+453-4	11326-11332	andare	_	_	WeaklyRising	andare,	_	_	452-3	_	_	
+453-5	11333-11340	[PAUSE]	_	_	_	(.)	_	_	452-4	_	_	
+453-6	11341-11345	ogni	_	_	_	ogni	_	_	452-5	_	_	
+453-7	11346-11352	giorno	_	_	WeaklyRising	giorno,	_	_	452-6	_	_	
+
+#Text=carichiamo i nostri attrezzi
+454-1	11353-11363	carichiamo	_	_	_	carichiamo	_	TOI031	453-0	_	_	
+454-2	11364-11365	i	_	_	_	i	_	_	453-1	_	_	
+454-3	11366-11372	nostri	_	_	_	nostri	_	_	453-2	_	_	
+454-4	11373-11381	attrezzi	_	_	WeaklyRising	attrezzi,	_	_	453-3	_	_	
+
+#Text=e partiamo
+455-1	11382-11383	e	_	_	_	e	_	TOI031	454-0	_	_	
+455-2	11384-11392	partiamo	_	_	Falling	partiamo.	_	_	454-1	_	_	
+
+#Text=okay
+456-1	11393-11397	okay	BC	_	Falling	okay.	_	TOR006	455-0	_	_	
+
+#Text=poi arriviamo dal cliente facciamo il lavoro che dobbiamo fare ((ride))
+457-1	11398-11401	poi	_	_	_	poi	_	TOI031	456-0	_	_	
+457-2	11402-11411	arriviamo	_	_	_	arriviamo	_	_	456-1	_	_	
+457-3	11412-11415	dal	_	_	_	dal	_	_	456-2	_	_	
+457-4	11416-11423	cliente	_	_	WeaklyRising	cliente,	_	_	456-3	_	_	
+457-5	11424-11432	facciamo	_	_	_	facciamo	_	_	456-4	_	_	
+457-6	11433-11435	il	_	_	_	il	_	_	456-5	_	_	
+457-7	11436-11442	lavoro	_	_	_	lavoro	_	_	456-6	_	_	
+457-8	11443-11446	che	_	_	_	che	_	_	456-7	_	_	
+457-9	11447-11455	dobbiamo	_	_	_	dobbiamo	_	_	456-8	_	_	
+457-10	11456-11460	fare	_	_	_	fare	_	_	456-9	_	_	
+457-11	11461-11469	((ride))	_	_	_	((ride))	_	_	456-10	_	_	
+
+#Text=okay
+458-1	11470-11474	okay	BC	_	_	okay	_	TOR006	457-0	_	_	
+
+#Text=spesso
+459-1	11475-11481	spesso	_	_	WeaklyRising	spesso,	_	TOI031	458-0	_	_	
+
+#Text=io lavoro con
+460-1	11482-11484	io	_	_	_	io	_	TOI031	459-0	_	_	
+460-2	11485-11491	lavoro	_	_	_	lavoro	_	_	459-1	_	_	
+460-3	11492-11495	con	_	_	WeaklyRising	con,	_	_	459-2	_	_	
+
+#Text=con marta e quindi
+461-1	11496-11499	con	_	_	_	con	_	TOI031	460-0	_	_	
+461-2	11500-11505	marta	_	_	WeaklyRising	marta,	_	_	460-1	_	_	
+461-3	11506-11507	e	_	_	_	e	_	_	460-2	_	_	
+461-4	11508-11514	quindi	_	_	WeaklyRising	quindi,	_	_	460-3	_	_	
+
+#Text=noi ci occupiamo delle manutenzioni ordinarie quindi
+462-1	11515-11518	noi	_	_	_	noi	_	TOI031	461-0	_	_	
+462-2	11519-11521	ci	_	_	_	ci	_	_	461-1	_	_	
+462-3	11522-11531	occupiamo	_	_	_	occupiamo	_	_	461-2	_	_	
+462-4	11532-11537	delle	_	_	_	delle	_	_	461-3	_	_	
+462-5	11538-11550	manutenzioni	_	_	_	manutenzioni	_	_	461-4	_	_	
+462-6	11551-11560	ordinarie	_	_	WeaklyRising	ordinarie,	_	_	461-5	_	_	
+462-7	11561-11567	quindi	_	_	WeaklyRising	quindi,	_	_	461-6	_	_	
+
+#Text=tagliaerba pulizie dela giardino classiche no foglie siepe queste cose qui
+463-1	11568-11578	tagliaerba	_	_	WeaklyRising	tagliaerba,	_	TOI031	462-0	_	_	
+463-2	11579-11586	pulizie	_	_	_	pulizie	_	_	462-1	_	_	
+463-3	11587-11591	dela	_	_	_	dela	_	_	462-2	_	_	
+463-4	11592-11600	giardino	_	_	WeaklyRising	giardino,	_	_	462-3	_	_	
+463-5	11601-11610	classiche	_	_	_	classiche	_	_	462-4	_	_	
+463-6	11611-11613	no	_	_	WeaklyRising	no,	_	_	462-5	_	_	
+463-7	11614-11620	foglie	_	_	WeaklyRising	foglie,	_	_	462-6	_	_	
+463-8	11621-11626	siepe	_	_	WeaklyRising	siepe,	_	_	462-7	_	_	
+463-9	11627-11633	queste	_	_	_	queste	_	_	462-8	_	_	
+463-10	11634-11638	cose	_	_	_	cose	_	_	462-9	_	_	
+463-11	11639-11642	qui	_	_	WeaklyRising	qui,	_	_	462-10	_	_	
+
+#Text=e in genere quindi riusciamo a fare più di un cliente al giorno
+464-1	11643-11644	e	_	_	_	e::	_	TOI031	463-0	_	_	
+464-2	11645-11647	in	_	_	_	in	_	_	463-1	_	_	
+464-3	11648-11654	genere	_	_	_	genere	_	_	463-2	_	_	
+464-4	11655-11661	quindi	_	_	_	quindi	_	_	463-3	_	_	
+464-5	11662-11671	riusciamo	_	_	_	riusciamo	_	_	463-4	_	_	
+464-6	11672-11673	a	_	_	_	a	_	_	463-5	_	_	
+464-7	11674-11678	fare	_	_	_	fare	_	_	463-6	_	_	
+464-8	11679-11682	più	_	_	_	più	_	_	463-7	_	_	
+464-9	11683-11685	di	_	_	_	di	_	_	463-8	_	_	
+464-10	11686-11688	un	_	_	_	un	_	_	463-9	_	_	
+464-11	11689-11696	cliente	_	_	_	cliente	_	_	463-10	_	_	
+464-12	11697-11699	al	_	_	_	al	_	_	463-11	_	_	
+464-13	11700-11706	giorno	_	_	Falling	giorno.	_	_	463-12	_	_	
+
+#Text=spesso tre quattro cinque sei dipende da
+465-1	11707-11713	spesso	_	_	_	spesso	_	TOI031	464-0	_	_	
+465-2	11714-11717	tre	_	_	WeaklyRising	tre,	_	_	464-1	_	_	
+465-3	11718-11725	quattro	_	_	WeaklyRising	quattro,	_	_	464-2	_	_	
+465-4	11726-11732	cinque	_	_	WeaklyRising	cinque,	_	_	464-3	_	_	
+465-5	11733-11736	sei	_	_	WeaklyRising	sei,	_	_	464-4	_	_	
+465-6	11737-11744	dipende	_	_	_	dipende	_	_	464-5	_	_	
+465-7	11745-11747	da	_	_	WeaklyRising	da,	_	_	464-6	_	_	
+
+#Text=quanto son piccoli i giardini
+466-1	11748-11754	quanto	_	_	_	\[quanto\]	_	TOI031	465-0	*->4-1	*[4]	
+466-2	11755-11758	son	_	_	_	son	_	_	465-1	_	_	
+466-3	11759-11766	piccoli	_	_	_	piccoli	_	_	465-2	_	_	
+466-4	11767-11768	i	_	_	_	i	_	_	465-3	_	_	
+466-5	11769-11777	giardini	_	_	WeaklyRising	giardini,	_	_	465-4	_	_	
+
+#Text=okay
+467-1	11778-11782	okay	BC	_	_	\[okay\]	_	TOR006	466-0	*->4-2	*[4]	
+
+#Text=ehm
+468-1	11783-11786	ehm	_	FP	_	e::hm	_	TOI031	467-0	_	_	
+
+#Text=poi facciamo la pausa pranzo
+469-1	11787-11790	poi	_	_	_	poi	_	TOI031	468-0	_	_	
+469-2	11791-11799	facciamo	_	_	_	facciamo	_	_	468-1	_	_	
+469-3	11800-11802	la	_	_	_	la	_	_	468-2	_	_	
+469-4	11803-11808	pausa	_	_	_	pausa	_	_	468-3	_	_	
+469-5	11809-11815	pranzo	_	_	WeaklyRising	pranzo,	_	_	468-4	_	_	
+
+#Text=poi riprendiamo il pomeriggio questa è la giornata classica
+470-1	11816-11819	poi	_	_	_	poi	_	TOI031	469-0	_	_	
+470-2	11820-11831	riprendiamo	_	_	_	riprendiamo	_	_	469-1	_	_	
+470-3	11832-11834	il	_	_	_	il	_	_	469-2	_	_	
+470-4	11835-11845	pomeriggio	_	_	WeaklyRising	pomeriggio,	_	_	469-3	_	_	
+470-5	11846-11852	questa	_	_	_	questa	_	_	469-4	_	_	
+470-6	11853-11854	è	_	_	_	è	_	_	469-5	_	_	
+470-7	11855-11857	la	_	_	_	la	_	_	469-6	_	_	
+470-8	11858-11866	giornata	_	_	_	giornata	_	_	469-7	_	_	
+470-9	11867-11875	classica	_	_	Falling	class\[ica\].	_	_	469-8	_	_	
+470-9.1	11872-11875	ica	_	_	_	_	_	_	_	*->17-1	*[17]	
+
+#Text=cosa mangiate in pausa pranzo
+471-1	11876-11880	cosa	_	_	_	\[cos\]a	_	TOR006	470-0	*->17-1	*[17]	
+471-1.1	11876-11879	cos	_	_	_	_	_	_	_	*->17-2	*[17]	
+471-2	11881-11889	mangiate	_	_	_	mangiate	_	_	470-1	_	_	
+471-3	11890-11892	in	_	_	_	in	_	_	470-2	_	_	
+471-4	11893-11898	pausa	_	_	_	pausa	_	_	470-3	_	_	
+471-5	11899-11905	pranzo	_	_	Rising	pranzo?	_	_	470-4	_	_	
+
+#Text=dipende se mangiamo in giro
+472-1	11906-11913	dipende	_	_	WeaklyRising	dipende,	_	TOI031	471-0	_	_	
+472-2	11914-11916	se	_	_	_	se	_	_	471-1	_	_	
+472-3	11917-11925	mangiamo	_	_	_	mangiamo	_	_	471-2	_	_	
+472-4	11926-11928	in	_	_	_	in	_	_	471-3	_	_	
+472-5	11929-11933	giro	_	_	WeaklyRising	giro,	_	_	471-4	_	_	
+
+#Text=mangiamo al bar quindi mangiamo un piatto caldo
+473-1	11934-11942	mangiamo	_	_	_	mangiamo	_	TOI031	472-0	_	_	
+473-2	11943-11945	al	_	_	_	al	_	_	472-1	_	_	
+473-3	11946-11949	bar	_	_	WeaklyRising	bar,	_	_	472-2	_	_	
+473-4	11950-11956	quindi	_	_	WeaklyRising	quindi::,	_	_	472-3	_	_	
+473-5	11957-11965	mangiamo	_	_	_	mangiamo	_	_	472-4	_	_	
+473-6	11966-11968	un	_	_	_	un	_	_	472-5	_	_	
+473-7	11969-11975	piatto	_	_	_	piatto	_	_	472-6	_	_	
+473-8	11976-11981	caldo	_	_	_	caldo	_	_	472-7	_	_	
+
+#Text=se invece ognuno mangia a casa sua
+474-1	11982-11984	se	_	_	_	se	_	TOI031	473-0	_	_	
+474-2	11985-11991	invece	_	_	_	invece	_	_	473-1	_	_	
+474-3	11992-11998	ognuno	_	_	_	ognuno	_	_	473-2	_	_	
+474-4	11999-12005	mangia	_	_	_	mangia	_	_	473-3	_	_	
+474-5	12006-12007	a	_	_	_	a	_	_	473-4	_	_	
+474-6	12008-12012	casa	_	_	_	casa	_	_	473-5	_	_	
+474-7	12013-12016	sua	_	_	WeaklyRising	sua,	_	_	473-6	_	_	
+
+#Text=libertà
+475-1	12017-12024	libertà	_	_	Falling	libertà.	_	TOI031	474-0	_	_	
+
+#Text=okay
+476-1	12025-12029	okay	BC	_	Falling	okay.	_	TOR006	475-0	_	_	
+
+#Text=e poi al pomeriggio
+477-1	12030-12031	e	_	_	_	e	_	TOR006	476-0	_	_	
+477-2	12032-12035	poi	_	_	_	poi	_	_	476-1	_	_	
+477-3	12036-12038	al	_	_	_	al	_	_	476-2	_	_	
+477-4	12039-12049	pomeriggio	_	_	Rising	pomeriggio?	_	_	476-3	_	_	
+
+#Text=al pomeriggio riprende la solita storia
+478-1	12050-12052	al	_	_	_	al	_	TOI031	477-0	_	_	
+478-2	12053-12063	pomeriggio	_	_	_	pomeriggio	_	_	477-1	_	_	
+478-3	12064-12072	riprende	_	_	_	riprende	_	_	477-2	_	_	
+478-4	12073-12075	la	_	_	_	la	_	_	477-3	_	_	
+478-5	12076-12082	solita	_	_	_	solita	_	_	477-4	_	_	
+478-6	12083-12089	storia	_	_	WeaklyRising	storia,	_	_	477-5	_	_	
+
+#Text=e
+479-1	12090-12091	e	_	_	WeaklyRising	\[e:\],	_	TOI031	478-0	*->131-1	*[131]	
+
+#Text=okay
+480-1	12092-12096	okay	BC	_	_	\[okay\]	_	TOR006	479-0	*->131-2	*[131]	
+
+#Text=se siamo fuori chieri
+481-1	12097-12099	se	_	_	_	se	_	TOI031	480-0	_	_	
+481-2	12100-12105	siamo	_	_	_	siamo	_	_	480-1	_	_	
+481-3	12106-12111	fuori	_	_	_	fuori	_	_	480-2	_	_	
+481-4	12112-12118	chieri	_	_	WeaklyRising	chieri,	_	_	480-3	_	_	
+
+#Text=mangiamo
+482-1	12119-12127	mangiamo	_	_	WeaklyRising	mangiamo,	_	TOI031	481-0	_	_	
+
+#Text=più velocemente e ripartiamo più velocemente
+483-1	12128-12131	più	_	_	_	più	_	TOI031	482-0	_	_	
+483-2	12132-12143	velocemente	_	_	WeaklyRising	velocemente,	_	_	482-1	_	_	
+483-3	12144-12145	e	_	_	_	e	_	_	482-2	_	_	
+483-4	12146-12156	ripartiamo	_	_	_	ripartiamo	_	_	482-3	_	_	
+483-5	12157-12160	più	_	_	_	più	_	_	482-4	_	_	
+483-6	12161-12172	velocemente	_	_	Falling	velocemente.	_	_	482-5	_	_	
+
+#Text=okay
+484-1	12173-12177	okay	BC	_	Falling	okay.	_	TOR006	483-0	_	_	
+
+#Text=questo fin quando non fa buio
+485-1	12178-12184	questo	_	_	_	questo	_	TOI031	484-0	_	_	
+485-2	12185-12188	fin	_	_	_	fin	_	_	484-1	_	_	
+485-3	12189-12195	quando	_	_	_	quando	_	_	484-2	_	_	
+485-4	12196-12199	non	_	_	_	non	_	_	484-3	_	_	
+485-5	12200-12202	fa	_	_	_	fa	_	_	484-4	_	_	
+485-6	12203-12207	buio	_	_	WeaklyRising	buio,	_	_	484-5	_	_	
+
+#Text=quindi d' estate vuol dire le nove e mezza
+486-1	12208-12214	quindi	_	_	_	quindi	_	TOI031	485-0	_	_	
+486-2	12215-12217	d'	_	_	_	d'	_	_	485-1	_	_	
+486-3	12218-12224	estate	_	_	_	estate	_	_	485-2	_	_	
+486-4	12225-12229	vuol	_	_	_	vuol	_	_	485-3	_	_	
+486-5	12230-12234	dire	_	_	_	dire	_	_	485-4	_	_	
+486-6	12235-12237	le	_	_	_	le	_	_	485-5	_	_	
+486-7	12238-12242	nove	_	_	_	nove	_	_	485-6	_	_	
+486-8	12243-12244	e	_	_	_	e	_	_	485-7	_	_	
+486-9	12245-12250	mezza	_	_	WeaklyRising	mezza,	_	_	485-8	_	_	
+
+#Text=d' inverno vuol dire le cinque
+487-1	12251-12253	d'	_	_	_	d'	_	TOI031	486-0	_	_	
+487-2	12254-12261	inverno	_	_	_	inverno	_	_	486-1	_	_	
+487-3	12262-12266	vuol	_	_	_	vuol	_	_	486-2	_	_	
+487-4	12267-12271	dire	_	_	_	dire	_	_	486-3	_	_	
+487-5	12272-12274	le	_	_	_	le	_	_	486-4	_	_	
+487-6	12275-12281	cinque	_	_	Falling	cinque.	_	_	486-5	_	_	
+
+#Text=quattro e mezza cinque
+488-1	12282-12289	quattro	_	_	_	quat\[tro	_	TOI031	487-0	_	_	
+488-1.1	12286-12289	tro	_	_	_	_	_	_	_	*->153-1	*[153]	
+488-2	12290-12291	e	_	_	_	e	_	_	487-1	*->153-1|*->153-2	*[153]|*[153]	
+488-3	12292-12297	mezza	_	_	WeaklyRising	mezza\],	_	_	487-2	*->153-3	*[153]	
+488-3.1	12292-12293	m	_	_	_	_	_	_	_	*->153-1	*[153]	
+488-4	12298-12304	cinque	_	_	_	cinque	_	_	487-3	_	_	
+
+#Text=okay
+489-1	12305-12309	okay	BC	_	_	\[okay\]	_	TOR006	488-0	*->153-4	*[153]	
+
+#Text=quindi tu ora praticamente sei felicissimo
+490-1	12310-12316	quindi	_	_	_	quindi	_	TOR006	489-0	_	_	
+490-2	12317-12319	tu	_	_	_	tu	_	_	489-1	_	_	
+490-3	12320-12323	ora	_	_	_	ora	_	_	489-2	_	_	
+490-4	12324-12336	praticamente	_	_	_	praticamente	_	_	489-3	_	_	
+490-5	12337-12340	sei	_	_	_	sei	_	_	489-4	_	_	
+490-6	12341-12352	felicissimo	_	_	WeaklyRising	felicissimo,	_	_	489-5	_	_	
+
+#Text=perché alle cinque hai finito il lavoro
+491-1	12353-12359	perché	_	_	_	perché	_	TOR006	490-0	_	_	
+491-2	12360-12364	alle	_	_	_	alle	_	_	490-1	_	_	
+491-3	12365-12371	cinque	_	_	_	cinque	_	_	490-2	_	_	
+491-4	12372-12375	hai	_	_	_	hai	_	_	490-3	_	_	
+491-5	12376-12382	finito	_	_	_	finito	_	_	490-4	_	_	
+491-6	12383-12385	il	_	_	_	il	_	_	490-5	_	_	
+491-7	12386-12392	lavoro	_	_	_	lavoro	_	_	490-6	_	_	
+
+#Text=sì
+492-1	12393-12395	sì	BC	_	Falling	sì.	_	TOI031	491-0	_	_	
+
+#Text=mentre invece d' estate
+493-1	12396-12402	mentre	_	_	_	mentre	_	TOR006	492-0	_	_	
+493-2	12403-12409	invece	_	_	_	invece	_	_	492-1	_	_	
+493-3	12410-12412	d'	_	_	_	d'	_	_	492-2	_	_	
+493-4	12413-12419	estate	_	_	WeaklyRising	estate,	_	_	492-3	_	_	
+
+#Text=alle nove stai ancora lavorando
+494-1	12420-12424	alle	_	_	_	alle	_	TOR006	493-0	_	_	
+494-2	12425-12429	nove	_	_	WeaklyRising	nove,	_	_	493-1	_	_	
+494-3	12430-12434	stai	_	_	_	stai	_	_	493-2	_	_	
+494-4	12435-12441	ancora	_	_	_	ancora	_	_	493-3	_	_	
+494-5	12442-12451	lavorando	_	_	WeaklyRising	lavorando,	_	_	493-4	_	_	
+
+#Text=sì però ehm
+495-1	12452-12454	sì	_	_	_	sì	_	TOI031	494-0	_	_	
+495-2	12455-12459	però	_	_	_	però	_	_	494-1	_	_	
+495-3	12460-12463	ehm	_	FP	_	e::hm::	_	_	494-2	_	_	
+
+#Text=non so~ non è vero che sono felicissimo perché in realtà
+496-1	12464-12467	non	_	_	_	non	SR[24]	TOI031	495-0	_	_	
+496-2	12468-12471	so~	_	_	_	so~	SR[24]	_	495-1	_	_	
+496-3	12472-12475	non	_	_	_	non	SR[24]	_	495-2	_	_	
+496-4	12476-12477	è	_	_	_	è	SR[24]	_	495-3	_	_	
+496-5	12478-12482	vero	_	_	_	vero	SR[24]	_	495-4	_	_	
+496-6	12483-12486	che	_	_	_	che	SR[24]	_	495-5	_	_	
+496-7	12487-12491	sono	_	_	_	sono	SR[24]	_	495-6	_	_	
+496-8	12492-12503	felicissimo	_	_	_	felicissimo	SR[24]	_	495-7	_	_	
+496-9	12504-12510	perché	_	_	_	perché	_	_	495-8	_	_	
+496-10	12511-12513	in	_	_	_	in	_	_	495-9	_	_	
+496-11	12514-12520	realtà	_	_	_	realtà	_	_	495-10	_	_	
+
+#Text=essendoci ehm meno ore di luce
+497-1	12521-12530	essendoci	_	_	_	essendoci	_	TOI031	496-0	_	_	
+497-2	12531-12534	ehm	_	FP	_	e:hm	_	_	496-1	_	_	
+497-3	12535-12539	meno	_	_	_	meno	_	_	496-2	_	_	
+497-4	12540-12543	ore	_	_	_	ore	_	_	496-3	_	_	
+497-5	12544-12546	di	_	_	_	di	_	_	496-4	_	_	
+497-6	12547-12551	luce	_	_	WeaklyRising	luce,	_	_	496-5	_	_	
+
+#Text=essendo io uno che vive in sintonia con le piante
+498-1	12552-12559	essendo	_	_	_	essendo	_	TOI031	497-0	_	_	
+498-2	12560-12562	io	_	_	_	io	_	_	497-1	_	_	
+498-3	12563-12566	uno	_	_	_	uno	_	_	497-2	_	_	
+498-4	12567-12570	che	_	_	_	che	_	_	497-3	_	_	
+498-5	12571-12575	vive	_	_	_	vive	_	_	497-4	_	_	
+498-6	12576-12578	in	_	_	_	in	_	_	497-5	_	_	
+498-7	12579-12587	sintonia	_	_	_	sintonia	_	_	497-6	_	_	
+498-8	12588-12591	con	_	_	_	con	_	_	497-7	_	_	
+498-9	12592-12594	le	_	_	_	le	_	_	497-8	_	_	
+498-10	12595-12601	piante	_	_	WeaklyRising	piante,	_	_	497-9	_	_	
+
+#Text=no
+499-1	12602-12604	no	_	_	Rising	no?	_	TOI031	498-0	_	_	
+
+#Text=patisco questa assenza di luce
+500-1	12605-12612	patisco	_	_	_	patisco	_	TOI031	499-0	_	_	
+500-2	12613-12619	questa	_	_	_	questa	_	_	499-1	_	_	
+500-3	12620-12627	assenza	_	_	_	assenza	_	_	499-2	_	_	
+500-4	12628-12630	di	_	_	_	di	_	_	499-3	_	_	
+500-5	12631-12635	luce	_	_	Falling	luce.	_	_	499-4	_	_	
+
+#Text=quindi sei
+501-1	12636-12642	quindi	_	_	_	\[quindi	_	TOR006	500-0	*->162-1	*[162]	
+501-2	12643-12646	sei	_	_	WeaklyRising	sei:::\],	_	_	500-1	*->162-2	*[162]	
+
+#Text=e quindi sono più felice quando lavoro fino alle nove e mezza
+502-1	12647-12648	e	_	_	_	\[e	_	TOI031	501-0	*->162-3	*[162]	
+502-2	12649-12655	quindi	_	_	_	quindi	_	_	501-1	*->162-4	*[162]	
+502-3	12656-12660	sono	_	_	_	sono	_	_	501-2	*->162-5	*[162]	
+502-4	12661-12664	più	_	_	_	più\]	_	_	501-3	*->162-6	*[162]	
+502-5	12665-12671	felice	_	_	_	felice	_	_	501-4	_	_	
+502-6	12672-12678	quando	_	_	_	quando	_	_	501-5	_	_	
+502-7	12679-12685	lavoro	_	_	_	lavoro	_	_	501-6	_	_	
+502-8	12686-12690	fino	_	_	_	fino	_	_	501-7	_	_	
+502-9	12691-12695	alle	_	_	_	alle	_	_	501-8	_	_	
+502-10	12696-12700	nove	_	_	_	nove	_	_	501-9	_	_	
+502-11	12701-12702	e	_	_	_	e	_	_	501-10	_	_	
+502-12	12703-12708	mezza	_	_	Falling	mezza.	_	_	501-11	_	_	
+
+#Text=perché sei
+503-1	12709-12715	perché	_	_	_	perché	_	TOR006	502-0	_	_	
+503-2	12716-12719	sei	_	_	WeaklyRising	sei,	_	_	502-1	_	_	
+
+#Text=metereopatico
+504-1	12720-12733	metereopatico	_	_	Rising	metereopatico?	_	TOR006	503-0	_	_	
+
+#Text=esatto
+505-1	12734-12740	esatto	_	_	Falling	esatto.	_	TOI031	504-0	_	_	
+
+#Text=no sono no a parte scherzi a parte
+506-1	12741-12743	no	_	_	_	no	_	TOI031	505-0	_	_	
+506-2	12744-12748	sono	_	_	WeaklyRising	sono,	_	_	505-1	_	_	
+506-3	12749-12751	no	_	_	WeaklyRising	no,	_	_	505-2	_	_	
+506-4	12752-12753	a	_	_	_	a	_	_	505-3	_	_	
+506-5	12754-12759	parte	_	_	WeaklyRising	parte,	_	_	505-4	_	_	
+506-6	12760-12767	scherzi	_	_	_	scherzi	_	_	505-5	_	_	
+506-7	12768-12769	a	_	_	_	a	_	_	505-6	_	_	
+506-8	12770-12775	parte	_	_	WeaklyRising	parte,	_	_	505-7	_	_	
+
+#Text=non che voglia lavorare fino alle nove e mezza
+507-1	12776-12779	non	_	_	_	non	_	TOI031	506-0	_	_	
+507-2	12780-12783	che	_	_	_	che	_	_	506-1	_	_	
+507-3	12784-12790	voglia	_	_	_	voglia	_	_	506-2	_	_	
+507-4	12791-12799	lavorare	_	_	_	lavorare	_	_	506-3	_	_	
+507-5	12800-12804	fino	_	_	_	fino	_	_	506-4	_	_	
+507-6	12805-12809	alle	_	_	_	alle	_	_	506-5	_	_	
+507-7	12810-12814	nove	_	_	_	nove	_	_	506-6	_	_	
+507-8	12815-12816	e	_	_	_	e	_	_	506-7	_	_	
+507-9	12817-12822	mezza	_	_	WeaklyRising	mezza,	_	_	506-8	_	_	
+
+#Text=poi non è sempre così e spesso finiamo anche prima
+508-1	12823-12826	poi	_	_	_	poi	_	TOI031	507-0	_	_	
+508-2	12827-12830	non	_	_	_	non	_	_	507-1	_	_	
+508-3	12831-12832	è	_	_	_	è	_	_	507-2	_	_	
+508-4	12833-12839	sempre	_	_	_	sempre	_	_	507-3	_	_	
+508-5	12840-12844	così	_	_	_	così	_	_	507-4	_	_	
+508-6	12845-12846	e	_	_	_	e	_	_	507-5	_	_	
+508-7	12847-12853	spesso	_	_	_	spesso	_	_	507-6	_	_	
+508-8	12854-12861	finiamo	_	_	_	finiamo	_	_	507-7	_	_	
+508-9	12862-12867	anche	_	_	_	anche	_	_	507-8	_	_	
+508-10	12868-12873	prima	_	_	WeaklyRising	prima,	_	_	507-9	_	_	
+
+#Text=solo che in effetti stare fuori
+509-1	12874-12878	solo	_	_	_	solo	_	TOI031	508-0	_	_	
+509-2	12879-12882	che	_	_	_	che	_	_	508-1	_	_	
+509-3	12883-12885	in	_	_	_	in	_	_	508-2	_	_	
+509-4	12886-12893	effetti	_	_	WeaklyRising	effetti,	_	_	508-3	_	_	
+509-5	12894-12899	stare	_	_	_	stare	_	_	508-4	_	_	
+509-6	12900-12905	fuori	_	_	WeaklyRising	fuori,	_	_	508-5	_	_	
+
+#Text=mh
+510-1	12906-12908	mh	BC	_	_	m::h	_	TOI031	509-0	_	_	
+
+#Text=fare un lavoro all' aperto
+511-1	12909-12913	fare	_	_	_	fare	_	TOI031	510-0	_	_	
+511-2	12914-12916	un	_	_	_	un	_	_	510-1	_	_	
+511-3	12917-12923	lavoro	_	_	_	lavoro	_	_	510-2	_	_	
+511-4	12924-12928	all'	_	_	_	all'	_	_	510-3	_	_	
+511-5	12929-12935	aperto	_	_	WeaklyRising	aperto,	_	_	510-4	_	_	
+
+#Text=cioè uno scambio di energia con la natura molto potente
+512-1	12936-12940	cioè	_	_	_	c(io)è	_	TOI031	511-0	_	_	
+512-2	12941-12944	uno	_	_	_	uno	_	_	511-1	_	_	
+512-3	12945-12952	scambio	_	_	_	scambio	_	_	511-2	_	_	
+512-4	12953-12955	di	_	_	_	di	_	_	511-3	_	_	
+512-5	12956-12963	energia	_	_	_	energia	_	_	511-4	_	_	
+512-6	12964-12967	con	_	_	_	con	_	_	511-5	_	_	
+512-7	12968-12970	la	_	_	_	la	_	_	511-6	_	_	
+512-8	12971-12977	natura	_	_	_	natura	_	_	511-7	_	_	
+512-9	12978-12983	molto	_	_	_	molto	_	_	511-8	_	_	
+512-10	12984-12991	potente	_	_	WeaklyRising	potente,	_	_	511-9	_	_	
+
+#Text=almeno io la vivo così
+513-1	12992-12998	almeno	_	_	_	almeno	_	TOI031	512-0	_	_	
+513-2	12999-13001	io	_	_	_	io	_	_	512-1	_	_	
+513-3	13002-13004	la	_	_	_	la	_	_	512-2	_	_	
+513-4	13005-13009	vivo	_	_	_	vivo	_	_	512-3	_	_	
+513-5	13010-13014	così	_	_	WeaklyRising	così,	_	_	512-4	_	_	
+
+#Text=e quindi
+514-1	13015-13016	e	_	_	_	e	_	TOI031	513-0	_	_	
+514-2	13017-13023	quindi	_	_	WeaklyRising	quindi,	_	_	513-1	_	_	
+
+#Text=è chiaro che d' inverno
+515-1	13024-13025	è	_	_	_	è	_	TOI031	514-0	_	_	
+515-2	13026-13032	chiaro	_	_	_	\[chiaro	_	_	514-1	*->6-1	*[6]	
+515-3	13033-13036	che	_	_	_	che	_	_	514-2	*->6-2	*[6]	
+515-4	13037-13039	d'	_	_	_	d'	_	_	514-3	*->6-3	*[6]	
+515-5	13040-13047	inverno	_	_	WeaklyRising	\]inverno,	_	_	514-4	_	_	
+
+#Text=okay
+516-1	13048-13052	okay	BC	_	_	\[okay\]	_	TOR006	515-0	*->6-4	*[6]	
+
+#Text=è tutto molto più scarso
+517-1	13053-13054	è	_	_	_	è	_	TOI031	516-0	_	_	
+517-2	13055-13060	tutto	_	_	_	tutto	_	_	516-1	_	_	
+517-3	13061-13066	molto	_	_	_	molto	_	_	516-2	_	_	
+517-4	13067-13070	più	_	_	_	più	_	_	516-3	_	_	
+517-5	13071-13077	scarso	_	_	Falling	scarso.	_	_	516-4	_	_	
+
+#Text=perché fa freddo eccetera
+518-1	13078-13084	perché	_	_	WeaklyRising	perché,	_	TOI031	517-0	_	_	
+518-2	13085-13087	fa	_	_	_	fa	_	_	517-1	_	_	
+518-3	13088-13094	freddo	_	_	WeaklyRising	freddo,	_	_	517-2	_	_	
+518-4	13095-13103	eccetera	_	_	WeaklyRising	eccetera,	_	_	517-3	_	_	
+
+#Text=d' estate arrivi in alcune giornate che [PAUSE] arrivi alle nove
+519-1	13104-13106	d'	_	_	_	d'	_	TOI031	518-0	_	_	
+519-2	13107-13113	estate	_	_	WeaklyRising	estate,	_	_	518-1	_	_	
+519-3	13114-13120	arrivi	_	_	_	arrivi	_	_	518-2	_	_	
+519-4	13121-13123	in	_	_	_	in	_	_	518-3	_	_	
+519-5	13124-13130	alcune	_	_	_	alcune	_	_	518-4	_	_	
+519-6	13131-13139	giornate	_	_	_	giornate	_	_	518-5	_	_	
+519-7	13140-13143	che	_	_	WeaklyRising	che:,	_	_	518-6	_	_	
+519-8	13144-13151	[PAUSE]	_	_	_	(.)	_	_	518-7	_	_	
+519-9	13152-13158	arrivi	_	_	_	arrivi	_	_	518-8	_	_	
+519-10	13159-13163	alle	_	_	_	alle	_	_	518-9	_	_	
+519-11	13164-13168	nove	_	_	WeaklyRising	nove,	_	_	518-10	_	_	
+
+#Text=hai lavorato e poi hai ancora le energie di uscire perché sei tutto pieno di vita no
+520-1	13169-13172	hai	_	_	_	hai	_	TOI031	519-0	_	_	
+520-2	13173-13181	lavorato	_	_	WeaklyRising	lavorato,	_	_	519-1	_	_	
+520-3	13182-13183	e	_	_	_	e	_	_	519-2	_	_	
+520-4	13184-13187	poi	_	_	_	poi	_	_	519-3	_	_	
+520-5	13188-13191	hai	_	_	_	hai	_	_	519-4	_	_	
+520-6	13192-13198	ancora	_	_	_	ancora	_	_	519-5	_	_	
+520-7	13199-13201	le	_	_	_	le	_	_	519-6	_	_	
+520-8	13202-13209	energie	_	_	_	energie	_	_	519-7	_	_	
+520-9	13210-13212	di	_	_	_	di	_	_	519-8	_	_	
+520-10	13213-13219	uscire	_	_	_	uscire	_	_	519-9	_	_	
+520-11	13220-13226	perché	_	_	_	perché	_	_	519-10	_	_	
+520-12	13227-13230	sei	_	_	_	sei	_	_	519-11	_	_	
+520-13	13231-13236	tutto	_	_	_	tutto	_	_	519-12	_	_	
+520-14	13237-13242	pieno	_	_	_	pieno	_	_	519-13	_	_	
+520-15	13243-13245	di	_	_	_	di	_	_	519-14	_	_	
+520-16	13246-13250	vita	_	_	_	vita	_	_	519-15	_	_	
+520-17	13251-13253	no	_	_	Rising	no?	_	_	519-16	_	_	
+
+#Text=cioè tra il sole e tutte le cose
+521-1	13254-13258	cioè	_	_	_	c(io)è	_	TOI031	520-0	_	_	
+521-2	13259-13262	tra	_	_	_	tra	_	_	520-1	_	_	
+521-3	13263-13265	il	_	_	_	il	_	_	520-2	_	_	
+521-4	13266-13270	sole	_	_	WeaklyRising	sole,	_	_	520-3	_	_	
+521-5	13271-13272	e	_	_	_	e	_	_	520-4	_	_	
+521-6	13273-13278	tutte	_	_	_	tutte	_	_	520-5	_	_	
+521-7	13279-13281	le	_	_	_	le	_	_	520-6	_	_	
+521-8	13282-13286	cose	_	_	WeaklyRising	cose,	_	_	520-7	_	_	
+
+#Text=no
+522-1	13287-13289	no	_	_	Rising	no?	_	TOI031	521-0	_	_	
+
+#Text=certo
+523-1	13290-13295	certo	BC	_	_	certo	_	TOR006	522-0	_	_	
+
+#Text=mentre l' inverno un pochettino
+524-1	13296-13302	mentre	_	_	_	mentre	_	TOI031	523-0	_	_	
+524-2	13303-13305	l'	_	_	_	l'	_	_	523-1	_	_	
+524-3	13306-13313	inverno	_	_	_	inverno	_	_	523-2	_	_	
+524-4	13314-13316	un	_	_	_	un	_	_	523-3	_	_	
+524-5	13317-13327	pochettino	_	_	WeaklyRising	pochettino,	_	_	523-4	_	_	
+
+#Text=lo dice già da sé
+525-1	13328-13330	lo	_	_	_	lo	_	TOI031	524-0	_	_	
+525-2	13331-13335	dice	_	_	_	dice	_	_	524-1	_	_	
+525-3	13336-13339	già	_	_	_	già	_	_	524-2	_	_	
+525-4	13340-13342	da	_	_	_	da	_	_	524-3	_	_	
+525-5	13343-13345	sé	_	_	Falling	sé.	_	_	524-4	_	_	
+
+#Text=x
+526-1	13346-13347	x	_	_	_	xxx	_	TOI031	525-0	_	_	
+
+#Text=ti gela proprio [PAUSE] la voglia
+527-1	13348-13350	ti	_	_	_	ti	_	TOI031	526-0	_	_	
+527-2	13351-13355	gela	_	_	_	gela	_	_	526-1	_	_	
+527-3	13356-13363	proprio	_	_	WeaklyRising	proprio,	_	_	526-2	_	_	
+527-4	13364-13371	[PAUSE]	_	_	_	(.)	_	_	526-3	_	_	
+527-5	13372-13374	la	_	_	_	la	_	_	526-4	_	_	
+527-6	13375-13381	voglia	_	_	Falling	voglia.	_	_	526-5	_	_	
+
+#Text=di fare
+528-1	13382-13384	di	_	_	_	\[di	_	TOI031	527-0	*->118-1	*[118]	
+528-2	13385-13389	fare	_	_	_	fare\]	_	_	527-1	*->118-2	*[118]	
+
+#Text=ti gela l' anima
+529-1	13390-13392	ti	_	_	_	\[ti	_	TOR006	528-0	*->118-3	*[118]	
+529-2	13393-13397	gela	_	_	_	gela\]	_	_	528-1	*->118-4	*[118]	
+529-3	13398-13400	l'	_	_	_	l'	_	_	528-2	_	_	
+529-4	13401-13406	anima	_	_	Falling	anima.	_	_	528-3	_	_	
+
+#Text=esatto
+530-1	13407-13413	esatto	BC	_	Falling	esatto.	_	TOI031	529-0	_	_	
+
+#Text=ma e quindi questa cosa che vivi [PAUSE] in sintonia con le piante
+531-1	13414-13416	ma	_	_	_	ma::	_	TOR006	530-0	_	_	
+531-2	13417-13418	e	_	_	_	e	_	_	530-1	_	_	
+531-3	13419-13425	quindi	_	_	_	quindi	_	_	530-2	_	_	
+531-4	13426-13432	questa	_	_	_	questa	_	_	530-3	_	_	
+531-5	13433-13437	cosa	_	_	_	cosa	_	_	530-4	_	_	
+531-6	13438-13441	che	_	_	_	che	_	_	530-5	_	_	
+531-7	13442-13446	vivi	_	_	WeaklyRising	vivi::,	_	_	530-6	_	_	
+531-8	13447-13454	[PAUSE]	_	_	_	(.)	_	_	530-7	_	_	
+531-9	13455-13457	in	_	_	_	in	_	_	530-8	_	_	
+531-10	13458-13466	sintonia	_	_	_	sintonia	_	_	530-9	_	_	
+531-11	13467-13470	con	_	_	_	con	_	_	530-10	_	_	
+531-12	13471-13473	le	_	_	_	le	_	_	530-11	_	_	
+531-13	13474-13480	piante	_	_	WeaklyRising	piante,	_	_	530-12	_	_	
+
+#Text=ma tu
+532-1	13481-13483	ma	_	_	_	ma	_	TOR006	531-0	_	_	
+532-2	13484-13486	tu	_	_	WeaklyRising	tu,	_	_	531-1	_	_	
+
+#Text=hai anche delle piante a casa tua
+533-1	13487-13490	hai	_	_	_	hai	_	TOR006	532-0	_	_	
+533-2	13491-13496	anche	_	_	_	anche	_	_	532-1	_	_	
+533-3	13497-13502	delle	_	_	_	delle	_	_	532-2	_	_	
+533-4	13503-13509	piante	_	_	_	piante	_	_	532-3	_	_	
+533-5	13510-13511	a	_	_	_	a	_	_	532-4	_	_	
+533-6	13512-13516	casa	_	_	_	casa	_	_	532-5	_	_	
+533-7	13517-13520	tua	_	_	Rising	tua?	_	_	532-6	_	_	
+
+#Text=sul balcone solo
+534-1	13521-13524	sul	_	_	_	sul	_	TOI031	533-0	_	_	
+534-2	13525-13532	balcone	_	_	_	balcone	_	_	533-1	_	_	
+534-3	13533-13537	solo	_	_	_	solo	_	_	533-2	_	_	
+
+#Text=che piante hai
+535-1	13538-13541	che	_	_	_	che	_	TOR006	534-0	_	_	
+535-2	13542-13548	piante	_	_	_	piante	_	_	534-1	_	_	
+535-3	13549-13552	hai	_	_	_	hai	_	_	534-2	_	_	
+
+#Text=le ba~ banalissime delle viole e dei gelsomini
+536-1	13553-13555	le	_	_	_	le	_	TOI031	535-0	_	_	
+536-2	13556-13559	ba~	_	_	WeaklyRising	ba~,	_	_	535-1	_	_	
+536-3	13560-13571	banalissime	_	_	WeaklyRising	banalissime,	_	_	535-2	_	_	
+536-4	13572-13577	delle	_	_	_	delle	_	_	535-3	_	_	
+536-5	13578-13583	viole	_	_	_	viole	_	_	535-4	_	_	
+536-6	13584-13585	e	_	_	_	e	_	_	535-5	_	_	
+536-7	13586-13589	dei	_	_	_	dei	_	_	535-6	_	_	
+536-8	13590-13599	gelsomini	_	_	Falling	gelsomini.	_	_	535-7	_	_	
+
+#Text=beh però sono belle
+537-1	13600-13603	beh	_	_	_	beh	_	TOR006	536-0	_	_	
+537-2	13604-13608	però	_	_	_	però	_	_	536-1	_	_	
+537-3	13609-13613	sono	_	_	_	sono	_	_	536-2	_	_	
+537-4	13614-13619	belle	_	_	Falling	belle.	_	_	536-3	_	_	
+
+#Text=sì
+538-1	13620-13622	sì	BC	_	Falling	sì.	_	TOI031	537-0	_	_	
+
+#Text=okay
+539-1	13623-13627	okay	BC	_	Falling	okay.	_	TOR006	538-0	_	_	
+
+#Text=e volevo chiederti
+540-1	13628-13629	e	_	_	_	e	_	TOR006	539-0	_	_	
+540-2	13630-13636	volevo	_	_	_	volevo	_	_	539-1	_	_	
+540-3	13637-13646	chiederti	_	_	WeaklyRising	chiederti,	_	_	539-2	_	_	
+
+#Text=tipo [PAUSE] quando andate dai vostri clienti no
+541-1	13647-13651	tipo	_	_	WeaklyRising	tipo,	_	TOR006	540-0	_	_	
+541-2	13652-13659	[PAUSE]	_	_	_	(.)	_	_	540-1	_	_	
+541-3	13660-13666	quando	_	_	_	quando	_	_	540-2	_	_	
+541-4	13667-13673	andate	_	_	_	andate	_	_	540-3	_	_	
+541-5	13674-13677	dai	_	_	_	dai	_	_	540-4	_	_	
+541-6	13678-13684	vostri	_	_	_	vostri	_	_	540-5	_	_	
+541-7	13685-13692	clienti	_	_	_	clienti	_	_	540-6	_	_	
+541-8	13693-13695	no	_	_	WeaklyRising	no,	_	_	540-7	_	_	
+
+#Text=cioè vi succedono delle situazione strane
+542-1	13696-13700	cioè	_	_	_	c(io)è	_	TOR006	541-0	_	_	
+542-2	13701-13703	vi	_	_	_	vi	_	_	541-1	_	_	
+542-3	13704-13713	succedono	_	_	_	succedono	_	_	541-2	_	_	
+542-4	13714-13719	delle	_	_	_	delle	_	_	541-3	_	_	
+542-5	13720-13730	situazione	_	_	_	situazione	_	_	541-4	_	_	
+542-6	13731-13737	strane	_	_	WeaklyRising	strane,	_	_	541-5	_	_	
+
+#Text=che fanno ridere che vi hanno chiamato per sbaglio e poi non rispondono cioè
+543-1	13738-13741	che	_	_	_	che	_	TOR006	542-0	_	_	
+543-2	13742-13747	fanno	_	_	_	fanno	_	_	542-1	_	_	
+543-3	13748-13754	ridere	_	_	WeaklyRising	ridere,	_	_	542-2	_	_	
+543-4	13755-13758	che	_	_	_	che	_	_	542-3	_	_	
+543-5	13759-13761	vi	_	_	_	vi	_	_	542-4	_	_	
+543-6	13762-13767	hanno	_	_	_	hanno	_	_	542-5	_	_	
+543-7	13768-13776	chiamato	_	_	_	chiamato	_	_	542-6	_	_	
+543-8	13777-13780	per	_	_	_	per	_	_	542-7	_	_	
+543-9	13781-13788	sbaglio	_	_	_	sbaglio	_	_	542-8	_	_	
+543-10	13789-13790	e	_	_	_	e	_	_	542-9	_	_	
+543-11	13791-13794	poi	_	_	_	poi	_	_	542-10	_	_	
+543-12	13795-13798	non	_	_	_	non	_	_	542-11	_	_	
+543-13	13799-13809	rispondono	_	_	Falling	rispondono.	_	_	542-12	_	_	
+543-14	13810-13814	cioè	_	_	WeaklyRising	c(io)è,	_	_	542-13	_	_	
+
+#Text=sì succede
+544-1	13815-13817	sì	_	_	WeaklyRising	sì,	_	TOI031	543-0	_	_	
+544-2	13818-13825	succede	_	_	Falling	\[succede\].	_	_	543-1	*->115-1	*[115]	
+
+#Text=raccontami qualche aneddoto
+545-1	13826-13836	raccontami	_	_	_	\[racconta\]mi	_	TOR006	544-0	_	_	
+545-1.1	13826-13834	racconta	_	_	_	_	_	_	_	*->115-2	*[115]	
+545-2	13837-13844	qualche	_	_	_	qualche	_	_	544-1	_	_	
+545-3	13845-13853	aneddoto	_	_	WeaklyRising	aneddoto,	_	_	544-2	_	_	
+
+#Text=un po' strano che ti è successo sul lavoro
+546-1	13854-13856	un	_	_	_	un	_	TOR006	545-0	_	_	
+546-2	13857-13860	po'	_	_	_	po'	_	_	545-1	_	_	
+546-3	13861-13867	strano	_	_	WeaklyRising	strano,	_	_	545-2	_	_	
+546-4	13868-13871	che	_	_	_	che	_	_	545-3	_	_	
+546-5	13872-13874	ti	_	_	_	ti	_	_	545-4	_	_	
+546-6	13875-13876	è	_	_	_	è	_	_	545-5	_	_	
+546-7	13877-13885	successo	_	_	_	successo	_	_	545-6	_	_	
+546-8	13886-13889	sul	_	_	_	sul	_	_	545-7	_	_	
+546-9	13890-13896	lavoro	_	_	WeaklyRising	lavoro,	_	_	545-8	_	_	
+
+#Text=allora cioè potremmo stare qui fino
+547-1	13897-13903	allora	_	_	WeaklyRising	allora,	_	TOI031	546-0	_	_	
+547-2	13904-13908	cioè	_	_	_	c(io)è	_	_	546-1	_	_	
+547-3	13909-13917	potremmo	_	_	_	potremmo	_	_	546-2	_	_	
+547-4	13918-13923	stare	_	_	_	stare	_	_	546-3	_	_	
+547-5	13924-13927	qui	_	_	_	qui	_	_	546-4	_	_	
+547-6	13928-13932	fino	_	_	WeaklyRising	fino::,	_	_	546-5	_	_	
+
+#Text=alle due alle tre del mattino
+548-1	13933-13937	alle	_	_	_	alle	_	TOI031	547-0	_	_	
+548-2	13938-13941	due	_	_	WeaklyRising	due,	_	_	547-1	_	_	
+548-3	13942-13946	alle	_	_	_	alle	_	_	547-2	_	_	
+548-4	13947-13950	tre	_	_	_	tre	_	_	547-3	_	_	
+548-5	13951-13954	del	_	_	_	del	_	_	547-4	_	_	
+548-6	13955-13962	mattino	_	_	Falling	ma\[ttino\].	_	_	547-5	_	_	
+548-6.1	13957-13962	ttino	_	_	_	_	_	_	_	*->85-1	*[85]	
+
+#Text=e stiamoci
+549-1	13963-13964	e	_	_	_	\[e	_	TOR006	548-0	*->85-1|*->85-2	*[85]|*[85]	
+549-2	13965-13973	stiamoci	_	_	Falling	stia\]moci.	_	_	548-1	_	_	
+549-2.1	13965-13969	stia	_	_	_	_	_	_	_	*->85-3	*[85]	
+
+#Text=allora uno
+550-1	13974-13980	allora	_	_	WeaklyRising	allora,	_	TOI031	549-0	_	_	
+550-2	13981-13984	uno	_	_	WeaklyRising	uno,	_	_	549-1	_	_	
+
+#Text=un aneddotto strano è stato quello di
+551-1	13985-13987	un	_	_	_	un	_	TOI031	550-0	_	_	
+551-2	13988-13997	aneddotto	_	_	_	aneddotto	_	_	550-1	_	_	
+551-3	13998-14004	strano	_	_	_	strano	_	_	550-2	_	_	
+551-4	14005-14006	è	_	_	_	è	_	_	550-3	_	_	
+551-5	14007-14012	stato	_	_	_	stato	_	_	550-4	_	_	
+551-6	14013-14019	quello	_	_	_	quello	_	_	550-5	_	_	
+551-7	14020-14022	di	_	_	WeaklyRising	di,	_	_	550-6	_	_	
+
+#Text=essere andato col col mio collega
+552-1	14023-14029	essere	_	_	_	essere	_	TOI031	551-0	_	_	
+552-2	14030-14036	andato	_	_	_	andato	_	_	551-1	_	_	
+552-3	14037-14040	col	_	_	WeaklyRising	col::,	_	_	551-2	_	_	
+552-4	14041-14044	col	_	_	_	col	_	_	551-3	_	_	
+552-5	14045-14048	mio	_	_	_	mio	_	_	551-4	_	_	
+552-6	14049-14056	collega	_	_	WeaklyRising	collega,	_	_	551-5	_	_	
+
+#Text=non col mio titolare eh
+553-1	14057-14060	non	_	_	_	non	_	TOI031	552-0	_	_	
+553-2	14061-14064	col	_	_	_	col	_	_	552-1	_	_	
+553-3	14065-14068	mio	_	_	_	mio	_	_	552-2	_	_	
+553-4	14069-14077	titolare	_	_	_	titolare	_	_	552-3	_	_	
+553-5	14078-14080	eh	_	_	WeaklyRising	eh,	_	_	552-4	_	_	
+
+#Text=un mio collega
+554-1	14081-14083	un	_	_	_	un	_	TOI031	553-0	_	_	
+554-2	14084-14087	mio	_	_	_	mio	_	_	553-1	_	_	
+554-3	14088-14095	collega	_	_	WeaklyRising	collega,	_	_	553-2	_	_	
+
+#Text=all' interno di un complesso di case
+555-1	14096-14100	all'	_	_	_	all'	_	TOI031	554-0	_	_	
+555-2	14101-14108	interno	_	_	_	interno	_	_	554-1	_	_	
+555-3	14109-14111	di	_	_	_	di	_	_	554-2	_	_	
+555-4	14112-14114	un	_	_	_	un	_	_	554-3	_	_	
+555-5	14115-14124	complesso	_	_	_	complesso	_	_	554-4	_	_	
+555-6	14125-14127	di	_	_	_	di	_	_	554-5	_	_	
+555-7	14128-14132	case	_	_	WeaklyRising	case,	_	_	554-6	_	_	
+
+#Text=mh mh
+556-1	14133-14135	mh	BC[19]	_	_	mh	_	TOR006	555-0	_	_	
+556-2	14136-14138	mh	BC[19]	_	_	\[mh\]	_	_	555-1	*->12-1	*[12]	
+
+#Text=e quindi come una sorta di villette a schiera
+557-1	14139-14140	e	_	_	WeaklyRising	\[e\],	_	TOI031	556-0	*->12-2	*[12]	
+557-2	14141-14147	quindi	_	_	_	quindi	_	_	556-1	_	_	
+557-3	14148-14152	come	_	_	_	come	_	_	556-2	_	_	
+557-4	14153-14156	una	_	_	_	una	_	_	556-3	_	_	
+557-5	14157-14162	sorta	_	_	_	sorta	_	_	556-4	_	_	
+557-6	14163-14165	di	_	_	_	di	_	_	556-5	_	_	
+557-7	14166-14174	villette	_	_	_	villette	_	_	556-6	_	_	
+557-8	14175-14176	a	_	_	_	a	_	_	556-7	_	_	
+557-9	14177-14184	schiera	_	_	WeaklyRising	schiera,	_	_	556-8	_	_	
+
+#Text=con i cancelletti di accesso al giardino tutti aperti sostanzialemente perché
+558-1	14185-14188	con	_	_	_	con	_	TOI031	557-0	_	_	
+558-2	14189-14190	i	_	_	_	i	_	_	557-1	_	_	
+558-3	14191-14202	cancelletti	_	_	_	cancelletti	_	_	557-2	_	_	
+558-4	14203-14205	di	_	_	_	di	_	_	557-3	_	_	
+558-5	14206-14213	accesso	_	_	_	accesso	_	_	557-4	_	_	
+558-6	14214-14216	al	_	_	_	al	_	_	557-5	_	_	
+558-7	14217-14225	giardino	_	_	_	giardino	_	_	557-6	_	_	
+558-8	14226-14231	tutti	_	_	_	tutti	_	_	557-7	_	_	
+558-9	14232-14238	aperti	_	_	_	aperti	_	_	557-8	_	_	
+558-10	14239-14255	sostanzialemente	_	_	_	sostanzialemente	_	_	557-9	_	_	
+558-11	14256-14262	perché	_	_	WeaklyRising	perché,	_	_	557-10	_	_	
+
+#Text=miliardi di antifurti ma
+559-1	14263-14271	miliardi	_	_	_	miliardi	_	TOI031	558-0	_	_	
+559-2	14272-14274	di	_	_	_	di	_	_	558-1	_	_	
+559-3	14275-14284	antifurti	_	_	WeaklyRising	antifurti,	_	_	558-2	_	_	
+559-4	14285-14287	ma	_	_	WeaklyRising	ma,	_	_	558-3	_	_	
+
+#Text=perimetrali dalla casa in poi cioè
+560-1	14288-14299	perimetrali	_	_	_	perimetrali	_	TOI031	559-0	_	_	
+560-2	14300-14305	dalla	_	_	_	dalla	_	_	559-1	_	_	
+560-3	14306-14310	casa	_	_	_	casa	_	_	559-2	_	_	
+560-4	14311-14313	in	_	_	_	in	_	_	559-3	_	_	
+560-5	14314-14317	poi	_	_	_	poi	_	_	559-4	_	_	
+560-6	14318-14322	cioè	_	_	_	c(io)è	_	_	559-5	_	_	
+
+#Text=il giardino [PAUSE] in queste villette a schiera x spesso
+561-1	14323-14325	il	_	_	_	il	_	TOI031	560-0	_	_	
+561-2	14326-14334	giardino	_	_	WeaklyRising	giardino,	_	_	560-1	_	_	
+561-3	14335-14342	[PAUSE]	_	_	_	(.)	_	_	560-2	_	_	
+561-4	14343-14345	in	_	_	_	in	_	_	560-3	_	_	
+561-5	14346-14352	queste	_	_	_	queste	_	_	560-4	_	_	
+561-6	14353-14361	villette	_	_	_	villette	_	_	560-5	_	_	
+561-7	14362-14363	a	_	_	_	a	_	_	560-6	_	_	
+561-8	14364-14371	schiera	_	_	WeaklyRising	schiera,	_	_	560-7	_	_	
+561-9	14372-14373	x	_	_	_	xxx	_	_	560-8	_	_	
+561-10	14374-14380	spesso	_	_	WeaklyRising	spesso,	_	_	560-9	_	_	
+
+#Text=non è [PAUSE] contemplato nell' artifurto
+562-1	14381-14384	non	_	_	_	non	_	TOI031	561-0	_	_	
+562-2	14385-14386	è	_	_	WeaklyRising	è,	_	_	561-1	_	_	
+562-3	14387-14394	[PAUSE]	_	_	_	(.)	_	_	561-2	_	_	
+562-4	14395-14406	contemplato	_	_	_	contemplato	_	_	561-3	_	_	
+562-5	14407-14412	nell'	_	_	_	nell'	_	_	561-4	_	_	
+562-6	14413-14422	artifurto	_	_	WeaklyRising	artifurto,	_	_	561-5	_	_	
+
+#Text=perché c' è un giardiniere che va viene eccetera eccetera
+563-1	14423-14429	perché	_	_	_	perché	_	TOI031	562-0	_	_	
+563-2	14430-14432	c'	_	_	_	c'	_	_	562-1	_	_	
+563-3	14433-14434	è	_	_	_	è	_	_	562-2	_	_	
+563-4	14435-14437	un	_	_	_	un	_	_	562-3	_	_	
+563-5	14438-14449	giardiniere	_	_	WeaklyRising	giardiniere,	_	_	562-4	_	_	
+563-6	14450-14453	che	_	_	_	che	_	_	562-5	_	_	
+563-7	14454-14456	va	_	_	_	va	_	_	562-6	_	_	
+563-8	14457-14462	viene	_	_	_	viene	_	_	562-7	_	_	
+563-9	14463-14471	eccetera	_	_	_	eccetera	_	_	562-8	_	_	
+563-10	14472-14480	eccetera	_	_	Falling	eccetera.	_	_	562-9	_	_	
+
+#Text=detto questo
+564-1	14481-14486	detto	_	_	_	detto	_	TOI031	563-0	_	_	
+564-2	14487-14493	questo	_	_	WeaklyRising	questo,	_	_	563-1	_	_	
+
+#Text=abbiamo iniziato a tagliare l' erba a fare una serie di lavori alla velocità della luce perché era estate
+565-1	14494-14501	abbiamo	_	_	_	abbiamo	_	TOI031	564-0	_	_	
+565-2	14502-14510	iniziato	_	_	_	iniziato	_	_	564-1	_	_	
+565-3	14511-14512	a	_	_	_	a	_	_	564-2	_	_	
+565-4	14513-14521	tagliare	_	_	_	tagliare	_	_	564-3	_	_	
+565-5	14522-14524	l'	_	_	_	l'	_	_	564-4	_	_	
+565-6	14525-14529	erba	_	_	WeaklyRising	erba,	_	_	564-5	_	_	
+565-7	14530-14531	a	_	_	_	a	_	_	564-6	_	_	
+565-8	14532-14536	fare	_	_	_	fare	_	_	564-7	_	_	
+565-9	14537-14540	una	_	_	_	una	_	_	564-8	_	_	
+565-10	14541-14546	serie	_	_	_	serie	_	_	564-9	_	_	
+565-11	14547-14549	di	_	_	_	di	_	_	564-10	_	_	
+565-12	14550-14556	lavori	_	_	_	lavori	_	_	564-11	_	_	
+565-13	14557-14561	alla	_	_	_	alla	_	_	564-12	_	_	
+565-14	14562-14570	velocità	_	_	_	velocità	_	_	564-13	_	_	
+565-15	14571-14576	della	_	_	_	della	_	_	564-14	_	_	
+565-16	14577-14581	luce	_	_	WeaklyRising	luce,	_	_	564-15	_	_	
+565-17	14582-14588	perché	_	_	_	perché	_	_	564-16	_	_	
+565-18	14589-14592	era	_	_	_	era	_	_	564-17	_	_	
+565-19	14593-14599	estate	_	_	WeaklyRising	estate,	_	_	564-18	_	_	
+
+#Text=i ritmi sono incalzanti il capo [PAUSE] chiama ogni tre per due dove siete
+566-1	14600-14601	i	_	_	_	i	_	TOI031	565-0	_	_	
+566-2	14602-14607	ritmi	_	_	_	ritmi	_	_	565-1	_	_	
+566-3	14608-14612	sono	_	_	_	sono	_	_	565-2	_	_	
+566-4	14613-14623	incalzanti	_	_	WeaklyRising	incalzanti,	_	_	565-3	_	_	
+566-5	14624-14626	il	_	_	_	il	_	_	565-4	_	_	
+566-6	14627-14631	capo	_	_	WeaklyRising	capo,	_	_	565-5	_	_	
+566-7	14632-14639	[PAUSE]	_	_	_	(.)	_	_	565-6	_	_	
+566-8	14640-14646	chiama	_	_	_	chiama	_	_	565-7	_	_	
+566-9	14647-14651	ogni	_	_	_	ogni	_	_	565-8	_	_	
+566-10	14652-14655	tre	_	_	_	tre	_	_	565-9	_	_	
+566-11	14656-14659	per	_	_	_	per	_	_	565-10	_	_	
+566-12	14660-14663	due	_	_	WeaklyRising	due,	_	_	565-11	_	_	
+566-13	14664-14668	dove	_	_	_	dove	_	_	565-12	_	_	
+566-14	14669-14674	siete	_	_	Rising	siete?	_	_	565-13	_	_	
+
+#Text=allora tempo stimato x insomma
+567-1	14675-14681	allora	_	_	_	allora	_	TOI031	566-0	_	_	
+567-2	14682-14687	tempo	_	_	_	tempo	_	_	566-1	_	_	
+567-3	14688-14695	stimato	_	_	_	stimato	_	_	566-2	_	_	
+567-4	14696-14697	x	_	_	_	xxxx	_	_	566-3	_	_	
+567-5	14698-14705	insomma	_	_	WeaklyRising	insomma,	_	_	566-4	_	_	
+
+#Text=cioè è un capo molto esigente
+568-1	14706-14710	cioè	_	_	_	c(io)è	_	TOR006	567-0	_	_	
+568-2	14711-14712	è	_	_	_	è	_	_	567-1	_	_	
+568-3	14713-14715	un	_	_	_	un	_	_	567-2	_	_	
+568-4	14716-14720	capo	_	_	_	capo	_	_	567-3	_	_	
+568-5	14721-14726	molto	_	_	WeaklyRising	molto:::,	_	_	567-4	_	_	
+568-6	14727-14735	esigente	_	_	_	\[esigente\]	_	_	567-5	*->50-1	*[50]	
+
+#Text=no non è il capo sono i clienti esigenti perché tutti vogliono l' erba tagliata dappertutto
+569-1	14736-14738	no	_	_	_	\[no	_	TOI031	568-0	*->50-2	*[50]	
+569-2	14739-14742	non	_	_	_	non	_	_	568-1	*->50-3	*[50]	
+569-3	14743-14744	è	_	_	_	è	_	_	568-2	*->50-4	*[50]	
+569-4	14745-14747	il	_	_	_	il\]	_	_	568-3	*->50-5	*[50]	
+569-5	14748-14752	capo	_	_	Falling	capo.	_	_	568-4	_	_	
+569-6	14753-14757	sono	_	_	_	sono	_	_	568-5	_	_	
+569-7	14758-14759	i	_	_	_	i	_	_	568-6	_	_	
+569-8	14760-14767	clienti	_	_	_	clienti	_	_	568-7	_	_	
+569-9	14768-14776	esigenti	_	_	_	esigenti	_	_	568-8	_	_	
+569-10	14777-14783	perché	_	_	_	perché	_	_	568-9	_	_	
+569-11	14784-14789	tutti	_	_	_	tutti	_	_	568-10	_	_	
+569-12	14790-14798	vogliono	_	_	_	vogliono	_	_	568-11	_	_	
+569-13	14799-14801	l'	_	_	_	l'	_	_	568-12	_	_	
+569-14	14802-14806	erba	_	_	_	erba	_	_	568-13	_	_	
+569-15	14807-14815	tagliata	_	_	_	tagliata	_	_	568-14	_	_	
+569-16	14816-14827	dappertutto	_	_	WeaklyRising	dappertutto,	_	_	568-15	_	_	
+
+#Text=e l' erba cresce contemporaneamente
+570-1	14828-14829	e	_	_	_	e	_	TOI031	569-0	_	_	
+570-2	14830-14832	l'	_	_	_	l'	_	_	569-1	_	_	
+570-3	14833-14837	erba	_	_	_	erba	_	_	569-2	_	_	
+570-4	14838-14844	cresce	_	_	_	cresce	_	_	569-3	_	_	
+570-5	14845-14863	contemporaneamente	_	_	Falling	contemporaneamente.	_	_	569-4	_	_	
+
+#Text=((ride))
+571-1	14864-14872	((ride))	_	_	_	((ride))	_	TOR006	570-0	_	_	
+
+#Text=questo
+572-1	14873-14879	questo	_	_	_	que\[sto\]	_	TOI031	571-0	_	_	
+572-1.1	14876-14879	sto	_	_	_	_	_	_	_	*->111-1	*[111]	
+
+#Text=e ma l' erba cresce cioè
+573-1	14880-14881	e	_	_	_	\[e	_	TOR006	572-0	*->111-1|*->111-2	*[111]|*[111]	
+573-2	14882-14884	ma	_	_	_	ma\]	_	_	572-1	*->111-3	*[111]	
+573-2.1	14882-14882		_	_	_	_	_	_	_	*->111-1	*[111]	
+573-3	14885-14887	l'	_	_	_	l'	_	_	572-2	_	_	
+573-4	14888-14892	erba	_	_	_	erba	_	_	572-3	_	_	
+573-5	14893-14899	cresce	_	_	_	cresce	_	_	572-4	_	_	
+573-6	14900-14904	cioè	_	_	_	\[cioè\]	_	_	572-5	*->1-1	*[1]	
+
+#Text=certo x
+574-1	14905-14910	certo	BC	_	_	\[certo	_	TOI031	573-0	_	_	
+574-2	14911-14912	x	_	_	_	xxx\]	_	_	573-1	_	_	
+
+#Text=è il suo lavoro povera donna
+575-1	14913-14914	è	_	_	_	\[è	_	TOR006	574-0	*->77-1	*[77]	
+575-2	14915-14917	il	_	_	_	il	_	_	574-1	*->77-2	*[77]	
+575-3	14918-14921	suo	_	_	_	suo\]	_	_	574-2	*->77-3	*[77]	
+575-4	14922-14928	lavoro	_	_	WeaklyRising	lavoro,	_	_	574-3	_	_	
+575-5	14929-14935	povera	_	_	_	\[povera	_	_	574-4	*->98-1	*[98]	
+575-6	14936-14941	donna	_	_	Falling	donna\].	_	_	574-5	*->98-2	*[98]	
+
+#Text=x
+576-1	14942-14943	x	_	_	_	\[xxx\]	_	TOI031	575-0	*->98-3	*[98]	
+
+#Text=e quindi quindi
+577-1	14944-14945	e	_	_	_	e	_	TOI031	576-0	*->98-3	*[98]	
+577-2	14946-14952	quindi	_	_	WeaklyRising	quindi,	_	_	576-1	_	_	
+577-3	14953-14959	quindi	_	_	WeaklyRising	quindi,	_	_	576-2	_	_	
+
+#Text=un bel giorno
+578-1	14960-14962	un	_	_	_	un	_	TOI031	577-0	_	_	
+578-2	14963-14966	bel	_	_	_	bel	_	_	577-1	_	_	
+578-3	14967-14973	giorno	_	_	WeaklyRising	giorno,	_	_	577-2	_	_	
+
+#Text=dopo mezz' ora di lavoro ci siamo accorti
+579-1	14974-14978	dopo	_	_	_	dopo	_	TOI031	578-0	_	_	
+579-2	14979-14984	mezz'	_	_	_	mezz'	_	_	578-1	_	_	
+579-3	14985-14988	ora	_	_	_	ora	_	_	578-2	_	_	
+579-4	14989-14991	di	_	_	_	di	_	_	578-3	_	_	
+579-5	14992-14998	lavoro	_	_	WeaklyRising	lavoro,	_	_	578-4	_	_	
+579-6	14999-15001	ci	_	_	_	ci	_	_	578-5	_	_	
+579-7	15002-15007	siamo	_	_	_	siamo	_	_	578-6	_	_	
+579-8	15008-15015	accorti	_	_	WeaklyRising	accorti,	_	_	578-7	_	_	
+
+#Text=con grande amarezza che abbiamo che abbiam sbagliato indirizzo
+580-1	15016-15019	con	_	_	_	con	_	TOI031	579-0	_	_	
+580-2	15020-15026	grande	_	_	_	grande	_	_	579-1	_	_	
+580-3	15027-15035	amarezza	_	_	WeaklyRising	amarezza,	_	_	579-2	_	_	
+580-4	15036-15039	che	_	_	_	che	_	_	579-3	_	_	
+580-5	15040-15047	abbiamo	_	_	WeaklyRising	abbiamo,	_	_	579-4	_	_	
+580-6	15048-15051	che	_	_	_	che	_	_	579-5	_	_	
+580-7	15052-15058	abbiam	_	_	_	abbiam	_	_	579-6	_	_	
+580-8	15059-15068	sbagliato	_	_	_	sbagliato	_	_	579-7	_	_	
+580-9	15069-15078	indirizzo	_	_	Falling	indirizzo.	_	_	579-8	_	_	
+
+#Text=cioè han sbagliato e
+581-1	15079-15083	cioè	_	_	_	c(io)è	_	TOI031	580-0	_	_	
+581-2	15084-15087	han	_	_	_	han	_	_	580-1	_	_	
+581-3	15088-15097	sbagliato	_	_	_	sbagliato	_	_	580-2	_	_	
+581-4	15098-15099	e	_	_	WeaklyRising	e,	_	_	580-3	_	_	
+
+#Text=era facile sbagliarsi perché comunque queste case a schiera
+582-1	15100-15103	era	_	_	_	era	_	TOI031	581-0	_	_	
+582-2	15104-15110	facile	_	_	_	facile	_	_	581-1	_	_	
+582-3	15111-15121	sbagliarsi	_	_	_	sbagliarsi	_	_	581-2	_	_	
+582-4	15122-15128	perché	_	_	_	perché	_	_	581-3	_	_	
+582-5	15129-15137	comunque	_	_	_	comunque	_	_	581-4	_	_	
+582-6	15138-15144	queste	_	_	_	queste	_	_	581-5	_	_	
+582-7	15145-15149	case	_	_	_	case	_	_	581-6	_	_	
+582-8	15150-15151	a	_	_	_	a	_	_	581-7	_	_	
+582-9	15152-15159	schiera	_	_	WeaklyRising	schiera,	_	_	581-8	_	_	
+
+#Text=una [PAUSE] è uguale all' altra
+583-1	15160-15163	una	_	_	WeaklyRising	una,	_	TOI031	582-0	_	_	
+583-2	15164-15171	[PAUSE]	_	_	_	(.)	_	_	582-1	_	_	
+583-3	15172-15173	è	_	_	_	è	_	_	582-2	_	_	
+583-4	15174-15180	uguale	_	_	_	uguale	_	_	582-3	_	_	
+583-5	15181-15185	all'	_	_	_	all'	_	_	582-4	_	_	
+583-6	15186-15191	altra	_	_	Falling	altra.	_	_	582-5	_	_	
+
+#Text=però a un certo punto quando ho detto a gian
+584-1	15192-15196	però	_	_	_	però	_	TOI031	583-0	_	_	
+584-2	15197-15198	a	_	_	_	a	_	_	583-1	_	_	
+584-3	15199-15201	un	_	_	_	un	_	_	583-2	_	_	
+584-4	15202-15207	certo	_	_	_	certo	_	_	583-3	_	_	
+584-5	15208-15213	punto	_	_	_	punto	_	_	583-4	_	_	
+584-6	15214-15220	quando	_	_	_	quando	_	_	583-5	_	_	
+584-7	15221-15223	ho	_	_	_	ho	_	_	583-6	_	_	
+584-8	15224-15229	detto	_	_	_	detto	_	_	583-7	_	_	
+584-9	15230-15231	a	_	_	_	a	_	_	583-8	_	_	
+584-10	15232-15236	gian	_	_	_	gian	_	_	583-9	_	_	
+
+#Text=adesso vai a fare dietro
+585-1	15237-15243	adesso	_	_	_	adesso	_	TOI031	584-0	_	_	
+585-2	15244-15247	vai	_	_	_	vai	_	_	584-1	_	_	
+585-3	15248-15249	a	_	_	_	a	_	_	584-2	_	_	
+585-4	15250-15254	fare	_	_	_	fare	_	_	584-3	_	_	
+585-5	15255-15261	dietro	_	_	WeaklyRising	dietro,	_	_	584-4	_	_	
+
+#Text=il pezzo dietro
+586-1	15262-15264	il	_	_	_	il	_	TOI031	585-0	_	_	
+586-2	15265-15270	pezzo	_	_	_	pezzo	_	_	585-1	_	_	
+586-3	15271-15277	dietro	_	_	WeaklyRising	dietro,	_	_	585-2	_	_	
+
+#Text=quando lui è andato
+587-1	15278-15284	quando	_	_	_	quando	_	TOI031	586-0	_	_	
+587-2	15285-15288	lui	_	_	_	lui	_	_	586-1	_	_	
+587-3	15289-15290	è	_	_	_	è	_	_	586-2	_	_	
+587-4	15291-15297	andato	_	_	WeaklyRising	andato,	_	_	586-3	_	_	
+
+#Text=ha riconosciuto che era completamente diverso da
+588-1	15298-15300	ha	_	_	_	ha	_	TOI031	587-0	_	_	
+588-2	15301-15313	riconosciuto	_	_	_	riconosciuto	_	_	587-1	_	_	
+588-3	15314-15317	che	_	_	_	che	_	_	587-2	_	_	
+588-4	15318-15321	era	_	_	_	era	_	_	587-3	_	_	
+588-5	15322-15335	completamente	_	_	_	completamente	_	_	587-4	_	_	
+588-6	15336-15343	diverso	_	_	_	diverso	_	_	587-5	_	_	
+588-7	15344-15346	da	_	_	WeaklyRising	da,	_	_	587-6	_	_	
+
+#Text=dal solito
+589-1	15347-15350	dal	_	_	_	dal	_	TOI031	588-0	_	_	
+589-2	15351-15357	solito	_	_	Falling	solito.	_	_	588-1	_	_	
+
+#Text=((ride))
+590-1	15358-15366	((ride))	_	_	_	((ride))	_	TOR006	589-0	_	_	
+
+#Text=e quindi ((ride)) abbiamo scoperto che non era quello
+591-1	15367-15368	e	_	_	_	e	_	TOI031	590-0	_	_	
+591-2	15369-15375	quindi	_	_	WeaklyRising	quindi,	_	_	590-1	_	_	
+591-3	15376-15384	((ride))	_	_	_	((ride))	_	_	590-2	_	_	
+591-4	15385-15392	abbiamo	_	_	_	abbiamo	_	_	590-3	_	_	
+591-5	15393-15401	scoperto	_	_	_	scoperto	_	_	590-4	_	_	
+591-6	15402-15405	che	_	_	_	che	_	_	590-5	_	_	
+591-7	15406-15409	non	_	_	_	non	_	_	590-6	_	_	
+591-8	15410-15413	era	_	_	_	era	_	_	590-7	_	_	
+591-9	15414-15420	quello	_	_	Falling	quello.	_	_	590-8	_	_	
+
+#Text=quindi avete fatto un lavoro gratis a uno che manco ve l' aveva chiesto
+592-1	15421-15427	quindi	_	_	_	quindi	_	TOR006	591-0	_	_	
+592-2	15428-15433	avete	_	_	_	avete	_	_	591-1	_	_	
+592-3	15434-15439	fatto	_	_	_	fatto	_	_	591-2	_	_	
+592-4	15440-15442	un	_	_	_	un	_	_	591-3	_	_	
+592-5	15443-15449	lavoro	_	_	_	lavoro	_	_	591-4	_	_	
+592-6	15450-15456	gratis	_	_	_	gratis	_	_	591-5	_	_	
+592-7	15457-15458	a	_	_	_	\[a	_	_	591-6	*->41-1	*[41]	
+592-8	15459-15462	uno	_	_	_	uno	_	_	591-7	*->41-2	*[41]	
+592-9	15463-15466	che	_	_	_	che	_	_	591-8	*->41-3	*[41]	
+592-10	15467-15472	manco	_	_	_	manco\]	_	_	591-9	*->41-4	*[41]	
+592-11	15473-15475	ve	_	_	_	ve	_	_	591-10	_	_	
+592-12	15476-15478	l'	_	_	_	l'	_	_	591-11	_	_	
+592-13	15479-15484	aveva	_	_	_	aveva	_	_	591-12	_	_	
+592-14	15485-15492	chiesto	_	_	Falling	\[chiesto\].	_	_	591-13	*->39-1	*[39]	
+
+#Text=a un altro
+593-1	15493-15494	a	_	_	_	\[a	_	TOI031	592-0	*->41-5	*[41]	
+593-2	15495-15497	un	_	_	_	un	_	_	592-1	*->41-6	*[41]	
+593-3	15498-15503	altro	_	_	_	altro\]	_	_	592-2	*->41-7	*[41]	
+
+#Text=esatto
+594-1	15504-15510	esatto	BC	_	_	\[esatto\]	_	TOI031	593-0	*->39-2	*[39]	
+
+#Text=beh sarà stato felicissimo
+595-1	15511-15514	beh	_	_	_	beh	_	TOR006	594-0	_	_	
+595-2	15515-15519	sarà	_	_	_	sarà	_	_	594-1	_	_	
+595-3	15520-15525	stato	_	_	_	stato	_	_	594-2	_	_	
+595-4	15526-15537	felicissimo	_	_	Falling	feliciss\[imo\].	_	_	594-3	_	_	
+595-4.1	15534-15537	imo	_	_	_	_	_	_	_	*->103-1	*[103]	
+
+#Text=felicissimo infatti
+596-1	15538-15549	felicissimo	_	_	_	\[feli\]cissimo	_	TOI031	595-0	_	_	
+596-1.1	15538-15545	felicis	_	_	_	_	_	_	_	*->103-1	*[103]	
+596-1.2	15538-15542	feli	_	_	_	_	_	_	_	*->103-2	*[103]	
+596-2	15550-15557	infatti	_	_	Falling	infa\[tti\].	_	_	595-1	_	_	
+596-2.1	15554-15557	tti	_	_	_	_	_	_	_	*->62-1	*[62]	
+
+#Text=e poi con l' altro cliente
+597-1	15558-15559	e	_	_	_	\[e	_	TOR006	596-0	*->62-1	*[62]	
+597-2	15560-15563	poi	_	_	_	poi\]	_	_	596-1	_	_	
+597-2.1	15560-15561	p	_	_	_	_	_	_	_	*->62-1	*[62]	
+597-3	15564-15567	con	_	_	_	con	_	_	596-2	_	_	
+597-4	15568-15570	l'	_	_	_	l'	_	_	596-3	_	_	
+597-5	15571-15576	altro	_	_	_	altro	_	_	596-4	_	_	
+597-6	15577-15584	cliente	_	_	Rising	cliente?	_	_	596-5	_	_	
+
+#Text=e niente poi abbiamo fatto ancora più velocemente con l' altro perché
+598-1	15585-15586	e	_	_	_	e	_	TOI031	597-0	_	_	
+598-2	15587-15593	niente	_	_	WeaklyRising	niente,	_	_	597-1	_	_	
+598-3	15594-15597	poi	_	_	_	poi	_	_	597-2	_	_	
+598-4	15598-15605	abbiamo	_	_	_	abbiamo	_	_	597-3	_	_	
+598-5	15606-15611	fatto	_	_	_	fatto	_	_	597-4	_	_	
+598-6	15612-15618	ancora	_	_	_	ancora	_	_	597-5	_	_	
+598-7	15619-15622	più	_	_	_	più	_	_	597-6	_	_	
+598-8	15623-15634	velocemente	_	_	_	velocemente	_	_	597-7	_	_	
+598-9	15635-15638	con	_	_	_	con	_	_	597-8	_	_	
+598-10	15639-15641	l'	_	_	_	l'	_	_	597-9	_	_	
+598-11	15642-15647	altro	_	_	_	altro	_	_	597-10	_	_	
+598-12	15648-15654	perché	_	_	WeaklyRising	perché,	_	_	597-11	_	_	
+
+#Text=((ride))
+599-1	15655-15663	((ride))	_	_	_	((ride))	_	TOR006	598-0	_	_	
+
+#Text=antonio infatti ci chiedeva
+600-1	15664-15671	antonio	_	_	_	antonio	_	TOI031	599-0	_	_	
+600-2	15672-15679	infatti	_	_	_	infatti	_	_	599-1	_	_	
+600-3	15680-15682	ci	_	_	_	ci	_	_	599-2	_	_	
+600-4	15683-15691	chiedeva	_	_	WeaklyRising	chiedeva::,	_	_	599-3	_	_	
+
+#Text=ma senti ma dove
+601-1	15692-15694	ma	_	_	_	ma	_	TOI031	600-0	_	_	
+601-2	15695-15700	senti	_	_	WeaklyRising	senti,	_	_	600-1	_	_	
+601-3	15701-15703	ma	_	_	_	ma	_	_	600-2	_	_	
+601-4	15704-15708	dove	_	_	WeaklyRising	dove,	_	_	600-3	_	_	
+
+#Text=dove siete avete finito
+602-1	15709-15713	dove	_	_	_	dove	_	TOI031	601-0	_	_	
+602-2	15714-15719	siete	_	_	Rising	siete?	_	_	601-1	_	_	
+602-3	15720-15725	avete	_	_	_	avete	_	_	601-2	_	_	
+602-4	15726-15732	finito	_	_	Rising	finito?	_	_	601-3	_	_	
+
+#Text=((ride))
+603-1	15733-15741	((ride))	_	_	_	((ride))	_	TOI031	602-0	_	_	
+
+#Text=((ride)) voi mentite eh
+604-1	15742-15750	((ride))	_	_	_	((ride))	_	TOR006	603-0	_	_	
+604-2	15751-15754	voi	_	_	_	voi	_	_	603-1	_	_	
+604-3	15755-15762	mentite	_	_	_	mentite	_	_	603-2	_	_	
+604-4	15763-15765	eh	_	_	_	eh	_	_	603-3	_	_	
+
+#Text=eh sì ogni tanto sì
+605-1	15766-15768	eh	_	_	_	eh	_	TOI031	604-0	_	_	
+605-2	15769-15771	sì	_	_	WeaklyRising	sì,	_	_	604-1	_	_	
+605-3	15772-15776	ogni	_	_	_	ogni	_	_	604-2	_	_	
+605-4	15777-15782	tanto	_	_	_	tanto	_	_	604-3	_	_	
+605-5	15783-15785	sì	_	_	Falling	sì.	_	_	604-4	_	_	
+
+#Text=((ride))
+606-1	15786-15794	((ride))	_	_	_	((ride))	_	TOR006	605-0	_	_	
+
+#Text=ma invece altre cose
+607-1	15795-15797	ma	_	_	_	ma	_	TOR006	606-0	_	_	
+607-2	15798-15804	invece	_	_	_	invece	_	_	606-1	_	_	
+607-3	15805-15810	altre	_	_	_	altre	_	_	606-2	_	_	
+607-4	15811-15815	cose	_	_	Rising	cose?	_	_	606-3	_	_	
+
+#Text=altre cose
+608-1	15816-15821	altre	_	_	_	altre	_	TOI031	607-0	_	_	
+608-2	15822-15826	cose	_	_	WeaklyRising	cose,	_	_	607-1	_	_	
+
+#Text=alcune hanno
+609-1	15827-15833	alcune	_	_	_	alcune	_	TOI031	608-0	_	_	
+609-2	15834-15839	hanno	_	_	WeaklyRising	hanno,	_	_	608-1	_	_	
+
+#Text=comunque sempre una valenza leggermente
+610-1	15840-15848	comunque	_	_	_	comunque	_	TOI031	609-0	_	_	
+610-2	15849-15855	sempre	_	_	_	sempre	_	_	609-1	_	_	
+610-3	15856-15859	una	_	_	_	una	_	_	609-2	_	_	
+610-4	15860-15867	valenza	_	_	_	valenza	_	_	609-3	_	_	
+610-5	15868-15879	leggermente	_	_	WeaklyRising	leggermente,	_	_	609-4	_	_	
+
+#Text=non so come
+611-1	15880-15883	non	_	_	_	non	_	TOI031	610-0	_	_	
+611-2	15884-15886	so	_	_	_	so	_	_	610-1	_	_	
+611-3	15887-15891	come	_	_	_	come	_	_	610-2	_	_	

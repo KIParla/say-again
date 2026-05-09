@@ -1,0 +1,3942 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Backchannel|backchannel_value
+#T_SP=webanno.custom.Fillers|fillers_values
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Repair|repair_value
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=allora okay ci siamo
+1-1	0-6	allora	_	_	_	allora	_	BOR009	0-0	_	_	
+1-2	7-11	okay	_	_	_	okay	_	_	0-1	_	_	
+1-3	12-14	ci	_	_	_	ci	_	_	0-2	_	_	
+1-4	15-20	siamo	_	_	_	siamo:	_	_	0-3	_	_	
+
+#Text=allora iniziamo con qualcosa prop~ di generale sulla sulla città
+2-1	21-27	allora	_	_	_	allora	_	BOR009	1-0	_	_	
+2-2	28-36	iniziamo	_	_	_	iniziamo	_	_	1-1	_	_	
+2-3	37-40	con	_	_	_	con	_	_	1-2	_	_	
+2-4	41-49	qualcosa	_	_	_	qualcosa	_	_	1-3	_	_	
+2-5	50-55	prop~	_	_	_	prop~	_	_	1-4	_	_	
+2-6	56-58	di	_	_	_	di	_	_	1-5	_	_	
+2-7	59-67	generale	_	_	_	generale	_	_	1-6	_	_	
+2-8	68-73	sulla	_	_	_	sulla:	_	_	1-7	_	_	
+2-9	74-79	sulla	_	_	_	sulla	_	_	1-8	_	_	
+2-10	80-85	città	_	_	_	città	_	_	1-9	_	_	
+
+#Text=tu sei di bologna
+3-1	86-88	tu	_	_	_	\[tu\]	_	BOR009	2-0	*->54-1	*[54]	
+3-2	89-92	sei	_	_	_	sei	_	_	2-1	_	_	
+3-3	93-95	di	_	_	_	di	_	_	2-2	_	_	
+3-4	96-103	bologna	_	_	Rising	bologna?	_	_	2-3	_	_	
+
+#Text=mh
+4-1	104-106	mh	BC	_	_	\[mh\]	_	BOI057	3-0	*->54-2	*[54]	
+
+#Text=sì eh
+5-1	107-109	sì	_	_	_	sì	_	BOI057	4-0	_	_	
+5-2	110-112	eh	_	FP	_	\[e:h\]	_	_	4-1	*->9-1	*[9]	
+
+#Text=bo~
+6-1	113-116	bo~	_	_	_	\[bo~\]	_	BOR009	5-0	*->9-2	*[9]	
+
+#Text=io sono nata a bologna e ti dirò di più sono talmente radicata in questa città
+7-1	117-119	io	_	_	_	io	_	BOI057	6-0	_	_	
+7-2	120-124	sono	_	_	_	sono	_	_	6-1	_	_	
+7-3	125-129	nata	_	_	_	nata	_	_	6-2	_	_	
+7-4	130-131	a	_	_	_	a	_	_	6-3	_	_	
+7-5	132-139	bologna	_	_	_	bologna	_	_	6-4	_	_	
+7-6	140-141	e	_	_	_	e	_	_	6-5	_	_	
+7-7	142-144	ti	_	_	_	ti	_	_	6-6	_	_	
+7-8	145-149	dirò	_	_	_	dirò	_	_	6-7	_	_	
+7-9	150-152	di	_	_	_	di	_	_	6-8	_	_	
+7-10	153-156	più	_	_	_	più	_	_	6-9	_	_	
+7-11	157-161	sono	_	_	_	sono	_	_	6-10	_	_	
+7-12	162-170	talmente	_	_	_	talmente	_	_	6-11	_	_	
+7-13	171-179	radicata	_	_	_	radicata	_	_	6-12	_	_	
+7-14	180-182	in	_	_	_	in	_	_	6-13	_	_	
+7-15	183-189	questa	_	_	_	questa	_	_	6-14	_	_	
+7-16	190-195	città	_	_	_	città	_	_	6-15	_	_	
+
+#Text=che eh mh
+8-1	196-199	che	_	_	_	che	_	BOI057	7-0	_	_	
+8-2	200-202	eh	_	FP[19]	_	eh	_	_	7-1	_	_	
+8-3	203-205	mh	_	FP[19]	_	m:h	_	_	7-2	_	_	
+
+#Text=ho avuto sì ci son stati dei periodi nella vita in cui ho pensato di spostarmi per lavoro
+9-1	206-208	ho	_	_	_	ho	_	BOI057	8-0	_	_	
+9-2	209-214	avuto	_	_	_	avuto	_	_	8-1	_	_	
+9-3	215-217	sì	_	_	_	sì	_	_	8-2	_	_	
+9-4	218-220	ci	_	_	_	ci	_	_	8-3	_	_	
+9-5	221-224	son	_	_	_	son	_	_	8-4	_	_	
+9-6	225-230	stati	_	_	_	stati	_	_	8-5	_	_	
+9-7	231-234	dei	_	_	_	dei	_	_	8-6	_	_	
+9-8	235-242	periodi	_	_	_	periodi	_	_	8-7	_	_	
+9-9	243-248	nella	_	_	_	nella	_	_	8-8	_	_	
+9-10	249-253	vita	_	_	_	vita	_	_	8-9	_	_	
+9-11	254-256	in	_	_	_	in	_	_	8-10	_	_	
+9-12	257-260	cui	_	_	_	cui	_	_	8-11	_	_	
+9-13	261-263	ho	_	_	_	ho	_	_	8-12	_	_	
+9-14	264-271	pensato	_	_	_	pensato	_	_	8-13	_	_	
+9-15	272-274	di	_	_	_	di	_	_	8-14	_	_	
+9-16	275-284	spostarmi	_	_	_	spostarmi	_	_	8-15	_	_	
+9-17	285-288	per	_	_	_	per	_	_	8-16	_	_	
+9-18	289-295	lavoro	_	_	_	lavoro	_	_	8-17	_	_	
+
+#Text=perché il mio lavoro si fa meglio a a milano o a roma
+10-1	296-302	perché	_	_	_	perché	_	BOI057	9-0	_	_	
+10-2	303-305	il	_	_	_	il	_	_	9-1	_	_	
+10-3	306-309	mio	_	_	_	mio	_	_	9-2	_	_	
+10-4	310-316	lavoro	_	_	_	lavoro	_	_	9-3	_	_	
+10-5	317-319	si	_	_	_	si	_	_	9-4	_	_	
+10-6	320-322	fa	_	_	_	fa	_	_	9-5	_	_	
+10-7	323-329	meglio	_	_	_	meglio	_	_	9-6	_	_	
+10-8	330-331	a	_	_	_	a	_	_	9-7	_	_	
+10-9	332-333	a	_	_	_	a	_	_	9-8	_	_	
+10-10	334-340	milano	_	_	_	milano:	_	_	9-9	_	_	
+10-11	341-342	o	_	_	_	o	_	_	9-10	_	_	
+10-12	343-344	a	_	_	_	a	_	_	9-11	_	_	
+10-13	345-349	roma	_	_	_	roma	_	_	9-12	_	_	
+
+#Text=però alla fine eh mh
+11-1	350-354	però	_	_	_	però	_	BOI057	10-0	_	_	
+11-2	355-359	alla	_	_	_	alla	_	_	10-1	_	_	
+11-3	360-364	fine	_	_	_	fine	_	_	10-2	_	_	
+11-4	365-367	eh	_	FP[20]	_	eh	_	_	10-3	_	_	
+11-5	368-370	mh	_	FP[20]	_	m:h	_	_	10-4	_	_	
+
+#Text=un un po' ci si è messo il destino [PAUSE] un po' ci si è messa la mia poca volontà
+12-1	371-373	un	_	_	_	un	_	BOI057	11-0	_	_	
+12-2	374-376	un	_	_	_	un	_	_	11-1	_	_	
+12-3	377-380	po'	_	_	_	po'	_	_	11-2	_	_	
+12-4	381-383	ci	_	_	_	ci	_	_	11-3	_	_	
+12-5	384-386	si	_	_	_	si	_	_	11-4	_	_	
+12-6	387-388	è	_	_	_	è	_	_	11-5	_	_	
+12-7	389-394	messo	_	_	_	messo	_	_	11-6	_	_	
+12-8	395-397	il	_	_	_	il	_	_	11-7	_	_	
+12-9	398-405	destino	_	_	WeaklyRising	destino,	_	_	11-8	_	_	
+12-10	406-413	[PAUSE]	_	_	_	(.)	_	_	11-9	_	_	
+12-11	414-416	un	_	_	_	un	_	_	11-10	_	_	
+12-12	417-420	po'	_	_	_	po'	_	_	11-11	_	_	
+12-13	421-423	ci	_	_	_	ci	_	_	11-12	_	_	
+12-14	424-426	si	_	_	_	si	_	_	11-13	_	_	
+12-15	427-428	è	_	_	_	è	_	_	11-14	_	_	
+12-16	429-434	messa	_	_	_	messa	_	_	11-15	_	_	
+12-17	435-437	la	_	_	_	la	_	_	11-16	_	_	
+12-18	438-441	mia	_	_	_	mia	_	_	11-17	_	_	
+12-19	442-446	poca	_	_	_	poca	_	_	11-18	_	_	
+12-20	447-454	volontà	_	_	WeaklyRising	volontà,	_	_	11-19	_	_	
+
+#Text=((ride))
+13-1	455-463	((ride))	_	_	_	((ride))	_	BOR009	12-0	_	_	
+
+#Text=son rimasta sempre a bologna [PAUSE] con l' aggiunta ulteriore che
+14-1	464-467	son	_	_	_	son	_	BOI057	13-0	_	_	
+14-2	468-475	rimasta	_	_	_	rimasta	_	_	13-1	_	_	
+14-3	476-482	sempre	_	_	_	sempre	_	_	13-2	_	_	
+14-4	483-484	a	_	_	_	a	_	_	13-3	_	_	
+14-5	485-492	bologna	_	_	_	bologna	_	_	13-4	_	_	
+14-6	493-500	[PAUSE]	_	_	_	(.)	_	_	13-5	_	_	
+14-7	501-504	con	_	_	_	con	_	_	13-6	_	_	
+14-8	505-507	l'	_	_	_	l'	_	_	13-7	_	_	
+14-9	508-516	aggiunta	_	_	_	aggiunta	_	_	13-8	_	_	
+14-10	517-526	ulteriore	_	_	_	ulteriore	_	_	13-9	_	_	
+14-11	527-530	che	_	_	_	che	_	_	13-10	_	_	
+
+#Text=per questioni di famiglia per questioni personali
+15-1	531-534	per	_	_	_	per	_	BOI057	14-0	_	_	
+15-2	535-544	questioni	_	_	_	questioni	_	_	14-1	_	_	
+15-3	545-547	di	_	_	_	di	_	_	14-2	_	_	
+15-4	548-556	famiglia	_	_	_	famiglia	_	_	14-3	_	_	
+15-5	557-560	per	_	_	_	per	_	_	14-4	_	_	
+15-6	561-570	questioni	_	_	_	questioni:	_	_	14-5	_	_	
+15-7	571-580	personali	_	_	_	personali	_	_	14-6	_	_	
+
+#Text=vivo addirittura nella stessa casa in cui sono nata
+16-1	581-585	vivo	_	_	_	vivo	_	BOI057	15-0	_	_	
+16-2	586-597	addirittura	_	_	_	addirittura	_	_	15-1	_	_	
+16-3	598-603	nella	_	_	_	nella	_	_	15-2	_	_	
+16-4	604-610	stessa	_	_	_	stessa	_	_	15-3	_	_	
+16-5	611-615	casa	_	_	_	casa	_	_	15-4	_	_	
+16-6	616-618	in	_	_	_	in	_	_	15-5	_	_	
+16-7	619-622	cui	_	_	_	cui	_	_	15-6	_	_	
+16-8	623-627	sono	_	_	_	sono	_	_	15-7	_	_	
+16-9	628-632	nata	_	_	_	nata	_	_	15-8	_	_	
+
+#Text=avrei chiesto se sempre la stessa zona sì
+17-1	633-638	avrei	_	_	_	\[avrei\]	_	BOR009	16-0	*->2-1	*[2]	
+17-2	639-646	chiesto	_	_	_	chiesto	_	_	16-1	_	_	
+17-3	647-649	se	_	_	_	se	_	_	16-2	_	_	
+17-4	650-656	sempre	_	_	_	sempre	_	_	16-3	_	_	
+17-5	657-659	la	_	_	_	la	_	_	16-4	_	_	
+17-6	660-666	stessa	_	_	_	stessa	_	_	16-5	_	_	
+17-7	667-671	zona	_	_	_	zona	_	_	16-6	_	_	
+17-8	672-674	sì	_	_	Rising	sì?	_	_	16-7	_	_	
+
+#Text=x
+18-1	675-676	x	_	_	_	\[xx\]	_	BOI057	17-0	*->2-2	*[2]	
+
+#Text=sì sì allora eh anche quando ho vissuto da sola sono rimasta in questa zona
+19-1	677-679	sì	_	_	_	sì	_	BOI057	18-0	_	_	
+19-1.1	677-677		_	_	_	_	_	_	_	*->2-2	*[2]	
+19-2	680-682	sì	_	_	_	sì	_	_	18-1	_	_	
+19-3	683-689	allora	_	_	_	allora	_	_	18-2	_	_	
+19-4	690-692	eh	_	FP	_	e:h	_	_	18-3	_	_	
+19-5	693-698	anche	_	_	_	anche	_	_	18-4	_	_	
+19-6	699-705	quando	_	_	_	quando	_	_	18-5	_	_	
+19-7	706-708	ho	_	_	_	ho	_	_	18-6	_	_	
+19-8	709-716	vissuto	_	_	_	vissuto	_	_	18-7	_	_	
+19-9	717-719	da	_	_	_	da	_	_	18-8	_	_	
+19-10	720-724	sola	_	_	_	sola:	_	_	18-9	_	_	
+19-11	725-729	sono	_	_	_	sono	_	_	18-10	_	_	
+19-12	730-737	rimasta	_	_	_	rimasta	_	_	18-11	_	_	
+19-13	738-740	in	_	_	_	in	_	_	18-12	_	_	
+19-14	741-747	questa	_	_	_	questa	_	_	18-13	_	_	
+19-15	748-752	zona	_	_	_	zona	_	_	18-14	_	_	
+
+#Text=perché io sono molto territoriale
+20-1	753-759	perché	_	_	_	perché	_	BOI057	19-0	_	_	
+20-2	760-762	io	_	_	_	io	_	_	19-1	_	_	
+20-3	763-767	sono	_	_	_	sono	_	_	19-2	_	_	
+20-4	768-773	molto	_	_	_	molto	_	_	19-3	_	_	
+20-5	774-786	territoriale	_	_	_	territoriale	_	_	19-4	_	_	
+
+#Text=e quindi proprio
+21-1	787-788	e	_	_	_	(°e	_	BOI057	20-0	_	_	
+21-2	789-795	quindi	_	_	_	quindi	_	_	20-1	_	_	
+21-3	796-803	proprio	_	_	_	proprio°)	_	_	20-2	_	_	
+
+#Text=((ride))
+22-1	804-812	((ride))	_	_	_	((ride))	_	BOR009	21-0	_	_	
+
+#Text=io sono molto territoriale eh mh
+23-1	813-815	io	_	_	_	io	_	BOI057	22-0	_	_	
+23-2	816-820	sono	_	_	_	sono	_	_	22-1	_	_	
+23-3	821-826	molto	_	_	_	molto	_	_	22-2	_	_	
+23-4	827-839	territoriale	_	_	_	territoriale	_	_	22-3	_	_	
+23-5	840-842	eh	_	FP[21]	_	eh	_	_	22-4	_	_	
+23-6	843-845	mh	_	FP[21]	_	m:h	_	_	22-5	_	_	
+
+#Text=quindi mi piace uscire e conoscere i negozianti conoscere le persone anche non i vicini di casa ma quelli che incontro al supermercato cioè mi piace questa dimensione da rione
+24-1	846-852	quindi	_	_	_	quindi	_	BOI057	23-0	_	_	
+24-2	853-855	mi	_	_	_	mi	_	_	23-1	_	_	
+24-3	856-861	piace	_	_	_	piace	_	_	23-2	_	_	
+24-4	862-868	uscire	_	_	WeaklyRising	uscire,	_	_	23-3	_	_	
+24-5	869-870	e	_	_	_	e	_	_	23-4	_	_	
+24-6	871-880	conoscere	_	_	_	conoscere	_	_	23-5	_	_	
+24-7	881-882	i	_	_	_	i	_	_	23-6	_	_	
+24-8	883-893	negozianti	_	_	WeaklyRising	negozianti,	_	_	23-7	_	_	
+24-9	894-903	conoscere	_	_	_	conoscere	_	_	23-8	_	_	
+24-10	904-906	le	_	_	_	le	_	_	23-9	_	_	
+24-11	907-914	persone	_	_	_	persone	_	_	23-10	_	_	
+24-12	915-920	anche	_	_	_	anche	_	_	23-11	_	_	
+24-13	921-924	non	_	_	_	non	_	_	23-12	_	_	
+24-14	925-926	i	_	_	_	i	_	_	23-13	_	_	
+24-15	927-933	vicini	_	_	_	vicini	_	_	23-14	_	_	
+24-16	934-936	di	_	_	_	di	_	_	23-15	_	_	
+24-17	937-941	casa	_	_	_	casa	_	_	23-16	_	_	
+24-18	942-944	ma	_	_	_	ma	_	_	23-17	_	_	
+24-19	945-951	quelli	_	_	_	quelli	_	_	23-18	_	_	
+24-20	952-955	che	_	_	_	che	_	_	23-19	_	_	
+24-21	956-964	incontro	_	_	_	incontro	_	_	23-20	_	_	
+24-22	965-967	al	_	_	_	al	_	_	23-21	_	_	
+24-23	968-980	supermercato	_	_	_	supermercato:	_	_	23-22	_	_	
+24-24	981-985	cioè	_	_	_	cioè	_	_	23-23	_	_	
+24-25	986-988	mi	_	_	_	mi	_	_	23-24	_	_	
+24-26	989-994	piace	_	_	_	piace	_	_	23-25	_	_	
+24-27	995-1001	questa	_	_	_	questa	_	_	23-26	_	_	
+24-28	1002-1012	dimensione	_	_	_	dimensione	_	_	23-27	_	_	
+24-29	1013-1015	da	_	_	_	da	_	_	23-28	_	_	
+24-30	1016-1021	rione	_	_	_	rione	_	_	23-29	_	_	
+
+#Text=per cui [PAUSE] quando mi sono spostata sono andata a vivere in via sant' isaia che è qui dietro
+25-1	1022-1025	per	_	_	_	per	_	BOI057	24-0	_	_	
+25-2	1026-1029	cui	_	_	_	cui	_	_	24-1	_	_	
+25-3	1030-1037	[PAUSE]	_	_	_	(.)	_	_	24-2	_	_	
+25-4	1038-1044	quando	_	_	_	quando	_	_	24-3	_	_	
+25-5	1045-1047	mi	_	_	_	mi	_	_	24-4	_	_	
+25-6	1048-1052	sono	_	_	_	sono	_	_	24-5	_	_	
+25-7	1053-1061	spostata	_	_	_	spostata	_	_	24-6	_	_	
+25-8	1062-1066	sono	_	_	_	sono	_	_	24-7	_	_	
+25-9	1067-1073	andata	_	_	_	andata	_	_	24-8	_	_	
+25-10	1074-1075	a	_	_	_	a	_	_	24-9	_	_	
+25-11	1076-1082	vivere	_	_	_	vivere:	_	_	24-10	_	_	
+25-12	1083-1085	in	_	_	_	in	_	_	24-11	_	_	
+25-13	1086-1089	via	_	_	_	via	_	_	24-12	_	_	
+25-14	1090-1095	sant'	_	_	_	sant'	_	_	24-13	_	_	
+25-15	1096-1101	isaia	_	_	_	isaia	_	_	24-14	_	_	
+25-16	1102-1105	che	_	_	_	che	_	_	24-15	_	_	
+25-17	1106-1107	è	_	_	_	è	_	_	24-16	_	_	
+25-18	1108-1111	qui	_	_	_	qui	_	_	24-17	_	_	
+25-19	1112-1118	dietro	_	_	_	dietro	_	_	24-18	_	_	
+
+#Text=sì
+26-1	1119-1121	sì	BC	_	_	sì	_	BOR009	25-0	_	_	
+
+#Text=ed era è stato bellissimo perché quello è proprio ((deglutisce)) il pratello e sant' isaia è proprio un paese
+27-1	1122-1124	ed	_	_	_	ed	_	BOI057	26-0	_	_	
+27-2	1125-1128	era	_	_	_	era	_	_	26-1	_	_	
+27-3	1129-1130	è	_	_	_	è	_	_	26-2	_	_	
+27-4	1131-1136	stato	_	_	_	stato	_	_	26-3	_	_	
+27-5	1137-1147	bellissimo	_	_	_	bellissimo	_	_	26-4	_	_	
+27-6	1148-1154	perché	_	_	_	perché	_	_	26-5	_	_	
+27-7	1155-1161	quello	_	_	_	quello	_	_	26-6	_	_	
+27-8	1162-1163	è	_	_	_	è	_	_	26-7	_	_	
+27-9	1164-1171	proprio	_	_	_	proprio	_	_	26-8	_	_	
+27-10	1172-1186	((deglutisce))	_	_	_	((deglutisce))	_	_	26-9	_	_	
+27-11	1187-1189	il	_	_	_	il	_	_	26-10	_	_	
+27-12	1190-1198	pratello	_	_	_	pratello	_	_	26-11	_	_	
+27-13	1199-1200	e	_	_	_	e	_	_	26-12	_	_	
+27-14	1201-1206	sant'	_	_	_	sant'	_	_	26-13	_	_	
+27-15	1207-1212	isaia	_	_	_	isaia	_	_	26-14	_	_	
+27-16	1213-1214	è	_	_	_	è	_	_	26-15	_	_	
+27-17	1215-1222	proprio	_	_	_	\[proprio\]	_	_	26-16	*->51-1	*[51]	
+27-18	1223-1225	un	_	_	_	un	_	_	26-17	_	_	
+27-19	1226-1231	paese	_	_	_	paese	_	_	26-18	_	_	
+
+#Text=eh
+28-1	1232-1234	eh	BC	_	_	\[e:h\]	_	BOR009	27-0	*->51-2	*[51]	
+
+#Text=cioè mh e far parte di quella
+29-1	1235-1239	cioè	_	_	_	cioè	_	BOI057	28-0	_	_	
+29-2	1240-1242	mh	_	FP	_	mh	_	_	28-1	_	_	
+29-3	1243-1244	e	_	_	_	e	_	_	28-2	_	_	
+29-4	1245-1248	far	_	_	_	far	_	_	28-3	_	_	
+29-5	1249-1254	parte	_	_	_	parte	_	_	28-4	_	_	
+29-6	1255-1257	di	_	_	_	di	_	_	28-5	_	_	
+29-7	1258-1264	quella	_	_	_	quella:	_	_	28-6	_	_	
+
+#Text=rientrare in
+30-1	1265-1274	rientrare	_	_	_	rientrare	_	BOI057	29-0	_	_	
+30-2	1275-1277	in	_	_	_	in	_	_	29-1	_	_	
+
+#Text=mh ecco mi sentivo parte di qualcosa quando abitavo lì
+31-1	1278-1280	mh	_	FP	_	mh	_	BOI057	30-0	_	_	
+31-2	1281-1285	ecco	_	_	_	ecco	_	_	30-1	_	_	
+31-3	1286-1288	mi	_	_	_	mi	_	_	30-2	_	_	
+31-4	1289-1296	sentivo	_	_	_	sentivo	_	_	30-3	_	_	
+31-5	1297-1302	parte	_	_	_	parte	_	_	30-4	_	_	
+31-6	1303-1305	di	_	_	_	di	_	_	30-5	_	_	
+31-7	1306-1314	qualcosa	_	_	_	qualcosa	_	_	30-6	_	_	
+31-8	1315-1321	quando	_	_	_	quando	_	_	30-7	_	_	
+31-9	1322-1329	abitavo	_	_	_	abitavo	_	_	30-8	_	_	
+31-10	1330-1332	lì	_	_	_	lì	_	_	30-9	_	_	
+
+#Text=perché
+32-1	1333-1339	perché	_	_	_	perché:	_	BOI057	31-0	_	_	
+
+#Text=se avevo bisogno io vivevo da sola e se avevo bisogno c' era sempre qualcuno che poteva darmi una mano che voleva darmi una mano
+33-1	1340-1342	se	_	_	_	se	_	BOI057	32-0	_	_	
+33-2	1343-1348	avevo	_	_	_	avevo	_	_	32-1	_	_	
+33-3	1349-1356	bisogno	_	_	_	bisogno	_	_	32-2	_	_	
+33-4	1357-1359	io	_	_	_	io	_	_	32-3	_	_	
+33-5	1360-1366	vivevo	_	_	_	vivevo	_	_	32-4	_	_	
+33-6	1367-1369	da	_	_	_	da	_	_	32-5	_	_	
+33-7	1370-1374	sola	_	_	_	sola	_	_	32-6	_	_	
+33-8	1375-1376	e	_	_	_	e	_	_	32-7	_	_	
+33-9	1377-1379	se	_	_	_	se	_	_	32-8	_	_	
+33-10	1380-1385	avevo	_	_	_	avevo	_	_	32-9	_	_	
+33-11	1386-1393	bisogno	_	_	_	bisogno	_	_	32-10	_	_	
+33-12	1394-1396	c'	_	_	_	c'	_	_	32-11	_	_	
+33-13	1397-1400	era	_	_	_	era	_	_	32-12	_	_	
+33-14	1401-1407	sempre	_	_	_	sempre	_	_	32-13	_	_	
+33-15	1408-1416	qualcuno	_	_	_	qualcuno	_	_	32-14	_	_	
+33-16	1417-1420	che	_	_	_	che	_	_	32-15	_	_	
+33-17	1421-1427	poteva	_	_	_	poteva	_	_	32-16	_	_	
+33-18	1428-1433	darmi	_	_	_	darmi	_	_	32-17	_	_	
+33-19	1434-1437	una	_	_	_	una	_	_	32-18	_	_	
+33-20	1438-1442	mano	_	_	_	mano	_	_	32-19	_	_	
+33-21	1443-1446	che	_	_	_	che	_	_	32-20	_	_	
+33-22	1447-1453	voleva	_	_	_	voleva	_	_	32-21	_	_	
+33-23	1454-1459	darmi	_	_	_	darmi	_	_	32-22	_	_	
+33-24	1460-1463	una	_	_	_	una	_	_	32-23	_	_	
+33-25	1464-1468	mano	_	_	_	mano	_	_	32-24	_	_	
+
+#Text=anche persone che non erano necessariamente mie amiche del cuore
+34-1	1469-1474	anche	_	_	_	anche	_	BOI057	33-0	_	_	
+34-2	1475-1482	persone	_	_	_	persone	_	_	33-1	_	_	
+34-3	1483-1486	che	_	_	_	che	_	_	33-2	_	_	
+34-4	1487-1490	non	_	_	_	non	_	_	33-3	_	_	
+34-5	1491-1496	erano	_	_	_	erano	_	_	33-4	_	_	
+34-6	1497-1512	necessariamente	_	_	_	necessariamente	_	_	33-5	_	_	
+34-7	1513-1516	mie	_	_	_	mie	_	_	33-6	_	_	
+34-8	1517-1523	amiche	_	_	_	amiche	_	_	33-7	_	_	
+34-9	1524-1527	del	_	_	_	del	_	_	33-8	_	_	
+34-10	1528-1533	cuore	_	_	_	cuore	_	_	33-9	_	_	
+
+#Text=poi dopo mi son ridovuta trasferire nella casa di famiglia dove abito adesso
+35-1	1534-1537	poi	_	_	_	poi	_	BOI057	34-0	_	_	
+35-2	1538-1542	dopo	_	_	_	dopo	_	_	34-1	_	_	
+35-3	1543-1545	mi	_	_	_	mi	_	_	34-2	_	_	
+35-4	1546-1549	son	_	_	_	son	_	_	34-3	_	_	
+35-5	1550-1558	ridovuta	_	_	_	ridovuta	_	_	34-4	_	_	
+35-6	1559-1569	trasferire	_	_	_	trasferire	_	_	34-5	_	_	
+35-7	1570-1575	nella	_	_	_	nella	_	_	34-6	_	_	
+35-8	1576-1580	casa	_	_	_	casa	_	_	34-7	_	_	
+35-9	1581-1583	di	_	_	_	di	_	_	34-8	_	_	
+35-10	1584-1592	famiglia	_	_	_	famiglia	_	_	34-9	_	_	
+35-11	1593-1597	dove	_	_	_	dove	_	_	34-10	_	_	
+35-12	1598-1603	abito	_	_	_	abito	_	_	34-11	_	_	
+35-13	1604-1610	adesso	_	_	_	adesso	_	_	34-12	_	_	
+
+#Text=quindi non è che mi sono mossa mai troppo nella vita
+36-1	1611-1617	quindi	_	_	_	quindi	_	BOI057	35-0	_	_	
+36-2	1618-1621	non	_	_	_	non	_	_	35-1	_	_	
+36-3	1622-1623	è	_	_	_	è	_	_	35-2	_	_	
+36-4	1624-1627	che	_	_	_	che	_	_	35-3	_	_	
+36-5	1628-1630	mi	_	_	_	mi	_	_	35-4	_	_	
+36-6	1631-1635	sono	_	_	_	sono	_	_	35-5	_	_	
+36-7	1636-1641	mossa	_	_	_	mossa	_	_	35-6	_	_	
+36-8	1642-1645	mai	_	_	_	mai	_	_	35-7	_	_	
+36-9	1646-1652	troppo	_	_	_	\[troppo	_	_	35-8	*->1-1	*[1]	
+36-10	1653-1658	nella	_	_	_	nella	_	_	35-9	*->1-2	*[1]	
+36-11	1659-1663	vita	_	_	_	vita\]	_	_	35-10	*->1-3	*[1]	
+
+#Text=sei sempre questa zona comunque
+37-1	1664-1667	sei	_	_	_	\[sei	_	BOR009	36-0	*->1-4	*[1]	
+37-2	1668-1674	sempre	_	_	_	sempre\]	_	_	36-1	*->1-5	*[1]	
+37-3	1675-1681	questa	_	_	_	questa	_	_	36-2	_	_	
+37-4	1682-1686	zona	_	_	_	zona	_	_	36-3	_	_	
+37-5	1687-1695	comunque	_	_	_	comunque	_	_	36-4	_	_	
+
+#Text=ho delle radici attaccatissime ((ride)) al suolo
+38-1	1696-1698	ho	_	_	_	ho	_	BOI057	37-0	_	_	
+38-2	1699-1704	delle	_	_	_	delle	_	_	37-1	_	_	
+38-3	1705-1711	radici	_	_	_	radici	_	_	37-2	_	_	
+38-4	1712-1726	attaccatissime	_	_	_	attaccatissime	_	_	37-3	_	_	
+38-5	1727-1735	((ride))	_	_	_	((ride))	_	_	37-4	_	_	
+38-6	1736-1738	al	_	_	_	al	_	_	37-5	_	_	
+38-7	1739-1744	suolo	_	_	_	suolo	_	_	37-6	_	_	
+
+#Text=ma quindi nata sempre pro~ mh qua zona saragozza giusto
+39-1	1745-1747	ma	_	_	_	ma	_	BOR009	38-0	_	_	
+39-2	1748-1754	quindi	_	_	_	quindi:	_	_	38-1	_	_	
+39-3	1755-1759	nata	_	_	_	nata	_	_	38-2	_	_	
+39-4	1760-1766	sempre	_	_	_	sempre	_	_	38-3	_	_	
+39-5	1767-1771	pro~	_	_	_	pro~	_	_	38-4	_	_	
+39-6	1772-1774	mh	_	FP	_	m:h	_	_	38-5	_	_	
+39-7	1775-1778	qua	_	_	_	qua	_	_	38-6	_	_	
+39-8	1779-1783	zona	_	_	_	zona	_	_	38-7	_	_	
+39-9	1784-1793	saragozza	_	_	_	saragozza	_	_	38-8	_	_	
+39-10	1794-1800	giusto	_	_	Rising	giusto?	_	_	38-9	_	_	
+
+#Text=mhmh sì
+40-1	1801-1805	mhmh	_	_	_	mhmh	_	BOI057	39-0	_	_	
+40-2	1806-1808	sì	_	_	_	sì	_	_	39-1	_	_	
+
+#Text=e ti sei spostata nella fase del
+41-1	1809-1810	e	_	_	_	e	_	BOR009	40-0	_	_	
+41-2	1811-1813	ti	_	_	_	ti	_	_	40-1	_	_	
+41-3	1814-1817	sei	_	_	_	sei	_	_	40-2	_	_	
+41-4	1818-1826	spostata	_	_	_	spostata	_	_	40-3	_	_	
+41-5	1827-1832	nella	_	_	_	nella	_	_	40-4	_	_	
+41-6	1833-1837	fase	_	_	_	fase	_	_	40-5	_	_	
+41-7	1838-1841	del	_	_	_	del::	_	_	40-6	_	_	
+
+#Text=che che momento a me verrebbe da dire u~ università
+42-1	1842-1845	che	_	_	_	che	_	BOR009	41-0	_	_	
+42-2	1846-1849	che	_	_	_	che	_	_	41-1	_	_	
+42-3	1850-1857	momento	_	_	_	momento	_	_	41-2	_	_	
+42-4	1858-1859	a	_	_	_	a	_	_	41-3	_	_	
+42-5	1860-1862	me	_	_	_	me	_	_	41-4	_	_	
+42-6	1863-1871	verrebbe	_	_	_	verrebbe	_	_	41-5	_	_	
+42-7	1872-1874	da	_	_	_	da	_	_	41-6	_	_	
+42-8	1875-1879	dire	_	_	_	dire:	_	_	41-7	_	_	
+42-9	1880-1882	u~	_	_	_	u~	_	_	41-8	_	_	
+42-10	1883-1893	università	_	_	Rising	università?	_	_	41-9	_	_	
+
+#Text=no x
+43-1	1894-1896	no	_	_	_	no	_	BOI057	42-0	_	_	
+43-2	1897-1898	x	_	_	_	\[xx\]	_	_	42-1	*->10-1	*[10]	
+
+#Text=no
+44-1	1899-1901	no	_	_	_	\[no\]	_	BOR009	43-0	*->10-2	*[10]	
+44-1.1	1899-1899		_	_	_	_	_	_	_	*->10-1	*[10]	
+
+#Text=dopo
+45-1	1902-1906	dopo	_	_	_	\[dopo\]	_	BOR009	44-0	*->39-1	*[39]	
+
+#Text=dopo perché eh
+46-1	1907-1911	dopo	BC	_	_	\[dopo\]	_	BOI057	45-0	*->39-2	*[39]	
+46-2	1912-1918	perché	_	_	_	perché	_	_	45-1	_	_	
+46-3	1919-1921	eh	_	FP	_	e:h	_	_	45-2	_	_	
+
+#Text=mentre ho fatto l' università diciamo che non avevo tante possibilità economiche per poter andare a vivere da sola
+47-1	1922-1928	mentre	_	_	_	mentre	_	BOI057	46-0	_	_	
+47-2	1929-1931	ho	_	_	_	ho	_	_	46-1	_	_	
+47-3	1932-1937	fatto	_	_	_	fatto	_	_	46-2	_	_	
+47-4	1938-1940	l'	_	_	_	l'	_	_	46-3	_	_	
+47-5	1941-1951	università	_	_	_	università	_	_	46-4	_	_	
+47-6	1952-1959	diciamo	_	_	_	diciamo	_	_	46-5	_	_	
+47-7	1960-1963	che	_	_	_	che	_	_	46-6	_	_	
+47-8	1964-1967	non	_	_	_	non	_	_	46-7	_	_	
+47-9	1968-1973	avevo	_	_	_	avevo:	_	_	46-8	_	_	
+47-10	1974-1979	tante	_	_	_	tante	_	_	46-9	_	_	
+47-11	1980-1991	possibilità	_	_	_	possibilità	_	_	46-10	_	_	
+47-12	1992-2002	economiche	_	_	_	economiche	_	_	46-11	_	_	
+47-13	2003-2006	per	_	_	_	per	_	_	46-12	_	_	
+47-14	2007-2012	poter	_	_	_	poter	_	_	46-13	_	_	
+47-15	2013-2019	andare	_	_	_	andare	_	_	46-14	_	_	
+47-16	2020-2021	a	_	_	_	a	_	_	46-15	_	_	
+47-17	2022-2028	vivere	_	_	_	vivere	_	_	46-16	_	_	
+47-18	2029-2031	da	_	_	_	da	_	_	46-17	_	_	
+47-19	2032-2036	sola	_	_	_	sola	_	_	46-18	_	_	
+
+#Text=per cui ho aspettato di trovare un lavoro
+48-1	2037-2040	per	_	_	_	per	_	BOI057	47-0	_	_	
+48-2	2041-2044	cui	_	_	_	cui	_	_	47-1	_	_	
+48-3	2045-2047	ho	_	_	_	ho	_	_	47-2	_	_	
+48-4	2048-2057	aspettato	_	_	_	aspettato	_	_	47-3	_	_	
+48-5	2058-2060	di	_	_	_	di	_	_	47-4	_	_	
+48-6	2061-2068	trovare	_	_	_	trovare	_	_	47-5	_	_	
+48-7	2069-2071	un	_	_	_	un	_	_	47-6	_	_	
+48-8	2072-2078	lavoro	_	_	_	lavoro	_	_	47-7	_	_	
+
+#Text=quando questo lavoro ha cominciato a pagare allora lì mi sono trasferita
+49-1	2079-2085	quando	_	_	_	quando	_	BOI057	48-0	_	_	
+49-2	2086-2092	questo	_	_	_	questo	_	_	48-1	_	_	
+49-3	2093-2099	lavoro	_	_	_	lavoro	_	_	48-2	_	_	
+49-4	2100-2102	ha	_	_	_	ha	_	_	48-3	_	_	
+49-5	2103-2113	cominciato	_	_	_	cominciato	_	_	48-4	_	_	
+49-6	2114-2115	a	_	_	_	a	_	_	48-5	_	_	
+49-7	2116-2122	pagare	_	_	_	pagare	_	_	48-6	_	_	
+49-8	2123-2129	allora	_	_	_	allora	_	_	48-7	_	_	
+49-9	2130-2132	lì	_	_	_	lì	_	_	48-8	_	_	
+49-10	2133-2135	mi	_	_	_	mi	_	_	48-9	_	_	
+49-11	2136-2140	sono	_	_	_	sono	_	_	48-10	_	_	
+49-12	2141-2151	trasferita	_	_	_	trasferita	_	_	48-11	_	_	
+
+#Text=perché mi potevo mantenere da sola potevo vivere da sola tranquillamente
+50-1	2152-2158	perché	_	_	_	perché	_	BOI057	49-0	_	_	
+50-2	2159-2161	mi	_	_	_	mi	_	_	49-1	_	_	
+50-3	2162-2168	potevo	_	_	_	potevo	_	_	49-2	_	_	
+50-4	2169-2178	mantenere	_	_	_	mantenere	_	_	49-3	_	_	
+50-5	2179-2181	da	_	_	_	da	_	_	49-4	_	_	
+50-6	2182-2186	sola	_	_	_	sola	_	_	49-5	_	_	
+50-7	2187-2193	potevo	_	_	_	potevo	_	_	49-6	_	_	
+50-8	2194-2200	vivere	_	_	_	vivere	_	_	49-7	_	_	
+50-9	2201-2203	da	_	_	_	da	_	_	49-8	_	_	
+50-10	2204-2208	sola	_	_	_	sola	_	_	49-9	_	_	
+50-11	2209-2224	tranquillamente	_	_	_	tranquillamente	_	_	49-10	_	_	
+
+#Text=poi in realtà ho avuto un momento di difficoltà economiche perché mh
+51-1	2225-2228	poi	_	_	_	poi	_	BOI057	50-0	_	_	
+51-2	2229-2231	in	_	_	_	in	_	_	50-1	_	_	
+51-3	2232-2238	realtà	_	_	_	realtà	_	_	50-2	_	_	
+51-4	2239-2241	ho	_	_	_	ho	_	_	50-3	_	_	
+51-5	2242-2247	avuto	_	_	_	avuto	_	_	50-4	_	_	
+51-6	2248-2250	un	_	_	_	un	_	_	50-5	_	_	
+51-7	2251-2258	momento	_	_	_	momento	_	_	50-6	_	_	
+51-8	2259-2261	di	_	_	_	di	_	_	50-7	_	_	
+51-9	2262-2272	difficoltà	_	_	_	difficoltà	_	_	50-8	_	_	
+51-10	2273-2283	economiche	_	_	_	economiche	_	_	50-9	_	_	
+51-11	2284-2290	perché	_	_	_	perché:	_	_	50-10	_	_	
+51-12	2291-2293	mh	_	FP	_	m:h	_	_	50-11	_	_	
+
+#Text=prima lavoravo in azienda e lavorare in azienda [PAUSE] stipendio fisso cioè la vita è [PAUSE] abbastanza facile
+52-1	2294-2299	prima	_	_	_	prima	_	BOI057	51-0	_	_	
+52-2	2300-2308	lavoravo	_	_	_	lavoravo	_	_	51-1	_	_	
+52-3	2309-2311	in	_	_	_	in	_	_	51-2	_	_	
+52-4	2312-2319	azienda	_	_	_	azienda	_	_	51-3	_	_	
+52-5	2320-2321	e	_	_	_	e	_	_	51-4	_	_	
+52-6	2322-2330	lavorare	_	_	_	lavorare	_	_	51-5	_	_	
+52-7	2331-2333	in	_	_	_	in	_	_	51-6	_	_	
+52-8	2334-2341	azienda	_	_	_	\[azienda:\]	_	_	51-7	*->45-1	*[45]	
+52-9	2342-2349	[PAUSE]	_	_	_	(.)	_	_	51-8	_	_	
+52-10	2350-2359	stipendio	_	_	_	stipendio	_	_	51-9	_	_	
+52-11	2360-2365	fisso	_	_	_	fisso	_	_	51-10	_	_	
+52-12	2366-2370	cioè	_	_	_	cioè	_	_	51-11	_	_	
+52-13	2371-2373	la	_	_	_	la	_	_	51-12	_	_	
+52-14	2374-2378	vita	_	_	_	vita	_	_	51-13	_	_	
+52-15	2379-2380	è	_	_	_	è	_	_	51-14	_	_	
+52-16	2381-2388	[PAUSE]	_	_	_	(.)	_	_	51-15	_	_	
+52-17	2389-2399	abbastanza	_	_	_	abbastanza	_	_	51-16	_	_	
+52-18	2400-2406	facile	_	_	_	facile	_	_	51-17	_	_	
+
+#Text=mh
+53-1	2407-2409	mh	BC	_	_	\[mh\]	_	BOR009	52-0	*->45-2	*[45]	
+
+#Text=certo
+54-1	2410-2415	certo	BC	_	_	certo	_	BOR009	53-0	_	_	
+
+#Text=eh
+55-1	2416-2418	eh	BC	_	_	eh	_	BOR009	54-0	_	_	
+
+#Text=eh mh
+56-1	2419-2421	eh	_	FP[22]	_	e:h	_	BOI057	55-0	_	_	
+56-2	2422-2424	mh	_	FP[22]	_	m:h	_	_	55-1	_	_	
+
+#Text=invece dopo l' azienda è entrata in un momento di crisi io sono diventata un esubero per cui sono dovuta esodare son diventata freelance
+57-1	2425-2431	invece	_	_	_	invece	_	BOI057	56-0	_	_	
+57-2	2432-2436	dopo	_	_	_	dopo	_	_	56-1	_	_	
+57-3	2437-2439	l'	_	_	_	l'	_	_	56-2	_	_	
+57-4	2440-2447	azienda	_	_	_	azienda	_	_	56-3	_	_	
+57-5	2448-2449	è	_	_	_	è	_	_	56-4	_	_	
+57-6	2450-2457	entrata	_	_	_	entrata	_	_	56-5	_	_	
+57-7	2458-2460	in	_	_	_	in	_	_	56-6	_	_	
+57-8	2461-2463	un	_	_	_	un	_	_	56-7	_	_	
+57-9	2464-2471	momento	_	_	_	momento	_	_	56-8	_	_	
+57-10	2472-2474	di	_	_	_	di	_	_	56-9	_	_	
+57-11	2475-2480	crisi	_	_	WeaklyRising	crisi,	_	_	56-10	_	_	
+57-12	2481-2483	io	_	_	_	io	_	_	56-11	_	_	
+57-13	2484-2488	sono	_	_	_	sono	_	_	56-12	_	_	
+57-14	2489-2498	diventata	_	_	_	diventata	_	_	56-13	_	_	
+57-15	2499-2501	un	_	_	_	un	_	_	56-14	_	_	
+57-16	2502-2509	esubero	_	_	WeaklyRising	esubero,	_	_	56-15	_	_	
+57-17	2510-2513	per	_	_	_	per	_	_	56-16	_	_	
+57-18	2514-2517	cui	_	_	_	cui	_	_	56-17	_	_	
+57-19	2518-2522	sono	_	_	_	sono	_	_	56-18	_	_	
+57-20	2523-2529	dovuta	_	_	_	dovuta	_	_	56-19	_	_	
+57-21	2530-2537	esodare	_	_	_	esodare	_	_	56-20	_	_	
+57-22	2538-2541	son	_	_	_	son	_	_	56-21	_	_	
+57-23	2542-2551	diventata	_	_	_	diventata	_	_	56-22	_	_	
+57-24	2552-2561	freelance	_	_	_	freelance	_	_	56-23	_	_	
+
+#Text=e a quel punto lì
+58-1	2562-2563	e	_	_	_	e	_	BOI057	57-0	_	_	
+58-2	2564-2565	a	_	_	_	a	_	_	57-1	_	_	
+58-3	2566-2570	quel	_	_	_	quel	_	_	57-2	_	_	
+58-4	2571-2576	punto	_	_	_	punto	_	_	57-3	_	_	
+58-5	2577-2579	lì	_	_	_	lì	_	_	57-4	_	_	
+
+#Text=una persona che non ci nasce da libera professionista ma lo deve diventare è dura
+59-1	2580-2583	una	_	_	_	una	_	BOI057	58-0	_	_	
+59-2	2584-2591	persona	_	_	_	persona	_	_	58-1	_	_	
+59-3	2592-2595	che	_	_	_	che	_	_	58-2	_	_	
+59-4	2596-2599	non	_	_	_	non	_	_	58-3	_	_	
+59-5	2600-2602	ci	_	_	_	ci	_	_	58-4	_	_	
+59-6	2603-2608	nasce	_	_	_	nasce	_	_	58-5	_	_	
+59-7	2609-2611	da	_	_	_	da	_	_	58-6	_	_	
+59-8	2612-2618	libera	_	_	_	libera	_	_	58-7	_	_	
+59-9	2619-2633	professionista	_	_	_	professionista	_	_	58-8	_	_	
+59-10	2634-2636	ma	_	_	_	ma	_	_	58-9	_	_	
+59-11	2637-2639	lo	_	_	_	lo	_	_	58-10	_	_	
+59-12	2640-2644	deve	_	_	_	deve	_	_	58-11	_	_	
+59-13	2645-2654	diventare	_	_	_	diventare	_	_	58-12	_	_	
+59-14	2655-2656	è	_	_	_	è	_	_	58-13	_	_	
+59-15	2657-2661	dura	_	_	_	dura	_	_	58-14	_	_	
+
+#Text=eh quindi
+60-1	2662-2664	eh	_	FP	_	e:h	_	BOI057	59-0	_	_	
+60-2	2665-2671	quindi	_	_	_	quindi	_	_	59-1	_	_	
+
+#Text=ho avuto dei periodi in cui ho lavorato benissimo però facevo un po' fatica a programmarmi i clienti quindi ci son stati dei momenti di magra pesanti
+61-1	2672-2674	ho	_	_	_	ho	_	BOI057	60-0	_	_	
+61-2	2675-2680	avuto	_	_	_	avuto	_	_	60-1	_	_	
+61-3	2681-2684	dei	_	_	_	dei	_	_	60-2	_	_	
+61-4	2685-2692	periodi	_	_	_	periodi	_	_	60-3	_	_	
+61-5	2693-2695	in	_	_	_	in	_	_	60-4	_	_	
+61-6	2696-2699	cui	_	_	_	cui	_	_	60-5	_	_	
+61-7	2700-2702	ho	_	_	_	ho	_	_	60-6	_	_	
+61-8	2703-2711	lavorato	_	_	_	lavorato	_	_	60-7	_	_	
+61-9	2712-2721	benissimo	_	_	_	benissimo	_	_	60-8	_	_	
+61-10	2722-2726	però	_	_	_	però	_	_	60-9	_	_	
+61-11	2727-2733	facevo	_	_	_	facevo	_	_	60-10	_	_	
+61-12	2734-2736	un	_	_	_	un	_	_	60-11	_	_	
+61-13	2737-2740	po'	_	_	_	po'	_	_	60-12	_	_	
+61-14	2741-2747	fatica	_	_	_	fatica	_	_	60-13	_	_	
+61-15	2748-2749	a	_	_	_	a	_	_	60-14	_	_	
+61-16	2750-2762	programmarmi	_	_	_	programmarmi	_	_	60-15	_	_	
+61-17	2763-2764	i	_	_	_	i	_	_	60-16	_	_	
+61-18	2765-2772	clienti	_	_	_	clienti	_	_	60-17	_	_	
+61-19	2773-2779	quindi	_	_	_	quindi	_	_	60-18	_	_	
+61-20	2780-2782	ci	_	_	_	ci	_	_	60-19	_	_	
+61-21	2783-2786	son	_	_	_	son	_	_	60-20	_	_	
+61-22	2787-2792	stati	_	_	_	stati	_	_	60-21	_	_	
+61-23	2793-2796	dei	_	_	_	dei	_	_	60-22	_	_	
+61-24	2797-2804	momenti	_	_	_	momenti	_	_	60-23	_	_	
+61-25	2805-2807	di	_	_	_	di	_	_	60-24	_	_	
+61-26	2808-2813	magra	_	_	_	magra	_	_	60-25	_	_	
+61-27	2814-2821	pesanti	_	_	_	pesanti	_	_	60-26	_	_	
+
+#Text=contemporaneamente mia mamma ha avuto bisogno perché non non stava bene
+62-1	2822-2840	contemporaneamente	_	_	_	contemporaneamente	_	BOI057	61-0	_	_	
+62-2	2841-2844	mia	_	_	_	mia	_	_	61-1	_	_	
+62-3	2845-2850	mamma	_	_	_	mamma	_	_	61-2	_	_	
+62-4	2851-2853	ha	_	_	_	ha	_	_	61-3	_	_	
+62-5	2854-2859	avuto	_	_	_	avuto	_	_	61-4	_	_	
+62-6	2860-2867	bisogno	_	_	_	bisogno	_	_	61-5	_	_	
+62-7	2868-2874	perché	_	_	_	perché	_	_	61-6	_	_	
+62-8	2875-2878	non	_	_	_	non	_	_	61-7	_	_	
+62-9	2879-2882	non	_	_	_	non	_	_	61-8	_	_	
+62-10	2883-2888	stava	_	_	_	stava	_	_	61-9	_	_	
+62-11	2889-2893	bene	_	_	_	bene	_	_	61-10	_	_	
+
+#Text=quindi son tornata da lei unendo [PAUSE] l' utile non esattamente al dilettevole però all~ ad altro utile
+63-1	2894-2900	quindi	_	_	_	quindi	_	BOI057	62-0	_	_	
+63-2	2901-2904	son	_	_	_	son	_	_	62-1	_	_	
+63-3	2905-2912	tornata	_	_	_	tornata	_	_	62-2	_	_	
+63-4	2913-2915	da	_	_	_	da	_	_	62-3	_	_	
+63-5	2916-2919	lei	_	_	_	lei	_	_	62-4	_	_	
+63-6	2920-2926	unendo	_	_	_	unendo:	_	_	62-5	_	_	
+63-7	2927-2934	[PAUSE]	_	_	_	(.)	_	_	62-6	_	_	
+63-8	2935-2937	l'	_	_	_	l'	_	_	62-7	_	_	
+63-9	2938-2943	utile	_	_	_	utile	_	_	62-8	_	_	
+63-10	2944-2947	non	_	_	_	non	_	_	62-9	_	_	
+63-11	2948-2959	esattamente	_	_	_	esattamente	_	_	62-10	_	_	
+63-12	2960-2962	al	_	_	_	al	_	_	62-11	_	_	
+63-13	2963-2974	dilettevole	_	_	_	dilettevole	_	_	62-12	_	_	
+63-14	2975-2979	però	_	_	_	però	_	_	62-13	_	_	
+63-15	2980-2984	all~	_	_	_	all~	SR[27]	_	62-14	_	_	
+63-16	2985-2987	ad	_	_	_	ad	SR[27]	_	62-15	_	_	
+63-17	2988-2993	altro	_	_	_	altro	SR[27]	_	62-16	_	_	
+63-18	2994-2999	utile	_	_	_	\[utile\]	SR[27]	_	62-17	*->8-1	*[8]	
+
+#Text=((ride))
+64-1	3000-3008	((ride))	_	_	_	((ride))	_	BOR009	63-0	_	_	
+
+#Text=certo
+65-1	3009-3014	certo	BC	_	_	\[certo\]	_	BOR009	64-0	*->8-2	*[8]	
+
+#Text=e quindi sono son tornata lì
+66-1	3015-3016	e	_	_	_	e	_	BOI057	65-0	_	_	
+66-2	3017-3023	quindi	_	_	_	quindi	_	_	65-1	_	_	
+66-3	3024-3028	sono	_	_	_	sono:	_	_	65-2	_	_	
+66-4	3029-3032	son	_	_	_	son	_	_	65-3	_	_	
+66-5	3033-3040	tornata	_	_	_	tornata	_	_	65-4	_	_	
+66-6	3041-3043	lì	_	_	_	lì	_	_	65-5	_	_	
+
+#Text=anche perché così non dovevo pagare un affitto anzi se guadagnavo potevo aiutare lei
+67-1	3044-3049	anche	_	_	_	anche	_	BOI057	66-0	_	_	
+67-2	3050-3056	perché	_	_	_	perché	_	_	66-1	_	_	
+67-3	3057-3061	così	_	_	_	così	_	_	66-2	_	_	
+67-4	3062-3065	non	_	_	_	non	_	_	66-3	_	_	
+67-5	3066-3072	dovevo	_	_	_	dovevo	_	_	66-4	_	_	
+67-6	3073-3079	pagare	_	_	_	pagare	_	_	66-5	_	_	
+67-7	3080-3082	un	_	_	_	un	_	_	66-6	_	_	
+67-8	3083-3090	affitto	_	_	_	affitto	_	_	66-7	_	_	
+67-9	3091-3095	anzi	_	_	_	anzi	_	_	66-8	_	_	
+67-10	3096-3098	se	_	_	_	se	_	_	66-9	_	_	
+67-11	3099-3109	guadagnavo	_	_	_	guadagnavo	_	_	66-10	_	_	
+67-12	3110-3116	potevo	_	_	_	potevo	_	_	66-11	_	_	
+67-13	3117-3124	aiutare	_	_	_	aiutare	_	_	66-12	_	_	
+67-14	3125-3128	lei	_	_	_	lei	_	_	66-13	_	_	
+
+#Text=sì beh
+68-1	3129-3131	sì	BC[1]	_	_	\[sì	_	BOR009	67-0	*->49-1	*[49]	
+68-2	3132-3135	beh	BC[1]	_	_	beh\]	_	_	67-1	*->49-2	*[49]	
+
+#Text=si evitava la spesa di una infermiera
+69-1	3136-3138	si	_	_	_	\[si	_	BOI057	68-0	*->49-3	*[49]	
+69-2	3139-3146	evitava	_	_	_	evitava\]	_	_	68-1	*->49-4	*[49]	
+69-3	3147-3149	la	_	_	_	la	_	_	68-2	_	_	
+69-4	3150-3155	spesa	_	_	_	spesa	_	_	68-3	_	_	
+69-5	3156-3158	di	_	_	_	di	_	_	68-4	_	_	
+69-6	3159-3162	una	_	_	_	una:	_	_	68-5	_	_	
+69-7	3163-3173	infermiera	_	_	_	infermiera	_	_	68-6	_	_	
+
+#Text=quindi
+70-1	3174-3180	quindi	_	_	_	quindi:	_	BOI057	69-0	_	_	
+
+#Text=e e da allora io vivo sempre lì
+71-1	3181-3182	e	_	_	_	e	_	BOI057	70-0	_	_	
+71-2	3183-3184	e	_	_	_	e	_	_	70-1	_	_	
+71-3	3185-3187	da	_	_	_	da	_	_	70-2	_	_	
+71-4	3188-3194	allora	_	_	_	allora	_	_	70-3	_	_	
+71-5	3195-3197	io	_	_	_	io	_	_	70-4	_	_	
+71-6	3198-3202	vivo	_	_	_	vivo	_	_	70-5	_	_	
+71-7	3203-3209	sempre	_	_	_	sempre	_	_	70-6	_	_	
+71-8	3210-3212	lì	_	_	_	lì	_	_	70-7	_	_	
+
+#Text=abbiamo una casa grande divisa a metà
+72-1	3213-3220	abbiamo	_	_	_	abbiamo	_	BOI057	71-0	_	_	
+72-2	3221-3224	una	_	_	_	una	_	_	71-1	_	_	
+72-3	3225-3229	casa	_	_	_	casa	_	_	71-2	_	_	
+72-4	3230-3236	grande	_	_	_	grande	_	_	71-3	_	_	
+72-5	3237-3243	divisa	_	_	_	divisa	_	_	71-4	_	_	
+72-6	3244-3245	a	_	_	_	a	_	_	71-5	_	_	
+72-7	3246-3250	metà	_	_	_	metà	_	_	71-6	_	_	
+
+#Text=okay
+73-1	3251-3255	okay	BC	_	_	okay	_	BOR009	72-0	_	_	
+
+#Text=che era divisa a metà oggi non è più ((ride)) divisa a metà
+74-1	3256-3259	che	_	_	_	che	_	BOI057	73-0	_	_	
+74-2	3260-3263	era	_	_	_	era	_	_	73-1	_	_	
+74-3	3264-3270	divisa	_	_	_	divisa	_	_	73-2	_	_	
+74-4	3271-3272	a	_	_	_	a	_	_	73-3	_	_	
+74-5	3273-3277	metà	_	_	_	metà	_	_	73-4	_	_	
+74-6	3278-3282	oggi	_	_	_	oggi	_	_	73-5	_	_	
+74-7	3283-3286	non	_	_	_	non	_	_	73-6	_	_	
+74-8	3287-3288	è	_	_	_	è	_	_	73-7	_	_	
+74-9	3289-3292	più	_	_	_	più	_	_	73-8	_	_	
+74-10	3293-3301	((ride))	_	_	_	((ride))	_	_	73-9	_	_	
+74-11	3302-3308	divisa	_	_	_	divisa	_	_	73-10	_	_	
+74-12	3309-3310	a	_	_	_	a	_	_	73-11	_	_	
+74-13	3311-3315	metà	_	_	_	metà	_	_	73-12	_	_	
+
+#Text=((ride))
+75-1	3316-3324	((ride))	_	_	_	((ride))	_	BOR009	74-0	_	_	
+
+#Text=quindi ((ride)) aiuto ((ride)) però mh
+76-1	3325-3331	quindi	_	_	_	quindi	_	BOI057	75-0	_	_	
+76-2	3332-3340	((ride))	_	_	_	((ride))	_	_	75-1	_	_	
+76-3	3341-3346	aiuto	_	_	_	aiuto	_	_	75-2	_	_	
+76-4	3347-3355	((ride))	_	_	_	((ride))	_	_	75-3	_	_	
+76-5	3356-3360	però	_	_	_	però:	_	_	75-4	_	_	
+76-6	3361-3363	mh	_	FP	_	m:h	_	_	75-5	_	_	
+
+#Text=ci son tanti vantaggi ho perso un un bel po' di cose però
+77-1	3364-3366	ci	_	_	_	ci	_	BOI057	76-0	_	_	
+77-2	3367-3370	son	_	_	_	son	_	_	76-1	_	_	
+77-3	3371-3376	tanti	_	_	_	tanti	_	_	76-2	_	_	
+77-4	3377-3385	vantaggi	_	_	_	vantaggi	_	_	76-3	_	_	
+77-5	3386-3388	ho	_	_	_	ho	_	_	76-4	_	_	
+77-6	3389-3394	perso	_	_	_	perso:	_	_	76-5	_	_	
+77-7	3395-3397	un	_	_	_	un	_	_	76-6	_	_	
+77-8	3398-3400	un	_	_	_	un	_	_	76-7	_	_	
+77-9	3401-3404	bel	_	_	_	bel	_	_	76-8	_	_	
+77-10	3405-3408	po'	_	_	_	po'	_	_	76-9	_	_	
+77-11	3409-3411	di	_	_	_	di	_	_	76-10	_	_	
+77-12	3412-3416	cose	_	_	_	cose	_	_	76-11	_	_	
+77-13	3417-3421	però	_	_	_	però	_	_	76-12	_	_	
+
+#Text=magari le recupererò in vecchiaia spero
+78-1	3422-3428	magari	_	_	_	magari	_	BOI057	77-0	_	_	
+78-2	3429-3431	le	_	_	_	le	_	_	77-1	_	_	
+78-3	3432-3442	recupererò	_	_	_	recupererò	_	_	77-2	_	_	
+78-4	3443-3445	in	_	_	_	in	_	_	77-3	_	_	
+78-5	3446-3455	vecchiaia	_	_	_	vecchiaia	_	_	77-4	_	_	
+78-6	3456-3461	spero	_	_	_	(°spero°)	_	_	77-5	_	_	
+
+#Text=((ride))
+79-1	3462-3470	((ride))	_	_	_	((ride))	_	BOR009	78-0	_	_	
+
+#Text=la vita al pratello in da da vecchia
+80-1	3471-3473	la	_	_	_	la	_	BOI057	79-0	_	_	
+80-2	3474-3478	vita	_	_	_	vita	_	_	79-1	_	_	
+80-3	3479-3481	al	_	_	_	al	_	_	79-2	_	_	
+80-4	3482-3490	pratello	_	_	_	pratello	_	_	79-3	_	_	
+80-5	3491-3493	in	_	_	_	in	_	_	79-4	_	_	
+80-6	3494-3496	da	_	_	_	da	_	_	79-5	_	_	
+80-7	3497-3499	da	_	_	_	da	_	_	79-6	_	_	
+80-8	3500-3507	vecchia	_	_	_	vecchia	_	_	79-7	_	_	
+
+#Text=((ride)) beh c' è sempre no~ non si sa mai
+81-1	3508-3516	((ride))	_	_	_	((ride))	_	BOR009	80-0	_	_	
+81-2	3517-3520	beh	_	_	_	beh	_	_	80-1	_	_	
+81-3	3521-3523	c'	_	_	_	c'	_	_	80-2	_	_	
+81-4	3524-3525	è	_	_	_	è	_	_	80-3	_	_	
+81-5	3526-3532	sempre	_	_	_	sempre	_	_	80-4	_	_	
+81-6	3533-3536	no~	_	_	_	no~	_	_	80-5	_	_	
+81-7	3537-3540	non	_	_	_	non	_	_	80-6	_	_	
+81-8	3541-3543	si	_	_	_	si	_	_	80-7	_	_	
+81-9	3544-3546	sa	_	_	_	sa	_	_	80-8	_	_	
+81-10	3547-3550	mai	_	_	_	mai	_	_	80-9	_	_	
+
+#Text=infatti mh quindi vedremo
+82-1	3551-3558	infatti	BC	_	_	infatti	_	BOI057	81-0	_	_	
+82-2	3559-3561	mh	_	FP	_	mh	_	_	81-1	_	_	
+82-3	3562-3568	quindi	_	_	_	quindi	_	_	81-2	_	_	
+82-4	3569-3576	vedremo	_	_	_	vedremo	_	_	81-3	_	_	
+
+#Text=sì sì
+83-1	3577-3579	sì	BC[2]	_	_	\[sì	_	BOR009	82-0	*->18-1	*[18]	
+83-2	3580-3582	sì	BC[2]	_	_	sì\]	_	_	82-1	*->18-2	*[18]	
+
+#Text=mh
+84-1	3583-3585	mh	_	FP	_	\[m:h\]	_	BOI057	83-0	*->18-3	*[18]	
+
+#Text=quindi questo per quanto riguarda la mia [PAUSE] sedentarietà la mia [PAUSE] il mio concetto di abitare anche in un posto
+85-1	3586-3592	quindi	_	_	_	quindi	_	BOI057	84-0	_	_	
+85-2	3593-3599	questo	_	_	_	questo	_	_	84-1	_	_	
+85-3	3600-3603	per	_	_	_	per	_	_	84-2	_	_	
+85-4	3604-3610	quanto	_	_	_	quanto	_	_	84-3	_	_	
+85-5	3611-3619	riguarda	_	_	_	riguarda	_	_	84-4	_	_	
+85-6	3620-3622	la	_	_	_	la	_	_	84-5	_	_	
+85-7	3623-3626	mia	_	_	_	mia	_	_	84-6	_	_	
+85-8	3627-3634	[PAUSE]	_	_	_	(.)	_	_	84-7	_	_	
+85-9	3635-3647	sedentarietà	_	_	WeaklyRising	sedentarietà,	_	_	84-8	_	_	
+85-10	3648-3650	la	_	_	_	la	_	_	84-9	_	_	
+85-11	3651-3654	mia	_	_	_	mia:	_	_	84-10	_	_	
+85-12	3655-3662	[PAUSE]	_	_	_	(.)	_	_	84-11	_	_	
+85-13	3663-3665	il	_	_	_	il	_	_	84-12	_	_	
+85-14	3666-3669	mio	_	_	_	mio	_	_	84-13	_	_	
+85-15	3670-3678	concetto	_	_	_	concetto	_	_	84-14	_	_	
+85-16	3679-3681	di	_	_	_	di	_	_	84-15	_	_	
+85-17	3682-3689	abitare	_	_	_	abitare	_	_	84-16	_	_	
+85-18	3690-3695	anche	_	_	_	anche	_	_	84-17	_	_	
+85-19	3696-3698	in	_	_	_	in	_	_	84-18	_	_	
+85-20	3699-3701	un	_	_	_	un	_	_	84-19	_	_	
+85-21	3702-3707	posto	_	_	_	posto	_	_	84-20	_	_	
+
+#Text=beh sicuramente vuol dire che c' è appunto un legame affettivo forte immagino perché anche quando hai avuto la possiiblità di spostarti sei rimasta comunque qua in zona per scelta
+86-1	3708-3711	beh	_	_	_	beh	_	BOR009	85-0	_	_	
+86-2	3712-3723	sicuramente	_	_	_	sicuramente	_	_	85-1	_	_	
+86-3	3724-3728	vuol	_	_	_	vuol	_	_	85-2	_	_	
+86-4	3729-3733	dire	_	_	_	dire	_	_	85-3	_	_	
+86-5	3734-3737	che	_	_	_	che	_	_	85-4	_	_	
+86-6	3738-3740	c'	_	_	_	c'	_	_	85-5	_	_	
+86-7	3741-3742	è	_	_	_	è	_	_	85-6	_	_	
+86-8	3743-3750	appunto	_	_	_	appunto	_	_	85-7	_	_	
+86-9	3751-3753	un	_	_	_	un	_	_	85-8	_	_	
+86-10	3754-3760	legame	_	_	_	legame:	_	_	85-9	_	_	
+86-11	3761-3770	affettivo	_	_	_	affettivo	_	_	85-10	_	_	
+86-12	3771-3776	forte	_	_	_	forte	_	_	85-11	_	_	
+86-13	3777-3785	immagino	_	_	_	immagino	_	_	85-12	_	_	
+86-14	3786-3792	perché	_	_	_	perché	_	_	85-13	_	_	
+86-15	3793-3798	anche	_	_	_	anche	_	_	85-14	_	_	
+86-16	3799-3805	quando	_	_	_	quando	_	_	85-15	_	_	
+86-17	3806-3809	hai	_	_	_	hai	_	_	85-16	_	_	
+86-18	3810-3815	avuto	_	_	_	avuto	_	_	85-17	_	_	
+86-19	3816-3818	la	_	_	_	la	_	_	85-18	_	_	
+86-20	3819-3830	possiiblità	_	_	_	possiiblità	_	_	85-19	_	_	
+86-21	3831-3833	di	_	_	_	di	_	_	85-20	_	_	
+86-22	3834-3843	spostarti	_	_	_	spostarti	_	_	85-21	_	_	
+86-23	3844-3847	sei	_	_	_	sei	_	_	85-22	_	_	
+86-24	3848-3855	rimasta	_	_	_	rimasta	_	_	85-23	_	_	
+86-25	3856-3864	comunque	_	_	_	comunque	_	_	85-24	_	_	
+86-26	3865-3868	qua	_	_	_	qua	_	_	85-25	_	_	
+86-27	3869-3871	in	_	_	_	in	_	_	85-26	_	_	
+86-28	3872-3876	zona	_	_	_	zona	_	_	85-27	_	_	
+86-29	3877-3880	per	_	_	_	per	_	_	85-28	_	_	
+86-30	3881-3887	scelta	_	_	Rising	scelta?	_	_	85-29	_	_	
+
+#Text=sì
+87-1	3888-3890	sì	_	_	_	sì	_	BOI057	86-0	_	_	
+
+#Text=perché è proprio l~ la zona del cuore ((ride))
+88-1	3891-3897	perché	_	_	_	\[perché\]	_	BOR009	87-0	*->44-1	*[44]	
+88-2	3898-3899	è	_	_	_	è	_	_	87-1	_	_	
+88-3	3900-3907	proprio	_	_	_	proprio	_	_	87-2	_	_	
+88-4	3908-3910	l~	_	_	_	l~	_	_	87-3	_	_	
+88-5	3911-3913	la	_	_	_	la	_	_	87-4	_	_	
+88-6	3914-3918	zona	_	_	_	zona	_	_	87-5	_	_	
+88-7	3919-3922	del	_	_	_	del	_	_	87-6	_	_	
+88-8	3923-3928	cuore	_	_	_	cuore	_	_	87-7	_	_	
+88-9	3929-3937	((ride))	_	_	_	((ride))	_	_	87-8	_	_	
+
+#Text=mh
+89-1	3938-3940	mh	BC	_	_	\[mh\]	_	BOI057	88-0	*->44-2	*[44]	
+
+#Text=guarda ti devo dire
+90-1	3941-3947	guarda	_	_	_	guarda	_	BOI057	89-0	_	_	
+90-2	3948-3950	ti	_	_	_	ti	_	_	89-1	_	_	
+90-3	3951-3955	devo	_	_	_	devo	_	_	89-2	_	_	
+90-4	3956-3960	dire	_	_	_	dire	_	_	89-3	_	_	
+
+#Text=i mh saragozza
+91-1	3961-3962	i	_	_	_	i	_	BOI057	90-0	_	_	
+91-2	3963-3965	mh	_	FP	_	m:h	_	_	90-1	_	_	
+91-3	3966-3975	saragozza	_	_	_	saragozza	_	_	90-2	_	_	
+
+#Text=mi piace [PAUSE] mh ma non è che mi faccia impazzire questa zona qua
+92-1	3976-3978	mi	_	_	_	mi	_	BOI057	91-0	_	_	
+92-2	3979-3984	piace	_	_	_	piace	_	_	91-1	_	_	
+92-3	3985-3992	[PAUSE]	_	_	_	(.)	_	_	91-2	_	_	
+92-4	3993-3995	mh	_	FP	_	m:h	_	_	91-3	_	_	
+92-5	3996-3998	ma	_	_	_	ma	_	_	91-4	_	_	
+92-6	3999-4002	non	_	_	_	non	_	_	91-5	_	_	
+92-7	4003-4004	è	_	_	_	è	_	_	91-6	_	_	
+92-8	4005-4008	che	_	_	_	che	_	_	91-7	_	_	
+92-9	4009-4011	mi	_	_	_	mi	_	_	91-8	_	_	
+92-10	4012-4018	faccia	_	_	_	faccia	_	_	91-9	_	_	
+92-11	4019-4028	impazzire	_	_	_	impazzire	_	_	91-10	_	_	
+92-12	4029-4035	questa	_	_	_	\[questa\]	_	_	91-11	*->55-1	*[55]	
+92-13	4036-4040	zona	_	_	_	zona	_	_	91-12	_	_	
+92-14	4041-4044	qua	_	_	_	qua	_	_	91-13	_	_	
+
+#Text=ah ah
+93-1	4045-4047	ah	BC[3]	_	_	\[ah	_	BOR009	92-0	*->55-2	*[55]	
+93-2	4048-4050	ah	BC[3]	_	_	ah\]	_	_	92-1	*->55-3	*[55]	
+
+#Text=perché comunque le persone sono diverse da quelle del l' ho capito dopo trasferendomi in pratello
+94-1	4051-4057	perché	_	_	_	perché	_	BOI057	93-0	_	_	
+94-2	4058-4066	comunque	_	_	_	comunque	_	_	93-1	_	_	
+94-3	4067-4069	le	_	_	_	le	_	_	93-2	_	_	
+94-4	4070-4077	persone	_	_	_	persone	_	_	93-3	_	_	
+94-5	4078-4082	sono	_	_	_	sono	_	_	93-4	_	_	
+94-6	4083-4090	diverse	_	_	_	diverse	_	_	93-5	_	_	
+94-7	4091-4093	da	_	_	_	da	_	_	93-6	_	_	
+94-8	4094-4100	quelle	_	_	_	quelle	_	_	93-7	_	_	
+94-9	4101-4104	del	_	_	_	del	_	_	93-8	_	_	
+94-10	4105-4107	l'	_	_	_	l'	_	_	93-9	_	_	
+94-11	4108-4110	ho	_	_	_	ho	_	_	93-10	_	_	
+94-12	4111-4117	capito	_	_	_	capito	_	_	93-11	_	_	
+94-13	4118-4122	dopo	_	_	_	dopo	_	_	93-12	_	_	
+94-14	4123-4136	trasferendomi	_	_	_	trasferendomi	_	_	93-13	_	_	
+94-15	4137-4139	in	_	_	_	in	_	_	93-14	_	_	
+94-16	4140-4148	pratello	_	_	_	pratello	_	_	93-15	_	_	
+
+#Text=mh ci abita un un tipo di persona diversa
+95-1	4149-4151	mh	_	FP	_	mh	_	BOI057	94-0	_	_	
+95-2	4152-4154	ci	_	_	_	ci	_	_	94-1	_	_	
+95-3	4155-4160	abita	_	_	_	abita	_	_	94-2	_	_	
+95-4	4161-4163	un	_	_	_	un:	_	_	94-3	_	_	
+95-5	4164-4166	un	_	_	_	un	_	_	94-4	_	_	
+95-6	4167-4171	tipo	_	_	_	tipo	_	_	94-5	_	_	
+95-7	4172-4174	di	_	_	_	di	_	_	94-6	_	_	
+95-8	4175-4182	persona	_	_	_	persona	_	_	94-7	_	_	
+95-9	4183-4190	diversa	_	_	_	diversa	_	_	94-8	_	_	
+
+#Text=okay
+96-1	4191-4195	okay	BC	_	_	okay	_	BOR009	95-0	_	_	
+
+#Text=lì [PAUSE] l' unico momento in cui si è riusciti a fare un po' amicizia con le persone che abitano intorno è stato il lockdown
+97-1	4196-4198	lì	_	_	_	lì	_	BOI057	96-0	_	_	
+97-2	4199-4206	[PAUSE]	_	_	_	(.)	_	_	96-1	_	_	
+97-3	4207-4209	l'	_	_	_	l'	_	_	96-2	_	_	
+97-4	4210-4215	unico	_	_	_	unico	_	_	96-3	_	_	
+97-5	4216-4223	momento	_	_	_	momento	_	_	96-4	_	_	
+97-6	4224-4226	in	_	_	_	in	_	_	96-5	_	_	
+97-7	4227-4230	cui	_	_	_	cui	_	_	96-6	_	_	
+97-8	4231-4233	si	_	_	_	si	_	_	96-7	_	_	
+97-9	4234-4235	è	_	_	_	è	_	_	96-8	_	_	
+97-10	4236-4244	riusciti	_	_	_	riusciti	_	_	96-9	_	_	
+97-11	4245-4246	a	_	_	_	a	_	_	96-10	_	_	
+97-12	4247-4251	fare	_	_	_	fare	_	_	96-11	_	_	
+97-13	4252-4254	un	_	_	_	un	_	_	96-12	_	_	
+97-14	4255-4258	po'	_	_	_	po'	_	_	96-13	_	_	
+97-15	4259-4267	amicizia	_	_	_	amicizia:	_	_	96-14	_	_	
+97-16	4268-4271	con	_	_	_	con	_	_	96-15	_	_	
+97-17	4272-4274	le	_	_	_	le	_	_	96-16	_	_	
+97-18	4275-4282	persone	_	_	_	persone	_	_	96-17	_	_	
+97-19	4283-4286	che	_	_	_	che	_	_	96-18	_	_	
+97-20	4287-4294	abitano	_	_	_	abitano	_	_	96-19	_	_	
+97-21	4295-4302	intorno	_	_	_	intorno	_	_	96-20	_	_	
+97-22	4303-4304	è	_	_	_	è	_	_	96-21	_	_	
+97-23	4305-4310	stato	_	_	_	stato	_	_	96-22	_	_	
+97-24	4311-4313	il	_	_	_	il	_	_	96-23	_	_	
+97-25	4314-4322	lockdown	_	_	_	lockdown	_	_	96-24	_	_	
+
+#Text=è stato in quel momento lì perché io prima non avevo non mh i miei vicini quelli delle case di fronte non avevo idea di chi fossero
+98-1	4323-4324	è	_	_	_	è	_	BOI057	97-0	_	_	
+98-2	4325-4330	stato	_	_	_	stato	_	_	97-1	_	_	
+98-3	4331-4333	in	_	_	_	in	_	_	97-2	_	_	
+98-4	4334-4338	quel	_	_	_	quel	_	_	97-3	_	_	
+98-5	4339-4346	momento	_	_	_	momento	_	_	97-4	_	_	
+98-6	4347-4349	lì	_	_	_	lì	_	_	97-5	_	_	
+98-7	4350-4356	perché	_	_	_	perché	_	_	97-6	_	_	
+98-8	4357-4359	io	_	_	_	io	_	_	97-7	_	_	
+98-9	4360-4365	prima	_	_	_	prima	_	_	97-8	_	_	
+98-10	4366-4369	non	_	_	_	non	_	_	97-9	_	_	
+98-11	4370-4375	avevo	_	_	_	avevo:	_	_	97-10	_	_	
+98-12	4376-4379	non	_	_	_	non	_	_	97-11	_	_	
+98-13	4380-4382	mh	_	FP	_	m:h	_	_	97-12	_	_	
+98-14	4383-4384	i	_	_	_	i	_	_	97-13	_	_	
+98-15	4385-4389	miei	_	_	_	miei	_	_	97-14	_	_	
+98-16	4390-4396	vicini	_	_	_	vicini	_	_	97-15	_	_	
+98-17	4397-4403	quelli	_	_	_	quelli	_	_	97-16	_	_	
+98-18	4404-4409	delle	_	_	_	delle	_	_	97-17	_	_	
+98-19	4410-4414	case	_	_	_	case	_	_	97-18	_	_	
+98-20	4415-4417	di	_	_	_	di	_	_	97-19	_	_	
+98-21	4418-4424	fronte	_	_	_	fronte	_	_	97-20	_	_	
+98-22	4425-4428	non	_	_	_	non	_	_	97-21	_	_	
+98-23	4429-4434	avevo	_	_	_	avevo	_	_	97-22	_	_	
+98-24	4435-4439	idea	_	_	_	idea	_	_	97-23	_	_	
+98-25	4440-4442	di	_	_	_	di	_	_	97-24	_	_	
+98-26	4443-4446	chi	_	_	_	chi	_	_	97-25	_	_	
+98-27	4447-4454	fossero	_	_	_	fossero	_	_	97-26	_	_	
+
+#Text=invece quando c' è stato il lockdown che tutti eravamo fuori a portare il cane o
+99-1	4455-4461	invece	_	_	_	invece	_	BOI057	98-0	_	_	
+99-2	4462-4468	quando	_	_	_	quando	_	_	98-1	_	_	
+99-3	4469-4471	c'	_	_	_	c'	_	_	98-2	_	_	
+99-4	4472-4473	è	_	_	_	è	_	_	98-3	_	_	
+99-5	4474-4479	stato	_	_	_	stato	_	_	98-4	_	_	
+99-6	4480-4482	il	_	_	_	il	_	_	98-5	_	_	
+99-7	4483-4491	lockdown	_	_	_	lockdown	_	_	98-6	_	_	
+99-8	4492-4495	che	_	_	_	che	_	_	98-7	_	_	
+99-9	4496-4501	tutti	_	_	_	tutti	_	_	98-8	_	_	
+99-10	4502-4509	eravamo	_	_	_	eravamo	_	_	98-9	_	_	
+99-11	4510-4515	fuori	_	_	_	fuori	_	_	98-10	_	_	
+99-12	4516-4517	a	_	_	_	a	_	_	98-11	_	_	
+99-13	4518-4525	portare	_	_	_	portare	_	_	98-12	_	_	
+99-14	4526-4528	il	_	_	_	il	_	_	98-13	_	_	
+99-15	4529-4533	cane	_	_	_	cane	_	_	98-14	_	_	
+99-16	4534-4535	o	_	_	_	\[o:\]	_	_	98-15	*->69-1	*[69]	
+
+#Text=eh
+100-1	4536-4538	eh	BC	_	_	\[e:h\]	_	BOR009	99-0	*->69-2	*[69]	
+
+#Text=allora lì ci siamo un po' conosciuti e si è guadagnato qualcosa in più
+101-1	4539-4545	allora	_	_	_	allora	_	BOI057	100-0	_	_	
+101-2	4546-4548	lì	_	_	_	lì	_	_	100-1	_	_	
+101-3	4549-4551	ci	_	_	_	ci	_	_	100-2	_	_	
+101-4	4552-4557	siamo	_	_	_	siamo	_	_	100-3	_	_	
+101-5	4558-4560	un	_	_	_	un	_	_	100-4	_	_	
+101-6	4561-4564	po'	_	_	_	po'	_	_	100-5	_	_	
+101-7	4565-4575	conosciuti	_	_	_	conosciuti	_	_	100-6	_	_	
+101-8	4576-4577	e	_	_	_	e:	_	_	100-7	_	_	
+101-9	4578-4580	si	_	_	_	si	_	_	100-8	_	_	
+101-10	4581-4582	è	_	_	_	è	_	_	100-9	_	_	
+101-11	4583-4593	guadagnato	_	_	_	guadagnato	_	_	100-10	_	_	
+101-12	4594-4602	qualcosa	_	_	_	qualcosa	_	_	100-11	_	_	
+101-13	4603-4605	in	_	_	_	in	_	_	100-12	_	_	
+101-14	4606-4609	più	_	_	_	più	_	_	100-13	_	_	
+
+#Text=però vuol dire proprio gli ultimi anni due tre anni
+102-1	4610-4614	però	_	_	_	però	_	BOR009	101-0	_	_	
+102-2	4615-4619	vuol	_	_	_	vuol	_	_	101-1	_	_	
+102-3	4620-4624	dire	_	_	_	dire	_	_	101-2	_	_	
+102-4	4625-4632	proprio	_	_	_	proprio	_	_	101-3	_	_	
+102-5	4633-4636	gli	_	_	_	gli	_	_	101-4	_	_	
+102-6	4637-4643	ultimi	_	_	_	ultimi	_	_	101-5	_	_	
+102-7	4644-4648	anni	_	_	_	anni	_	_	101-6	_	_	
+102-8	4649-4652	due	_	_	_	\[due\]	_	_	101-7	*->24-1	*[24]	
+102-9	4653-4656	tre	_	_	_	tre	_	_	101-8	_	_	
+102-10	4657-4661	anni	_	_	_	anni	_	_	101-9	_	_	
+
+#Text=sì
+103-1	4662-4664	sì	BC	_	_	\[sì\]	_	BOI057	102-0	*->24-2	*[24]	
+
+#Text=sì perché se no è una casa è una zona
+104-1	4665-4667	sì	_	_	_	sì	_	BOI057	103-0	_	_	
+104-2	4668-4674	perché	_	_	_	perché	_	_	103-1	_	_	
+104-3	4675-4677	se	_	_	_	se	_	_	103-2	_	_	
+104-4	4678-4680	no	_	_	_	no	_	_	103-3	_	_	
+104-5	4681-4682	è	_	_	_	è	_	_	103-4	_	_	
+104-6	4683-4686	una	_	_	_	una	_	_	103-5	_	_	
+104-7	4687-4691	casa	_	_	_	casa	_	_	103-6	_	_	
+104-8	4692-4693	è	_	_	_	è	_	_	103-7	_	_	
+104-9	4694-4697	una	_	_	_	una	_	_	103-8	_	_	
+104-10	4698-4702	zona	_	_	_	zona	_	_	103-9	_	_	
+
+#Text=è brutto dire zona dormitorio però quasi tutti quelli che abitano qui lavorano
+105-1	4703-4704	è	_	_	_	è	_	BOI057	104-0	_	_	
+105-2	4705-4711	brutto	_	_	_	brutto	_	_	104-1	_	_	
+105-3	4712-4716	dire	_	_	_	dire	_	_	104-2	_	_	
+105-4	4717-4721	zona	_	_	_	zona	_	_	104-3	_	_	
+105-5	4722-4732	dormitorio	_	_	_	dormitorio	_	_	104-4	_	_	
+105-6	4733-4737	però	_	_	_	però	_	_	104-5	_	_	
+105-7	4738-4743	quasi	_	_	_	quasi	_	_	104-6	_	_	
+105-8	4744-4749	tutti	_	_	_	tutti	_	_	104-7	_	_	
+105-9	4750-4756	quelli	_	_	_	quelli	_	_	104-8	_	_	
+105-10	4757-4760	che	_	_	_	che	_	_	104-9	_	_	
+105-11	4761-4768	abitano	_	_	_	abitano	_	_	104-10	_	_	
+105-12	4769-4772	qui	_	_	_	qui:	_	_	104-11	_	_	
+105-13	4773-4781	lavorano	_	_	_	lavorano	_	_	104-12	_	_	
+
+#Text=((ride))
+106-1	4782-4790	((ride))	_	_	_	((ride))	_	BOR009	105-0	_	_	
+
+#Text=a parte i pensionati
+107-1	4791-4792	a	_	_	_	a	_	BOI057	106-0	_	_	
+107-2	4793-4798	parte	_	_	_	parte	_	_	106-1	_	_	
+107-3	4799-4800	i	_	_	_	i	_	_	106-2	_	_	
+107-4	4801-4811	pensionati	_	_	_	pensionati	_	_	106-3	_	_	
+
+#Text=lavorano quindi escono la mattina tornano la sera
+108-1	4812-4820	lavorano	_	_	_	lavorano	_	BOI057	107-0	_	_	
+108-2	4821-4827	quindi	_	_	_	quindi	_	_	107-1	_	_	
+108-3	4828-4834	escono	_	_	_	escono	_	_	107-2	_	_	
+108-4	4835-4837	la	_	_	_	la	_	_	107-3	_	_	
+108-5	4838-4845	mattina	_	_	WeaklyRising	mattina,	_	_	107-4	_	_	
+108-6	4846-4853	tornano	_	_	_	tornano	_	_	107-5	_	_	
+108-7	4854-4856	la	_	_	_	la	_	_	107-6	_	_	
+108-8	4857-4861	sera	_	_	_	sera	_	_	107-7	_	_	
+
+#Text=e non li vedi se porti fuori il cane o se vai a far la spesa al massimo se vai a far la spesa vedi le signore le badanti o
+109-1	4862-4863	e	_	_	_	e	_	BOI057	108-0	_	_	
+109-2	4864-4867	non	_	_	_	non	_	_	108-1	_	_	
+109-3	4868-4870	li	_	_	_	li	_	_	108-2	_	_	
+109-4	4871-4875	vedi	_	_	_	vedi	_	_	108-3	_	_	
+109-5	4876-4878	se	_	_	_	se	_	_	108-4	_	_	
+109-6	4879-4884	porti	_	_	_	porti	_	_	108-5	_	_	
+109-7	4885-4890	fuori	_	_	_	fuori	_	_	108-6	_	_	
+109-8	4891-4893	il	_	_	_	il	_	_	108-7	_	_	
+109-9	4894-4898	cane	_	_	_	cane:	_	_	108-8	_	_	
+109-10	4899-4900	o	_	_	_	o	_	_	108-9	_	_	
+109-11	4901-4903	se	_	_	_	se	_	_	108-10	_	_	
+109-12	4904-4907	vai	_	_	_	vai	_	_	108-11	_	_	
+109-13	4908-4909	a	_	_	_	a	_	_	108-12	_	_	
+109-14	4910-4913	far	_	_	_	far	_	_	108-13	_	_	
+109-15	4914-4916	la	_	_	_	la	_	_	108-14	_	_	
+109-16	4917-4922	spesa	_	_	_	spesa	_	_	108-15	_	_	
+109-17	4923-4925	al	_	_	_	al	_	_	108-16	_	_	
+109-18	4926-4933	massimo	_	_	_	massimo	_	_	108-17	_	_	
+109-19	4934-4936	se	_	_	_	se	_	_	108-18	_	_	
+109-20	4937-4940	vai	_	_	_	vai	_	_	108-19	_	_	
+109-21	4941-4942	a	_	_	_	a	_	_	108-20	_	_	
+109-22	4943-4946	far	_	_	_	far	_	_	108-21	_	_	
+109-23	4947-4949	la	_	_	_	la	_	_	108-22	_	_	
+109-24	4950-4955	spesa	_	_	_	spesa	_	_	108-23	_	_	
+109-25	4956-4960	vedi	_	_	_	vedi:	_	_	108-24	_	_	
+109-26	4961-4963	le	_	_	_	le	_	_	108-25	_	_	
+109-27	4964-4971	signore	_	_	WeaklyRising	signore:,	_	_	108-26	_	_	
+109-28	4972-4974	le	_	_	_	le	_	_	108-27	_	_	
+109-29	4975-4982	badanti	_	_	WeaklyRising	badanti:,	_	_	108-28	_	_	
+109-30	4983-4984	o	_	_	_	o:	_	_	108-29	_	_	
+
+#Text=quindi non li incontri mai
+110-1	4985-4991	quindi	_	_	_	quindi	_	BOI057	109-0	_	_	
+110-2	4992-4995	non	_	_	_	non	_	_	109-1	_	_	
+110-3	4996-4998	li	_	_	_	li	_	_	109-2	_	_	
+110-4	4999-5007	incontri	_	_	_	incontri	_	_	109-3	_	_	
+110-5	5008-5011	mai	_	_	_	mai	_	_	109-4	_	_	
+
+#Text=sì
+111-1	5012-5014	sì	BC	_	_	\[sì\]	_	BOR009	110-0	*->27-1	*[27]	
+
+#Text=x
+112-1	5015-5016	x	_	_	_	\[xx\]	_	BOI057	111-0	*->27-2	*[27]	
+
+#Text=e questo [PAUSE] boh a me fa sentire un po' un po' sola
+113-1	5017-5018	e	_	_	_	e	_	BOI057	112-0	_	_	
+113-1.1	5017-5017		_	_	_	_	_	_	_	*->27-2	*[27]	
+113-2	5019-5025	questo	_	_	_	questo	_	_	112-1	_	_	
+113-3	5026-5033	[PAUSE]	_	_	_	(.)	_	_	112-2	_	_	
+113-4	5034-5037	boh	_	_	_	boh	_	_	112-3	_	_	
+113-5	5038-5039	a	_	_	_	a	_	_	112-4	_	_	
+113-6	5040-5042	me	_	_	_	me	_	_	112-5	_	_	
+113-7	5043-5045	fa	_	_	_	fa	_	_	112-6	_	_	
+113-8	5046-5053	sentire	_	_	_	sentire	_	_	112-7	_	_	
+113-9	5054-5056	un	_	_	_	un	_	_	112-8	_	_	
+113-10	5057-5060	po'	_	_	_	po'	_	_	112-9	_	_	
+113-11	5061-5063	un	_	_	_	un	_	_	112-10	_	_	
+113-12	5064-5067	po'	_	_	_	po'	_	_	112-11	_	_	
+113-13	5068-5072	sola	_	_	_	sola	_	_	112-12	_	_	
+
+#Text=perché a me piace vivere in un posto dove un po' come il villaggio di asterix non so se se hai mai letto i fumetti
+114-1	5073-5079	perché	_	_	_	perché	_	BOI057	113-0	_	_	
+114-2	5080-5081	a	_	_	_	a	_	_	113-1	_	_	
+114-3	5082-5084	me	_	_	_	me	_	_	113-2	_	_	
+114-4	5085-5090	piace	_	_	_	piace	_	_	113-3	_	_	
+114-5	5091-5097	vivere	_	_	_	vivere	_	_	113-4	_	_	
+114-6	5098-5100	in	_	_	_	in	_	_	113-5	_	_	
+114-7	5101-5103	un	_	_	_	un	_	_	113-6	_	_	
+114-8	5104-5109	posto	_	_	_	posto	_	_	113-7	_	_	
+114-9	5110-5114	dove	_	_	_	dove:	_	_	113-8	_	_	
+114-10	5115-5117	un	_	_	_	un	_	_	113-9	_	_	
+114-11	5118-5121	po'	_	_	_	po'	_	_	113-10	_	_	
+114-12	5122-5126	come	_	_	_	come	_	_	113-11	_	_	
+114-13	5127-5129	il	_	_	_	il	_	_	113-12	_	_	
+114-14	5130-5139	villaggio	_	_	_	villaggio	_	_	113-13	_	_	
+114-15	5140-5142	di	_	_	_	di	_	_	113-14	_	_	
+114-16	5143-5150	asterix	_	_	_	asterix	_	_	113-15	_	_	
+114-17	5151-5154	non	_	_	_	non	_	_	113-16	_	_	
+114-18	5155-5157	so	_	_	_	so	_	_	113-17	_	_	
+114-19	5158-5160	se	_	_	_	se	_	_	113-18	_	_	
+114-20	5161-5163	se	_	_	_	se	_	_	113-19	_	_	
+114-21	5164-5167	hai	_	_	_	hai	_	_	113-20	_	_	
+114-22	5168-5171	mai	_	_	_	mai	_	_	113-21	_	_	
+114-23	5172-5177	letto	_	_	_	letto	_	_	113-22	_	_	
+114-24	5178-5179	i	_	_	_	i	_	_	113-23	_	_	
+114-25	5180-5187	fumetti	_	_	_	fumetti	_	_	113-24	_	_	
+
+#Text=((ride))
+115-1	5188-5196	((ride))	_	_	_	((ride))	_	BOR009	114-0	_	_	
+
+#Text=((ride)) c' è c' è vita c' è c' è fermento
+116-1	5197-5205	((ride))	_	_	_	((ride))	_	BOR009	115-0	_	_	
+116-2	5206-5208	c'	_	_	_	c'	_	_	115-1	_	_	
+116-3	5209-5210	è	_	_	_	è:	_	_	115-2	_	_	
+116-4	5211-5213	c'	_	_	_	c'	_	_	115-3	_	_	
+116-5	5214-5215	è	_	_	_	è	_	_	115-4	_	_	
+116-6	5216-5220	vita	_	_	_	vita	_	_	115-5	_	_	
+116-7	5221-5223	c'	_	_	_	c'	_	_	115-6	_	_	
+116-8	5224-5225	è	_	_	_	è:	_	_	115-7	_	_	
+116-9	5226-5228	c'	_	_	_	c'	_	_	115-8	_	_	
+116-10	5229-5230	è	_	_	_	è	_	_	115-9	_	_	
+116-11	5231-5239	fermento	_	_	_	fermento	_	_	115-10	_	_	
+
+#Text=mh
+117-1	5240-5242	mh	BC	_	_	m:h	_	BOI057	116-0	_	_	
+
+#Text=e poi
+118-1	5243-5244	e	_	_	_	e	_	BOI057	117-0	_	_	
+118-2	5245-5248	poi	_	_	_	poi	_	_	117-1	_	_	
+
+#Text=mhmh non voglio parlar con la bocca piena
+119-1	5249-5253	mhmh	_	_	_	mhmh	_	BOI057	118-0	_	_	
+119-2	5254-5257	non	_	_	_	non	_	_	118-1	_	_	
+119-3	5258-5264	voglio	_	_	_	voglio	_	_	118-2	_	_	
+119-4	5265-5271	parlar	_	_	_	parlar	_	_	118-3	_	_	
+119-5	5272-5275	con	_	_	_	con	_	_	118-4	_	_	
+119-6	5276-5278	la	_	_	_	la	_	_	118-5	_	_	
+119-7	5279-5284	bocca	_	_	_	bocca	_	_	118-6	_	_	
+119-8	5285-5290	piena	_	_	_	piena	_	_	118-7	_	_	
+
+#Text=((ride))
+120-1	5291-5299	((ride))	_	_	_	((ride))	_	BOR009	119-0	_	_	
+
+#Text=più naturale di questo cosa c' è ((ride))
+121-1	5300-5303	più	_	_	_	più	_	BOR009	120-0	_	_	
+121-2	5304-5312	naturale	_	_	_	naturale	_	_	120-1	_	_	
+121-3	5313-5315	di	_	_	_	di	_	_	120-2	_	_	
+121-4	5316-5322	questo	_	_	_	questo	_	_	120-3	_	_	
+121-5	5323-5327	cosa	_	_	_	cosa	_	_	120-4	_	_	
+121-6	5328-5330	c'	_	_	_	\[c'	_	_	120-5	*->64-1	*[64]	
+121-7	5331-5332	è	_	_	_	è\]	_	_	120-6	*->64-2	*[64]	
+121-8	5333-5341	((ride))	_	_	_	((ride))	_	_	120-7	_	_	
+
+#Text=mh
+122-1	5342-5344	mh	BC	_	_	\[mh\]	_	BOI057	121-0	*->64-3	*[64]	
+
+#Text=ma
+123-1	5345-5347	ma	_	_	_	ma	_	BOI057	122-0	_	_	
+
+#Text=considera un' altra cosa
+124-1	5348-5357	considera	_	_	_	considera	_	BOI057	123-0	_	_	
+124-2	5358-5361	un'	_	_	_	un'	_	_	123-1	_	_	
+124-3	5362-5367	altra	_	_	_	altra	_	_	123-2	_	_	
+124-4	5368-5372	cosa	_	_	_	cosa	_	_	123-3	_	_	
+
+#Text=che
+125-1	5373-5376	che	_	_	_	che	_	BOI057	124-0	_	_	
+
+#Text=questa va proprio controtendenza
+126-1	5377-5383	questa	_	_	_	questa	_	BOI057	125-0	_	_	
+126-2	5384-5386	va	_	_	_	va	_	_	125-1	_	_	
+126-3	5387-5394	proprio	_	_	_	proprio	_	_	125-2	_	_	
+126-4	5395-5409	controtendenza	_	_	_	controtendenza	_	_	125-3	_	_	
+
+#Text=abitare in saragozza soprattutto nella parte non sulla strada ma nella parte appoggiata al primo livello del colle
+127-1	5410-5417	abitare	_	_	_	abitare	_	BOI057	126-0	_	_	
+127-2	5418-5420	in	_	_	_	in	_	_	126-1	_	_	
+127-3	5421-5430	saragozza	_	_	_	saragozza	_	_	126-2	_	_	
+127-4	5431-5442	soprattutto	_	_	_	soprattutto	_	_	126-3	_	_	
+127-5	5443-5448	nella	_	_	_	nella	_	_	126-4	_	_	
+127-6	5449-5454	parte	_	_	_	parte	_	_	126-5	_	_	
+127-7	5455-5458	non	_	_	_	non	_	_	126-6	_	_	
+127-8	5459-5464	sulla	_	_	_	sulla	_	_	126-7	_	_	
+127-9	5465-5471	strada	_	_	_	strada	_	_	126-8	_	_	
+127-10	5472-5474	ma	_	_	_	ma	_	_	126-9	_	_	
+127-11	5475-5480	nella	_	_	_	nella	_	_	126-10	_	_	
+127-12	5481-5486	parte	_	_	_	parte	_	_	126-11	_	_	
+127-13	5487-5497	appoggiata	_	_	_	appoggiata	_	_	126-12	_	_	
+127-14	5498-5500	al	_	_	_	al	_	_	126-13	_	_	
+127-15	5501-5506	primo	_	_	_	primo	_	_	126-14	_	_	
+127-16	5507-5514	livello	_	_	_	livello	_	_	126-15	_	_	
+127-17	5515-5518	del	_	_	_	del	_	_	126-16	_	_	
+127-18	5519-5524	colle	_	_	_	colle	_	_	126-17	_	_	
+
+#Text=vuol dire che [PAUSE] tu s~ vivi abbastanza nel silenzio
+128-1	5525-5529	vuol	_	_	_	vuol	_	BOI057	127-0	_	_	
+128-2	5530-5534	dire	_	_	_	dire	_	_	127-1	_	_	
+128-3	5535-5538	che	_	_	_	che	_	_	127-2	_	_	
+128-4	5539-5546	[PAUSE]	_	_	_	(.)	_	_	127-3	_	_	
+128-5	5547-5549	tu	_	_	_	tu	_	_	127-4	_	_	
+128-6	5550-5552	s~	_	_	_	s~	_	_	127-5	_	_	
+128-7	5553-5557	vivi	_	_	_	vivi	_	_	127-6	_	_	
+128-8	5558-5568	abbastanza	_	_	_	abbastanza	_	_	127-7	_	_	
+128-9	5569-5572	nel	_	_	_	nel	_	_	127-8	_	_	
+128-10	5573-5581	silenzio	_	_	_	silenzio	_	_	127-9	_	_	
+
+#Text=perché ci passano veramente solo le persone che ci abitano
+129-1	5582-5588	perché	_	_	_	perché	_	BOI057	128-0	_	_	
+129-2	5589-5591	ci	_	_	_	ci	_	_	128-1	_	_	
+129-3	5592-5599	passano	_	_	_	passano	_	_	128-2	_	_	
+129-4	5600-5609	veramente	_	_	_	veramente	_	_	128-3	_	_	
+129-5	5610-5614	solo	_	_	_	solo	_	_	128-4	_	_	
+129-6	5615-5617	le	_	_	_	le	_	_	128-5	_	_	
+129-7	5618-5625	persone	_	_	_	persone	_	_	128-6	_	_	
+129-8	5626-5629	che	_	_	_	che	_	_	128-7	_	_	
+129-9	5630-5632	ci	_	_	_	ci	_	_	128-8	_	_	
+129-10	5633-5640	abitano	_	_	_	abitano	_	_	128-9	_	_	
+
+#Text=io certe volte questo silenzio fuori lo trovo ((e:h)) non so
+130-1	5641-5643	io	_	_	_	io	_	BOI057	129-0	_	_	
+130-2	5644-5649	certe	_	_	_	certe	_	_	129-1	_	_	
+130-3	5650-5655	volte	_	_	_	volte	_	_	129-2	_	_	
+130-4	5656-5662	questo	_	_	_	questo	_	_	129-3	_	_	
+130-5	5663-5671	silenzio	_	_	_	silenzio	_	_	129-4	_	_	
+130-6	5672-5677	fuori	_	_	_	fuori	_	_	129-5	_	_	
+130-7	5678-5680	lo	_	_	_	lo	_	_	129-6	_	_	
+130-8	5681-5686	trovo	_	_	_	trovo	_	_	129-7	_	_	
+130-9	5687-5694	((e:h))	_	_	_	((e:h))	_	_	129-8	_	_	
+130-10	5695-5698	non	_	_	_	non	_	_	129-9	_	_	
+130-11	5699-5701	so	_	_	_	so	_	_	129-10	_	_	
+
+#Text=opprimente
+131-1	5702-5712	opprimente	_	_	_	opprimente	_	BOR009	130-0	_	_	
+
+#Text=((ride))
+132-1	5713-5721	((ride))	_	_	_	((ride))	_	BOR009	131-0	_	_	
+
+#Text=sì [PAUSE] mh mi fa sentire isolata
+133-1	5722-5724	sì	BC	_	_	sì:	_	BOI057	132-0	_	_	
+133-2	5725-5732	[PAUSE]	_	_	_	(.)	_	_	132-1	_	_	
+133-3	5733-5735	mh	_	FP	_	m:h	_	_	132-2	_	_	
+133-4	5736-5738	mi	_	_	_	mi	_	_	132-3	_	_	
+133-5	5739-5741	fa	_	_	_	fa	_	_	132-4	_	_	
+133-6	5742-5749	sentire	_	_	_	sentire	_	_	132-5	_	_	
+133-7	5750-5757	isolata	_	_	_	isolata	_	_	132-6	_	_	
+
+#Text=e per assurdo preferivo venti volte il caos di quando stavo in sant' isaia
+134-1	5758-5759	e	_	_	_	e	_	BOI057	133-0	_	_	
+134-2	5760-5763	per	_	_	_	per	_	_	133-1	_	_	
+134-3	5764-5771	assurdo	_	_	_	assurdo	_	_	133-2	_	_	
+134-4	5772-5781	preferivo	_	_	_	preferivo	_	_	133-3	_	_	
+134-5	5782-5787	venti	_	_	_	venti	_	_	133-4	_	_	
+134-6	5788-5793	volte	_	_	_	volte	_	_	133-5	_	_	
+134-7	5794-5796	il	_	_	_	il	_	_	133-6	_	_	
+134-8	5797-5801	caos	_	_	_	caos	_	_	133-7	_	_	
+134-9	5802-5804	di	_	_	_	di	_	_	133-8	_	_	
+134-10	5805-5811	quando	_	_	_	quando	_	_	133-9	_	_	
+134-11	5812-5817	stavo	_	_	_	stavo	_	_	133-10	_	_	
+134-12	5818-5820	in	_	_	_	in	_	_	133-11	_	_	
+134-13	5821-5826	sant'	_	_	_	sant'	_	_	133-12	_	_	
+134-14	5827-5832	isaia	_	_	_	isaia	_	_	133-13	_	_	
+
+#Text=sì è strano perché la gente di solito predilige la tranquillità il silenzio
+135-1	5833-5835	sì	BC	_	_	sì	_	BOR009	134-0	_	_	
+135-2	5836-5837	è	_	_	_	è	_	_	134-1	_	_	
+135-3	5838-5844	strano	_	_	_	strano	_	_	134-2	_	_	
+135-4	5845-5851	perché	_	_	_	perché	_	_	134-3	_	_	
+135-5	5852-5854	la	_	_	_	la	_	_	134-4	_	_	
+135-6	5855-5860	gente	_	_	_	gente	_	_	134-5	_	_	
+135-7	5861-5863	di	_	_	_	di	_	_	134-6	_	_	
+135-8	5864-5870	solito	_	_	_	solito	_	_	134-7	_	_	
+135-9	5871-5880	predilige	_	_	_	predilige	_	_	134-8	_	_	
+135-10	5881-5883	la	_	_	_	la	_	_	134-9	_	_	
+135-11	5884-5896	tranquillità	_	_	WeaklyRising	tranqu\[illità\],	_	_	134-10	_	_	
+135-11.1	5890-5896	illità	_	_	_	_	_	_	_	*->70-1	*[70]	
+135-12	5897-5899	il	_	_	_	il	_	_	134-11	*->70-1	*[70]	
+135-13	5900-5908	silenzio	_	_	_	silenzio	_	_	134-12	_	_	
+135-13.1	5900-5902	si	_	_	_	_	_	_	_	*->70-1	*[70]	
+
+#Text=sì
+136-1	5909-5911	sì	BC	_	_	\[°sì°\]	_	BOI057	135-0	*->70-2	*[70]	
+
+#Text=ma io dopo [PAUSE] dopo l' impatto iniziale no per cui ti ti ti sconvolge ogni volta che passa l' autobus perché ti trema il pavimento
+137-1	5912-5914	ma	_	_	_	ma	_	BOI057	136-0	_	_	
+137-2	5915-5917	io	_	_	_	io	_	_	136-1	_	_	
+137-3	5918-5922	dopo	_	_	_	dopo	_	_	136-2	_	_	
+137-4	5923-5930	[PAUSE]	_	_	_	(.)	_	_	136-3	_	_	
+137-5	5931-5935	dopo	_	_	_	dopo	_	_	136-4	_	_	
+137-6	5936-5938	l'	_	_	_	l'	_	_	136-5	_	_	
+137-7	5939-5946	impatto	_	_	_	impatto	_	_	136-6	_	_	
+137-8	5947-5955	iniziale	_	_	_	iniziale	_	_	136-7	_	_	
+137-9	5956-5958	no	_	_	WeaklyRising	no,	_	_	136-8	_	_	
+137-10	5959-5962	per	_	_	_	per	_	_	136-9	_	_	
+137-11	5963-5966	cui	_	_	_	cui	_	_	136-10	_	_	
+137-12	5967-5969	ti	_	_	_	ti	_	_	136-11	_	_	
+137-13	5970-5972	ti	_	_	_	ti	_	_	136-12	_	_	
+137-14	5973-5975	ti	_	_	_	ti	_	_	136-13	_	_	
+137-15	5976-5985	sconvolge	_	_	_	sconvolge	_	_	136-14	_	_	
+137-16	5986-5990	ogni	_	_	_	ogni	_	_	136-15	_	_	
+137-17	5991-5996	volta	_	_	_	volta	_	_	136-16	_	_	
+137-18	5997-6000	che	_	_	_	che	_	_	136-17	_	_	
+137-19	6001-6006	passa	_	_	_	passa	_	_	136-18	_	_	
+137-20	6007-6009	l'	_	_	_	l'	_	_	136-19	_	_	
+137-21	6010-6017	autobus	_	_	_	autobus	_	_	136-20	_	_	
+137-22	6018-6024	perché	_	_	_	perché	_	_	136-21	_	_	
+137-23	6025-6027	ti	_	_	_	ti	_	_	136-22	_	_	
+137-24	6028-6033	trema	_	_	_	trema	_	_	136-23	_	_	
+137-25	6034-6036	il	_	_	_	il	_	_	136-24	_	_	
+137-26	6037-6046	pavimento	_	_	_	pavimento	_	_	136-25	_	_	
+
+#Text=((ride))
+138-1	6047-6055	((ride))	_	_	_	((ride))	_	BOR009	137-0	_	_	
+
+#Text=oppure tireresti giù i santi del paradiso perché c' è la classica coppia che litiga sotto casa il venerdì sera x
+139-1	6056-6062	oppure	_	_	_	oppure	_	BOI057	138-0	_	_	
+139-2	6063-6072	tireresti	_	_	_	tireresti	_	_	138-1	_	_	
+139-3	6073-6076	giù	_	_	_	giù	_	_	138-2	_	_	
+139-4	6077-6078	i	_	_	_	i	_	_	138-3	_	_	
+139-5	6079-6084	santi	_	_	_	santi	_	_	138-4	_	_	
+139-6	6085-6088	del	_	_	_	del	_	_	138-5	_	_	
+139-7	6089-6097	paradiso	_	_	_	paradiso	_	_	138-6	_	_	
+139-8	6098-6104	perché	_	_	_	perché	_	_	138-7	_	_	
+139-9	6105-6107	c'	_	_	_	c'	_	_	138-8	_	_	
+139-10	6108-6109	è	_	_	_	è	_	_	138-9	_	_	
+139-11	6110-6112	la	_	_	_	la	_	_	138-10	_	_	
+139-12	6113-6121	classica	_	_	_	classica	_	_	138-11	_	_	
+139-13	6122-6128	coppia	_	_	_	coppia	_	_	138-12	_	_	
+139-14	6129-6132	che	_	_	_	che	_	_	138-13	_	_	
+139-15	6133-6139	litiga	_	_	_	litiga	_	_	138-14	_	_	
+139-16	6140-6145	sotto	_	_	_	sotto	_	_	138-15	_	_	
+139-17	6146-6150	casa	_	_	_	casa	_	_	138-16	_	_	
+139-18	6151-6153	il	_	_	_	il	_	_	138-17	_	_	
+139-19	6154-6161	venerdì	_	_	_	venerdì	_	_	138-18	_	_	
+139-20	6162-6166	sera	_	_	_	sera	_	_	138-19	_	_	
+139-21	6167-6168	x	_	_	_	xxx	_	_	138-20	_	_	
+
+#Text=((ride))
+140-1	6169-6177	((ride))	_	_	_	((ride))	_	BOR009	139-0	_	_	
+
+#Text=a parte cioè all' inizio ti devi adattare ma dopo ci si abitua
+141-1	6178-6179	a	_	_	_	a	_	BOI057	140-0	_	_	
+141-2	6180-6185	parte	_	_	_	parte	_	_	140-1	_	_	
+141-3	6186-6190	cioè	_	_	_	cioè	_	_	140-2	_	_	
+141-4	6191-6195	all'	_	_	_	all'	_	_	140-3	_	_	
+141-5	6196-6202	inizio	_	_	_	inizio	_	_	140-4	_	_	
+141-6	6203-6205	ti	_	_	_	ti	_	_	140-5	_	_	
+141-7	6206-6210	devi	_	_	_	devi	_	_	140-6	_	_	
+141-8	6211-6219	adattare	_	_	_	adattare	_	_	140-7	_	_	
+141-9	6220-6222	ma	_	_	_	ma	_	_	140-8	_	_	
+141-10	6223-6227	dopo	_	_	_	dopo	_	_	140-9	_	_	
+141-11	6228-6230	ci	_	_	_	ci	_	_	140-10	_	_	
+141-12	6231-6233	si	_	_	_	si	_	_	140-11	_	_	
+141-13	6234-6240	abitua	_	_	_	abitua	_	_	140-12	_	_	
+
+#Text=a quasi tutto
+142-1	6241-6242	a	_	_	_	a	_	BOI057	141-0	_	_	
+142-2	6243-6248	quasi	_	_	_	quasi	_	_	141-1	_	_	
+142-3	6249-6254	tutto	_	_	_	tutto	_	_	141-2	_	_	
+
+#Text=e per me era diventato mh
+143-1	6255-6256	e	_	_	_	e	_	BOI057	142-0	_	_	
+143-2	6257-6260	per	_	_	_	per	_	_	142-1	_	_	
+143-3	6261-6263	me	_	_	_	me	_	_	142-2	_	_	
+143-4	6264-6267	era	_	_	_	era	_	_	142-3	_	_	
+143-5	6268-6277	diventato	_	_	_	diventato	_	_	142-4	_	_	
+143-6	6278-6280	mh	_	FP	_	m:h	_	_	142-5	_	_	
+
+#Text=non so era diventato un sottofondo mh [PAUSE] confortevole
+144-1	6281-6284	non	_	_	_	non	_	BOI057	143-0	_	_	
+144-2	6285-6287	so	_	_	_	so	_	_	143-1	_	_	
+144-3	6288-6291	era	_	_	_	era	_	_	143-2	_	_	
+144-4	6292-6301	diventato	_	_	_	diventato	_	_	143-3	_	_	
+144-5	6302-6304	un	_	_	_	un	_	_	143-4	_	_	
+144-6	6305-6315	sottofondo	_	_	_	sottofondo:	_	_	143-5	_	_	
+144-7	6316-6318	mh	_	FP	_	m:h	_	_	143-6	_	_	
+144-8	6319-6326	[PAUSE]	_	_	_	(.)	_	_	143-7	_	_	
+144-9	6327-6339	confortevole	_	_	_	confortevole	_	_	143-8	_	_	
+
+#Text=mi faceva sentire veramente parte che appartenevo a qualcosa
+145-1	6340-6342	mi	_	_	_	mi	_	BOI057	144-0	_	_	
+145-2	6343-6349	faceva	_	_	_	faceva	_	_	144-1	_	_	
+145-3	6350-6357	sentire	_	_	_	sentire	_	_	144-2	_	_	
+145-4	6358-6367	veramente	_	_	_	veramente	_	_	144-3	_	_	
+145-5	6368-6373	parte	_	_	_	parte	_	_	144-4	_	_	
+145-6	6374-6377	che	_	_	_	che	_	_	144-5	_	_	
+145-7	6378-6389	appartenevo	_	_	_	appartenevo	_	_	144-6	_	_	
+145-8	6390-6391	a	_	_	_	a	_	_	144-7	_	_	
+145-9	6392-6400	qualcosa	_	_	_	qualcosa	_	_	144-8	_	_	
+
+#Text=bello questo
+146-1	6401-6406	bello	_	_	_	bello	_	BOR009	145-0	_	_	
+146-2	6407-6413	questo	_	_	_	questo	_	_	145-1	_	_	
+
+#Text=poi mi fa strano sentito dire da qualcuno che già viveva qua almeno per me
+147-1	6414-6417	poi	_	_	_	poi	_	BOR009	146-0	_	_	
+147-2	6418-6420	mi	_	_	_	mi	_	_	146-1	_	_	
+147-3	6421-6423	fa	_	_	_	fa	_	_	146-2	_	_	
+147-4	6424-6430	strano	_	_	_	strano	_	_	146-3	_	_	
+147-5	6431-6438	sentito	_	_	_	sentito	_	_	146-4	_	_	
+147-6	6439-6443	dire	_	_	_	dire	_	_	146-5	_	_	
+147-7	6444-6446	da	_	_	_	da	_	_	146-6	_	_	
+147-8	6447-6455	qualcuno	_	_	_	qualcuno	_	_	146-7	_	_	
+147-9	6456-6459	che	_	_	_	che	_	_	146-8	_	_	
+147-10	6460-6463	già	_	_	_	già	_	_	146-9	_	_	
+147-11	6464-6470	viveva	_	_	_	viveva	_	_	146-10	_	_	
+147-12	6471-6474	qua	_	_	_	qua	_	_	146-11	_	_	
+147-13	6475-6481	almeno	_	_	_	almeno	_	_	146-12	_	_	
+147-14	6482-6485	per	_	_	_	per	_	_	146-13	_	_	
+147-15	6486-6488	me	_	_	_	me	_	_	146-14	_	_	
+
+#Text=perché io arrivando da un' altra zona proprio un' altra regione [PAUSE] mi sento più portata a pensare
+148-1	6489-6495	perché	_	_	_	perché	_	BOR009	147-0	_	_	
+148-2	6496-6498	io	_	_	_	io	_	_	147-1	_	_	
+148-3	6499-6508	arrivando	_	_	_	arrivando	_	_	147-2	_	_	
+148-4	6509-6511	da	_	_	_	da	_	_	147-3	_	_	
+148-5	6512-6515	un'	_	_	_	un'	_	_	147-4	_	_	
+148-6	6516-6521	altra	_	_	_	altra	_	_	147-5	_	_	
+148-7	6522-6526	zona	_	_	_	zona	_	_	147-6	_	_	
+148-8	6527-6534	proprio	_	_	_	proprio	_	_	147-7	_	_	
+148-9	6535-6538	un'	_	_	_	un'	_	_	147-8	_	_	
+148-10	6539-6544	altra	_	_	_	altra	_	_	147-9	_	_	
+148-11	6545-6552	regione	_	_	_	regione	_	_	147-10	_	_	
+148-12	6553-6560	[PAUSE]	_	_	_	(.)	_	_	147-11	_	_	
+148-13	6561-6563	mi	_	_	_	mi	_	_	147-12	_	_	
+148-14	6564-6569	sento	_	_	_	sento	_	_	147-13	_	_	
+148-15	6570-6573	più	_	_	_	più	_	_	147-14	_	_	
+148-16	6574-6581	portata	_	_	_	portata	_	_	147-15	_	_	
+148-17	6582-6583	a	_	_	_	a	_	_	147-16	_	_	
+148-18	6584-6591	pensare	_	_	_	pensare:	_	_	147-17	_	_	
+
+#Text=mi mi sento accolta trovo qualcosa di mio qualcuno che già si sposta semplicemente da una zona all' altra
+149-1	6592-6594	mi	_	_	_	mi	_	BOR009	148-0	_	_	
+149-2	6595-6597	mi	_	_	_	mi	_	_	148-1	_	_	
+149-3	6598-6603	sento	_	_	_	sento	_	_	148-2	_	_	
+149-4	6604-6611	accolta	_	_	WeaklyRising	accolta,	_	_	148-3	_	_	
+149-5	6612-6617	trovo	_	_	_	trovo	_	_	148-4	_	_	
+149-6	6618-6626	qualcosa	_	_	_	qualcosa	_	_	148-5	_	_	
+149-7	6627-6629	di	_	_	_	di	_	_	148-6	_	_	
+149-8	6630-6633	mio	_	_	_	mio	_	_	148-7	_	_	
+149-9	6634-6642	qualcuno	_	_	_	qualcuno	_	_	148-8	_	_	
+149-10	6643-6646	che	_	_	_	che	_	_	148-9	_	_	
+149-11	6647-6650	già	_	_	_	già	_	_	148-10	_	_	
+149-12	6651-6653	si	_	_	_	si	_	_	148-11	_	_	
+149-13	6654-6660	sposta	_	_	_	sposta	_	_	148-12	_	_	
+149-14	6661-6674	semplicemente	_	_	_	semplicemente	_	_	148-13	_	_	
+149-15	6675-6677	da	_	_	_	da	_	_	148-14	_	_	
+149-16	6678-6681	una	_	_	_	una	_	_	148-15	_	_	
+149-17	6682-6686	zona	_	_	_	zona	_	_	148-16	_	_	
+149-18	6687-6691	all'	_	_	_	all'	_	_	148-17	_	_	
+149-19	6692-6697	altra	_	_	_	altra	_	_	148-18	_	_	
+
+#Text=mi verrebbe da dire che forse sente più la mancanza di quello che aveva
+150-1	6698-6700	mi	_	_	_	mi	_	BOR009	149-0	_	_	
+150-2	6701-6709	verrebbe	_	_	_	verrebbe	_	_	149-1	_	_	
+150-3	6710-6712	da	_	_	_	da	_	_	149-2	_	_	
+150-4	6713-6717	dire	_	_	_	dire	_	_	149-3	_	_	
+150-5	6718-6721	che	_	_	_	che	_	_	149-4	_	_	
+150-6	6722-6727	forse	_	_	_	forse	_	_	149-5	_	_	
+150-7	6728-6733	sente	_	_	_	sente	_	_	149-6	_	_	
+150-8	6734-6737	più	_	_	_	più	_	_	149-7	_	_	
+150-9	6738-6740	la	_	_	_	la	_	_	149-8	_	_	
+150-10	6741-6749	mancanza	_	_	_	mancanza	_	_	149-9	_	_	
+150-11	6750-6752	di	_	_	_	di	_	_	149-10	_	_	
+150-12	6753-6759	quello	_	_	_	quello	_	_	149-11	_	_	
+150-13	6760-6763	che	_	_	_	che	_	_	149-12	_	_	
+150-14	6764-6769	aveva	_	_	_	aveva	_	_	149-13	_	_	
+
+#Text=invece beh ti è successo quando sei ritornata poi
+151-1	6770-6776	invece	_	_	_	invece:	_	BOR009	150-0	_	_	
+151-2	6777-6780	beh	_	_	_	beh	_	_	150-1	_	_	
+151-3	6781-6783	ti	_	_	_	ti	_	_	150-2	_	_	
+151-4	6784-6785	è	_	_	_	è	_	_	150-3	_	_	
+151-5	6786-6794	successo	_	_	_	successo	_	_	150-4	_	_	
+151-6	6795-6801	quando	_	_	_	quando	_	_	150-5	_	_	
+151-7	6802-6805	sei	_	_	_	sei	_	_	150-6	_	_	
+151-8	6806-6815	ritornata	_	_	_	ritornata	_	_	150-7	_	_	
+151-9	6816-6819	poi	_	_	_	\[poi\]	_	_	150-8	*->40-1	*[40]	
+
+#Text=sì
+152-1	6820-6822	sì	BC	_	_	\[sì\]	_	BOI057	151-0	*->40-2	*[40]	
+
+#Text=sì g~ guarda io non lo so perché
+153-1	6823-6825	sì	BC	_	_	sì	_	BOI057	152-0	_	_	
+153-2	6826-6828	g~	_	_	_	g~	_	_	152-1	_	_	
+153-3	6829-6835	guarda	_	_	_	guarda	_	_	152-2	_	_	
+153-4	6836-6838	io	_	_	_	io	_	_	152-3	_	_	
+153-5	6839-6842	non	_	_	_	non	_	_	152-4	_	_	
+153-6	6843-6845	lo	_	_	_	lo	_	_	152-5	_	_	
+153-7	6846-6848	so	_	_	_	so	_	_	152-6	_	_	
+153-8	6849-6855	perché	_	_	_	perché	_	_	152-7	_	_	
+
+#Text=mh sono mi sento veramente un po' cioè
+154-1	6856-6858	mh	_	FP	_	m:h	_	BOI057	153-0	_	_	
+154-2	6859-6863	sono	_	_	_	(sono)	_	_	153-1	_	_	
+154-3	6864-6866	mi	_	_	_	mi	_	_	153-2	_	_	
+154-4	6867-6872	sento	_	_	_	sento	_	_	153-3	_	_	
+154-5	6873-6882	veramente	_	_	_	veramente	_	_	153-4	_	_	
+154-6	6883-6885	un	_	_	_	un	_	_	153-5	_	_	
+154-7	6886-6889	po'	_	_	_	po'	_	_	153-6	_	_	
+154-8	6890-6894	cioè	_	_	_	cioè	_	_	153-7	_	_	
+
+#Text=d' altra parte io capisco che è ragionevole il fatto di dire vivo in un posto tranquillo dove nessuno mi rompe le scatole dove non sento niente
+155-1	6895-6897	d'	_	_	_	d'	_	BOI057	154-0	_	_	
+155-2	6898-6903	altra	_	_	_	altra	_	_	154-1	_	_	
+155-3	6904-6909	parte	_	_	_	parte	_	_	154-2	_	_	
+155-4	6910-6912	io	_	_	_	io	_	_	154-3	_	_	
+155-5	6913-6920	capisco	_	_	_	capisco	_	_	154-4	_	_	
+155-6	6921-6924	che	_	_	_	che	_	_	154-5	_	_	
+155-7	6925-6926	è	_	_	_	è	_	_	154-6	_	_	
+155-8	6927-6938	ragionevole	_	_	_	ragionevole	_	_	154-7	_	_	
+155-9	6939-6941	il	_	_	_	il	_	_	154-8	_	_	
+155-10	6942-6947	fatto	_	_	_	fatto	_	_	154-9	_	_	
+155-11	6948-6950	di	_	_	_	di	_	_	154-10	_	_	
+155-12	6951-6955	dire	_	_	_	dire:	_	_	154-11	_	_	
+155-13	6956-6960	vivo	_	_	_	vivo	_	_	154-12	_	_	
+155-14	6961-6963	in	_	_	_	in	_	_	154-13	_	_	
+155-15	6964-6966	un	_	_	_	un	_	_	154-14	_	_	
+155-16	6967-6972	posto	_	_	_	posto	_	_	154-15	_	_	
+155-17	6973-6983	tranquillo	_	_	WeaklyRising	tranquillo,	_	_	154-16	_	_	
+155-18	6984-6988	dove	_	_	_	dove	_	_	154-17	_	_	
+155-19	6989-6996	nessuno	_	_	_	nessuno	_	_	154-18	_	_	
+155-20	6997-6999	mi	_	_	_	mi	_	_	154-19	_	_	
+155-21	7000-7005	rompe	_	_	_	rompe	_	_	154-20	_	_	
+155-22	7006-7008	le	_	_	_	le	_	_	154-21	_	_	
+155-23	7009-7016	scatole	_	_	WeaklyRising	scatole,	_	_	154-22	_	_	
+155-24	7017-7021	dove	_	_	_	dove	_	_	154-23	_	_	
+155-25	7022-7025	non	_	_	_	non	_	_	154-24	_	_	
+155-26	7026-7031	sento	_	_	_	sento	_	_	154-25	_	_	
+155-27	7032-7038	niente	_	_	WeaklyRising	niente,	_	_	154-26	_	_	
+
+#Text=non è così per me
+156-1	7039-7042	non	_	_	_	non	_	BOI057	155-0	_	_	
+156-2	7043-7044	è	_	_	_	è	_	_	155-1	_	_	
+156-3	7045-7049	così	_	_	_	così	_	_	155-2	_	_	
+156-4	7050-7053	per	_	_	_	per	_	_	155-3	_	_	
+156-5	7054-7056	me	_	_	_	me	_	_	155-4	_	_	
+
+#Text=non funziona così
+157-1	7057-7060	non	_	_	_	non	_	BOI057	156-0	_	_	
+157-2	7061-7069	funziona	_	_	_	funziona	_	_	156-1	_	_	
+157-3	7070-7074	così	_	_	_	così	_	_	156-2	_	_	
+
+#Text=ma pensa per esempio
+158-1	7075-7077	ma	_	_	_	ma	_	BOI057	157-0	_	_	
+158-2	7078-7083	pensa	_	_	_	pensa	_	_	157-1	_	_	
+158-3	7084-7087	per	_	_	_	per	_	_	157-2	_	_	
+158-4	7088-7095	esempio	_	_	_	esempio	_	_	157-3	_	_	
+
+#Text=c' è stato un momento in cui io mh ho avuto un momento un po' di crisi perché appunto il lavoro non non non era una cosa che si trovava facilmente
+159-1	7096-7098	c'	_	_	_	c'	_	BOI057	158-0	_	_	
+159-2	7099-7100	è	_	_	_	è	_	_	158-1	_	_	
+159-3	7101-7106	stato	_	_	_	stato	_	_	158-2	_	_	
+159-4	7107-7109	un	_	_	_	un	_	_	158-3	_	_	
+159-5	7110-7117	momento	_	_	_	momento	_	_	158-4	_	_	
+159-6	7118-7120	in	_	_	_	in	_	_	158-5	_	_	
+159-7	7121-7124	cui	_	_	_	cui	_	_	158-6	_	_	
+159-8	7125-7127	io	_	_	_	io	_	_	158-7	_	_	
+159-9	7128-7130	mh	_	FP	_	m:h	_	_	158-8	_	_	
+159-10	7131-7133	ho	_	_	_	ho	_	_	158-9	_	_	
+159-11	7134-7139	avuto	_	_	_	avuto	_	_	158-10	_	_	
+159-12	7140-7142	un	_	_	_	un	_	_	158-11	_	_	
+159-13	7143-7150	momento	_	_	_	momento	_	_	158-12	_	_	
+159-14	7151-7153	un	_	_	_	un	_	_	158-13	_	_	
+159-15	7154-7157	po'	_	_	_	po'	_	_	158-14	_	_	
+159-16	7158-7160	di	_	_	_	di	_	_	158-15	_	_	
+159-17	7161-7166	crisi	_	_	_	crisi	_	_	158-16	_	_	
+159-18	7167-7173	perché	_	_	_	perché	_	_	158-17	_	_	
+159-19	7174-7181	appunto	_	_	_	appunto	_	_	158-18	_	_	
+159-20	7182-7184	il	_	_	_	il	_	_	158-19	_	_	
+159-21	7185-7191	lavoro	_	_	_	lavoro	_	_	158-20	_	_	
+159-22	7192-7195	non	_	_	_	non	_	_	158-21	_	_	
+159-23	7196-7199	non	_	_	_	non	_	_	158-22	_	_	
+159-24	7200-7203	non	_	_	_	non	_	_	158-23	_	_	
+159-25	7204-7207	era	_	_	_	era	_	_	158-24	_	_	
+159-26	7208-7211	una	_	_	_	una	_	_	158-25	_	_	
+159-27	7212-7216	cosa	_	_	_	cosa	_	_	158-26	_	_	
+159-28	7217-7220	che	_	_	_	che	_	_	158-27	_	_	
+159-29	7221-7223	si	_	_	_	si	_	_	158-28	_	_	
+159-30	7224-7231	trovava	_	_	_	trovava	_	_	158-29	_	_	
+159-31	7232-7242	facilmente	_	_	_	facilmente	_	_	158-30	_	_	
+
+#Text=e la barista [PAUSE] di via sant' isaia eravamo diventate abbastanza amiche
+160-1	7243-7244	e	_	_	_	e	_	BOI057	159-0	_	_	
+160-2	7245-7247	la	_	_	_	la	_	_	159-1	_	_	
+160-3	7248-7255	barista	_	_	_	barista	_	_	159-2	_	_	
+160-4	7256-7263	[PAUSE]	_	_	_	(.)	_	_	159-3	_	_	
+160-5	7264-7266	di	_	_	_	di	_	_	159-4	_	_	
+160-6	7267-7270	via	_	_	_	via	_	_	159-5	_	_	
+160-7	7271-7276	sant'	_	_	_	sant'	_	_	159-6	_	_	
+160-8	7277-7282	isaia	_	_	_	isaia	_	_	159-7	_	_	
+160-9	7283-7290	eravamo	_	_	_	eravamo	_	_	159-8	_	_	
+160-10	7291-7300	diventate	_	_	_	diventate	_	_	159-9	_	_	
+160-11	7301-7311	abbastanza	_	_	_	abbastanza	_	_	159-10	_	_	
+160-12	7312-7318	amiche	_	_	_	amiche	_	_	159-11	_	_	
+
+#Text=mh io sapevo [PAUSE] io mi svegliavo con un po' di ansia
+161-1	7319-7321	mh	_	FP	_	mh	_	BOI057	160-0	_	_	
+161-2	7322-7324	io	_	_	_	io	_	_	160-1	_	_	
+161-3	7325-7331	sapevo	_	_	_	sapevo	_	_	160-2	_	_	
+161-4	7332-7339	[PAUSE]	_	_	_	(.)	_	_	160-3	_	_	
+161-5	7340-7342	io	_	_	_	io	_	_	160-4	_	_	
+161-6	7343-7345	mi	_	_	_	mi	_	_	160-5	_	_	
+161-7	7346-7355	svegliavo	_	_	_	svegliavo	_	_	160-6	_	_	
+161-8	7356-7359	con	_	_	_	con	_	_	160-7	_	_	
+161-9	7360-7362	un	_	_	_	un	_	_	160-8	_	_	
+161-10	7363-7366	po'	_	_	_	po'	_	_	160-9	_	_	
+161-11	7367-7369	di	_	_	_	di	_	_	160-10	_	_	
+161-12	7370-7375	ansia	_	_	_	ansia	_	_	160-11	_	_	
+
+#Text=però ero contenta perché sapevo che entro cinque minuti sarei uscita sarei scesa al bar e sarei andata a trovar la valeria
+162-1	7376-7380	però	_	_	_	però	_	BOI057	161-0	_	_	
+162-2	7381-7384	ero	_	_	_	ero	_	_	161-1	_	_	
+162-3	7385-7393	contenta	_	_	_	contenta	_	_	161-2	_	_	
+162-4	7394-7400	perché	_	_	_	perché	_	_	161-3	_	_	
+162-5	7401-7407	sapevo	_	_	_	sapevo	_	_	161-4	_	_	
+162-6	7408-7411	che	_	_	_	che	_	_	161-5	_	_	
+162-7	7412-7417	entro	_	_	_	entro	_	_	161-6	_	_	
+162-8	7418-7424	cinque	_	_	_	cinque	_	_	161-7	_	_	
+162-9	7425-7431	minuti	_	_	_	minuti	_	_	161-8	_	_	
+162-10	7432-7437	sarei	_	_	_	sarei	_	_	161-9	_	_	
+162-11	7438-7444	uscita	_	_	WeaklyRising	uscita,	_	_	161-10	_	_	
+162-12	7445-7450	sarei	_	_	_	sarei	_	_	161-11	_	_	
+162-13	7451-7456	scesa	_	_	_	scesa	_	_	161-12	_	_	
+162-14	7457-7459	al	_	_	_	al	_	_	161-13	_	_	
+162-15	7460-7463	bar	_	_	WeaklyRising	bar,	_	_	161-14	_	_	
+162-16	7464-7465	e	_	_	_	e	_	_	161-15	_	_	
+162-17	7466-7471	sarei	_	_	_	sarei	_	_	161-16	_	_	
+162-18	7472-7478	andata	_	_	_	andata	_	_	161-17	_	_	
+162-19	7479-7480	a	_	_	_	a	_	_	161-18	_	_	
+162-20	7481-7487	trovar	_	_	_	trovar	_	_	161-19	_	_	
+162-21	7488-7490	la	_	_	_	la	_	_	161-20	_	_	
+162-22	7491-7498	valeria	_	_	_	valeria	_	_	161-21	_	_	
+
+#Text=poi avrei fatto le chiacchiere con la valeria avrei fatto un giretto col cane lì intorno avrei incontrato altri amici e poi sarei tornata a casa a lavorare
+163-1	7499-7502	poi	_	_	_	poi	_	BOI057	162-0	_	_	
+163-2	7503-7508	avrei	_	_	_	avrei	_	_	162-1	_	_	
+163-3	7509-7514	fatto	_	_	_	fatto	_	_	162-2	_	_	
+163-4	7515-7517	le	_	_	_	le	_	_	162-3	_	_	
+163-5	7518-7529	chiacchiere	_	_	_	chiacchiere	_	_	162-4	_	_	
+163-6	7530-7533	con	_	_	_	con	_	_	162-5	_	_	
+163-7	7534-7536	la	_	_	_	la	_	_	162-6	_	_	
+163-8	7537-7544	valeria	_	_	WeaklyRising	valeria,	_	_	162-7	_	_	
+163-9	7545-7550	avrei	_	_	_	avrei	_	_	162-8	_	_	
+163-10	7551-7556	fatto	_	_	_	fatto	_	_	162-9	_	_	
+163-11	7557-7559	un	_	_	_	un	_	_	162-10	_	_	
+163-12	7560-7567	giretto	_	_	_	giretto	_	_	162-11	_	_	
+163-13	7568-7571	col	_	_	_	col	_	_	162-12	_	_	
+163-14	7572-7576	cane	_	_	_	cane	_	_	162-13	_	_	
+163-15	7577-7579	lì	_	_	_	lì	_	_	162-14	_	_	
+163-16	7580-7587	intorno	_	_	WeaklyRising	intorno,	_	_	162-15	_	_	
+163-17	7588-7593	avrei	_	_	_	avrei	_	_	162-16	_	_	
+163-18	7594-7604	incontrato	_	_	_	incontrato	_	_	162-17	_	_	
+163-19	7605-7610	altri	_	_	_	altri	_	_	162-18	_	_	
+163-20	7611-7616	amici	_	_	WeaklyRising	amici,	_	_	162-19	_	_	
+163-21	7617-7618	e	_	_	_	e	_	_	162-20	_	_	
+163-22	7619-7622	poi	_	_	_	poi	_	_	162-21	_	_	
+163-23	7623-7628	sarei	_	_	_	sarei	_	_	162-22	_	_	
+163-24	7629-7636	tornata	_	_	_	tornata	_	_	162-23	_	_	
+163-25	7637-7638	a	_	_	_	a	_	_	162-24	_	_	
+163-26	7639-7643	casa	_	_	_	casa	_	_	162-25	_	_	
+163-27	7644-7645	a	_	_	_	a	_	_	162-26	_	_	
+163-28	7646-7654	lavorare	_	_	_	lavorare	_	_	162-27	_	_	
+
+#Text=quindi per me era comunità
+164-1	7655-7661	quindi	_	_	_	quindi	_	BOI057	163-0	_	_	
+164-2	7662-7665	per	_	_	_	per	_	_	163-1	_	_	
+164-3	7666-7668	me	_	_	_	me	_	_	163-2	_	_	
+164-4	7669-7672	era	_	_	_	era	_	_	163-3	_	_	
+164-5	7673-7681	comunità	_	_	_	comunità	_	_	163-4	_	_	
+
+#Text=bello
+165-1	7682-7687	bello	BC	_	_	\[bello\]	_	BOR009	164-0	*->11-1	*[11]	
+
+#Text=un senso di comunità
+166-1	7688-7690	un	_	_	_	\[un	_	BOI057	165-0	*->11-2	*[11]	
+166-2	7691-7696	senso	_	_	_	senso\]	_	_	165-1	*->11-3	*[11]	
+166-3	7697-7699	di	_	_	_	di	_	_	165-2	_	_	
+166-4	7700-7708	comunità	_	_	_	comunità	_	_	165-3	_	_	
+
+#Text=che poi fosse basata sullo scambio economico mhmh
+167-1	7709-7712	che	_	_	_	che	_	BOI057	166-0	_	_	
+167-2	7713-7716	poi	_	_	_	poi	_	_	166-1	_	_	
+167-3	7717-7722	fosse	_	_	_	fosse	_	_	166-2	_	_	
+167-4	7723-7729	basata	_	_	_	basata	_	_	166-3	_	_	
+167-5	7730-7735	sullo	_	_	_	sullo	_	_	166-4	_	_	
+167-6	7736-7743	scambio	_	_	_	scambio	_	_	166-5	_	_	
+167-7	7744-7753	economico	_	_	_	economico	_	_	166-6	_	_	
+167-8	7754-7758	mhmh	_	FP	_	mhmh	_	_	166-7	_	_	
+
+#Text=((ride))
+168-1	7759-7767	((ride))	_	_	_	((ride))	_	BOR009	167-0	_	_	
+
+#Text=ma ci sta va bene
+169-1	7768-7770	ma	_	_	_	ma	_	BOI057	168-0	_	_	
+169-2	7771-7773	ci	_	_	_	ci	_	_	168-1	_	_	
+169-3	7774-7777	sta	_	_	_	sta	_	_	168-2	_	_	
+169-4	7778-7780	va	_	_	_	va	_	_	168-3	_	_	
+169-5	7781-7785	bene	_	_	_	bene	_	_	168-4	_	_	
+
+#Text=però è un senso di comunità
+170-1	7786-7790	però	_	_	_	però	_	BOI057	169-0	_	_	
+170-2	7791-7792	è	_	_	_	è	_	_	169-1	_	_	
+170-3	7793-7795	un	_	_	_	un	_	_	169-2	_	_	
+170-4	7796-7801	senso	_	_	_	senso	_	_	169-3	_	_	
+170-5	7802-7804	di	_	_	_	di	_	_	169-4	_	_	
+170-6	7805-7813	comunità	_	_	_	comunità	_	_	169-5	_	_	
+
+#Text=qui non è uguale
+171-1	7814-7817	qui	_	_	_	qui	_	BOI057	170-0	_	_	
+171-2	7818-7821	non	_	_	_	non	_	_	170-1	_	_	
+171-3	7822-7823	è	_	_	_	è	_	_	170-2	_	_	
+171-4	7824-7830	uguale	_	_	_	uguale	_	_	170-3	_	_	
+
+#Text=anche cioè anche se vengo da qui e mi salutano mi riconoscono
+172-1	7831-7836	anche	_	_	_	°anche	_	BOI057	171-0	_	_	
+172-2	7837-7841	cioè	_	_	_	cioè	_	_	171-1	_	_	
+172-3	7842-7847	anche	_	_	_	anche	_	_	171-2	_	_	
+172-4	7848-7850	se	_	_	_	se	_	_	171-3	_	_	
+172-5	7851-7856	vengo	_	_	_	vengo	_	_	171-4	_	_	
+172-6	7857-7859	da	_	_	_	da	_	_	171-5	_	_	
+172-7	7860-7863	qui	_	_	_	qui	_	_	171-6	_	_	
+172-8	7864-7865	e	_	_	_	e	_	_	171-7	_	_	
+172-9	7866-7868	mi	_	_	_	mi	_	_	171-8	_	_	
+172-10	7869-7877	salutano	_	_	_	salutano	_	_	171-9	_	_	
+172-11	7878-7880	mi	_	_	_	mi	_	_	171-10	_	_	
+172-12	7881-7892	riconoscono	_	_	_	riconoscono°	_	_	171-11	_	_	
+
+#Text=non c' è il tempo non non c' è l' attenzione non c' è
+173-1	7893-7896	non	_	_	_	non	_	BOI057	172-0	_	_	
+173-2	7897-7899	c'	_	_	_	c'	_	_	172-1	_	_	
+173-3	7900-7901	è	_	_	_	è	_	_	172-2	_	_	
+173-4	7902-7904	il	_	_	_	il	_	_	172-3	_	_	
+173-5	7905-7910	tempo	_	_	_	tempo:	_	_	172-4	_	_	
+173-6	7911-7914	non	_	_	_	non	_	_	172-5	_	_	
+173-7	7915-7918	non	_	_	_	non	_	_	172-6	_	_	
+173-8	7919-7921	c'	_	_	_	c'	_	_	172-7	_	_	
+173-9	7922-7923	è	_	_	_	è	_	_	172-8	_	_	
+173-10	7924-7926	l'	_	_	_	l'	_	_	172-9	_	_	
+173-11	7927-7937	attenzione	_	_	_	attenzione	_	_	172-10	_	_	
+173-12	7938-7941	non	_	_	_	non	_	_	172-11	_	_	
+173-13	7942-7944	c'	_	_	_	c'	_	_	172-12	_	_	
+173-14	7945-7946	è	_	_	_	è	_	_	172-13	_	_	
+
+#Text=e questo [PAUSE] dopo che ho provato quella esperienza lì lo sento forte
+174-1	7947-7948	e	_	_	_	e	_	BOI057	173-0	_	_	
+174-2	7949-7955	questo	_	_	_	questo	_	_	173-1	_	_	
+174-3	7956-7963	[PAUSE]	_	_	_	(.)	_	_	173-2	_	_	
+174-4	7964-7968	dopo	_	_	_	dopo	_	_	173-3	_	_	
+174-5	7969-7972	che	_	_	_	che	_	_	173-4	_	_	
+174-6	7973-7975	ho	_	_	_	ho	_	_	173-5	_	_	
+174-7	7976-7983	provato	_	_	_	provato	_	_	173-6	_	_	
+174-8	7984-7990	quella	_	_	_	quella	_	_	173-7	_	_	
+174-9	7991-8001	esperienza	_	_	_	esperienza	_	_	173-8	_	_	
+174-10	8002-8004	lì	_	_	_	lì	_	_	173-9	_	_	
+174-11	8005-8007	lo	_	_	_	lo	_	_	173-10	_	_	
+174-12	8008-8013	sento	_	_	_	sento	_	_	173-11	_	_	
+174-13	8014-8019	forte	_	_	_	forte	_	_	173-12	_	_	
+
+#Text=ho capito
+175-1	8020-8022	ho	BC[4]	_	_	ho	_	BOR009	174-0	_	_	
+175-2	8023-8029	capito	BC[4]	_	_	capito	_	_	174-1	_	_	
+
+#Text=però mh io penso
+176-1	8030-8034	però	_	_	_	però	_	BOR009	175-0	_	_	
+176-2	8035-8037	mh	_	FP	_	m:h	_	_	175-1	_	_	
+176-3	8038-8040	io	_	_	_	io	_	_	175-2	_	_	
+176-4	8041-8046	penso	_	_	_	penso:	_	_	175-3	_	_	
+
+#Text=almeno è una bella zona cioè secondo me qua è x cioè allo~ non non ci~ io vivo in bolognina
+177-1	8047-8053	almeno	_	_	_	almeno	_	BOR009	176-0	_	_	
+177-2	8054-8055	è	_	_	_	è	_	_	176-1	_	_	
+177-3	8056-8059	una	_	_	_	una	_	_	176-2	_	_	
+177-4	8060-8065	bella	_	_	_	bella	_	_	176-3	_	_	
+177-5	8066-8070	zona	_	_	_	zona	_	_	176-4	_	_	
+177-6	8071-8075	cioè	_	_	_	cioè	_	_	176-5	_	_	
+177-7	8076-8083	secondo	_	_	_	>secondo	_	_	176-6	_	_	
+177-8	8084-8086	me	_	_	_	me<	_	_	176-7	_	_	
+177-9	8087-8090	qua	_	_	_	qua	_	_	176-8	_	_	
+177-10	8091-8092	è	_	_	_	è	_	_	176-9	_	_	
+177-11	8093-8094	x	_	_	_	x	_	_	176-10	_	_	
+177-12	8095-8099	cioè	_	_	_	cioè	_	_	176-11	_	_	
+177-13	8100-8105	allo~	_	_	_	allo~	_	_	176-12	_	_	
+177-14	8106-8109	non	_	_	_	non	_	_	176-13	_	_	
+177-15	8110-8113	non	_	_	_	non	_	_	176-14	_	_	
+177-16	8114-8117	ci~	_	_	_	ci~	_	_	176-15	_	_	
+177-17	8118-8120	io	_	_	_	io	_	_	176-16	_	_	
+177-18	8121-8125	vivo	_	_	_	vivo	_	_	176-17	_	_	
+177-19	8126-8128	in	_	_	_	in	_	_	176-18	_	_	
+177-20	8129-8138	bolognina	_	_	_	bolognina	_	_	176-19	_	_	
+
+#Text=eh
+178-1	8139-8141	eh	_	FP	_	\[e:h\]	_	BOR009	177-0	*->60-1	*[60]	
+
+#Text=bellissima la bolognina
+179-1	8142-8152	bellissima	_	_	_	\[bellissima\]	_	BOI057	178-0	*->60-2	*[60]	
+179-2	8153-8155	la	_	_	_	la	_	_	178-1	_	_	
+179-3	8156-8165	bolognina	_	_	_	bolognina	_	_	178-2	_	_	
+
+#Text=a me piace anche lo ammetto
+180-1	8166-8167	a	_	_	_	a	_	BOR009	179-0	_	_	
+180-2	8168-8170	me	_	_	_	me	_	_	179-1	_	_	
+180-3	8171-8176	piace	_	_	_	piace	_	_	179-2	_	_	
+180-4	8177-8182	anche	_	_	_	anche	_	_	179-3	_	_	
+180-5	8183-8185	lo	_	_	_	lo	_	_	179-4	_	_	
+180-6	8186-8193	ammetto	_	_	_	ammetto	_	_	179-5	_	_	
+
+#Text=eh
+181-1	8194-8196	eh	_	FP	_	eh	_	BOI057	180-0	_	_	
+
+#Text=però mh [PAUSE] le volte che devo venire a san luca passo di qua io me la faccio tutta a piedi proprio da da porta saragozza perché proprio mi piace questa zona
+182-1	8197-8201	però	_	_	_	però	_	BOR009	181-0	_	_	
+182-2	8202-8204	mh	_	FP	_	m:h	_	_	181-1	_	_	
+182-3	8205-8212	[PAUSE]	_	_	_	(.)	_	_	181-2	_	_	
+182-4	8213-8215	le	_	_	_	le	_	_	181-3	_	_	
+182-5	8216-8221	volte	_	_	_	volte	_	_	181-4	_	_	
+182-6	8222-8225	che	_	_	_	che	_	_	181-5	_	_	
+182-7	8226-8230	devo	_	_	_	devo	_	_	181-6	_	_	
+182-8	8231-8237	venire	_	_	_	venire	_	_	181-7	_	_	
+182-9	8238-8239	a	_	_	_	a	_	_	181-8	_	_	
+182-10	8240-8243	san	_	_	_	san	_	_	181-9	_	_	
+182-11	8244-8248	luca	_	_	_	luca	_	_	181-10	_	_	
+182-12	8249-8254	passo	_	_	_	passo	_	_	181-11	_	_	
+182-13	8255-8257	di	_	_	_	di	_	_	181-12	_	_	
+182-14	8258-8261	qua	_	_	_	qua	_	_	181-13	_	_	
+182-15	8262-8264	io	_	_	_	io	_	_	181-14	_	_	
+182-16	8265-8267	me	_	_	_	me	_	_	181-15	_	_	
+182-17	8268-8270	la	_	_	_	la	_	_	181-16	_	_	
+182-18	8271-8277	faccio	_	_	_	faccio	_	_	181-17	_	_	
+182-19	8278-8283	tutta	_	_	_	tutta	_	_	181-18	_	_	
+182-20	8284-8285	a	_	_	_	a	_	_	181-19	_	_	
+182-21	8286-8291	piedi	_	_	_	piedi	_	_	181-20	_	_	
+182-22	8292-8299	proprio	_	_	_	proprio	_	_	181-21	_	_	
+182-23	8300-8302	da	_	_	_	da:	_	_	181-22	_	_	
+182-24	8303-8305	da	_	_	_	da	_	_	181-23	_	_	
+182-25	8306-8311	porta	_	_	_	porta	_	_	181-24	_	_	
+182-26	8312-8321	saragozza	_	_	_	saragozza	_	_	181-25	_	_	
+182-27	8322-8328	perché	_	_	_	perché	_	_	181-26	_	_	
+182-28	8329-8336	proprio	_	_	_	proprio	_	_	181-27	_	_	
+182-29	8337-8339	mi	_	_	_	mi	_	_	181-28	_	_	
+182-30	8340-8345	piace	_	_	_	piace	_	_	181-29	_	_	
+182-31	8346-8352	questa	_	_	_	questa	_	_	181-30	_	_	
+182-32	8353-8357	zona	_	_	_	zon\[a:\]	_	_	181-31	_	_	
+182-32.1	8356-8357	a	_	_	_	_	_	_	_	*->65-1	*[65]	
+
+#Text=mhmh
+183-1	8358-8362	mhmh	BC	_	_	\[mh\]mh	_	BOI057	182-0	_	_	
+183-1.1	8358-8360	mh	_	_	_	_	_	_	_	*->65-1|*->65-2	*[65]|*[65]	
+
+#Text=a livello estetico secondo me è molto carina
+184-1	8363-8364	a	_	_	_	a	_	BOR009	183-0	_	_	
+184-2	8365-8372	livello	_	_	_	livello	_	_	183-1	_	_	
+184-3	8373-8381	estetico	_	_	_	estetico	_	_	183-2	_	_	
+184-4	8382-8389	secondo	_	_	_	secondo	_	_	183-3	_	_	
+184-5	8390-8392	me	_	_	_	me	_	_	183-4	_	_	
+184-6	8393-8394	è	_	_	_	è	_	_	183-5	_	_	
+184-7	8395-8400	molto	_	_	_	molto:	_	_	183-6	_	_	
+184-8	8401-8407	carina	_	_	_	carina	_	_	183-7	_	_	
+
+#Text=beh sì forse esteticamente via saragozza è bellina perché comunque ci sono tutti i giardini da una parte i portici
+185-1	8408-8411	beh	BC[5]	_	_	beh	_	BOI057	184-0	_	_	
+185-2	8412-8414	sì	BC[5]	_	_	sì	_	_	184-1	_	_	
+185-3	8415-8420	forse	_	_	_	forse	_	_	184-2	_	_	
+185-4	8421-8434	esteticamente	_	_	_	esteticamente	_	_	184-3	_	_	
+185-5	8435-8438	via	_	_	_	via	_	_	184-4	_	_	
+185-6	8439-8448	saragozza	_	_	_	saragozza	_	_	184-5	_	_	
+185-7	8449-8450	è	_	_	_	è	_	_	184-6	_	_	
+185-8	8451-8458	bellina	_	_	_	bellina	_	_	184-7	_	_	
+185-9	8459-8465	perché	_	_	_	perché	_	_	184-8	_	_	
+185-10	8466-8474	comunque	_	_	_	comunque	_	_	184-9	_	_	
+185-11	8475-8477	ci	_	_	_	ci	_	_	184-10	_	_	
+185-12	8478-8482	sono	_	_	_	sono	_	_	184-11	_	_	
+185-13	8483-8488	tutti	_	_	_	tutti	_	_	184-12	_	_	
+185-14	8489-8490	i	_	_	_	i	_	_	184-13	_	_	
+185-15	8491-8499	giardini	_	_	_	giardini	_	_	184-14	_	_	
+185-16	8500-8502	da	_	_	_	da	_	_	184-15	_	_	
+185-17	8503-8506	una	_	_	_	una	_	_	184-16	_	_	
+185-18	8507-8512	parte	_	_	WeaklyRising	\[parte\],	_	_	184-17	*->58-1	*[58]	
+185-19	8513-8514	i	_	_	_	i	_	_	184-18	_	_	
+185-20	8515-8522	portici	_	_	_	portici	_	_	184-19	_	_	
+
+#Text=esatto
+186-1	8523-8529	esatto	BC	_	_	\[esatto\]	_	BOR009	185-0	*->58-2	*[58]	
+
+#Text=è vero
+187-1	8530-8531	è	_	_	_	è	_	BOI057	186-0	_	_	
+187-2	8532-8536	vero	_	_	_	vero	_	_	186-1	_	_	
+
+#Text=però vivere è sempre diverso
+188-1	8537-8541	però	_	_	_	però	_	BOR009	187-0	_	_	
+188-2	8542-8548	vivere	_	_	_	vivere	_	_	187-1	_	_	
+188-3	8549-8550	è	_	_	_	è	_	_	187-2	_	_	
+188-4	8551-8557	sempre	_	_	_	sempre	_	_	187-3	_	_	
+188-5	8558-8565	diverso	_	_	_	diverso	_	_	187-4	_	_	
+
+#Text=sì io s~ guarda io sto più attenta
+189-1	8566-8568	sì	BC	_	_	sì	_	BOI057	188-0	_	_	
+189-2	8569-8571	io	_	_	_	io	_	_	188-1	_	_	
+189-3	8572-8574	s~	_	_	_	s~	_	_	188-2	_	_	
+189-4	8575-8581	guarda	_	_	_	guarda	_	_	188-3	_	_	
+189-5	8582-8584	io	_	_	_	io	_	_	188-4	_	_	
+189-6	8585-8588	sto	_	_	_	sto	_	_	188-5	_	_	
+189-7	8589-8592	più	_	_	_	più	_	_	188-6	_	_	
+189-8	8593-8600	attenta	_	_	_	attenta	_	_	188-7	_	_	
+
+#Text=vabbè se dovessi vivere in via marconi [PAUSE] penso che mi sparerei
+190-1	8601-8606	vabbè	_	_	_	vabbè	_	BOI057	189-0	_	_	
+190-2	8607-8609	se	_	_	_	se	_	_	189-1	_	_	
+190-3	8610-8617	dovessi	_	_	_	dovessi	_	_	189-2	_	_	
+190-4	8618-8624	vivere	_	_	_	vivere	_	_	189-3	_	_	
+190-5	8625-8627	in	_	_	_	in	_	_	189-4	_	_	
+190-6	8628-8631	via	_	_	_	via	_	_	189-5	_	_	
+190-7	8632-8639	marconi	_	_	_	marconi	_	_	189-6	_	_	
+190-8	8640-8647	[PAUSE]	_	_	_	(.)	_	_	189-7	_	_	
+190-9	8648-8653	penso	_	_	_	penso	_	_	189-8	_	_	
+190-10	8654-8657	che	_	_	_	che	_	_	189-9	_	_	
+190-11	8658-8660	mi	_	_	_	mi	_	_	189-10	_	_	
+190-12	8661-8669	sparerei	_	_	_	sparerei	_	_	189-11	_	_	
+
+#Text=((ride))
+191-1	8670-8678	((ride))	_	_	_	((ride))	_	BOR009	190-0	_	_	
+
+#Text=cioè x o in via lame
+192-1	8679-8683	cioè	_	_	_	cioè	_	BOI057	191-0	_	_	
+192-2	8684-8685	x	_	_	_	xx	_	_	191-1	_	_	
+192-3	8686-8687	o	_	_	_	o	_	_	191-2	_	_	
+192-4	8688-8690	in	_	_	_	in	_	_	191-3	_	_	
+192-5	8691-8694	via	_	_	_	via	_	_	191-4	_	_	
+192-6	8695-8699	lame	_	_	_	lame	_	_	191-5	_	_	
+
+#Text=ci sono certe strade che sono veramente brutte
+193-1	8700-8702	ci	_	_	_	ci	_	BOI057	192-0	_	_	
+193-2	8703-8707	sono	_	_	_	sono	_	_	192-1	_	_	
+193-3	8708-8713	certe	_	_	_	certe	_	_	192-2	_	_	
+193-4	8714-8720	strade	_	_	_	strade	_	_	192-3	_	_	
+193-5	8721-8724	che	_	_	_	che	_	_	192-4	_	_	
+193-6	8725-8729	sono	_	_	_	sono	_	_	192-5	_	_	
+193-7	8730-8739	veramente	_	_	_	veramente	_	_	192-6	_	_	
+193-8	8740-8746	brutte	_	_	_	brutte	_	_	192-7	_	_	
+
+#Text=però non è che cioè sì quanto sia bella un bello un posto esteticamente ci faccio caso
+194-1	8747-8751	però	_	_	_	però	_	BOI057	193-0	_	_	
+194-2	8752-8755	non	_	_	_	non	_	_	193-1	_	_	
+194-3	8756-8757	è	_	_	_	è	_	_	193-2	_	_	
+194-4	8758-8761	che	_	_	_	che	_	_	193-3	_	_	
+194-5	8762-8766	cioè	_	_	_	cioè	_	_	193-4	_	_	
+194-6	8767-8769	sì	_	_	_	sì	_	_	193-5	_	_	
+194-7	8770-8776	quanto	_	_	_	quanto	_	_	193-6	_	_	
+194-8	8777-8780	sia	_	_	_	sia	_	_	193-7	_	_	
+194-9	8781-8786	bella	_	_	_	bella	_	_	193-8	_	_	
+194-10	8787-8789	un	_	_	_	un	_	_	193-9	_	_	
+194-11	8790-8795	bello	_	_	_	bello	_	_	193-10	_	_	
+194-12	8796-8798	un	_	_	_	un	_	_	193-11	_	_	
+194-13	8799-8804	posto	_	_	_	posto	_	_	193-12	_	_	
+194-14	8805-8818	esteticamente	_	_	_	esteticamente	_	_	193-13	_	_	
+194-15	8819-8821	ci	_	_	_	ci	_	_	193-14	_	_	
+194-16	8822-8828	faccio	_	_	_	faccio	_	_	193-15	_	_	
+194-17	8829-8833	caso	_	_	_	caso	_	_	193-16	_	_	
+
+#Text=però evidentemente prediligo perché il pratello non è propriamente un bel posto
+195-1	8834-8838	però	_	_	_	però	_	BOI057	194-0	_	_	
+195-2	8839-8852	evidentemente	_	_	_	evidentemente	_	_	194-1	_	_	
+195-3	8853-8862	prediligo	_	_	_	prediligo	_	_	194-2	_	_	
+195-4	8863-8869	perché	_	_	_	perché	_	_	194-3	_	_	
+195-5	8870-8872	il	_	_	_	il	_	_	194-4	_	_	
+195-6	8873-8881	pratello	_	_	_	pratello	_	_	194-5	_	_	
+195-7	8882-8885	non	_	_	_	non	_	_	194-6	_	_	
+195-8	8886-8887	è	_	_	_	è	_	_	194-7	_	_	
+195-9	8888-8900	propriamente	_	_	_	propriamente	_	_	194-8	_	_	
+195-10	8901-8903	un	_	_	_	un	_	_	194-9	_	_	
+195-11	8904-8907	bel	_	_	_	bel	_	_	194-10	_	_	
+195-12	8908-8913	posto	_	_	_	posto	_	_	194-11	_	_	
+
+#Text=((ride))
+196-1	8914-8922	((ride))	_	_	_	((ride))	_	BOR009	195-0	_	_	
+
+#Text=anche se secondo me c' ha il suo fascino
+197-1	8923-8928	anche	_	_	_	anche	_	BOI057	196-0	_	_	
+197-2	8929-8931	se	_	_	_	se:	_	_	196-1	_	_	
+197-3	8932-8939	secondo	_	_	_	secondo	_	_	196-2	_	_	
+197-4	8940-8942	me	_	_	_	me	_	_	196-3	_	_	
+197-5	8943-8945	c'	_	_	_	c'	_	_	196-4	_	_	
+197-6	8946-8948	ha	_	_	_	ha	_	_	196-5	_	_	
+197-7	8949-8951	il	_	_	_	il	_	_	196-6	_	_	
+197-8	8952-8955	suo	_	_	_	suo	_	_	196-7	_	_	
+197-9	8956-8963	fascino	_	_	_	fascino	_	_	196-8	_	_	
+
+#Text=ecco io ogni volta che ci vado mi fermo a guardare tutti i graffiti
+198-1	8964-8968	ecco	_	_	_	(ecco)	_	BOI057	197-0	_	_	
+198-2	8969-8971	io	_	_	_	io	_	_	197-1	_	_	
+198-3	8972-8976	ogni	_	_	_	ogni	_	_	197-2	_	_	
+198-4	8977-8982	volta	_	_	_	volta	_	_	197-3	_	_	
+198-5	8983-8986	che	_	_	_	che	_	_	197-4	_	_	
+198-6	8987-8989	ci	_	_	_	ci	_	_	197-5	_	_	
+198-7	8990-8994	vado	_	_	_	vado	_	_	197-6	_	_	
+198-8	8995-8997	mi	_	_	_	mi	_	_	197-7	_	_	
+198-9	8998-9003	fermo	_	_	_	fermo	_	_	197-8	_	_	
+198-10	9004-9005	a	_	_	_	a	_	_	197-9	_	_	
+198-11	9006-9014	guardare	_	_	_	guardare	_	_	197-10	_	_	
+198-12	9015-9020	tutti	_	_	_	tutti	_	_	197-11	_	_	
+198-13	9021-9022	i	_	_	_	i	_	_	197-12	_	_	
+198-14	9023-9031	graffiti	_	_	_	graffiti	_	_	197-13	_	_	
+
+#Text=eh
+199-1	9032-9034	eh	BC	_	_	e:h	_	BOR009	198-0	_	_	
+
+#Text=adoro
+200-1	9035-9040	adoro	_	_	_	adoro	_	BOI057	199-0	_	_	
+
+#Text=cioè a parte quelli che sono dei delle targhe inutili
+201-1	9041-9045	cioè	_	_	_	cioè	_	BOI057	200-0	_	_	
+201-2	9046-9047	a	_	_	_	a	_	_	200-1	_	_	
+201-3	9048-9053	parte	_	_	_	parte	_	_	200-2	_	_	
+201-4	9054-9060	quelli	_	_	_	quelli	_	_	200-3	_	_	
+201-5	9061-9064	che	_	_	_	che	_	_	200-4	_	_	
+201-6	9065-9069	sono	_	_	_	sono:	_	_	200-5	_	_	
+201-7	9070-9073	dei	_	_	_	dei:	_	_	200-6	_	_	
+201-8	9074-9079	delle	_	_	_	delle	_	_	200-7	_	_	
+201-9	9080-9086	targhe	_	_	_	targhe	_	_	200-8	_	_	
+201-10	9087-9094	inutili	_	_	_	inutili	_	_	200-9	_	_	
+
+#Text=eh a me piace il fatto che comunque tutte le volte ci s~ spunti un poster nuovo
+202-1	9095-9097	eh	_	FP	_	e:h	_	BOI057	201-0	_	_	
+202-2	9098-9099	a	_	_	_	a	_	_	201-1	_	_	
+202-3	9100-9102	me	_	_	_	me	_	_	201-2	_	_	
+202-4	9103-9108	piace	_	_	_	piace	_	_	201-3	_	_	
+202-5	9109-9111	il	_	_	_	il	_	_	201-4	_	_	
+202-6	9112-9117	fatto	_	_	_	fatto	_	_	201-5	_	_	
+202-7	9118-9121	che	_	_	_	che	_	_	201-6	_	_	
+202-8	9122-9130	comunque	_	_	_	comunque	_	_	201-7	_	_	
+202-9	9131-9136	tutte	_	_	_	tutte	_	_	201-8	_	_	
+202-10	9137-9139	le	_	_	_	le	_	_	201-9	_	_	
+202-11	9140-9145	volte	_	_	_	volte	_	_	201-10	_	_	
+202-12	9146-9148	ci	_	_	_	ci	_	_	201-11	_	_	
+202-13	9149-9151	s~	_	_	_	s~	_	_	201-12	_	_	
+202-14	9152-9158	spunti	_	_	_	spunti	_	_	201-13	_	_	
+202-15	9159-9161	un	_	_	_	un	_	_	201-14	_	_	
+202-16	9162-9168	poster	_	_	_	poster	_	_	201-15	_	_	
+202-17	9169-9174	nuovo	_	_	_	nuovo:	_	_	201-16	_	_	
+
+#Text=o ci sia mh
+203-1	9175-9176	o	_	_	_	o	_	BOI057	202-0	_	_	
+203-2	9177-9179	ci	_	_	_	ci	_	_	202-1	_	_	
+203-3	9180-9183	sia	_	_	_	sia	_	_	202-2	_	_	
+203-4	9184-9186	mh	_	FP	_	m:h	_	_	202-3	_	_	
+
+#Text=uno stencil nuovo
+204-1	9187-9190	uno	_	_	_	uno	_	BOI057	203-0	_	_	
+204-2	9191-9198	stencil	_	_	_	stencil	_	_	203-1	_	_	
+204-3	9199-9204	nuovo	_	_	_	nuovo	_	_	203-2	_	_	
+
+#Text=e e
+205-1	9205-9206	e	_	_	_	e	_	BOI057	204-0	_	_	
+205-2	9207-9208	e	_	_	_	e	_	_	204-1	_	_	
+
+#Text=qui non non c' è sì son tutte cose che mi mancano
+206-1	9209-9212	qui	_	_	_	qui:	_	BOI057	205-0	_	_	
+206-2	9213-9216	non	_	_	_	non	_	_	205-1	_	_	
+206-3	9217-9220	non	_	_	_	non	_	_	205-2	_	_	
+206-4	9221-9223	c'	_	_	_	c'	_	_	205-3	_	_	
+206-5	9224-9225	è	_	_	_	è	_	_	205-4	_	_	
+206-6	9226-9228	sì	_	_	_	sì	_	_	205-5	_	_	
+206-7	9229-9232	son	_	_	_	son	_	_	205-6	_	_	
+206-8	9233-9238	tutte	_	_	_	tutte	_	_	205-7	_	_	
+206-9	9239-9243	cose	_	_	_	cose	_	_	205-8	_	_	
+206-10	9244-9247	che	_	_	_	che:	_	_	205-9	_	_	
+206-11	9248-9250	mi	_	_	_	mi	_	_	205-10	_	_	
+206-12	9251-9258	mancano	_	_	_	mancano	_	_	205-11	_	_	
+
+#Text=((ride)) non volevo tirare fuori tutta questa nostalgia ((ride))
+207-1	9259-9267	((ride))	_	_	_	((ride))	_	BOR009	206-0	_	_	
+207-2	9268-9271	non	_	_	_	non	_	_	206-1	_	_	
+207-3	9272-9278	volevo	_	_	_	volevo	_	_	206-2	_	_	
+207-4	9279-9285	tirare	_	_	_	tirare	_	_	206-3	_	_	
+207-5	9286-9291	fuori	_	_	_	fuori	_	_	206-4	_	_	
+207-6	9292-9297	tutta	_	_	_	tutta	_	_	206-5	_	_	
+207-7	9298-9304	questa	_	_	_	questa	_	_	206-6	_	_	
+207-8	9305-9314	nostalgia	_	_	_	nostalgia	_	_	206-7	_	_	
+207-9	9315-9323	((ride))	_	_	_	((ride))	_	_	206-8	_	_	
+
+#Text=no no ma è bella è per fare chiacchiera
+208-1	9324-9326	no	BC[6]	_	_	no	_	BOI057	207-0	_	_	
+208-2	9327-9329	no	BC[6]	_	_	no	_	_	207-1	_	_	
+208-3	9330-9332	ma	_	_	_	ma	_	_	207-2	_	_	
+208-4	9333-9334	è	_	_	_	è	_	_	207-3	_	_	
+208-5	9335-9340	bella	_	_	_	bella	_	_	207-4	_	_	
+208-6	9341-9342	è	_	_	_	è	_	_	207-5	_	_	
+208-7	9343-9346	per	_	_	_	per	_	_	207-6	_	_	
+208-8	9347-9351	fare	_	_	_	fare	_	_	207-7	_	_	
+208-9	9352-9363	chiacchiera	_	_	_	chiacchiera	_	_	207-8	_	_	
+
+#Text=sì esatto
+209-1	9364-9366	sì	BC[7]	_	_	sì	_	BOR009	208-0	_	_	
+209-2	9367-9373	esatto	BC[7]	_	_	esatto	_	_	208-1	_	_	
+
+#Text=mh
+210-1	9374-9376	mh	BC	_	_	mh	_	BOI057	209-0	_	_	
+
+#Text=ma mh e quindi avendo vissuto comunque in due momenti diversi
+211-1	9377-9379	ma	_	_	_	ma:	_	BOR009	210-0	_	_	
+211-2	9380-9382	mh	_	FP	_	mh	_	_	210-1	_	_	
+211-3	9383-9384	e	_	_	_	e	_	_	210-2	_	_	
+211-4	9385-9391	quindi	_	_	_	quindi	_	_	210-3	_	_	
+211-5	9392-9398	avendo	_	_	_	avendo	_	_	210-4	_	_	
+211-6	9399-9406	vissuto	_	_	_	vissuto	_	_	210-5	_	_	
+211-7	9407-9415	comunque	_	_	_	comunque	_	_	210-6	_	_	
+211-8	9416-9418	in	_	_	_	in	_	_	210-7	_	_	
+211-9	9419-9422	due	_	_	_	due	_	_	210-8	_	_	
+211-10	9423-9430	momenti	_	_	_	momenti	_	_	210-9	_	_	
+211-11	9431-9438	diversi	_	_	_	diversi	_	_	210-10	_	_	
+
+#Text=mhmh
+212-1	9439-9443	mhmh	BC	_	_	mhmh	_	BOI057	211-0	_	_	
+
+#Text=nella stessa zona hai notato dei cambiamenti un' evoluzione un mh delle differenze proprio a livello di di quartiere dico
+213-1	9444-9449	nella	_	_	_	nella	_	BOR009	212-0	_	_	
+213-2	9450-9456	stessa	_	_	_	stessa	_	_	212-1	_	_	
+213-3	9457-9461	zona	_	_	_	zona	_	_	212-2	_	_	
+213-4	9462-9465	hai	_	_	_	hai	_	_	212-3	_	_	
+213-5	9466-9472	notato	_	_	_	notato	_	_	212-4	_	_	
+213-6	9473-9476	dei	_	_	_	dei	_	_	212-5	_	_	
+213-7	9477-9488	cambiamenti	_	_	WeaklyRising	cambiamenti,	_	_	212-6	_	_	
+213-8	9489-9492	un'	_	_	_	un'	_	_	212-7	_	_	
+213-9	9493-9503	evoluzione	_	_	WeaklyRising	evoluzione,	_	_	212-8	_	_	
+213-10	9504-9506	un	_	_	_	un	_	_	212-9	_	_	
+213-11	9507-9509	mh	_	FP	_	m:h	_	_	212-10	_	_	
+213-12	9510-9515	delle	_	_	_	delle	_	_	212-11	_	_	
+213-13	9516-9526	differenze	_	_	WeaklyRising	differenze,	_	_	212-12	_	_	
+213-14	9527-9534	proprio	_	_	_	proprio	_	_	212-13	_	_	
+213-15	9535-9536	a	_	_	_	a	_	_	212-14	_	_	
+213-16	9537-9544	livello	_	_	_	livello	_	_	212-15	_	_	
+213-17	9545-9547	di	_	_	_	di	_	_	212-16	_	_	
+213-18	9548-9550	di	_	_	_	di	_	_	212-17	_	_	
+213-19	9551-9560	quartiere	_	_	_	quartiere	_	_	212-18	_	_	
+213-20	9561-9565	dico	_	_	_	dico	_	_	212-19	_	_	
+
+#Text=cioè sicuramente per come te lo sei vissuta sì
+214-1	9566-9570	cioè	_	_	_	cioè	_	BOR009	213-0	_	_	
+214-2	9571-9582	sicuramente	_	_	_	sicuramente	_	_	213-1	_	_	
+214-3	9583-9586	per	_	_	_	per	_	_	213-2	_	_	
+214-4	9587-9591	come	_	_	_	come	_	_	213-3	_	_	
+214-5	9592-9594	te	_	_	_	te	_	_	213-4	_	_	
+214-6	9595-9597	lo	_	_	_	lo	_	_	213-5	_	_	
+214-7	9598-9601	sei	_	_	_	\[sei	_	_	213-6	*->12-1	*[12]	
+214-8	9602-9609	vissuta	_	_	_	vissu\]ta	_	_	213-7	_	_	
+214-8.1	9602-9607	vissu	_	_	_	_	_	_	_	*->12-2	*[12]	
+214-9	9610-9612	sì	_	_	_	sì	_	_	213-8	_	_	
+
+#Text=sì
+215-1	9613-9615	sì	BC	_	_	\[sì\]	_	BOI057	214-0	*->12-3	*[12]	
+
+#Text=per esperienza eh
+216-1	9616-9619	per	_	_	_	\[per	_	BOR009	215-0	*->66-1	*[66]	
+216-2	9620-9630	esperienza	_	_	_	esperienza\]	_	_	215-1	*->66-2	*[66]	
+216-3	9631-9633	eh	_	_	_	eh	_	_	215-2	_	_	
+
+#Text=a occhio secondo me ci sono più pensionati adesso
+217-1	9634-9635	a	_	_	_	\[a	_	BOI057	216-0	*->66-3	*[66]	
+217-2	9636-9642	occhio	_	_	_	occhio\]	_	_	216-1	*->66-4	*[66]	
+217-3	9643-9650	secondo	_	_	_	secondo	_	_	216-2	_	_	
+217-4	9651-9653	me	_	_	_	me	_	_	216-3	_	_	
+217-5	9654-9656	ci	_	_	_	ci	_	_	216-4	_	_	
+217-6	9657-9661	sono	_	_	_	sono	_	_	216-5	_	_	
+217-7	9662-9665	più	_	_	_	più	_	_	216-6	_	_	
+217-8	9666-9676	pensionati	_	_	_	pensionati	_	_	216-7	_	_	
+217-9	9677-9683	adesso	_	_	_	adesso	_	_	216-8	_	_	
+
+#Text=mhmh
+218-1	9684-9688	mhmh	BC	_	_	mhmh	_	BOR009	217-0	_	_	
+
+#Text=cioè io vedo non so se è un' impressione mia magari una volta secondo me ci sono mh
+219-1	9689-9693	cioè	_	_	_	cioè	_	BOI057	218-0	_	_	
+219-2	9694-9696	io	_	_	_	io	_	_	218-1	_	_	
+219-3	9697-9701	vedo	_	_	_	vedo	_	_	218-2	_	_	
+219-4	9702-9705	non	_	_	_	non	_	_	218-3	_	_	
+219-5	9706-9708	so	_	_	_	so	_	_	218-4	_	_	
+219-6	9709-9711	se	_	_	_	se	_	_	218-5	_	_	
+219-7	9712-9713	è	_	_	_	è	_	_	218-6	_	_	
+219-8	9714-9717	un'	_	_	_	un'	_	_	218-7	_	_	
+219-9	9718-9729	impressione	_	_	_	impressione	_	_	218-8	_	_	
+219-10	9730-9733	mia	_	_	_	mia	_	_	218-9	_	_	
+219-11	9734-9740	magari	_	_	_	magari	_	_	218-10	_	_	
+219-12	9741-9744	una	_	_	_	una	_	_	218-11	_	_	
+219-13	9745-9750	volta	_	_	_	volta	_	_	218-12	_	_	
+219-14	9751-9758	secondo	_	_	_	secondo	_	_	218-13	_	_	
+219-15	9759-9761	me	_	_	_	me	_	_	218-14	_	_	
+219-16	9762-9764	ci	_	_	_	ci	_	_	218-15	_	_	
+219-17	9765-9769	sono	_	_	_	sono	_	_	218-16	_	_	
+219-18	9770-9772	mh	_	FP	_	m:h	_	_	218-17	_	_	
+
+#Text=tantissi~ a anche perch~ no sai perché
+220-1	9773-9782	tantissi~	_	_	_	tantissi~	_	BOI057	219-0	_	_	
+220-2	9783-9784	a	_	_	_	a	_	_	219-1	_	_	
+220-3	9785-9790	anche	_	_	_	anche	_	_	219-2	_	_	
+220-4	9791-9797	perch~	_	_	_	perch~	_	_	219-3	_	_	
+220-5	9798-9800	no	_	_	_	no	_	_	219-4	_	_	
+220-6	9801-9804	sai	_	_	_	sai	_	_	219-5	_	_	
+220-7	9805-9811	perché	_	_	Rising	perché?	_	_	219-6	_	_	
+
+#Text=perché io probabilmente prima
+221-1	9812-9818	perché	_	_	_	perché	_	BOI057	220-0	_	_	
+221-2	9819-9821	io	_	_	_	io	_	_	220-1	_	_	
+221-3	9822-9835	probabilmente	_	_	_	probabilmente	_	_	220-2	_	_	
+221-4	9836-9841	prima	_	_	_	prima	_	_	220-3	_	_	
+
+#Text=cioè considera che io ho cominciato a lavorare
+222-1	9842-9846	cioè	_	_	_	cioè	_	BOI057	221-0	_	_	
+222-2	9847-9856	considera	_	_	_	considera	_	_	221-1	_	_	
+222-3	9857-9860	che	_	_	_	che	_	_	221-2	_	_	
+222-4	9861-9863	io	_	_	_	io	_	_	221-3	_	_	
+222-5	9864-9866	ho	_	_	_	ho	_	_	221-4	_	_	
+222-6	9867-9877	cominciato	_	_	_	cominciato	_	_	221-5	_	_	
+222-7	9878-9879	a	_	_	_	a	_	_	221-6	_	_	
+222-8	9880-9888	lavorare	_	_	_	lavorare	_	_	221-7	_	_	
+
+#Text=e sono andata giù
+223-1	9889-9890	e	_	_	_	e	_	BOI057	222-0	_	_	
+223-2	9891-9895	sono	_	_	_	sono	_	_	222-1	_	_	
+223-3	9896-9902	andata	_	_	_	andata	_	_	222-2	_	_	
+223-4	9903-9906	giù	_	_	_	giù	_	_	222-3	_	_	
+
+#Text=sono tornata qui quando lavoravo meno per cui ho avuto possibilità di girare adesso che in effetti lavoro dieci ore al giorno non giro tanto
+224-1	9907-9911	sono	_	_	_	sono	_	BOI057	223-0	_	_	
+224-2	9912-9919	tornata	_	_	_	tornata	_	_	223-1	_	_	
+224-3	9920-9923	qui	_	_	_	qui	_	_	223-2	_	_	
+224-4	9924-9930	quando	_	_	_	quando	_	_	223-3	_	_	
+224-5	9931-9939	lavoravo	_	_	_	lavoravo	_	_	223-4	_	_	
+224-6	9940-9944	meno	_	_	_	meno	_	_	223-5	_	_	
+224-7	9945-9948	per	_	_	_	per	_	_	223-6	_	_	
+224-8	9949-9952	cui	_	_	_	cui	_	_	223-7	_	_	
+224-9	9953-9955	ho	_	_	_	ho	_	_	223-8	_	_	
+224-10	9956-9961	avuto	_	_	_	avuto	_	_	223-9	_	_	
+224-11	9962-9973	possibilità	_	_	_	possibilità	_	_	223-10	_	_	
+224-12	9974-9976	di	_	_	_	di	_	_	223-11	_	_	
+224-13	9977-9983	girare	_	_	_	girare	_	_	223-12	_	_	
+224-14	9984-9990	adesso	_	_	_	adesso	_	_	223-13	_	_	
+224-15	9991-9994	che	_	_	_	che	_	_	223-14	_	_	
+224-16	9995-9997	in	_	_	_	in	_	_	223-15	_	_	
+224-17	9998-10005	effetti	_	_	_	effetti	_	_	223-16	_	_	
+224-18	10006-10012	lavoro	_	_	_	lavoro	_	_	223-17	_	_	
+224-19	10013-10018	dieci	_	_	_	dieci	_	_	223-18	_	_	
+224-20	10019-10022	ore	_	_	_	ore	_	_	223-19	_	_	
+224-21	10023-10025	al	_	_	_	al	_	_	223-20	_	_	
+224-22	10026-10032	giorno	_	_	_	giorno	_	_	223-21	_	_	
+224-23	10033-10036	non	_	_	_	non	_	_	223-22	_	_	
+224-24	10037-10041	giro	_	_	_	giro	_	_	223-23	_	_	
+224-25	10042-10047	tanto	_	_	_	tanto	_	_	223-24	_	_	
+
+#Text=((ride))
+225-1	10048-10056	((ride))	_	_	_	((ride))	_	BOR009	224-0	_	_	
+
+#Text=anzi oggi sono uscita di casa
+226-1	10057-10061	anzi	_	_	_	anzi	_	BOI057	225-0	_	_	
+226-2	10062-10066	oggi	_	_	_	oggi	_	_	225-1	_	_	
+226-3	10067-10071	sono	_	_	_	sono	_	_	225-2	_	_	
+226-4	10072-10078	uscita	_	_	_	uscita	_	_	225-3	_	_	
+226-5	10079-10081	di	_	_	_	di	_	_	225-4	_	_	
+226-6	10082-10086	casa	_	_	_	casa	_	_	225-5	_	_	
+
+#Text=no forse sono uscita sono uscita di casa anche ieri che ho portato il cane dal veterinario
+227-1	10087-10089	no	_	_	_	no	_	BOI057	226-0	_	_	
+227-2	10090-10095	forse	_	_	_	forse	_	_	226-1	_	_	
+227-3	10096-10100	sono	_	_	_	sono	_	_	226-2	_	_	
+227-4	10101-10107	uscita	_	_	_	uscita	_	_	226-3	_	_	
+227-5	10108-10112	sono	_	_	_	sono	_	_	226-4	_	_	
+227-6	10113-10119	uscita	_	_	_	uscita	_	_	226-5	_	_	
+227-7	10120-10122	di	_	_	_	di	_	_	226-6	_	_	
+227-8	10123-10127	casa	_	_	_	casa	_	_	226-7	_	_	
+227-9	10128-10133	anche	_	_	_	anche	_	_	226-8	_	_	
+227-10	10134-10138	ieri	_	_	_	ieri	_	_	226-9	_	_	
+227-11	10139-10142	che	_	_	_	che	_	_	226-10	_	_	
+227-12	10143-10145	ho	_	_	_	ho	_	_	226-11	_	_	
+227-13	10146-10153	portato	_	_	_	portato	_	_	226-12	_	_	
+227-14	10154-10156	il	_	_	_	il	_	_	226-13	_	_	
+227-15	10157-10161	cane	_	_	_	cane	_	_	226-14	_	_	
+227-16	10162-10165	dal	_	_	_	dal	_	_	226-15	_	_	
+227-17	10166-10177	veterinario	_	_	_	veterinario	_	_	226-16	_	_	
+
+#Text=((ride)) meno male ci sono i cani ((ride))
+228-1	10178-10186	((ride))	_	_	_	((ride))	_	BOR009	227-0	_	_	
+228-2	10187-10191	meno	_	_	_	meno	_	_	227-1	_	_	
+228-3	10192-10196	male	_	_	_	male	_	_	227-2	_	_	
+228-4	10197-10199	ci	_	_	_	ci	_	_	227-3	_	_	
+228-5	10200-10204	sono	_	_	_	sono	_	_	227-4	_	_	
+228-6	10205-10206	i	_	_	_	i	_	_	227-5	_	_	
+228-7	10207-10211	cani	_	_	_	cani	_	_	227-6	_	_	
+228-8	10212-10220	((ride))	_	_	_	((ride))	_	_	227-7	_	_	
+
+#Text=però
+229-1	10221-10225	però	_	_	_	però	_	BOI057	228-0	_	_	
+
+#Text=eh eh secondo m~ io ho notato che ci sono un sacco di di di persone anziane
+230-1	10226-10228	eh	BC[8]	_	_	eh	_	BOI057	229-0	_	_	
+230-2	10229-10231	eh	BC[8]	_	_	eh	_	_	229-1	_	_	
+230-3	10232-10239	secondo	_	_	_	secondo	_	_	229-2	_	_	
+230-4	10240-10242	m~	_	_	_	m~	_	_	229-3	_	_	
+230-5	10243-10245	io	_	_	_	io	_	_	229-4	_	_	
+230-6	10246-10248	ho	_	_	_	ho	_	_	229-5	_	_	
+230-7	10249-10255	notato	_	_	_	notato	_	_	229-6	_	_	
+230-8	10256-10259	che	_	_	_	che	_	_	229-7	_	_	
+230-9	10260-10262	ci	_	_	_	ci	_	_	229-8	_	_	
+230-10	10263-10267	sono	_	_	_	sono	_	_	229-9	_	_	
+230-11	10268-10270	un	_	_	_	un	_	_	229-10	_	_	
+230-12	10271-10276	sacco	_	_	_	sacco	_	_	229-11	_	_	
+230-13	10277-10279	di	_	_	_	di	_	_	229-12	_	_	
+230-14	10280-10282	di	_	_	_	di	_	_	229-13	_	_	
+230-15	10283-10285	di	_	_	_	di	_	_	229-14	_	_	
+230-16	10286-10293	persone	_	_	_	persone	_	_	229-15	_	_	
+230-17	10294-10301	anziane	_	_	_	anziane	_	_	229-16	_	_	
+
+#Text=molte di più
+231-1	10302-10307	molte	_	_	_	°molte	_	BOR009	230-0	_	_	
+231-2	10308-10310	di	_	_	_	di	_	_	230-1	_	_	
+231-3	10311-10314	più	_	_	_	\[più°\]	_	_	230-2	*->62-1	*[62]	
+
+#Text=mi sembrano molte di più
+232-1	10315-10317	mi	_	_	_	\[mi\]	_	BOI057	231-0	*->62-2	*[62]	
+232-2	10318-10326	sembrano	_	_	_	sembrano	_	_	231-1	_	_	
+232-3	10327-10332	molte	_	_	_	molte	_	_	231-2	_	_	
+232-4	10333-10335	di	_	_	_	di	_	_	231-3	_	_	
+232-5	10336-10339	più	_	_	_	più	_	_	231-4	_	_	
+
+#Text=saranno le stesse persone che sono rimaste ((ride))
+233-1	10340-10347	saranno	_	_	_	saranno	_	BOR009	232-0	_	_	
+233-2	10348-10350	le	_	_	_	le	_	_	232-1	_	_	
+233-3	10351-10357	stesse	_	_	_	stesse	_	_	232-2	_	_	
+233-4	10358-10365	persone	_	_	_	persone	_	_	232-3	_	_	
+233-5	10366-10369	che	_	_	_	che	_	_	232-4	_	_	
+233-6	10370-10374	sono	_	_	_	sono	_	_	232-5	_	_	
+233-7	10375-10382	rimaste	_	_	_	rimaste	_	_	232-6	_	_	
+233-8	10383-10391	((ride))	_	_	_	((ride))	_	_	232-7	_	_	
+
+#Text=infatti sono quelle che son rimaste che sono invecchiate precocemente
+234-1	10392-10399	infatti	BC	_	_	infatti	_	BOI057	233-0	_	_	
+234-2	10400-10404	sono	_	_	_	sono	_	_	233-1	_	_	
+234-3	10405-10411	quelle	_	_	_	quelle	_	_	233-2	_	_	
+234-4	10412-10415	che	_	_	_	che	_	_	233-3	_	_	
+234-5	10416-10419	son	_	_	_	son	_	_	233-4	_	_	
+234-6	10420-10427	rimaste	_	_	_	rimaste	_	_	233-5	_	_	
+234-7	10428-10431	che	_	_	_	che	_	_	233-6	_	_	
+234-8	10432-10436	sono	_	_	_	sono	_	_	233-7	_	_	
+234-9	10437-10448	invecchiate	_	_	_	invecchiate	_	_	233-8	_	_	
+234-10	10449-10461	precocemente	_	_	_	precocemente	_	_	233-9	_	_	
+
+#Text=e nessuno di nuovo ((ride))
+235-1	10462-10463	e	_	_	_	e	_	BOR009	234-0	_	_	
+235-2	10464-10471	nessuno	_	_	_	nessuno	_	_	234-1	_	_	
+235-3	10472-10474	di	_	_	_	di	_	_	234-2	_	_	
+235-4	10475-10480	nuovo	_	_	_	nuovo	_	_	234-3	_	_	
+235-5	10481-10489	((ride))	_	_	_	((ride))	_	_	234-4	_	_	
+
+#Text=mhmh
+236-1	10490-10494	mhmh	BC	_	_	mhmh	_	BOI057	235-0	_	_	
+
+#Text=ma poi ci sono più stranieri
+237-1	10495-10497	ma	_	_	_	ma	_	BOI057	236-0	_	_	
+237-2	10498-10501	poi	_	_	_	poi	_	_	236-1	_	_	
+237-3	10502-10504	ci	_	_	_	ci	_	_	236-2	_	_	
+237-4	10505-10509	sono	_	_	_	sono	_	_	236-3	_	_	
+237-5	10510-10513	più	_	_	_	più	_	_	236-4	_	_	
+237-6	10514-10523	stranieri	_	_	_	stranieri	_	_	236-5	_	_	
+
+#Text=una volta non ce n' erano adesso sì
+238-1	10524-10527	una	_	_	_	una	_	BOI057	237-0	_	_	
+238-2	10528-10533	volta	_	_	_	volta	_	_	237-1	_	_	
+238-3	10534-10537	non	_	_	_	non	_	_	237-2	_	_	
+238-4	10538-10540	ce	_	_	_	ce	_	_	237-3	_	_	
+238-5	10541-10543	n'	_	_	_	n'	_	_	237-4	_	_	
+238-6	10544-10549	erano	_	_	_	erano	_	_	237-5	_	_	
+238-7	10550-10556	adesso	_	_	_	adesso	_	_	237-6	_	_	
+238-8	10557-10559	sì	_	_	_	sì	_	_	237-7	_	_	
+
+#Text=non so se passano
+239-1	10560-10563	non	_	_	_	non	_	BOI057	238-0	_	_	
+239-2	10564-10566	so	_	_	_	so	_	_	238-1	_	_	
+239-3	10567-10569	se	_	_	_	se	_	_	238-2	_	_	
+239-4	10570-10577	passano	_	_	_	passano	_	_	238-3	_	_	
+
+#Text=o se ci sono dei bed and breakfast
+240-1	10578-10579	o	_	_	_	o	_	BOI057	239-0	_	_	
+240-2	10580-10582	se	_	_	_	se	_	_	239-1	_	_	
+240-3	10583-10585	ci	_	_	_	ci	_	_	239-2	_	_	
+240-4	10586-10590	sono	_	_	_	sono	_	_	239-3	_	_	
+240-5	10591-10594	dei	_	_	_	dei	_	_	239-4	_	_	
+240-6	10595-10598	bed	_	_	_	bed	_	_	239-5	_	_	
+240-7	10599-10602	and	_	_	_	and	_	_	239-6	_	_	
+240-8	10603-10612	breakfast	_	_	_	breakfast	_	_	239-7	_	_	
+
+#Text=ah ah
+241-1	10613-10615	ah	BC[9]	_	_	ah	_	BOR009	240-0	_	_	
+241-2	10616-10618	ah	BC[9]	_	_	ah	_	_	240-1	_	_	
+
+#Text=ma proprio il~ turisti o
+242-1	10619-10621	ma	_	_	_	ma	_	BOR009	241-0	_	_	
+242-2	10622-10629	proprio	_	_	_	proprio	_	_	241-1	_	_	
+242-3	10630-10633	il~	_	_	_	il~	_	_	241-2	_	_	
+242-4	10634-10641	turisti	_	_	_	turisti	_	_	241-3	_	_	
+242-5	10642-10643	o	_	_	_	o:	_	_	241-4	_	_	
+
+#Text=mhmh io li vedo con atteggiamenti tipo mamme con dei bambini che x che secondo me potrebbero anche essere o residenti o
+243-1	10644-10648	mhmh	BC	_	_	mhmh	_	BOI057	242-0	_	_	
+243-2	10649-10651	io	_	_	_	io	_	_	242-1	_	_	
+243-3	10652-10654	li	_	_	_	li	_	_	242-2	_	_	
+243-4	10655-10659	vedo	_	_	_	vedo	_	_	242-3	_	_	
+243-5	10660-10663	con	_	_	_	con	_	_	242-4	_	_	
+243-6	10664-10677	atteggiamenti	_	_	_	atteggiamenti	_	_	242-5	_	_	
+243-7	10678-10682	tipo	_	_	_	tipo	_	_	242-6	_	_	
+243-8	10683-10688	mamme	_	_	_	mamme	_	_	242-7	_	_	
+243-9	10689-10692	con	_	_	_	con	_	_	242-8	_	_	
+243-10	10693-10696	dei	_	_	_	dei	_	_	242-9	_	_	
+243-11	10697-10704	bambini	_	_	_	\[bambini	_	_	242-10	*->50-1	*[50]	
+243-12	10705-10708	che	_	_	_	che	_	_	242-11	*->50-2	*[50]	
+243-13	10709-10710	x	_	_	_	x\]	_	_	242-12	*->50-3	*[50]	
+243-14	10711-10714	che	_	_	_	che	_	_	242-13	_	_	
+243-15	10715-10722	secondo	_	_	_	secondo	_	_	242-14	_	_	
+243-16	10723-10725	me	_	_	_	me	_	_	242-15	_	_	
+243-17	10726-10736	potrebbero	_	_	_	potrebbero	_	_	242-16	_	_	
+243-18	10737-10742	anche	_	_	_	anche	_	_	242-17	_	_	
+243-19	10743-10749	essere	_	_	_	essere	_	_	242-18	_	_	
+243-20	10750-10751	o	_	_	_	o	_	_	242-19	_	_	
+243-21	10752-10761	residenti	_	_	_	residenti	_	_	242-20	_	_	
+243-22	10762-10763	o	_	_	_	o:	_	_	242-21	_	_	
+
+#Text=ah okay okay
+244-1	10764-10766	ah	BC[10]	_	_	\[ah	_	BOR009	243-0	*->50-4	*[50]	
+244-2	10767-10771	okay	BC[10]	_	_	okay	_	_	243-1	*->50-5	*[50]	
+244-3	10772-10776	okay	BC[10]	_	_	okay\]	_	_	243-2	*->50-6	*[50]	
+
+#Text=beh questo è è un bel vizio pensionati e ((ride)) e turisti
+245-1	10777-10780	beh	_	_	_	beh	_	BOR009	244-0	_	_	
+245-2	10781-10787	questo	_	_	_	questo	_	_	244-1	_	_	
+245-3	10788-10789	è	_	_	_	è	_	_	244-2	_	_	
+245-4	10790-10791	è	_	_	_	è	_	_	244-3	_	_	
+245-5	10792-10794	un	_	_	_	un	_	_	244-4	_	_	
+245-6	10795-10798	bel	_	_	_	bel	_	_	244-5	_	_	
+245-7	10799-10804	vizio	_	_	_	vizio	_	_	244-6	_	_	
+245-8	10805-10815	pensionati	_	_	_	pensionati	_	_	244-7	_	_	
+245-9	10816-10817	e	_	_	_	e:	_	_	244-8	_	_	
+245-10	10818-10826	((ride))	_	_	_	((ride))	_	_	244-9	_	_	
+245-11	10827-10828	e	_	_	_	\[e	_	_	244-10	*->28-1	*[28]	
+245-12	10829-10836	turisti	_	_	_	tu\]risti	_	_	244-11	_	_	
+245-12.1	10829-10831	tu	_	_	_	_	_	_	_	*->28-2	*[28]	
+
+#Text=e
+246-1	10837-10838	e	_	_	_	\[e\]	_	BOI057	245-0	*->28-3	*[28]	
+
+#Text=sì
+247-1	10839-10841	sì	BC	_	_	sì	_	BOI057	246-0	_	_	
+
+#Text=cioè turisti no eh stranieri
+248-1	10842-10846	cioè	_	_	_	cioè	_	BOR009	247-0	_	_	
+248-2	10847-10854	turisti	_	_	_	turisti	_	_	247-1	_	_	
+248-3	10855-10857	no	_	_	_	no	_	_	247-2	_	_	
+248-4	10858-10860	eh	_	FP	_	e:h	_	_	247-3	_	_	
+248-5	10861-10870	stranieri	_	_	_	\[stranieri\]	_	_	247-4	*->36-1	*[36]	
+
+#Text=insomma stranieri
+249-1	10871-10878	insomma	_	_	_	\[insomma\]	_	BOI057	248-0	*->36-2	*[36]	
+249-2	10879-10888	stranieri	BC	_	_	stranieri	_	_	248-1	_	_	
+
+#Text=quindi
+250-1	10889-10895	quindi	_	_	_	quindi	_	BOI057	249-0	_	_	
+
+#Text=ah poi se posso andare avanti a parlare
+251-1	10896-10898	ah	BC	_	_	ah	_	BOI057	250-0	_	_	
+251-2	10899-10902	poi	_	_	_	poi	_	_	250-1	_	_	
+251-3	10903-10905	se	_	_	_	se	_	_	250-2	_	_	
+251-4	10906-10911	posso	_	_	_	posso	_	_	250-3	_	_	
+251-5	10912-10918	andare	_	_	_	andare	_	_	250-4	_	_	
+251-6	10919-10925	avanti	_	_	_	avanti	_	_	250-5	_	_	
+251-7	10926-10927	a	_	_	_	a	_	_	250-6	_	_	
+251-8	10928-10935	parlare	_	_	_	parlare	_	_	250-7	_	_	
+
+#Text=benissimo
+252-1	10936-10945	benissimo	_	_	_	benissimo	_	BOR009	251-0	_	_	
+
+#Text=adesso c' è un elemento in più
+253-1	10946-10952	adesso	_	_	_	adesso	_	BOI057	252-0	_	_	
+253-2	10953-10955	c'	_	_	_	c'	_	_	252-1	_	_	
+253-3	10956-10957	è	_	_	_	è	_	_	252-2	_	_	
+253-4	10958-10960	un	_	_	_	un	_	_	252-3	_	_	
+253-5	10961-10969	elemento	_	_	_	elemento	_	_	252-4	_	_	
+253-6	10970-10972	in	_	_	_	in	_	_	252-5	_	_	
+253-7	10973-10976	più	_	_	_	più	_	_	252-6	_	_	
+
+#Text=che in favore di questo posto
+254-1	10977-10980	che	_	_	_	che	_	BOI057	253-0	_	_	
+254-2	10981-10983	in	_	_	_	in	_	_	253-1	_	_	
+254-3	10984-10990	favore	_	_	_	favore	_	_	253-2	_	_	
+254-4	10991-10993	di	_	_	_	di	_	_	253-3	_	_	
+254-5	10994-11000	questo	_	_	_	questo	_	_	253-4	_	_	
+254-6	11001-11006	posto	_	_	_	posto	_	_	253-5	_	_	
+
+#Text=che quando ero piccola non c' era
+255-1	11007-11010	che	_	_	_	che	_	BOI057	254-0	_	_	
+255-2	11011-11017	quando	_	_	_	quando	_	_	254-1	_	_	
+255-3	11018-11021	ero	_	_	_	ero	_	_	254-2	_	_	
+255-4	11022-11029	piccola	_	_	_	piccola	_	_	254-3	_	_	
+255-5	11030-11033	non	_	_	_	non	_	_	254-4	_	_	
+255-6	11034-11036	c'	_	_	_	c'	_	_	254-5	_	_	
+255-7	11037-11040	era	_	_	_	era	_	_	254-6	_	_	
+
+#Text=c' è una variabile in più che è importante cioè che son diventata super tifosa del bologna
+256-1	11041-11043	c'	_	_	_	c'	_	BOI057	255-0	_	_	
+256-2	11044-11045	è	_	_	_	è	_	_	255-1	_	_	
+256-3	11046-11049	una	_	_	_	una	_	_	255-2	_	_	
+256-4	11050-11059	variabile	_	_	_	variabile	_	_	255-3	_	_	
+256-5	11060-11062	in	_	_	_	in	_	_	255-4	_	_	
+256-6	11063-11066	più	_	_	_	più	_	_	255-5	_	_	
+256-7	11067-11070	che	_	_	_	che	_	_	255-6	_	_	
+256-8	11071-11072	è	_	_	_	è	_	_	255-7	_	_	
+256-9	11073-11083	importante	_	_	_	importante	_	_	255-8	_	_	
+256-10	11084-11088	cioè	_	_	_	cioè	_	_	255-9	_	_	
+256-11	11089-11092	che	_	_	_	che	_	_	255-10	_	_	
+256-12	11093-11096	son	_	_	_	son	_	_	255-11	_	_	
+256-13	11097-11106	diventata	_	_	_	diventata	_	_	255-12	_	_	
+256-14	11107-11112	super	_	_	_	super	_	_	255-13	_	_	
+256-15	11113-11119	tifosa	_	_	_	tifosa	_	_	255-14	_	_	
+256-16	11120-11123	del	_	_	_	del	_	_	255-15	_	_	
+256-17	11124-11131	bologna	_	_	_	bologna	_	_	255-16	_	_	
+
+#Text=ah ((ride)) e allora
+257-1	11132-11134	ah	BC	_	_	a:h	_	BOR009	256-0	_	_	
+257-2	11135-11143	((ride))	_	_	_	((ride))	_	_	256-1	_	_	
+257-3	11144-11145	e	_	_	_	\[e	_	_	256-2	*->25-1	*[25]	
+257-4	11146-11152	allora	_	_	_	allora\]	_	_	256-3	*->25-2	*[25]	
+
+#Text=per cui da qui vuol dire che quando quando avevo l' abbonamento erano venti minuti a piedi allo stadio
+258-1	11153-11156	per	_	_	_	\[per	_	BOI057	257-0	*->25-3	*[25]	
+258-2	11157-11160	cui	_	_	_	cui\]	_	_	257-1	*->25-4	*[25]	
+258-3	11161-11163	da	_	_	_	da	_	_	257-2	_	_	
+258-4	11164-11167	qui	_	_	_	qui	_	_	257-3	_	_	
+258-5	11168-11172	vuol	_	_	_	vuol	_	_	257-4	_	_	
+258-6	11173-11177	dire	_	_	_	dire	_	_	257-5	_	_	
+258-7	11178-11181	che	_	_	_	che	_	_	257-6	_	_	
+258-8	11182-11188	quando	_	_	_	quando	_	_	257-7	_	_	
+258-9	11189-11195	quando	_	_	_	quando	_	_	257-8	_	_	
+258-10	11196-11201	avevo	_	_	_	avevo	_	_	257-9	_	_	
+258-11	11202-11204	l'	_	_	_	l'	_	_	257-10	_	_	
+258-12	11205-11216	abbonamento	_	_	_	abbonamento	_	_	257-11	_	_	
+258-13	11217-11222	erano	_	_	_	erano	_	_	257-12	_	_	
+258-14	11223-11228	venti	_	_	_	venti	_	_	257-13	_	_	
+258-15	11229-11235	minuti	_	_	_	minuti	_	_	257-14	_	_	
+258-16	11236-11237	a	_	_	_	a	_	_	257-15	_	_	
+258-17	11238-11243	piedi	_	_	_	piedi	_	_	257-16	_	_	
+258-18	11244-11248	allo	_	_	_	allo	_	_	257-17	_	_	
+258-19	11249-11255	stadio	_	_	_	stadio	_	_	257-18	_	_	
+
+#Text=quindi adesso questa zona qua ha acquisito c' è l' ombra dello stadio per cui
+259-1	11256-11262	quindi	_	_	_	quindi:	_	BOI057	258-0	_	_	
+259-2	11263-11269	adesso	_	_	_	adesso	_	_	258-1	_	_	
+259-3	11270-11276	questa	_	_	_	questa	_	_	258-2	_	_	
+259-4	11277-11281	zona	_	_	_	zona	_	_	258-3	_	_	
+259-5	11282-11285	qua	_	_	_	qua	_	_	258-4	_	_	
+259-6	11286-11288	ha	_	_	_	ha	_	_	258-5	_	_	
+259-7	11289-11298	acquisito	_	_	_	acquisito	_	_	258-6	_	_	
+259-8	11299-11301	c'	_	_	_	c'	_	_	258-7	_	_	
+259-9	11302-11303	è	_	_	_	è	_	_	258-8	_	_	
+259-10	11304-11306	l'	_	_	_	l'	_	_	258-9	_	_	
+259-11	11307-11312	ombra	_	_	_	ombra	_	_	258-10	_	_	
+259-12	11313-11318	dello	_	_	_	dello	_	_	258-11	_	_	
+259-13	11319-11325	stadio	_	_	_	stadio	_	_	258-12	_	_	
+259-14	11326-11329	per	_	_	_	per	_	_	258-13	_	_	
+259-15	11330-11333	cui	_	_	_	cui	_	_	258-14	_	_	
+
+#Text=è vero sì qua per me ci sono i portici e lo stadio ((ride))
+260-1	11334-11335	è	BC[11]	_	_	è	_	BOR009	259-0	_	_	
+260-2	11336-11340	vero	BC[11]	_	_	vero	_	_	259-1	_	_	
+260-3	11341-11343	sì	BC[11]	_	_	sì	_	_	259-2	_	_	
+260-4	11344-11347	qua	_	_	_	qua:	_	_	259-3	_	_	
+260-5	11348-11351	per	_	_	_	per	_	_	259-4	_	_	
+260-6	11352-11354	me	_	_	_	me	_	_	259-5	_	_	
+260-7	11355-11357	ci	_	_	_	ci	_	_	259-6	_	_	
+260-8	11358-11362	sono	_	_	_	sono	_	_	259-7	_	_	
+260-9	11363-11364	i	_	_	_	i	_	_	259-8	_	_	
+260-10	11365-11372	portici	_	_	_	portici	_	_	259-9	_	_	
+260-11	11373-11374	e	_	_	_	e	_	_	259-10	_	_	
+260-12	11375-11377	lo	_	_	_	lo	_	_	259-11	_	_	
+260-13	11378-11384	stadio	_	_	_	stadio	_	_	259-12	_	_	
+260-14	11385-11393	((ride))	_	_	_	((ride))	_	_	259-13	_	_	
+
+#Text=sì e cioè qua se tu sei un tifoso e devi andare allo stadio la domenica è una specie di incubo perché non puoi parcheggiare da nessuna parte
+261-1	11394-11396	sì	BC	_	_	sì	_	BOI057	260-0	_	_	
+261-2	11397-11398	e	_	_	_	e	_	_	260-1	_	_	
+261-3	11399-11403	cioè	_	_	_	cioè	_	_	260-2	_	_	
+261-4	11404-11407	qua	_	_	_	qua	_	_	260-3	_	_	
+261-5	11408-11410	se	_	_	_	se	_	_	260-4	_	_	
+261-6	11411-11413	tu	_	_	_	tu	_	_	260-5	_	_	
+261-7	11414-11417	sei	_	_	_	sei	_	_	260-6	_	_	
+261-8	11418-11420	un	_	_	_	un	_	_	260-7	_	_	
+261-9	11421-11427	tifoso	_	_	_	tifoso	_	_	260-8	_	_	
+261-10	11428-11429	e	_	_	_	e	_	_	260-9	_	_	
+261-11	11430-11434	devi	_	_	_	devi	_	_	260-10	_	_	
+261-12	11435-11441	andare	_	_	_	andare	_	_	260-11	_	_	
+261-13	11442-11446	allo	_	_	_	allo	_	_	260-12	_	_	
+261-14	11447-11453	stadio	_	_	_	stadio	_	_	260-13	_	_	
+261-15	11454-11456	la	_	_	_	la	_	_	260-14	_	_	
+261-16	11457-11465	domenica	_	_	_	domenica	_	_	260-15	_	_	
+261-17	11466-11467	è	_	_	_	è	_	_	260-16	_	_	
+261-18	11468-11471	una	_	_	_	una	_	_	260-17	_	_	
+261-19	11472-11478	specie	_	_	_	specie	_	_	260-18	_	_	
+261-20	11479-11481	di	_	_	_	di	_	_	260-19	_	_	
+261-21	11482-11488	incubo	_	_	_	incubo	_	_	260-20	_	_	
+261-22	11489-11495	perché	_	_	_	perché	_	_	260-21	_	_	
+261-23	11496-11499	non	_	_	_	non	_	_	260-22	_	_	
+261-24	11500-11504	puoi	_	_	_	puoi	_	_	260-23	_	_	
+261-25	11505-11517	parcheggiare	_	_	_	parcheggiare	_	_	260-24	_	_	
+261-26	11518-11520	da	_	_	_	da	_	_	260-25	_	_	
+261-27	11521-11528	nessuna	_	_	_	nessuna	_	_	260-26	_	_	
+261-28	11529-11534	parte	_	_	WeaklyRising	parte,	_	_	260-27	_	_	
+
+#Text=puoi andare in motorino ma non so come è messa la situazione parcheggi
+262-1	11535-11539	puoi	_	_	_	puoi	_	BOI057	261-0	_	_	
+262-2	11540-11546	andare	_	_	_	andare	_	_	261-1	_	_	
+262-3	11547-11549	in	_	_	_	in	_	_	261-2	_	_	
+262-4	11550-11558	motorino	_	_	_	motorino	_	_	261-3	_	_	
+262-5	11559-11561	ma	_	_	_	ma	_	_	261-4	_	_	
+262-6	11562-11565	non	_	_	_	non	_	_	261-5	_	_	
+262-7	11566-11568	so	_	_	_	so	_	_	261-6	_	_	
+262-8	11569-11573	come	_	_	_	come	_	_	261-7	_	_	
+262-9	11574-11575	è	_	_	_	è	_	_	261-8	_	_	
+262-10	11576-11581	messa	_	_	_	messa	_	_	261-9	_	_	
+262-11	11582-11584	la	_	_	_	la	_	_	261-10	_	_	
+262-12	11585-11595	situazione	_	_	_	situazione	_	_	261-11	_	_	
+262-13	11596-11605	parcheggi	_	_	WeaklyRising	parcheggi,	_	_	261-12	_	_	
+
+#Text=ah
+263-1	11606-11608	ah	BC	_	_	\[a:h\]	_	BOR009	262-0	*->26-1	*[26]	
+
+#Text=io so che da qua è fantastico perché tu sc~ scendi ti fai una passeggiata di venti minuti sei allo stadio
+264-1	11609-11611	io	_	_	_	\[io	_	BOI057	263-0	*->26-2	*[26]	
+264-2	11612-11614	so	_	_	_	so\]	_	_	263-1	*->26-3	*[26]	
+264-3	11615-11618	che	_	_	_	che	_	_	263-2	_	_	
+264-4	11619-11621	da	_	_	_	da	_	_	263-3	_	_	
+264-5	11622-11625	qua	_	_	_	qua	_	_	263-4	_	_	
+264-6	11626-11627	è	_	_	_	è	_	_	263-5	_	_	
+264-7	11628-11638	fantastico	_	_	_	fantastico	_	_	263-6	_	_	
+264-8	11639-11645	perché	_	_	_	perché	_	_	263-7	_	_	
+264-9	11646-11648	tu	_	_	_	tu	_	_	263-8	_	_	
+264-10	11649-11652	sc~	_	_	_	sc~	_	_	263-9	_	_	
+264-11	11653-11659	scendi	_	_	WeaklyRising	scendi,	_	_	263-10	_	_	
+264-12	11660-11662	ti	_	_	_	ti	_	_	263-11	_	_	
+264-13	11663-11666	fai	_	_	_	fai	_	_	263-12	_	_	
+264-14	11667-11670	una	_	_	_	una	_	_	263-13	_	_	
+264-15	11671-11682	passeggiata	_	_	_	passeggiata	_	_	263-14	_	_	
+264-16	11683-11685	di	_	_	_	di	_	_	263-15	_	_	
+264-17	11686-11691	venti	_	_	_	venti	_	_	263-16	_	_	
+264-18	11692-11698	minuti	_	_	WeaklyRising	minuti,	_	_	263-17	_	_	
+264-19	11699-11702	sei	_	_	_	sei	_	_	263-18	_	_	
+264-20	11703-11707	allo	_	_	_	allo	_	_	263-19	_	_	
+264-21	11708-11714	stadio	_	_	WeaklyRising	stadio,	_	_	263-20	_	_	
+
+#Text=poi ritorni commentando il il risultato della partita e~ eran le mie domeniche perfette
+265-1	11715-11718	poi	_	_	_	poi	_	BOI057	264-0	_	_	
+265-2	11719-11726	ritorni	_	_	_	ritorni	_	_	264-1	_	_	
+265-3	11727-11738	commentando	_	_	_	commentando:	_	_	264-2	_	_	
+265-4	11739-11741	il	_	_	_	il	_	_	264-3	_	_	
+265-5	11742-11744	il	_	_	_	>il	_	_	264-4	_	_	
+265-6	11745-11754	risultato	_	_	_	risultato	_	_	264-5	_	_	
+265-7	11755-11760	della	_	_	_	della	_	_	264-6	_	_	
+265-8	11761-11768	partita	_	_	_	partita<	_	_	264-7	_	_	
+265-9	11769-11771	e~	_	_	_	e~	_	_	264-8	_	_	
+265-10	11772-11776	eran	_	_	_	eran	_	_	264-9	_	_	
+265-11	11777-11779	le	_	_	_	le	_	_	264-10	_	_	
+265-12	11780-11783	mie	_	_	_	mie	_	_	264-11	_	_	
+265-13	11784-11793	domeniche	_	_	_	domeniche	_	_	264-12	_	_	
+265-14	11794-11802	perfette	_	_	_	perfette	_	_	264-13	_	_	
+
+#Text=beh penso che sia il sogno di qualsiasi tifoso che abiti a venti minuti dallo stadio
+266-1	11803-11806	beh	_	_	_	beh	_	BOR009	265-0	_	_	
+266-2	11807-11812	penso	_	_	_	penso	_	_	265-1	_	_	
+266-3	11813-11816	che	_	_	_	che	_	_	265-2	_	_	
+266-4	11817-11820	sia	_	_	_	sia	_	_	265-3	_	_	
+266-5	11821-11823	il	_	_	_	il	_	_	265-4	_	_	
+266-6	11824-11829	sogno	_	_	_	sogno	_	_	265-5	_	_	
+266-7	11830-11832	di	_	_	_	di	_	_	265-6	_	_	
+266-8	11833-11842	qualsiasi	_	_	_	qualsiasi	_	_	265-7	_	_	
+266-9	11843-11849	tifoso	_	_	_	tifoso	_	_	265-8	_	_	
+266-10	11850-11853	che	_	_	_	che	_	_	265-9	_	_	
+266-11	11854-11859	abiti	_	_	_	abiti	_	_	265-10	_	_	
+266-12	11860-11861	a	_	_	_	a	_	_	265-11	_	_	
+266-13	11862-11867	venti	_	_	_	venti	_	_	265-12	_	_	
+266-14	11868-11874	minuti	_	_	_	minuti	_	_	265-13	_	_	
+266-15	11875-11880	dallo	_	_	_	dallo	_	_	265-14	_	_	
+266-16	11881-11887	stadio	_	_	_	stadio	_	_	265-15	_	_	
+
+#Text=e quando vuoi puoi andare tranquillo
+267-1	11888-11889	e	_	_	_	e	_	BOR009	266-0	_	_	
+267-2	11890-11896	quando	_	_	_	quando	_	_	266-1	_	_	
+267-3	11897-11901	vuoi	_	_	_	vuoi	_	_	266-2	_	_	
+267-4	11902-11906	puoi	_	_	_	puoi	_	_	266-3	_	_	
+267-5	11907-11913	andare	_	_	_	andare	_	_	266-4	_	_	
+267-6	11914-11924	tranquillo	_	_	_	tranquillo	_	_	266-5	_	_	
+
+#Text=sì
+268-1	11925-11927	sì	BC	_	_	sì	_	BOI057	267-0	_	_	
+
+#Text=veramente
+269-1	11928-11937	veramente	_	_	_	°veramente°	_	BOI057	268-0	_	_	
+
+#Text=bello
+270-1	11938-11943	bello	BC	_	_	bello	_	BOR009	269-0	_	_	
+
+#Text=sì ecco a me non non interesserebbe particolarmente però
+271-1	11944-11946	sì	BC	_	_	sì	_	BOR009	270-0	_	_	
+271-2	11947-11951	ecco	_	_	_	ecco	_	_	270-1	_	_	
+271-3	11952-11953	a	_	_	_	a	_	_	270-2	_	_	
+271-4	11954-11956	me	_	_	_	me	_	_	270-3	_	_	
+271-5	11957-11960	non	_	_	_	non	_	_	270-4	_	_	
+271-6	11961-11964	non	_	_	_	non	_	_	270-5	_	_	
+271-7	11965-11979	interesserebbe	_	_	_	interesserebbe	_	_	270-6	_	_	
+271-8	11980-11995	particolarmente	_	_	_	particolarmente	_	_	270-7	_	_	
+271-9	11996-12000	però	_	_	_	però	_	_	270-8	_	_	
+
+#Text=non ti piace il calcio
+272-1	12001-12004	non	_	_	_	non	_	BOI057	271-0	_	_	
+272-2	12005-12007	ti	_	_	_	ti	_	_	271-1	_	_	
+272-3	12008-12013	piace	_	_	_	piace	_	_	271-2	_	_	
+272-4	12014-12016	il	_	_	_	il	_	_	271-3	_	_	
+272-5	12017-12023	calcio	_	_	Rising	calcio?	_	_	271-4	_	_	
+
+#Text=non sono una fan
+273-1	12024-12027	non	_	_	_	non	_	BOR009	272-0	_	_	
+273-2	12028-12032	sono	_	_	_	sono	_	_	272-1	_	_	
+273-3	12033-12036	una	_	_	_	una	_	_	272-2	_	_	
+273-4	12037-12040	fan	_	_	_	fan	_	_	272-3	_	_	
+
+#Text=ma qualche sport ti piace
+274-1	12041-12043	ma	_	_	_	ma	_	BOI057	273-0	_	_	
+274-2	12044-12051	qualche	_	_	_	qualche	_	_	273-1	_	_	
+274-3	12052-12057	sport	_	_	_	sport	_	_	273-2	_	_	
+274-4	12058-12060	ti	_	_	_	ti	_	_	273-3	_	_	
+274-5	12061-12066	piace	_	_	Rising	piace?	_	_	273-4	_	_	
+
+#Text=non sono proprio troppo il tipo sportivo ((ride))
+275-1	12067-12070	non	_	_	_	non	_	BOR009	274-0	_	_	
+275-2	12071-12075	sono	_	_	_	sono	_	_	274-1	_	_	
+275-3	12076-12083	proprio	_	_	_	proprio	_	_	274-2	_	_	
+275-4	12084-12090	troppo	_	_	_	troppo:	_	_	274-3	_	_	
+275-5	12091-12093	il	_	_	_	il	_	_	274-4	_	_	
+275-6	12094-12098	tipo	_	_	_	tipo	_	_	274-5	_	_	
+275-7	12099-12107	sportivo	_	_	_	sportivo	_	_	274-6	_	_	
+275-8	12108-12116	((ride))	_	_	_	((ride))	_	_	274-7	_	_	
+
+#Text=io proprio sportiva zero
+276-1	12117-12119	io	_	_	_	io	_	BOI057	275-0	_	_	
+276-2	12120-12127	proprio	_	_	_	proprio	_	_	275-1	_	_	
+276-3	12128-12136	sportiva	_	_	_	sportiva	_	_	275-2	_	_	
+276-4	12137-12141	zero	_	_	_	zero	_	_	275-3	_	_	
+
+#Text=più culturale
+277-1	12142-12145	più	_	_	_	più	_	BOR009	276-0	_	_	
+277-2	12146-12155	culturale	_	_	_	culturale	_	_	276-1	_	_	
+
+#Text=mh
+278-1	12156-12158	mh	BC	_	_	mh	_	BOI057	277-0	_	_	
+
+#Text=penso
+279-1	12159-12164	penso	_	_	_	penso	_	BOR009	278-0	_	_	
+
+#Text=io sono più mh
+280-1	12165-12167	io	_	_	_	io	_	BOI057	279-0	_	_	
+280-2	12168-12172	sono	_	_	_	sono	_	_	279-1	_	_	
+280-3	12173-12176	più	_	_	_	più	_	_	279-2	_	_	
+280-4	12177-12179	mh	_	FP	_	m:h	_	_	279-3	_	_	
+
+#Text=cioè [PAUSE] costruisco dei mondi nella mia testa
+281-1	12180-12184	cioè	_	_	_	cioè	_	BOI057	280-0	_	_	
+281-2	12185-12192	[PAUSE]	_	_	_	(.)	_	_	280-1	_	_	
+281-3	12193-12203	costruisco	_	_	_	costruisco	_	_	280-2	_	_	
+281-4	12204-12207	dei	_	_	_	dei	_	_	280-3	_	_	
+281-5	12208-12213	mondi	_	_	_	mondi	_	_	280-4	_	_	
+281-6	12214-12219	nella	_	_	_	nella	_	_	280-5	_	_	
+281-7	12220-12223	mia	_	_	_	mia	_	_	280-6	_	_	
+281-8	12224-12229	testa	_	_	_	testa	_	_	280-7	_	_	
+
+#Text=beh bello c' è bisogno di di varietà di persone nel mondo quindi è giusto che gli sportivi facciano lo sport
+282-1	12230-12233	beh	_	_	_	beh	_	BOR009	281-0	_	_	
+282-2	12234-12239	bello	_	_	_	bello	_	_	281-1	_	_	
+282-3	12240-12242	c'	_	_	_	c'	_	_	281-2	_	_	
+282-4	12243-12244	è	_	_	_	è	_	_	281-3	_	_	
+282-5	12245-12252	bisogno	_	_	_	bisogno	_	_	281-4	_	_	
+282-6	12253-12255	di	_	_	_	di:	_	_	281-5	_	_	
+282-7	12256-12258	di	_	_	_	di	_	_	281-6	_	_	
+282-8	12259-12266	varietà	_	_	_	varietà	_	_	281-7	_	_	
+282-9	12267-12269	di	_	_	_	di	_	_	281-8	_	_	
+282-10	12270-12277	persone	_	_	_	persone	_	_	281-9	_	_	
+282-11	12278-12281	nel	_	_	_	nel	_	_	281-10	_	_	
+282-12	12282-12287	mondo	_	_	_	mondo	_	_	281-11	_	_	
+282-13	12288-12294	quindi	_	_	_	quindi	_	_	281-12	_	_	
+282-14	12295-12296	è	_	_	_	è	_	_	281-13	_	_	
+282-15	12297-12303	giusto	_	_	_	giusto	_	_	281-14	_	_	
+282-16	12304-12307	che	_	_	_	che	_	_	281-15	_	_	
+282-17	12308-12311	gli	_	_	_	gli	_	_	281-16	_	_	
+282-18	12312-12320	sportivi	_	_	_	sportivi	_	_	281-17	_	_	
+282-19	12321-12329	facciano	_	_	_	facciano	_	_	281-18	_	_	
+282-20	12330-12332	lo	_	_	_	lo	_	_	281-19	_	_	
+282-21	12333-12338	sport	_	_	_	sport	_	_	281-20	_	_	
+
+#Text=infatti
+283-1	12339-12346	infatti	BC	_	_	infatti	_	BOI057	282-0	_	_	
+
+#Text=e al resto ci pensino altri ((ride))
+284-1	12347-12348	e	_	_	_	e	_	BOR009	283-0	_	_	
+284-2	12349-12351	al	_	_	_	al	_	_	283-1	_	_	
+284-3	12352-12357	resto	_	_	_	resto	_	_	283-2	_	_	
+284-4	12358-12360	ci	_	_	_	ci	_	_	283-3	_	_	
+284-5	12361-12368	pensino	_	_	_	pensino	_	_	283-4	_	_	
+284-6	12369-12374	altri	_	_	_	altri	_	_	283-5	_	_	
+284-7	12375-12383	((ride))	_	_	_	((ride))	_	_	283-6	_	_	
+
+#Text=((ride))
+285-1	12384-12392	((ride))	_	_	_	((ride))	_	BOI057	284-0	_	_	
+
+#Text=mh [PAUSE] ieri sera un tassista m' ha fatto sentire uno schifo
+286-1	12393-12395	mh	BC	_	_	mh	_	BOI057	285-0	_	_	
+286-2	12396-12403	[PAUSE]	_	_	_	(.)	_	_	285-1	_	_	
+286-3	12404-12408	ieri	_	_	_	ieri	_	_	285-2	_	_	
+286-4	12409-12413	sera	_	_	_	sera	_	_	285-3	_	_	
+286-5	12414-12416	un	_	_	_	un	_	_	285-4	_	_	
+286-6	12417-12425	tassista	_	_	_	tassista	_	_	285-5	_	_	
+286-7	12426-12428	m'	_	_	_	m'	_	_	285-6	_	_	
+286-8	12429-12431	ha	_	_	_	ha	_	_	285-7	_	_	
+286-9	12432-12437	fatto	_	_	_	fatto	_	_	285-8	_	_	
+286-10	12438-12445	sentire	_	_	_	sentire	_	_	285-9	_	_	
+286-11	12446-12449	uno	_	_	_	uno	_	_	285-10	_	_	
+286-12	12450-12456	schifo	_	_	_	schifo	_	_	285-11	_	_	
+
+#Text=((ride))
+287-1	12457-12465	((ride))	_	_	_	((ride))	_	BOR009	286-0	_	_	
+
+#Text=quando tornavo a ca~ ah perché io non ho la patente no
+288-1	12466-12472	quando	_	_	_	quando	_	BOI057	287-0	_	_	
+288-2	12473-12480	tornavo	_	_	_	tornavo	_	_	287-1	_	_	
+288-3	12481-12482	a	_	_	_	a	_	_	287-2	_	_	
+288-4	12483-12486	ca~	_	_	_	ca~	_	_	287-3	_	_	
+288-5	12487-12489	ah	_	_	_	ah	_	_	287-4	_	_	
+288-6	12490-12496	perché	_	_	_	perché	_	_	287-5	_	_	
+288-7	12497-12499	io	_	_	_	io	_	_	287-6	_	_	
+288-8	12500-12503	non	_	_	_	non	_	_	287-7	_	_	
+288-9	12504-12506	ho	_	_	_	ho	_	_	287-8	_	_	
+288-10	12507-12509	la	_	_	_	la	_	_	287-9	_	_	
+288-11	12510-12517	patente	_	_	_	patente	_	_	287-10	_	_	
+288-12	12518-12520	no	_	_	_	no	_	_	287-11	_	_	
+
+#Text=ah okay sì me l' hai detto
+289-1	12521-12523	ah	BC[12]	_	_	\[ah	_	BOR009	288-0	*->46-1	*[46]	
+289-2	12524-12528	okay	BC[12]	_	_	okay	_	_	288-1	*->46-2	*[46]	
+289-3	12529-12531	sì	BC[12]	_	_	sì	_	_	288-2	*->46-3	*[46]	
+289-4	12532-12534	me	_	_	_	me	_	_	288-3	*->46-4	*[46]	
+289-5	12535-12537	l'	_	_	_	l'	_	_	288-4	*->46-5	*[46]	
+289-6	12538-12541	hai	_	_	_	hai	_	_	288-5	*->46-6	*[46]	
+289-7	12542-12547	detto	_	_	_	detto\]	_	_	288-6	*->46-7	*[46]	
+
+#Text=quindi per me è anche comodo cioè vivere in centro [PAUSE] è è il top
+290-1	12548-12554	quindi	_	_	_	\[quindi	_	BOI057	289-0	*->46-8	*[46]	
+290-2	12555-12558	per	_	_	_	per	_	_	289-1	*->46-9	*[46]	
+290-3	12559-12561	me	_	_	_	me	_	_	289-2	*->46-10	*[46]	
+290-4	12562-12563	è	_	_	_	è\]	_	_	289-3	*->46-11	*[46]	
+290-5	12564-12569	anche	_	_	_	anche	_	_	289-4	_	_	
+290-6	12570-12576	comodo	_	_	_	comodo:	_	_	289-5	_	_	
+290-7	12577-12581	cioè	_	_	_	cioè	_	_	289-6	_	_	
+290-8	12582-12588	vivere	_	_	_	vivere	_	_	289-7	_	_	
+290-9	12589-12591	in	_	_	_	in	_	_	289-8	_	_	
+290-10	12592-12598	centro	_	_	_	centro	_	_	289-9	_	_	
+290-11	12599-12606	[PAUSE]	_	_	_	(.)	_	_	289-10	_	_	
+290-12	12607-12608	è	_	_	_	è	_	_	289-11	_	_	
+290-13	12609-12610	è	_	_	_	è	_	_	289-12	_	_	
+290-14	12611-12613	il	_	_	_	il	_	_	289-13	_	_	
+290-15	12614-12617	top	_	_	_	top	_	_	289-14	_	_	
+
+#Text=eh mh un tassista m' ha fatto sentire malissimo perché
+291-1	12618-12620	eh	_	FP[23]	_	eh	_	BOI057	290-0	_	_	
+291-2	12621-12623	mh	_	FP[23]	_	mh	_	_	290-1	_	_	
+291-3	12624-12626	un	_	_	_	un	_	_	290-2	_	_	
+291-4	12627-12635	tassista	_	_	_	tassista	_	_	290-3	_	_	
+291-5	12636-12638	m'	_	_	_	m'	_	_	290-4	_	_	
+291-6	12639-12641	ha	_	_	_	ha	_	_	290-5	_	_	
+291-7	12642-12647	fatto	_	_	_	fatto	_	_	290-6	_	_	
+291-8	12648-12655	sentire	_	_	_	sentire	_	_	290-7	_	_	
+291-9	12656-12665	malissimo	_	_	_	malissimo	_	_	290-8	_	_	
+291-10	12666-12672	perché	_	_	_	perché	_	_	290-9	_	_	
+
+#Text=mh si parlava di ah si parlava di cani acciaccati
+292-1	12673-12675	mh	_	FP	_	m:h	_	BOI057	291-0	_	_	
+292-2	12676-12678	si	_	_	_	si	_	_	291-1	_	_	
+292-3	12679-12686	parlava	_	_	_	parlava	_	_	291-2	_	_	
+292-4	12687-12689	di	_	_	_	di	_	_	291-3	_	_	
+292-5	12690-12692	ah	_	_	_	ah	_	_	291-4	_	_	
+292-6	12693-12695	si	_	_	_	si	_	_	291-5	_	_	
+292-7	12696-12703	parlava	_	_	_	parlava	_	_	291-6	_	_	
+292-8	12704-12706	di	_	_	_	di	_	_	291-7	_	_	
+292-9	12707-12711	cani	_	_	_	cani	_	_	291-8	_	_	
+292-10	12712-12722	acciaccati	_	_	_	acciaccati	_	_	291-9	_	_	
+
+#Text=poi dai cani acciaccati si è passati ai padroni acciaccati
+293-1	12723-12726	poi	_	_	_	poi	_	BOI057	292-0	_	_	
+293-2	12727-12730	dai	_	_	_	dai	_	_	292-1	_	_	
+293-3	12731-12735	cani	_	_	_	cani	_	_	292-2	_	_	
+293-4	12736-12746	acciaccati	_	_	_	acciaccati	_	_	292-3	_	_	
+293-5	12747-12749	si	_	_	_	si	_	_	292-4	_	_	
+293-6	12750-12751	è	_	_	_	è	_	_	292-5	_	_	
+293-7	12752-12759	passati	_	_	_	passati	_	_	292-6	_	_	
+293-8	12760-12762	ai	_	_	_	ai	_	_	292-7	_	_	
+293-9	12763-12770	padroni	_	_	_	padroni	_	_	292-8	_	_	
+293-10	12771-12781	acciaccati	_	_	_	acciaccati	_	_	292-9	_	_	
+
+#Text=((ride))
+294-1	12782-12790	((ride))	_	_	_	((ride))	_	BOR009	293-0	_	_	
+
+#Text=e io ho detto ma sì io adesso comincio ad avere la differenza l' ho sentita quando ho fatto i cinquant' anni allora ho cominciato ad avere un po' di problemi
+295-1	12791-12792	e	_	_	_	e	_	BOI057	294-0	_	_	
+295-2	12793-12795	io	_	_	_	io	_	_	294-1	_	_	
+295-3	12796-12798	ho	_	_	_	ho	_	_	294-2	_	_	
+295-4	12799-12804	detto	_	_	_	detto	_	_	294-3	_	_	
+295-5	12805-12807	ma	_	_	_	ma	_	_	294-4	_	_	
+295-6	12808-12810	sì	_	_	_	sì	_	_	294-5	_	_	
+295-7	12811-12813	io	_	_	_	io	_	_	294-6	_	_	
+295-8	12814-12820	adesso	_	_	_	adesso	_	_	294-7	_	_	
+295-9	12821-12829	comincio	_	_	_	comincio	_	_	294-8	_	_	
+295-10	12830-12832	ad	_	_	_	ad	_	_	294-9	_	_	
+295-11	12833-12838	avere	_	_	_	avere:	_	_	294-10	_	_	
+295-12	12839-12841	la	_	_	_	la	_	_	294-11	_	_	
+295-13	12842-12852	differenza	_	_	_	differenza	_	_	294-12	_	_	
+295-14	12853-12855	l'	_	_	_	l'	_	_	294-13	_	_	
+295-15	12856-12858	ho	_	_	_	ho	_	_	294-14	_	_	
+295-16	12859-12866	sentita	_	_	_	sentita	_	_	294-15	_	_	
+295-17	12867-12873	quando	_	_	_	quando	_	_	294-16	_	_	
+295-18	12874-12876	ho	_	_	_	ho	_	_	294-17	_	_	
+295-19	12877-12882	fatto	_	_	_	fatto	_	_	294-18	_	_	
+295-20	12883-12884	i	_	_	_	i	_	_	294-19	_	_	
+295-21	12885-12894	cinquant'	_	_	_	cinquant'	_	_	294-20	_	_	
+295-22	12895-12899	anni	_	_	_	anni	_	_	294-21	_	_	
+295-23	12900-12906	allora	_	_	_	allora	_	_	294-22	_	_	
+295-24	12907-12909	ho	_	_	_	ho	_	_	294-23	_	_	
+295-25	12910-12920	cominciato	_	_	_	cominciato	_	_	294-24	_	_	
+295-26	12921-12923	ad	_	_	_	ad	_	_	294-25	_	_	
+295-27	12924-12929	avere	_	_	_	avere	_	_	294-26	_	_	
+295-28	12930-12932	un	_	_	_	un	_	_	294-27	_	_	
+295-29	12933-12936	po'	_	_	_	po'	_	_	294-28	_	_	
+295-30	12937-12939	di	_	_	_	di	_	_	294-29	_	_	
+295-31	12940-12948	problemi	_	_	_	problemi	_	_	294-30	_	_	
+
+#Text=questo giovane tassista si è girato e mi ha detto ma lei non fa sport
+296-1	12949-12955	questo	_	_	_	questo	_	BOI057	295-0	_	_	
+296-2	12956-12963	giovane	_	_	_	giovane	_	_	295-1	_	_	
+296-3	12964-12972	tassista	_	_	_	tassista	_	_	295-2	_	_	
+296-4	12973-12975	si	_	_	_	si	_	_	295-3	_	_	
+296-5	12976-12977	è	_	_	_	è	_	_	295-4	_	_	
+296-6	12978-12984	girato	_	_	_	girato	_	_	295-5	_	_	
+296-7	12985-12986	e	_	_	_	>e	_	_	295-6	_	_	
+296-8	12987-12989	mi	_	_	_	mi	_	_	295-7	_	_	
+296-9	12990-12992	ha	_	_	_	ha	_	_	295-8	_	_	
+296-10	12993-12998	detto	_	_	_	detto<	_	_	295-9	_	_	
+296-11	12999-13001	ma	_	_	_	ma:	_	_	295-10	_	_	
+296-12	13002-13005	lei	_	_	_	lei	_	_	295-11	_	_	
+296-13	13006-13009	non	_	_	_	non	_	_	295-12	_	_	
+296-14	13010-13012	fa	_	_	_	fa	_	_	295-13	_	_	
+296-15	13013-13018	sport	_	_	Rising	sport?	_	_	295-14	_	_	
+
+#Text=no
+297-1	13019-13021	no	_	_	_	no	_	BOI057	296-0	_	_	
+
+#Text=ma neanche prima del lockdown faceva sport
+298-1	13022-13024	ma	_	_	_	ma	_	BOI057	297-0	_	_	
+298-2	13025-13032	neanche	_	_	_	neanche	_	_	297-1	_	_	
+298-3	13033-13038	prima	_	_	_	prima	_	_	297-2	_	_	
+298-4	13039-13042	del	_	_	_	del	_	_	297-3	_	_	
+298-5	13043-13051	lockdown	_	_	_	lockdown	_	_	297-4	_	_	
+298-6	13052-13058	faceva	_	_	_	faceva	_	_	297-5	_	_	
+298-7	13059-13064	sport	_	_	Rising	sport?	_	_	297-6	_	_	
+
+#Text=no
+299-1	13065-13067	no	_	_	_	no:	_	BOI057	298-0	_	_	
+
+#Text=forse dovrebbe farne
+300-1	13068-13073	forse	_	_	_	forse	_	BOI057	299-0	_	_	
+300-2	13074-13082	dovrebbe	_	_	_	dovrebbe	_	_	299-1	_	_	
+300-3	13083-13088	farne	_	_	_	farne	_	_	299-2	_	_	
+
+#Text=((ride))
+301-1	13089-13097	((ride))	_	_	_	((ride))	_	BOR009	300-0	_	_	
+
+#Text=forse
+302-1	13098-13103	forse	_	_	_	forse	_	BOI057	301-0	_	_	
+
+#Text=o forse no ((ride))
+303-1	13104-13105	o	_	_	_	o	_	BOI057	302-0	_	_	
+303-2	13106-13111	forse	_	_	_	forse	_	_	302-1	_	_	
+303-3	13112-13114	no	_	_	_	no	_	_	302-2	_	_	
+303-4	13115-13123	((ride))	_	_	_	((ride))	_	_	302-3	_	_	
+
+#Text=ma sì ma ognuno ha il suo penso io quindi
+304-1	13124-13126	ma	BC[13]	_	_	ma	_	BOR009	303-0	_	_	
+304-2	13127-13129	sì	BC[13]	_	_	sì	_	_	303-1	_	_	
+304-3	13130-13132	ma	_	_	_	ma:	_	_	303-2	_	_	
+304-4	13133-13139	ognuno	_	_	_	ognuno	_	_	303-3	_	_	
+304-5	13140-13142	ha	_	_	_	ha	_	_	303-4	_	_	
+304-6	13143-13145	il	_	_	_	il	_	_	303-5	_	_	
+304-7	13146-13149	suo	_	_	_	suo	_	_	303-6	_	_	
+304-8	13150-13155	penso	_	_	_	penso	_	_	303-7	_	_	
+304-9	13156-13158	io	_	_	_	io	_	_	303-8	_	_	
+304-10	13159-13165	quindi	_	_	_	quindi	_	_	303-9	_	_	
+
+#Text=((ride))
+305-1	13166-13174	((ride))	_	_	_	((ride))	_	BOI057	304-0	_	_	
+
+#Text=se uno sta bene anche senza lo sport
+306-1	13175-13177	se	_	_	_	se	_	BOR009	305-0	_	_	
+306-2	13178-13181	uno	_	_	_	uno	_	_	305-1	_	_	
+306-3	13182-13185	sta	_	_	_	sta	_	_	305-2	_	_	
+306-4	13186-13190	bene	_	_	_	bene	_	_	305-3	_	_	
+306-5	13191-13196	anche	_	_	_	anche	_	_	305-4	_	_	
+306-6	13197-13202	senza	_	_	_	senza	_	_	305-5	_	_	
+306-7	13203-13205	lo	_	_	_	lo	_	_	305-6	_	_	
+306-8	13206-13211	sport	_	_	_	sport	_	_	305-7	_	_	
+
+#Text=per me era fantastico camminare io avevo sostituito quasi tutta la mia attività fisica con delle camminate col cane
+307-1	13212-13215	per	_	_	_	per	_	BOI057	306-0	_	_	
+307-2	13216-13218	me	_	_	_	me	_	_	306-1	_	_	
+307-3	13219-13222	era	_	_	_	era	_	_	306-2	_	_	
+307-4	13223-13233	fantastico	_	_	_	fantastico	_	_	306-3	_	_	
+307-5	13234-13243	camminare	_	_	_	camminare	_	_	306-4	_	_	
+307-6	13244-13246	io	_	_	_	io	_	_	306-5	_	_	
+307-7	13247-13252	avevo	_	_	_	avevo	_	_	306-6	_	_	
+307-8	13253-13263	sostituito	_	_	_	sostituito	_	_	306-7	_	_	
+307-9	13264-13269	quasi	_	_	_	quasi	_	_	306-8	_	_	
+307-10	13270-13275	tutta	_	_	_	tutta	_	_	306-9	_	_	
+307-11	13276-13278	la	_	_	_	la	_	_	306-10	_	_	
+307-12	13279-13282	mia	_	_	_	mia	_	_	306-11	_	_	
+307-13	13283-13291	attività	_	_	_	attività	_	_	306-12	_	_	
+307-14	13292-13298	fisica	_	_	_	fisica	_	_	306-13	_	_	
+307-15	13299-13302	con	_	_	_	con	_	_	306-14	_	_	
+307-16	13303-13308	delle	_	_	_	delle	_	_	306-15	_	_	
+307-17	13309-13318	camminate	_	_	_	camminate	_	_	306-16	_	_	
+307-18	13319-13322	col	_	_	_	col	_	_	306-17	_	_	
+307-19	13323-13327	cane	_	_	_	cane	_	_	306-18	_	_	
+
+#Text=ma poi abitando appunto vicini al centro penso che tutto quello che uno deve fare lo può fare a piedi
+308-1	13328-13330	ma	_	_	_	ma	_	BOR009	307-0	_	_	
+308-2	13331-13334	poi	_	_	_	poi	_	_	307-1	_	_	
+308-3	13335-13343	abitando	_	_	_	abitando	_	_	307-2	_	_	
+308-4	13344-13351	appunto	_	_	_	appunto	_	_	307-3	_	_	
+308-5	13352-13358	vicini	_	_	_	vicini	_	_	307-4	_	_	
+308-6	13359-13361	al	_	_	_	al	_	_	307-5	_	_	
+308-7	13362-13368	centro	_	_	_	centro	_	_	307-6	_	_	
+308-8	13369-13374	penso	_	_	_	penso	_	_	307-7	_	_	
+308-9	13375-13378	che	_	_	_	che	_	_	307-8	_	_	
+308-10	13379-13384	tutto	_	_	_	tutto	_	_	307-9	_	_	
+308-11	13385-13391	quello	_	_	_	quello	_	_	307-10	_	_	
+308-12	13392-13395	che	_	_	_	che	_	_	307-11	_	_	
+308-13	13396-13399	uno	_	_	_	uno	_	_	307-12	_	_	
+308-14	13400-13404	deve	_	_	_	deve	_	_	307-13	_	_	
+308-15	13405-13409	fare	_	_	_	fare	_	_	307-14	_	_	
+308-16	13410-13412	lo	_	_	_	lo	_	_	307-15	_	_	
+308-17	13413-13416	può	_	_	_	può	_	_	307-16	_	_	
+308-18	13417-13421	fare	_	_	_	fare	_	_	307-17	_	_	
+308-19	13422-13423	a	_	_	_	a	_	_	307-18	_	_	
+308-20	13424-13429	piedi	_	_	_	piedi	_	_	307-19	_	_	
+
+#Text=sì sì sì eh eh solo che adesso non ho più tempo di fare niente
+309-1	13430-13432	sì	BC[14]	_	_	sì:	_	BOI057	308-0	_	_	
+309-2	13433-13435	sì	BC[14]	_	_	sì	_	_	308-1	_	_	
+309-3	13436-13438	sì	BC[14]	_	_	sì	_	_	308-2	_	_	
+309-4	13439-13441	eh	_	FP[24]	_	eh	_	_	308-3	_	_	
+309-5	13442-13444	eh	_	FP[24]	_	eh	_	_	308-4	_	_	
+309-6	13445-13449	solo	_	_	_	solo	_	_	308-5	_	_	
+309-7	13450-13453	che	_	_	_	che	_	_	308-6	_	_	
+309-8	13454-13460	adesso	_	_	_	adesso	_	_	308-7	_	_	
+309-9	13461-13464	non	_	_	_	non	_	_	308-8	_	_	
+309-10	13465-13467	ho	_	_	_	ho	_	_	308-9	_	_	
+309-11	13468-13471	più	_	_	_	più	_	_	308-10	_	_	
+309-12	13472-13477	tempo	_	_	_	tempo	_	_	308-11	_	_	
+309-13	13478-13480	di	_	_	_	di	_	_	308-12	_	_	
+309-14	13481-13485	fare	_	_	_	fare	_	_	308-13	_	_	
+309-15	13486-13492	niente	_	_	_	niente	_	_	308-14	_	_	
+
+#Text=cioè anzi guarda son le nove e quarantadue tra un po' mi romperanno le balle vedrai
+310-1	13493-13497	cioè	_	_	_	cioè	_	BOI057	309-0	_	_	
+310-2	13498-13502	anzi	_	_	_	anzi	_	_	309-1	_	_	
+310-3	13503-13509	guarda	_	_	_	guarda	_	_	309-2	_	_	
+310-4	13510-13513	son	_	_	_	son	_	_	309-3	_	_	
+310-5	13514-13516	le	_	_	_	le	_	_	309-4	_	_	
+310-6	13517-13521	nove	_	_	_	nove	_	_	309-5	_	_	
+310-7	13522-13523	e	_	_	_	e	_	_	309-6	_	_	
+310-8	13524-13535	quarantadue	_	_	_	quarantadue	_	_	309-7	_	_	
+310-9	13536-13539	tra	_	_	_	tra	_	_	309-8	_	_	
+310-10	13540-13542	un	_	_	_	un	_	_	309-9	_	_	
+310-11	13543-13546	po'	_	_	_	po'	_	_	309-10	_	_	
+310-12	13547-13549	mi	_	_	_	mi	_	_	309-11	_	_	
+310-13	13550-13560	romperanno	_	_	_	romperanno	_	_	309-12	_	_	
+310-14	13561-13563	le	_	_	_	le	_	_	309-13	_	_	
+310-15	13564-13569	balle	_	_	_	balle	_	_	309-14	_	_	
+310-16	13570-13576	vedrai	_	_	_	vedrai	_	_	309-15	_	_	
+
+#Text=ma infatti quando devi andare io non ti voglio poi trattenere eh ma puoi andare
+311-1	13577-13579	ma	_	_	_	ma	_	BOR009	310-0	_	_	
+311-2	13580-13587	infatti	_	_	_	infatti	_	_	310-1	_	_	
+311-3	13588-13594	quando	_	_	_	quando	_	_	310-2	_	_	
+311-4	13595-13599	devi	_	_	_	devi	_	_	310-3	_	_	
+311-5	13600-13606	andare	_	_	_	andare	_	_	310-4	_	_	
+311-6	13607-13609	io	_	_	_	io	_	_	310-5	_	_	
+311-7	13610-13613	non	_	_	_	non	_	_	310-6	_	_	
+311-8	13614-13616	ti	_	_	_	ti:	_	_	310-7	_	_	
+311-9	13617-13623	voglio	_	_	_	voglio	_	_	310-8	_	_	
+311-10	13624-13627	poi	_	_	_	poi:	_	_	310-9	_	_	
+311-11	13628-13638	trattenere	_	_	_	trattenere	_	_	310-10	_	_	
+311-12	13639-13641	eh	_	_	_	eh	_	_	310-11	_	_	
+311-13	13642-13644	ma	_	_	_	ma	_	_	310-12	_	_	
+311-14	13645-13649	puoi	_	_	_	\[puoi:	_	_	310-13	*->14-1	*[14]	
+311-15	13650-13656	andare	_	_	_	andare\]	_	_	310-14	*->14-2	*[14]	
+
+#Text=diciamo che io c' è una convenzione non scritta [PAUSE] con la mia responsabile per cui [PAUSE] io faccio le notti
+312-1	13657-13664	diciamo	_	_	_	\[diciamo	_	BOI057	311-0	*->14-3	*[14]	
+312-2	13665-13668	che	_	_	_	che	_	_	311-1	*->14-4	*[14]	
+312-3	13669-13671	io	_	_	_	io\]	_	_	311-2	*->14-5	*[14]	
+312-4	13672-13674	c'	_	_	_	c'	_	_	311-3	_	_	
+312-5	13675-13676	è	_	_	_	è	_	_	311-4	_	_	
+312-6	13677-13680	una	_	_	_	una	_	_	311-5	_	_	
+312-7	13681-13692	convenzione	_	_	_	convenzione	_	_	311-6	_	_	
+312-8	13693-13696	non	_	_	_	non	_	_	311-7	_	_	
+312-9	13697-13704	scritta	_	_	_	scritta	_	_	311-8	_	_	
+312-10	13705-13712	[PAUSE]	_	_	_	(.)	_	_	311-9	_	_	
+312-11	13713-13716	con	_	_	_	con	_	_	311-10	_	_	
+312-12	13717-13719	la	_	_	_	la	_	_	311-11	_	_	
+312-13	13720-13723	mia	_	_	_	mia:	_	_	311-12	_	_	
+312-14	13724-13736	responsabile	_	_	_	responsabile	_	_	311-13	_	_	
+312-15	13737-13740	per	_	_	_	per	_	_	311-14	_	_	
+312-16	13741-13744	cui	_	_	_	cui	_	_	311-15	_	_	
+312-17	13745-13752	[PAUSE]	_	_	_	(.)	_	_	311-16	_	_	
+312-18	13753-13755	io	_	_	_	io	_	_	311-17	_	_	
+312-19	13756-13762	faccio	_	_	_	faccio	_	_	311-18	_	_	
+312-20	13763-13765	le	_	_	_	le	_	_	311-19	_	_	
+312-21	13766-13771	notti	_	_	_	notti	_	_	311-20	_	_	
+
+#Text=cioè io ieri sera ho mandato inviti fino alle unidici e mezza
+313-1	13772-13776	cioè	_	_	_	cioè	_	BOI057	312-0	_	_	
+313-2	13777-13779	io	_	_	_	io	_	_	312-1	_	_	
+313-3	13780-13784	ieri	_	_	_	ieri	_	_	312-2	_	_	
+313-4	13785-13789	sera	_	_	_	sera	_	_	312-3	_	_	
+313-5	13790-13792	ho	_	_	_	ho	_	_	312-4	_	_	
+313-6	13793-13800	mandato	_	_	_	mandato	_	_	312-5	_	_	
+313-7	13801-13807	inviti	_	_	_	inviti	_	_	312-6	_	_	
+313-8	13808-13812	fino	_	_	_	fino	_	_	312-7	_	_	
+313-9	13813-13817	alle	_	_	_	alle	_	_	312-8	_	_	
+313-10	13818-13825	unidici	_	_	_	unidici	_	_	312-9	_	_	
+313-11	13826-13827	e	_	_	_	e	_	_	312-10	_	_	
+313-12	13828-13833	mezza	_	_	_	mezza	_	_	312-11	_	_	
+
+#Text=però
+314-1	13834-13838	però	_	_	_	però	_	BOR009	313-0	_	_	
+
+#Text=la mattina [PAUSE] però [PAUSE] fino alle dieci poi perché ti dicevo io non fino alle dieci
+315-1	13839-13841	la	_	_	_	la	_	BOI057	314-0	_	_	
+315-2	13842-13849	mattina	_	_	_	mattina	_	_	314-1	_	_	
+315-3	13850-13857	[PAUSE]	_	_	_	(.)	_	_	314-2	_	_	
+315-4	13858-13862	però	_	_	_	però	_	_	314-3	_	_	
+315-5	13863-13870	[PAUSE]	_	_	_	(.)	_	_	314-4	_	_	
+315-6	13871-13875	fino	_	_	_	fino	_	_	314-5	_	_	
+315-7	13876-13880	alle	_	_	_	alle	_	_	314-6	_	_	
+315-8	13881-13886	dieci	_	_	_	dieci	_	_	314-7	_	_	
+315-9	13887-13890	poi	_	_	_	poi	_	_	314-8	_	_	
+315-10	13891-13897	perché	_	_	_	perché	_	_	314-9	_	_	
+315-11	13898-13900	ti	_	_	_	ti	_	_	314-10	_	_	
+315-12	13901-13907	dicevo	_	_	_	dicevo	_	_	314-11	_	_	
+315-13	13908-13910	io	_	_	_	io	_	_	314-12	_	_	
+315-14	13911-13914	non	_	_	_	non	_	_	314-13	_	_	
+315-15	13915-13919	fino	_	_	_	fino	_	_	314-14	_	_	
+315-16	13920-13924	alle	_	_	_	alle	_	_	314-15	_	_	
+315-17	13925-13930	dieci	_	_	_	dieci	_	_	314-16	_	_	
+
+#Text=alle nove e mezza posso esserci se c' è un' urgenza
+316-1	13931-13935	alle	_	_	_	alle	_	BOI057	315-0	_	_	
+316-2	13936-13940	nove	_	_	_	nove	_	_	315-1	_	_	
+316-3	13941-13942	e	_	_	_	e	_	_	315-2	_	_	
+316-4	13943-13948	mezza	_	_	_	mezza	_	_	315-3	_	_	
+316-5	13949-13954	posso	_	_	_	posso	_	_	315-4	_	_	
+316-6	13955-13962	esserci	_	_	_	esserci	_	_	315-5	_	_	
+316-7	13963-13965	se	_	_	_	se	_	_	315-6	_	_	
+316-8	13966-13968	c'	_	_	_	c'	_	_	315-7	_	_	
+316-9	13969-13970	è	_	_	_	è	_	_	315-8	_	_	
+316-10	13971-13974	un'	_	_	_	un'	_	_	315-9	_	_	
+316-11	13975-13982	urgenza	_	_	_	urgenza	_	_	315-10	_	_	
+
+#Text=((ride)) okay
+317-1	13983-13991	((ride))	_	_	_	((ride))	_	BOR009	316-0	_	_	
+317-2	13992-13996	okay	BC	_	_	\[okay\]	_	_	316-1	*->41-1	*[41]	
+
+#Text=però soprattutto in questi periodi dove faccio le cose fino a s~ fino a tardi la mattina ho bisogno di un cuscinetto
+318-1	13997-14001	però	_	_	_	\[però\]	_	BOI057	317-0	*->41-2	*[41]	
+318-2	14002-14013	soprattutto	_	_	_	soprattutto	_	_	317-1	_	_	
+318-3	14014-14016	in	_	_	_	in	_	_	317-2	_	_	
+318-4	14017-14023	questi	_	_	_	questi	_	_	317-3	_	_	
+318-5	14024-14031	periodi	_	_	_	periodi	_	_	317-4	_	_	
+318-6	14032-14036	dove	_	_	_	dove	_	_	317-5	_	_	
+318-7	14037-14043	faccio	_	_	_	faccio	_	_	317-6	_	_	
+318-8	14044-14046	le	_	_	_	le	_	_	317-7	_	_	
+318-9	14047-14051	cose	_	_	_	cose	_	_	317-8	_	_	
+318-10	14052-14056	fino	_	_	_	fino	_	_	317-9	_	_	
+318-11	14057-14058	a	_	_	_	a	_	_	317-10	_	_	
+318-12	14059-14061	s~	_	_	_	s~	_	_	317-11	_	_	
+318-13	14062-14066	fino	_	_	_	fino	_	_	317-12	_	_	
+318-14	14067-14068	a	_	_	_	a	_	_	317-13	_	_	
+318-15	14069-14074	tardi	_	_	_	tardi	_	_	317-14	_	_	
+318-16	14075-14077	la	_	_	_	la	_	_	317-15	_	_	
+318-17	14078-14085	mattina	_	_	_	mattina	_	_	317-16	_	_	
+318-18	14086-14088	ho	_	_	_	ho	_	_	317-17	_	_	
+318-19	14089-14096	bisogno	_	_	_	bisogno	_	_	317-18	_	_	
+318-20	14097-14099	di	_	_	_	di	_	_	317-19	_	_	
+318-21	14100-14102	un	_	_	_	un	_	_	317-20	_	_	
+318-22	14103-14113	cuscinetto	_	_	_	cuscinetto	_	_	317-21	_	_	
+
+#Text=mamma mia
+319-1	14114-14119	mamma	BC[15]	_	_	mamma	_	BOR009	318-0	_	_	
+319-2	14120-14123	mia	BC[15]	_	_	mia	_	_	318-1	_	_	
+
+#Text=mh
+320-1	14124-14126	mh	BC	_	_	mh	_	BOI057	319-0	_	_	
+
+#Text=ma infatti io poi volevo chiederti anche del perché ho visto s~ siete molto impegnati per il biografilm giusto
+321-1	14127-14129	ma	_	_	_	ma	_	BOR009	320-0	_	_	
+321-2	14130-14137	infatti	_	_	_	infatti	_	_	320-1	_	_	
+321-3	14138-14140	io	_	_	_	io	_	_	320-2	_	_	
+321-4	14141-14144	poi	_	_	_	poi	_	_	320-3	_	_	
+321-5	14145-14151	volevo	_	_	_	volevo	_	_	320-4	_	_	
+321-6	14152-14161	chiederti	_	_	_	chiederti	_	_	320-5	_	_	
+321-7	14162-14167	anche	_	_	_	anche	_	_	320-6	_	_	
+321-8	14168-14171	del	_	_	_	del	_	_	320-7	_	_	
+321-9	14172-14178	perché	_	_	_	>perché	_	_	320-8	_	_	
+321-10	14179-14181	ho	_	_	_	ho	_	_	320-9	_	_	
+321-11	14182-14187	visto	_	_	_	visto<	_	_	320-10	_	_	
+321-12	14188-14190	s~	_	_	_	s~	_	_	320-11	_	_	
+321-13	14191-14196	siete	_	_	_	siete	_	_	320-12	_	_	
+321-14	14197-14202	molto	_	_	_	molto:	_	_	320-13	_	_	
+321-15	14203-14212	impegnati	_	_	_	impegnati	_	_	320-14	_	_	
+321-16	14213-14216	per	_	_	_	per	_	_	320-15	_	_	
+321-17	14217-14219	il	_	_	_	il	_	_	320-16	_	_	
+321-18	14220-14230	biografilm	_	_	_	biografilm	_	_	320-17	_	_	
+321-19	14231-14237	giusto	_	_	Rising	giusto?	_	_	320-18	_	_	
+
+#Text=mhmh
+322-1	14238-14242	mhmh	BC	_	_	mhmh	_	BOI057	321-0	_	_	
+
+#Text=che io in realtà [PAUSE] non so esattamente bene cosa si~ cioè l' avevo sentito poi ora ho visto anche i mh i manifesti
+323-1	14243-14246	che	_	_	_	che	_	BOR009	322-0	_	_	
+323-2	14247-14249	io	_	_	_	io	_	_	322-1	_	_	
+323-3	14250-14252	in	_	_	_	in	_	_	322-2	_	_	
+323-4	14253-14259	realtà	_	_	_	realtà	_	_	322-3	_	_	
+323-5	14260-14267	[PAUSE]	_	_	_	(.)	_	_	322-4	_	_	
+323-6	14268-14271	non	_	_	_	non	_	_	322-5	_	_	
+323-7	14272-14274	so	_	_	_	so	_	_	322-6	_	_	
+323-8	14275-14286	esattamente	_	_	_	esattamente	_	_	322-7	_	_	
+323-9	14287-14291	bene	_	_	_	bene	_	_	322-8	_	_	
+323-10	14292-14296	cosa	_	_	_	cosa	_	_	322-9	_	_	
+323-11	14297-14300	si~	_	_	_	si~	_	_	322-10	_	_	
+323-12	14301-14305	cioè	_	_	_	cioè	_	_	322-11	_	_	
+323-13	14306-14308	l'	_	_	_	l'	_	_	322-12	_	_	
+323-14	14309-14314	avevo	_	_	_	avevo	_	_	322-13	_	_	
+323-15	14315-14322	sentito	_	_	_	sentito	_	_	322-14	_	_	
+323-16	14323-14326	poi	_	_	_	poi	_	_	322-15	_	_	
+323-17	14327-14330	ora	_	_	_	ora	_	_	322-16	_	_	
+323-18	14331-14333	ho	_	_	_	ho	_	_	322-17	_	_	
+323-19	14334-14339	visto	_	_	_	visto	_	_	322-18	_	_	
+323-20	14340-14345	anche	_	_	_	anche	_	_	322-19	_	_	
+323-21	14346-14347	i	_	_	_	i:	_	_	322-20	_	_	
+323-22	14348-14350	mh	_	FP	_	m:h	_	_	322-21	_	_	
+323-23	14351-14352	i	_	_	_	\[i	_	_	322-22	*->74-1	*[74]	
+323-24	14353-14362	manifesti	_	_	_	manifesti:\]	_	_	322-23	*->74-2	*[74]	
+
+#Text=i manifesti
+324-1	14363-14364	i	BC[16]	_	_	\[i	_	BOI057	323-0	*->74-3	*[74]	
+324-2	14365-14374	manifesti	BC[16]	_	Rising	manifesti\]?	_	_	323-1	*->74-4	*[74]	
+
+#Text=forse mh in via indipendenza li ho visti
+325-1	14375-14380	forse	_	_	_	forse	_	BOR009	324-0	_	_	
+325-2	14381-14383	mh	_	FP	_	m:h	_	_	324-1	_	_	
+325-3	14384-14386	in	_	_	_	in	_	_	324-2	_	_	
+325-4	14387-14390	via	_	_	_	via	_	_	324-3	_	_	
+325-5	14391-14403	indipendenza	_	_	_	indipendenza	_	_	324-4	_	_	
+325-6	14404-14406	li	_	_	_	li	_	_	324-5	_	_	
+325-7	14407-14409	ho	_	_	_	ho	_	_	324-6	_	_	
+325-8	14410-14415	visti	_	_	Rising	visti?	_	_	324-7	_	_	
+
+#Text=che appunto per quello sapevo le date
+326-1	14416-14419	che	_	_	_	che	_	BOR009	325-0	_	_	
+326-2	14420-14427	appunto	_	_	_	appunto	_	_	325-1	_	_	
+326-3	14428-14431	per	_	_	_	per	_	_	325-2	_	_	
+326-4	14432-14438	quello	_	_	_	quello	_	_	325-3	_	_	
+326-5	14439-14445	sapevo	_	_	_	sapevo	_	_	325-4	_	_	
+326-6	14446-14448	le	_	_	_	le	_	_	325-5	_	_	
+326-7	14449-14453	date	_	_	_	date	_	_	325-6	_	_	
+
+#Text=mh
+327-1	14454-14456	mh	BC	_	_	mh	_	BOI057	326-0	_	_	
+
+#Text=però ((ride)) sostanzialmente immagino che sia un festival cinematografico di biografie
+328-1	14457-14461	però	_	_	_	però	_	BOR009	327-0	_	_	
+328-2	14462-14470	((ride))	_	_	_	((ride))	_	_	327-1	_	_	
+328-3	14471-14486	sostanzialmente	_	_	_	sostanzialmente	_	_	327-2	_	_	
+328-4	14487-14495	immagino	_	_	_	immagino	_	_	327-3	_	_	
+328-5	14496-14499	che	_	_	_	che	_	_	327-4	_	_	
+328-6	14500-14503	sia	_	_	_	sia	_	_	327-5	_	_	
+328-7	14504-14506	un	_	_	_	un	_	_	327-6	_	_	
+328-8	14507-14515	festival	_	_	_	festival	_	_	327-7	_	_	
+328-9	14516-14531	cinematografico	_	_	_	cinematografico	_	_	327-8	_	_	
+328-10	14532-14534	di	_	_	_	di	_	_	327-9	_	_	
+328-11	14535-14544	biografie	_	_	Rising	biografie?	_	_	327-10	_	_	
+
+#Text=sì
+329-1	14545-14547	sì	_	_	_	sì	_	BOI057	328-0	_	_	
+
+#Text=eh io proprio
+330-1	14548-14550	eh	BC	_	_	eh	_	BOR009	329-0	_	_	
+330-2	14551-14553	io	_	_	_	io	_	_	329-1	_	_	
+330-3	14554-14561	proprio	_	_	_	propr\[io:\]	_	_	329-2	_	_	
+330-3.1	14559-14561	io	_	_	_	_	_	_	_	*->72-1	*[72]	
+
+#Text=è cominciato così
+331-1	14562-14563	è	_	_	_	\[è\]	_	BOI057	330-0	*->72-1|*->72-2	*[72]|*[72]	
+331-2	14564-14574	cominciato	_	_	_	cominciato	_	_	330-1	_	_	
+331-2.1	14564-14566	co	_	_	_	_	_	_	_	*->72-1	*[72]	
+331-3	14575-14579	così	_	_	_	così	_	_	330-2	_	_	
+
+#Text=mh
+332-1	14580-14582	mh	_	FP	_	m:h	_	BOI057	331-0	_	_	
+
+#Text=ed è stato una secondo me è stato un' intuizione quando ancora di documentari se ne parlava pochissimo è stata un' intuizione grandiosa
+333-1	14583-14585	ed	_	_	_	ed	_	BOI057	332-0	_	_	
+333-2	14586-14587	è	_	_	_	è	_	_	332-1	_	_	
+333-3	14588-14593	stato	_	_	_	stato	_	_	332-2	_	_	
+333-4	14594-14597	una	_	_	_	una:	_	_	332-3	_	_	
+333-5	14598-14605	secondo	_	_	_	secondo	_	_	332-4	_	_	
+333-6	14606-14608	me	_	_	_	me	_	_	332-5	_	_	
+333-7	14609-14610	è	_	_	_	è	_	_	332-6	_	_	
+333-8	14611-14616	stato	_	_	_	stato	_	_	332-7	_	_	
+333-9	14617-14620	un'	_	_	_	un'	_	_	332-8	_	_	
+333-10	14621-14631	intuizione	_	_	_	intuizione	_	_	332-9	_	_	
+333-11	14632-14638	quando	_	_	_	quando	_	_	332-10	_	_	
+333-12	14639-14645	ancora	_	_	_	ancora	_	_	332-11	_	_	
+333-13	14646-14648	di	_	_	_	di	_	_	332-12	_	_	
+333-14	14649-14660	documentari	_	_	_	documentari:	_	_	332-13	_	_	
+333-15	14661-14663	se	_	_	_	se	_	_	332-14	_	_	
+333-16	14664-14666	ne	_	_	_	ne	_	_	332-15	_	_	
+333-17	14667-14674	parlava	_	_	_	parlava	_	_	332-16	_	_	
+333-18	14675-14685	pochissimo	_	_	_	pochissimo	_	_	332-17	_	_	
+333-19	14686-14687	è	_	_	_	è	_	_	332-18	_	_	
+333-20	14688-14693	stata	_	_	_	stata	_	_	332-19	_	_	
+333-21	14694-14697	un'	_	_	_	un'	_	_	332-20	_	_	
+333-22	14698-14708	intuizione	_	_	_	intuizione	_	_	332-21	_	_	
+333-23	14709-14718	grandiosa	_	_	_	grandiosa	_	_	332-22	_	_	
+
+#Text=perché se ci fai ca~ no non so se sono io deviata
+334-1	14719-14725	perché	_	_	_	perché	_	BOI057	333-0	_	_	
+334-2	14726-14728	se	_	_	_	se	_	_	333-1	_	_	
+334-3	14729-14731	ci	_	_	_	ci	_	_	333-2	_	_	
+334-4	14732-14735	fai	_	_	_	fai	_	_	333-3	_	_	
+334-5	14736-14739	ca~	_	_	_	ca~	_	_	333-4	_	_	
+334-6	14740-14742	no	_	_	_	no	_	_	333-5	_	_	
+334-7	14743-14746	non	_	_	_	non	_	_	333-6	_	_	
+334-8	14747-14749	so	_	_	_	so	_	_	333-7	_	_	
+334-9	14750-14752	se	_	_	_	se	_	_	333-8	_	_	
+334-10	14753-14757	sono	_	_	_	sono	_	_	333-9	_	_	
+334-11	14758-14760	io	_	_	_	io	_	_	333-10	_	_	
+334-12	14761-14768	deviata	_	_	_	deviata	_	_	333-11	_	_	
+
+#Text=((ride))
+335-1	14769-14777	((ride))	_	_	_	((ride))	_	BOR009	334-0	_	_	
+
+#Text=però tu pensa ai film che si fanno adesso
+336-1	14778-14782	però	_	_	_	però	_	BOI057	335-0	_	_	
+336-2	14783-14785	tu	_	_	_	tu	_	_	335-1	_	_	
+336-3	14786-14791	pensa	_	_	_	pensa	_	_	335-2	_	_	
+336-4	14792-14794	ai	_	_	_	ai	_	_	335-3	_	_	
+336-5	14795-14799	film	_	_	_	film	_	_	335-4	_	_	
+336-6	14800-14803	che	_	_	_	che	_	_	335-5	_	_	
+336-7	14804-14806	si	_	_	_	si	_	_	335-6	_	_	
+336-8	14807-14812	fanno	_	_	_	fanno	_	_	335-7	_	_	
+336-9	14813-14819	adesso	_	_	_	adesso	_	_	335-8	_	_	
+
+#Text=ce ne son tantissimi di biografici
+337-1	14820-14822	ce	_	_	_	ce	_	BOI057	336-0	_	_	
+337-2	14823-14825	ne	_	_	_	ne	_	_	336-1	_	_	
+337-3	14826-14829	son	_	_	_	son	_	_	336-2	_	_	
+337-4	14830-14840	tantissimi	_	_	_	tantissimi	_	_	336-3	_	_	
+337-5	14841-14843	di	_	_	_	di	_	_	336-4	_	_	
+337-6	14844-14854	biografici	_	_	_	biografici	_	_	336-5	_	_	
+
+#Text=sì
+338-1	14855-14857	sì	BC	_	_	sì	_	BOR009	337-0	_	_	
+
+#Text=che raccontano la vita di quest~ ma anche i film di cassetta intendo non so
+339-1	14858-14861	che	_	_	_	che	_	BOI057	338-0	_	_	
+339-2	14862-14872	raccontano	_	_	_	raccontano	_	_	338-1	_	_	
+339-3	14873-14875	la	_	_	_	la	_	_	338-2	_	_	
+339-4	14876-14880	vita	_	_	_	vita	_	_	338-3	_	_	
+339-5	14881-14883	di	_	_	_	di	_	_	338-4	_	_	
+339-6	14884-14890	quest~	_	_	_	quest~	_	_	338-5	_	_	
+339-7	14891-14893	ma	_	_	_	ma	_	_	338-6	_	_	
+339-8	14894-14899	anche	_	_	_	anche	_	_	338-7	_	_	
+339-9	14900-14901	i	_	_	_	i	_	_	338-8	_	_	
+339-10	14902-14906	film	_	_	_	film	_	_	338-9	_	_	
+339-11	14907-14909	di	_	_	_	di	_	_	338-10	_	_	
+339-12	14910-14918	cassetta	_	_	_	cassetta	_	_	338-11	_	_	
+339-13	14919-14926	intendo	_	_	_	intendo	_	_	338-12	_	_	
+339-14	14927-14930	non	_	_	_	non	_	_	338-13	_	_	
+339-15	14931-14933	so	_	_	_	so	_	_	338-14	_	_	
+
+#Text=pensa ai film che raccontano la vita di moro di andreotti oppure quel caso politico
+340-1	14934-14939	pensa	_	_	_	pensa	_	BOI057	339-0	_	_	
+340-2	14940-14942	ai	_	_	_	ai	_	_	339-1	_	_	
+340-3	14943-14947	film	_	_	_	film	_	_	339-2	_	_	
+340-4	14948-14951	che	_	_	_	che	_	_	339-3	_	_	
+340-5	14952-14962	raccontano	_	_	_	raccontano	_	_	339-4	_	_	
+340-6	14963-14965	la	_	_	_	la	_	_	339-5	_	_	
+340-7	14966-14970	vita	_	_	_	vita	_	_	339-6	_	_	
+340-8	14971-14973	di	_	_	_	di	_	_	339-7	_	_	
+340-9	14974-14978	moro	_	_	WeaklyRising	moro,	_	_	339-8	_	_	
+340-10	14979-14981	di	_	_	_	di	_	_	339-9	_	_	
+340-11	14982-14991	andreotti	_	_	WeaklyRising	andreotti,	_	_	339-10	_	_	
+340-12	14992-14998	oppure	_	_	_	\[oppure	_	_	339-11	*->68-1	*[68]	
+340-13	14999-15003	quel	_	_	_	quel	_	_	339-12	*->68-2	*[68]	
+340-14	15004-15008	caso	_	_	_	caso\]	_	_	339-13	*->68-3	*[68]	
+340-15	15009-15017	politico	_	_	_	politico	_	_	339-14	_	_	
+
+#Text=sì sì sì
+341-1	15018-15020	sì	BC[17]	_	_	\[sì	_	BOR009	340-0	*->68-4	*[68]	
+341-2	15021-15023	sì	BC[17]	_	_	sì	_	_	340-1	*->68-5	*[68]	
+341-3	15024-15026	sì	BC[17]	_	_	sì\]	_	_	340-2	*->68-6	*[68]	
+
+#Text=quello già rientra quelli già rientrano nella biografia
+342-1	15027-15033	quello	_	_	_	quello	_	BOI057	341-0	_	_	
+342-2	15034-15037	già	_	_	_	già	_	_	341-1	_	_	
+342-3	15038-15045	rientra	_	_	_	rientra	_	_	341-2	_	_	
+342-4	15046-15052	quelli	_	_	_	quelli	_	_	341-3	_	_	
+342-5	15053-15056	già	_	_	_	già	_	_	341-4	_	_	
+342-6	15057-15066	rientrano	_	_	_	rientrano	_	_	341-5	_	_	
+342-7	15067-15072	nella	_	_	_	nella	_	_	341-6	_	_	
+342-8	15073-15082	biografia	_	_	_	biografia	_	_	341-7	_	_	
+
+#Text=quindi non t~ n~ è diviso a metà tra
+343-1	15083-15089	quindi	_	_	_	quindi	_	BOI057	342-0	_	_	
+343-2	15090-15093	non	_	_	_	non	_	_	342-1	_	_	
+343-3	15094-15096	t~	_	_	_	t~	_	_	342-2	_	_	
+343-4	15097-15099	n~	_	_	_	n~	_	_	342-3	_	_	
+343-5	15100-15101	è	_	_	_	è	_	_	342-4	_	_	
+343-6	15102-15108	diviso	_	_	_	diviso	_	_	342-5	_	_	
+343-7	15109-15110	a	_	_	_	a	_	_	342-6	_	_	
+343-8	15111-15115	metà	_	_	_	metà	_	_	342-7	_	_	
+343-9	15116-15119	tra	_	_	_	tra	_	_	342-8	_	_	
+
+#Text=però dunque diciamo dovrebbere essere un film un f~ un festival di film indipendenti
+344-1	15120-15124	però	_	_	_	però	_	BOI057	343-0	_	_	
+344-2	15125-15131	dunque	_	_	_	dunque	_	_	343-1	_	_	
+344-3	15132-15139	diciamo	_	_	_	diciamo	_	_	343-2	_	_	
+344-4	15140-15150	dovrebbere	_	_	_	dovrebbere	_	_	343-3	_	_	
+344-5	15151-15157	essere	_	_	_	essere	_	_	343-4	_	_	
+344-6	15158-15160	un	_	_	_	un	SR[28]	_	343-5	_	_	
+344-7	15161-15165	film	_	_	_	film	SR[28]	_	343-6	_	_	
+344-8	15166-15168	un	_	_	_	un	SR[28]	_	343-7	_	_	
+344-9	15169-15171	f~	_	_	_	f~	SR[28]	_	343-8	_	_	
+344-10	15172-15174	un	_	_	_	un	SR[28]	_	343-9	_	_	
+344-11	15175-15183	festival	_	_	_	festival	SR[28]	_	343-10	_	_	
+344-12	15184-15186	di	_	_	_	di	_	_	343-11	_	_	
+344-13	15187-15191	film	_	_	_	film	_	_	343-12	_	_	
+344-14	15192-15204	indipendenti	_	_	_	indipendenti	_	_	343-13	_	_	
+
+#Text=ah okay
+345-1	15205-15207	ah	BC[18]	_	_	ah	_	BOR009	344-0	_	_	
+345-2	15208-15212	okay	BC[18]	_	_	okay	_	_	344-1	_	_	
+
+#Text=per cui non prendere quelli di cassetta a parte magari qualcuno
+346-1	15213-15216	per	_	_	_	per	_	BOI057	345-0	_	_	
+346-2	15217-15220	cui	_	_	_	cui	_	_	345-1	_	_	
+346-3	15221-15224	non	_	_	_	non	_	_	345-2	_	_	
+346-4	15225-15233	prendere	_	_	_	prendere	_	_	345-3	_	_	
+346-5	15234-15240	quelli	_	_	_	quelli	_	_	345-4	_	_	
+346-6	15241-15243	di	_	_	_	di	_	_	345-5	_	_	
+346-7	15244-15252	cassetta	_	_	_	cassetta:	_	_	345-6	_	_	
+346-8	15253-15254	a	_	_	_	a	_	_	345-7	_	_	
+346-9	15255-15260	parte	_	_	_	parte	_	_	345-8	_	_	
+346-10	15261-15267	magari	_	_	_	magari	_	_	345-9	_	_	
+346-11	15268-15276	qualcuno	_	_	_	qualcuno	_	_	345-10	_	_	
+
+#Text=eh mh raccoglie c' è un un comitato un team di scouting che va in giro per il mondo per i festival
+347-1	15277-15279	eh	_	FP[25]	_	eh	_	BOI057	346-0	_	_	
+347-2	15280-15282	mh	_	FP[25]	_	m:h	_	_	346-1	_	_	
+347-3	15283-15292	raccoglie	_	_	_	raccoglie	_	_	346-2	_	_	
+347-4	15293-15295	c'	_	_	_	c'	_	_	346-3	_	_	
+347-5	15296-15297	è	_	_	_	è	_	_	346-4	_	_	
+347-6	15298-15300	un	_	_	_	un	_	_	346-5	_	_	
+347-7	15301-15303	un	_	_	_	un	_	_	346-6	_	_	
+347-8	15304-15312	comitato	_	_	_	comitato	_	_	346-7	_	_	
+347-9	15313-15315	un	_	_	_	un	_	_	346-8	_	_	
+347-10	15316-15320	team	_	_	_	team	_	_	346-9	_	_	
+347-11	15321-15323	di	_	_	_	di	_	_	346-10	_	_	
+347-12	15324-15332	scouting	_	_	_	scouting	_	_	346-11	_	_	
+347-13	15333-15336	che	_	_	_	che	_	_	346-12	_	_	
+347-14	15337-15339	va	_	_	_	va	_	_	346-13	_	_	
+347-15	15340-15342	in	_	_	_	in	_	_	346-14	_	_	
+347-16	15343-15347	giro	_	_	_	giro	_	_	346-15	_	_	
+347-17	15348-15351	per	_	_	_	per	_	_	346-16	_	_	
+347-18	15352-15354	il	_	_	_	il	_	_	346-17	_	_	
+347-19	15355-15360	mondo	_	_	_	mondo	_	_	346-18	_	_	
+347-20	15361-15364	per	_	_	_	per	_	_	346-19	_	_	
+347-21	15365-15366	i	_	_	_	i	_	_	346-20	_	_	
+347-22	15367-15375	festival	_	_	_	festival	_	_	346-21	_	_	
+
+#Text=e raccoglie film più o meno da tutto il mondo
+348-1	15376-15377	e	_	_	_	e	_	BOI057	347-0	_	_	
+348-2	15378-15387	raccoglie	_	_	_	raccoglie	_	_	347-1	_	_	
+348-3	15388-15392	film	_	_	_	film	_	_	347-2	_	_	
+348-4	15393-15396	più	_	_	_	più	_	_	347-3	_	_	
+348-5	15397-15398	o	_	_	_	o	_	_	347-4	_	_	
+348-6	15399-15403	meno	_	_	_	meno	_	_	347-5	_	_	
+348-7	15404-15406	da	_	_	_	da	_	_	347-6	_	_	
+348-8	15407-15412	tutto	_	_	_	tutto	_	_	347-7	_	_	
+348-9	15413-15415	il	_	_	_	il	_	_	347-8	_	_	
+348-10	15416-15421	mondo	_	_	WeaklyRising	mondo,	_	_	347-9	_	_	
+
+#Text=che abbiano a che fare con le storie di persone
+349-1	15422-15425	che	_	_	_	che	_	BOI057	348-0	_	_	
+349-2	15426-15433	abbiano	_	_	_	abbiano	_	_	348-1	_	_	
+349-3	15434-15435	a	_	_	_	a	_	_	348-2	_	_	
+349-4	15436-15439	che	_	_	_	che	_	_	348-3	_	_	
+349-5	15440-15444	fare	_	_	_	fare	_	_	348-4	_	_	
+349-6	15445-15448	con	_	_	_	con	_	_	348-5	_	_	
+349-7	15449-15451	le	_	_	_	le	_	_	348-6	_	_	
+349-8	15452-15458	storie	_	_	_	storie:	_	_	348-7	_	_	
+349-9	15459-15461	di	_	_	_	di	_	_	348-8	_	_	
+349-10	15462-15469	persone	_	_	_	persone	_	_	348-9	_	_	
+
+#Text=o se non persone viv~ reali [PAUSE] o se non di persone reali s~ c' è qualcosa di fiction
+350-1	15470-15471	o	_	_	_	o	_	BOI057	349-0	_	_	
+350-2	15472-15474	se	_	_	_	se	_	_	349-1	_	_	
+350-3	15475-15478	non	_	_	_	non	_	_	349-2	_	_	
+350-4	15479-15486	persone	_	_	_	persone	SR[29]	_	349-3	_	_	
+350-5	15487-15491	viv~	_	_	_	viv~	SR[29]	_	349-4	_	_	
+350-6	15492-15497	reali	_	_	_	reali	SR[29]	_	349-5	_	_	
+350-7	15498-15505	[PAUSE]	_	_	_	(.)	_	_	349-6	_	_	
+350-8	15506-15507	o	_	_	_	o	_	_	349-7	_	_	
+350-9	15508-15510	se	_	_	_	se	_	_	349-8	_	_	
+350-10	15511-15514	non	_	_	_	non	_	_	349-9	_	_	
+350-11	15515-15517	di	_	_	_	di	_	_	349-10	_	_	
+350-12	15518-15525	persone	_	_	_	persone	_	_	349-11	_	_	
+350-13	15526-15531	reali	_	_	_	reali	_	_	349-12	_	_	
+350-14	15532-15534	s~	_	_	_	s~	_	_	349-13	_	_	
+350-15	15535-15537	c'	_	_	_	c'	_	_	349-14	_	_	
+350-16	15538-15539	è	_	_	_	è	_	_	349-15	_	_	
+350-17	15540-15548	qualcosa	_	_	_	qualcosa	_	_	349-16	_	_	
+350-18	15549-15551	di	_	_	_	di	_	_	349-17	_	_	
+350-19	15552-15559	fiction	_	_	_	fiction	_	_	349-18	_	_	
+
+#Text=proprio due o tre film che però inquadrano dei problemi
+351-1	15560-15567	proprio	_	_	_	proprio	_	BOI057	350-0	_	_	
+351-2	15568-15571	due	_	_	_	due	_	_	350-1	_	_	
+351-3	15572-15573	o	_	_	_	o	_	_	350-2	_	_	
+351-4	15574-15577	tre	_	_	_	tre	_	_	350-3	_	_	
+351-5	15578-15582	film	_	_	_	film	_	_	350-4	_	_	
+351-6	15583-15586	che	_	_	_	che	_	_	350-5	_	_	
+351-7	15587-15591	però	_	_	_	però	_	_	350-6	_	_	
+351-8	15592-15602	inquadrano	_	_	_	inquadrano	_	_	350-7	_	_	
+351-9	15603-15606	dei	_	_	_	dei	_	_	350-8	_	_	
+351-10	15607-15615	problemi	_	_	_	problemi	_	_	350-9	_	_	
+
+#Text=okay
+352-1	15616-15620	okay	BC	_	_	\[okay\]	_	BOR009	351-0	*->71-1	*[71]	
+
+#Text=reali
+353-1	15621-15626	reali	_	_	_	\[reali\]	_	BOI057	352-0	*->71-2	*[71]	
+
+#Text=quindi
+354-1	15627-15633	quindi	_	_	_	quindi	_	BOI057	353-0	_	_	
+
+#Text=più o meno sì
+355-1	15634-15637	più	_	_	_	più	_	BOI057	354-0	_	_	
+355-2	15638-15639	o	_	_	_	o	_	_	354-1	_	_	
+355-3	15640-15644	meno	_	_	_	meno:	_	_	354-2	_	_	
+355-4	15645-15647	sì	_	_	_	sì	_	_	354-3	_	_	
+
+#Text=eh mh senza confondere la biografia col documentario perché ci sono sia i documentari le bio document~ le docu
+356-1	15648-15650	eh	_	FP[26]	_	eh	_	BOI057	355-0	_	_	
+356-2	15651-15653	mh	_	FP[26]	_	m:h	_	_	355-1	_	_	
+356-3	15654-15659	senza	_	_	_	senza	_	_	355-2	_	_	
+356-4	15660-15670	confondere	_	_	_	confondere	_	_	355-3	_	_	
+356-5	15671-15673	la	_	_	_	la	_	_	355-4	_	_	
+356-6	15674-15683	biografia	_	_	_	biografia	_	_	355-5	_	_	
+356-7	15684-15687	col	_	_	_	col	_	_	355-6	_	_	
+356-8	15688-15700	documentario	_	_	_	documentario	_	_	355-7	_	_	
+356-9	15701-15707	perché	_	_	_	perché	_	_	355-8	_	_	
+356-10	15708-15710	ci	_	_	_	ci	_	_	355-9	_	_	
+356-11	15711-15715	sono	_	_	_	sono	_	_	355-10	_	_	
+356-12	15716-15719	sia	_	_	_	sia	_	_	355-11	_	_	
+356-13	15720-15721	i	_	_	_	i	_	_	355-12	_	_	
+356-14	15722-15733	documentari	_	_	WeaklyRising	documentari,	_	_	355-13	_	_	
+356-15	15734-15736	le	_	_	_	le	SR[30]	_	355-14	_	_	
+356-16	15737-15740	bio	_	_	_	bio	SR[30]	_	355-15	_	_	
+356-17	15741-15750	document~	_	_	_	document~	SR[30]	_	355-16	_	_	
+356-18	15751-15753	le	_	_	_	le	SR[30]	_	355-17	_	_	
+356-19	15754-15758	docu	_	_	_	docu	SR[30]	_	355-18	_	_	
+
+#Text=no vabbè le documentari che fanno biografie
+357-1	15759-15761	no	_	_	_	no	SR[30]	BOI057	356-0	_	_	
+357-2	15762-15767	vabbè	_	_	_	vabbè	SR[30]	_	356-1	_	_	
+357-3	15768-15770	le	_	_	_	le	SR[30]	_	356-2	_	_	
+357-4	15771-15782	documentari	_	_	_	documentari	SR[30]	_	356-3	_	_	
+357-5	15783-15786	che	_	_	_	che	_	_	356-4	_	_	
+357-6	15787-15792	fanno	_	_	_	fanno	_	_	356-5	_	_	
+357-7	15793-15802	biografie	_	_	_	biografie	_	_	356-6	_	_	
+
+#Text=che i film proprio
+358-1	15803-15806	che	_	_	_	che	_	BOI057	357-0	_	_	
+358-2	15807-15808	i	_	_	_	i	_	_	357-1	_	_	
+358-3	15809-15813	film	_	_	_	film	_	_	357-2	_	_	
+358-4	15814-15821	proprio	_	_	_	proprio	_	_	357-3	_	_	
+
+#Text=quindi non so ci saran dei film su paul gro~ no daivd grossmann
+359-1	15822-15828	quindi	_	_	_	quindi	_	BOI057	358-0	_	_	
+359-2	15829-15832	non	_	_	_	non	_	_	358-1	_	_	
+359-3	15833-15835	so	_	_	_	so	_	_	358-2	_	_	
+359-4	15836-15838	ci	_	_	_	ci	_	_	358-3	_	_	
+359-5	15839-15844	saran	_	_	_	saran	_	_	358-4	_	_	
+359-6	15845-15848	dei	_	_	_	dei	_	_	358-5	_	_	
+359-7	15849-15853	film	_	_	_	film	_	_	358-6	_	_	
+359-8	15854-15856	su	_	_	_	su:	_	_	358-7	_	_	
+359-9	15857-15861	paul	_	_	_	paul	SR[31]	_	358-8	_	_	
+359-10	15862-15866	gro~	_	_	_	gro~	SR[31]	_	358-9	_	_	
+359-11	15867-15869	no	_	_	_	no	SR[31]	_	358-10	_	_	
+359-12	15870-15875	daivd	_	_	_	daivd	SR[31]	_	358-11	_	_	
+359-13	15876-15885	grossmann	_	_	_	grossmann	SR[31]	_	358-12	_	_	
+
+#Text=paul auster o joyce carol oates che s~ mh una sezione dedicata agli scrittori
+360-1	15886-15890	paul	_	_	_	paul	_	BOI057	359-0	_	_	
+360-2	15891-15897	auster	_	_	_	auster	_	_	359-1	_	_	
+360-3	15898-15899	o	_	_	_	o	_	_	359-2	_	_	
+360-4	15900-15905	joyce	_	_	_	joyce	_	_	359-3	_	_	
+360-5	15906-15911	carol	_	_	_	carol	_	_	359-4	_	_	
+360-6	15912-15917	oates	_	_	_	oates	_	_	359-5	_	_	
+360-7	15918-15921	che	_	_	_	che	_	_	359-6	_	_	
+360-8	15922-15924	s~	_	_	_	s~	_	_	359-7	_	_	
+360-9	15925-15927	mh	_	FP	_	m:h	_	_	359-8	_	_	
+360-10	15928-15931	una	_	_	_	una	_	_	359-9	_	_	
+360-11	15932-15939	sezione	_	_	_	sezione	_	_	359-10	_	_	
+360-12	15940-15948	dedicata	_	_	_	dedicata:	_	_	359-11	_	_	
+360-13	15949-15953	agli	_	_	_	agli	_	_	359-12	_	_	
+360-14	15954-15963	scrittori	_	_	_	scrittori	_	_	359-13	_	_	
+
+#Text=okay
+361-1	15964-15968	okay	BC	_	_	okay	_	BOR009	360-0	_	_	
+
+#Text=oppure i wu ming hanno prodotto non so se tu non sei di bologna forse non li conosci
+362-1	15969-15975	oppure	_	_	_	oppure	_	BOI057	361-0	_	_	
+362-2	15976-15977	i	_	_	_	i	_	_	361-1	_	_	
+362-3	15978-15980	wu	_	_	_	wu	_	_	361-2	_	_	
+362-4	15981-15985	ming	_	_	_	ming	_	_	361-3	_	_	
+362-5	15986-15991	hanno	_	_	_	hanno	_	_	361-4	_	_	
+362-6	15992-16000	prodotto	_	_	_	prodotto	_	_	361-5	_	_	
+362-7	16001-16004	non	_	_	_	non	_	_	361-6	_	_	
+362-8	16005-16007	so	_	_	_	so	_	_	361-7	_	_	
+362-9	16008-16010	se	_	_	_	se	_	_	361-8	_	_	
+362-10	16011-16013	tu	_	_	_	tu	_	_	361-9	_	_	
+362-11	16014-16017	non	_	_	_	non	_	_	361-10	_	_	
+362-12	16018-16021	sei	_	_	_	sei	_	_	361-11	_	_	
+362-13	16022-16024	di	_	_	_	di	_	_	361-12	_	_	
+362-14	16025-16032	bologna	_	_	_	bologna	_	_	361-13	_	_	
+362-15	16033-16038	forse	_	_	_	\[forse\]	_	_	361-14	*->33-1	*[33]	
+362-16	16039-16042	non	_	_	_	non	_	_	361-15	_	_	
+362-17	16043-16045	li	_	_	_	li	_	_	361-16	_	_	
+362-18	16046-16053	conosci	_	_	_	conosci	_	_	361-17	_	_	
+
+#Text=no
+363-1	16054-16056	no	_	_	_	\[no\]	_	BOR009	362-0	*->33-2	*[33]	
+
+#Text=i wu ming sono un collettivo bolognese di scrittori
+364-1	16057-16058	i	_	_	_	i	_	BOI057	363-0	_	_	
+364-2	16059-16061	wu	_	_	_	wu	_	_	363-1	_	_	
+364-3	16062-16066	ming	_	_	_	ming	_	_	363-2	_	_	
+364-4	16067-16071	sono	_	_	_	sono	_	_	363-3	_	_	
+364-5	16072-16074	un	_	_	_	un	_	_	363-4	_	_	
+364-6	16075-16085	collettivo	_	_	_	collettivo	_	_	363-5	_	_	
+364-7	16086-16095	bolognese	_	_	_	bolognese	_	_	363-6	_	_	
+364-8	16096-16098	di	_	_	_	di	_	_	363-7	_	_	
+364-9	16099-16108	scrittori	_	_	_	scrittori:	_	_	363-8	_	_	
+
+#Text=hanno più o meno la mia età eh hanno cominciato negli anni ai primi novanta
+365-1	16109-16114	hanno	_	_	_	hanno	_	BOI057	364-0	_	_	
+365-2	16115-16118	più	_	_	_	più	_	_	364-1	_	_	
+365-3	16119-16120	o	_	_	_	o	_	_	364-2	_	_	
+365-4	16121-16125	meno	_	_	_	meno	_	_	364-3	_	_	
+365-5	16126-16128	la	_	_	_	la	_	_	364-4	_	_	
+365-6	16129-16132	mia	_	_	_	mia	_	_	364-5	_	_	
+365-7	16133-16136	età	_	_	_	età	_	_	364-6	_	_	
+365-8	16137-16139	eh	_	FP	_	e:h	_	_	364-7	_	_	
+365-9	16140-16145	hanno	_	_	_	hanno	_	_	364-8	_	_	
+365-10	16146-16156	cominciato	_	_	_	cominciato	_	_	364-9	_	_	
+365-11	16157-16162	negli	_	_	_	negli	_	_	364-10	_	_	
+365-12	16163-16167	anni	_	_	_	anni:	_	_	364-11	_	_	
+365-13	16168-16170	ai	_	_	_	ai	_	_	364-12	_	_	
+365-14	16171-16176	primi	_	_	_	primi	_	_	364-13	_	_	
+365-15	16177-16184	novanta	_	_	_	novanta	_	_	364-14	_	_	
+
+#Text=a bologna sono un' istituzione e i wu ming si sono fatti un film dove raccontano le loro cose
+366-1	16185-16186	a	_	_	_	a	_	BOI057	365-0	_	_	
+366-2	16187-16194	bologna	_	_	_	bologna	_	_	365-1	_	_	
+366-3	16195-16199	sono	_	_	_	sono	_	_	365-2	_	_	
+366-4	16200-16203	un'	_	_	_	un'	_	_	365-3	_	_	
+366-5	16204-16215	istituzione	_	_	_	istituzione	_	_	365-4	_	_	
+366-6	16216-16217	e	_	_	_	e	_	_	365-5	_	_	
+366-7	16218-16219	i	_	_	_	i	_	_	365-6	_	_	
+366-8	16220-16222	wu	_	_	_	wu	_	_	365-7	_	_	
+366-9	16223-16227	ming	_	_	_	ming	_	_	365-8	_	_	
+366-10	16228-16230	si	_	_	_	si	_	_	365-9	_	_	
+366-11	16231-16235	sono	_	_	_	sono	_	_	365-10	_	_	
+366-12	16236-16241	fatti	_	_	_	fatti	_	_	365-11	_	_	
+366-13	16242-16244	un	_	_	_	un	_	_	365-12	_	_	
+366-14	16245-16249	film	_	_	_	film	_	_	365-13	_	_	
+366-15	16250-16254	dove	_	_	_	dove	_	_	365-14	_	_	
+366-16	16255-16265	raccontano	_	_	_	raccontano	_	_	365-15	_	_	
+366-17	16266-16268	le	_	_	_	le	_	_	365-16	_	_	
+366-18	16269-16273	loro	_	_	_	loro	_	_	365-17	_	_	
+366-19	16274-16278	cose	_	_	_	cose	_	_	365-18	_	_	
+
+#Text=quindi ci sono novanta film in programma
+367-1	16279-16285	quindi	_	_	_	quindi:	_	BOI057	366-0	_	_	
+367-2	16286-16288	ci	_	_	_	ci	_	_	366-1	_	_	
+367-3	16289-16293	sono	_	_	_	sono	_	_	366-2	_	_	
+367-4	16294-16301	novanta	_	_	_	novanta	_	_	366-3	_	_	
+367-5	16302-16306	film	_	_	_	film	_	_	366-4	_	_	
+367-6	16307-16309	in	_	_	_	in	_	_	366-5	_	_	
+367-7	16310-16319	programma	_	_	_	programma	_	_	366-6	_	_	
+
+#Text=eh
+368-1	16320-16322	eh	_	FP	_	eh	_	BOI057	367-0	_	_	
+
+#Text=in dieci giorni
+369-1	16323-16325	in	_	_	Rising	in?	_	BOR009	368-0	_	_	
+369-2	16326-16331	dieci	_	_	_	dieci	_	_	368-1	_	_	
+369-3	16332-16338	giorni	_	_	Rising	giorni?	_	_	368-2	_	_	
+
+#Text=((ride))
+370-1	16339-16347	((ride))	_	_	_	((ride))	_	BOR009	369-0	_	_	
+
+#Text=no è una cosa
+371-1	16348-16350	no	_	_	_	no	_	BOI057	370-0	_	_	
+371-2	16351-16352	è	_	_	_	è	_	_	370-1	_	_	
+371-3	16353-16356	una	_	_	_	una	_	_	370-2	_	_	
+371-4	16357-16361	cosa	_	_	_	cosa	_	_	370-3	_	_	
+
+#Text=si comincia con un film dedicato a lady diana a lady d
+372-1	16362-16364	si	_	_	_	si	_	BOI057	371-0	_	_	
+372-2	16365-16373	comincia	_	_	_	comincia	_	_	371-1	_	_	
+372-3	16374-16377	con	_	_	_	con	_	_	371-2	_	_	
+372-4	16378-16380	un	_	_	_	un	_	_	371-3	_	_	
+372-5	16381-16385	film	_	_	_	film	_	_	371-4	_	_	
+372-6	16386-16394	dedicato	_	_	_	dedicato	_	_	371-5	_	_	
+372-7	16395-16396	a	_	_	_	a	_	_	371-6	_	_	
+372-8	16397-16401	lady	_	_	_	lady	_	_	371-7	_	_	
+372-9	16402-16407	diana	_	_	_	diana	_	_	371-8	_	_	
+372-10	16408-16409	a	_	_	_	a	_	_	371-9	_	_	
+372-11	16410-16414	lady	_	_	_	lady	_	_	371-10	_	_	
+372-12	16415-16416	d	_	_	_	d	_	_	371-11	_	_	
+
+#Text=mh
+373-1	16417-16419	mh	BC	_	_	m:h	_	BOR009	372-0	_	_	
+
+#Text=che è particolare perché è fatto solo con immagini di repertorio
+374-1	16420-16423	che	_	_	_	che	_	BOI057	373-0	_	_	
+374-2	16424-16425	è	_	_	_	è	_	_	373-1	_	_	
+374-3	16426-16437	particolare	_	_	_	particolare	_	_	373-2	_	_	
+374-4	16438-16444	perché	_	_	_	perché	_	_	373-3	_	_	
+374-5	16445-16446	è	_	_	_	è	_	_	373-4	_	_	
+374-6	16447-16452	fatto	_	_	_	fatto	_	_	373-5	_	_	
+374-7	16453-16457	solo	_	_	_	solo	_	_	373-6	_	_	
+374-8	16458-16461	con	_	_	_	con	_	_	373-7	_	_	
+374-9	16462-16470	immagini	_	_	_	immagini	_	_	373-8	_	_	
+374-10	16471-16473	di	_	_	_	di	_	_	373-9	_	_	
+374-11	16474-16484	repertorio	_	_	_	repertorio	_	_	373-10	_	_	
+
+#Text=non è un in effetti io sono molto curiosa di vederlo spero di riuscire a vederlo
+375-1	16485-16488	non	_	_	_	non	_	BOI057	374-0	_	_	
+375-2	16489-16490	è	_	_	_	è	_	_	374-1	_	_	
+375-3	16491-16493	un	_	_	_	un:	_	_	374-2	_	_	
+375-4	16494-16496	in	_	_	_	in	_	_	374-3	_	_	
+375-5	16497-16504	effetti	_	_	_	effetti	_	_	374-4	_	_	
+375-6	16505-16507	io	_	_	_	io	_	_	374-5	_	_	
+375-7	16508-16512	sono	_	_	_	sono	_	_	374-6	_	_	
+375-8	16513-16518	molto	_	_	_	molto	_	_	374-7	_	_	
+375-9	16519-16526	curiosa	_	_	_	curiosa	_	_	374-8	_	_	
+375-10	16527-16529	di	_	_	_	di	_	_	374-9	_	_	
+375-11	16530-16537	vederlo	_	_	_	vederlo	_	_	374-10	_	_	
+375-12	16538-16543	spero	_	_	_	spero	_	_	374-11	_	_	
+375-13	16544-16546	di	_	_	_	di	_	_	374-12	_	_	
+375-14	16547-16555	riuscire	_	_	_	riuscire	_	_	374-13	_	_	
+375-15	16556-16557	a	_	_	_	a	_	_	374-14	_	_	
+375-16	16558-16565	vederlo	_	_	_	vederlo	_	_	374-15	_	_	
+
+#Text=ecco voi che siete nell' organizzazione comunque non avete accesso preliminare
+376-1	16566-16570	ecco	_	_	_	ecco	_	BOR009	375-0	_	_	
+376-2	16571-16574	voi	_	_	_	voi	_	_	375-1	_	_	
+376-3	16575-16578	che	_	_	_	che	_	_	375-2	_	_	
+376-4	16579-16584	siete	_	_	_	siete	_	_	375-3	_	_	
+376-5	16585-16590	nell'	_	_	_	nell'	_	_	375-4	_	_	
+376-6	16591-16605	organizzazione	_	_	_	organizzazione	_	_	375-5	_	_	
+376-7	16606-16614	comunque	_	_	_	comunque	_	_	375-6	_	_	
+376-8	16615-16618	non	_	_	_	non	_	_	375-7	_	_	
+376-9	16619-16624	avete	_	_	_	avete	_	_	375-8	_	_	
+376-10	16625-16632	accesso	_	_	_	accesso:	_	_	375-9	_	_	
+376-11	16633-16644	preliminare	_	_	Rising	preliminare?	_	_	375-10	_	_	
+
+#Text=preliminare intendi poter vedere i film prima
+377-1	16645-16656	preliminare	_	_	_	preliminare	_	BOI057	376-0	_	_	
+377-2	16657-16664	intendi	_	_	_	intendi	_	_	376-1	_	_	
+377-3	16665-16670	poter	_	_	_	poter	_	_	376-2	_	_	
+377-4	16671-16677	vedere	_	_	_	vedere	_	_	376-3	_	_	
+377-5	16678-16679	i	_	_	_	\[i	_	_	376-4	*->52-1	*[52]	
+377-6	16680-16684	film	_	_	_	film	_	_	376-5	*->52-2	*[52]	
+377-7	16685-16690	prima	_	_	Rising	prima\]?	_	_	376-6	*->52-3	*[52]	
+
+#Text=esatto
+378-1	16691-16697	esatto	_	_	_	\[esatto\]	_	BOR009	377-0	*->52-4	*[52]	
+
+#Text=no
+379-1	16698-16700	no	_	_	_	no	_	BOI057	378-0	_	_	
+
+#Text=ah
+380-1	16701-16703	ah	BC	_	_	\[a:h\]	_	BOR009	379-0	*->43-1	*[43]	
+
+#Text=è è una roba
+381-1	16704-16705	è	_	_	_	\[è	_	BOI057	380-0	*->43-2	*[43]	
+381-2	16706-16707	è	_	_	_	è	_	_	380-1	*->43-3	*[43]	
+381-3	16708-16711	una	_	_	_	una\]	_	_	380-2	*->43-4	*[43]	
+381-4	16712-16716	roba	_	_	_	roba	_	_	380-3	_	_	

@@ -1,0 +1,4222 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Backchannel|backchannel_value
+#T_SP=webanno.custom.Fillers|fillers_values
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Repair|repair_value
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=okay
+1-1	0-4	okay	_	_	_	okay	_	PKP125	0-0	_	_	
+
+#Text=ma daniele l' ha fatta la vaccinazione stamattina
+2-1	5-7	ma	_	_	_	ma	_	PKP125	1-0	_	_	
+2-2	8-15	daniele	_	_	_	daniele	_	_	1-1	_	_	
+2-3	16-18	l'	_	_	_	l'	_	_	1-2	_	_	
+2-4	19-21	ha	_	_	_	ha	_	_	1-3	_	_	
+2-5	22-27	fatta	_	_	_	fatta	_	_	1-4	_	_	
+2-6	28-30	la	_	_	_	la	_	_	1-5	_	_	
+2-7	31-43	vaccinazione	_	_	_	vaccinazione	_	_	1-6	_	_	
+2-8	44-54	stamattina	_	_	Rising	stamat\[tina\]?	_	_	1-7	_	_	
+2-8.1	49-54	ttina	_	_	_	_	_	_	_	*->2-1	*[2]	
+
+#Text=mhmh
+3-1	55-59	mhmh	_	_	_	m:hm:h	_	PKP130	2-0	*->2-1	*[2]	
+
+#Text=ma che vac~ zione era
+4-1	60-62	ma	_	_	_	ma	_	PKP125	3-0	_	_	
+4-2	63-66	che	_	_	_	che	_	_	3-1	_	_	
+4-3	67-71	vac~	_	_	_	vac~	_	_	3-2	_	_	
+4-4	72-77	zione	_	_	_	zione	_	_	3-3	_	_	
+4-5	78-81	era	_	_	Rising	era?	_	_	3-4	_	_	
+
+#Text=eh una delle vaccinazioni
+5-1	82-84	eh	_	FP	_	e:h	_	PKP130	4-0	_	_	
+5-2	85-88	una	_	_	_	una	_	_	4-1	_	_	
+5-3	89-94	delle	_	_	_	delle	_	_	4-2	_	_	
+5-4	95-107	vaccinazioni	_	_	_	vaccinazioni	_	_	4-3	_	_	
+
+#Text=la trivalente mi pare
+6-1	108-110	la	_	_	_	la	_	PKP130	5-0	_	_	
+6-2	111-121	trivalente	_	_	_	trivalente	_	_	5-1	_	_	
+6-3	122-124	mi	_	_	_	mi	_	_	5-2	_	_	
+6-4	125-129	pare	_	_	_	pare	_	_	5-3	_	_	
+
+#Text=la trivalente
+7-1	130-132	la	_	_	_	la	_	PKP125	6-0	_	_	
+7-2	133-143	trivalente	_	_	Rising	trivalente?	_	_	6-1	_	_	
+
+#Text=mh
+8-1	144-146	mh	_	_	_	m:h	_	PKP130	7-0	_	_	
+
+#Text=e già si fa
+9-1	147-148	e	_	_	_	e	_	PKP125	8-0	_	_	
+9-2	149-152	già	_	_	_	già	_	_	8-1	_	_	
+9-3	153-155	si	_	_	_	si	_	_	8-2	_	_	
+9-4	156-158	fa	_	_	Rising	fa?	_	_	8-3	_	_	
+
+#Text=ja na capisc a scrittur ra dottoress
+10-1	159-161	ja	_	_	_	#ja	_	PKP130	9-0	_	_	
+10-2	162-164	na	_	_	_	na	_	_	9-1	_	_	
+10-3	165-171	capisc	_	_	_	capisc	_	_	9-2	_	_	
+10-4	172-173	a	_	_	_	a	_	_	9-3	_	_	
+10-5	174-182	scrittur	_	_	_	scrittur	_	_	9-4	_	_	
+10-6	183-185	ra	_	_	_	ra	_	_	9-5	_	_	
+10-7	186-195	dottoress	_	_	_	dottoress	_	_	9-6	_	_	
+
+#Text=hai avviato
+11-1	196-199	hai	_	_	_	>hai	_	PKP130	10-0	_	_	
+11-2	200-207	avviato	_	_	Rising	avviato<?	_	_	10-1	_	_	
+
+#Text=sì
+12-1	208-210	sì	_	_	_	sì	_	PKP125	11-0	_	_	
+
+#Text=ah hai cominciato
+13-1	211-213	ah	BC	_	_	AH	_	PKP130	12-0	_	_	
+13-2	214-217	hai	_	_	_	hai	_	_	12-1	_	_	
+13-3	218-228	cominciato	_	_	_	cominciATO	_	_	12-2	_	_	
+
+#Text=mhmh
+14-1	229-233	mhmh	BC	_	_	mhmh	_	PKP125	13-0	_	_	
+
+#Text=niente la~ è il secondo richiamo la prima l' ha fatta il quindici giugno [PAUSE] quando pianse tutta la giornata
+15-1	234-240	niente	_	_	_	nie:nte	_	PKP130	14-0	_	_	
+15-2	241-244	la~	_	_	_	la:~	SR[16]	_	14-1	_	_	
+15-3	245-246	è	_	_	_	è	SR[16]	_	14-2	_	_	
+15-4	247-249	il	_	_	_	il	SR[16]	_	14-3	_	_	
+15-5	250-257	secondo	_	_	_	secondo	SR[16]	_	14-4	_	_	
+15-6	258-266	richiamo	_	_	_	richiamo	SR[16]	_	14-5	_	_	
+15-7	267-269	la	_	_	_	la	_	_	14-6	_	_	
+15-8	270-275	prima	_	_	_	prima	_	_	14-7	_	_	
+15-9	276-278	l'	_	_	_	l'	_	_	14-8	_	_	
+15-10	279-281	ha	_	_	_	ha	_	_	14-9	_	_	
+15-11	282-287	fatta	_	_	_	fatta	_	_	14-10	_	_	
+15-12	288-290	il	_	_	_	il	_	_	14-11	_	_	
+15-13	291-299	quindici	_	_	_	quindici	_	_	14-12	_	_	
+15-14	300-306	giugno	_	_	_	giugno	_	_	14-13	_	_	
+15-15	307-314	[PAUSE]	_	_	_	(.)	_	_	14-14	_	_	
+15-16	315-321	quando	_	_	_	quando	_	_	14-15	_	_	
+15-17	322-328	pianse	_	_	_	pianse	_	_	14-16	_	_	
+15-18	329-334	tutta	_	_	_	tutta	_	_	14-17	_	_	
+15-19	335-337	la	_	_	_	la	_	_	14-18	_	_	
+15-20	338-346	giornata	_	_	_	giornata	_	_	14-19	_	_	
+
+#Text=mh
+16-1	347-349	mh	BC	_	_	m:h	_	PKP125	15-0	_	_	
+
+#Text=quando si fece il bubbone
+17-1	350-356	quando	_	_	_	quando	_	PKP125	16-0	_	_	
+17-2	357-359	si	_	_	_	si	_	_	16-1	_	_	
+17-3	360-364	fece	_	_	_	fece	_	_	16-2	_	_	
+17-4	365-367	il	_	_	_	il	_	_	16-3	_	_	
+17-5	368-375	bubbone	_	_	Rising	bubbone?	_	_	16-4	_	_	
+
+#Text=esatto
+18-1	376-382	esatto	BC	_	_	E:SATTO	_	PKP130	17-0	_	_	
+
+#Text=però quelle ne erano due addirittura
+19-1	383-387	però	_	_	_	però	_	PKP130	18-0	_	_	
+19-2	388-394	quelle	_	_	_	quelle	_	_	18-1	_	_	
+19-3	395-397	ne	_	_	_	ne	_	_	18-2	_	_	
+19-4	398-403	erano	_	_	_	erano	_	_	18-3	_	_	
+19-5	404-407	due	_	_	_	due	_	_	18-4	_	_	
+19-6	408-419	addirittura	_	_	_	addirittura	_	_	18-5	_	_	
+
+#Text=mh
+20-1	420-422	mh	BC	_	_	mh	_	PKP125	19-0	_	_	
+
+#Text=poi ne ha fatto una il ventinove luglio
+21-1	423-426	poi	_	_	_	poi	_	PKP130	20-0	_	_	
+21-2	427-429	ne	_	_	_	ne	_	_	20-1	_	_	
+21-3	430-432	ha	_	_	_	ha	_	_	20-2	_	_	
+21-4	433-438	fatto	_	_	_	fatto	_	_	20-3	_	_	
+21-5	439-442	una	_	_	_	una	_	_	20-4	_	_	
+21-6	443-445	il	_	_	_	il	_	_	20-5	_	_	
+21-7	446-455	ventinove	_	_	_	ventinove	_	_	20-6	_	_	
+21-8	456-462	luglio	_	_	weakly\_rising	luglio,	_	_	20-7	_	_	
+
+#Text=e però non ha pianto cioe è stato molto tranquillo e poi questa mattina che era solo una
+22-1	463-464	e	_	_	_	e	_	PKP130	21-0	_	_	
+22-2	465-469	però	_	_	_	però	_	_	21-1	_	_	
+22-3	470-473	non	_	_	_	non	_	_	21-2	_	_	
+22-4	474-476	ha	_	_	_	ha	_	_	21-3	_	_	
+22-5	477-483	pianto	_	_	_	pianto	_	_	21-4	_	_	
+22-6	484-488	cioe	_	_	_	c(io)e	_	_	21-5	_	_	
+22-7	489-490	è	_	_	_	è	_	_	21-6	_	_	
+22-8	491-496	stato	_	_	_	stato	_	_	21-7	_	_	
+22-9	497-502	molto	_	_	_	molto	_	_	21-8	_	_	
+22-10	503-513	tranquillo	_	_	Falling	tranquillo.	_	_	21-9	_	_	
+22-11	514-515	e	_	_	_	e	_	_	21-10	_	_	
+22-12	516-519	poi	_	_	_	poi	_	_	21-11	_	_	
+22-13	520-526	questa	_	_	_	questa	_	_	21-12	_	_	
+22-14	527-534	mattina	_	_	_	mattina	_	_	21-13	_	_	
+22-15	535-538	che	_	_	_	che	_	_	21-14	_	_	
+22-16	539-542	era	_	_	_	era	_	_	21-15	_	_	
+22-17	543-547	solo	_	_	_	solo	_	_	21-16	_	_	
+22-18	548-551	una	_	_	_	una	_	_	21-17	_	_	
+
+#Text=poi direttamente a gennaio e il primo marzo dopo il compleanno
+23-1	552-555	poi	_	_	_	poi	_	PKP130	22-0	_	_	
+23-2	556-568	direttamente	_	_	_	direttamente	_	_	22-1	_	_	
+23-3	569-570	a	_	_	_	a	_	_	22-2	_	_	
+23-4	571-578	gennaio	_	_	weakly\_rising	gennaio,	_	_	22-3	_	_	
+23-5	579-580	e	_	_	_	e	_	_	22-4	_	_	
+23-6	581-583	il	_	_	_	il	_	_	22-5	_	_	
+23-7	584-589	primo	_	_	_	primo	_	_	22-6	_	_	
+23-8	590-595	marzo	_	_	_	marzo	_	_	22-7	_	_	
+23-9	596-600	dopo	_	_	_	dopo	_	_	22-8	_	_	
+23-10	601-603	il	_	_	_	il	_	_	22-9	_	_	
+23-11	604-614	compleanno	_	_	_	compleanno	_	_	22-10	_	_	
+
+#Text=mh
+24-1	615-617	mh	BC	_	_	mh	_	PKP125	23-0	_	_	
+
+#Text=sfortunatamente [PAUSE] piange un po'
+25-1	618-633	sfortunatamente	_	_	_	sfortunatamente	_	PKP130	24-0	_	_	
+25-2	634-641	[PAUSE]	_	_	_	(.)	_	_	24-1	_	_	
+25-3	642-648	piange	_	_	_	piange	_	_	24-2	_	_	
+25-4	649-651	un	_	_	_	un	_	_	24-3	_	_	
+25-5	652-655	po'	_	_	_	po'	_	_	24-4	_	_	
+
+#Text=prima
+26-1	656-661	prima	_	_	_	>PRIMA<	_	PKP130	25-0	_	_	
+
+#Text=non piangeva neanche
+27-1	662-665	non	_	_	_	non	_	PKP130	26-0	_	_	
+27-2	666-674	piangeva	_	_	_	piangeva	_	_	26-1	_	_	
+27-3	675-682	neanche	_	_	_	neanche	_	_	26-2	_	_	
+
+#Text=ma quando gli fanno la siringa piange
+28-1	683-685	ma	_	_	_	ma	_	PKP125	27-0	_	_	
+28-2	686-692	quando	_	_	_	quando	_	_	27-1	_	_	
+28-3	693-696	gli	_	_	_	gli	_	_	27-2	_	_	
+28-4	697-702	fanno	_	_	_	fanno	_	_	27-3	_	_	
+28-5	703-705	la	_	_	_	la	_	_	27-4	_	_	
+28-6	706-713	siringa	_	_	_	siringa	_	_	27-5	_	_	
+28-7	714-720	piange	_	_	Rising	piange?	_	_	27-6	_	_	
+
+#Text=mh
+29-1	721-723	mh	_	_	_	M:H	_	PKP130	28-0	_	_	
+
+#Text=sì
+30-1	724-726	sì	_	_	Rising	sì?	_	PKP125	29-0	_	_	
+
+#Text=sì perché è colto di sorpresa all' improvviso pam
+31-1	727-729	sì	_	_	_	sì	_	PKP130	30-0	_	_	
+31-2	730-736	perché	_	_	_	perché	_	_	30-1	_	_	
+31-3	737-738	è	_	_	_	è	_	_	30-2	_	_	
+31-4	739-744	colto	_	_	_	colto	_	_	30-3	_	_	
+31-5	745-747	di	_	_	_	di	_	_	30-4	_	_	
+31-6	748-756	sorpresa	_	_	_	SORPRESA	_	_	30-5	_	_	
+31-7	757-761	all'	_	_	_	all'	_	_	30-6	_	_	
+31-8	762-772	improvviso	_	_	_	improvviso	_	_	30-7	_	_	
+31-9	773-776	pam	_	_	_	PA:M	_	_	30-8	_	_	
+
+#Text=però oggi c' era una dottoressa giovane più dolce
+32-1	777-781	però	_	_	_	>però<	_	PKP130	31-0	_	_	
+32-2	782-786	oggi	_	_	_	oggi	_	_	31-1	_	_	
+32-3	787-789	c'	_	_	_	c'	_	_	31-2	_	_	
+32-4	790-793	era	_	_	_	era	_	_	31-3	_	_	
+32-5	794-797	una	_	_	_	una	_	_	31-4	_	_	
+32-6	798-808	dottoressa	_	_	_	dottoressa	_	_	31-5	_	_	
+32-7	809-816	giovane	_	_	_	giovane	_	_	31-6	_	_	
+32-8	817-820	più	_	_	_	più	_	_	31-7	_	_	
+32-9	821-826	dolce	_	_	_	<dolce>	_	_	31-8	_	_	
+
+#Text=mh
+33-1	827-829	mh	BC	_	_	m:h	_	PKP125	32-0	_	_	
+
+#Text=ambé ti chiedono se ha avuto allergie se ha avuto febbre
+34-1	830-834	ambé	_	_	_	>ambé<	_	PKP130	33-0	_	_	
+34-2	835-837	ti	_	_	_	ti	_	_	33-1	_	_	
+34-3	838-846	chiedono	_	_	_	chiedono	_	_	33-2	_	_	
+34-4	847-849	se	_	_	_	se	_	_	33-3	_	_	
+34-5	850-852	ha	_	_	_	ha	_	_	33-4	_	_	
+34-6	853-858	avuto	_	_	_	avuto	_	_	33-5	_	_	
+34-7	859-867	allergie	_	_	_	allergie	_	_	33-6	_	_	
+34-8	868-870	se	_	_	_	se	_	_	33-7	_	_	
+34-9	871-873	ha	_	_	_	ha	_	_	33-8	_	_	
+34-10	874-879	avuto	_	_	_	avuto	_	_	33-9	_	_	
+34-11	880-886	febbre	_	_	Falling	febbre.	_	_	33-10	_	_	
+
+#Text=ma quello sulla gamba la fanno no
+35-1	887-889	ma	_	_	_	ma	_	PKP125	34-0	_	_	
+35-2	890-896	quello	_	_	_	quello	_	_	34-1	_	_	
+35-3	897-902	sulla	_	_	_	sulla	_	_	34-2	_	_	
+35-4	903-908	gamba	_	_	_	gamba	_	_	34-3	_	_	
+35-5	909-911	la	_	_	_	la	_	_	34-4	_	_	
+35-6	912-917	fanno	_	_	_	fanno	_	_	34-5	_	_	
+35-7	918-920	no	_	_	Rising	no?	_	_	34-6	_	_	
+
+#Text=mhmh
+36-1	921-925	mhmh	_	_	_	mhmh	_	PKP130	35-0	_	_	
+
+#Text=prima ti facevano tira~ [PAUSE] tenere le gambe ferme invece o~
+37-1	926-931	prima	_	_	_	prima	_	PKP130	36-0	_	_	
+37-2	932-934	ti	_	_	_	ti	_	_	36-1	_	_	
+37-3	935-943	facevano	_	_	_	facevano	_	_	36-2	_	_	
+37-4	944-949	tira~	_	_	_	tira~	SR[17]	_	36-3	_	_	
+37-5	950-957	[PAUSE]	_	_	_	(.)	SR[17]	_	36-4	_	_	
+37-6	958-964	tenere	_	_	_	tenere	SR[17]	_	36-5	_	_	
+37-7	965-967	le	_	_	_	le	_	_	36-6	_	_	
+37-8	968-973	gambe	_	_	_	gambe	_	_	36-7	_	_	
+37-9	974-979	ferme	_	_	_	ferme	_	_	36-8	_	_	
+37-10	980-986	invece	_	_	_	invece	_	_	36-9	_	_	
+37-11	987-989	o~	_	_	_	o~	_	_	36-10	_	_	
+
+#Text=oggi mi hanno detto
+38-1	990-994	oggi	_	_	_	oggi	_	PKP130	37-0	_	_	
+38-2	995-997	mi	_	_	_	mi	_	_	37-1	_	_	
+38-3	998-1003	hanno	_	_	_	hanno	_	_	37-2	_	_	
+38-4	1004-1009	detto	_	_	_	detto:	_	_	37-3	_	_	
+
+#Text=tenga le mani
+39-1	1010-1015	tenga	_	_	_	tenga	_	PKP130	38-0	_	_	
+39-2	1016-1018	le	_	_	_	LE	_	_	38-1	_	_	
+39-3	1019-1023	mani	_	_	weakly\_rising	MANI,	_	_	38-2	_	_	
+
+#Text=mh
+40-1	1024-1026	mh	BC	_	_	mh	_	PKP125	39-0	_	_	
+
+#Text=così lui guardava me
+41-1	1027-1031	così	_	_	_	così	_	PKP130	40-0	_	_	
+41-2	1032-1035	lui	_	_	_	lui	_	_	40-1	_	_	
+41-3	1036-1044	guardava	_	_	_	guardava	_	_	40-2	_	_	
+41-4	1045-1047	me	_	_	_	ME	_	_	40-3	_	_	
+
+#Text=capito
+42-1	1048-1054	capito	_	_	Rising	>capito<?	_	PKP130	41-0	_	_	
+
+#Text=è durato poco
+43-1	1055-1056	è	_	_	_	è	_	PKP130	42-0	_	_	
+43-2	1057-1063	durato	_	_	_	durato	_	_	42-1	_	_	
+43-3	1064-1068	poco	_	_	_	poco	_	_	42-2	_	_	
+
+#Text=ha pianto poco
+44-1	1069-1071	ha	_	_	_	ha	_	PKP130	43-0	_	_	
+44-2	1072-1078	pianto	_	_	_	pianto	_	_	43-1	_	_	
+44-3	1079-1083	poco	_	_	_	poco	_	_	43-2	_	_	
+
+#Text=mh
+45-1	1084-1086	mh	BC	_	_	mh	_	PKP125	44-0	_	_	
+
+#Text=mo vediamo oggi pomeriggio come va [PAUSE] mangiato tanto
+46-1	1087-1089	mo	_	_	_	mo	_	PKP130	45-0	_	_	
+46-2	1090-1097	vediamo	_	_	_	vediamo	_	_	45-1	_	_	
+46-3	1098-1102	oggi	_	_	_	oggi	_	_	45-2	_	_	
+46-4	1103-1113	pomeriggio	_	_	_	pomeriggio	_	_	45-3	_	_	
+46-5	1114-1118	come	_	_	_	come	_	_	45-4	_	_	
+46-6	1119-1121	va	_	_	_	va	_	_	45-5	_	_	
+46-7	1122-1129	[PAUSE]	_	_	_	(.)	_	_	45-6	_	_	
+46-8	1130-1138	mangiato	_	_	_	MANGIATO	_	_	45-7	_	_	
+46-9	1139-1144	tanto	_	_	_	TANTO	_	_	45-8	_	_	
+
+#Text=mangiato un barattolino e mezzo di frutta
+47-1	1145-1153	mangiato	_	_	_	mangiato	_	PKP130	46-0	_	_	
+47-2	1154-1156	un	_	_	_	un	_	_	46-1	_	_	
+47-3	1157-1168	barattolino	_	_	_	barattolino	_	_	46-2	_	_	
+47-4	1169-1170	e	_	_	_	e	_	_	46-3	_	_	
+47-5	1171-1176	mezzo	_	_	_	mezzo	_	_	46-4	_	_	
+47-6	1177-1179	di	_	_	_	di	_	_	46-5	_	_	
+47-7	1180-1186	frutta	_	_	_	FRUTTA	_	_	46-6	_	_	
+
+#Text=mo domani non te lo porti al matrimonio no
+48-1	1187-1189	mo	_	_	_	mo	_	PKP125	47-0	_	_	
+48-2	1190-1196	domani	_	_	_	domani	_	_	47-1	_	_	
+48-3	1197-1200	non	_	_	_	non	_	_	47-2	_	_	
+48-4	1201-1203	te	_	_	_	te	_	_	47-3	_	_	
+48-5	1204-1206	lo	_	_	_	lo	_	_	47-4	_	_	
+48-6	1207-1212	porti	_	_	_	porti	_	_	47-5	_	_	
+48-7	1213-1215	al	_	_	_	al	_	_	47-6	_	_	
+48-8	1216-1226	matrimonio	_	_	_	matrimonio	_	_	47-7	_	_	
+48-9	1227-1229	no	_	_	Rising	no?	_	_	47-8	_	_	
+
+#Text=eh no
+49-1	1230-1232	eh	_	_	_	eh	_	PKP130	48-0	_	_	
+49-2	1233-1235	no	_	_	_	n:o	_	_	48-1	_	_	
+
+#Text=va beh se fosse stato di mattina tanto quanto
+50-1	1236-1238	va	_	_	_	va	_	PKP130	49-0	_	_	
+50-2	1239-1242	beh	_	_	_	beh	_	_	49-1	_	_	
+50-3	1243-1245	se	_	_	_	se	_	_	49-2	_	_	
+50-4	1246-1251	fosse	_	_	_	fosse	_	_	49-3	_	_	
+50-5	1252-1257	stato	_	_	_	stato	_	_	49-4	_	_	
+50-6	1258-1260	di	_	_	_	di	_	_	49-5	_	_	
+50-7	1261-1268	mattina	_	_	_	mattina	_	_	49-6	_	_	
+50-8	1269-1274	tanto	_	_	_	tanto	_	_	49-7	_	_	
+50-9	1275-1281	quanto	_	_	_	quanto	_	_	49-8	_	_	
+
+#Text=ma alle cinque e mezza devo stare a villa di briano
+51-1	1282-1284	ma	_	_	_	ma	_	PKP130	50-0	_	_	
+51-2	1285-1289	alle	_	_	_	alle	_	_	50-1	_	_	
+51-3	1290-1296	cinque	_	_	_	cinque	_	_	50-2	_	_	
+51-4	1297-1298	e	_	_	_	e	_	_	50-3	_	_	
+51-5	1299-1304	mezza	_	_	_	mezza	_	_	50-4	_	_	
+51-6	1305-1309	devo	_	_	_	devo	_	_	50-5	_	_	
+51-7	1310-1315	stare	_	_	_	stare	_	_	50-6	_	_	
+51-8	1316-1317	a	_	_	_	a	_	_	50-7	_	_	
+51-9	1318-1323	villa	_	_	_	villa	_	_	50-8	_	_	
+51-10	1324-1326	di	_	_	_	di	_	_	50-9	_	_	
+51-11	1327-1333	briano	_	_	_	briano	_	_	50-10	_	_	
+
+#Text=poi devo andare a ruviano
+52-1	1334-1337	poi	_	_	_	POI	_	PKP130	51-0	_	_	
+52-2	1338-1342	devo	_	_	_	DEVO	_	_	51-1	_	_	
+52-3	1343-1349	andare	_	_	_	ANDARE	_	_	51-2	_	_	
+52-4	1350-1351	a	_	_	_	a	_	_	51-3	_	_	
+52-5	1352-1359	ruviano	_	_	_	ruviano	_	_	51-4	_	_	
+
+#Text=cioè
+53-1	1360-1364	cioè	_	_	_	c(io)è	_	PKP130	52-0	_	_	
+
+#Text=mo è lontanuccio eh [PAUSE] è un paese di montagna
+54-1	1365-1367	mo	_	_	_	mo	_	PKP130	53-0	_	_	
+54-2	1368-1369	è	_	_	_	è	_	_	53-1	_	_	
+54-3	1370-1381	lontanuccio	_	_	_	LONTANUCCIO	_	_	53-2	_	_	
+54-4	1382-1384	eh	_	_	_	EH	_	_	53-3	_	_	
+54-5	1385-1392	[PAUSE]	_	_	_	(.)	_	_	53-4	_	_	
+54-6	1393-1394	è	_	_	_	è	_	_	53-5	_	_	
+54-7	1395-1397	un	_	_	_	un	_	_	53-6	_	_	
+54-8	1398-1403	paese	_	_	_	paese	_	_	53-7	_	_	
+54-9	1404-1406	di	_	_	_	di	_	_	53-8	_	_	
+54-10	1407-1415	montagna	_	_	_	montagna	_	_	53-9	_	_	
+
+#Text=pensa che non ci sarà neanche il lancio del riso
+55-1	1416-1421	pensa	_	_	_	pensa	_	PKP130	54-0	_	_	
+55-2	1422-1425	che	_	_	_	che	_	_	54-1	_	_	
+55-3	1426-1429	non	_	_	_	non	_	_	54-2	_	_	
+55-4	1430-1432	ci	_	_	_	ci	_	_	54-3	_	_	
+55-5	1433-1437	sarà	_	_	_	sarà	_	_	54-4	_	_	
+55-6	1438-1445	neanche	_	_	_	neanche	_	_	54-5	_	_	
+55-7	1446-1448	il	_	_	_	il	_	_	54-6	_	_	
+55-8	1449-1455	lancio	_	_	_	lancio	_	_	54-7	_	_	
+55-9	1456-1459	del	_	_	_	del	_	_	54-8	_	_	
+55-10	1460-1464	riso	_	_	_	riso	_	_	54-9	_	_	
+
+#Text=((ride))
+56-1	1465-1473	((ride))	_	_	_	((ride))	_	PKP125	55-0	_	_	
+
+#Text=che matrimonio eh
+57-1	1474-1477	che	_	_	_	che	_	PKP130	56-0	_	_	
+57-2	1478-1488	matrimonio	_	_	_	matrimonio	_	_	56-1	_	_	
+57-3	1489-1491	eh	_	_	Rising	eh?	_	_	56-2	_	_	
+
+#Text=((ride))
+58-1	1492-1500	((ride))	_	_	_	((ride))	_	PKP130	57-0	_	_	
+
+#Text=ma per evitare che si diffonda il virus
+59-1	1501-1503	ma	_	_	_	ma	_	PKP125	58-0	_	_	
+59-2	1504-1507	per	_	_	_	per	_	_	58-1	_	_	
+59-3	1508-1515	evitare	_	_	_	evitare	_	_	58-2	_	_	
+59-4	1516-1519	che	_	_	_	che	_	_	58-3	_	_	
+59-5	1520-1522	si	_	_	_	\[si	_	_	58-4	*->55-1	*[55]	
+59-6	1523-1531	diffonda	_	_	_	dif\]fonda	_	_	58-5	_	_	
+59-6.1	1523-1526	dif	_	_	_	_	_	_	_	*->55-2	*[55]	
+59-7	1532-1534	il	_	_	_	IL	_	_	58-6	_	_	
+59-8	1535-1540	virus	_	_	Rising	VIRUS?	_	_	58-7	_	_	
+
+#Text=mh
+60-1	1541-1543	mh	BC	_	_	\[mh\]	_	PKP130	59-0	*->55-3	*[55]	
+
+#Text=non ho capito
+61-1	1544-1547	non	_	_	_	non	_	PKP125	60-0	_	_	
+61-2	1548-1550	ho	_	_	_	ho	_	_	60-1	_	_	
+61-3	1551-1557	capito	_	_	_	\[capito\]	_	_	60-2	*->35-1	*[35]	
+
+#Text=ah sì
+62-1	1558-1560	ah	_	_	_	\[ah	_	PKP130	61-0	*->35-2	*[35]	
+62-2	1561-1563	sì	_	_	_	sì\]	_	_	61-1	*->35-3	*[35]	
+
+#Text=perché non possono dare gli auguri agli sposi
+63-1	1564-1570	perché	_	_	_	perché	_	PKP130	62-0	_	_	
+63-2	1571-1574	non	_	_	_	non	_	_	62-1	_	_	
+63-3	1575-1582	possono	_	_	_	possono	_	_	62-2	_	_	
+63-4	1583-1587	dare	_	_	_	dare	_	_	62-3	_	_	
+63-5	1588-1591	gli	_	_	_	gli	_	_	62-4	_	_	
+63-6	1592-1598	auguri	_	_	_	auguri	_	_	62-5	_	_	
+63-7	1599-1603	agli	_	_	_	agli	_	_	62-6	_	_	
+63-8	1604-1609	sposi	_	_	_	sposi	_	_	62-7	_	_	
+
+#Text=ma quelli ci sono stati un sacco di casi di mh
+64-1	1610-1612	ma	_	_	_	ma	_	PKP125	63-0	_	_	
+64-2	1613-1619	quelli	_	_	_	quelli	_	_	63-1	_	_	
+64-3	1620-1622	ci	_	_	_	ci	_	_	63-2	_	_	
+64-4	1623-1627	sono	_	_	_	sono	_	_	63-3	_	_	
+64-5	1628-1633	stati	_	_	_	stati	_	_	63-4	_	_	
+64-6	1634-1636	un	_	_	_	un	_	_	63-5	_	_	
+64-7	1637-1642	sacco	_	_	_	sacco	_	_	63-6	_	_	
+64-8	1643-1645	di	_	_	_	di	_	_	63-7	_	_	
+64-9	1646-1650	casi	_	_	_	casi	_	_	63-8	_	_	
+64-10	1651-1653	di	_	_	_	di:	_	_	63-9	_	_	
+64-11	1654-1656	mh	_	_	_	mh	_	_	63-10	_	_	
+
+#Text=matrimoni rovinati da
+65-1	1657-1666	matrimoni	_	_	_	matrimoni	_	PKP125	64-0	_	_	
+65-2	1667-1675	rovinati	_	_	_	rovinati	_	_	64-1	_	_	
+65-3	1676-1678	da	_	_	_	da::	_	_	64-2	_	_	
+
+#Text=a villa di briano quattro
+66-1	1679-1680	a	_	_	_	a	_	PKP130	65-0	_	_	
+66-2	1681-1686	villa	_	_	_	villa	_	_	65-1	_	_	
+66-3	1687-1689	di	_	_	_	di	_	_	65-2	_	_	
+66-4	1690-1696	briano	_	_	_	briano	_	_	65-3	_	_	
+66-5	1697-1704	quattro	_	_	Falling	quattro.	_	_	65-4	_	_	
+
+#Text=infatti federica secondo me doveva rinviare tutto all' anno prossimo
+67-1	1705-1712	infatti	_	_	_	infatti	_	PKP130	66-0	_	_	
+67-2	1713-1721	federica	_	_	_	federica	_	_	66-1	_	_	
+67-3	1722-1729	secondo	_	_	_	secondo	_	_	66-2	_	_	
+67-4	1730-1732	me	_	_	_	me	_	_	66-3	_	_	
+67-5	1733-1739	doveva	_	_	_	doveva	_	_	66-4	_	_	
+67-6	1740-1748	rinviare	_	_	_	rinviare	_	_	66-5	_	_	
+67-7	1749-1754	tutto	_	_	_	\[tutto\]	_	_	66-6	*->90-1	*[90]	
+67-8	1755-1759	all'	_	_	_	all'	_	_	66-7	_	_	
+67-9	1760-1764	anno	_	_	_	anno	_	_	66-8	_	_	
+67-10	1765-1773	prossimo	_	_	_	prossimo	_	_	66-9	_	_	
+
+#Text=eh
+68-1	1774-1776	eh	BC	_	_	\[eh\]	_	PKP125	67-0	*->90-2	*[90]	
+
+#Text=ma infatti perché marce'
+69-1	1777-1779	ma	_	_	_	ma	_	PKP125	68-0	_	_	
+69-2	1780-1787	infatti	_	_	_	infatti	_	_	68-1	_	_	
+69-3	1788-1794	perché	_	_	_	perché	_	_	68-2	_	_	
+69-4	1795-1801	marce'	_	_	_	marce'	_	_	68-3	_	_	
+
+#Text=già aveva prenotato tutto
+70-1	1802-1805	già	_	_	_	già	_	PKP125	69-0	_	_	
+70-2	1806-1811	aveva	_	_	_	aveva	_	_	69-1	_	_	
+70-3	1812-1821	prenotato	_	_	_	prenotato	_	_	69-2	_	_	
+70-4	1822-1827	tutto	_	_	Rising	tutto?	_	_	69-3	_	_	
+
+#Text=aveva tutto pronto
+71-1	1828-1833	aveva	_	_	_	aveva	_	PKP125	70-0	_	_	
+71-2	1834-1839	tutto	_	_	_	tutto	_	_	70-1	_	_	
+71-3	1840-1846	pronto	_	_	Rising	\[pronto\]?	_	_	70-2	*->105-1	*[105]	
+
+#Text=no aveva prenotato ma sai quanti sposi hanno rinviato
+72-1	1847-1849	no	_	_	_	\[NO	_	PKP130	71-0	*->105-2	*[105]	
+72-2	1850-1855	aveva	_	_	_	AVEVA\]	_	_	71-1	*->105-3	*[105]	
+72-3	1856-1865	prenotato	_	_	_	PRENOTATO	_	_	71-2	_	_	
+72-4	1866-1868	ma	_	_	_	ma	_	_	71-3	_	_	
+72-5	1869-1872	sai	_	_	_	sai	_	_	71-4	_	_	
+72-6	1873-1879	quanti	_	_	_	quanti	_	_	71-5	_	_	
+72-7	1880-1885	sposi	_	_	_	sposi	_	_	71-6	_	_	
+72-8	1886-1891	hanno	_	_	_	hanno	_	_	71-7	_	_	
+72-9	1892-1900	rinviato	_	_	Rising	RINVIATO?	_	_	71-8	_	_	
+
+#Text=eh
+73-1	1901-1903	eh	BC	_	_	°eh°	_	PKP125	72-0	_	_	
+
+#Text=una
+74-1	1904-1907	una	_	_	_	una:	_	PKP130	73-0	_	_	
+
+#Text=una ragazza che ha lavorato con me a quarto incinta all' ottavo mese
+75-1	1908-1911	una	_	_	_	una	_	PKP130	74-0	_	_	
+75-2	1912-1919	ragazza	_	_	_	ragazza	_	_	74-1	_	_	
+75-3	1920-1923	che	_	_	_	che	_	_	74-2	_	_	
+75-4	1924-1926	ha	_	_	_	ha	_	_	74-3	_	_	
+75-5	1927-1935	lavorato	_	_	_	lavorato	_	_	74-4	_	_	
+75-6	1936-1939	con	_	_	_	con	_	_	74-5	_	_	
+75-7	1940-1942	me	_	_	_	me	_	_	74-6	_	_	
+75-8	1943-1944	a	_	_	_	a	_	_	74-7	_	_	
+75-9	1945-1951	quarto	_	_	_	quarto	_	_	74-8	_	_	
+75-10	1952-1959	incinta	_	_	_	incinta	_	_	74-9	_	_	
+75-11	1960-1964	all'	_	_	_	all'	_	_	74-10	_	_	
+75-12	1965-1971	ottavo	_	_	_	ottavo	_	_	74-11	_	_	
+75-13	1972-1976	mese	_	_	_	mese	_	_	74-12	_	_	
+
+#Text=il dieci mh il dieci agosto doveva sposarsi
+76-1	1977-1979	il	_	_	_	il	_	PKP130	75-0	_	_	
+76-2	1980-1985	dieci	_	_	_	dieci:	_	_	75-1	_	_	
+76-3	1986-1988	mh	_	FP	_	m:h	_	_	75-2	_	_	
+76-4	1989-1991	il	_	_	_	il	_	_	75-3	_	_	
+76-5	1992-1997	dieci	_	_	_	dieci	_	_	75-4	_	_	
+76-6	1998-2004	agosto	_	_	_	agosto	_	_	75-5	_	_	
+76-7	2005-2011	doveva	_	_	_	doveva	_	_	75-6	_	_	
+76-8	2012-2020	sposarsi	_	_	Falling	sposarsi.	_	_	75-7	_	_	
+
+#Text=mh
+77-1	2021-2023	mh	BC	_	_	mh	_	PKP125	76-0	_	_	
+
+#Text=e praticamente mh ha fatto una festa
+78-1	2024-2025	e	_	_	_	e	_	PKP130	77-0	_	_	
+78-2	2026-2038	praticamente	_	_	_	praticamente:	_	_	77-1	_	_	
+78-3	2039-2041	mh	_	FP	_	m::h	_	_	77-2	_	_	
+78-4	2042-2044	ha	_	_	_	ha	_	_	77-3	_	_	
+78-5	2045-2050	fatto	_	_	_	fatto	_	_	77-4	_	_	
+78-6	2051-2054	una	_	_	_	una	_	_	77-5	_	_	
+78-7	2055-2060	festa	_	_	_	festa	_	_	77-6	_	_	
+
+#Text=però soltanto la sua famiglia lei non con l' abito bianco cioè un abito rosa [PAUSE] anche perché ha questo pancione comunque grande l' ottavo mese
+79-1	2061-2065	però	_	_	_	però	_	PKP130	78-0	_	_	
+79-2	2066-2074	soltanto	_	_	_	soltanto	_	_	78-1	_	_	
+79-3	2075-2077	la	_	_	_	la	_	_	78-2	_	_	
+79-4	2078-2081	sua	_	_	_	sua	_	_	78-3	_	_	
+79-5	2082-2090	famiglia	_	_	_	famiglia	_	_	78-4	_	_	
+79-6	2091-2094	lei	_	_	_	lei	_	_	78-5	_	_	
+79-7	2095-2098	non	_	_	_	non	_	_	78-6	_	_	
+79-8	2099-2102	con	_	_	_	con	_	_	78-7	_	_	
+79-9	2103-2105	l'	_	_	_	l'	_	_	78-8	_	_	
+79-10	2106-2111	abito	_	_	_	abito	_	_	78-9	_	_	
+79-11	2112-2118	bianco	_	_	_	bianco	_	_	78-10	_	_	
+79-12	2119-2123	cioè	_	_	_	cioè	_	_	78-11	_	_	
+79-13	2124-2126	un	_	_	_	un	_	_	78-12	_	_	
+79-14	2127-2132	abito	_	_	_	abito	_	_	78-13	_	_	
+79-15	2133-2137	rosa	_	_	_	rosa	_	_	78-14	_	_	
+79-16	2138-2145	[PAUSE]	_	_	_	(.)	_	_	78-15	_	_	
+79-17	2146-2151	anche	_	_	_	>anche	_	_	78-16	_	_	
+79-18	2152-2158	perché	_	_	_	perché<	_	_	78-17	_	_	
+79-19	2159-2161	ha	_	_	_	ha	_	_	78-18	_	_	
+79-20	2162-2168	questo	_	_	_	questo	_	_	78-19	_	_	
+79-21	2169-2177	pancione	_	_	_	pancione	_	_	78-20	_	_	
+79-22	2178-2186	comunque	_	_	_	comunque	_	_	78-21	_	_	
+79-23	2187-2193	grande	_	_	_	grande	_	_	78-22	_	_	
+79-24	2194-2196	l'	_	_	_	l'	_	_	78-23	_	_	
+79-25	2197-2203	ottavo	_	_	_	ottavo	_	_	78-24	_	_	
+79-26	2204-2208	mese	_	_	_	mese:	_	_	78-25	_	_	
+
+#Text=cioè
+80-1	2209-2213	cioè	_	_	_	cioè	_	PKP130	79-0	_	_	
+
+#Text=abbastanza
+81-1	2214-2224	abbastanza	_	_	_	abbastanza	_	PKP130	80-0	_	_	
+
+#Text=e quindi mh
+82-1	2225-2226	e	_	_	_	e	_	PKP130	81-0	_	_	
+82-2	2227-2233	quindi	_	_	_	quindi:	_	_	81-1	_	_	
+82-3	2234-2236	mh	_	FP	_	m:h	_	_	81-2	_	_	
+
+#Text=si sposerà il dieci agosto
+83-1	2237-2239	si	_	_	_	si	_	PKP130	82-0	_	_	
+83-2	2240-2247	sposerà	_	_	_	sposerà	_	_	82-1	_	_	
+83-3	2248-2250	il	_	_	_	il	_	_	82-2	_	_	
+83-4	2251-2256	dieci	_	_	_	dieci	_	_	82-3	_	_	
+83-5	2257-2263	agosto	_	_	_	<agosto>	_	_	82-4	_	_	
+
+#Text=capito
+84-1	2264-2270	capito	_	_	Rising	>capito<?	_	PKP130	83-0	_	_	
+
+#Text=dove sei
+85-1	2271-2275	dove	_	_	_	dove	_	PKP130	84-0	_	_	
+85-2	2276-2279	sei	_	_	Rising	sei?	_	_	84-1	_	_	
+
+#Text=((sbuffa))
+86-1	2280-2290	((sbuffa))	_	_	_	((sbuffa))	_	PKP125	85-0	_	_	
+
+#Text=mh
+87-1	2291-2293	mh	_	_	_	m:h	_	PKP125	86-0	_	_	
+
+#Text=secondo me
+88-1	2294-2301	secondo	_	_	_	>secondo<	_	PKP130	87-0	_	_	
+88-2	2302-2304	me	_	_	_	me:	_	_	87-1	_	_	
+
+#Text=eh lei doveva farlo il ventisette ottobre
+89-1	2305-2307	eh	_	FP	_	°e:h°	_	PKP130	88-0	_	_	
+89-2	2308-2311	lei	_	_	_	lei	_	_	88-1	_	_	
+89-3	2312-2318	doveva	_	_	_	doveva	_	_	88-2	_	_	
+89-4	2319-2324	farlo	_	_	_	farlo	_	_	88-3	_	_	
+89-5	2325-2327	il	_	_	_	il	_	_	88-4	_	_	
+89-6	2328-2338	ventisette	_	_	_	ventisette	_	_	88-5	_	_	
+89-7	2339-2346	ottobre	_	_	_	ottobre	_	_	88-6	_	_	
+
+#Text=mh
+90-1	2347-2349	mh	BC	_	_	m:h	_	PKP125	89-0	_	_	
+
+#Text=eh
+91-1	2350-2352	eh	BC	_	_	eh	_	PKP130	90-0	_	_	
+
+#Text=eh quindi l' ha b~ l' ha anticipato
+92-1	2353-2355	eh	BC	_	_	eh	_	PKP125	91-0	_	_	
+92-2	2356-2362	quindi	_	_	_	quindi	_	_	91-1	_	_	
+92-3	2363-2365	l'	_	_	_	l'	_	_	91-2	_	_	
+92-4	2366-2368	ha	_	_	_	ha	_	_	91-3	_	_	
+92-5	2369-2371	b~	_	_	_	b~	_	_	91-4	_	_	
+92-6	2372-2374	l'	_	_	_	l'	_	_	91-5	_	_	
+92-7	2375-2377	ha	_	_	_	ha	_	_	91-6	_	_	
+92-8	2378-2388	anticipato	_	_	Rising	anticipato?	_	_	91-7	_	_	
+
+#Text=ventisette ottobre duemiladiciannove
+93-1	2389-2399	ventisette	_	_	_	>ventisette<	_	PKP125	92-0	_	_	
+93-2	2400-2407	ottobre	_	_	_	ottobre	_	_	92-1	_	_	
+93-3	2408-2425	duemiladiciannove	_	_	Rising	\[duemiladiciannove\]?	_	_	92-2	*->47-1	*[47]	
+
+#Text=no in realtà la data
+94-1	2426-2428	no	_	_	_	\[no	_	PKP130	93-0	*->47-2	*[47]	
+94-2	2429-2431	in	_	_	_	in	_	_	93-1	*->47-3	*[47]	
+94-3	2432-2438	realtà	_	_	_	realtà:\]	_	_	93-2	*->47-4	*[47]	
+94-4	2439-2441	la	_	_	_	la	_	_	93-3	_	_	
+94-5	2442-2446	data	_	_	_	data:	_	_	93-4	_	_	
+
+#Text=oddio
+95-1	2447-2452	oddio	_	_	_	°oddio°	_	PKP130	94-0	_	_	
+
+#Text=la data è il venticinque maggio
+96-1	2453-2455	la	_	_	_	la	_	PKP130	95-0	_	_	
+96-2	2456-2460	data	_	_	_	data	_	_	95-1	_	_	
+96-3	2461-2462	è	_	_	_	è	_	_	95-2	_	_	
+96-4	2463-2465	il	_	_	_	il	_	_	95-3	_	_	
+96-5	2466-2477	venticinque	_	_	_	venticinque	_	_	95-4	_	_	
+96-6	2478-2484	maggio	_	_	_	maggio	_	_	95-5	_	_	
+
+#Text=la data ufficiale lunedì venticinque maggio che comunque
+97-1	2485-2487	la	_	_	_	la	_	PKP130	96-0	_	_	
+97-2	2488-2492	data	_	_	_	data	_	_	96-1	_	_	
+97-3	2493-2502	ufficiale	_	_	_	ufficiale	_	_	96-2	_	_	
+97-4	2503-2509	lunedì	_	_	_	>lunedì<	_	_	96-3	_	_	
+97-5	2510-2521	venticinque	_	_	_	venticinque	_	_	96-4	_	_	
+97-6	2522-2528	maggio	_	_	_	maggio	_	_	96-5	_	_	
+97-7	2529-2532	che	_	_	_	che	_	_	96-6	_	_	
+97-8	2533-2541	comunque	_	_	_	comunque:	_	_	96-7	_	_	
+
+#Text=c' era ancora diciamo c' erano ancora tante restrizioni non si poteva uscire dalle regioni ti ricordi
+98-1	2542-2544	c'	_	_	_	c'	_	PKP130	97-0	_	_	
+98-2	2545-2548	era	_	_	_	era	_	_	97-1	_	_	
+98-3	2549-2555	ancora	_	_	_	ancora:	_	_	97-2	_	_	
+98-4	2556-2563	diciamo	_	_	_	diciamo	_	_	97-3	_	_	
+98-5	2564-2566	c'	_	_	_	c'	_	_	97-4	_	_	
+98-6	2567-2572	erano	_	_	_	erano	_	_	97-5	_	_	
+98-7	2573-2579	ancora	_	_	_	ancora	_	_	97-6	_	_	
+98-8	2580-2585	tante	_	_	_	tante	_	_	97-7	_	_	
+98-9	2586-2597	restrizioni	_	_	_	restrizioni	_	_	97-8	_	_	
+98-10	2598-2601	non	_	_	_	non	_	_	97-9	_	_	
+98-11	2602-2604	si	_	_	_	si	_	_	97-10	_	_	
+98-12	2605-2611	poteva	_	_	_	poteva	_	_	97-11	_	_	
+98-13	2612-2618	uscire	_	_	_	uscire	_	_	97-12	_	_	
+98-14	2619-2624	dalle	_	_	_	dalle	_	_	97-13	_	_	
+98-15	2625-2632	regioni	_	_	_	regioni	_	_	97-14	_	_	
+98-16	2633-2635	ti	_	_	_	TI	_	_	97-15	_	_	
+98-17	2636-2643	ricordi	_	_	Rising	RICORDI?	_	_	97-16	_	_	
+
+#Text=mh
+99-1	2644-2646	mh	BC	_	_	m:h	_	PKP125	98-0	_	_	
+
+#Text=va beh [PAUSE] dalla regione campania
+100-1	2647-2649	va	_	_	_	(va	_	PKP130	99-0	_	_	
+100-2	2650-2653	beh	_	_	_	beh)	_	_	99-1	_	_	
+100-3	2654-2661	[PAUSE]	_	_	_	(.)	_	_	99-2	_	_	
+100-4	2662-2667	dalla	_	_	_	dalla	_	_	99-3	_	_	
+100-5	2668-2675	regione	_	_	_	regione	_	_	99-4	_	_	
+100-6	2676-2684	campania	_	_	_	campania	_	_	99-5	_	_	
+
+#Text=va beh non era il caso di fare il matrimonio
+101-1	2685-2687	va	_	_	_	va	_	PKP125	100-0	_	_	
+101-2	2688-2691	beh	_	_	_	beh	_	_	100-1	_	_	
+101-3	2692-2695	non	_	_	_	non	_	_	100-2	_	_	
+101-4	2696-2699	era	_	_	_	era	_	_	100-3	_	_	
+101-5	2700-2702	il	_	_	_	il	_	_	100-4	_	_	
+101-6	2703-2707	caso	_	_	_	caso	_	_	100-5	_	_	
+101-7	2708-2710	di	_	_	_	di	_	_	100-6	_	_	
+101-8	2711-2715	fare	_	_	_	fare	_	_	100-7	_	_	
+101-9	2716-2718	il	_	_	_	il	_	_	100-8	_	_	
+101-10	2719-2729	matrimonio	_	_	_	matrimo\[nio\]	_	_	100-9	_	_	
+101-10.1	2726-2729	nio	_	_	_	_	_	_	_	*->40-1	*[40]	
+
+#Text=eh
+102-1	2730-2732	eh	BC	_	_	\[eh\]	_	PKP130	101-0	*->40-1|*->40-2	*[40]|*[40]	
+
+#Text=poi a maggio
+103-1	2733-2736	poi	_	_	_	poi	_	PKP130	102-0	*->40-1	*[40]	
+103-2	2737-2738	a	_	_	_	a	_	_	102-1	_	_	
+103-3	2739-2745	maggio	_	_	_	<maggio>	_	_	102-2	_	_	
+
+#Text=emh poi
+104-1	2746-2749	emh	_	FP	_	em::h	_	PKP130	103-0	_	_	
+104-2	2750-2753	poi	_	_	_	PO:I	_	_	103-1	_	_	
+
+#Text=lo rinviò al ventisette ottobre
+105-1	2754-2756	lo	_	_	_	lo	_	PKP130	104-0	_	_	
+105-2	2757-2763	rinviò	_	_	_	rinviò	_	_	104-1	_	_	
+105-3	2764-2766	al	_	_	_	al	_	_	104-2	_	_	
+105-4	2767-2777	ventisette	_	_	_	ventisette	_	_	104-3	_	_	
+105-5	2778-2785	ottobre	_	_	_	ottobre	_	_	104-4	_	_	
+
+#Text=al ventisette ottobre
+106-1	2786-2788	al	_	_	_	al	_	PKP130	105-0	_	_	
+106-2	2789-2799	ventisette	_	_	_	ventisette	_	_	105-1	_	_	
+106-3	2800-2807	ottobre	_	_	weakly\_rising	ottobre,	_	_	105-2	_	_	
+
+#Text=emh
+107-1	2808-2811	emh	_	FP	_	em::h	_	PKP130	106-0	_	_	
+
+#Text=poi pare che la mamma
+108-1	2812-2815	poi	_	_	_	po(i)	_	PKP130	107-0	_	_	
+108-2	2816-2820	pare	_	_	_	pare	_	_	107-1	_	_	
+108-3	2821-2824	che	_	_	_	che	_	_	107-2	_	_	
+108-4	2825-2827	la	_	_	_	la	_	_	107-3	_	_	
+108-5	2828-2833	mamma	_	_	_	MAMMA:	_	_	107-4	_	_	
+
+#Text=abbia cominciato a dire guarda che ottobre mh il ventisette ottobre stiamo a scuola mh così colì metti un sacco di difficoltà
+109-1	2834-2839	abbia	_	_	_	abbia	_	PKP130	108-0	_	_	
+109-2	2840-2850	cominciato	_	_	_	cominciato	_	_	108-1	_	_	
+109-3	2851-2852	a	_	_	_	a	_	_	108-2	_	_	
+109-4	2853-2857	dire	_	_	_	dire	_	_	108-3	_	_	
+109-5	2858-2864	guarda	_	_	_	GUARDA	_	_	108-4	_	_	
+109-6	2865-2868	che	_	_	_	che	_	_	108-5	_	_	
+109-7	2869-2876	ottobre	_	_	_	ottobre:	_	_	108-6	_	_	
+109-8	2877-2879	mh	_	FP	_	m:h	_	_	108-7	_	_	
+109-9	2880-2882	il	_	_	_	il	_	_	108-8	_	_	
+109-10	2883-2893	ventisette	_	_	_	ventisette	_	_	108-9	_	_	
+109-11	2894-2901	ottobre	_	_	_	ottobre	_	_	108-10	_	_	
+109-12	2902-2908	stiamo	_	_	_	stiamo	_	_	108-11	_	_	
+109-13	2909-2910	a	_	_	_	a	_	_	108-12	_	_	
+109-14	2911-2917	scuola	_	_	_	<SCUOLA>	_	_	108-13	_	_	
+109-15	2918-2920	mh	_	FP	_	m::h	_	_	108-14	_	_	
+109-16	2921-2925	così	_	_	_	così	_	_	108-15	_	_	
+109-17	2926-2930	colì	_	_	_	colì	_	_	108-16	_	_	
+109-18	2931-2936	metti	_	_	_	metti	_	_	108-17	_	_	
+109-19	2937-2939	un	_	_	_	un	_	_	108-18	_	_	
+109-20	2940-2945	sacco	_	_	_	sacco	_	_	108-19	_	_	
+109-21	2946-2948	di	_	_	_	di	_	_	108-20	_	_	
+109-22	2949-2959	difficoltà	_	_	_	difficoltà	_	_	108-21	_	_	
+
+#Text=ci metti crei delle difficoltà
+110-1	2960-2962	ci	_	_	_	ci	_	PKP130	109-0	_	_	
+110-2	2963-2968	metti	_	_	_	metti	_	_	109-1	_	_	
+110-3	2969-2973	crei	_	_	_	crei	_	_	109-2	_	_	
+110-4	2974-2979	delle	_	_	_	\[DELLE	_	_	109-3	*->5-1	*[5]	
+110-5	2980-2990	difficoltà	_	_	_	DIFFICOLTÀ\]	_	_	109-4	*->5-2	*[5]	
+
+#Text=la mamma pure fa la maestra
+111-1	2991-2993	la	_	_	_	\[la	_	PKP125	110-0	*->5-3	*[5]	
+111-2	2994-2999	mamma	_	_	_	mamma\]	_	_	110-1	*->5-4	*[5]	
+111-3	3000-3004	pure	_	_	_	pure	_	_	110-2	_	_	
+111-4	3005-3007	fa	_	_	_	fa	_	_	110-3	_	_	
+111-5	3008-3010	la	_	_	_	la	_	_	110-4	_	_	
+111-6	3011-3018	maestra	_	_	Rising	maestra?	_	_	110-5	_	_	
+
+#Text=la mamma è maestra sì è maestra elementare
+112-1	3019-3021	la	_	_	_	la	_	PKP130	111-0	_	_	
+112-2	3022-3027	mamma	_	_	_	mamma	_	_	111-1	_	_	
+112-3	3028-3029	è	_	_	_	è	_	_	111-2	_	_	
+112-4	3030-3037	maestra	_	_	_	<MAESTRA>	_	_	111-3	_	_	
+112-5	3038-3040	sì	_	_	_	sì	_	_	111-4	_	_	
+112-6	3041-3042	è	_	_	_	è	_	_	111-5	_	_	
+112-7	3043-3050	maestra	_	_	_	maestra	_	_	111-6	_	_	
+112-8	3051-3061	elementare	_	_	_	elementare	_	_	111-7	_	_	
+
+#Text=mh
+113-1	3062-3064	mh	BC	_	_	mh	_	PKP125	112-0	_	_	
+
+#Text=alle elementari
+114-1	3065-3069	alle	_	_	_	alle	_	PKP130	113-0	_	_	
+114-2	3070-3080	elementari	_	_	_	elementari	_	_	113-1	_	_	
+
+#Text=e quindi
+115-1	3081-3082	e	_	_	_	e	_	PKP130	114-0	_	_	
+115-2	3083-3089	quindi	_	_	_	quindi:	_	_	114-1	_	_	
+
+#Text=eh lei ha anticipato al venticinque agosto [PAUSE] prima
+116-1	3090-3092	eh	_	FP	_	eh	_	PKP130	115-0	_	_	
+116-2	3093-3096	lei	_	_	_	lei	_	_	115-1	_	_	
+116-3	3097-3099	ha	_	_	_	ha	_	_	115-2	_	_	
+116-4	3100-3110	anticipato	_	_	_	anticipato	_	_	115-3	_	_	
+116-5	3111-3113	al	_	_	_	al	_	_	115-4	_	_	
+116-6	3114-3125	venticinque	_	_	_	venticinque	_	_	115-5	_	_	
+116-7	3126-3132	agosto	_	_	_	agosto	_	_	115-6	_	_	
+116-8	3133-3140	[PAUSE]	_	_	_	(.)	_	_	115-7	_	_	
+116-9	3141-3146	prima	_	_	_	PRIMA:	_	_	115-8	_	_	
+
+#Text=il ristorante
+117-1	3147-3149	il	_	_	_	il	_	PKP130	116-0	_	_	
+117-2	3150-3160	ristorante	_	_	_	ristorante:	_	_	116-1	_	_	
+
+#Text=le disse guarda
+118-1	3161-3163	le	_	_	_	le	_	PKP130	117-0	_	_	
+118-2	3164-3169	disse	_	_	_	disse	_	_	117-1	_	_	
+118-3	3170-3176	guarda	_	_	_	guarda:	_	_	117-2	_	_	
+
+#Text=comunque ci sono delle restrizione devi fare mh
+119-1	3177-3185	comunque	_	_	_	>comunque<	_	PKP130	118-0	_	_	
+119-2	3186-3188	ci	_	_	_	ci	_	_	118-1	_	_	
+119-3	3189-3193	sono	_	_	_	sono	_	_	118-2	_	_	
+119-4	3194-3199	delle	_	_	_	delle	_	_	118-3	_	_	
+119-5	3200-3211	restrizione	_	_	_	restrizione	_	_	118-4	_	_	
+119-6	3212-3216	devi	_	_	_	devi	_	_	118-5	_	_	
+119-7	3217-3221	fare	_	_	_	fare:	_	_	118-6	_	_	
+119-8	3222-3224	mh	_	FP	_	m:h	_	_	118-7	_	_	
+
+#Text=cioè devi fare pochi invitati
+120-1	3225-3229	cioè	_	_	_	>cioè<	_	PKP130	119-0	_	_	
+120-2	3230-3234	devi	_	_	_	devi	_	_	119-1	_	_	
+120-3	3235-3239	fare	_	_	_	fare	_	_	119-2	_	_	
+120-4	3240-3245	pochi	_	_	_	pochi	_	_	119-3	_	_	
+120-5	3246-3254	invitati	_	_	_	<invitati>	_	_	119-4	_	_	
+
+#Text=mh
+121-1	3255-3257	mh	BC	_	_	m:h	_	PKP125	120-0	_	_	
+
+#Text=mh
+122-1	3258-3260	mh	BC	_	_	mh	_	PKP130	121-0	_	_	
+
+#Text=e lei disse io mi sposo in chiesa e poi non facciamo niente festeggiamo l' anno prossimo
+123-1	3261-3262	e	_	_	_	>e	_	PKP130	122-0	_	_	
+123-2	3263-3266	lei	_	_	_	lei	_	_	122-1	_	_	
+123-3	3267-3272	disse	_	_	_	disse<	_	_	122-2	_	_	
+123-4	3273-3275	io	_	_	_	io	_	_	122-3	_	_	
+123-5	3276-3278	mi	_	_	_	mi	_	_	122-4	_	_	
+123-6	3279-3284	sposo	_	_	_	sposo	_	_	122-5	_	_	
+123-7	3285-3287	in	_	_	_	in	_	_	122-6	_	_	
+123-8	3288-3294	chiesa	_	_	_	chiesa	_	_	122-7	_	_	
+123-9	3295-3296	e	_	_	_	e	_	_	122-8	_	_	
+123-10	3297-3300	poi	_	_	_	poi	_	_	122-9	_	_	
+123-11	3301-3304	non	_	_	_	non	_	_	122-10	_	_	
+123-12	3305-3313	facciamo	_	_	_	facciamo	_	_	122-11	_	_	
+123-13	3314-3320	niente	_	_	_	<niente>	_	_	122-12	_	_	
+123-14	3321-3332	festeggiamo	_	_	_	festeggiamo	_	_	122-13	_	_	
+123-15	3333-3335	l'	_	_	_	l'	_	_	122-14	_	_	
+123-16	3336-3340	anno	_	_	_	anno	_	_	122-15	_	_	
+123-17	3341-3349	prossimo	_	_	_	prossimo	_	_	122-16	_	_	
+
+#Text=mh
+124-1	3350-3352	mh	BC	_	_	mh	_	PKP125	123-0	_	_	
+
+#Text=poi
+125-1	3353-3356	poi	_	_	_	PO:I	_	PKP130	124-0	_	_	
+
+#Text=beh
+126-1	3357-3360	beh	BC	_	_	beh	_	PKP125	125-0	_	_	
+
+#Text=il ristorante
+127-1	3361-3363	il	_	_	_	il	_	PKP130	126-0	_	_	
+127-2	3364-3374	ristorante	_	_	_	ristorante:	_	_	126-1	_	_	
+
+#Text=che la casa comunque è pronta
+128-1	3375-3378	che	_	_	_	che	_	PKP130	127-0	_	_	
+128-2	3379-3381	la	_	_	_	la	_	_	127-1	_	_	
+128-3	3382-3386	casa	_	_	_	casa	_	_	127-2	_	_	
+128-4	3387-3395	comunque	_	_	_	comunque	_	_	127-3	_	_	
+128-5	3396-3397	è	_	_	_	è	_	_	127-4	_	_	
+128-6	3398-3404	pronta	_	_	_	<pronta>	_	_	127-5	_	_	
+
+#Text=eh
+129-1	3405-3407	eh	_	_	_	e:h	_	PKP130	128-0	_	_	
+
+#Text=eh mo il ristorante quindi ha ridotto il numero di partecipanti che fa
+130-1	3408-3410	eh	BC	_	_	e:h	_	PKP125	129-0	_	_	
+130-2	3411-3413	mo	_	_	_	mo	_	_	129-1	_	_	
+130-3	3414-3416	il	_	_	_	il	_	_	129-2	_	_	
+130-4	3417-3427	ristorante	_	_	_	ristorante	_	_	129-3	_	_	
+130-5	3428-3434	quindi	_	_	_	quindi	_	_	129-4	_	_	
+130-6	3435-3437	ha	_	_	_	ha	_	_	129-5	_	_	
+130-7	3438-3445	ridotto	_	_	_	ridotto	_	_	129-6	_	_	
+130-8	3446-3448	il	_	_	_	il	_	_	129-7	_	_	
+130-9	3449-3455	numero	_	_	_	numero	_	_	129-8	_	_	
+130-10	3456-3458	di	_	_	_	di	_	_	129-9	_	_	
+130-11	3459-3471	partecipanti	_	_	_	partecipanti	_	_	129-10	_	_	
+130-12	3472-3475	che	_	_	_	>che	_	_	129-11	_	_	
+130-13	3476-3478	fa	_	_	Rising	fa<?	_	_	129-12	_	_	
+
+#Text=il ristorante mh sì le ha chiesto di ridurre il numero di partecipanti
+131-1	3479-3481	il	_	_	_	il	_	PKP130	130-0	_	_	
+131-2	3482-3492	ristorante	_	_	_	ristorante:	_	_	130-1	_	_	
+131-3	3493-3495	mh	_	FP	_	m:h	_	_	130-2	_	_	
+131-4	3496-3498	sì	_	_	_	sì	_	_	130-3	_	_	
+131-5	3499-3501	le	_	_	_	le	_	_	130-4	_	_	
+131-6	3502-3504	ha	_	_	_	ha	_	_	130-5	_	_	
+131-7	3505-3512	chiesto	_	_	_	chiesto	_	_	130-6	_	_	
+131-8	3513-3515	di	_	_	_	di	_	_	130-7	_	_	
+131-9	3516-3523	ridurre	_	_	_	ridurre	_	_	130-8	_	_	
+131-10	3524-3526	il	_	_	_	il	_	_	130-9	_	_	
+131-11	3527-3533	numero	_	_	_	numero	_	_	130-10	_	_	
+131-12	3534-3536	di	_	_	_	di	_	_	130-11	_	_	
+131-13	3537-3549	partecipanti	_	_	_	PARTECIPANTI	_	_	130-12	_	_	
+
+#Text=eh mh
+132-1	3550-3552	eh	_	FP[12]	_	e::h	_	PKP130	131-0	_	_	
+132-2	3553-3555	mh	_	FP[12]	_	m::h	_	_	131-1	_	_	
+
+#Text=e quindi eh
+133-1	3556-3557	e	_	_	_	e	_	PKP130	132-0	_	_	
+133-2	3558-3564	quindi	_	_	_	quindi:	_	_	132-1	_	_	
+133-3	3565-3567	eh	_	FP	_	e::h	_	_	132-2	_	_	
+
+#Text=e quindi sì
+134-1	3568-3569	e	_	_	_	e	_	PKP130	133-0	_	_	
+134-2	3570-3576	quindi	_	_	_	quindi	_	_	133-1	_	_	
+134-3	3577-3579	sì	_	_	_	sì	_	_	133-2	_	_	
+
+#Text=la forchetta
+135-1	3580-3582	la	_	_	_	la	_	PKP125	134-0	_	_	
+135-2	3583-3592	forchetta	_	_	Rising	forchetta?	_	_	134-1	_	_	
+
+#Text=mh sì la prendo la prendi tu
+136-1	3593-3595	mh	BC	_	_	mh	_	PKP130	135-0	_	_	
+136-2	3596-3598	sì	_	_	_	sì	_	_	135-1	_	_	
+136-3	3599-3601	la	_	_	_	la	_	_	135-2	_	_	
+136-4	3602-3608	prendo	_	_	_	prendo	_	_	135-3	_	_	
+136-5	3609-3611	la	_	_	_	la	_	_	135-4	_	_	
+136-6	3612-3618	prendi	_	_	_	prendi	_	_	135-5	_	_	
+136-7	3619-3621	tu	_	_	Rising	TU?	_	_	135-6	_	_	
+
+#Text=eh
+137-1	3622-3624	eh	_	_	_	e:h	_	PKP125	136-0	_	_	
+
+#Text=eh eh
+138-1	3625-3627	eh	BC[1]	_	_	>eh	_	PKP125	137-0	_	_	
+138-2	3628-3630	eh	BC[1]	_	_	eh<	_	_	137-1	_	_	
+
+#Text=giustamente
+139-1	3631-3642	giustamente	BC	_	_	giustamente	_	PKP125	138-0	_	_	
+
+#Text=ora v~ eh faranno anche i tavoli separati chissà
+140-1	3643-3646	ora	_	_	_	ora	_	PKP125	139-0	_	_	
+140-2	3647-3649	v~	_	_	_	v~	_	_	139-1	_	_	
+140-3	3650-3652	eh	_	FP	_	e:h	_	_	139-2	_	_	
+140-4	3653-3660	faranno	_	_	_	faranno	_	_	139-3	_	_	
+140-5	3661-3666	anche	_	_	_	anche	_	_	139-4	_	_	
+140-6	3667-3668	i	_	_	_	i	_	_	139-5	_	_	
+140-7	3669-3675	tavoli	_	_	_	tavoli	_	_	139-6	_	_	
+140-8	3676-3684	separati	_	_	_	separati:	_	_	139-7	_	_	
+140-9	3685-3691	chissà	_	_	_	>chissà<	_	_	139-8	_	_	
+
+#Text=eh infatti
+141-1	3692-3694	eh	BC[2]	_	_	eh	_	PKP130	140-0	_	_	
+141-2	3695-3702	infatti	BC[2]	_	_	infa:tti	_	_	140-1	_	_	
+
+#Text=poi io sarò seduta accanto ad arianna
+142-1	3703-3706	poi	_	_	_	poi:	_	PKP130	141-0	_	_	
+142-2	3707-3709	io	_	_	_	io	_	_	141-1	_	_	
+142-3	3710-3714	sarò	_	_	_	sarò	_	_	141-2	_	_	
+142-4	3715-3721	seduta	_	_	_	seduta	_	_	141-3	_	_	
+142-5	3722-3729	accanto	_	_	_	accanto	_	_	141-4	_	_	
+142-6	3730-3732	ad	_	_	_	ad	_	_	141-5	_	_	
+142-7	3733-3740	arianna	_	_	_	<arianna>	_	_	141-6	_	_	
+
+#Text=che è quella ragazza d' isernia che hai conosciuto al tfa
+143-1	3741-3744	che	_	_	_	che	_	PKP130	142-0	_	_	
+143-2	3745-3746	è	_	_	_	è	_	_	142-1	_	_	
+143-3	3747-3753	quella	_	_	_	quella	_	_	142-2	_	_	
+143-4	3754-3761	ragazza	_	_	_	ragazza	_	_	142-3	_	_	
+143-5	3762-3764	d'	_	_	_	d'	_	_	142-4	_	_	
+143-6	3765-3772	isernia	_	_	_	isernia	_	_	142-5	_	_	
+143-7	3773-3776	che	_	_	_	che	_	_	142-6	_	_	
+143-8	3777-3780	hai	_	_	_	hai	_	_	142-7	_	_	
+143-9	3781-3791	conosciuto	_	_	_	conosciuto	_	_	142-8	_	_	
+143-10	3792-3794	al	_	_	_	al	_	_	142-9	_	_	
+143-11	3795-3798	tfa	_	_	_	tfa	_	_	142-10	_	_	
+
+#Text=mh
+144-1	3799-3801	mh	BC	_	_	m:h	_	PKP125	143-0	_	_	
+
+#Text=che mh
+145-1	3802-3805	che	_	_	_	che:	_	PKP130	144-0	_	_	
+145-2	3806-3808	mh	_	FP	_	m:h	_	_	144-1	_	_	
+
+#Text=fece molta amicizia con francesca
+146-1	3809-3813	fece	_	_	_	fece:	_	PKP130	145-0	_	_	
+146-2	3814-3819	molta	_	_	_	molta	_	_	145-1	_	_	
+146-3	3820-3828	amicizia	_	_	_	amicizia	_	_	145-2	_	_	
+146-4	3829-3832	con	_	_	_	con	_	_	145-3	_	_	
+146-5	3833-3842	francesca	_	_	_	FRANCESCA	_	_	145-4	_	_	
+
+#Text=anche perché altrimenti
+147-1	3843-3848	anche	_	_	_	anche	_	PKP130	146-0	_	_	
+147-2	3849-3855	perché	_	_	_	perché	_	_	146-1	_	_	
+147-3	3856-3866	altrimenti	_	_	_	altrimenti	_	_	146-2	_	_	
+
+#Text=io e antonio non conoscevamo nessuno
+148-1	3867-3869	io	_	_	_	io	_	PKP130	147-0	_	_	
+148-2	3870-3871	e	_	_	_	e	_	_	147-1	_	_	
+148-3	3872-3879	antonio	_	_	_	antonio	_	_	147-2	_	_	
+148-4	3880-3883	non	_	_	_	non	_	_	147-3	_	_	
+148-5	3884-3895	conoscevamo	_	_	_	conoscevamo	_	_	147-4	_	_	
+148-6	3896-3903	nessuno	_	_	_	nessuno	_	_	147-5	_	_	
+
+#Text=però lui disse non ti preoccupare tanto noi facciamo amicizia
+149-1	3904-3908	però	_	_	_	>però	_	PKP130	148-0	_	_	
+149-2	3909-3912	lui	_	_	_	lui	_	_	148-1	_	_	
+149-3	3913-3918	disse	_	_	_	disse<	_	_	148-2	_	_	
+149-4	3919-3922	non	_	_	_	non	_	_	148-3	_	_	
+149-5	3923-3925	ti	_	_	_	ti	_	_	148-4	_	_	
+149-6	3926-3937	preoccupare	_	_	_	preoccupare	_	_	148-5	_	_	
+149-7	3938-3943	tanto	_	_	_	tanto	_	_	148-6	_	_	
+149-8	3944-3947	noi	_	_	_	noi	_	_	148-7	_	_	
+149-9	3948-3956	facciamo	_	_	_	facciamo	_	_	148-8	_	_	
+149-10	3957-3965	amicizia	_	_	_	<amicizia>	_	_	148-9	_	_	
+
+#Text=mh
+150-1	3966-3968	mh	BC[3]	_	_	m:h	_	PKP125	149-0	_	_	
+
+#Text=infatti
+151-1	3969-3976	infatti	BC[3]	_	_	°infatti°	_	PKP125	150-0	_	_	
+
+#Text=però arianna
+152-1	3977-3981	però	_	_	_	però	_	PKP130	151-0	_	_	
+152-2	3982-3989	arianna	_	_	_	arianna:	_	_	151-1	_	_	
+
+#Text=mi ha mandato gli auguri e poi mi ha scritto ci vediamo presto quindi evidentemente significa che viene no
+153-1	3990-3992	mi	_	_	_	mi	_	PKP130	152-0	_	_	
+153-2	3993-3995	ha	_	_	_	ha	_	_	152-1	_	_	
+153-3	3996-4003	mandato	_	_	_	mandato	_	_	152-2	_	_	
+153-4	4004-4007	gli	_	_	_	gli	_	_	152-3	_	_	
+153-5	4008-4014	auguri	_	_	_	<auguri>	_	_	152-4	_	_	
+153-6	4015-4016	e	_	_	_	e	_	_	152-5	_	_	
+153-7	4017-4020	poi	_	_	_	poi	_	_	152-6	_	_	
+153-8	4021-4023	mi	_	_	_	mi	_	_	152-7	_	_	
+153-9	4024-4026	ha	_	_	_	ha	_	_	152-8	_	_	
+153-10	4027-4034	scritto	_	_	_	scritto	_	_	152-9	_	_	
+153-11	4035-4037	ci	_	_	_	<ci	_	_	152-10	_	_	
+153-12	4038-4045	vediamo	_	_	_	vediamo	_	_	152-11	_	_	
+153-13	4046-4052	presto	_	_	_	presto>	_	_	152-12	_	_	
+153-14	4053-4059	quindi	_	_	_	quindi	_	_	152-13	_	_	
+153-15	4060-4073	evidentemente	_	_	_	evidentemente	_	_	152-14	_	_	
+153-16	4074-4083	significa	_	_	_	significa	_	_	152-15	_	_	
+153-17	4084-4087	che	_	_	_	che	_	_	152-16	_	_	
+153-18	4088-4093	viene	_	_	_	viene	_	_	152-17	_	_	
+153-19	4094-4096	no	_	_	Rising	NO?	_	_	152-18	_	_	
+
+#Text=ma tu sapevi che era stata invitata
+154-1	4097-4099	ma	_	_	_	ma	_	PKP125	153-0	_	_	
+154-2	4100-4102	tu	_	_	_	tu	_	_	153-1	_	_	
+154-3	4103-4109	sapevi	_	_	_	sapevi	_	_	153-2	_	_	
+154-4	4110-4113	che	_	_	_	che:	_	_	153-3	_	_	
+154-5	4114-4117	era	_	_	_	era	_	_	153-4	_	_	
+154-6	4118-4123	stata	_	_	_	stata	_	_	153-5	_	_	
+154-7	4124-4132	invitata	_	_	Rising	invitata?	_	_	153-6	_	_	
+
+#Text=mh sì sì
+155-1	4133-4135	mh	_	_	_	m:h	_	PKP130	154-0	_	_	
+155-2	4136-4138	sì	_	_	_	sì	_	_	154-1	_	_	
+155-3	4139-4141	sì	_	_	_	sì	_	_	154-2	_	_	
+
+#Text=cioè sei sei sicura che era s~ eh
+156-1	4142-4146	cioè	_	_	_	cioè	_	PKP125	155-0	_	_	
+156-2	4147-4150	sei	_	_	_	sei::	_	_	155-1	_	_	
+156-3	4151-4154	sei	_	_	_	sei	_	_	155-2	_	_	
+156-4	4155-4161	sicura	_	_	_	sicura	_	_	155-3	_	_	
+156-5	4162-4165	che	_	_	_	che	_	_	155-4	_	_	
+156-6	4166-4169	era	_	_	_	era	_	_	155-5	_	_	
+156-7	4170-4172	s~	_	_	_	s~	_	_	155-6	_	_	
+156-8	4173-4175	eh	BC	_	_	eh	_	_	155-7	_	_	
+
+#Text=sì perché francesca quando mi mi scrisse
+157-1	4176-4178	sì	BC	_	_	SÌ	_	PKP130	156-0	_	_	
+157-2	4179-4185	perché	_	_	_	perché	_	_	156-1	_	_	
+157-3	4186-4195	francesca	_	_	_	francesca	_	_	156-2	_	_	
+157-4	4196-4202	quando	_	_	_	quando	_	_	156-3	_	_	
+157-5	4203-4205	mi	_	_	_	mi:	_	_	156-4	_	_	
+157-6	4206-4208	mi	_	_	_	mi	_	_	156-5	_	_	
+157-7	4209-4216	scrisse	_	_	Falling	scrisse.	_	_	156-6	_	_	
+
+#Text=dopo un po'
+158-1	4217-4221	dopo	_	_	_	dopo	_	PKP130	157-0	_	_	
+158-2	4222-4224	un	_	_	_	un	_	_	157-1	_	_	
+158-3	4225-4228	po'	_	_	_	po'	_	_	157-2	_	_	
+
+#Text=mi mandò la partecipazione via whatsapp
+159-1	4229-4231	mi	_	_	_	mi	_	PKP130	158-0	_	_	
+159-2	4232-4237	mandò	_	_	_	mandò	_	_	158-1	_	_	
+159-3	4238-4240	la	_	_	_	la	_	_	158-2	_	_	
+159-4	4241-4255	partecipazione	_	_	_	partecipazione	_	_	158-3	_	_	
+159-5	4256-4259	via	_	_	_	via	_	_	158-4	_	_	
+159-6	4260-4268	whatsapp	_	_	_	<whatsapp>	_	_	158-5	_	_	
+
+#Text=mh
+160-1	4269-4271	mh	BC	_	_	m:h	_	PKP125	159-0	_	_	
+
+#Text=dopo un po' mi disse guarda marce' [PAUSE] sto aspettando la risposta di arianna ma tu vieni dissi sì fra io
+161-1	4272-4276	dopo	_	_	_	dopo	_	PKP130	160-0	_	_	
+161-2	4277-4279	un	_	_	_	un	_	_	160-1	_	_	
+161-3	4280-4283	po'	_	_	_	po'	_	_	160-2	_	_	
+161-4	4284-4286	mi	_	_	_	mi	_	_	160-3	_	_	
+161-5	4287-4292	disse	_	_	_	disse	_	_	160-4	_	_	
+161-6	4293-4299	guarda	_	_	_	guarda	_	_	160-5	_	_	
+161-7	4300-4306	marce'	_	_	_	marce'	_	_	160-6	_	_	
+161-8	4307-4314	[PAUSE]	_	_	_	(.)	_	_	160-7	_	_	
+161-9	4315-4318	sto	_	_	_	sto	_	_	160-8	_	_	
+161-10	4319-4329	aspettando	_	_	_	aspettando	_	_	160-9	_	_	
+161-11	4330-4332	la	_	_	_	la	_	_	160-10	_	_	
+161-12	4333-4341	risposta	_	_	_	risposta	_	_	160-11	_	_	
+161-13	4342-4344	di	_	_	_	di	_	_	160-12	_	_	
+161-14	4345-4352	arianna	_	_	_	arianna	_	_	160-13	_	_	
+161-15	4353-4355	ma	_	_	_	ma	_	_	160-14	_	_	
+161-16	4356-4358	tu	_	_	_	tu	_	_	160-15	_	_	
+161-17	4359-4364	vieni	_	_	_	<vieni>	_	_	160-16	_	_	
+161-18	4365-4370	dissi	_	_	_	>dissi<	_	_	160-17	_	_	
+161-19	4371-4373	sì	_	_	_	sì	_	_	160-18	_	_	
+161-20	4374-4377	fra	_	_	_	fra	_	_	160-19	_	_	
+161-21	4378-4380	io	_	_	_	io:	_	_	160-20	_	_	
+
+#Text=ho dato per scontato che tu avevi capito
+162-1	4381-4383	ho	_	_	_	ho	_	PKP130	161-0	_	_	
+162-2	4384-4388	dato	_	_	_	dato	_	_	161-1	_	_	
+162-3	4389-4392	per	_	_	_	per	_	_	161-2	_	_	
+162-4	4393-4401	scontato	_	_	_	scontato	_	_	161-3	_	_	
+162-5	4402-4405	che	_	_	_	che	_	_	161-4	_	_	
+162-6	4406-4408	tu	_	_	_	tu	_	_	161-5	_	_	
+162-7	4409-4414	avevi	_	_	_	avevi	_	_	161-6	_	_	
+162-8	4415-4421	capito	_	_	weakly\_rising	capito,	_	_	161-7	_	_	
+
+#Text=mh
+163-1	4422-4424	mh	BC	_	_	m:h	_	PKP125	162-0	_	_	
+
+#Text=eh disse sto aspettando la risposta di arianna
+164-1	4425-4427	eh	BC	_	_	e:h	_	PKP130	163-0	_	_	
+164-2	4428-4433	disse	_	_	_	disse	_	_	163-1	_	_	
+164-3	4434-4437	sto	_	_	_	sto	_	_	163-2	_	_	
+164-4	4438-4448	aspettando	_	_	_	aspettando	_	_	163-3	_	_	
+164-5	4449-4451	la	_	_	_	la	_	_	163-4	_	_	
+164-6	4452-4460	risposta	_	_	_	risposta	_	_	163-5	_	_	
+164-7	4461-4463	di	_	_	_	di	_	_	163-6	_	_	
+164-8	4464-4471	arianna	_	_	_	<arianna>	_	_	163-7	_	_	
+
+#Text=e quindi poi arianna mi ha scritto ci vediamo presto
+165-1	4472-4473	e	_	_	_	e	_	PKP130	164-0	_	_	
+165-2	4474-4480	quindi	_	_	_	quindi	_	_	164-1	_	_	
+165-3	4481-4484	poi	_	_	_	poi	_	_	164-2	_	_	
+165-4	4485-4492	arianna	_	_	_	arianna	_	_	164-3	_	_	
+165-5	4493-4495	mi	_	_	_	mi	_	_	164-4	_	_	
+165-6	4496-4498	ha	_	_	_	ha	_	_	164-5	_	_	
+165-7	4499-4506	scritto	_	_	_	scritto	_	_	164-6	_	_	
+165-8	4507-4509	ci	_	_	_	ci	_	_	164-7	_	_	
+165-9	4510-4517	vediamo	_	_	_	vediamo	_	_	164-8	_	_	
+165-10	4518-4524	presto	_	_	_	presto	_	_	164-9	_	_	
+
+#Text=quindi
+166-1	4525-4531	quindi	_	_	_	quindi:	_	PKP130	165-0	_	_	
+
+#Text=eh allora sì
+167-1	4532-4534	eh	BC[4]	_	_	eh	_	PKP125	166-0	_	_	
+167-2	4535-4541	allora	BC[4]	_	_	allora	_	_	166-1	_	_	
+167-3	4542-4544	sì	BC[4]	_	_	sì	_	_	166-2	_	_	
+
+#Text=mh
+168-1	4545-4547	mh	BC	_	_	m:h	_	PKP130	167-0	_	_	
+
+#Text=mh
+169-1	4548-4550	mh	BC	_	_	°mh°	_	PKP125	168-0	_	_	
+
+#Text=arianna è quella che c' ha i parenti
+170-1	4551-4558	arianna	_	_	_	arianna	_	PKP130	169-0	_	_	
+170-2	4559-4560	è	_	_	_	è	_	_	169-1	_	_	
+170-3	4561-4567	quella	_	_	_	quella	_	_	169-2	_	_	
+170-4	4568-4571	che	_	_	_	che	_	_	169-3	_	_	
+170-5	4572-4574	c'	_	_	_	c'	_	_	169-4	_	_	
+170-6	4575-4577	ha	_	_	_	ha	_	_	169-5	_	_	
+170-7	4578-4579	i	_	_	_	i	_	_	169-6	_	_	
+170-8	4580-4587	parenti	_	_	_	parenti:	_	_	169-7	_	_	
+
+#Text=in america e va ogni anno là
+171-1	4588-4590	in	_	_	_	in	_	PKP130	170-0	_	_	
+171-2	4591-4598	america	_	_	_	america	_	_	170-1	_	_	
+171-3	4599-4600	e	_	_	_	e	_	_	170-2	_	_	
+171-4	4601-4603	va	_	_	_	va	_	_	170-3	_	_	
+171-5	4604-4608	ogni	_	_	_	ogni	_	_	170-4	_	_	
+171-6	4609-4613	anno	_	_	_	anno	_	_	170-5	_	_	
+171-7	4614-4616	là	_	_	_	LÀ	_	_	170-6	_	_	
+
+#Text=te l' ho mai detto
+172-1	4617-4619	te	_	_	_	te	_	PKP130	171-0	_	_	
+172-2	4620-4622	l'	_	_	_	l'	_	_	171-1	_	_	
+172-3	4623-4625	ho	_	_	_	ho	_	_	171-2	_	_	
+172-4	4626-4629	mai	_	_	_	mai	_	_	171-3	_	_	
+172-5	4630-4635	detto	_	_	Rising	detto:?	_	_	171-4	_	_	
+
+#Text=no
+173-1	4636-4638	no	_	_	_	no	_	PKP125	172-0	_	_	
+
+#Text=no
+174-1	4639-4641	no	BC	_	_	no	_	PKP130	173-0	_	_	
+
+#Text=va ogni anno in america
+175-1	4642-4644	va	_	_	_	va	_	PKP125	174-0	_	_	
+175-2	4645-4649	ogni	_	_	_	ogni	_	_	174-1	_	_	
+175-3	4650-4654	anno	_	_	_	anno	_	_	174-2	_	_	
+175-4	4655-4657	in	_	_	_	\[in	_	_	174-3	*->59-1	*[59]	
+175-5	4658-4665	america	_	_	Rising	america\]?	_	_	174-4	*->59-2	*[59]	
+
+#Text=questi sono di un sì sì sono di un paesino in provincia di isernia un paesino sulle montagne
+176-1	4666-4672	questi	_	_	_	\[>questi	_	PKP130	175-0	*->59-3	*[59]	
+176-2	4673-4677	sono	_	_	_	sono<\]	_	_	175-1	*->59-4	*[59]	
+176-3	4678-4680	di	_	_	_	di	_	_	175-2	_	_	
+176-4	4681-4683	un	_	_	_	un:	_	_	175-3	_	_	
+176-5	4684-4686	sì	_	_	_	sì	_	_	175-4	_	_	
+176-6	4687-4689	sì	_	_	_	sì	_	_	175-5	_	_	
+176-7	4690-4694	sono	_	_	_	sono	_	_	175-6	_	_	
+176-8	4695-4697	di	_	_	_	di	_	_	175-7	_	_	
+176-9	4698-4700	un	_	_	_	un	_	_	175-8	_	_	
+176-10	4701-4708	paesino	_	_	_	paesino	_	_	175-9	_	_	
+176-11	4709-4711	in	_	_	_	in	_	_	175-10	_	_	
+176-12	4712-4721	provincia	_	_	_	provincia	_	_	175-11	_	_	
+176-13	4722-4724	di	_	_	_	di	_	_	175-12	_	_	
+176-14	4725-4732	isernia	_	_	_	<isernia>	_	_	175-13	_	_	
+176-15	4733-4735	un	_	_	_	\[un	_	_	175-14	*->163-1	*[163]	
+176-16	4736-4743	paesino	_	_	_	paesino\]	_	_	175-15	*->163-2	*[163]	
+176-17	4744-4749	sulle	_	_	_	sulle	_	_	175-16	_	_	
+176-18	4750-4758	montagne	_	_	_	montagne	_	_	175-17	_	_	
+
+#Text=mhmh
+177-1	4759-4763	mhmh	BC	_	_	\[mhmh\]	_	PKP125	176-0	*->163-3	*[163]	
+
+#Text=quindi pensa in quegli anni che ci stava
+178-1	4764-4770	quindi	_	_	_	quindi	_	PKP130	177-0	_	_	
+178-2	4771-4776	pensa	_	_	_	pensa	_	_	177-1	_	_	
+178-3	4777-4779	in	_	_	_	in	_	_	177-2	_	_	
+178-4	4780-4786	quegli	_	_	_	quegli	_	_	177-3	_	_	
+178-5	4787-4791	anni	_	_	_	anni	_	_	177-4	_	_	
+178-6	4792-4795	che	_	_	_	che	_	_	177-5	_	_	
+178-7	4796-4798	ci	_	_	_	\[ci	_	_	177-6	*->159-1	*[159]	
+178-8	4799-4804	stava	_	_	weakly\_rising	stava\],	_	_	177-7	*->159-2	*[159]	
+
+#Text=ma adesso va all' orientale
+179-1	4805-4807	ma	_	_	_	\[ma	_	PKP125	178-0	*->159-3	*[159]	
+179-2	4808-4814	adesso	_	_	_	adesso\]	_	_	178-1	*->159-4	*[159]	
+179-3	4815-4817	va	_	_	_	va	_	_	178-2	_	_	
+179-4	4818-4822	all'	_	_	_	all'	_	_	178-3	_	_	
+179-5	4823-4832	orientale	_	_	Rising	orientale?	_	_	178-4	_	_	
+
+#Text=no
+180-1	4833-4835	no	_	_	_	no	_	PKP130	179-0	_	_	
+
+#Text=lei ha studiato a roma
+181-1	4836-4839	lei	_	_	_	\[lei\]	_	PKP130	180-0	*->108-1	*[108]	
+181-2	4840-4842	ha	_	_	_	ha	_	_	180-1	_	_	
+181-3	4843-4851	studiato	_	_	_	studiato	_	_	180-2	_	_	
+181-4	4852-4853	a	_	_	_	a	_	_	180-3	_	_	
+181-5	4854-4858	roma	_	_	_	<ROMA>	_	_	180-4	_	_	
+
+#Text=ah
+182-1	4859-4861	ah	BC	_	_	°a:h°	_	PKP125	181-0	_	_	
+
+#Text=ah
+183-1	4862-4864	ah	BC	_	_	a:h	_	PKP125	182-0	_	_	
+
+#Text=ha studiato a roma tre
+184-1	4865-4867	ha	_	_	_	ha	_	PKP130	183-0	_	_	
+184-2	4868-4876	studiato	_	_	_	studiato	_	_	183-1	_	_	
+184-3	4877-4878	a	_	_	_	a	_	_	183-2	_	_	
+184-4	4879-4883	roma	_	_	_	<roma	_	_	183-3	_	_	
+184-5	4884-4887	tre	_	_	_	tre>	_	_	183-4	_	_	
+
+#Text=a roma o a tor vergata non mi ricordo
+185-1	4888-4889	a	_	_	_	a	_	PKP130	184-0	_	_	
+185-2	4890-4894	roma	_	_	_	<roma>	_	_	184-1	_	_	
+185-3	4895-4896	o	_	_	_	o	_	_	184-2	_	_	
+185-4	4897-4898	a	_	_	_	a	_	_	184-3	_	_	
+185-5	4899-4902	tor	_	_	_	tor	_	_	184-4	_	_	
+185-6	4903-4910	vergata	_	_	_	vergata	_	_	184-5	_	_	
+185-7	4911-4914	non	_	_	_	>non	_	_	184-6	_	_	
+185-8	4915-4917	mi	_	_	_	mi	_	_	184-7	_	_	
+185-9	4918-4925	ricordo	_	_	_	ricordo<	_	_	184-8	_	_	
+
+#Text=ha studiato lingue
+186-1	4926-4928	ha	_	_	_	ha	_	PKP130	185-0	_	_	
+186-2	4929-4937	studiato	_	_	_	studiato	_	_	185-1	_	_	
+186-3	4938-4944	lingue	_	_	_	<lingue>	_	_	185-2	_	_	
+
+#Text=praticamente poi quando doveva fare il tfa
+187-1	4945-4957	praticamente	_	_	_	praticamente	_	PKP130	186-0	_	_	
+187-2	4958-4961	poi	_	_	_	poi	_	_	186-1	_	_	
+187-3	4962-4968	quando	_	_	_	quando	_	_	186-2	_	_	
+187-4	4969-4975	doveva	_	_	_	doveva	_	_	186-3	_	_	
+187-5	4976-4980	fare	_	_	_	fare	_	_	186-4	_	_	
+187-6	4981-4983	il	_	_	_	il	_	_	186-5	_	_	
+187-7	4984-4987	tfa	_	_	_	tfa:	_	_	186-6	_	_	
+
+#Text=roma
+188-1	4988-4992	roma	_	_	_	roma:	_	PKP130	187-0	_	_	
+
+#Text=attivò soltanto le superiori
+189-1	4993-4999	attivò	_	_	_	attivò	_	PKP130	188-0	_	_	
+189-2	5000-5008	soltanto	_	_	_	soltanto	_	_	188-1	_	_	
+189-3	5009-5011	le	_	_	_	le	_	_	188-2	_	_	
+189-4	5012-5021	superiori	_	_	_	superiori	_	_	188-3	_	_	
+
+#Text=non le medie o viceversa non mi ricordo
+190-1	5022-5025	non	_	_	_	non	_	PKP130	189-0	_	_	
+190-2	5026-5028	le	_	_	_	le	_	_	189-1	_	_	
+190-3	5029-5034	medie	_	_	_	<medie>	_	_	189-2	_	_	
+190-4	5035-5036	o	_	_	_	o	_	_	189-3	_	_	
+190-5	5037-5046	viceversa	_	_	_	viceversa	_	_	189-4	_	_	
+190-6	5047-5050	non	_	_	_	non	_	_	189-5	_	_	
+190-7	5051-5053	mi	_	_	_	mi	_	_	189-6	_	_	
+190-8	5054-5061	ricordo	_	_	_	ricordo	_	_	189-7	_	_	
+
+#Text=allora lei diceva io devo pagare tremila euro
+191-1	5062-5068	allora	_	_	_	allora	_	PKP130	190-0	_	_	
+191-2	5069-5072	lei	_	_	_	lei	_	_	190-1	_	_	
+191-3	5073-5079	diceva	_	_	_	diceva	_	_	190-2	_	_	
+191-4	5080-5082	io	_	_	_	io	_	_	190-3	_	_	
+191-5	5083-5087	devo	_	_	_	devo	_	_	190-4	_	_	
+191-6	5088-5094	pagare	_	_	_	pagare	_	_	190-5	_	_	
+191-7	5095-5102	tremila	_	_	_	TREMILA	_	_	190-6	_	_	
+191-8	5103-5107	euro	_	_	_	EURO	_	_	190-7	_	_	
+
+#Text=per fare il tfa
+192-1	5108-5111	per	_	_	_	per	_	PKP130	191-0	_	_	
+192-2	5112-5116	fare	_	_	_	fare	_	_	191-1	_	_	
+192-3	5117-5119	il	_	_	_	il	_	_	191-2	_	_	
+192-4	5120-5123	tfa	_	_	_	TFA	_	_	191-3	_	_	
+
+#Text=e poi mi devo abilitare soltanto su una classe di concorso dice non è giusto
+193-1	5124-5125	e	_	_	_	e	_	PKP130	192-0	_	_	
+193-2	5126-5129	poi	_	_	_	poi	_	_	192-1	_	_	
+193-3	5130-5132	mi	_	_	_	mi	_	_	192-2	_	_	
+193-4	5133-5137	devo	_	_	_	devo	_	_	192-3	_	_	
+193-5	5138-5147	abilitare	_	_	_	abilitare	_	_	192-4	_	_	
+193-6	5148-5156	soltanto	_	_	_	soltanto	_	_	192-5	_	_	
+193-7	5157-5159	su	_	_	_	su	_	_	192-6	_	_	
+193-8	5160-5163	una	_	_	_	una	_	_	192-7	_	_	
+193-9	5164-5170	classe	_	_	_	classe	_	_	192-8	_	_	
+193-10	5171-5173	di	_	_	_	di	_	_	192-9	_	_	
+193-11	5174-5182	concorso	_	_	_	concorso	_	_	192-10	_	_	
+193-12	5183-5187	dice	_	_	_	dice	_	_	192-11	_	_	
+193-13	5188-5191	non	_	_	_	\[non\]	_	_	192-12	*->53-1	*[53]	
+193-14	5192-5193	è	_	_	_	è	_	_	192-13	_	_	
+193-15	5194-5200	giusto	_	_	_	giusto	_	_	192-14	_	_	
+
+#Text=beh
+194-1	5201-5204	beh	BC	_	_	\[beh\]	_	PKP125	193-0	*->53-2	*[53]	
+
+#Text=e quindi praticamente
+195-1	5205-5206	e	_	_	_	e	_	PKP130	194-0	_	_	
+195-2	5207-5213	quindi	_	_	_	quindi	_	_	194-1	_	_	
+195-3	5214-5226	praticamente	_	_	_	PRATICAMENTE:	_	_	194-2	_	_	
+
+#Text=fece domanda per napoli
+196-1	5227-5231	fece	_	_	_	fece	_	PKP130	195-0	_	_	
+196-2	5232-5239	domanda	_	_	_	domanda	_	_	195-1	_	_	
+196-3	5240-5243	per	_	_	_	per	_	_	195-2	_	_	
+196-4	5244-5250	napoli	_	_	_	napoli:	_	_	195-3	_	_	
+
+#Text=e fu presa a napoli
+197-1	5251-5252	e	_	_	_	e	_	PKP130	196-0	_	_	
+197-2	5253-5255	fu	_	_	_	fu	_	_	196-1	_	_	
+197-3	5256-5261	presa	_	_	_	presa	_	_	196-2	_	_	
+197-4	5262-5263	a	_	_	_	a	_	_	196-3	_	_	
+197-5	5264-5270	napoli	_	_	_	napoli	_	_	196-4	_	_	
+
+#Text=mh
+198-1	5271-5273	mh	BC	_	_	m:h	_	PKP125	197-0	_	_	
+
+#Text=e viveva
+199-1	5274-5275	e	_	_	_	e	_	PKP130	198-0	_	_	
+199-2	5276-5282	viveva	_	_	_	viveva:	_	_	198-1	_	_	
+
+#Text=dove viv~ viveva proprio a mh
+200-1	5283-5287	dove	_	_	_	dove	_	PKP130	199-0	_	_	
+200-2	5288-5292	viv~	_	_	_	viv~	_	_	199-1	_	_	
+200-3	5293-5299	viveva	_	_	_	viveva	_	_	199-2	_	_	
+200-4	5300-5307	proprio	_	_	_	proprio	_	_	199-3	_	_	
+200-5	5308-5309	a	_	_	_	a:	_	_	199-4	_	_	
+200-6	5310-5312	mh	_	FP	_	m:h	_	_	199-5	_	_	
+
+#Text=a via dei mh come si chiama
+201-1	5313-5314	a	_	_	_	a	_	PKP130	200-0	_	_	
+201-2	5315-5318	via	_	_	_	via	_	_	200-1	_	_	
+201-3	5319-5322	dei	_	_	_	dei::	_	_	200-2	_	_	
+201-4	5323-5325	mh	_	FP	_	m:h	_	_	200-3	_	_	
+201-5	5326-5330	come	_	_	_	>come	_	_	200-4	_	_	
+201-6	5331-5333	si	_	_	_	si	_	_	200-5	_	_	
+201-7	5334-5340	chiama	_	_	_	chiama<	_	_	200-6	_	_	
+
+#Text=quella stradina hai presente dove sta @nomeluogo?
+202-1	5341-5347	quella	_	_	_	quella	_	PKP130	201-0	_	_	
+202-2	5348-5356	stradina	_	_	_	stradina	_	_	201-1	_	_	
+202-3	5357-5360	hai	_	_	_	>hai	_	_	201-2	_	_	
+202-4	5361-5369	presente	_	_	_	presente<	_	_	201-3	_	_	
+202-5	5370-5374	dove	_	_	_	dove	_	_	201-4	_	_	
+202-6	5375-5378	sta	_	_	_	sta	_	_	201-5	_	_	
+202-7	5379-5390	@nomeluogo?	_	_	_	@nomeluogo?	_	_	201-6	_	_	
+
+#Text=@nomeluogo?
+203-1	5391-5402	@nomeluogo?	_	_	_	@nomeluogo?	_	PKP130	202-0	_	_	
+
+#Text=sulla salita che ti porta là
+204-1	5403-5408	sulla	_	_	_	sulla	_	PKP130	203-0	_	_	
+204-2	5409-5415	salita	_	_	_	salita	_	_	203-1	_	_	
+204-3	5416-5419	che	_	_	_	che	_	_	203-2	_	_	
+204-4	5420-5422	ti	_	_	_	ti	_	_	203-3	_	_	
+204-5	5423-5428	porta	_	_	_	porta	_	_	203-4	_	_	
+204-6	5429-5431	là	_	_	_	\[LÀ\]	_	_	203-5	*->6-1	*[6]	
+
+#Text=sì
+205-1	5432-5434	sì	BC	_	_	\[sì\]	_	PKP125	204-0	*->6-2	*[6]	
+
+#Text=@nomeluogo
+206-1	5435-5445	@nomeluogo	_	_	_	@nomeluogo	_	PKP125	205-0	_	_	
+
+#Text=eh beh sì per di là comunque
+207-1	5446-5448	eh	_	FP	_	e:h	_	PKP130	206-0	_	_	
+207-2	5449-5452	beh	_	_	_	beh	_	_	206-1	_	_	
+207-3	5453-5455	sì	_	_	_	sì	_	_	206-2	_	_	
+207-4	5456-5459	per	_	_	_	per	_	_	206-3	_	_	
+207-5	5460-5462	di	_	_	_	di	_	_	206-4	_	_	
+207-6	5463-5465	là	_	_	_	là	_	_	206-5	_	_	
+207-7	5466-5474	comunque	_	_	_	comunque	_	_	206-6	_	_	
+
+#Text=un bel~ un bell' appartamentino molto luminoso
+208-1	5475-5477	un	_	_	_	un	_	PKP130	207-0	_	_	
+208-2	5478-5482	bel~	_	_	_	bel:~	_	_	207-1	_	_	
+208-3	5483-5485	un	_	_	_	un	_	_	207-2	_	_	
+208-4	5486-5491	bell'	_	_	_	bell'	_	_	207-3	_	_	
+208-5	5492-5506	appartamentino	_	_	_	appartamentino	_	_	207-4	_	_	
+208-6	5507-5512	molto	_	_	_	molto:	_	_	207-5	_	_	
+208-7	5513-5521	luminoso	_	_	_	luminoso	_	_	207-6	_	_	
+
+#Text=mh
+209-1	5522-5524	mh	BC	_	_	mh	_	PKP125	208-0	_	_	
+
+#Text=mh
+210-1	5525-5527	mh	BC	_	_	mh	_	PKP130	209-0	_	_	
+
+#Text=si è fatta il tfa qua praticamente
+211-1	5528-5530	si	_	_	_	si	_	PKP130	210-0	_	_	
+211-2	5531-5532	è	_	_	_	è	_	_	210-1	_	_	
+211-3	5533-5538	fatta	_	_	_	fatta	_	_	210-2	_	_	
+211-4	5539-5541	il	_	_	_	il	_	_	210-3	_	_	
+211-5	5542-5545	tfa	_	_	_	tfa	_	_	210-4	_	_	
+211-6	5546-5549	qua	_	_	_	qua	_	_	210-5	_	_	
+211-7	5550-5562	praticamente	_	_	_	praticamente	_	_	210-6	_	_	
+
+#Text=poi ha fatto il concorso duemila e sedici in molise
+212-1	5563-5566	poi	_	_	_	poi	_	PKP130	211-0	_	_	
+212-2	5567-5569	ha	_	_	_	ha	_	_	211-1	_	_	
+212-3	5570-5575	fatto	_	_	_	fatto	_	_	211-2	_	_	
+212-4	5576-5578	il	_	_	_	il	_	_	211-3	_	_	
+212-5	5579-5587	concorso	_	_	_	concorso	_	_	211-4	_	_	
+212-6	5588-5595	duemila	_	_	_	duemila	_	_	211-5	_	_	
+212-7	5596-5597	e	_	_	_	e	_	_	211-6	_	_	
+212-8	5598-5604	sedici	_	_	_	sedici	_	_	211-7	_	_	
+212-9	5605-5607	in	_	_	_	in	_	_	211-8	_	_	
+212-10	5608-5614	molise	_	_	weakly\_rising	molise,	_	_	211-9	_	_	
+
+#Text=in molise c' erano due posti
+213-1	5615-5617	in	_	_	_	in	_	PKP130	212-0	_	_	
+213-2	5618-5624	molise	_	_	_	molise	_	_	212-1	_	_	
+213-3	5625-5627	c'	_	_	_	c'	_	_	212-2	_	_	
+213-4	5628-5633	erano	_	_	_	erano	_	_	212-3	_	_	
+213-5	5634-5637	due	_	_	_	due	_	_	212-4	_	_	
+213-6	5638-5643	posti	_	_	_	posti	_	_	212-5	_	_	
+
+#Text=((ride))
+214-1	5644-5652	((ride))	_	_	_	((ride))	_	PKP125	213-0	_	_	
+
+#Text=praticamente
+215-1	5653-5665	praticamente	_	_	_	pra\[ticamente\]	_	PKP130	214-0	_	_	
+
+#Text=il primo anno non è entrata
+216-1	5666-5668	il	_	_	_	il	_	PKP130	215-0	_	_	
+216-2	5669-5674	primo	_	_	_	primo	_	_	215-1	_	_	
+216-3	5675-5679	anno	_	_	_	anno	_	_	215-2	_	_	
+216-4	5680-5683	non	_	_	_	non	_	_	215-3	_	_	
+216-5	5684-5685	è	_	_	_	è	_	_	215-4	_	_	
+216-6	5686-5693	entrata	_	_	_	ENTRATA	_	_	215-5	_	_	
+
+#Text=e l' ha superato
+217-1	5694-5695	e	_	_	_	e	_	PKP130	216-0	_	_	
+217-2	5696-5698	l'	_	_	_	l'	_	_	216-1	_	_	
+217-3	5699-5701	ha	_	_	_	ha	_	_	216-2	_	_	
+217-4	5702-5710	superato	_	_	Falling	superato.	_	_	216-3	_	_	
+
+#Text=ma il primo anno non è entrata
+218-1	5711-5713	ma	_	_	_	ma	_	PKP130	217-0	_	_	
+218-2	5714-5716	il	_	_	_	il	_	_	217-1	_	_	
+218-3	5717-5722	primo	_	_	_	primo	_	_	217-2	_	_	
+218-4	5723-5727	anno	_	_	_	anno	_	_	217-3	_	_	
+218-5	5728-5731	non	_	_	_	non	_	_	217-4	_	_	
+218-6	5732-5733	è	_	_	_	è	_	_	217-5	_	_	
+218-7	5734-5741	entrata	_	_	_	entrata	_	_	217-6	_	_	
+
+#Text=il secondo anno è entrata ma a cento chilometri da casa
+219-1	5742-5744	il	_	_	_	il	_	PKP130	218-0	_	_	
+219-2	5745-5752	secondo	_	_	_	secondo	_	_	218-1	_	_	
+219-3	5753-5757	anno	_	_	_	anno	_	_	218-2	_	_	
+219-4	5758-5759	è	_	_	_	è	_	_	218-3	_	_	
+219-5	5760-5767	entrata	_	_	_	entrata	_	_	218-4	_	_	
+219-6	5768-5770	ma	_	_	_	ma	_	_	218-5	_	_	
+219-7	5771-5772	a	_	_	_	a	_	_	218-6	_	_	
+219-8	5773-5778	cento	_	_	_	cento	_	_	218-7	_	_	
+219-9	5779-5789	chilometri	_	_	_	chilometri	_	_	218-8	_	_	
+219-10	5790-5792	da	_	_	_	da	_	_	218-9	_	_	
+219-11	5793-5797	casa	_	_	Falling	casa.	_	_	218-10	_	_	
+
+#Text=mh
+220-1	5798-5800	mh	BC	_	_	mh	_	PKP130	219-0	_	_	
+
+#Text=ma a cento chilometri da casa e si è affittata un appartamento
+221-1	5801-5803	ma	_	_	_	ma	_	PKP130	220-0	_	_	
+221-2	5804-5805	a	_	_	_	a	_	_	220-1	_	_	
+221-3	5806-5811	cento	_	_	_	cento	_	_	220-2	_	_	
+221-4	5812-5822	chilometri	_	_	_	chilometri	_	_	220-3	_	_	
+221-5	5823-5825	da	_	_	_	DA	_	_	220-4	_	_	
+221-6	5826-5830	casa	_	_	_	CASA	_	_	220-5	_	_	
+221-7	5831-5832	e	_	_	_	e	_	_	220-6	_	_	
+221-8	5833-5835	si	_	_	_	si	_	_	220-7	_	_	
+221-9	5836-5837	è	_	_	_	è	_	_	220-8	_	_	
+221-10	5838-5847	affittata	_	_	_	\[affittata	_	_	220-9	*->24-1	*[24]	
+221-11	5848-5850	un	_	_	_	un	_	_	220-10	*->24-2	*[24]	
+221-12	5851-5863	appartamento	_	_	_	appartamento:\]	_	_	220-11	*->24-3	*[24]	
+
+#Text=ma sempre in molise
+222-1	5864-5866	ma	_	_	_	ma	_	PKP125	221-0	_	_	
+222-2	5867-5873	sempre	_	_	_	sempre	_	_	221-1	_	_	
+222-3	5874-5876	in	_	_	_	in	_	_	221-2	_	_	
+222-4	5877-5883	molise	_	_	Rising	molise?	_	_	221-3	_	_	
+
+#Text=sempre in molise
+223-1	5884-5890	sempre	_	_	_	sempre	_	PKP130	222-0	_	_	
+223-2	5891-5893	in	_	_	_	in	_	_	222-1	_	_	
+223-3	5894-5900	molise	_	_	_	molise	_	_	222-2	_	_	
+
+#Text=ah
+224-1	5901-5903	ah	BC	_	_	°ah°	_	PKP125	223-0	_	_	
+
+#Text=ha affittato un appartamento però
+225-1	5904-5906	ha	_	_	_	ha	_	PKP130	224-0	_	_	
+225-2	5907-5916	affittato	_	_	_	affittato	_	_	224-1	_	_	
+225-3	5917-5919	un	_	_	_	un	_	_	224-2	_	_	
+225-4	5920-5932	appartamento	_	_	_	appartamento	_	_	224-3	_	_	
+225-5	5933-5937	però	_	_	_	però	_	_	224-4	_	_	
+
+#Text=poi si è lasciata col ragazzo e poi si è messa proprio con un un ragazzo un professore della scuola
+226-1	5938-5941	poi	_	_	_	poi	_	PKP130	225-0	_	_	
+226-2	5942-5944	si	_	_	_	si	_	_	225-1	_	_	
+226-3	5945-5946	è	_	_	_	è	_	_	225-2	_	_	
+226-4	5947-5955	lasciata	_	_	_	lasciata	_	_	225-3	_	_	
+226-5	5956-5959	col	_	_	_	col	_	_	225-4	_	_	
+226-6	5960-5967	ragazzo	_	_	_	RAGAZZO	_	_	225-5	_	_	
+226-7	5968-5969	e	_	_	_	e	_	_	225-6	_	_	
+226-8	5970-5973	poi	_	_	_	poi	_	_	225-7	_	_	
+226-9	5974-5976	si	_	_	_	si	_	_	225-8	_	_	
+226-10	5977-5978	è	_	_	_	è	_	_	225-9	_	_	
+226-11	5979-5984	messa	_	_	_	messa	_	_	225-10	_	_	
+226-12	5985-5992	proprio	_	_	_	proprio	_	_	225-11	_	_	
+226-13	5993-5996	con	_	_	_	con	_	_	225-12	_	_	
+226-14	5997-5999	un	_	_	_	un:	_	_	225-13	_	_	
+226-15	6000-6002	un	_	_	_	un	_	_	225-14	_	_	
+226-16	6003-6010	ragazzo	_	_	_	ragazzo	_	_	225-15	_	_	
+226-17	6011-6013	un	_	_	_	un	_	_	225-16	_	_	
+226-18	6014-6024	professore	_	_	_	professore	_	_	225-17	_	_	
+226-19	6025-6030	della	_	_	_	della	_	_	225-18	_	_	
+226-20	6031-6037	scuola	_	_	_	scuola:	_	_	225-19	_	_	
+
+#Text=della scuola sua
+227-1	6038-6043	della	_	_	_	della	_	PKP130	226-0	_	_	
+227-2	6044-6050	scuola	_	_	_	scuola	_	_	226-1	_	_	
+227-3	6051-6054	sua	_	_	_	sua	_	_	226-2	_	_	
+
+#Text=ma ah [PAUSE] questa scuola sua è a cento chilometri da casa
+228-1	6055-6057	ma	_	_	_	ma	_	PKP125	227-0	_	_	
+228-2	6058-6060	ah	_	_	_	ah	_	_	227-1	_	_	
+228-3	6061-6068	[PAUSE]	_	_	_	(.)	_	_	227-2	_	_	
+228-4	6069-6075	questa	_	_	_	questa	_	_	227-3	_	_	
+228-5	6076-6082	scuola	_	_	_	scuola	_	_	227-4	_	_	
+228-6	6083-6086	sua	_	_	_	sua	_	_	227-5	_	_	
+228-7	6087-6088	è	_	_	_	è	_	_	227-6	_	_	
+228-8	6089-6090	a	_	_	_	a	_	_	227-7	_	_	
+228-9	6091-6096	cento	_	_	_	cento	_	_	227-8	_	_	
+228-10	6097-6107	chilometri	_	_	_	chilometri	_	_	227-9	_	_	
+228-11	6108-6110	da	_	_	_	da	_	_	227-10	_	_	
+228-12	6111-6115	casa	_	_	Rising	\[casa\]?	_	_	227-11	*->72-1	*[72]	
+
+#Text=mh
+229-1	6116-6118	mh	_	_	_	\[mh\]	_	PKP130	228-0	*->72-2	*[72]	
+
+#Text=sì sì
+230-1	6119-6121	sì	_	_	_	sì	_	PKP130	229-0	_	_	
+230-2	6122-6124	sì	_	_	_	\[sì\]	_	_	229-1	*->155-1	*[155]	
+
+#Text=ah è andata quindi
+231-1	6125-6127	ah	BC	_	_	\[AH\]	_	PKP125	230-0	*->155-2	*[155]	
+231-2	6128-6129	è	_	_	_	è	_	_	230-1	_	_	
+231-3	6130-6136	andata	_	_	_	andata	_	_	230-2	_	_	
+231-4	6137-6143	quindi	_	_	_	\[quindi\]	_	_	230-3	*->122-1	*[122]	
+
+#Text=mh
+232-1	6144-6146	mh	BC	_	_	\[mh\]	_	PKP130	231-0	*->122-2	*[122]	
+
+#Text=il secondo anno è stata chiamata però non il primo anno capito
+233-1	6147-6149	il	_	_	_	IL	_	PKP130	232-0	_	_	
+233-2	6150-6157	secondo	_	_	_	SECONDO	_	_	232-1	_	_	
+233-3	6158-6162	anno	_	_	_	ANNO	_	_	232-2	_	_	
+233-4	6163-6164	è	_	_	_	è	_	_	232-3	_	_	
+233-5	6165-6170	stata	_	_	_	stata	_	_	232-4	_	_	
+233-6	6171-6179	chiamata	_	_	_	chiamata	_	_	232-5	_	_	
+233-7	6180-6184	però	_	_	_	però	_	_	232-6	_	_	
+233-8	6185-6188	non	_	_	_	non	_	_	232-7	_	_	
+233-9	6189-6191	il	_	_	_	il	_	_	232-8	_	_	
+233-10	6192-6197	primo	_	_	_	primo	_	_	232-9	_	_	
+233-11	6198-6202	anno	_	_	_	anno	_	_	232-10	_	_	
+233-12	6203-6209	capito	_	_	Rising	CAPITO?	_	_	232-11	_	_	
+
+#Text=mh
+234-1	6210-6212	mh	BC	_	_	m:h	_	PKP125	233-0	_	_	
+
+#Text=e il molise è due posti
+235-1	6213-6214	e	_	_	_	e	_	PKP130	234-0	_	_	
+235-2	6215-6217	il	_	_	_	il	_	_	234-1	_	_	
+235-3	6218-6224	molise	_	_	_	molise	_	_	234-2	_	_	
+235-4	6225-6226	è	_	_	_	è	_	_	234-3	_	_	
+235-5	6227-6230	due	_	_	_	due	_	_	234-4	_	_	
+235-6	6231-6236	posti	_	_	_	posti	_	_	234-5	_	_	
+
+#Text=no eh sono poche scuole
+236-1	6237-6239	no	_	_	_	no	_	PKP125	235-0	_	_	
+236-2	6240-6242	eh	_	_	_	eh	_	_	235-1	_	_	
+236-3	6243-6247	sono	_	_	_	\[sono	_	_	235-2	*->117-1	*[117]	
+236-4	6248-6253	poche	_	_	_	po\]che	_	_	235-3	_	_	
+236-4.1	6248-6250	po	_	_	_	_	_	_	_	*->117-2	*[117]	
+236-5	6254-6260	scuole	_	_	_	<scuole>	_	_	235-4	_	_	
+
+#Text=e il primo
+237-1	6261-6262	e	_	_	_	\[e	_	PKP130	236-0	*->117-3	*[117]	
+237-2	6263-6265	il	_	_	_	il	_	_	236-1	*->117-4	*[117]	
+237-3	6266-6271	primo	_	_	_	primo\]	_	_	236-2	*->117-5	*[117]	
+
+#Text=eh
+238-1	6272-6274	eh	BC	_	_	eh	_	PKP130	237-0	_	_	
+
+#Text=due province poche scuole
+239-1	6275-6278	due	_	_	_	due	_	PKP125	238-0	_	_	
+239-2	6279-6287	province	_	_	_	province	_	_	238-1	_	_	
+239-3	6288-6293	poche	_	_	_	poche	_	_	238-2	_	_	
+239-4	6294-6300	scuole	_	_	_	scuole	_	_	238-3	_	_	
+
+#Text=il primo posto mh è andato ad una persona nell' anno sedici diciassette l' anno del concorso
+240-1	6301-6303	il	_	_	_	il	_	PKP130	239-0	_	_	
+240-2	6304-6309	primo	_	_	_	primo	_	_	239-1	_	_	
+240-3	6310-6315	posto	_	_	_	posto	_	_	239-2	_	_	
+240-4	6316-6318	mh	_	FP	_	m:h	_	_	239-3	_	_	
+240-5	6319-6320	è	_	_	_	è	_	_	239-4	_	_	
+240-6	6321-6327	andato	_	_	_	andato:	_	_	239-5	_	_	
+240-7	6328-6330	ad	_	_	_	ad	_	_	239-6	_	_	
+240-8	6331-6334	una	_	_	_	una	_	_	239-7	_	_	
+240-9	6335-6342	persona	_	_	_	persona	_	_	239-8	_	_	
+240-10	6343-6348	nell'	_	_	_	nell'	_	_	239-9	_	_	
+240-11	6349-6353	anno	_	_	_	anno	_	_	239-10	_	_	
+240-12	6354-6360	sedici	_	_	_	sedici	_	_	239-11	_	_	
+240-13	6361-6372	diciassette	_	_	_	diciassette	_	_	239-12	_	_	
+240-14	6373-6375	l'	_	_	_	l'	_	_	239-13	_	_	
+240-15	6376-6380	anno	_	_	_	anno	_	_	239-14	_	_	
+240-16	6381-6384	del	_	_	_	del	_	_	239-15	_	_	
+240-17	6385-6393	concorso	_	_	Falling	CONCORSO.	_	_	239-16	_	_	
+
+#Text=e il secondo anno il diciassette quando è entrata francesca è stata chiamata pure lei
+241-1	6394-6395	e	_	_	_	e	_	PKP130	240-0	_	_	
+241-2	6396-6398	il	_	_	_	il	_	_	240-1	_	_	
+241-3	6399-6406	secondo	_	_	_	<secondo	_	_	240-2	_	_	
+241-4	6407-6411	anno	_	_	_	anno>	_	_	240-3	_	_	
+241-5	6412-6414	il	_	_	_	il	_	_	240-4	_	_	
+241-6	6415-6426	diciassette	_	_	_	diciassette	_	_	240-5	_	_	
+241-7	6427-6433	quando	_	_	_	quando	_	_	240-6	_	_	
+241-8	6434-6435	è	_	_	_	è	_	_	240-7	_	_	
+241-9	6436-6443	entrata	_	_	_	entrata	_	_	240-8	_	_	
+241-10	6444-6453	francesca	_	_	_	francesca	_	_	240-9	_	_	
+241-11	6454-6455	è	_	_	_	è	_	_	240-10	_	_	
+241-12	6456-6461	stata	_	_	_	stata	_	_	240-11	_	_	
+241-13	6462-6470	chiamata	_	_	_	chiamata	_	_	240-12	_	_	
+241-14	6471-6475	pure	_	_	_	pure	_	_	240-13	_	_	
+241-15	6476-6479	lei	_	_	_	lei	_	_	240-14	_	_	
+
+#Text=capito
+242-1	6480-6486	capito	_	_	Rising	>capito<?	_	PKP130	241-0	_	_	
+
+#Text=mh
+243-1	6487-6489	mh	_	_	_	mh	_	PKP125	242-0	_	_	
+
+#Text=è stata chiamata pure lei e mh
+244-1	6490-6491	è	_	_	_	è	_	PKP130	243-0	_	_	
+244-2	6492-6497	stata	_	_	_	stata	_	_	243-1	_	_	
+244-3	6498-6506	chiamata	_	_	_	chiamata	_	_	243-2	_	_	
+244-4	6507-6511	pure	_	_	_	pure	_	_	243-3	_	_	
+244-5	6512-6515	lei	_	_	_	lei	_	_	243-4	_	_	
+244-6	6516-6517	e	_	_	_	e:	_	_	243-5	_	_	
+244-7	6518-6520	mh	_	FP	_	m::h	_	_	243-6	_	_	
+
+#Text=e quindi
+245-1	6521-6522	e	_	_	_	e	_	PKP130	244-0	_	_	
+245-2	6523-6529	quindi	_	_	_	quindi::	_	_	244-1	_	_	
+
+#Text=è andata
+246-1	6530-6531	è	_	_	_	è	_	PKP130	245-0	_	_	
+246-2	6532-6538	andata	_	_	_	andata	_	_	245-1	_	_	
+
+#Text=mh
+247-1	6539-6541	mh	BC	_	_	mh	_	PKP125	246-0	_	_	
+
+#Text=e in che paese sta
+248-1	6542-6543	e	_	_	_	e	_	PKP125	247-0	_	_	
+248-2	6544-6546	in	_	_	_	in	_	_	247-1	_	_	
+248-3	6547-6550	che	_	_	_	che	_	_	247-2	_	_	
+248-4	6551-6556	paese	_	_	_	paese	_	_	247-3	_	_	
+248-5	6557-6560	sta	_	_	Rising	sta?	_	_	247-4	_	_	
+
+#Text=eh non mi ricordo
+249-1	6561-6563	eh	_	FP	_	e:h	_	PKP130	248-0	_	_	
+249-2	6564-6567	non	_	_	_	non	_	_	248-1	_	_	
+249-3	6568-6570	mi	_	_	_	mi	_	_	248-2	_	_	
+249-4	6571-6578	ricordo	_	_	_	ricordo	_	_	248-3	_	_	
+
+#Text=sul mare
+250-1	6579-6582	sul	_	_	_	sul	_	PKP125	249-0	_	_	
+250-2	6583-6587	mare	_	_	Rising	mare?	_	_	249-1	_	_	
+
+#Text=boh
+251-1	6588-6591	boh	_	_	weakly\_rising	boh,	_	PKP130	250-0	_	_	
+
+#Text=non credo
+252-1	6592-6595	non	_	_	_	non	_	PKP125	251-0	_	_	
+252-2	6596-6601	credo	_	_	_	credo	_	_	251-1	_	_	
+
+#Text=glielo chiederò
+253-1	6602-6608	glielo	_	_	_	glielo	_	PKP130	252-0	_	_	
+253-2	6609-6617	chiederò	_	_	_	chiederò	_	_	252-1	_	_	
+
+#Text=mh mi fa piacere verderl
+254-1	6618-6620	mh	_	_	_	>mh<	_	PKP130	253-0	_	_	
+254-2	6621-6623	mi	_	_	_	mi	_	_	253-1	_	_	
+254-3	6624-6626	fa	_	_	_	fa	_	_	253-2	_	_	
+254-4	6627-6634	piacere	_	_	_	piacere	_	_	253-3	_	_	
+254-5	6635-6642	verderl	_	_	_	verderl:	_	_	253-4	_	_	
+
+#Text=e po' è na tipa eh questa qui ha parenti dal new jersey
+255-1	6643-6644	e	_	_	_	e	_	PKP130	254-0	_	_	
+255-2	6645-6648	po'	_	_	_	po'	_	_	254-1	_	_	
+255-3	6649-6650	è	_	_	_	è	_	_	254-2	_	_	
+255-4	6651-6653	na	_	_	_	na	_	_	254-3	_	_	
+255-5	6654-6658	tipa	_	_	_	tipa	_	_	254-4	_	_	
+255-6	6659-6661	eh	_	FP	_	EH	_	_	254-5	_	_	
+255-7	6662-6668	questa	_	_	_	QUESTA	_	_	254-6	_	_	
+255-8	6669-6672	qui	_	_	_	QUI	_	_	254-7	_	_	
+255-9	6673-6675	ha	_	_	_	ha	_	_	254-8	_	_	
+255-10	6676-6683	parenti	_	_	_	parenti	_	_	254-9	_	_	
+255-11	6684-6687	dal	_	_	_	dal	_	_	254-10	_	_	
+255-12	6688-6691	new	_	_	_	new	_	_	254-11	_	_	
+255-13	6692-6698	jersey	_	_	_	jersey	_	_	254-12	_	_	
+
+#Text=mh
+256-1	6699-6701	mh	BC	_	_	m:h	_	PKP125	255-0	_	_	
+
+#Text=e quindi praticamente lei ogni natale si faceva i mesi interi
+257-1	6702-6703	e	_	_	_	>e	_	PKP130	256-0	_	_	
+257-2	6704-6710	quindi	_	_	_	quindi	_	_	256-1	_	_	
+257-3	6711-6723	praticamente	_	_	_	praticamente<	_	_	256-2	_	_	
+257-4	6724-6727	lei	_	_	_	lei	_	_	256-3	_	_	
+257-5	6728-6732	ogni	_	_	_	ogni	_	_	256-4	_	_	
+257-6	6733-6739	natale	_	_	_	natale	_	_	256-5	_	_	
+257-7	6740-6742	si	_	_	_	si	_	_	256-6	_	_	
+257-8	6743-6749	faceva	_	_	_	faceva	_	_	256-7	_	_	
+257-9	6750-6751	i	_	_	_	i	_	_	256-8	_	_	
+257-10	6752-6756	mesi	_	_	_	mesi	_	_	256-9	_	_	
+257-11	6757-6763	interi	_	_	_	interi	_	_	256-10	_	_	
+
+#Text=tutte le vacanze di natale tutto gratis girava e infatti new york la conosce benissimo
+258-1	6764-6769	tutte	_	_	_	tutte	_	PKP130	257-0	_	_	
+258-2	6770-6772	le	_	_	_	le	_	_	257-1	_	_	
+258-3	6773-6780	vacanze	_	_	_	vacanze	_	_	257-2	_	_	
+258-4	6781-6783	di	_	_	_	di	_	_	257-3	_	_	
+258-5	6784-6790	natale	_	_	_	natale	_	_	257-4	_	_	
+258-6	6791-6796	tutto	_	_	_	tutto	_	_	257-5	_	_	
+258-7	6797-6803	gratis	_	_	_	<gratis>	_	_	257-6	_	_	
+258-8	6804-6810	girava	_	_	_	girava	_	_	257-7	_	_	
+258-9	6811-6812	e	_	_	_	e	_	_	257-8	_	_	
+258-10	6813-6820	infatti	_	_	_	infatti	_	_	257-9	_	_	
+258-11	6821-6824	new	_	_	_	new	_	_	257-10	_	_	
+258-12	6825-6829	york	_	_	_	york	_	_	257-11	_	_	
+258-13	6830-6832	la	_	_	_	la	_	_	257-12	_	_	
+258-14	6833-6840	conosce	_	_	_	conosce	_	_	257-13	_	_	
+258-15	6841-6850	benissimo	_	_	_	<benissimo>	_	_	257-14	_	_	
+
+#Text=mh
+259-1	6851-6853	mh	BC	_	_	m:h	_	PKP125	258-0	_	_	
+
+#Text=stava sempre là e mi ha portato un sacco di cose
+260-1	6854-6859	stava	_	_	_	stava	_	PKP130	259-0	_	_	
+260-2	6860-6866	sempre	_	_	_	sempre	_	_	259-1	_	_	
+260-3	6867-6869	là	_	_	_	là	_	_	259-2	_	_	
+260-4	6870-6871	e	_	_	_	e	_	_	259-3	_	_	
+260-5	6872-6874	mi	_	_	_	mi	_	_	259-4	_	_	
+260-6	6875-6877	ha	_	_	_	ha	_	_	259-5	_	_	
+260-7	6878-6885	portato	_	_	_	portato	_	_	259-6	_	_	
+260-8	6886-6888	un	_	_	_	un	_	_	259-7	_	_	
+260-9	6889-6894	sacco	_	_	_	sacco	_	_	259-8	_	_	
+260-10	6895-6897	di	_	_	_	di	_	_	259-9	_	_	
+260-11	6898-6902	cose	_	_	_	cose	_	_	259-10	_	_	
+
+#Text=mi mh mi regalò una volta una yankee candle che aveva comprato là
+261-1	6903-6905	mi	_	_	_	mi	_	PKP130	260-0	_	_	
+261-2	6906-6908	mh	_	FP	_	mh	_	_	260-1	_	_	
+261-3	6909-6911	mi	_	_	_	mi	_	_	260-2	_	_	
+261-4	6912-6918	regalò	_	_	_	regalò	_	_	260-3	_	_	
+261-5	6919-6922	una	_	_	_	una	_	_	260-4	_	_	
+261-6	6923-6928	volta	_	_	_	volta	_	_	260-5	_	_	
+261-7	6929-6932	una	_	_	_	una	_	_	260-6	_	_	
+261-8	6933-6939	yankee	_	_	_	<yankee	_	_	260-7	_	_	
+261-9	6940-6946	candle	_	_	_	candle>	_	_	260-8	_	_	
+261-10	6947-6950	che	_	_	_	che	_	_	260-9	_	_	
+261-11	6951-6956	aveva	_	_	_	aveva	_	_	260-10	_	_	
+261-12	6957-6965	comprato	_	_	_	comprato	_	_	260-11	_	_	
+261-13	6966-6968	là	_	_	_	là	_	_	260-12	_	_	
+
+#Text=e perché non se n' è andata in america no
+262-1	6969-6970	e	_	_	_	e	_	PKP125	261-0	_	_	
+262-2	6971-6977	perché	_	_	_	pe(r)ché	_	_	261-1	_	_	
+262-3	6978-6981	non	_	_	_	non	_	_	261-2	_	_	
+262-4	6982-6984	se	_	_	_	se	_	_	261-3	_	_	
+262-5	6985-6987	n'	_	_	_	n'	_	_	261-4	_	_	
+262-6	6988-6989	è	_	_	_	è	_	_	261-5	_	_	
+262-7	6990-6996	andata	_	_	_	andata	_	_	261-6	_	_	
+262-8	6997-6999	in	_	_	_	in	_	_	261-7	_	_	
+262-9	7000-7007	america	_	_	_	america	_	_	261-8	_	_	
+262-10	7008-7010	no	_	_	Rising	no?	_	_	261-9	_	_	
+
+#Text=eh
+263-1	7011-7013	eh	_	_	_	\[e:h\]	_	PKP130	262-0	*->149-1	*[149]	
+
+#Text=non vuole
+264-1	7014-7017	non	_	_	_	\[non\]	_	PKP125	263-0	*->149-2	*[149]	
+264-2	7018-7023	vuole	_	_	_	vuole	_	_	263-1	_	_	
+
+#Text=ma quella mh sta bene la mamma mi pare lavora mh in polizia
+265-1	7024-7026	ma	_	_	_	ma	_	PKP130	264-0	_	_	
+265-2	7027-7033	quella	_	_	_	quella:	_	_	264-1	_	_	
+265-3	7034-7036	mh	_	FP	_	mh	_	_	264-2	_	_	
+265-4	7037-7040	sta	_	_	_	sta	_	_	264-3	_	_	
+265-5	7041-7045	bene	_	_	_	bene	_	_	264-4	_	_	
+265-6	7046-7048	la	_	_	_	la	_	_	264-5	_	_	
+265-7	7049-7054	mamma	_	_	_	<mamma:>	_	_	264-6	_	_	
+265-8	7055-7057	mi	_	_	_	mi	_	_	264-7	_	_	
+265-9	7058-7062	pare	_	_	_	pare	_	_	264-8	_	_	
+265-10	7063-7069	lavora	_	_	_	lavora	_	_	264-9	_	_	
+265-11	7070-7072	mh	_	FP	_	m:h	_	_	264-10	_	_	
+265-12	7073-7075	in	_	_	_	in	_	_	264-11	_	_	
+265-13	7076-7083	polizia	_	_	_	polizia:	_	_	264-12	_	_	
+
+#Text=eh al commissaria~ no al
+266-1	7084-7086	eh	_	FP	_	e:h	_	PKP130	265-0	_	_	
+266-2	7087-7089	al	_	_	_	al	_	_	265-1	_	_	
+266-3	7090-7102	commissaria~	_	_	_	commissaria~	_	_	265-2	_	_	
+266-4	7103-7105	no	_	_	_	no	_	_	265-3	_	_	
+266-5	7106-7108	al	_	_	_	al:	_	_	265-4	_	_	
+
+#Text=al commissariato una cosa del genere
+267-1	7109-7111	al	_	_	_	al	_	PKP130	266-0	_	_	
+267-2	7112-7125	commissariato	_	_	_	commissariato	_	_	266-1	_	_	
+267-3	7126-7129	una	_	_	_	una	_	_	266-2	_	_	
+267-4	7130-7134	cosa	_	_	_	cosa	_	_	266-3	_	_	
+267-5	7135-7138	del	_	_	_	del	_	_	266-4	_	_	
+267-6	7139-7145	genere	_	_	_	genere	_	_	266-5	_	_	
+
+#Text=una buona famiglia
+268-1	7146-7149	una	_	_	_	una	_	PKP130	267-0	_	_	
+268-2	7150-7155	buona	_	_	_	buona	_	_	267-1	_	_	
+268-3	7156-7164	famiglia	_	_	_	famiglia	_	_	267-2	_	_	
+
+#Text=mh
+269-1	7165-7167	mh	BC	_	_	mh	_	PKP125	268-0	_	_	
+
+#Text=pensa lei quando veniva a napoli non eh non si metteva le hogan
+270-1	7168-7173	pensa	_	_	_	pensa	_	PKP130	269-0	_	_	
+270-2	7174-7177	lei	_	_	_	lei	_	_	269-1	_	_	
+270-3	7178-7184	quando	_	_	_	quando	_	_	269-2	_	_	
+270-4	7185-7191	veniva	_	_	_	veniva	_	_	269-3	_	_	
+270-5	7192-7193	a	_	_	_	a	_	_	269-4	_	_	
+270-6	7194-7200	napoli	_	_	_	napoli	_	_	269-5	_	_	
+270-7	7201-7204	non	_	_	_	non:	_	_	269-6	_	_	
+270-8	7205-7207	eh	_	FP	_	eh	_	_	269-7	_	_	
+270-9	7208-7211	non	_	_	_	non	_	_	269-8	_	_	
+270-10	7212-7214	si	_	_	_	si	_	_	269-9	_	_	
+270-11	7215-7222	metteva	_	_	_	metteva	_	_	269-10	_	_	
+270-12	7223-7225	le	_	_	_	le	_	_	269-11	_	_	
+270-13	7226-7231	hogan	_	_	_	<hogan>	_	_	269-12	_	_	
+
+#Text=((ride))
+271-1	7232-7240	((ride))	_	_	_	((ride))	_	PKP125	270-0	_	_	
+
+#Text=e ricev arianna ma p' cchè non ti metti le hogan e ricev no perché ho paura che poi possano rubarle
+272-1	7241-7242	e	_	_	_	#e	_	PKP130	271-0	_	_	
+272-2	7243-7248	ricev	_	_	_	ricev	_	_	271-1	_	_	
+272-3	7249-7256	arianna	_	_	_	arianna	_	_	271-2	_	_	
+272-4	7257-7259	ma	_	_	_	ma	_	_	271-3	_	_	
+272-5	7260-7262	p'	_	_	_	p'	_	_	271-4	_	_	
+272-6	7263-7267	cchè	_	_	_	cchè	_	_	271-5	_	_	
+272-7	7268-7271	non	_	_	_	non	_	_	271-6	_	_	
+272-8	7272-7274	ti	_	_	_	ti	_	_	271-7	_	_	
+272-9	7275-7280	metti	_	_	_	metti	_	_	271-8	_	_	
+272-10	7281-7283	le	_	_	_	le	_	_	271-9	_	_	
+272-11	7284-7289	hogan	_	_	_	hogan	_	_	271-10	_	_	
+272-12	7290-7291	e	_	_	_	e	_	_	271-11	_	_	
+272-13	7292-7297	ricev	_	_	_	ricev	_	_	271-12	_	_	
+272-14	7298-7300	no	_	_	_	no	_	_	271-13	_	_	
+272-15	7301-7307	perché	_	_	_	perché	_	_	271-14	_	_	
+272-16	7308-7310	ho	_	_	_	ho	_	_	271-15	_	_	
+272-17	7311-7316	paura	_	_	_	paura	_	_	271-16	_	_	
+272-18	7317-7320	che	_	_	_	che	_	_	271-17	_	_	
+272-19	7321-7324	poi	_	_	_	poi:	_	_	271-18	_	_	
+272-20	7325-7332	possano	_	_	_	possano	_	_	271-19	_	_	
+272-21	7333-7340	rubarle	_	_	_	<rubarle>	_	_	271-20	_	_	
+
+#Text=((ride))
+273-1	7341-7349	((ride))	_	_	_	((ride))	_	PKP125	272-0	_	_	
+
+#Text=poi aveva il aveva l' iphone
+274-1	7350-7353	poi	_	_	_	POI	_	PKP130	273-0	_	_	
+274-2	7354-7359	aveva	_	_	_	aveva	_	_	273-1	_	_	
+274-3	7360-7362	il	_	_	_	il:	_	_	273-2	_	_	
+274-4	7363-7368	aveva	_	_	_	aveva	_	_	273-3	_	_	
+274-5	7369-7371	l'	_	_	_	l'	_	_	273-4	_	_	
+274-6	7372-7378	iphone	_	_	_	IPHONE	_	_	273-5	_	_	
+
+#Text=((ride))
+275-1	7379-7387	((ride))	_	_	_	((ride))	_	PKP125	274-0	_	_	
+
+#Text=aveva il caricatore
+276-1	7388-7393	aveva	_	_	_	aveva	_	PKP130	275-0	_	_	
+276-2	7394-7396	il	_	_	_	il	_	_	275-1	_	_	
+276-3	7397-7407	caricatore	_	_	_	<CARICATORE:>	_	_	275-2	_	_	
+
+#Text=originale dell' iphone
+277-1	7408-7417	originale	_	_	_	originale	_	PKP130	276-0	_	_	
+277-2	7418-7423	dell'	_	_	_	dell'	_	_	276-1	_	_	
+277-3	7424-7430	iphone	_	_	Falling	iphone.	_	_	276-2	_	_	
+
+#Text=hai presente quello là come io ce l' ho della cellular line quello là che
+278-1	7431-7434	hai	_	_	_	HAI	_	PKP130	277-0	_	_	
+278-2	7435-7443	presente	_	_	_	PRESENTE	_	_	277-1	_	_	
+278-3	7444-7450	quello	_	_	_	quello	_	_	277-2	_	_	
+278-4	7451-7453	là	_	_	_	là	_	_	277-3	_	_	
+278-5	7454-7458	come	_	_	_	come	_	_	277-4	_	_	
+278-6	7459-7461	io	_	_	_	io	_	_	277-5	_	_	
+278-7	7462-7464	ce	_	_	_	ce	_	_	277-6	_	_	
+278-8	7465-7467	l'	_	_	_	l'	_	_	277-7	_	_	
+278-9	7468-7470	ho	_	_	_	ho	_	_	277-8	_	_	
+278-10	7471-7476	della	_	_	_	della:	_	_	277-9	_	_	
+278-11	7477-7485	cellular	_	_	_	cellular	_	_	277-10	_	_	
+278-12	7486-7490	line	_	_	_	line	_	_	277-11	_	_	
+278-13	7491-7497	quello	_	_	_	quello	_	_	277-12	_	_	
+278-14	7498-7500	là	_	_	_	là	_	_	277-13	_	_	
+278-15	7501-7504	che	_	_	_	che	_	_	277-14	_	_	
+
+#Text=ho ho da cinque anni e mi ha salvato la vita in tante occasioni anzi mi serve ehm pure domani
+279-1	7505-7507	ho	_	_	_	ho	_	PKP130	278-0	_	_	
+279-2	7508-7510	ho	_	_	_	ho	_	_	278-1	_	_	
+279-3	7511-7513	da	_	_	_	da	_	_	278-2	_	_	
+279-4	7514-7520	cinque	_	_	_	cinque	_	_	278-3	_	_	
+279-5	7521-7525	anni	_	_	_	anni	_	_	278-4	_	_	
+279-6	7526-7527	e	_	_	_	e	_	_	278-5	_	_	
+279-7	7528-7530	mi	_	_	_	mi	_	_	278-6	_	_	
+279-8	7531-7533	ha	_	_	_	ha	_	_	278-7	_	_	
+279-9	7534-7541	salvato	_	_	_	salvato	_	_	278-8	_	_	
+279-10	7542-7544	la	_	_	_	la	_	_	278-9	_	_	
+279-11	7545-7549	vita	_	_	_	vita	_	_	278-10	_	_	
+279-12	7550-7552	in	_	_	_	in	_	_	278-11	_	_	
+279-13	7553-7558	tante	_	_	_	tante	_	_	278-12	_	_	
+279-14	7559-7568	occasioni	_	_	_	occasioni	_	_	278-13	_	_	
+279-15	7569-7573	anzi	_	_	_	anzi	_	_	278-14	_	_	
+279-16	7574-7576	mi	_	_	_	mi	_	_	278-15	_	_	
+279-17	7577-7582	serve	_	_	_	serve	_	_	278-16	_	_	
+279-18	7583-7586	ehm	_	FP	_	ehm	_	_	278-17	_	_	
+279-19	7587-7591	pure	_	_	_	pure	_	_	278-18	_	_	
+279-20	7592-7598	domani	_	_	Falling	DOMANI.	_	_	278-19	_	_	
+
+#Text=lei ce l' aveva origin~ lei l' aveva originale della dell' apple
+280-1	7599-7602	lei	_	_	_	LEI	_	PKP130	279-0	_	_	
+280-2	7603-7605	ce	_	_	_	ce	_	_	279-1	_	_	
+280-3	7606-7608	l'	_	_	_	l'	_	_	279-2	_	_	
+280-4	7609-7614	aveva	_	_	_	aveva	_	_	279-3	_	_	
+280-5	7615-7622	origin~	_	_	_	origin~	_	_	279-4	_	_	
+280-6	7623-7626	lei	_	_	_	lei	_	_	279-5	_	_	
+280-7	7627-7629	l'	_	_	_	l'	_	_	279-6	_	_	
+280-8	7630-7635	aveva	_	_	_	aveva	_	_	279-7	_	_	
+280-9	7636-7645	originale	_	_	_	originale	_	_	279-8	_	_	
+280-10	7646-7651	della	_	_	_	della:	_	_	279-9	_	_	
+280-11	7652-7657	dell'	_	_	_	dell'	_	_	279-10	_	_	
+280-12	7658-7663	apple	_	_	_	apple	_	_	279-11	_	_	
+
+#Text=ah
+281-1	7664-7666	ah	BC	_	_	a:h	_	PKP125	280-0	_	_	
+
+#Text=eh
+282-1	7667-7669	eh	BC	_	_	eh	_	PKP130	281-0	_	_	
+
+#Text=eh perché quello non
+283-1	7670-7672	eh	BC	_	_	eh	_	PKP130	282-0	_	_	
+283-2	7673-7679	perché	_	_	_	p(er)ché	_	_	282-1	_	_	
+283-3	7680-7686	quello	_	_	_	quello	_	_	282-2	_	_	
+283-4	7687-7690	non	_	_	_	non:	_	_	282-3	_	_	
+
+#Text=se tu vai a comprare un iphone ti dicono che non vanno usati quelli che non sono apple perché ti rompono la batteria ed è vero
+284-1	7691-7693	se	_	_	_	se	_	PKP130	283-0	_	_	
+284-2	7694-7696	tu	_	_	_	tu	_	_	283-1	_	_	
+284-3	7697-7700	vai	_	_	_	vai	_	_	283-2	_	_	
+284-4	7701-7702	a	_	_	_	a	_	_	283-3	_	_	
+284-5	7703-7711	comprare	_	_	_	comprare	_	_	283-4	_	_	
+284-6	7712-7714	un	_	_	_	un	_	_	283-5	_	_	
+284-7	7715-7721	iphone	_	_	_	iphone	_	_	283-6	_	_	
+284-8	7722-7724	ti	_	_	_	ti	_	_	283-7	_	_	
+284-9	7725-7731	dicono	_	_	_	dicono	_	_	283-8	_	_	
+284-10	7732-7735	che	_	_	_	che	_	_	283-9	_	_	
+284-11	7736-7739	non	_	_	_	non	_	_	283-10	_	_	
+284-12	7740-7745	vanno	_	_	_	vanno	_	_	283-11	_	_	
+284-13	7746-7751	usati	_	_	_	usati	_	_	283-12	_	_	
+284-14	7752-7758	quelli	_	_	_	quelli	_	_	283-13	_	_	
+284-15	7759-7762	che	_	_	_	che	_	_	283-14	_	_	
+284-16	7763-7766	non	_	_	_	non	_	_	283-15	_	_	
+284-17	7767-7771	sono	_	_	_	sono	_	_	283-16	_	_	
+284-18	7772-7777	apple	_	_	_	apple	_	_	283-17	_	_	
+284-19	7778-7784	perché	_	_	_	perché	_	_	283-18	_	_	
+284-20	7785-7787	ti	_	_	_	ti	_	_	283-19	_	_	
+284-21	7788-7795	rompono	_	_	_	rompono	_	_	283-20	_	_	
+284-22	7796-7798	la	_	_	_	la	_	_	283-21	_	_	
+284-23	7799-7807	batteria	_	_	_	batteria	_	_	283-22	_	_	
+284-24	7808-7810	ed	_	_	_	ed	_	_	283-23	_	_	
+284-25	7811-7812	è	_	_	_	è	_	_	283-24	_	_	
+284-26	7813-7817	vero	_	_	_	\[<VERO>\]	_	_	283-25	*->104-1	*[104]	
+
+#Text=tutti i telefoni dovresti usare
+285-1	7818-7823	tutti	_	_	_	\[tutti	_	PKP125	284-0	*->104-2	*[104]	
+285-2	7824-7825	i	_	_	_	i\]	_	_	284-1	*->104-3	*[104]	
+285-3	7826-7834	telefoni	_	_	_	telefoni	_	_	284-2	_	_	
+285-4	7835-7843	dovresti	_	_	_	dovresti	_	_	284-3	_	_	
+285-5	7844-7849	usare	_	_	_	usare:	_	_	284-4	_	_	
+
+#Text=eh
+286-1	7850-7852	eh	BC	_	_	eh	_	PKP130	285-0	_	_	
+
+#Text=ed è vero
+287-1	7853-7855	ed	_	_	_	ed	_	PKP130	286-0	_	_	
+287-2	7856-7857	è	_	_	_	è	_	_	286-1	_	_	
+287-3	7858-7862	vero	_	_	_	vero	_	_	286-2	_	_	
+
+#Text=ma non è per il cavo è per il trasformatore
+288-1	7863-7865	ma	_	_	_	MA	_	PKP125	287-0	_	_	
+288-2	7866-7869	non	_	_	_	non	_	_	287-1	_	_	
+288-3	7870-7871	è	_	_	_	è	_	_	287-2	_	_	
+288-4	7872-7875	per	_	_	_	per	_	_	287-3	_	_	
+288-5	7876-7878	il	_	_	_	il	_	_	287-4	_	_	
+288-6	7879-7883	cavo	_	_	_	cavo	_	_	287-5	_	_	
+288-7	7884-7885	è	_	_	_	è	_	_	287-6	_	_	
+288-8	7886-7889	per	_	_	_	per	_	_	287-7	_	_	
+288-9	7890-7892	il	_	_	_	il	_	_	287-8	_	_	
+288-10	7893-7906	trasformatore	_	_	_	<trasformato\[re>\]	_	_	287-9	_	_	
+288-10.1	7904-7906	re	_	_	_	_	_	_	_	*->94-1	*[94]	
+
+#Text=eh
+289-1	7907-7909	eh	BC	_	_	\[eh\]	_	PKP130	288-0	*->94-1|*->94-2	*[94]|*[94]	
+
+#Text=infatti io se tornassi indietro lo prenderei perché comunque a me è servito tanto infatti dopo lo scritto del tfa che rimasi senza
+290-1	7910-7917	infatti	_	_	_	infatti	_	PKP130	289-0	*->94-1	*[94]	
+290-2	7918-7920	io	_	_	_	io	_	_	289-1	_	_	
+290-3	7921-7923	se	_	_	_	se	_	_	289-2	_	_	
+290-4	7924-7932	tornassi	_	_	_	tornassi	_	_	289-3	_	_	
+290-5	7933-7941	indietro	_	_	_	indietro	_	_	289-4	_	_	
+290-6	7942-7944	lo	_	_	_	lo	_	_	289-5	_	_	
+290-7	7945-7954	prenderei	_	_	_	prenderei	_	_	289-6	_	_	
+290-8	7955-7961	perché	_	_	_	perché	_	_	289-7	_	_	
+290-9	7962-7970	comunque	_	_	_	comunque	_	_	289-8	_	_	
+290-10	7971-7972	a	_	_	_	a	_	_	289-9	_	_	
+290-11	7973-7975	me	_	_	_	me	_	_	289-10	_	_	
+290-12	7976-7977	è	_	_	_	è	_	_	289-11	_	_	
+290-13	7978-7985	servito	_	_	_	servito	_	_	289-12	_	_	
+290-14	7986-7991	tanto	_	_	_	<tanto>	_	_	289-13	_	_	
+290-15	7992-7999	infatti	_	_	_	infatti	_	_	289-14	_	_	
+290-16	8000-8004	dopo	_	_	_	dopo	_	_	289-15	_	_	
+290-17	8005-8007	lo	_	_	_	lo	_	_	289-16	_	_	
+290-18	8008-8015	scritto	_	_	_	scritto	_	_	289-17	_	_	
+290-19	8016-8019	del	_	_	_	del	_	_	289-18	_	_	
+290-20	8020-8023	tfa	_	_	_	tfa	_	_	289-19	_	_	
+290-21	8024-8027	che	_	_	_	che	_	_	289-20	_	_	
+290-22	8028-8034	rimasi	_	_	_	rimasi	_	_	289-21	_	_	
+290-23	8035-8040	senza	_	_	_	senza	_	_	289-22	_	_	
+
+#Text=dopo lo scritto del tfa che rimasi senza mh telefono
+291-1	8041-8045	dopo	_	_	_	dopo	_	PKP130	290-0	_	_	
+291-2	8046-8048	lo	_	_	_	lo	_	_	290-1	_	_	
+291-3	8049-8056	scritto	_	_	_	scritto	_	_	290-2	_	_	
+291-4	8057-8060	del	_	_	_	del	_	_	290-3	_	_	
+291-5	8061-8064	tfa	_	_	_	tfa	_	_	290-4	_	_	
+291-6	8065-8068	che	_	_	_	che	_	_	290-5	_	_	
+291-7	8069-8075	rimasi	_	_	_	rimasi	_	_	290-6	_	_	
+291-8	8076-8081	senza	_	_	_	senza:	_	_	290-7	_	_	
+291-9	8082-8084	mh	_	FP	_	m:h	_	_	290-8	_	_	
+291-10	8085-8093	telefono	_	_	_	telefono	_	_	290-9	_	_	
+
+#Text=eh mh
+292-1	8094-8096	eh	_	FP[13]	_	eh	_	PKP130	291-0	_	_	
+292-2	8097-8099	mh	_	FP[13]	_	m::h	_	_	291-1	_	_	
+
+#Text=eh
+293-1	8100-8102	eh	BC	_	_	°eh°	_	PKP125	292-0	_	_	
+
+#Text=e lei ogni volta in borsa lo nascondeva dice arianna ma perché lo sta~ lo stai nascondendo no marci ma poi siamo a napoli
+294-1	8103-8104	e	_	_	_	E	_	PKP130	293-0	_	_	
+294-2	8105-8108	lei	_	_	_	LEI	_	_	293-1	_	_	
+294-3	8109-8113	ogni	_	_	_	ogni	_	_	293-2	_	_	
+294-4	8114-8119	volta	_	_	_	volta	_	_	293-3	_	_	
+294-5	8120-8122	in	_	_	_	in	_	_	293-4	_	_	
+294-6	8123-8128	borsa	_	_	_	borsa	_	_	293-5	_	_	
+294-7	8129-8131	lo	_	_	_	lo	_	_	293-6	_	_	
+294-8	8132-8142	nascondeva	_	_	_	nascondeva	_	_	293-7	_	_	
+294-9	8143-8147	dice	_	_	_	dice	_	_	293-8	_	_	
+294-10	8148-8155	arianna	_	_	_	arianna	_	_	293-9	_	_	
+294-11	8156-8158	ma	_	_	_	>ma	_	_	293-10	_	_	
+294-12	8159-8165	perché	_	_	_	p(er)ché<	_	_	293-11	_	_	
+294-13	8166-8168	lo	_	_	_	lo	_	_	293-12	_	_	
+294-14	8169-8173	sta~	_	_	_	sta~	_	_	293-13	_	_	
+294-15	8174-8176	lo	_	_	_	lo	_	_	293-14	_	_	
+294-16	8177-8181	stai	_	_	_	stai	_	_	293-15	_	_	
+294-17	8182-8193	nascondendo	_	_	_	nascondendo	_	_	293-16	_	_	
+294-18	8194-8196	no	_	_	_	no	_	_	293-17	_	_	
+294-19	8197-8202	marci	_	_	_	marci	_	_	293-18	_	_	
+294-20	8203-8205	ma	_	_	_	ma	_	_	293-19	_	_	
+294-21	8206-8209	poi	_	_	_	poi	_	_	293-20	_	_	
+294-22	8210-8215	siamo	_	_	_	siamo	_	_	293-21	_	_	
+294-23	8216-8217	a	_	_	_	a	_	_	293-22	_	_	
+294-24	8218-8224	napoli	_	_	_	napoli	_	_	293-23	_	_	
+
+#Text=((ride))
+295-1	8225-8233	((ride))	_	_	_	((ride))	_	PKP125	294-0	_	_	
+
+#Text=beh
+296-1	8234-8237	beh	BC	_	_	b\[eh\]	_	PKP125	295-0	_	_	
+296-1.1	8235-8237	eh	_	_	_	_	_	_	_	*->45-1	*[45]	
+
+#Text=eh sai ho paura questo è un caricatore originale
+297-1	8238-8240	eh	_	_	_	\[e:h\]	_	PKP130	296-0	*->45-2	*[45]	
+297-1.1	8238-8238		_	_	_	_	_	_	_	*->45-1	*[45]	
+297-2	8241-8244	sai	_	_	_	sai	_	_	296-1	_	_	
+297-3	8245-8247	ho	_	_	_	ho	_	_	296-2	_	_	
+297-4	8248-8253	paura	_	_	_	<paura>	_	_	296-3	_	_	
+297-5	8254-8260	questo	_	_	_	questo	_	_	296-4	_	_	
+297-6	8261-8262	è	_	_	_	è	_	_	296-5	_	_	
+297-7	8263-8265	un	_	_	_	un	_	_	296-6	_	_	
+297-8	8266-8276	caricatore	_	_	_	caricatore	_	_	296-7	_	_	
+297-9	8277-8286	originale	_	_	_	original\[e:\]	_	_	296-8	_	_	
+297-9.1	8285-8286	e	_	_	_	_	_	_	_	*->96-1	*[96]	
+
+#Text=tutto sommato
+298-1	8287-8292	tutto	_	_	_	\[tut\]to	_	PKP125	297-0	*->96-1	*[96]	
+298-1.1	8287-8290	tut	_	_	_	_	_	_	_	*->96-2	*[96]	
+298-2	8293-8300	sommato	_	_	_	sommato:	_	_	297-1	_	_	
+298-2.1	8293-8294	s	_	_	_	_	_	_	_	*->96-1	*[96]	
+
+#Text=eh
+299-1	8301-8303	eh	BC	_	_	eh	_	PKP130	298-0	_	_	
+
+#Text=aveva paura
+300-1	8304-8309	aveva	_	_	_	>aveva<	_	PKP130	299-0	_	_	
+300-2	8310-8315	paura	_	_	_	paura	_	_	299-1	_	_	
+
+#Text=poi mi portò pure una volta un segnalibro da new york
+301-1	8316-8319	poi	_	_	_	poi	_	PKP130	300-0	_	_	
+301-2	8320-8322	mi	_	_	_	mi	_	_	300-1	_	_	
+301-3	8323-8328	portò	_	_	_	portò	_	_	300-2	_	_	
+301-4	8329-8333	pure	_	_	_	>pure	_	_	300-3	_	_	
+301-5	8334-8337	una	_	_	_	una	_	_	300-4	_	_	
+301-6	8338-8343	volta	_	_	_	volta<	_	_	300-5	_	_	
+301-7	8344-8346	un	_	_	_	un	_	_	300-6	_	_	
+301-8	8347-8357	segnalibro	_	_	_	segnalibro	_	_	300-7	_	_	
+301-9	8358-8360	da	_	_	_	da	_	_	300-8	_	_	
+301-10	8361-8364	new	_	_	_	new	_	_	300-9	_	_	
+301-11	8365-8369	york	_	_	Falling	york.	_	_	300-10	_	_	
+
+#Text=no è una brava ragazza
+302-1	8370-8372	no	_	_	_	no	_	PKP130	301-0	_	_	
+302-2	8373-8374	è	_	_	_	è	_	_	301-1	_	_	
+302-3	8375-8378	una	_	_	_	una	_	_	301-2	_	_	
+302-4	8379-8384	brava	_	_	_	brava	_	_	301-3	_	_	
+302-5	8385-8392	ragazza	_	_	weakly\_rising	ragazza,	_	_	301-4	_	_	
+
+#Text=non la vedo da parecchio
+303-1	8393-8396	non	_	_	_	non	_	PKP130	302-0	_	_	
+303-2	8397-8399	la	_	_	_	la	_	_	302-1	_	_	
+303-3	8400-8404	vedo	_	_	_	vedo	_	_	302-2	_	_	
+303-4	8405-8407	da	_	_	_	da	_	_	302-3	_	_	
+303-5	8408-8417	parecchio	_	_	_	parecchio	_	_	302-4	_	_	
+
+#Text=non la vedo dal duemila e sedici
+304-1	8418-8421	non	_	_	_	non	_	PKP130	303-0	_	_	
+304-2	8422-8424	la	_	_	_	la	_	_	303-1	_	_	
+304-3	8425-8429	vedo	_	_	_	vedo	_	_	303-2	_	_	
+304-4	8430-8433	dal	_	_	_	dal	_	_	303-3	_	_	
+304-5	8434-8441	duemila	_	_	_	<duemila	_	_	303-4	_	_	
+304-6	8442-8443	e	_	_	_	e	_	_	303-5	_	_	
+304-7	8444-8450	sedici	_	_	_	sedici>	_	_	303-6	_	_	
+
+#Text=ma quanti anni ha ha la tua età
+305-1	8451-8453	ma	_	_	_	ma	_	PKP125	304-0	_	_	
+305-2	8454-8460	quanti	_	_	_	quanti	_	_	304-1	_	_	
+305-3	8461-8465	anni	_	_	_	anni	_	_	304-2	_	_	
+305-4	8466-8468	ha	_	_	_	ha	_	_	304-3	_	_	
+305-5	8469-8471	ha	_	_	_	ha	_	_	304-4	_	_	
+305-6	8472-8474	la	_	_	_	la	_	_	304-5	_	_	
+305-7	8475-8478	tua	_	_	_	tua	_	_	304-6	_	_	
+305-8	8479-8482	età	_	_	Rising	età?	_	_	304-7	_	_	
+
+#Text=è un anno più mh più piccola
+306-1	8483-8484	è	_	_	_	è	_	PKP130	305-0	_	_	
+306-2	8485-8487	un	_	_	_	un	_	_	305-1	_	_	
+306-3	8488-8492	anno	_	_	_	anno	_	_	305-2	_	_	
+306-4	8493-8496	più	_	_	_	più	_	_	305-3	_	_	
+306-5	8497-8499	mh	_	FP	_	°mh°	_	_	305-4	_	_	
+306-6	8500-8503	più	_	_	_	più	_	_	305-5	_	_	
+306-7	8504-8511	piccola	_	_	_	piccola	_	_	305-6	_	_	
+
+#Text=mh
+307-1	8512-8514	mh	BC	_	_	°m:h°	_	PKP125	306-0	_	_	
+
+#Text=francesca invece pure no
+308-1	8515-8524	francesca	_	_	_	francesca	_	PKP125	307-0	_	_	
+308-2	8525-8531	invece	_	_	_	invece	_	_	307-1	_	_	
+308-3	8532-8536	pure	_	_	_	pure:	_	_	307-2	_	_	
+308-4	8537-8539	no	_	_	_	no	_	_	307-3	_	_	
+
+#Text=no [PAUSE] eh arianna è dell' ottantotto
+309-1	8540-8542	no	_	_	_	\[no	_	PKP130	308-0	*->161-1	*[161]	
+309-2	8543-8550	[PAUSE]	_	_	_	(.)	_	_	308-1	_	_	
+309-2.1	8543-8546	[PA	_	_	_	_	_	_	_	*->161-2	*[161]	
+309-3	8551-8553	eh	_	FP	_	e:h\]	_	_	308-2	*->161-3	*[161]	
+309-4	8554-8561	arianna	_	_	_	arianna	_	_	308-3	_	_	
+309-5	8562-8563	è	_	_	_	è	_	_	308-4	_	_	
+309-6	8564-8569	dell'	_	_	_	dell'	_	_	308-5	_	_	
+309-7	8570-8580	ottantotto	_	_	_	ottantotto	_	_	308-6	_	_	
+
+#Text=più grande francesca
+310-1	8581-8584	più	_	_	_	\[più	_	PKP125	309-0	*->161-4	*[161]	
+310-2	8585-8591	grande	_	_	_	grande	_	_	309-1	*->161-5	*[161]	
+310-3	8592-8601	francesca	_	_	_	francesca\]	_	_	309-2	*->161-6	*[161]	
+
+#Text=francesca è più piccola è ottantotto
+311-1	8602-8611	francesca	_	_	_	francesca	_	PKP130	310-0	_	_	
+311-2	8612-8613	è	_	_	_	è	_	_	310-1	_	_	
+311-3	8614-8617	più	_	_	_	più	_	_	310-2	_	_	
+311-4	8618-8625	piccola	_	_	_	piccola	_	_	310-3	_	_	
+311-5	8626-8627	è	_	_	_	è	_	_	310-4	_	_	
+311-6	8628-8638	ottantotto	_	_	_	<ottantotto>	_	_	310-5	_	_	
+
+#Text=francesca è febbraio ottantotto
+312-1	8639-8648	francesca	_	_	_	>francesca<	_	PKP130	311-0	_	_	
+312-2	8649-8650	è	_	_	_	è	_	_	311-1	_	_	
+312-3	8651-8659	febbraio	_	_	_	febbraio	_	_	311-2	_	_	
+312-4	8660-8670	ottantotto	_	_	_	<ottantotto>	_	_	311-3	_	_	
+
+#Text=mh
+313-1	8671-8673	mh	BC	_	_	\[m::h\]	_	PKP125	312-0	*->88-1	*[88]	
+
+#Text=sì
+314-1	8674-8676	sì	_	_	_	sì:	_	PKP130	313-0	_	_	
+
+#Text=e il fidanzato ch~ ah sta ricercatore che fa
+315-1	8677-8678	e	_	_	_	e	_	PKP125	314-0	_	_	
+315-2	8679-8681	il	_	_	_	il	_	_	314-1	_	_	
+315-3	8682-8691	fidanzato	_	_	_	fidanzato	_	_	314-2	_	_	
+315-4	8692-8695	ch~	_	_	_	ch~	_	_	314-3	_	_	
+315-5	8696-8698	ah	_	_	_	AH	_	_	314-4	_	_	
+315-6	8699-8702	sta	_	_	_	sta:	_	_	314-5	_	_	
+315-7	8703-8714	ricercatore	_	_	_	ricercatore	_	_	314-6	_	_	
+315-8	8715-8718	che	_	_	_	che	_	_	314-7	_	_	
+315-9	8719-8721	fa	_	_	_	fa	_	_	314-8	_	_	
+
+#Text=il fidanzato è ricercatore sta al policlinico
+316-1	8722-8724	il	_	_	_	il	_	PKP130	315-0	_	_	
+316-2	8725-8734	fidanzato	_	_	_	fidanzato	_	_	315-1	_	_	
+316-3	8735-8736	è	_	_	_	è	_	_	315-2	_	_	
+316-4	8737-8748	ricercatore	_	_	_	ricercatore	_	_	315-3	_	_	
+316-5	8749-8752	sta	_	_	_	sta	_	_	315-4	_	_	
+316-6	8753-8755	al	_	_	_	al	_	_	315-5	_	_	
+316-7	8756-8767	policlinico	_	_	_	POLICLINICO	_	_	315-6	_	_	
+
+#Text=al secondo policlinico mo non so che tipo di contratto però gli daranno gli faranno
+317-1	8768-8770	al	_	_	_	al	_	PKP130	316-0	_	_	
+317-2	8771-8778	secondo	_	_	_	secondo	_	_	316-1	_	_	
+317-3	8779-8790	policlinico	_	_	_	policlinico	_	_	316-2	_	_	
+317-4	8791-8793	mo	_	_	_	mo	_	_	316-3	_	_	
+317-5	8794-8797	non	_	_	_	non	_	_	316-4	_	_	
+317-6	8798-8800	so	_	_	_	so	_	_	316-5	_	_	
+317-7	8801-8804	che	_	_	_	che	_	_	316-6	_	_	
+317-8	8805-8809	tipo	_	_	_	tipo	_	_	316-7	_	_	
+317-9	8810-8812	di	_	_	_	di	_	_	316-8	_	_	
+317-10	8813-8822	contratto	_	_	_	contratto	_	_	316-9	_	_	
+317-11	8823-8827	però	_	_	_	però	_	_	316-10	_	_	
+317-12	8828-8831	gli	_	_	_	gli	_	_	316-11	_	_	
+317-13	8832-8839	daranno	_	_	_	daranno	_	_	316-12	_	_	
+317-14	8840-8843	gli	_	_	_	gli	_	_	316-13	_	_	
+317-15	8844-8851	faranno	_	_	_	faranno	_	_	316-14	_	_	
+
+#Text=ma il ricercatore dipende se è assegnista di ricerca
+318-1	8852-8854	ma	_	_	_	ma	_	PKP125	317-0	_	_	
+318-2	8855-8857	il	_	_	_	il	_	_	317-1	_	_	
+318-3	8858-8869	ricercatore	_	_	_	ricercatore	_	_	317-2	_	_	
+318-4	8870-8877	dipende	_	_	_	dipende	_	_	317-3	_	_	
+318-5	8878-8880	se	_	_	_	se	_	_	317-4	_	_	
+318-6	8881-8882	è	_	_	_	è	_	_	317-5	_	_	
+318-7	8883-8893	assegnista	_	_	_	assegnista	_	_	317-6	_	_	
+318-8	8894-8896	di	_	_	_	di	_	_	317-7	_	_	
+318-9	8897-8904	ricerca	_	_	Rising	RICERCA?	_	_	317-8	_	_	
+
+#Text=cioè se fà proprio a livello di mh
+319-1	8905-8909	cioè	_	_	_	cioè	_	PKP125	318-0	_	_	
+319-2	8910-8912	se	_	_	_	se	_	_	318-1	_	_	
+319-3	8913-8915	fà	_	_	_	fà:	_	_	318-2	_	_	
+319-4	8916-8923	proprio	_	_	_	proprio	_	_	318-3	_	_	
+319-5	8924-8925	a	_	_	_	a	_	_	318-4	_	_	
+319-6	8926-8933	livello	_	_	_	livello	_	_	318-5	_	_	
+319-7	8934-8936	di	_	_	_	di:	_	_	318-6	_	_	
+319-8	8937-8939	mh	_	FP	_	m:h	_	_	318-7	_	_	
+
+#Text=no albi non lo so non me lo chiedere
+320-1	8940-8942	no	_	_	_	no	_	PKP130	319-0	_	_	
+320-2	8943-8947	albi	_	_	_	albi	_	_	319-1	_	_	
+320-3	8948-8951	non	_	_	_	non	_	_	319-2	_	_	
+320-4	8952-8954	lo	_	_	_	lo	_	_	319-3	_	_	
+320-5	8955-8957	so	_	_	_	so	_	_	319-4	_	_	
+320-6	8958-8961	non	_	_	_	non	_	_	319-5	_	_	
+320-7	8962-8964	me	_	_	_	me	_	_	319-6	_	_	
+320-8	8965-8967	lo	_	_	_	lo	_	_	319-7	_	_	
+320-9	8968-8976	chiedere	_	_	_	chiedere	_	_	319-8	_	_	
+
+#Text=mh
+321-1	8977-8979	mh	BC	_	_	m:h	_	PKP125	320-0	_	_	
+
+#Text=nun er mej se s' stev a 'merica x
+322-1	8980-8983	nun	_	_	_	#nun	_	PKP125	321-0	_	_	
+322-2	8984-8986	er	_	_	_	er	_	_	321-1	_	_	
+322-3	8987-8990	mej	_	_	_	mej	_	_	321-2	_	_	
+322-4	8991-8993	se	_	_	_	se	_	_	321-3	_	_	
+322-5	8994-8996	s'	_	_	_	s'	_	_	321-4	_	_	
+322-6	8997-9001	stev	_	_	_	stev	_	_	321-5	_	_	
+322-7	9002-9003	a	_	_	_	a	_	_	321-6	_	_	
+322-8	9004-9011	'merica	_	_	_	'merica	_	_	321-7	_	_	
+322-9	9012-9013	x	_	_	_	xxxx	_	_	321-8	_	_	
+
+#Text=eh
+323-1	9014-9016	eh	BC	_	_	e:h	_	PKP130	322-0	_	_	
+
+#Text=ma
+324-1	9017-9019	ma	_	_	_	ma	_	PKP130	323-0	_	_	
+
+#Text=francesca glielo disse
+325-1	9020-9029	francesca	_	_	_	francesca	_	PKP130	324-0	_	_	
+325-2	9030-9036	glielo	_	_	_	glielo	_	_	324-1	_	_	
+325-3	9037-9042	disse	_	_	_	disse	_	_	324-2	_	_	
+
+#Text=mh
+326-1	9043-9045	mh	BC	_	_	m:h	_	PKP125	325-0	_	_	
+
+#Text=disse giorgio se tu vuoi restare in america [PAUSE] dimmelo
+327-1	9046-9051	disse	_	_	_	disse	_	PKP130	326-0	_	_	
+327-2	9052-9059	giorgio	_	_	_	giorgio	_	_	326-1	_	_	
+327-3	9060-9062	se	_	_	_	se	_	_	326-2	_	_	
+327-4	9063-9065	tu	_	_	_	tu	_	_	326-3	_	_	
+327-5	9066-9070	vuoi	_	_	_	vuoi	_	_	326-4	_	_	
+327-6	9071-9078	restare	_	_	_	restare	_	_	326-5	_	_	
+327-7	9079-9081	in	_	_	_	in	_	_	326-6	_	_	
+327-8	9082-9089	america	_	_	_	AMERICA	_	_	326-7	_	_	
+327-9	9090-9097	[PAUSE]	_	_	_	(.)	_	_	326-8	_	_	
+327-10	9098-9105	dimmelo	_	_	_	<dimmelo>	_	_	326-9	_	_	
+
+#Text=ho dett fra ma tu sei di ruolo qua perché francesca è entrata subito di ruolo nel duemiladiciassette gia so' tre anni che è di ruolo
+328-1	9106-9108	ho	_	_	_	>ho	_	PKP130	327-0	_	_	
+328-2	9109-9113	dett	_	_	_	dett<	_	_	327-1	_	_	
+328-3	9114-9117	fra	_	_	_	fra	_	_	327-2	_	_	
+328-4	9118-9120	ma	_	_	_	ma	_	_	327-3	_	_	
+328-5	9121-9123	tu	_	_	_	tu	_	_	327-4	_	_	
+328-6	9124-9127	sei	_	_	_	sei	_	_	327-5	_	_	
+328-7	9128-9130	di	_	_	_	di	_	_	327-6	_	_	
+328-8	9131-9136	ruolo	_	_	_	ruolo	_	_	327-7	_	_	
+328-9	9137-9140	qua	_	_	_	qua	_	_	327-8	_	_	
+328-10	9141-9147	perché	_	_	_	perché	_	_	327-9	_	_	
+328-11	9148-9157	francesca	_	_	_	francesca	_	_	327-10	_	_	
+328-12	9158-9159	è	_	_	_	è	_	_	327-11	_	_	
+328-13	9160-9167	entrata	_	_	_	entrata	_	_	327-12	_	_	
+328-14	9168-9174	subito	_	_	_	subito	_	_	327-13	_	_	
+328-15	9175-9177	di	_	_	_	di	_	_	327-14	_	_	
+328-16	9178-9183	ruolo	_	_	_	ruolo	_	_	327-15	_	_	
+328-17	9184-9187	nel	_	_	_	nel	_	_	327-16	_	_	
+328-18	9188-9206	duemiladiciassette	_	_	_	duemiladiciassette	_	_	327-17	_	_	
+328-19	9207-9210	gia	_	_	_	\[gia	_	_	327-18	*->42-1	*[42]	
+328-20	9211-9214	so'	_	_	_	so'\]	_	_	327-19	*->42-2	*[42]	
+328-21	9215-9218	tre	_	_	_	tre	_	_	327-20	_	_	
+328-22	9219-9223	anni	_	_	_	anni	_	_	327-21	_	_	
+328-23	9224-9227	che	_	_	_	che	_	_	327-22	_	_	
+328-24	9228-9229	è	_	_	_	è	_	_	327-23	_	_	
+328-25	9230-9232	di	_	_	_	di	_	_	327-24	_	_	
+328-26	9233-9238	ruolo	_	_	_	ruolo	_	_	327-25	_	_	
+
+#Text=mh
+329-1	9239-9241	mh	BC	_	_	\[m:h\]	_	PKP125	328-0	*->42-3	*[42]	
+
+#Text=mi disse no marci io me ne sarei andata avrei fatto domanda là mh
+330-1	9242-9244	mi	_	_	_	mi	_	PKP130	329-0	_	_	
+330-2	9245-9250	disse	_	_	_	disse	_	_	329-1	_	_	
+330-3	9251-9253	no	_	_	_	no	_	_	329-2	_	_	
+330-4	9254-9259	marci	_	_	_	marci	_	_	329-3	_	_	
+330-5	9260-9262	io	_	_	_	io	_	_	329-4	_	_	
+330-6	9263-9265	me	_	_	_	me	_	_	329-5	_	_	
+330-7	9266-9268	ne	_	_	_	ne	_	_	329-6	_	_	
+330-8	9269-9274	sarei	_	_	_	sarei	_	_	329-7	_	_	
+330-9	9275-9281	andata	_	_	_	andata	_	_	329-8	_	_	
+330-10	9282-9287	avrei	_	_	_	avrei	_	_	329-9	_	_	
+330-11	9288-9293	fatto	_	_	_	fatto	_	_	329-10	_	_	
+330-12	9294-9301	domanda	_	_	_	domanda	_	_	329-11	_	_	
+330-13	9302-9304	là	_	_	_	là::	_	_	329-12	_	_	
+330-14	9305-9307	mh	_	FP	_	m::h	_	_	329-13	_	_	
+
+#Text=così eh
+331-1	9308-9312	così	_	_	_	così:	_	PKP130	330-0	_	_	
+331-2	9313-9315	eh	_	FP	_	\[e:h\]	_	_	330-1	*->38-1	*[38]	
+
+#Text=ah
+332-1	9316-9318	ah	BC	_	_	\[a:h\]	_	PKP125	331-0	*->38-2	*[38]	
+
+#Text=non voglio dire
+333-1	9319-9322	non	_	_	_	(non)	_	PKP130	332-0	_	_	
+333-2	9323-9329	voglio	_	_	_	voglio	_	_	332-1	_	_	
+333-3	9330-9334	dire	_	_	_	dire:	_	_	332-2	_	_	
+
+#Text=qualcosa l' ha trovata
+334-1	9335-9343	qualcosa	_	_	_	\[qualcosa\]	_	PKP125	333-0	*->92-1	*[92]	
+334-2	9344-9346	l'	_	_	_	l'	_	_	333-1	_	_	
+334-3	9347-9349	ha	_	_	_	ha	_	_	333-2	_	_	
+334-4	9350-9357	trovata	_	_	_	trovata	_	_	333-3	_	_	
+
+#Text=eh
+335-1	9358-9360	eh	BC	_	_	\[eh\]	_	PKP130	334-0	*->92-2	*[92]	
+
+#Text=qualcosa sempre lo trovava esatto
+336-1	9361-9369	qualcosa	_	_	_	qualcosa	_	PKP130	335-0	_	_	
+336-2	9370-9376	sempre	_	_	_	sempre	_	_	335-1	_	_	
+336-3	9377-9379	lo	_	_	_	lo	_	_	335-2	_	_	
+336-4	9380-9387	trovava	_	_	_	trovava	_	_	335-3	_	_	
+336-5	9388-9394	esatto	_	_	_	<esatto>	_	_	335-4	_	_	
+
+#Text=e giorgio gli disse no no francesca io voglio fare i due anni di esperienza però voglio tornare in italia
+337-1	9395-9396	e	_	_	_	E	_	PKP130	336-0	_	_	
+337-2	9397-9404	giorgio	_	_	_	GIORGIO	_	_	336-1	_	_	
+337-3	9405-9408	gli	_	_	_	gli	_	_	336-2	_	_	
+337-4	9409-9414	disse	_	_	_	disse	_	_	336-3	_	_	
+337-5	9415-9417	no	_	_	_	no	_	_	336-4	_	_	
+337-6	9418-9420	no	_	_	_	no	_	_	336-5	_	_	
+337-7	9421-9430	francesca	_	_	_	francesca	_	_	336-6	_	_	
+337-8	9431-9433	io	_	_	_	io	_	_	336-7	_	_	
+337-9	9434-9440	voglio	_	_	_	voglio	_	_	336-8	_	_	
+337-10	9441-9445	fare	_	_	_	fare	_	_	336-9	_	_	
+337-11	9446-9447	i	_	_	_	i	_	_	336-10	_	_	
+337-12	9448-9451	due	_	_	_	due	_	_	336-11	_	_	
+337-13	9452-9456	anni	_	_	_	anni	_	_	336-12	_	_	
+337-14	9457-9459	di	_	_	_	di	_	_	336-13	_	_	
+337-15	9460-9470	esperienza	_	_	_	esperienza	_	_	336-14	_	_	
+337-16	9471-9475	però	_	_	_	però	_	_	336-15	_	_	
+337-17	9476-9482	voglio	_	_	_	voglio	_	_	336-16	_	_	
+337-18	9483-9490	tornare	_	_	_	tornare	_	_	336-17	_	_	
+337-19	9491-9493	in	_	_	_	in	_	_	336-18	_	_	
+337-20	9494-9500	italia	_	_	_	italia	_	_	336-19	_	_	
+
+#Text=lei glielo disse disse parla chiaro perché se tu vuoi stare là io ti raggiungo
+338-1	9501-9504	lei	_	_	_	lei	_	PKP130	337-0	_	_	
+338-2	9505-9511	glielo	_	_	_	glielo	_	_	337-1	_	_	
+338-3	9512-9517	disse	_	_	_	disse	_	_	337-2	_	_	
+338-4	9518-9523	disse	_	_	_	disse	_	_	337-3	_	_	
+338-5	9524-9529	parla	_	_	_	parla	_	_	337-4	_	_	
+338-6	9530-9536	chiaro	_	_	_	chiaro	_	_	337-5	_	_	
+338-7	9537-9543	perché	_	_	_	perché	_	_	337-6	_	_	
+338-8	9544-9546	se	_	_	_	se	_	_	337-7	_	_	
+338-9	9547-9549	tu	_	_	_	tu	_	_	337-8	_	_	
+338-10	9550-9554	vuoi	_	_	_	vuoi	_	_	337-9	_	_	
+338-11	9555-9560	stare	_	_	_	stare	_	_	337-10	_	_	
+338-12	9561-9563	là	_	_	_	là	_	_	337-11	_	_	
+338-13	9564-9566	io	_	_	_	io	_	_	337-12	_	_	
+338-14	9567-9569	ti	_	_	_	ti	_	_	337-13	_	_	
+338-15	9570-9579	raggiungo	_	_	_	<raggiungo>	_	_	337-14	_	_	
+
+#Text=mh
+339-1	9580-9582	mh	BC	_	_	m:h	_	PKP125	338-0	_	_	
+
+#Text=e rinunciava ovviamente però po' che fai rinunci al posto a tempo indeterminato
+340-1	9583-9584	e	_	_	_	e	_	PKP130	339-0	_	_	
+340-2	9585-9595	rinunciava	_	_	_	rinunciava	_	_	339-1	_	_	
+340-3	9596-9606	ovviamente	_	_	_	ovviamente::	_	_	339-2	_	_	
+340-4	9607-9611	però	_	_	_	però	_	_	339-3	_	_	
+340-5	9612-9615	po'	_	_	_	po'	_	_	339-4	_	_	
+340-6	9616-9619	che	_	_	_	che	_	_	339-5	_	_	
+340-7	9620-9623	fai	_	_	_	fai	_	_	339-6	_	_	
+340-8	9624-9631	rinunci	_	_	_	rinunci	_	_	339-7	_	_	
+340-9	9632-9634	al	_	_	_	al	_	_	339-8	_	_	
+340-10	9635-9640	posto	_	_	_	posto	_	_	339-9	_	_	
+340-11	9641-9642	a	_	_	_	a	_	_	339-10	_	_	
+340-12	9643-9648	tempo	_	_	_	tempo	_	_	339-11	_	_	
+340-13	9649-9662	indeterminato	_	_	Rising	INDETERMINATO?	_	_	339-12	_	_	
+
+#Text=cioè tu ti puoi prendere un anno di aspettativa però che fai
+341-1	9663-9667	cioè	_	_	_	cioè	_	PKP130	340-0	_	_	
+341-2	9668-9670	tu	_	_	_	tu	_	_	340-1	_	_	
+341-3	9671-9673	ti	_	_	_	ti	_	_	340-2	_	_	
+341-4	9674-9678	puoi	_	_	_	puoi	_	_	340-3	_	_	
+341-5	9679-9687	prendere	_	_	_	\[prendere\]	_	_	340-4	_	_	
+341-6	9688-9690	un	_	_	_	un	_	_	340-5	_	_	
+341-7	9691-9695	anno	_	_	_	anno	_	_	340-6	_	_	
+341-8	9696-9698	di	_	_	_	di	_	_	340-7	_	_	
+341-9	9699-9710	aspettativa	_	_	_	aspettativa	_	_	340-8	_	_	
+341-10	9711-9715	però	_	_	_	però	_	_	340-9	_	_	
+341-11	9716-9719	che	_	_	_	che	_	_	340-10	_	_	
+341-12	9720-9723	fai	_	_	_	fai	_	_	340-11	_	_	
+
+#Text=non lo so
+342-1	9724-9727	non	_	_	_	non	_	PKP125	341-0	_	_	
+342-2	9728-9730	lo	_	_	_	lo	_	_	341-1	_	_	
+342-3	9731-9733	so	_	_	_	so	_	_	341-2	_	_	
+
+#Text=lui dove stava in america
+343-1	9734-9737	lui	_	_	_	lui	_	PKP125	342-0	_	_	
+343-2	9738-9742	dove	_	_	_	dove	_	_	342-1	_	_	
+343-3	9743-9748	stava	_	_	_	stava	_	_	342-2	_	_	
+343-4	9749-9751	in	_	_	_	in	_	_	342-3	_	_	
+343-5	9752-9759	america	_	_	Rising	america?	_	_	342-4	_	_	
+
+#Text=mh a houston
+344-1	9760-9762	mh	_	FP	_	m:h	_	PKP130	343-0	_	_	
+344-2	9763-9764	a	_	_	_	a	_	_	343-1	_	_	
+344-3	9765-9772	houston	_	_	_	HOUSTON	_	_	343-2	_	_	
+
+#Text=mh
+345-1	9773-9775	mh	BC	_	_	m:h	_	PKP125	344-0	_	_	
+
+#Text=mh
+346-1	9776-9778	mh	BC	_	_	m:h	_	PKP130	345-0	_	_	
+
+#Text=nel texas
+347-1	9779-9782	nel	_	_	_	nel	_	PKP125	346-0	_	_	
+347-2	9783-9788	texas	_	_	Rising	texas?	_	_	346-1	_	_	
+
+#Text=sì
+348-1	9789-9791	sì	_	_	_	sì:	_	PKP130	347-0	_	_	
+
+#Text=nel texas vicino alla mh alla nasa
+349-1	9792-9795	nel	_	_	_	nel	_	PKP130	348-0	_	_	
+349-2	9796-9801	texas	_	_	_	texas	_	_	348-1	_	_	
+349-3	9802-9808	vicino	_	_	_	vicino	_	_	348-2	_	_	
+349-4	9809-9813	alla	_	_	_	alla:	_	_	348-3	_	_	
+349-5	9814-9816	mh	_	FP	_	m:h	_	_	348-4	_	_	
+349-6	9817-9821	alla	_	_	_	alla	_	_	348-5	_	_	
+349-7	9822-9826	nasa	_	_	_	nasa	_	_	348-6	_	_	
+
+#Text=mh
+350-1	9827-9829	mh	BC	_	_	mh	_	PKP125	349-0	_	_	
+
+#Text=ma infatti a giorgio francesca la prima volta che andò là disse dimmi che difficoltà capire l' inglese
+351-1	9830-9832	ma	_	_	_	ma	_	PKP130	350-0	_	_	
+351-2	9833-9840	infatti	_	_	_	infatti::	_	_	350-1	_	_	
+351-3	9841-9842	a	_	_	_	a	_	_	350-2	_	_	
+351-4	9843-9850	giorgio	_	_	_	giorgio:	_	_	350-3	_	_	
+351-5	9851-9860	francesca	_	_	_	francesca:	_	_	350-4	_	_	
+351-6	9861-9863	la	_	_	_	la	_	_	350-5	_	_	
+351-7	9864-9869	prima	_	_	_	prima	_	_	350-6	_	_	
+351-8	9870-9875	volta	_	_	_	volta	_	_	350-7	_	_	
+351-9	9876-9879	che	_	_	_	che	_	_	350-8	_	_	
+351-10	9880-9884	andò	_	_	_	andò	_	_	350-9	_	_	
+351-11	9885-9887	là	_	_	_	là	_	_	350-10	_	_	
+351-12	9888-9893	disse	_	_	_	disse	_	_	350-11	_	_	
+351-13	9894-9899	dimmi	_	_	_	(dimmi)	_	_	350-12	_	_	
+351-14	9900-9903	che	_	_	_	che	_	_	350-13	_	_	
+351-15	9904-9914	difficoltà	_	_	_	difficoltà	_	_	350-14	_	_	
+351-16	9915-9921	capire	_	_	_	capire	_	_	350-15	_	_	
+351-17	9922-9924	l'	_	_	_	l'	_	_	350-16	_	_	
+351-18	9925-9932	inglese	_	_	_	inglese:	_	_	350-17	_	_	
+
+#Text=eh parlato dai texani
+352-1	9933-9935	eh	_	FP	_	e:h	_	PKP130	351-0	_	_	
+352-2	9936-9943	parlato	_	_	_	parlato	_	_	351-1	_	_	
+352-3	9944-9947	dai	_	_	_	dai	_	_	351-2	_	_	
+352-4	9948-9954	texani	_	_	_	texani	_	_	351-3	_	_	
+
+#Text=eh
+353-1	9955-9957	eh	BC	_	_	e:h	_	PKP125	352-0	_	_	
+
+#Text=invece dice che giorgio lo capiva
+354-1	9958-9964	invece	_	_	_	invece	_	PKP130	353-0	_	_	
+354-2	9965-9969	dice	_	_	_	dice	_	_	353-1	_	_	
+354-3	9970-9973	che	_	_	_	che	_	_	353-2	_	_	
+354-4	9974-9981	giorgio	_	_	_	giorgio	_	_	353-3	_	_	
+354-5	9982-9984	lo	_	_	_	lo	_	_	353-4	_	_	
+354-6	9985-9991	capiva	_	_	_	capiva	_	_	353-5	_	_	
+
+#Text=eh
+355-1	9992-9994	eh	BC	_	weakly\_rising	eh,	_	PKP130	354-0	_	_	
+
+#Text=e va beh ma mh
+356-1	9995-9996	e	_	_	_	e	_	PKP125	355-0	_	_	
+356-2	9997-9999	va	_	_	_	va	_	_	355-1	_	_	
+356-3	10000-10003	beh	_	_	_	beh	_	_	355-2	_	_	
+356-4	10004-10006	ma	_	_	_	ma:	_	_	355-3	_	_	
+356-5	10007-10009	mh	_	FP	_	m:h	_	_	355-4	_	_	
+
+#Text=è sempre una questione di abitudine alla mh
+357-1	10010-10011	è	_	_	_	è	_	PKP125	356-0	_	_	
+357-2	10012-10018	sempre	_	_	_	sempre	_	_	356-1	_	_	
+357-3	10019-10022	una	_	_	_	una	_	_	356-2	_	_	
+357-4	10023-10032	questione	_	_	_	questione	_	_	356-3	_	_	
+357-5	10033-10035	di	_	_	_	di	_	_	356-4	_	_	
+357-6	10036-10045	abitudine	_	_	_	abitudine	_	_	356-5	_	_	
+357-7	10046-10050	alla	_	_	_	alla:	_	_	356-6	_	_	
+357-8	10051-10053	mh	_	FP	_	mh	_	_	356-7	_	_	
+
+#Text=eh
+358-1	10054-10056	eh	_	_	_	eh	_	PKP130	357-0	_	_	
+
+#Text=alla varietà
+359-1	10057-10061	alla	_	_	_	alla	_	PKP125	358-0	_	_	
+359-2	10062-10069	varietà	_	_	_	variet\[à::\]	_	_	358-1	_	_	
+359-2.1	10068-10069	à	_	_	_	_	_	_	_	*->54-1	*[54]	
+
+#Text=e infatti [PAUSE] infatti francesca ric maronna io mi vergognavo a essere una laureata 'i lingue e pure francesca è stata mess 'i ruolo
+360-1	10070-10071	e	_	_	_	#\[e	_	PKP130	359-0	*->54-1	*[54]	
+360-2	10072-10079	infatti	_	_	_	in\]fatti	_	_	359-1	_	_	
+360-2.1	10072-10075	inf	_	_	_	_	_	_	_	*->54-1	*[54]	
+360-3	10080-10087	[PAUSE]	_	_	_	(.)	_	_	359-2	_	_	
+360-4	10088-10095	infatti	_	_	_	infatti	_	_	359-3	_	_	
+360-5	10096-10105	francesca	_	_	_	francesca	_	_	359-4	_	_	
+360-6	10106-10109	ric	_	_	_	ric	_	_	359-5	_	_	
+360-7	10110-10117	maronna	_	_	_	maronna	_	_	359-6	_	_	
+360-8	10118-10120	io	_	_	_	io	_	_	359-7	_	_	
+360-9	10121-10123	mi	_	_	_	mi	_	_	359-8	_	_	
+360-10	10124-10134	vergognavo	_	_	_	vergognavo	_	_	359-9	_	_	
+360-11	10135-10136	a	_	_	_	a	_	_	359-10	_	_	
+360-12	10137-10143	essere	_	_	_	essere	_	_	359-11	_	_	
+360-13	10144-10147	una	_	_	_	una	_	_	359-12	_	_	
+360-14	10148-10156	laureata	_	_	_	laureata	_	_	359-13	_	_	
+360-15	10157-10159	'i	_	_	_	'i	_	_	359-14	_	_	
+360-16	10160-10166	lingue	_	_	_	lingue	_	_	359-15	_	_	
+360-17	10167-10168	e	_	_	_	e	_	_	359-16	_	_	
+360-18	10169-10173	pure	_	_	_	pure	_	_	359-17	_	_	
+360-19	10174-10183	francesca	_	_	_	francesca	_	_	359-18	_	_	
+360-20	10184-10185	è	_	_	_	è	_	_	359-19	_	_	
+360-21	10186-10191	stata	_	_	_	stata	_	_	359-20	_	_	
+360-22	10192-10196	mess	_	_	_	mess	_	_	359-21	_	_	
+360-23	10197-10199	'i	_	_	_	'i	_	_	359-22	_	_	
+360-24	10200-10205	ruolo	_	_	_	<RUOLO>	_	_	359-23	_	_	
+
+#Text=mh
+361-1	10206-10208	mh	BC	_	_	\[mh\]	_	PKP125	360-0	*->118-1	*[118]	
+
+#Text=è normale
+362-1	10209-10210	è	_	_	_	\[è	_	PKP125	361-0	*->83-1	*[83]	
+362-2	10211-10218	normale	_	_	_	normale\]	_	_	361-1	*->83-2	*[83]	
+
+#Text=ma che c' entra
+363-1	10219-10221	ma	_	_	_	\[ma	_	PKP125	362-0	*->64-1	*[64]	
+363-2	10222-10225	che	_	_	_	che	_	_	362-1	*->64-2	*[64]	
+363-3	10226-10228	c'	_	_	_	c'	_	_	362-2	*->64-3	*[64]	
+363-4	10229-10234	entra	_	_	Rising	entra\]?	_	_	362-3	*->64-4	*[64]	
+
+#Text=è stata mess 'i ruolo nel duemila e diciassette quando stava in america infatti andò la mamma al provveditorato
+364-1	10235-10236	è	_	_	_	è	_	PKP130	363-0	_	_	
+364-2	10237-10242	stata	_	_	_	stata	_	_	363-1	_	_	
+364-3	10243-10247	mess	_	_	_	<mess	_	_	363-2	_	_	
+364-4	10248-10250	'i	_	_	_	'i	_	_	363-3	_	_	
+364-5	10251-10256	ruolo	_	_	_	ruolo>	_	_	363-4	_	_	
+364-6	10257-10260	nel	_	_	_	nel	_	_	363-5	_	_	
+364-7	10261-10268	duemila	_	_	_	duemila	_	_	363-6	_	_	
+364-8	10269-10270	e	_	_	_	e	_	_	363-7	_	_	
+364-9	10271-10282	diciassette	_	_	_	diciassette	_	_	363-8	_	_	
+364-10	10283-10289	quando	_	_	_	quando	_	_	363-9	_	_	
+364-11	10290-10295	stava	_	_	_	stava	_	_	363-10	_	_	
+364-12	10296-10298	in	_	_	_	in	_	_	363-11	_	_	
+364-13	10299-10306	america	_	_	_	america	_	_	363-12	_	_	
+364-14	10307-10314	infatti	_	_	_	infatti	_	_	363-13	_	_	
+364-15	10315-10319	andò	_	_	_	andò	_	_	363-14	_	_	
+364-16	10320-10322	la	_	_	_	la	_	_	363-15	_	_	
+364-17	10323-10328	mamma	_	_	_	mamma	_	_	363-16	_	_	
+364-18	10329-10331	al	_	_	_	al	_	_	363-17	_	_	
+364-19	10332-10346	provveditorato	_	_	_	provveditorato	_	_	363-18	_	_	
+
+#Text=perché poi non era capito ormai è stato tutto informatizzato
+365-1	10347-10353	perché	_	_	_	perché	_	PKP130	364-0	_	_	
+365-2	10354-10357	poi	_	_	_	poi	_	_	364-1	_	_	
+365-3	10358-10361	non	_	_	_	non	_	_	364-2	_	_	
+365-4	10362-10365	era	_	_	_	era	_	_	364-3	_	_	
+365-5	10366-10372	capito	_	_	_	capito	_	_	364-4	_	_	
+365-6	10373-10378	ormai	_	_	_	ormai	_	_	364-5	_	_	
+365-7	10379-10380	è	_	_	_	è	_	_	364-6	_	_	
+365-8	10381-10386	stato	_	_	_	stato	_	_	364-7	_	_	
+365-9	10387-10392	tutto	_	_	_	tutto	_	_	364-8	_	_	
+365-10	10393-10407	informatizzato	_	_	_	<informatizzato>	_	_	364-9	_	_	
+
+#Text=mh
+366-1	10408-10410	mh	BC	_	_	m:h	_	PKP125	365-0	_	_	
+
+#Text=e mh
+367-1	10411-10412	e	_	FP[14]	_	e:	_	PKP130	366-0	_	_	
+367-2	10413-10415	mh	_	FP[14]	_	m:::h	_	_	366-1	_	_	
+
+#Text=e quindi questo
+368-1	10416-10417	e	_	_	_	e	_	PKP130	367-0	_	_	
+368-2	10418-10424	quindi	_	_	_	quindi:	_	_	367-1	_	_	
+368-3	10425-10431	questo	_	_	_	questo	_	_	367-2	_	_	
+
+#Text=e andò la mamma
+369-1	10432-10433	e	_	_	_	e::	_	PKP130	368-0	_	_	
+369-2	10434-10438	andò	_	_	_	andò	_	_	368-1	_	_	
+369-3	10439-10441	la	_	_	_	LA	_	_	368-2	_	_	
+369-4	10442-10447	mamma	_	_	_	MAMMA	_	_	368-3	_	_	
+
+#Text=mh
+370-1	10448-10450	mh	BC	_	_	mh	_	PKP125	369-0	_	_	
+
+#Text=ah
+371-1	10451-10453	ah	BC	_	_	°ah°	_	PKP125	370-0	_	_	
+
+#Text=non so
+372-1	10454-10457	non	_	_	_	non	_	PKP125	371-0	_	_	
+372-2	10458-10460	so	_	_	_	so	_	_	371-1	_	_	
+
+#Text=beh se lui non è voluto restare
+373-1	10461-10464	beh	_	_	_	beh	_	PKP125	372-0	_	_	
+373-2	10465-10467	se	_	_	_	se	_	_	372-1	_	_	
+373-3	10468-10471	lui	_	_	_	lui	_	_	372-2	_	_	
+373-4	10472-10475	non	_	_	_	non	_	_	372-3	_	_	
+373-5	10476-10477	è	_	_	_	è	_	_	372-4	_	_	
+373-6	10478-10484	voluto	_	_	_	voluto	_	_	372-5	_	_	
+373-7	10485-10492	restare	_	_	weakly\_rising	restare,	_	_	372-6	_	_	
+
+#Text=no lui disse di no
+374-1	10493-10495	no	_	_	_	no:	_	PKP130	373-0	_	_	
+374-2	10496-10499	lui	_	_	_	lui	_	_	373-1	_	_	
+374-3	10500-10505	disse	_	_	_	disse	_	_	373-2	_	_	
+374-4	10506-10508	di	_	_	_	di	_	_	373-3	_	_	
+374-5	10509-10511	no	_	_	_	no	_	_	373-4	_	_	
+
+#Text=la francesca non aveva chiesto la cattedra a firenze
+375-1	10512-10514	la	_	_	_	la	_	PKP125	374-0	_	_	
+375-2	10515-10524	francesca	_	_	_	francesca	_	_	374-1	_	_	
+375-3	10525-10528	non	_	_	_	non	_	_	374-2	_	_	
+375-4	10529-10534	aveva	_	_	_	aveva	_	_	374-3	_	_	
+375-5	10535-10542	chiesto	_	_	_	chiesto	_	_	374-4	_	_	
+375-6	10543-10545	la	_	_	_	la	_	_	374-5	_	_	
+375-7	10546-10554	cattedra	_	_	_	cattedra	_	_	374-6	_	_	
+375-8	10555-10556	a	_	_	_	a	_	_	374-7	_	_	
+375-9	10557-10564	firenze	_	_	Rising	FIRENZE?	_	_	374-8	_	_	
+
+#Text=no
+376-1	10565-10567	no	_	_	Rising	no:?	_	PKP125	375-0	_	_	
+
+#Text=ha fatto le mh
+377-1	10568-10570	ha	_	_	_	ha	_	PKP130	376-0	_	_	
+377-2	10571-10576	fatto	_	_	_	fatto	_	_	376-1	_	_	
+377-3	10577-10579	le	_	_	_	le:	_	_	376-2	_	_	
+377-4	10580-10582	mh	_	FP	_	m:h	_	_	376-3	_	_	
+
+#Text=ha fatto le mh le supplenze sì
+378-1	10583-10585	ha	_	_	_	ha	_	PKP130	377-0	_	_	
+378-2	10586-10591	fatto	_	_	_	fatto	_	_	377-1	_	_	
+378-3	10592-10594	le	_	_	_	le:	_	_	377-2	_	_	
+378-4	10595-10597	mh	_	FP	_	m:h	_	_	377-3	_	_	
+378-5	10598-10600	le	_	_	_	le	_	_	377-4	_	_	
+378-6	10601-10610	supplenze	_	_	_	<SUPPLENZE>	_	_	377-5	_	_	
+378-7	10611-10613	sì	_	_	_	sì	_	_	377-6	_	_	
+
+#Text=mh
+379-1	10614-10616	mh	BC	_	_	mh	_	PKP125	378-0	_	_	
+
+#Text=ha fatto le supplenze e prima che entrasse di ruolo tanti anni prima andava a fare pure la mh
+380-1	10617-10619	ha	_	_	_	ha	_	PKP130	379-0	_	_	
+380-2	10620-10625	fatto	_	_	_	fatto	_	_	379-1	_	_	
+380-3	10626-10628	le	_	_	_	le	_	_	379-2	_	_	
+380-4	10629-10638	supplenze	_	_	_	SUPPLENZE	_	_	379-3	_	_	
+380-5	10639-10640	e	_	_	_	e	_	_	379-4	_	_	
+380-6	10641-10646	prima	_	_	_	prima	_	_	379-5	_	_	
+380-7	10647-10650	che	_	_	_	che	_	_	379-6	_	_	
+380-8	10651-10659	entrasse	_	_	_	entrasse	_	_	379-7	_	_	
+380-9	10660-10662	di	_	_	_	di	_	_	379-8	_	_	
+380-10	10663-10668	ruolo	_	_	_	ruolo	_	_	379-9	_	_	
+380-11	10669-10674	tanti	_	_	_	tanti	_	_	379-10	_	_	
+380-12	10675-10679	anni	_	_	_	anni	_	_	379-11	_	_	
+380-13	10680-10685	prima	_	_	_	prima	_	_	379-12	_	_	
+380-14	10686-10692	andava	_	_	_	andava	_	_	379-13	_	_	
+380-15	10693-10694	a	_	_	_	a	_	_	379-14	_	_	
+380-16	10695-10699	fare	_	_	_	fare	_	_	379-15	_	_	
+380-17	10700-10704	pure	_	_	_	pure	_	_	379-16	_	_	
+380-18	10705-10707	la	_	_	_	la:	_	_	379-17	_	_	
+380-19	10708-10710	mh	_	FP	_	m::h	_	_	379-18	_	_	
+
+#Text=andava a fare i corsi di recupero
+381-1	10711-10717	andava	_	_	_	andava	_	PKP130	380-0	_	_	
+381-2	10718-10719	a	_	_	_	a	_	_	380-1	_	_	
+381-3	10720-10724	fare	_	_	_	fare	_	_	380-2	_	_	
+381-4	10725-10726	i	_	_	_	i	_	_	380-3	_	_	
+381-5	10727-10732	corsi	_	_	_	corsi	_	_	380-4	_	_	
+381-6	10733-10735	di	_	_	_	di	_	_	380-5	_	_	
+381-7	10736-10744	recupero	_	_	_	recupero	_	_	380-6	_	_	
+
+#Text=mh
+382-1	10745-10747	mh	BC	_	_	m:h	_	PKP125	381-0	_	_	
+
+#Text=i corsi di recupero oltretutto il pon a me ancora non è stato pagato tu lo sai
+383-1	10748-10749	i	_	_	_	i	_	PKP130	382-0	_	_	
+383-2	10750-10755	corsi	_	_	_	corsi	_	_	382-1	_	_	
+383-3	10756-10758	di	_	_	_	di	_	_	382-2	_	_	
+383-4	10759-10767	recupero	_	_	_	recupero	_	_	382-3	_	_	
+383-5	10768-10778	oltretutto	_	_	_	oltretutto	_	_	382-4	_	_	
+383-6	10779-10781	il	_	_	_	il	_	_	382-5	_	_	
+383-7	10782-10785	pon	_	_	_	pon	_	_	382-6	_	_	
+383-8	10786-10787	a	_	_	_	a	_	_	382-7	_	_	
+383-9	10788-10790	me	_	_	_	me	_	_	382-8	_	_	
+383-10	10791-10797	ancora	_	_	_	ancora	_	_	382-9	_	_	
+383-11	10798-10801	non	_	_	_	non	_	_	382-10	_	_	
+383-12	10802-10803	è	_	_	_	è	_	_	382-11	_	_	
+383-13	10804-10809	stato	_	_	_	stato	_	_	382-12	_	_	
+383-14	10810-10816	pagato	_	_	_	pagato	_	_	382-13	_	_	
+383-15	10817-10819	tu	_	_	_	TU	_	_	382-14	_	_	
+383-16	10820-10822	lo	_	_	_	LO	_	_	382-15	_	_	
+383-17	10823-10826	sai	_	_	Rising	SAI?	_	_	382-16	_	_	
+
+#Text=quale pon
+384-1	10827-10832	quale	_	_	_	quale	_	PKP125	383-0	_	_	
+384-2	10833-10836	pon	_	_	Rising	pon?	_	_	383-1	_	_	
+
+#Text=il pon c~ che l' anno scorso feci allo stefanelli che ho finito il trentuno agosto niente
+385-1	10837-10839	il	_	_	_	il	_	PKP130	384-0	_	_	
+385-2	10840-10843	pon	_	_	_	pon	_	_	384-1	_	_	
+385-3	10844-10846	c~	_	_	_	c~	_	_	384-2	_	_	
+385-4	10847-10850	che	_	_	_	che	_	_	384-3	_	_	
+385-5	10851-10853	l'	_	_	_	l'	_	_	384-4	_	_	
+385-6	10854-10858	anno	_	_	_	anno	_	_	384-5	_	_	
+385-7	10859-10865	scorso	_	_	_	scorso	_	_	384-6	_	_	
+385-8	10866-10870	feci	_	_	_	feci	_	_	384-7	_	_	
+385-9	10871-10875	allo	_	_	_	<allo	_	_	384-8	_	_	
+385-10	10876-10886	stefanelli	_	_	_	stefanelli>	_	_	384-9	_	_	
+385-11	10887-10890	che	_	_	_	\[che	_	_	384-10	*->86-1	*[86]	
+385-12	10891-10893	ho	_	_	_	ho	_	_	384-11	*->86-2	*[86]	
+385-13	10894-10900	finito	_	_	_	fi\]nito	_	_	384-12	_	_	
+385-13.1	10894-10896	fi	_	_	_	_	_	_	_	*->86-3	*[86]	
+385-14	10901-10903	il	_	_	_	il	_	_	384-13	_	_	
+385-15	10904-10912	trentuno	_	_	_	trentuno	_	_	384-14	_	_	
+385-16	10913-10919	agosto	_	_	_	agosto	_	_	384-15	_	_	
+385-17	10920-10926	niente	_	_	_	<nien\[te>\]	_	_	384-16	_	_	
+385-17.1	10923-10926	nte	_	_	_	_	_	_	_	*->43-1	*[43]	
+
+#Text=no
+386-1	10927-10929	no	_	_	Rising	\[no:\]?	_	PKP125	385-0	*->43-1|*->86-4	*[43]|*[86]	
+
+#Text=ah
+387-1	10930-10932	ah	BC	_	_	\[a::h\]	_	PKP125	386-0	*->43-2	*[43]	
+
+#Text=con gli stessi contratti quei con i fogli europei
+388-1	10933-10936	con	_	_	_	(con	_	PKP125	387-0	_	_	
+388-2	10937-10940	gli	_	_	_	gli	_	_	387-1	_	_	
+388-3	10941-10947	stessi	_	_	_	stessi)	_	_	387-2	_	_	
+388-4	10948-10957	contratti	_	_	_	contratti	_	_	387-3	_	_	
+388-5	10958-10962	quei	_	_	_	quei:::	_	_	387-4	_	_	
+388-6	10963-10966	con	_	_	_	\[con	_	_	387-5	*->125-1	*[125]	
+388-7	10967-10968	i	_	_	_	i	_	_	387-6	*->125-2	*[125]	
+388-8	10969-10974	fogli	_	_	_	fogli	_	_	387-7	*->125-3	*[125]	
+388-9	10975-10982	europei	_	_	weakly\_rising	europei\],	_	_	387-8	*->125-4	*[125]	
+
+#Text=guarda che schifo questa pa~ pon eh [PAUSE] infatti voglio voglio protestare comunque è un anno
+389-1	10983-10989	guarda	_	_	_	\[guarda	_	PKP130	388-0	*->125-5	*[125]	
+389-2	10990-10993	che	_	_	_	che	_	_	388-1	*->125-6	*[125]	
+389-3	10994-11000	schifo	_	_	_	schifo\]	_	_	388-2	*->125-7	*[125]	
+389-4	11001-11007	questa	_	_	_	questa	_	_	388-3	_	_	
+389-5	11008-11011	pa~	_	_	_	pa~	SR[18]	_	388-4	_	_	
+389-6	11012-11015	pon	_	_	_	pon	SR[18]	_	388-5	_	_	
+389-7	11016-11018	eh	_	_	_	EH	_	_	388-6	_	_	
+389-8	11019-11026	[PAUSE]	_	_	_	(.)	_	_	388-7	_	_	
+389-9	11027-11034	infatti	_	_	_	infatti	_	_	388-8	_	_	
+389-10	11035-11041	voglio	_	_	_	voglio:	_	_	388-9	_	_	
+389-11	11042-11048	voglio	_	_	_	voglio	_	_	388-10	_	_	
+389-12	11049-11059	protestare	_	_	_	protestare	_	_	388-11	_	_	
+389-13	11060-11068	comunque	_	_	_	comunque	_	_	388-12	_	_	
+389-14	11069-11070	è	_	_	_	è	_	_	388-13	_	_	
+389-15	11071-11073	un	_	_	_	un	_	_	388-14	_	_	
+389-16	11074-11078	anno	_	_	_	anno:	_	_	388-15	_	_	
+
+#Text=sono tutti così
+390-1	11079-11083	sono	_	_	_	sono	_	PKP125	389-0	_	_	
+390-2	11084-11089	tutti	_	_	_	tutti	_	_	389-1	_	_	
+390-3	11090-11094	così	_	_	Rising	così?	_	_	389-2	_	_	
+
+#Text=eh
+391-1	11095-11097	eh	BC	_	_	e:h	_	PKP130	390-0	_	_	
+
+#Text=stavo prima sfogliando a casa il romanzo follia l' hai mai letto tu
+392-1	11098-11103	stavo	_	_	_	stavo:	_	PKP130	391-0	_	_	
+392-2	11104-11109	prima	_	_	_	prima	_	_	391-1	_	_	
+392-3	11110-11120	sfogliando	_	_	_	sfogliando	_	_	391-2	_	_	
+392-4	11121-11122	a	_	_	_	a	_	_	391-3	_	_	
+392-5	11123-11127	casa	_	_	_	casa	_	_	391-4	_	_	
+392-6	11128-11130	il	_	_	_	il	_	_	391-5	_	_	
+392-7	11131-11138	romanzo	_	_	_	romanzo	_	_	391-6	_	_	
+392-8	11139-11145	follia	_	_	_	follia	_	_	391-7	_	_	
+392-9	11146-11148	l'	_	_	_	l'	_	_	391-8	_	_	
+392-10	11149-11152	hai	_	_	_	hai	_	_	391-9	_	_	
+392-11	11153-11156	mai	_	_	_	mai	_	_	391-10	_	_	
+392-12	11157-11162	letto	_	_	_	letto	_	_	391-11	_	_	
+392-13	11163-11165	tu	_	_	Rising	TU:?	_	_	391-12	_	_	
+
+#Text=((ride)) no
+393-1	11166-11174	((ride))	_	_	_	((ride))	_	PKP125	392-0	_	_	
+393-2	11175-11177	no	_	_	_	°no°	_	_	392-1	_	_	
+
+#Text=no
+394-1	11178-11180	no	_	_	Rising	no:?	_	PKP130	393-0	_	_	
+
+#Text=di chi è
+395-1	11181-11183	di	_	_	_	\[di	_	PKP125	394-0	*->65-1	*[65]	
+395-2	11184-11187	chi	_	_	_	chi	_	_	394-1	*->65-2	*[65]	
+395-3	11188-11189	è	_	_	Rising	è\]?	_	_	394-2	*->65-3	*[65]	
+
+#Text=ma è bello
+396-1	11190-11192	ma	_	_	_	\[ma	_	PKP130	395-0	*->65-4	*[65]	
+396-2	11193-11194	è	_	_	_	è	_	_	395-1	*->65-5	*[65]	
+396-3	11195-11200	bello	_	_	_	bello:\]	_	_	395-2	*->65-6	*[65]	
+
+#Text=lo pagai cinque euro di patrick eh
+397-1	11201-11203	lo	_	_	_	>lo	_	PKP130	396-0	_	_	
+397-2	11204-11209	pagai	_	_	_	pagai<	_	_	396-1	_	_	
+397-3	11210-11216	cinque	_	_	_	cinque	_	_	396-2	_	_	
+397-4	11217-11221	euro	_	_	_	euro	_	_	396-3	_	_	
+397-5	11222-11224	di	_	_	_	di	_	_	396-4	_	_	
+397-6	11225-11232	patrick	_	_	_	patrick:	_	_	396-5	_	_	
+397-7	11233-11235	eh	_	FP	_	e:::h	_	_	396-6	_	_	
+
+#Text=aspetta come si chiama
+398-1	11236-11243	aspetta	_	_	_	aspetta	_	PKP130	397-0	_	_	
+398-2	11244-11248	come	_	_	_	\[come	_	_	397-1	*->66-1	*[66]	
+398-3	11249-11251	si	_	_	_	si	_	_	397-2	*->66-2	*[66]	
+398-4	11252-11258	chiama	_	_	weakly\_rising	chiama\],	_	_	397-3	*->66-3	*[66]	
+
+#Text=quello che scrive i romanzi mh
+399-1	11259-11265	quello	_	_	_	\[>quello	_	PKP125	398-0	*->66-4	*[66]	
+399-2	11266-11269	che	_	_	_	che<\]	_	_	398-1	*->66-5	*[66]	
+399-3	11270-11276	scrive	_	_	_	scrive	_	_	398-2	_	_	
+399-4	11277-11278	i	_	_	_	i	_	_	398-3	_	_	
+399-5	11279-11286	romanzi	_	_	_	romanzi:	_	_	398-4	_	_	
+399-6	11287-11289	mh	_	FP	_	m::h	_	_	398-5	_	_	
+
+#Text=no è bello è della mh adelphi quindi non è un romanzetto
+400-1	11290-11292	no	_	_	_	no	_	PKP130	399-0	_	_	
+400-2	11293-11294	è	_	_	_	è	_	_	399-1	_	_	
+400-3	11295-11300	bello	_	_	_	BELLO	_	_	399-2	_	_	
+400-4	11301-11302	è	_	_	_	è	_	_	399-3	_	_	
+400-5	11303-11308	della	_	_	_	della::	_	_	399-4	_	_	
+400-6	11309-11311	mh	_	FP	_	m:h	_	_	399-5	_	_	
+400-7	11312-11319	adelphi	_	_	_	ADELPHI	_	_	399-6	_	_	
+400-8	11320-11326	quindi	_	_	_	quindi	_	_	399-7	_	_	
+400-9	11327-11330	non	_	_	_	non	_	_	399-8	_	_	
+400-10	11331-11332	è	_	_	_	è	_	_	399-9	_	_	
+400-11	11333-11335	un	_	_	_	un	_	_	399-10	_	_	
+400-12	11336-11346	romanzetto	_	_	_	romanzetto	_	_	399-11	_	_	
+
+#Text=praticamente lo vidi a quarto in libreria costava diciassette euro perché tu sai che le edizioni adelphi sono carissime
+401-1	11347-11359	praticamente	_	_	_	>praticamente<	_	PKP130	400-0	_	_	
+401-2	11360-11362	lo	_	_	_	lo	_	_	400-1	_	_	
+401-3	11363-11367	vidi	_	_	_	vidi	_	_	400-2	_	_	
+401-4	11368-11369	a	_	_	_	a	_	_	400-3	_	_	
+401-5	11370-11376	quarto	_	_	_	quarto	_	_	400-4	_	_	
+401-6	11377-11379	in	_	_	_	in	_	_	400-5	_	_	
+401-7	11380-11388	libreria	_	_	_	libreria	_	_	400-6	_	_	
+401-8	11389-11396	costava	_	_	_	costava	_	_	400-7	_	_	
+401-9	11397-11408	diciassette	_	_	_	diciassette	_	_	400-8	_	_	
+401-10	11409-11413	euro	_	_	_	euro	_	_	400-9	_	_	
+401-11	11414-11420	perché	_	_	_	p(er)ché	_	_	400-10	_	_	
+401-12	11421-11423	tu	_	_	_	tu	_	_	400-11	_	_	
+401-13	11424-11427	sai	_	_	_	sai	_	_	400-12	_	_	
+401-14	11428-11431	che	_	_	_	che	_	_	400-13	_	_	
+401-15	11432-11434	le	_	_	_	le	_	_	400-14	_	_	
+401-16	11435-11443	edizioni	_	_	_	edizioni	_	_	400-15	_	_	
+401-17	11444-11451	adelphi	_	_	_	adelphi	_	_	400-16	_	_	
+401-18	11452-11456	sono	_	_	_	sono	_	_	400-17	_	_	
+401-19	11457-11466	carissime	_	_	_	<carissime>	_	_	400-18	_	_	
+
+#Text=e sempre a quarto lo stesso giorno [PAUSE] lo vendeva quello là dei libri
+402-1	11467-11468	e	_	_	_	e:	_	PKP130	401-0	_	_	
+402-2	11469-11475	sempre	_	_	_	sempre	_	_	401-1	_	_	
+402-3	11476-11477	a	_	_	_	a	_	_	401-2	_	_	
+402-4	11478-11484	quarto	_	_	_	quarto	_	_	401-3	_	_	
+402-5	11485-11487	lo	_	_	_	lo	_	_	401-4	_	_	
+402-6	11488-11494	stesso	_	_	_	stesso	_	_	401-5	_	_	
+402-7	11495-11501	giorno	_	_	_	giorno	_	_	401-6	_	_	
+402-8	11502-11509	[PAUSE]	_	_	_	(.)	_	_	401-7	_	_	
+402-9	11510-11512	lo	_	_	_	lo	_	_	401-8	_	_	
+402-10	11513-11520	vendeva	_	_	_	vendeva	_	_	401-9	_	_	
+402-11	11521-11527	quello	_	_	_	quello	_	_	401-10	_	_	
+402-12	11528-11530	là	_	_	_	là	_	_	401-11	_	_	
+402-13	11531-11534	dei	_	_	_	dei	_	_	401-12	_	_	
+402-14	11535-11540	libri	_	_	_	libri	_	_	401-13	_	_	
+
+#Text=hai capito quello là che si mette a quarto e mi eh
+403-1	11541-11544	hai	_	_	_	>hai	_	PKP130	402-0	_	_	
+403-2	11545-11551	capito	_	_	_	\[capito<\]	_	_	402-1	*->4-1	*[4]	
+403-3	11552-11558	quello	_	_	_	quello	_	_	402-2	_	_	
+403-4	11559-11561	là	_	_	_	là	_	_	402-3	_	_	
+403-5	11562-11565	che	_	_	_	che	_	_	402-4	_	_	
+403-6	11566-11568	si	_	_	_	si	_	_	402-5	_	_	
+403-7	11569-11574	mette	_	_	_	mette	_	_	402-6	_	_	
+403-8	11575-11576	a	_	_	_	a	_	_	402-7	_	_	
+403-9	11577-11583	quarto	_	_	_	quarto	_	_	402-8	_	_	
+403-10	11584-11585	e	_	_	_	e	_	_	402-9	_	_	
+403-11	11586-11588	mi	_	_	_	mi	_	_	402-10	_	_	
+403-12	11589-11591	eh	_	_	_	e:h	_	_	402-11	_	_	
+
+#Text=mh
+404-1	11592-11594	mh	BC	_	_	m:h	_	PKP125	403-0	_	_	
+
+#Text=lo sai quanto l' ho pagato
+405-1	11595-11597	lo	_	_	_	lo	_	PKP130	404-0	_	_	
+405-2	11598-11601	sai	_	_	_	sai	_	_	404-1	_	_	
+405-3	11602-11608	quanto	_	_	_	quanto	_	_	404-2	_	_	
+405-4	11609-11611	l'	_	_	_	l'	_	_	404-3	_	_	
+405-5	11612-11614	ho	_	_	_	ho	_	_	404-4	_	_	
+405-6	11615-11621	pagato	_	_	Rising	pagato?	_	_	404-5	_	_	
+
+#Text=cinque euro
+406-1	11622-11628	cinque	_	_	_	cinque	_	PKP130	405-0	_	_	
+406-2	11629-11633	euro	_	_	_	euro	_	_	405-1	_	_	
+
+#Text=mh
+407-1	11634-11636	mh	BC	_	_	mh	_	PKP125	406-0	_	_	
+
+#Text=patrick mcgrath
+408-1	11637-11644	patrick	_	_	_	<patrick	_	PKP130	407-0	_	_	
+408-2	11645-11652	mcgrath	_	_	_	mcgrath>	_	_	407-1	_	_	
+
+#Text=ambientato nel cinquantanove in inghilterra la storia di un' ossessione sessuale
+409-1	11653-11663	ambientato	_	_	_	ambientato	_	PKP130	408-0	_	_	
+409-2	11664-11667	nel	_	_	_	nel	_	_	408-1	_	_	
+409-3	11668-11681	cinquantanove	_	_	_	cinquantanove	_	_	408-2	_	_	
+409-4	11682-11684	in	_	_	_	in	_	_	408-3	_	_	
+409-5	11685-11696	inghilterra	_	_	_	inghilterra	_	_	408-4	_	_	
+409-6	11697-11699	la	_	_	_	la	_	_	408-5	_	_	
+409-7	11700-11706	storia	_	_	_	storia	_	_	408-6	_	_	
+409-8	11707-11709	di	_	_	_	di	_	_	408-7	_	_	
+409-9	11710-11713	un'	_	_	_	un'	_	_	408-8	_	_	
+409-10	11714-11724	ossessione	_	_	_	ossessione	_	_	408-9	_	_	
+409-11	11725-11733	sessuale	_	_	_	ses\[suale\]	_	_	408-10	_	_	
+409-11.1	11727-11733	ssuale	_	_	_	_	_	_	_	*->9-1	*[9]	
+
+#Text=mh
+410-1	11734-11736	mh	BC	_	_	\[m:h\]	_	PKP125	409-0	*->9-2	*[9]	
+410-1.1	11734-11735	m	_	_	_	_	_	_	_	*->9-1	*[9]	
+
+#Text=è bello
+411-1	11737-11738	è	_	_	_	è	_	PKP130	410-0	_	_	
+411-2	11739-11744	bello	_	_	_	bello	_	_	410-1	_	_	
+
+#Text=a me hanno regalato mh per il mio compleanno
+412-1	11745-11746	a	_	_	_	a	_	PKP125	411-0	_	_	
+412-2	11747-11749	me	_	_	_	me	_	_	411-1	_	_	
+412-3	11750-11755	hanno	_	_	_	hanno	_	_	411-2	_	_	
+412-4	11756-11764	regalato	_	_	_	regalato:	_	_	411-3	_	_	
+412-5	11765-11767	mh	_	FP	_	m::h	_	_	411-4	_	_	
+412-6	11768-11771	per	_	_	_	per	_	_	411-5	_	_	
+412-7	11772-11774	il	_	_	_	il	_	_	411-6	_	_	
+412-8	11775-11778	mio	_	_	_	mio	_	_	411-7	_	_	
+412-9	11779-11789	compleanno	_	_	_	compleanno:	_	_	411-8	_	_	
+
+#Text=mh libri
+413-1	11790-11792	mh	BC	_	_	m:h	_	PKP130	412-0	_	_	
+413-2	11793-11798	libri	_	_	Rising	libri?	_	_	412-1	_	_	
+
+#Text=ca~ ca~
+414-1	11799-11802	ca~	_	_	_	ca~	_	PKP125	413-0	_	_	
+414-2	11803-11806	ca~	_	_	_	ca~	_	_	413-1	_	_	
+
+#Text=car~ ca~ caro~
+415-1	11807-11811	car~	_	_	_	car~	_	PKP125	414-0	_	_	
+415-2	11812-11815	ca~	_	_	_	ca~	_	_	414-1	_	_	
+415-3	11816-11821	caro~	_	_	_	caro~	_	_	414-2	_	_	
+
+#Text=la mia vita con come s' chiamav chillu gatt'
+416-1	11822-11824	la	_	_	_	#la	_	PKP130	415-0	_	_	
+416-2	11825-11828	mia	_	_	_	mia	_	_	415-1	_	_	
+416-3	11829-11833	vita	_	_	_	vita	_	_	415-2	_	_	
+416-4	11834-11837	con	_	_	_	con:	_	_	415-3	_	_	
+416-5	11838-11842	come	_	_	_	come	_	_	415-4	_	_	
+416-6	11843-11845	s'	_	_	_	s'	_	_	415-5	_	_	
+416-7	11846-11853	chiamav	_	_	_	chiamav	_	_	415-6	_	_	
+416-8	11854-11860	chillu	_	_	_	>chillu	_	_	415-7	_	_	
+416-9	11861-11866	gatt'	_	_	_	gatt'<	_	_	415-8	_	_	
+
+#Text=((ride))
+417-1	11867-11875	((ride))	_	_	_	((ride))	_	PKP125	416-0	_	_	
+
+#Text=è morto quel gatto
+418-1	11876-11877	è	_	_	_	È	_	PKP130	417-0	_	_	
+418-2	11878-11883	morto	_	_	_	MORTO	_	_	417-1	_	_	
+418-3	11884-11888	quel	_	_	_	quel	_	_	417-2	_	_	
+418-4	11889-11894	gatto	_	_	_	gatto::	_	_	417-3	_	_	
+
+#Text=ma quale gatto
+419-1	11895-11897	ma	_	_	_	ma	_	PKP125	418-0	_	_	
+419-2	11898-11903	quale	_	_	_	quale	_	_	418-1	_	_	
+419-3	11904-11909	gatto	_	_	Rising	gatto?	_	_	418-2	_	_	
+
+#Text=eh quello là
+420-1	11910-11912	eh	_	_	_	eh	_	PKP130	419-0	_	_	
+420-2	11913-11919	quello	_	_	_	quello	_	_	419-1	_	_	
+420-3	11920-11922	là	_	_	_	là:::	_	_	419-2	_	_	
+
+#Text=come si chiama x
+421-1	11923-11927	come	_	_	_	come	_	PKP130	420-0	_	_	
+421-2	11928-11930	si	_	_	_	si	_	_	420-1	_	_	
+421-3	11931-11937	chiama	_	_	Rising	chiama?	_	_	420-2	_	_	
+421-4	11938-11939	x	_	_	_	x	_	_	420-3	_	_	
+
+#Text=quel gatto
+422-1	11940-11944	quel	_	_	_	quel	_	PKP130	421-0	_	_	
+422-2	11945-11950	gatto	_	_	_	gatto::	_	_	421-1	_	_	
+
+#Text=quale gatto
+423-1	11951-11956	quale	_	_	_	°quale	_	PKP125	422-0	_	_	
+423-2	11957-11962	gatto	_	_	Rising	gatto?°	_	_	422-1	_	_	
+
+#Text=eh u gatt
+424-1	11963-11965	eh	_	FP	_	#e::h	_	PKP130	423-0	_	_	
+424-2	11966-11967	u	_	_	_	u	_	_	423-1	_	_	
+424-3	11968-11972	gatt	_	_	_	gatt	_	_	423-2	_	_	
+
+#Text=il gatto che portasti indietro
+425-1	11973-11975	il	_	_	_	il	_	PKP130	424-0	_	_	
+425-2	11976-11981	gatto	_	_	_	gatto::	_	_	424-1	_	_	
+425-3	11982-11985	che	_	_	_	che	_	_	424-2	_	_	
+425-4	11986-11994	portasti	_	_	_	portasti	_	_	424-3	_	_	
+425-5	11995-12003	indietro	_	_	_	<indietro>	_	_	424-4	_	_	
+
+#Text=io portai indietro
+426-1	12004-12006	io	_	_	_	io	_	PKP125	425-0	_	_	
+426-2	12007-12013	portai	_	_	_	portai	_	_	425-1	_	_	
+426-3	12014-12022	indietro	_	_	Rising	indietro?	_	_	425-2	_	_	
+
+#Text=maronna mij
+427-1	12023-12030	maronna	_	_	_	maronna	_	PKP130	426-0	_	_	
+427-2	12031-12034	mij	_	_	_	mi:j	_	_	426-1	_	_	
+
+#Text=quel gatto di quel~ quello là il proprietario
+428-1	12035-12039	quel	_	_	_	quel	_	PKP130	427-0	_	_	
+428-2	12040-12045	gatto	_	_	_	<GATTO>	_	_	427-1	_	_	
+428-3	12046-12048	di	_	_	_	di	_	_	427-2	_	_	
+428-4	12049-12054	quel~	_	_	_	quel~	_	_	427-3	_	_	
+428-5	12055-12061	quello	_	_	_	quello	_	_	427-4	_	_	
+428-6	12062-12064	là	_	_	_	là	_	_	427-5	_	_	
+428-7	12065-12067	il	_	_	_	il	_	_	427-6	_	_	
+428-8	12068-12080	proprietario	_	_	_	proprietario	_	_	427-7	_	_	
+
+#Text=era un tossicope~ dipe~ tossicodipendente il gatto lo aiutò
+429-1	12081-12084	era	_	_	_	era	_	PKP130	428-0	_	_	
+429-2	12085-12087	un	_	_	_	un	_	_	428-1	_	_	
+429-3	12088-12098	tossicope~	_	_	_	tossicope~	SR[19]	_	428-2	_	_	
+429-4	12099-12104	dipe~	_	_	_	>dipe~<	SR[19]	_	428-3	_	_	
+429-5	12105-12122	tossicodipendente	_	_	_	tossicodipendente	SR[19]	_	428-4	_	_	
+429-6	12123-12125	il	_	_	_	il	_	_	428-5	_	_	
+429-7	12126-12131	gatto	_	_	_	gatto	_	_	428-6	_	_	
+429-8	12132-12134	lo	_	_	_	lo	_	_	428-7	_	_	
+429-9	12135-12140	aiutò	_	_	Falling	aiutò.	_	_	428-8	_	_	
+
+#Text=mamma mia
+430-1	12141-12146	mamma	_	_	_	<MAMMA	_	PKP130	429-0	_	_	
+430-2	12147-12150	mia	_	_	_	\[MIA>\]	_	_	429-1	*->13-1	*[13]	
+
+#Text=la mia vita ca~ con bob eh ma
+431-1	12151-12153	la	_	_	_	\[la\]	_	PKP125	430-0	*->13-2	*[13]	
+431-2	12154-12157	mia	_	_	_	mia	_	_	430-1	_	_	
+431-3	12158-12162	vita	_	_	_	(vita)	_	_	430-2	_	_	
+431-4	12163-12166	ca~	_	_	_	ca~	SR[20]	_	430-3	_	_	
+431-5	12167-12170	con	_	_	_	con	SR[20]	_	430-4	_	_	
+431-6	12171-12174	bob	_	_	_	bob	_	_	430-5	_	_	
+431-7	12175-12177	eh	_	FP	_	e:h	_	_	430-6	_	_	
+431-8	12178-12180	ma	_	_	weakly\_rising	\[ma::\],	_	_	430-7	*->123-1	*[123]	
+
+#Text=((sussulto))
+432-1	12181-12193	((sussulto))	_	_	_	((sussulto))	_	PKP130	431-0	_	_	
+
+#Text=eh
+433-1	12194-12196	eh	BC	_	_	E:H	_	PKP130	432-0	_	_	
+
+#Text=bob
+434-1	12197-12200	bob	_	_	_	bo:b	_	PKP130	433-0	_	_	
+
+#Text=che poi mi presi
+435-1	12201-12204	che	_	_	_	che	_	PKP125	434-0	_	_	
+435-2	12205-12208	poi	_	_	_	poi	_	_	434-1	_	_	
+435-3	12209-12211	mi	_	_	_	mi	_	_	434-2	_	_	
+435-4	12212-12217	presi	_	_	_	pres\[i::\]	_	_	434-3	_	_	
+435-4.1	12216-12217	i	_	_	_	_	_	_	_	*->85-1	*[85]	
+
+#Text=la mia vita con bob sì
+436-1	12218-12220	la	BC[5]	_	_	\[LA	_	PKP130	435-0	*->85-1|*->85-2	*[85]|*[85]	
+436-2	12221-12224	mia	BC[5]	_	_	MIA\]	_	_	435-1	*->85-3	*[85]	
+436-2.1	12221-12221		_	_	_	_	_	_	_	*->85-1	*[85]	
+436-3	12225-12229	vita	BC[5]	_	_	VITA	_	_	435-2	_	_	
+436-4	12230-12233	con	BC[5]	_	_	con	_	_	435-3	_	_	
+436-5	12234-12237	bob	BC[5]	_	_	bob	_	_	435-4	_	_	
+436-6	12238-12240	sì	BC[5]	_	_	sì	_	_	435-5	_	_	
+
+#Text=elena ferrante
+437-1	12241-12246	elena	_	_	_	elena	_	PKP125	436-0	_	_	
+437-2	12247-12255	ferrante	_	_	weakly\_rising	ferrante,	_	_	436-1	_	_	
+
+#Text=eh
+438-1	12256-12258	eh	BC	_	_	e:h	_	PKP130	437-0	_	_	
+
+#Text=che coracc che
+439-1	12259-12262	che	_	_	_	#che	_	PKP125	438-0	_	_	
+439-2	12263-12269	coracc	_	_	_	coracc	_	_	438-1	_	_	
+439-3	12270-12273	che	_	_	_	che:	_	_	438-2	_	_	
+
+#Text=è pessimo io l' ho letto
+440-1	12274-12275	è	_	_	_	è	_	PKP130	439-0	_	_	
+440-2	12276-12283	pessimo	_	_	_	pessimo	_	_	439-1	_	_	
+440-3	12284-12286	io	_	_	_	io	_	_	439-2	_	_	
+440-4	12287-12289	l'	_	_	_	l'	_	_	439-3	_	_	
+440-5	12290-12292	ho	_	_	_	ho	_	_	439-4	_	_	
+440-6	12293-12298	letto	_	_	_	let\[to\]	_	_	439-5	_	_	
+440-6.1	12295-12298	tto	_	_	_	_	_	_	_	*->107-1	*[107]	
+
+#Text=l' hai letto
+441-1	12299-12301	l'	_	_	_	l'	_	PKP125	440-0	_	_	
+441-1.1	12299-12300	l	_	_	_	_	_	_	_	*->107-1	*[107]	
+441-2	12302-12305	hai	_	_	_	hai	_	_	440-1	_	_	
+441-3	12306-12311	letto	_	_	Rising	letto:?	_	_	440-2	_	_	
+
+#Text=sono andata al cinema a vederlo delle scene imbarazzanti
+442-1	12312-12316	sono	_	_	_	>sono	_	PKP130	441-0	_	_	
+442-2	12317-12323	andata	_	_	_	andata<	_	_	441-1	_	_	
+442-3	12324-12326	al	_	_	_	al	_	_	441-2	_	_	
+442-4	12327-12333	cinema	_	_	_	cinema	_	_	441-3	_	_	
+442-5	12334-12335	a	_	_	_	a	_	_	441-4	_	_	
+442-6	12336-12343	vederlo	_	_	_	vederlo	_	_	441-5	_	_	
+442-7	12344-12349	delle	_	_	_	delle	_	_	441-6	_	_	
+442-8	12350-12355	scene	_	_	_	scene	_	_	441-7	_	_	
+442-9	12356-12368	imbarazzanti	_	_	Falling	imbarazzanti:.	_	_	441-8	_	_	
+
+#Text=eh andammo io e antonio stavamo io e antonio solo nel cinema
+443-1	12369-12371	eh	_	FP	_	e::h	_	PKP130	442-0	_	_	
+443-2	12372-12379	andammo	_	_	_	andammo	_	_	442-1	_	_	
+443-3	12380-12382	io	_	_	_	io	_	_	442-2	_	_	
+443-4	12383-12384	e	_	_	_	e	_	_	442-3	_	_	
+443-5	12385-12392	antonio	_	_	_	antonio	_	_	442-4	_	_	
+443-6	12393-12400	stavamo	_	_	_	stavamo	_	_	442-5	_	_	
+443-7	12401-12403	io	_	_	_	io	_	_	442-6	_	_	
+443-8	12404-12405	e	_	_	_	e	_	_	442-7	_	_	
+443-9	12406-12413	antonio	_	_	_	antonio	_	_	442-8	_	_	
+443-10	12414-12418	solo	_	_	_	solo	_	_	442-9	_	_	
+443-11	12419-12422	nel	_	_	_	nel	_	_	442-10	_	_	
+443-12	12423-12429	cinema	_	_	_	cinema	_	_	442-11	_	_	
+
+#Text=no no non mi piace questo tipo di letteratura
+444-1	12430-12432	no	_	_	_	NO::	_	PKP130	443-0	_	_	
+444-2	12433-12435	no	_	_	_	>no<	_	_	443-1	_	_	
+444-3	12436-12439	non	_	_	_	non	_	_	443-2	_	_	
+444-4	12440-12442	mi	_	_	_	mi	_	_	443-3	_	_	
+444-5	12443-12448	piace	_	_	_	piace	_	_	443-4	_	_	
+444-6	12449-12455	questo	_	_	_	questo	_	_	443-5	_	_	
+444-7	12456-12460	tipo	_	_	_	\[tipo	_	_	443-6	*->62-1	*[62]	
+444-8	12461-12463	di	_	_	_	di	_	_	443-7	*->62-2	*[62]	
+444-9	12464-12475	letteratura	_	_	_	letteratura\]	_	_	443-8	*->62-3	*[62]	
+
+#Text=on the road
+445-1	12476-12478	on	_	_	_	\[(on	_	PKP125	444-0	*->62-4	*[62]	
+445-2	12479-12482	the	_	_	_	the	_	_	444-1	*->62-5	*[62]	
+445-3	12483-12487	road	_	_	_	road)\]	_	_	444-2	*->62-6	*[62]	
+
+#Text=neanche a me però me l' hanno regalato
+446-1	12488-12495	neanche	_	_	_	neanche	_	PKP125	445-0	_	_	
+446-2	12496-12497	a	_	_	_	a	_	_	445-1	_	_	
+446-3	12498-12500	me	_	_	_	\[me	_	_	445-2	_	_	
+446-4	12501-12505	però	_	_	_	però	_	_	445-3	_	_	
+446-5	12506-12508	me	_	_	_	me	_	_	445-4	_	_	
+446-6	12509-12511	l'	_	_	_	l'	_	_	445-5	_	_	
+446-7	12512-12517	hanno	_	_	_	hanno	_	_	445-6	_	_	
+446-8	12518-12526	regalato	_	_	_	regalato\]	_	_	445-7	_	_	
+
+#Text=no
+447-1	12527-12529	no	_	_	_	\[°no:°\]	_	PKP130	446-0	*->18-1	*[18]	
+
+#Text=ah ma in inglese
+448-1	12530-12532	ah	_	_	_	\[ah	_	PKP130	447-0	*->140-1	*[140]	
+448-2	12533-12535	ma	_	_	_	ma	_	_	447-1	*->140-2	*[140]	
+448-3	12536-12538	in	_	_	_	in	_	_	447-2	*->140-3	*[140]	
+448-4	12539-12546	inglese	_	_	Rising	<inglese>\]?	_	_	447-3	*->140-4	*[140]	
+
+#Text=((sbuffa)) x
+449-1	12547-12557	((sbuffa))	_	_	_	((sbuffa))	_	PKP130	448-0	_	_	
+449-2	12558-12559	x	_	_	_	\[\]	_	_	448-1	_	_	
+
+#Text=no no no
+450-1	12560-12562	no	_	_	_	no::	_	PKP130	449-0	_	_	
+450-2	12563-12565	no	_	_	_	\[\]no	_	_	449-1	_	_	
+450-3	12566-12568	no	_	_	_	no\]	_	_	449-2	_	_	
+
+#Text=però è stato un bel gesto un libro in inglese
+451-1	12569-12573	però	_	_	_	\[però	_	PKP125	450-0	*->7-1	*[7]	
+451-2	12574-12575	è	_	_	_	è	_	_	450-1	*->7-2	*[7]	
+451-3	12576-12581	stato	_	_	_	stato\]	_	_	450-2	*->7-3	*[7]	
+451-4	12582-12584	un	_	_	_	un	_	_	450-3	_	_	
+451-5	12585-12588	bel	_	_	_	bel	_	_	450-4	_	_	
+451-6	12589-12594	gesto	_	_	_	gesto	_	_	450-5	_	_	
+451-7	12595-12597	un	_	_	_	un	_	_	450-6	_	_	
+451-8	12598-12603	libro	_	_	_	libro	_	_	450-7	_	_	
+451-9	12604-12606	in	_	_	_	in	_	_	450-8	_	_	
+451-10	12607-12614	inglese	_	_	_	inglese	_	_	450-9	_	_	
+
+#Text=it changed my life ma che chi chi è che te l' ha regala~
+452-1	12615-12617	it	_	_	_	it	_	PKP130	451-0	_	_	
+452-2	12618-12625	changed	_	_	_	changed	_	_	451-1	_	_	
+452-3	12626-12628	my	_	_	_	my	_	_	451-2	_	_	
+452-4	12629-12633	life	_	_	_	life	_	_	451-3	_	_	
+452-5	12634-12636	ma	_	_	_	ma	_	_	451-4	_	_	
+452-6	12637-12640	che	_	_	_	che:	_	_	451-5	_	_	
+452-7	12641-12644	chi	_	_	_	chi	_	_	451-6	_	_	
+452-8	12645-12648	chi	_	_	_	>chi	_	_	451-7	_	_	
+452-9	12649-12650	è	_	_	_	è	_	_	451-8	_	_	
+452-10	12651-12654	che	_	_	_	che<	_	_	451-9	_	_	
+452-11	12655-12657	te	_	_	_	te	_	_	451-10	_	_	
+452-12	12658-12660	l'	_	_	_	l'	_	_	451-11	_	_	
+452-13	12661-12663	ha	_	_	_	ha	_	_	451-12	_	_	
+452-14	12664-12671	regala~	_	_	_	regala~	_	_	451-13	_	_	
+
+#Text=ma certo
+453-1	12672-12674	ma	_	_	_	ma	_	PKP130	452-0	_	_	
+453-2	12675-12680	certo	_	_	_	certo:	_	_	452-1	_	_	
+
+#Text=nadia chiara e
+454-1	12681-12686	nadia	_	_	_	nadia	_	PKP125	453-0	_	_	
+454-2	12687-12693	chiara	_	_	_	chiara	_	_	453-1	_	_	
+454-3	12694-12695	e	_	_	_	e:::	_	_	453-2	_	_	
+
+#Text=ah sì
+455-1	12696-12698	ah	BC	_	_	ah	_	PKP130	454-0	_	_	
+455-2	12699-12701	sì	_	_	Rising	sì?	_	_	454-1	_	_	
+
+#Text=boh
+456-1	12702-12705	boh	_	_	_	boh	_	PKP125	455-0	_	_	
+
+#Text=si dice chi ti ama ti regala libri
+457-1	12706-12708	si	_	_	_	>si	_	PKP130	456-0	_	_	
+457-2	12709-12713	dice	_	_	_	dice<	_	_	456-1	_	_	
+457-3	12714-12717	chi	_	_	_	chi	_	_	456-2	_	_	
+457-4	12718-12720	ti	_	_	_	ti	_	_	456-3	_	_	
+457-5	12721-12724	ama	_	_	_	ama	_	_	456-4	_	_	
+457-6	12725-12727	ti	_	_	_	ti	_	_	456-5	_	_	
+457-7	12728-12734	regala	_	_	_	regala	_	_	456-6	_	_	
+457-8	12735-12740	libri	_	_	_	libri	_	_	456-7	_	_	
+
+#Text=beh almeno eh loro mi regalano in genere sempre bracciali braccialetti n~ bruttissimi
+458-1	12741-12744	beh	_	_	_	beh	_	PKP125	457-0	_	_	
+458-2	12745-12751	almeno	_	_	_	almeno:	_	_	457-1	_	_	
+458-3	12752-12754	eh	_	FP	_	e:h	_	_	457-2	_	_	
+458-4	12755-12759	loro	_	_	_	loro	_	_	457-3	_	_	
+458-5	12760-12762	mi	_	_	_	mi	_	_	457-4	_	_	
+458-6	12763-12771	regalano	_	_	_	regalano	_	_	457-5	_	_	
+458-7	12772-12774	in	_	_	_	in	_	_	457-6	_	_	
+458-8	12775-12781	genere	_	_	_	genere	_	_	457-7	_	_	
+458-9	12782-12788	sempre	_	_	_	sempre	_	_	457-8	_	_	
+458-10	12789-12798	bracciali	_	_	_	bracciali	_	_	457-9	_	_	
+458-11	12799-12811	braccialetti	_	_	_	braccialetti	_	_	457-10	_	_	
+458-12	12812-12814	n~	_	_	_	n~	_	_	457-11	_	_	
+458-13	12815-12826	bruttissimi	_	_	_	\[<bruttissimi>\]	_	_	457-12	*->110-1	*[110]	
+
+#Text=però ti fanno sempre il regalo eh
+459-1	12827-12831	però	_	_	_	\[però\]	_	PKP130	458-0	*->110-2	*[110]	
+459-2	12832-12834	ti	_	_	_	ti	_	_	458-1	_	_	
+459-3	12835-12840	fanno	_	_	_	fanno	_	_	458-2	_	_	
+459-4	12841-12847	sempre	_	_	_	sempre	_	_	458-3	_	_	
+459-5	12848-12850	il	_	_	_	il	_	_	458-4	_	_	
+459-6	12851-12857	regalo	_	_	_	regalo	_	_	458-5	_	_	
+459-7	12858-12860	eh	_	_	_	E:H	_	_	458-6	_	_	
+
+#Text=sì
+460-1	12861-12863	sì	BC	_	_	sì	_	PKP125	459-0	_	_	
+
+#Text=ma quel bracciale di donatella poi si è rotto definitivamente
+461-1	12864-12866	ma	_	_	_	ma	_	PKP130	460-0	_	_	
+461-2	12867-12871	quel	_	_	_	quel	_	_	460-1	_	_	
+461-3	12872-12881	bracciale	_	_	_	bracciale	_	_	460-2	_	_	
+461-4	12882-12884	di	_	_	_	di	_	_	460-3	_	_	
+461-5	12885-12894	donatella	_	_	_	donatella	_	_	460-4	_	_	
+461-6	12895-12898	poi	_	_	_	poi	_	_	460-5	_	_	
+461-7	12899-12901	si	_	_	_	si	_	_	460-6	_	_	
+461-8	12902-12903	è	_	_	_	è	_	_	460-7	_	_	
+461-9	12904-12909	rotto	_	_	_	rotto	_	_	460-8	_	_	
+461-10	12910-12925	definitivamente	_	_	Rising	definitivamente?	_	_	460-9	_	_	
+
+#Text=ve~ jà ci vorrebbe un filo o un filo cerato
+462-1	12926-12929	ve~	_	_	_	(ve~	_	PKP125	461-0	_	_	
+462-2	12930-12932	jà	_	_	_	jà)	_	_	461-1	_	_	
+462-3	12933-12935	ci	_	_	_	ci	_	_	461-2	_	_	
+462-4	12936-12944	vorrebbe	_	_	_	vorrebbe	_	_	461-3	_	_	
+462-5	12945-12947	un	_	_	_	un	_	_	461-4	_	_	
+462-6	12948-12952	filo	_	_	_	filo:	_	_	461-5	_	_	
+462-7	12953-12954	o	_	_	_	o	_	_	461-6	_	_	
+462-8	12955-12957	un	_	_	_	un	_	_	461-7	_	_	
+462-9	12958-12962	filo	_	_	_	filo	_	_	461-8	_	_	
+462-10	12963-12969	cerato	_	_	_	<cerato>	_	_	461-9	_	_	
+
+#Text=sottile sottile
+463-1	12970-12977	sottile	_	_	_	sottile	_	PKP125	462-0	_	_	
+463-2	12978-12985	sottile	_	_	_	sottile	_	_	462-1	_	_	
+
+#Text=eh ma tu lo sai fare va' dal cinese e prendilo
+464-1	12986-12988	eh	BC	_	_	e:h	_	PKP130	463-0	_	_	
+464-2	12989-12991	ma	_	_	_	ma	_	_	463-1	_	_	
+464-3	12992-12994	tu	_	_	_	tu	_	_	463-2	_	_	
+464-4	12995-12997	lo	_	_	_	lo	_	_	463-3	_	_	
+464-5	12998-13001	sai	_	_	_	sai	_	_	463-4	_	_	
+464-6	13002-13006	fare	_	_	_	fare	_	_	463-5	_	_	
+464-7	13007-13010	va'	_	_	_	va'	_	_	463-6	_	_	
+464-8	13011-13014	dal	_	_	_	dal	_	_	463-7	_	_	
+464-9	13015-13021	cinese	_	_	_	cinese	_	_	463-8	_	_	
+464-10	13022-13023	e	_	_	_	e	_	_	463-9	_	_	
+464-11	13024-13032	prendilo	_	_	_	prendilo	_	_	463-10	_	_	
+
+#Text=eh dovrei andare dal ci~ però poi il gancetto poi dovrei fare il nodo
+465-1	13033-13035	eh	BC	_	_	eh	_	PKP125	464-0	_	_	
+465-2	13036-13042	dovrei	_	_	_	dovrei	_	_	464-1	_	_	
+465-3	13043-13049	andare	_	_	_	andare	_	_	464-2	_	_	
+465-4	13050-13053	dal	_	_	_	dal	_	_	464-3	_	_	
+465-5	13054-13057	ci~	_	_	_	ci~	_	_	464-4	_	_	
+465-6	13058-13062	però	_	_	_	però	_	_	464-5	_	_	
+465-7	13063-13066	poi	_	_	_	poi	_	_	464-6	_	_	
+465-8	13067-13069	il	_	_	_	il	_	_	464-7	_	_	
+465-9	13070-13078	gancetto	_	_	_	gancetto	_	_	464-8	_	_	
+465-10	13079-13082	poi	_	_	_	poi	_	_	464-9	_	_	
+465-11	13083-13089	dovrei	_	_	_	dovrei	_	_	464-10	_	_	
+465-12	13090-13094	fare	_	_	_	fare	_	_	464-11	_	_	
+465-13	13095-13097	il	_	_	_	il	_	_	464-12	_	_	
+465-14	13098-13102	nodo	_	_	_	<nodo>	_	_	464-13	_	_	
+
+#Text=che fa
+466-1	13103-13106	che	_	_	_	°che	_	PKP130	465-0	_	_	
+466-2	13107-13109	fa	_	_	_	fa:°	_	_	465-1	_	_	
+
+#Text=dovrei andare dal cinese quello là al villaggio
+467-1	13110-13116	dovrei	_	_	_	dovrei	_	PKP125	466-0	_	_	
+467-2	13117-13123	andare	_	_	_	andare	_	_	466-1	_	_	
+467-3	13124-13127	dal	_	_	_	dal	_	_	466-2	_	_	
+467-4	13128-13134	cinese	_	_	_	cinese	_	_	466-3	_	_	
+467-5	13135-13141	quello	_	_	_	quello	_	_	466-4	_	_	
+467-6	13142-13144	là	_	_	_	là	_	_	466-5	_	_	
+467-7	13145-13147	al	_	_	_	al	_	_	466-6	_	_	
+467-8	13148-13157	villaggio	_	_	_	<VILLAGGIO>	_	_	466-7	_	_	
+
+#Text=no non mi piace questa è la letteratura come quella di ferlinghetti
+468-1	13158-13160	no	_	_	_	no:	_	PKP130	467-0	_	_	
+468-2	13161-13164	non	_	_	_	non	_	_	467-1	_	_	
+468-3	13165-13167	mi	_	_	_	mi	_	_	467-2	_	_	
+468-4	13168-13173	piace	_	_	_	piace	_	_	467-3	_	_	
+468-5	13174-13180	questa	_	_	_	questa	_	_	467-4	_	_	
+468-6	13181-13182	è	_	_	_	è	_	_	467-5	_	_	
+468-7	13183-13185	la	_	_	_	la	_	_	467-6	_	_	
+468-8	13186-13197	letteratura	_	_	_	letteratura	_	_	467-7	_	_	
+468-9	13198-13202	come	_	_	_	come	_	_	467-8	_	_	
+468-10	13203-13209	quella	_	_	_	quella	_	_	467-9	_	_	
+468-11	13210-13212	di	_	_	_	di	_	_	467-10	_	_	
+468-12	13213-13225	ferlinghetti	_	_	Falling	ferlinghetti.	_	_	467-11	_	_	
+
+#Text=eh
+469-1	13226-13228	eh	_	FP	_	e:::h	_	PKP130	468-0	_	_	
+
+#Text=eh il poeta là come si chiama quella quella libreria che sta [PAUSE] a san francisco la [PAUSE] city lights la libreria famosa di city lights
+470-1	13229-13231	eh	_	FP	_	e:h	_	PKP130	469-0	_	_	
+470-2	13232-13234	il	_	_	_	il	_	_	469-1	_	_	
+470-3	13235-13240	poeta	_	_	_	<poeta>	_	_	469-2	_	_	
+470-4	13241-13243	là	_	_	_	là:	_	_	469-3	_	_	
+470-5	13244-13248	come	_	_	_	>come	_	_	469-4	_	_	
+470-6	13249-13251	si	_	_	_	si	_	_	469-5	_	_	
+470-7	13252-13258	chiama	_	_	_	chiama<	_	_	469-6	_	_	
+470-8	13259-13265	quella	_	_	_	quella:	_	_	469-7	_	_	
+470-9	13266-13272	quella	_	_	_	quella	_	_	469-8	_	_	
+470-10	13273-13281	libreria	_	_	_	libreria	_	_	469-9	_	_	
+470-11	13282-13285	che	_	_	_	che	_	_	469-10	_	_	
+470-12	13286-13289	sta	_	_	_	sta	_	_	469-11	_	_	
+470-13	13290-13297	[PAUSE]	_	_	_	(.)	_	_	469-12	_	_	
+470-14	13298-13299	a	_	_	_	a	_	_	469-13	_	_	
+470-15	13300-13303	san	_	_	_	san	_	_	469-14	_	_	
+470-16	13304-13313	francisco	_	_	_	francisco	_	_	469-15	_	_	
+470-17	13314-13316	la	_	_	_	la::	_	_	469-16	_	_	
+470-18	13317-13324	[PAUSE]	_	_	_	(.)	_	_	469-17	_	_	
+470-19	13325-13329	city	_	_	_	city	_	_	469-18	_	_	
+470-20	13330-13336	lights	_	_	_	lights	_	_	469-19	_	_	
+470-21	13337-13339	la	_	_	_	la	_	_	469-20	_	_	
+470-22	13340-13348	libreria	_	_	_	libreria	_	_	469-21	_	_	
+470-23	13349-13355	famosa	_	_	_	famosa	_	_	469-22	_	_	
+470-24	13356-13358	di	_	_	_	di	_	_	469-23	_	_	
+470-25	13359-13363	city	_	_	_	city	_	_	469-24	_	_	
+470-26	13364-13370	lights	_	_	_	lights	_	_	469-25	_	_	
+
+#Text=quella è tutta una generazione di poeti che si muovevano intorno a questa libreria che ho visitato a san francisco
+471-1	13371-13377	quella	_	_	_	quella	_	PKP130	470-0	_	_	
+471-2	13378-13379	è	_	_	_	è	_	_	470-1	_	_	
+471-3	13380-13385	tutta	_	_	_	tutta	_	_	470-2	_	_	
+471-4	13386-13389	una	_	_	_	una	_	_	470-3	_	_	
+471-5	13390-13401	generazione	_	_	_	generazione	_	_	470-4	_	_	
+471-6	13402-13404	di	_	_	_	di	_	_	470-5	_	_	
+471-7	13405-13410	poeti	_	_	_	poeti	_	_	470-6	_	_	
+471-8	13411-13414	che	_	_	_	che	_	_	470-7	_	_	
+471-9	13415-13417	si	_	_	_	si	_	_	470-8	_	_	
+471-10	13418-13427	muovevano	_	_	_	muovevano	_	_	470-9	_	_	
+471-11	13428-13435	intorno	_	_	_	intorno	_	_	470-10	_	_	
+471-12	13436-13437	a	_	_	_	a	_	_	470-11	_	_	
+471-13	13438-13444	questa	_	_	_	questa	_	_	470-12	_	_	
+471-14	13445-13453	libreria	_	_	_	libreria	_	_	470-13	_	_	
+471-15	13454-13457	che	_	_	_	<che	_	_	470-14	_	_	
+471-16	13458-13460	ho	_	_	_	ho	_	_	470-15	_	_	
+471-17	13461-13469	visitato	_	_	_	visitato>	_	_	470-16	_	_	
+471-18	13470-13471	a	_	_	_	a	_	_	470-17	_	_	
+471-19	13472-13475	san	_	_	_	san	_	_	470-18	_	_	
+471-20	13476-13485	francisco	_	_	_	francisco	_	_	470-19	_	_	
+
+#Text=capito
+472-1	13486-13492	capito	_	_	Rising	capito:?	_	PKP130	471-0	_	_	
+
+#Text=ferlinghetti lui tutti questi qua
+473-1	13493-13505	ferlinghetti	_	_	_	ferlinghetti::	_	PKP130	472-0	_	_	
+473-2	13506-13509	lui	_	_	_	lui::	_	_	472-1	_	_	
+473-3	13510-13515	tutti	_	_	_	tutti	_	_	472-2	_	_	
+473-4	13516-13522	questi	_	_	_	questi	_	_	472-3	_	_	
+473-5	13523-13526	qua	_	_	Falling	qua.	_	_	472-4	_	_	
+
+#Text=non lo so ho letto la prima pagina e ho detto maronn che esperienza
+474-1	13527-13530	non	_	_	_	non	_	PKP125	473-0	_	_	
+474-2	13531-13533	lo	_	_	_	lo	_	_	473-1	_	_	
+474-3	13534-13536	so	_	_	_	so	_	_	473-2	_	_	
+474-4	13537-13539	ho	_	_	_	ho	_	_	473-3	_	_	
+474-5	13540-13545	letto	_	_	_	letto	_	_	473-4	_	_	
+474-6	13546-13548	la	_	_	_	la	_	_	473-5	_	_	
+474-7	13549-13554	prima	_	_	_	prima	_	_	473-6	_	_	
+474-8	13555-13561	pagina	_	_	_	pagina:	_	_	473-7	_	_	
+474-9	13562-13563	e	_	_	_	e	_	_	473-8	_	_	
+474-10	13564-13566	ho	_	_	_	ho	_	_	473-9	_	_	
+474-11	13567-13572	detto	_	_	_	detto	_	_	473-10	_	_	
+474-12	13573-13579	maronn	_	_	_	maronn	_	_	473-11	_	_	
+474-13	13580-13583	che	_	_	_	che	_	_	473-12	_	_	
+474-14	13584-13594	esperienza	_	_	_	\[(esperienza)\]	_	_	473-13	*->112-1	*[112]	
+
+#Text=ma non hai letto l' introduzione
+475-1	13595-13597	ma	_	_	_	\[MA	_	PKP130	474-0	*->112-2	*[112]	
+475-2	13598-13601	non	_	_	_	NON	_	_	474-1	*->112-3	*[112]	
+475-3	13602-13605	hai	_	_	_	HAI	_	_	474-2	*->112-4	*[112]	
+475-4	13606-13611	letto	_	_	_	LETTO\]	_	_	474-3	*->112-5	*[112]	
+475-5	13612-13614	l'	_	_	_	l'	_	_	474-4	_	_	
+475-6	13615-13627	introduzione	_	_	Rising	introduzione?	_	_	474-5	_	_	
+
+#Text=no no io non l' ho mai voluto leggere
+476-1	13628-13630	no	_	_	_	no	_	PKP130	475-0	_	_	
+476-2	13631-13633	no	_	_	_	no	_	_	475-1	_	_	
+476-3	13634-13636	io	_	_	_	io	_	_	475-2	_	_	
+476-4	13637-13640	non	_	_	_	non	_	_	475-3	_	_	
+476-5	13641-13643	l'	_	_	_	l'	_	_	475-4	_	_	
+476-6	13644-13646	ho	_	_	_	ho	_	_	475-5	_	_	
+476-7	13647-13650	mai	_	_	_	mai	_	_	475-6	_	_	
+476-8	13651-13657	voluto	_	_	_	voluto	_	_	475-7	_	_	
+476-9	13658-13665	leggere	_	_	_	leggere	_	_	475-8	_	_	
+
+#Text=sicuramente è un classico ma di certo non lo leggerei in inglese
+477-1	13666-13677	sicuramente	_	_	_	SICURAMENTE	_	PKP130	476-0	_	_	
+477-2	13678-13679	è	_	_	_	è	_	_	476-1	_	_	
+477-3	13680-13682	un	_	_	_	un	_	_	476-2	_	_	
+477-4	13683-13691	classico	_	_	_	classico	_	_	476-3	_	_	
+477-5	13692-13694	ma	_	_	_	ma	_	_	476-4	_	_	
+477-6	13695-13697	di	_	_	_	di	_	_	476-5	_	_	
+477-7	13698-13703	certo	_	_	_	certo	_	_	476-6	_	_	
+477-8	13704-13707	non	_	_	_	non	_	_	476-7	_	_	
+477-9	13708-13710	lo	_	_	_	lo	_	_	476-8	_	_	
+477-10	13711-13719	leggerei	_	_	_	leggerei	_	_	476-9	_	_	
+477-11	13720-13722	in	_	_	_	in	_	_	476-10	_	_	
+477-12	13723-13730	inglese	_	_	_	ingle:se	_	_	476-11	_	_	
+
+#Text=no non è sc~ non è diffi~ è molto scorrevole eh
+478-1	13731-13733	no	_	_	_	NO	_	PKP125	477-0	_	_	
+478-2	13734-13737	non	_	_	_	non	_	_	477-1	_	_	
+478-3	13738-13739	è	_	_	_	è	_	_	477-2	_	_	
+478-4	13740-13743	sc~	_	_	_	sc~	_	_	477-3	_	_	
+478-5	13744-13747	non	_	_	_	non	_	_	477-4	_	_	
+478-6	13748-13749	è	_	_	_	è	_	_	477-5	_	_	
+478-7	13750-13756	diffi~	_	_	_	diffi~	_	_	477-6	_	_	
+478-8	13757-13758	è	_	_	_	è	_	_	477-7	_	_	
+478-9	13759-13764	molto	_	_	_	molto:	_	_	477-8	_	_	
+478-10	13765-13775	scorrevole	_	_	_	scorrevole	_	_	477-9	_	_	
+478-11	13776-13778	eh	_	_	_	eh	_	_	477-10	_	_	
+
+#Text=eh sì infatti si vede
+479-1	13779-13781	eh	BC[6]	_	_	E:H	_	PKP130	478-0	_	_	
+479-2	13782-13784	sì	BC[6]	_	_	sì	_	_	478-1	_	_	
+479-3	13785-13792	infatti	_	_	_	infatti	_	_	478-2	_	_	
+479-4	13793-13795	si	_	_	_	si	_	_	478-3	_	_	
+479-5	13796-13800	vede	_	_	_	vede	_	_	478-4	_	_	
+
+#Text=lui lo scrisse
+480-1	13801-13804	lui	_	_	_	lui	_	PKP130	479-0	_	_	
+480-2	13805-13807	lo	_	_	_	\[lo	_	_	479-1	*->127-1	*[127]	
+480-3	13808-13815	scrisse	_	_	_	scrisse\]	_	_	479-2	*->127-2	*[127]	
+
+#Text=non è mh
+481-1	13816-13819	non	_	_	_	non	_	PKP125	480-0	_	_	
+481-2	13820-13821	è	_	_	_	è:::	_	_	480-1	_	_	
+481-3	13822-13824	mh	_	FP	_	mh	_	_	480-2	_	_	
+
+#Text=io andai a vedere il film
+482-1	13825-13827	io	_	_	_	io	_	PKP130	481-0	_	_	
+482-2	13828-13833	andai	_	_	_	andai	_	_	481-1	_	_	
+482-3	13834-13835	a	_	_	_	a	_	_	481-2	_	_	
+482-4	13836-13842	vedere	_	_	_	vedere	_	_	481-3	_	_	
+482-5	13843-13845	il	_	_	_	il	_	_	481-4	_	_	
+482-6	13846-13850	film	_	_	_	film	_	_	481-5	_	_	
+
+#Text=è questa vita un po' hippy un po' particolare
+483-1	13851-13852	è	_	_	_	è	_	PKP130	482-0	_	_	
+483-2	13853-13859	questa	_	_	_	questa	_	_	482-1	_	_	
+483-3	13860-13864	vita	_	_	_	vita	_	_	482-2	_	_	
+483-4	13865-13867	un	_	_	_	un	_	_	482-3	_	_	
+483-5	13868-13871	po'	_	_	_	po'	_	_	482-4	_	_	
+483-6	13872-13877	hippy	_	_	_	hippy	_	_	482-5	_	_	
+483-7	13878-13880	un	_	_	_	un	_	_	482-6	_	_	
+483-8	13881-13884	po'	_	_	_	po:'	_	_	482-7	_	_	
+483-9	13885-13896	particolare	_	_	_	\[<particolare>\]	_	_	482-8	*->30-1	*[30]	
+
+#Text=eh sì così
+484-1	13897-13899	eh	BC[7]	_	_	\[e:h\]	_	PKP125	483-0	*->30-2	*[30]	
+484-2	13900-13902	sì	BC[7]	_	_	sì	_	_	483-1	_	_	
+484-3	13903-13907	così	BC[7]	_	_	così	_	_	483-2	_	_	
+
+#Text=a nadia ho detto ma tu l' hai letto na' e lei impossi~
+485-1	13908-13909	a	_	_	_	a	_	PKP125	484-0	_	_	
+485-2	13910-13915	nadia	_	_	_	nadia	_	_	484-1	_	_	
+485-3	13916-13918	ho	_	_	_	\[ho	_	_	484-2	*->160-1	*[160]	
+485-4	13919-13924	detto	_	_	_	detto\]	_	_	484-3	*->160-2	*[160]	
+485-5	13925-13927	ma	_	_	_	ma	_	_	484-4	_	_	
+485-6	13928-13930	tu	_	_	_	tu	_	_	484-5	_	_	
+485-7	13931-13933	l'	_	_	_	l'	_	_	484-6	_	_	
+485-8	13934-13937	hai	_	_	_	hai	_	_	484-7	_	_	
+485-9	13938-13943	letto	_	_	_	letto	_	_	484-8	_	_	
+485-10	13944-13947	na'	_	_	_	na'	_	_	484-9	_	_	
+485-11	13948-13949	e	_	_	_	e	_	_	484-10	_	_	
+485-12	13950-13953	lei	_	_	_	lei	_	_	484-11	_	_	
+485-13	13954-13962	impossi~	_	_	_	\[impossi~\]	_	_	484-12	*->56-1	*[56]	
+
+#Text=vedi
+486-1	13963-13967	vedi	_	_	_	\[VEDI\]	_	PKP130	485-0	*->160-3	*[160]	
+
+#Text=la la beat
+487-1	13968-13970	la	_	_	_	\[la::\]	_	PKP130	486-0	*->56-2	*[56]	
+487-2	13971-13973	la	_	_	_	la	_	_	486-1	_	_	
+487-3	13974-13978	beat	_	_	_	<BEAT>	_	_	486-2	_	_	
+
+#Text=la generazione beat
+488-1	13979-13981	la	_	_	_	la:	_	PKP130	487-0	_	_	
+488-2	13982-13993	generazione	_	_	_	generazione	_	_	487-1	_	_	
+488-3	13994-13998	beat	_	_	_	<beat>	_	_	487-2	_	_	
+
+#Text=capito
+489-1	13999-14005	capito	_	_	Rising	capito?	_	PKP130	488-0	_	_	
+
+#Text=walt whitman scott əh scott fitzgerald
+490-1	14006-14010	walt	_	_	_	walt	_	PKP130	489-0	_	_	
+490-2	14011-14018	whitman	_	_	_	whitman	_	_	489-1	_	_	
+490-3	14019-14024	scott	_	_	_	scott	_	_	489-2	_	_	
+490-4	14025-14027	əh	_	FP	_	ə::h	_	_	489-3	_	_	
+490-5	14028-14033	scott	_	_	_	scott	_	_	489-4	_	_	
+490-6	14034-14044	fitzgerald	_	_	_	fitzgerald	_	_	489-5	_	_	
+
+#Text=no però non è no non c' erano questi c' era ferlinghetti e poi chi altro
+491-1	14045-14047	no	_	_	_	no	_	PKP130	490-0	_	_	
+491-2	14048-14052	però	_	_	_	però	_	_	490-1	_	_	
+491-3	14053-14056	non	_	_	_	non	_	_	490-2	_	_	
+491-4	14057-14058	è	_	_	_	è:	_	_	490-3	_	_	
+491-5	14059-14061	no	_	_	_	no	_	_	490-4	_	_	
+491-6	14062-14065	non	_	_	_	non	_	_	490-5	_	_	
+491-7	14066-14068	c'	_	_	_	c'	_	_	490-6	_	_	
+491-8	14069-14074	erano	_	_	_	erano	_	_	490-7	_	_	
+491-9	14075-14081	questi	_	_	_	questi	_	_	490-8	_	_	
+491-10	14082-14084	c'	_	_	_	c'	_	_	490-9	_	_	
+491-11	14085-14088	era	_	_	_	era	_	_	490-10	_	_	
+491-12	14089-14101	ferlinghetti	_	_	_	FERLINGHETTI	_	_	490-11	_	_	
+491-13	14102-14103	e	_	_	_	e	_	_	490-12	_	_	
+491-14	14104-14107	poi	_	_	_	poi	_	_	490-13	_	_	
+491-15	14108-14111	chi	_	_	_	chi	_	_	490-14	_	_	
+491-16	14112-14117	altro	_	_	_	altro	_	_	490-15	_	_	
+
+#Text=steve lights
+492-1	14118-14123	steve	_	_	_	(steve	_	PKP130	491-0	_	_	
+492-2	14124-14130	lights	_	_	_	lights)	_	_	491-1	_	_	
+
+#Text=ma nadia
+493-1	14131-14133	ma	_	_	_	ma	_	PKP130	492-0	_	_	
+493-2	14134-14139	nadia	_	_	Rising	NADIA?	_	_	492-1	_	_	
+
+#Text=il dottorato
+494-1	14140-14142	il	_	_	_	il	_	PKP130	493-0	_	_	
+494-2	14143-14152	dottorato	_	_	Rising	dottorato?	_	_	493-1	_	_	
+
+#Text=non è riuscita
+495-1	14153-14156	non	_	_	_	non	_	PKP130	494-0	_	_	
+495-2	14157-14158	è	_	_	_	è	_	_	494-1	_	_	
+495-3	14159-14167	riuscita	_	_	Rising	riuscita?	_	_	494-2	_	_	
+
+#Text=a quanto pare no
+496-1	14168-14169	a	_	_	_	a	_	PKP125	495-0	_	_	
+496-2	14170-14176	quanto	_	_	_	quanto	_	_	495-1	_	_	
+496-3	14177-14181	pare	_	_	_	pare	_	_	495-2	_	_	
+496-4	14182-14184	no	_	_	_	NO	_	_	495-3	_	_	
+
+#Text=ah
+497-1	14185-14187	ah	BC	_	_	°ah°	_	PKP130	496-0	_	_	
+
+#Text=e ora che deve fare il concorso
+498-1	14188-14189	e	_	_	_	e	_	PKP130	497-0	_	_	
+498-2	14190-14193	ora	_	_	_	ora	_	_	497-1	_	_	
+498-3	14194-14197	che	_	_	_	che	_	_	497-2	_	_	
+498-4	14198-14202	deve	_	_	_	deve	_	_	497-3	_	_	
+498-5	14203-14207	fare	_	_	_	fare	_	_	497-4	_	_	
+498-6	14208-14210	il	_	_	_	il	_	_	497-5	_	_	
+498-7	14211-14219	concorso	_	_	Rising	concorso?	_	_	497-6	_	_	
+
+#Text=a quanto pare sì
+499-1	14220-14221	a	_	_	_	a	_	PKP125	498-0	_	_	
+499-2	14222-14228	quanto	_	_	_	quanto	_	_	498-1	_	_	
+499-3	14229-14233	pare	_	_	_	pare	_	_	498-2	_	_	
+499-4	14234-14236	sì	_	_	_	sì	_	_	498-3	_	_	
+
+#Text=sia lei che chiara
+500-1	14237-14240	sia	_	_	_	sia	_	PKP125	499-0	_	_	
+500-2	14241-14244	lei	_	_	_	lei	_	_	499-1	_	_	
+500-3	14245-14248	che	_	_	_	che	_	_	499-2	_	_	
+500-4	14249-14255	chiara	_	_	_	chiara	_	_	499-3	_	_	
+
+#Text=eh ah beh albe' ma
+501-1	14256-14258	eh	BC	_	_	eh	_	PKP130	500-0	_	_	
+501-2	14259-14261	ah	BC[8]	_	_	ah	_	_	500-1	_	_	
+501-3	14262-14265	beh	BC[8]	_	_	beh	_	_	500-2	_	_	
+501-4	14266-14271	albe'	_	_	_	albe'	_	_	500-3	_	_	
+501-5	14272-14274	ma	_	_	_	ma::	_	_	500-4	_	_	
+
+#Text=eh
+502-1	14275-14277	eh	BC	_	_	eh	_	PKP130	501-0	_	_	
+
+#Text=chiara ha detto che
+503-1	14278-14284	chiara	_	_	_	chiara	_	PKP125	502-0	_	_	
+503-2	14285-14287	ha	_	_	_	ha	_	_	502-1	_	_	
+503-3	14288-14293	detto	_	_	_	detto	_	_	502-2	_	_	
+503-4	14294-14297	che	_	_	_	che::	_	_	502-3	_	_	
+
+#Text=viene a casa
+504-1	14298-14303	viene	_	_	_	viene:	_	PKP125	503-0	_	_	
+504-2	14304-14305	a	_	_	_	a	_	_	503-1	_	_	
+504-3	14306-14310	casa	_	_	_	casa	_	_	503-2	_	_	
+
+#Text=mh
+505-1	14311-14313	mh	BC	_	_	m:h	_	PKP130	504-0	_	_	
+
+#Text=a farsi aiutare per la prova in inglese
+506-1	14314-14315	a	_	_	_	a	_	PKP125	505-0	_	_	
+506-2	14316-14321	farsi	_	_	_	farsi	_	_	505-1	_	_	
+506-3	14322-14329	aiutare	_	_	_	aiutare	_	_	505-2	_	_	
+506-4	14330-14333	per	_	_	_	per	_	_	505-3	_	_	
+506-5	14334-14336	la	_	_	_	la	_	_	505-4	_	_	
+506-6	14337-14342	prova	_	_	_	prova	_	_	505-5	_	_	
+506-7	14343-14345	in	_	_	_	in	_	_	505-6	_	_	
+506-8	14346-14353	inglese	_	_	_	inglese	_	_	505-7	_	_	
+
+#Text=ma del concorso
+507-1	14354-14356	ma	_	_	_	ma	_	PKP130	506-0	_	_	
+507-2	14357-14360	del	_	_	_	del	_	_	506-1	_	_	
+507-3	14361-14369	concorso	_	_	Rising	concorso?	_	_	506-2	_	_	
+
+#Text=no
+508-1	14370-14372	no	_	_	_	no:	_	PKP125	507-0	_	_	
+
+#Text=della prova del colloquio di dottorato
+509-1	14373-14378	della	_	_	_	della	_	PKP125	508-0	_	_	
+509-2	14379-14384	prova	_	_	_	prova::	_	_	508-1	_	_	
+509-3	14385-14388	del	_	_	_	del	_	_	508-2	_	_	
+509-4	14389-14398	colloquio	_	_	_	colloquio	_	_	508-3	_	_	
+509-5	14399-14401	di	_	_	_	di	_	_	508-4	_	_	
+509-6	14402-14411	dottorato	_	_	_	dottorato	_	_	508-5	_	_	
+
+#Text=loro devono tradurre un brano forse
+510-1	14412-14416	loro	_	_	_	loro	_	PKP125	509-0	_	_	
+510-2	14417-14423	devono	_	_	_	devono	_	_	509-1	_	_	
+510-3	14424-14432	tradurre	_	_	_	tradurre	_	_	509-2	_	_	
+510-4	14433-14435	un	_	_	_	un	_	_	509-3	_	_	
+510-5	14436-14441	brano	_	_	_	bra:no	_	_	509-4	_	_	
+510-6	14442-14447	forse	_	_	_	forse	_	_	509-5	_	_	
+
+#Text=eh ma il dottorato di chiara chiara arriverà a trent' anni e sarà più disoccupata di me
+511-1	14448-14450	eh	BC	_	_	°e:h°	_	PKP130	510-0	_	_	
+511-2	14451-14453	ma	_	_	_	ma	_	_	510-1	_	_	
+511-3	14454-14456	il	_	_	_	il	_	_	510-2	_	_	
+511-4	14457-14466	dottorato	_	_	_	dottorato	_	_	510-3	_	_	
+511-5	14467-14469	di	_	_	_	di	_	_	510-4	_	_	
+511-6	14470-14476	chiara	_	_	_	chiara:	_	_	510-5	_	_	
+511-7	14477-14483	chiara	_	_	_	chiara	_	_	510-6	_	_	
+511-8	14484-14492	arriverà	_	_	_	arriverà	_	_	510-7	_	_	
+511-9	14493-14494	a	_	_	_	a	_	_	510-8	_	_	
+511-10	14495-14501	trent'	_	_	_	trent'	_	_	510-9	_	_	
+511-11	14502-14506	anni	_	_	_	anni	_	_	510-10	_	_	
+511-12	14507-14508	e	_	_	_	e	_	_	510-11	_	_	
+511-13	14509-14513	sarà	_	_	_	sarà	_	_	510-12	_	_	
+511-14	14514-14517	più	_	_	_	più	_	_	510-13	_	_	
+511-15	14518-14529	disoccupata	_	_	_	disoccupata	_	_	510-14	_	_	
+511-16	14530-14532	di	_	_	_	di	_	_	510-15	_	_	
+511-17	14533-14535	me	_	_	_	me	_	_	510-16	_	_	
+
+#Text=((ride))
+512-1	14536-14544	((ride))	_	_	_	((ride))	_	PKP125	511-0	_	_	
+
+#Text=no ma chiara marce' punta più sull' insegnamento
+513-1	14545-14547	no	_	_	_	no	_	PKP125	512-0	_	_	
+513-2	14548-14550	ma	_	_	_	ma	_	_	512-1	_	_	
+513-3	14551-14557	chiara	_	_	_	chiara	_	_	512-2	_	_	
+513-4	14558-14564	marce'	_	_	_	marce'	_	_	512-3	_	_	
+513-5	14565-14570	punta	_	_	_	punta	_	_	512-4	_	_	
+513-6	14571-14574	più	_	_	_	più	_	_	512-5	_	_	
+513-7	14575-14580	sull'	_	_	_	sull'	_	_	512-6	_	_	
+513-8	14581-14593	insegnamento	_	_	_	insegnamento	_	_	512-7	_	_	
+
+#Text=però ha detto va beh ci voglio provare
+514-1	14594-14598	però	_	_	_	però:	_	PKP125	513-0	_	_	
+514-2	14599-14601	ha	_	_	_	ha	_	_	513-1	_	_	
+514-3	14602-14607	detto	_	_	_	detto	_	_	513-2	_	_	
+514-4	14608-14610	va	_	_	_	va	_	_	513-3	_	_	
+514-5	14611-14614	beh	_	_	_	beh	_	_	513-4	_	_	
+514-6	14615-14617	ci	_	_	_	ci	_	_	513-5	_	_	
+514-7	14618-14624	voglio	_	_	_	voglio	_	_	513-6	_	_	
+514-8	14625-14632	provare	_	_	Falling	provare:.	_	_	513-7	_	_	
+
+#Text=anche con il dottorato
+515-1	14633-14638	anche	_	_	_	anche	_	PKP125	514-0	_	_	
+515-2	14639-14642	con	_	_	_	con	_	_	514-1	_	_	
+515-3	14643-14645	il	_	_	_	il	_	_	514-2	_	_	
+515-4	14646-14655	dottorato	_	_	Falling	dottorato:.	_	_	514-3	_	_	
+
+#Text=marce' o provi mo o non provi più
+516-1	14656-14662	marce'	_	_	_	>marce'<	_	PKP125	515-0	_	_	
+516-2	14663-14664	o	_	_	_	o	_	_	515-1	_	_	
+516-3	14665-14670	provi	_	_	_	provi	_	_	515-2	_	_	
+516-4	14671-14673	mo	_	_	_	mo	_	_	515-3	_	_	
+516-5	14674-14675	o	_	_	_	o	_	_	515-4	_	_	
+516-6	14676-14679	non	_	_	_	non	_	_	515-5	_	_	
+516-7	14680-14685	provi	_	_	_	provi	_	_	515-6	_	_	
+516-8	14686-14689	più	_	_	_	più	_	_	515-7	_	_	
+
+#Text=sì infatti perché se no poi ti metti in altre situazioni ti ripeto se tornassi indietro lo farei sub~
+517-1	14690-14692	sì	BC[9]	_	_	SÌ	_	PKP130	516-0	_	_	
+517-2	14693-14700	infatti	BC[9]	_	_	infatti	_	_	516-1	_	_	
+517-3	14701-14707	perché	_	_	_	p(er)ché	_	_	516-2	_	_	
+517-4	14708-14710	se	_	_	_	se	_	_	516-3	_	_	
+517-5	14711-14713	no	_	_	_	no	_	_	516-4	_	_	
+517-6	14714-14717	poi	_	_	_	poi	_	_	516-5	_	_	
+517-7	14718-14720	ti	_	_	_	ti	_	_	516-6	_	_	
+517-8	14721-14726	metti	_	_	_	metti	_	_	516-7	_	_	
+517-9	14727-14729	in	_	_	_	in	_	_	516-8	_	_	
+517-10	14730-14735	altre	_	_	_	altre	_	_	516-9	_	_	
+517-11	14736-14746	situazioni	_	_	_	situazioni	_	_	516-10	_	_	
+517-12	14747-14749	ti	_	_	_	>ti	_	_	516-11	_	_	
+517-13	14750-14756	ripeto	_	_	_	ri\[peto<\]	_	_	516-12	_	_	
+517-13.1	14752-14756	peto	_	_	_	_	_	_	_	*->137-1	*[137]	
+517-14	14757-14759	se	_	_	_	se	_	_	516-13	_	_	
+517-14.1	14757-14758	s	_	_	_	_	_	_	_	*->137-1	*[137]	
+517-15	14760-14768	tornassi	_	_	_	tornassi	_	_	516-14	_	_	
+517-16	14769-14777	indietro	_	_	_	indietro	_	_	516-15	_	_	
+517-17	14778-14780	lo	_	_	_	lo	_	_	516-16	_	_	
+517-18	14781-14786	farei	_	_	_	farei	_	_	516-17	_	_	
+517-19	14787-14791	sub~	_	_	_	\[sub~\]	_	_	516-18	*->34-1	*[34]	
+
+#Text=eh
+518-1	14792-14794	eh	BC	_	_	\[e::h\]	_	PKP125	517-0	*->137-2	*[137]	
+
+#Text=a trent' anni
+519-1	14795-14796	a	_	_	_	\[a	_	PKP125	518-0	_	_	
+519-2	14797-14803	trent'	_	_	_	TRENT'	_	_	518-1	_	_	
+519-3	14804-14808	anni	_	_	_	ANNI\]	_	_	518-2	_	_	
+
+#Text=anche perchè avevo la loro età
+520-1	14809-14814	anche	_	_	_	\[ANCHE\]	_	PKP130	519-0	*->70-1	*[70]	
+520-2	14815-14821	perchè	_	_	_	PERCHÈ	_	_	519-1	_	_	
+520-3	14822-14827	avevo	_	_	_	avevo	_	_	519-2	_	_	
+520-4	14828-14830	la	_	_	_	la	_	_	519-3	_	_	
+520-5	14831-14835	loro	_	_	_	loro	_	_	519-4	_	_	
+520-6	14836-14839	età	_	_	_	età	_	_	519-5	_	_	
+
+#Text=io avevo io ero più giovane pure loro quanti anni hanno ventisei compiuti
+521-1	14840-14842	io	_	_	_	io	_	PKP130	520-0	_	_	
+521-2	14843-14848	avevo	_	_	_	avevo:::	_	_	520-1	_	_	
+521-3	14849-14851	io	_	_	_	IO	_	_	520-2	_	_	
+521-4	14852-14855	ero	_	_	_	ero	_	_	520-3	_	_	
+521-5	14856-14859	più	_	_	_	più	_	_	520-4	_	_	
+521-6	14860-14867	giovane	_	_	_	giovane	_	_	520-5	_	_	
+521-7	14868-14872	pure	_	_	_	pure	_	_	520-6	_	_	
+521-8	14873-14877	loro	_	_	_	loro	_	_	520-7	_	_	
+521-9	14878-14884	quanti	_	_	_	quanti	_	_	520-8	_	_	
+521-10	14885-14889	anni	_	_	_	anni	_	_	520-9	_	_	
+521-11	14890-14895	hanno	_	_	_	hanno	_	_	520-10	_	_	
+521-12	14896-14904	ventisei	_	_	_	ventisei	_	_	520-11	_	_	
+521-13	14905-14913	compiuti	_	_	Rising	<compiuti>?	_	_	520-12	_	_	
+
+#Text=ventisei sì
+522-1	14914-14922	ventisei	_	_	_	ventisei	_	PKP125	521-0	_	_	
+522-2	14923-14925	sì	_	_	_	sì	_	_	521-1	_	_	
+
+#Text=ventisei io ne avevo venticinque
+523-1	14926-14934	ventisei	BC	_	_	ventisei	_	PKP130	522-0	_	_	
+523-2	14935-14937	io	_	_	_	io	_	_	522-1	_	_	
+523-3	14938-14940	ne	_	_	_	ne	_	_	522-2	_	_	
+523-4	14941-14946	avevo	_	_	_	avevo	_	_	522-3	_	_	
+523-5	14947-14958	venticinque	_	_	_	venticinque	_	_	522-4	_	_	
+
+#Text=che avendo fatto la primina
+524-1	14959-14962	che	_	_	_	che	_	PKP130	523-0	_	_	
+524-2	14963-14969	avendo	_	_	_	avendo	_	_	523-1	_	_	
+524-3	14970-14975	fatto	_	_	_	fatto	_	_	523-2	_	_	
+524-4	14976-14978	la	_	_	_	la	_	_	523-3	_	_	
+524-5	14979-14986	primina	_	_	_	primina:	_	_	523-4	_	_	
+
+#Text=no
+525-1	14987-14989	no	_	_	_	NO:	_	PKP130	524-0	_	_	
+
+#Text=non c' entra
+526-1	14990-14993	non	_	_	_	non	_	PKP130	525-0	_	_	
+526-2	14994-14996	c'	_	_	_	c'	_	_	525-1	_	_	
+526-3	14997-15002	entra	_	_	_	entra	_	_	525-2	_	_	
+
+#Text=io ho fatto comunque prima di loro
+527-1	15003-15005	io	_	_	_	io	_	PKP130	526-0	_	_	
+527-2	15006-15008	ho	_	_	_	ho	_	_	526-1	_	_	
+527-3	15009-15014	fatto	_	_	_	fatto	_	_	526-2	_	_	
+527-4	15015-15023	comunque	_	_	_	comunque	_	_	526-3	_	_	
+527-5	15024-15029	prima	_	_	_	prima	_	_	526-4	_	_	
+527-6	15030-15032	di	_	_	_	di	_	_	526-5	_	_	
+527-7	15033-15037	loro	_	_	_	<loro>	_	_	526-6	_	_	
+
+#Text=perché ho fatto la primina però ho lasciato un anno
+528-1	15038-15044	perché	_	_	_	perché	_	PKP130	527-0	_	_	
+528-2	15045-15047	ho	_	_	_	ho	_	_	527-1	_	_	
+528-3	15048-15053	fatto	_	_	_	fatto	_	_	527-2	_	_	
+528-4	15054-15056	la	_	_	_	la	_	_	527-3	_	_	
+528-5	15057-15064	primina	_	_	_	primina	_	_	527-4	_	_	
+528-6	15065-15069	però	_	_	_	però	_	_	527-5	_	_	
+528-7	15070-15072	ho	_	_	_	ho	_	_	527-6	_	_	
+528-8	15073-15081	lasciato	_	_	_	lasciato	_	_	527-7	_	_	
+528-9	15082-15084	un	_	_	_	<un	_	_	527-8	_	_	
+528-10	15085-15089	anno	_	_	_	anno>	_	_	527-9	_	_	
+
+#Text=io ho finito a venticinque anni
+529-1	15090-15092	io	_	_	_	io	_	PKP130	528-0	_	_	
+529-2	15093-15095	ho	_	_	_	ho	_	_	528-1	_	_	
+529-3	15096-15102	finito	_	_	_	finito	_	_	528-2	_	_	
+529-4	15103-15104	a	_	_	_	a	_	_	528-3	_	_	
+529-5	15105-15116	venticinque	_	_	_	venticinque	_	_	528-4	_	_	
+529-6	15117-15121	anni	_	_	_	<anni>	_	_	528-5	_	_	
+
+#Text=ventisei li ho compiuti l' anno dopo
+530-1	15122-15130	ventisei	_	_	_	ventisei	_	PKP130	529-0	_	_	
+530-2	15131-15133	li	_	_	_	li	_	_	529-1	_	_	
+530-3	15134-15136	ho	_	_	_	ho	_	_	529-2	_	_	
+530-4	15137-15145	compiuti	_	_	_	compiuti	_	_	529-3	_	_	
+530-5	15146-15148	l'	_	_	_	l'	_	_	529-4	_	_	
+530-6	15149-15153	anno	_	_	_	anno	_	_	529-5	_	_	
+530-7	15154-15158	dopo	_	_	_	dopo	_	_	529-6	_	_	
+
+#Text=va beh ja ventisei venticinque e mezzo
+531-1	15159-15161	va	_	_	_	va	_	PKP130	530-0	_	_	
+531-2	15162-15165	beh	_	_	_	beh	_	_	530-1	_	_	
+531-3	15166-15168	ja	_	_	_	ja	_	_	530-2	_	_	
+531-4	15169-15177	ventisei	_	_	_	ventisei	_	_	530-3	_	_	
+531-5	15178-15189	venticinque	_	_	_	venticinque	_	_	530-4	_	_	
+531-6	15190-15191	e	_	_	_	e	_	_	530-5	_	_	
+531-7	15192-15197	mezzo	_	_	_	mezzo	_	_	530-6	_	_	
+
+#Text=va beh quello avevate
+532-1	15198-15200	va	BC[10]	_	_	va	_	PKP125	531-0	_	_	
+532-2	15201-15204	beh	BC[10]	_	_	beh	_	_	531-1	_	_	
+532-3	15205-15211	quello	_	_	_	quello	_	_	531-2	_	_	
+532-4	15212-15219	avevate	_	_	_	avevate	_	_	531-3	_	_	
+
+#Text=su
+533-1	15220-15222	su	_	_	_	su	_	PKP125	532-0	_	_	
+
+#Text=va beh eh
+534-1	15223-15225	va	BC[11]	_	_	va	_	PKP130	533-0	_	_	
+534-2	15226-15229	beh	BC[11]	_	_	beh	_	_	533-1	_	_	
+534-3	15230-15232	eh	_	FP	_	e::h	_	_	533-2	_	_	
+
+#Text=loro fanno fanno bene hanno la l~ la mia approvazione
+535-1	15233-15237	loro	_	_	_	loro	_	PKP130	534-0	_	_	
+535-2	15238-15243	fanno	_	_	_	fanno	_	_	534-1	_	_	
+535-3	15244-15249	fanno	_	_	_	fanno	_	_	534-2	_	_	
+535-4	15250-15254	bene	_	_	_	bene	_	_	534-3	_	_	
+535-5	15255-15260	hanno	_	_	_	hanno	_	_	534-4	_	_	
+535-6	15261-15263	la	_	_	_	la	_	_	534-5	_	_	
+535-7	15264-15266	l~	_	_	_	l~	_	_	534-6	_	_	
+535-8	15267-15269	la	_	_	_	la	_	_	534-7	_	_	
+535-9	15270-15273	mia	_	_	_	mia	_	_	534-8	_	_	
+535-10	15274-15286	approvazione	_	_	_	approvazione	_	_	534-9	_	_	
+
+#Text=ma sono dottorati in letteratura roba
+536-1	15287-15289	ma	_	_	_	MA	_	PKP125	535-0	_	_	
+536-2	15290-15294	sono	_	_	_	sono:	_	_	535-1	_	_	
+536-3	15295-15304	dottorati	_	_	_	dottorati	_	_	535-2	_	_	
+536-4	15305-15307	in	_	_	_	in	_	_	535-3	_	_	
+536-5	15308-15319	letteratura	_	_	_	<letteratura>	_	_	535-4	_	_	
+536-6	15320-15324	roba	_	_	_	roba:	_	_	535-5	_	_	
+
+#Text=no beh chiara in hm
+537-1	15325-15327	no	_	_	_	no	_	PKP125	536-0	_	_	
+537-2	15328-15331	beh	_	_	_	be:h	_	_	536-1	_	_	
+537-3	15332-15338	chiara	_	_	_	chiara	_	_	536-2	_	_	
+537-4	15339-15341	in	_	_	_	in:	_	_	536-3	_	_	
+537-5	15342-15344	hm	_	FP	_	hm::	_	_	536-4	_	_	
+
+#Text=in eh
+538-1	15345-15347	in	_	_	_	in:	_	PKP125	537-0	_	_	
+538-2	15348-15350	eh	_	FP	_	e::h	_	_	537-1	_	_	
+
+#Text=filologia
+539-1	15351-15360	filologia	_	_	weakly\_rising	filologia,	_	PKP125	538-0	_	_	
+
+#Text=mh
+540-1	15361-15363	mh	BC	_	_	m::h	_	PKP130	539-0	_	_	
+
+#Text=o no
+541-1	15364-15365	o	_	_	_	o	_	PKP125	540-0	_	_	
+541-2	15366-15368	no	_	_	Rising	no?	_	_	540-1	_	_	
+
+#Text=o paleografia
+542-1	15369-15370	o	_	_	_	o	_	PKP125	541-0	_	_	
+542-2	15371-15382	paleografia	_	_	weakly\_rising	<PALEOGRAFIA>,	_	_	541-1	_	_	
+
+#Text=eh ma a che ti servirà poi all' insegnamento universitario
+543-1	15383-15385	eh	BC	_	_	eh	_	PKP130	542-0	_	_	
+543-2	15386-15388	ma	_	_	_	ma	_	_	542-1	_	_	
+543-3	15389-15390	a	_	_	_	a	_	_	542-2	_	_	
+543-4	15391-15394	che	_	_	_	che	_	_	542-3	_	_	
+543-5	15395-15397	ti	_	_	_	ti	_	_	542-4	_	_	
+543-6	15398-15405	servirà	_	_	_	servirà	_	_	542-5	_	_	
+543-7	15406-15409	poi	_	_	_	poi	_	_	542-6	_	_	
+543-8	15410-15414	all'	_	_	_	all'	_	_	542-7	_	_	
+543-9	15415-15427	insegnamento	_	_	_	insegnamento	_	_	542-8	_	_	
+543-10	15428-15441	universitario	_	_	Rising	universitario?	_	_	542-9	_	_	
+
+#Text=vogliono puntare a quello
+544-1	15442-15450	vogliono	_	_	_	vogliono	_	PKP130	543-0	_	_	
+544-2	15451-15458	puntare	_	_	_	puntare	_	_	543-1	_	_	
+544-3	15459-15460	a	_	_	_	a	_	_	543-2	_	_	
+544-4	15461-15467	quello	_	_	Rising	QUELLO?	_	_	543-3	_	_	
+
+#Text=penso di sì
+545-1	15468-15473	penso	_	_	_	penso	_	PKP125	544-0	_	_	
+545-2	15474-15476	di	_	_	_	di	_	_	544-1	_	_	
+545-3	15477-15479	sì	_	_	weakly\_rising	sì,	_	_	544-2	_	_	
+
+#Text=la ricerca non so
+546-1	15480-15482	la	_	_	_	la	_	PKP125	545-0	_	_	
+546-2	15483-15490	ricerca	_	_	_	ricerca	_	_	545-1	_	_	
+546-3	15491-15494	non	_	_	_	non	_	_	545-2	_	_	
+546-4	15495-15497	so	_	_	_	so	_	_	545-3	_	_	
+
+#Text=penso di sì
+547-1	15498-15503	penso	_	_	_	penso	_	PKP125	546-0	_	_	
+547-2	15504-15506	di	_	_	_	di	_	_	546-1	_	_	
+547-3	15507-15509	sì	_	_	_	sì	_	_	546-2	_	_	
+
+#Text=alla ricerca
+548-1	15510-15514	alla	_	_	_	alla	_	PKP130	547-0	_	_	
+548-2	15515-15522	ricerca	_	_	Rising	ricer\[ca\]?	_	_	547-1	_	_	
+548-2.1	15520-15522	ca	_	_	_	_	_	_	_	*->60-1	*[60]	
+
+#Text=il concorso loro hanno detto entrambe che l' avrebbero fatto
+549-1	15523-15525	il	_	_	_	\[IL\]	_	PKP125	548-0	*->60-1|*->60-2	*[60]|*[60]	
+549-2	15526-15534	concorso	_	_	_	CONCORSO	_	_	548-1	_	_	
+549-2.1	15526-15527	c	_	_	_	_	_	_	_	*->60-1	*[60]	
+549-3	15535-15539	loro	_	_	_	loro	_	_	548-2	_	_	
+549-4	15540-15545	hanno	_	_	_	hanno	_	_	548-3	_	_	
+549-5	15546-15551	detto	_	_	_	detto	_	_	548-4	_	_	
+549-6	15552-15560	entrambe	_	_	_	entrambe	_	_	548-5	_	_	
+549-7	15561-15564	che	_	_	_	che	_	_	548-6	_	_	
+549-8	15565-15567	l'	_	_	_	l'	_	_	548-7	_	_	
+549-9	15568-15577	avrebbero	_	_	_	avrebbero	_	_	548-8	_	_	
+549-10	15578-15583	fatto	_	_	_	fa:tto	_	_	548-9	_	_	
+
+#Text=ma devono farlo ma si sono inserite pure in graduatoria nel gps
+550-1	15584-15586	ma	_	_	_	MA	_	PKP130	549-0	_	_	
+550-2	15587-15593	devono	_	_	_	DEVONO	_	_	549-1	_	_	
+550-3	15594-15599	farlo	_	_	_	farlo	_	_	549-2	_	_	
+550-4	15600-15602	ma	_	_	_	ma	_	_	549-3	_	_	
+550-5	15603-15605	si	_	_	_	si	_	_	549-4	_	_	
+550-6	15606-15610	sono	_	_	_	sono	_	_	549-5	_	_	
+550-7	15611-15619	inserite	_	_	_	inserite	_	_	549-6	_	_	
+550-8	15620-15624	pure	_	_	_	pure	_	_	549-7	_	_	
+550-9	15625-15627	in	_	_	_	in	_	_	549-8	_	_	
+550-10	15628-15639	graduatoria	_	_	_	graduatoria	_	_	549-9	_	_	
+550-11	15640-15643	nel	_	_	_	nel	_	_	549-10	_	_	
+550-12	15644-15647	gps	_	_	Rising	gps?	_	_	549-11	_	_	
+
+#Text=che gli costava
+551-1	15648-15651	che	_	_	_	\[che	_	PKP130	550-0	*->63-1	*[63]	
+551-2	15652-15655	gli	_	_	_	gli\]	_	_	550-1	*->63-2	*[63]	
+551-3	15656-15663	costava	_	_	Rising	costava?	_	_	550-2	_	_	
+
+#Text=eh mh
+552-1	15664-15666	eh	_	FP[15]	_	\[°eh	_	PKP125	551-0	*->63-3	*[63]	
+552-2	15667-15669	mh	_	FP[15]	_	m:h°\]	_	_	551-1	*->63-4	*[63]	
+
+#Text=hanno avuto queste nuove generazioni hanno avuto la fortuna di evitare la domanda cartacea
+553-1	15670-15675	hanno	_	_	_	hanno	_	PKP130	552-0	_	_	
+553-2	15676-15681	avuto	_	_	_	avuto	_	_	552-1	_	_	
+553-3	15682-15688	queste	_	_	_	queste	_	_	552-2	_	_	
+553-4	15689-15694	nuove	_	_	_	nuove	_	_	552-3	_	_	
+553-5	15695-15706	generazioni	_	_	_	generazioni	_	_	552-4	_	_	
+553-6	15707-15712	hanno	_	_	_	hanno	_	_	552-5	_	_	
+553-7	15713-15718	avuto	_	_	_	avuto	_	_	552-6	_	_	
+553-8	15719-15721	la	_	_	_	la	_	_	552-7	_	_	
+553-9	15722-15729	fortuna	_	_	_	fortuna	_	_	552-8	_	_	
+553-10	15730-15732	di	_	_	_	di	_	_	552-9	_	_	
+553-11	15733-15740	evitare	_	_	_	evitare	_	_	552-10	_	_	
+553-12	15741-15743	la	_	_	_	la	_	_	552-11	_	_	
+553-13	15744-15751	domanda	_	_	_	domanda	_	_	552-12	_	_	
+553-14	15752-15760	cartacea	_	_	Falling	<cartacea>.	_	_	552-13	_	_	
+
+#Text=che è stato ma tu ti ricordi io quante domande stampavo quanta carta riciclavo
+554-1	15761-15764	che	_	_	_	che	_	PKP130	553-0	_	_	
+554-2	15765-15766	è	_	_	_	è	_	_	553-1	_	_	
+554-3	15767-15772	stato	_	_	_	stato	_	_	553-2	_	_	
+554-4	15773-15775	ma	_	_	_	ma	_	_	553-3	_	_	
+554-5	15776-15778	tu	_	_	_	tu	_	_	553-4	_	_	
+554-6	15779-15781	ti	_	_	_	ti	_	_	553-5	_	_	
+554-7	15782-15789	ricordi	_	_	_	ricordi	_	_	553-6	_	_	
+554-8	15790-15792	io	_	_	_	io	_	_	553-7	_	_	
+554-9	15793-15799	quante	_	_	_	quante	_	_	553-8	_	_	
+554-10	15800-15807	domande	_	_	_	domande	_	_	553-9	_	_	
+554-11	15808-15816	stampavo	_	_	_	stampavo	_	_	553-10	_	_	
+554-12	15817-15823	quanta	_	_	_	quanta	_	_	553-11	_	_	
+554-13	15824-15829	carta	_	_	_	carta	_	_	553-12	_	_	
+554-14	15830-15839	riciclavo	_	_	Falling	\[riciclavo\].	_	_	553-13	*->139-1	*[139]	
+
+#Text=mh
+555-1	15840-15842	mh	BC	_	_	\[m:h\]	_	PKP125	554-0	*->139-2	*[139]	
+
+#Text=ti ricordi
+556-1	15843-15845	ti	_	_	_	TI	_	PKP130	555-0	_	_	
+556-2	15846-15853	ricordi	_	_	Rising	RICORDI:?	_	_	555-1	_	_	
+
+#Text=in due tutte e due le volte
+557-1	15854-15856	in	_	_	_	in	_	PKP130	556-0	_	_	
+557-2	15857-15860	due	_	_	_	due	_	_	556-1	_	_	
+557-3	15861-15866	tutte	_	_	_	tutte	_	_	556-2	_	_	
+557-4	15867-15868	e	_	_	_	e	_	_	556-3	_	_	
+557-5	15869-15872	due	_	_	_	\[due	_	_	556-4	*->10-1	*[10]	
+557-6	15873-15875	le	_	_	_	le	_	_	556-5	*->10-2	*[10]	
+557-7	15876-15881	volte	_	_	Falling	volte:\].	_	_	556-6	*->10-3	*[10]	
+
+#Text=le mad così le devi rifare
+558-1	15882-15884	le	_	_	_	\[le	_	PKP125	557-0	*->10-4	*[10]	
+558-2	15885-15888	mad	_	_	_	<mad>	_	_	557-1	*->10-5	*[10]	
+558-3	15889-15893	così	_	_	_	così	_	_	557-2	*->10-6	*[10]	
+558-4	15894-15896	le	_	_	_	le	_	_	557-3	*->10-7	*[10]	
+558-5	15897-15901	devi	_	_	_	devi	_	_	557-4	*->10-8	*[10]	
+558-6	15902-15908	rifare	_	_	Rising	rifare\]?	_	_	557-5	*->10-9	*[10]	
+
+#Text=che cosa
+559-1	15909-15912	che	_	_	_	che	OR[21]	PKP130	558-0	_	_	
+559-2	15913-15917	cosa	_	_	Rising	COSA:?	OR[21]	_	558-1	_	_	
+
+#Text=le mad così le fai
+560-1	15918-15920	le	_	_	_	le	_	PKP125	559-0	_	_	
+560-2	15921-15924	mad	_	_	_	mad	_	_	559-1	_	_	
+560-3	15925-15929	così	_	_	_	così	_	_	559-2	_	_	
+560-4	15930-15932	le	_	_	_	le	_	_	559-3	_	_	
+560-5	15933-15936	fai	_	_	_	fai	_	_	559-4	_	_	

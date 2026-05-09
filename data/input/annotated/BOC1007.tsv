@@ -1,0 +1,3979 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Backchannel|backchannel_value
+#T_SP=webanno.custom.Fillers|fillers_values
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Repair|repair_value
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=avanti
+1-1	0-6	avanti	_	_	weakly\_rising	avanti,	_	BO104	0-0	_	_	
+
+#Text=salve [PAUSE] sì [PAUSE] eh mh [PAUSE] dunque la ragazza per [PAUSE] le regstrazioni
+2-1	7-12	salve	_	_	_	salve	_	BO104	1-0	_	_	
+2-2	13-20	[PAUSE]	_	_	_	(.)	_	_	1-1	_	_	
+2-3	21-23	sì	_	_	_	sì	_	_	1-2	_	_	
+2-4	24-31	[PAUSE]	_	_	_	(.)	_	_	1-3	_	_	
+2-5	32-34	eh	_	FP[19]	_	e::h	_	_	1-4	_	_	
+2-6	35-37	mh	_	FP[19]	_	m:h	_	_	1-5	_	_	
+2-7	38-45	[PAUSE]	_	_	_	(.)	_	_	1-6	_	_	
+2-8	46-52	dunque	_	_	weakly\_rising	dunque,	_	_	1-7	_	_	
+2-9	53-55	la	_	_	_	la	_	_	1-8	_	_	
+2-10	56-63	ragazza	_	_	_	ragazza	_	_	1-9	_	_	
+2-11	64-67	per	_	_	_	per	_	_	1-10	_	_	
+2-12	68-75	[PAUSE]	_	_	_	(.)	_	_	1-11	_	_	
+2-13	76-78	le	_	_	_	le	_	_	1-12	_	_	
+2-14	79-91	regstrazioni	_	_	Rising	regstrazioni?	_	_	1-13	_	_	
+
+#Text=x il registratore e continuiamo
+3-1	92-93	x	_	_	_	xxx	_	BO144	2-0	_	_	
+3-2	94-96	il	_	_	_	il	_	_	2-1	_	_	
+3-3	97-109	registratore	_	_	_	registratore	_	_	2-2	_	_	
+3-4	110-111	e	_	_	_	e	_	_	2-3	_	_	
+3-5	112-123	continuiamo	_	_	weakly\_rising	continuiamo::,	_	_	2-4	_	_	
+
+#Text=ah
+4-1	124-126	ah	BC[1]	_	weakly\_rising	ah,	_	BO104	3-0	_	_	
+
+#Text=okay [PAUSE] non abbiamo firmato nulla firmiamo dopo
+5-1	127-131	okay	BC[1]	_	_	okay	_	BO104	4-0	_	_	
+5-2	132-139	[PAUSE]	_	_	_	(.)	_	_	4-1	_	_	
+5-3	140-143	non	_	_	_	non	_	_	4-2	_	_	
+5-4	144-151	abbiamo	_	_	_	abbiamo	_	_	4-3	_	_	
+5-5	152-159	firmato	_	_	_	firmato	_	_	4-4	_	_	
+5-6	160-165	nulla	_	_	weakly\_rising	nulla,	_	_	4-5	_	_	
+5-7	166-174	firmiamo	_	_	_	firmiamo	_	_	4-6	_	_	
+5-8	175-179	dopo	_	_	Rising	dopo?	_	_	4-7	_	_	
+
+#Text=io ho già firmato
+6-1	180-182	io	_	_	weakly\_rising	io,	_	BO144	5-0	_	_	
+6-2	183-185	ho	_	_	_	ho	_	_	5-1	_	_	
+6-3	186-189	già	_	_	_	già	_	_	5-2	_	_	
+6-4	190-197	firmato	_	_	Falling	firma\[to\].	_	_	5-3	_	_	
+6-4.1	195-197	to	_	_	_	_	_	_	_	*->56-1	*[56]	
+
+#Text=ah okay du~ [PAUSE] va beh firmerò dopo io va bene
+7-1	198-200	ah	BC[2]	_	_	ah	_	BO104	6-0	*->56-1	*[56]	
+7-2	201-205	okay	BC[2]	_	weakly\_rising	okay,	_	_	6-1	_	_	
+7-2.1	201-202	o	_	_	_	_	_	_	_	*->56-1	*[56]	
+7-3	206-209	du~	_	_	_	du~	SR[59]	_	6-2	_	_	
+7-4	210-217	[PAUSE]	_	_	_	(.)	SR[59]	_	6-3	_	_	
+7-5	218-220	va	_	_	_	va	SR[59]	_	6-4	_	_	
+7-6	221-224	beh	_	_	weakly\_rising	b\[eh,	SR[59]	_	6-5	_	_	
+7-7	225-232	firmerò	_	_	_	firmerò	SR[59]	_	6-6	_	_	
+7-8	233-237	dopo	_	_	_	dopo	SR[59]	_	6-7	_	_	
+7-9	238-240	io	_	_	_	io	SR[59]	_	6-8	_	_	
+7-10	241-243	va	_	_	_	va	_	_	6-9	_	_	
+7-11	244-248	bene	_	_	Falling	bene\].	_	_	6-10	_	_	
+
+#Text=x [PAUSE] okay
+8-1	249-250	x	_	_	_	\[xxxxxxx	_	BO144	7-0	*->50-1	*[50]	
+8-2	251-258	[PAUSE]	_	_	_	(.)	_	_	7-1	_	_	
+8-2.1	251-256	[PAUS	_	_	_	_	_	_	_	*->50-1	*[50]	
+8-2.2	251-254	[PA	_	_	_	_	_	_	_	*->50-2	*[50]	
+8-3	259-263	okay	BC	_	Falling	oka\]y.	_	_	7-2	_	_	
+8-3.1	259-262	oka	_	_	_	_	_	_	_	*->50-3	*[50]	
+
+#Text=arrivo subito eh
+9-1	264-270	arrivo	_	_	_	°arrivo	_	BO104	8-0	_	_	
+9-2	271-277	subito	_	_	_	subito	_	_	8-1	_	_	
+9-3	278-280	eh	_	_	weakly\_rising	e:h,°	_	_	8-2	_	_	
+
+#Text=hai un documento
+10-1	281-284	hai	_	_	_	hai	_	BO104	9-0	_	_	
+10-2	285-287	un	_	_	_	un	_	_	9-1	_	_	
+10-3	288-297	documento	_	_	Rising	documento?	_	_	9-2	_	_	
+
+#Text=sì
+11-1	298-300	sì	_	_	weakly\_rising	sì,	_	BO144	10-0	_	_	
+
+#Text=grazie
+12-1	301-307	grazie	_	_	Falling	°grazie.°	_	BO104	11-0	_	_	
+
+#Text=okay [PAUSE] allora porti il programma dell' anno accademico duemilasedici duemiladiciassette [PAUSE] sì da frequentante
+13-1	308-312	okay	_	_	weakly\_rising	okay,	_	BO104	12-0	_	_	
+13-2	313-320	[PAUSE]	_	_	_	(.)	_	_	12-1	_	_	
+13-3	321-327	allora	_	_	weakly\_rising	allora,	_	_	12-2	_	_	
+13-4	328-333	porti	_	_	_	porti	_	_	12-3	_	_	
+13-5	334-336	il	_	_	_	il	_	_	12-4	_	_	
+13-6	337-346	programma	_	_	_	programma	_	_	12-5	_	_	
+13-7	347-352	dell'	_	_	_	dell'	_	_	12-6	_	_	
+13-8	353-357	anno	_	_	_	anno	_	_	12-7	_	_	
+13-9	358-368	accademico	_	_	_	accademico::	_	_	12-8	_	_	
+13-10	369-382	duemilasedici	_	_	_	duemilasedici	_	_	12-9	_	_	
+13-11	383-401	duemiladiciassette	_	_	weakly\_rising	duemila\[diciasse\]tte,	_	_	12-10	_	_	
+13-11.1	390-401	diciassette	_	_	_	_	_	_	_	*->61-1	*[61]	
+13-12	402-409	[PAUSE]	_	_	_	(.)	_	_	12-11	_	_	
+13-12.1	402-405	[PA	_	_	_	_	_	_	_	*->61-1	*[61]	
+13-13	410-412	sì	_	_	_	sì	_	_	12-12	_	_	
+13-14	413-415	da	_	_	_	da	_	_	12-13	_	_	
+13-15	416-428	frequentante	_	_	Rising	frequentant\[e:\]?	_	_	12-14	_	_	
+13-15.1	427-428	e	_	_	_	_	_	_	_	*->48-1	*[48]	
+
+#Text=sì
+14-1	429-431	sì	BC	_	Falling	\[sì\].	_	BO144	13-0	*->48-1|*->61-2	*[48]|*[61]	
+
+#Text=sì
+15-1	432-434	sì	_	_	Falling	\[s\]ì.	_	BO144	14-0	*->48-1	*[48]	
+15-1.1	432-433	s	_	_	_	_	_	_	_	*->48-2	*[48]	
+
+#Text=da frequentante d' accordo hai frequentato anche il secondo modulo
+16-1	435-437	da	BC[3]	_	_	da	_	BO104	15-0	*->48-1	*[48]	
+16-2	438-450	frequentante	BC[3]	_	_	frequentante	_	_	15-1	_	_	
+16-2.1	438-439	f	_	_	_	_	_	_	_	*->48-1	*[48]	
+16-3	451-453	d'	BC[3]	_	_	d'	_	_	15-2	_	_	
+16-4	454-461	accordo	BC[3]	_	_	accordo	_	_	15-3	_	_	
+16-5	462-465	hai	_	_	_	hai	_	_	15-4	_	_	
+16-6	466-477	frequentato	_	_	_	frequentato	_	_	15-5	_	_	
+16-7	478-483	anche	_	_	_	anche	_	_	15-6	_	_	
+16-8	484-486	il	_	_	_	il	_	_	15-7	_	_	
+16-9	487-494	secondo	_	_	_	secondo	_	_	15-8	_	_	
+16-10	495-501	modulo	_	_	Rising	modulo?	_	_	15-9	_	_	
+
+#Text=sì
+17-1	502-504	sì	_	_	weakly\_rising	sì:,	_	BO144	16-0	_	_	
+
+#Text=poi hai portato anche le slide
+18-1	505-508	poi	_	_	_	poi	_	BO104	17-0	_	_	
+18-2	509-512	hai	_	_	_	hai	_	_	17-1	_	_	
+18-3	513-520	portato	_	_	_	portato	_	_	17-2	_	_	
+18-4	521-526	anche	_	_	_	anche	_	_	17-3	_	_	
+18-5	527-529	le	_	_	_	le	_	_	17-4	_	_	
+18-6	530-535	slide	_	_	Rising	slide?	_	_	17-5	_	_	
+
+#Text=no
+19-1	536-538	no	_	_	Falling	n:o.	_	BO144	18-0	_	_	
+
+#Text=non hai fatto le slide
+20-1	539-542	non	_	_	_	non	_	BO104	19-0	_	_	
+20-2	543-546	hai	_	_	_	hai	_	_	19-1	_	_	
+20-3	547-552	fatto	_	_	_	fatto	_	_	19-2	_	_	
+20-4	553-555	le	_	_	_	le	_	_	19-3	_	_	
+20-5	556-561	slide	_	_	Rising	s\[lide\]?	_	_	19-4	_	_	
+20-5.1	557-561	lide	_	_	_	_	_	_	_	*->19-1	*[19]	
+
+#Text=cioè s~ [PAUSE] sì le ho ma ho integrato con anche i libri
+21-1	562-566	cioè	_	_	_	\[cioè	_	BO144	20-0	*->19-2	*[19]	
+21-1.1	562-562		_	_	_	_	_	_	_	*->19-1	*[19]	
+21-2	567-569	s~	_	_	_	s~\]	_	_	20-1	*->19-3	*[19]	
+21-3	570-577	[PAUSE]	_	_	_	(.)	_	_	20-2	_	_	
+21-4	578-580	sì	_	_	_	sì	_	_	20-3	_	_	
+21-5	581-583	le	_	_	_	le	_	_	20-4	_	_	
+21-6	584-586	ho	_	_	_	ho:	_	_	20-5	_	_	
+21-7	587-589	ma	_	_	_	ma:	_	_	20-6	_	_	
+21-8	590-592	ho	_	_	_	ho	_	_	20-7	_	_	
+21-9	593-602	integrato	_	_	_	integrato	_	_	20-8	_	_	
+21-10	603-606	con	_	_	_	con	_	_	20-9	_	_	
+21-11	607-612	anche	_	_	_	anche	_	_	20-10	_	_	
+21-12	613-614	i	_	_	_	i	_	_	20-11	_	_	
+21-13	615-620	libri	_	_	Falling	libri.	_	_	20-12	_	_	
+
+#Text=no no certo dico hai fatto sia i libri che le slide tutt' e due
+22-1	621-623	no	BC[4]	_	_	no	_	BO104	21-0	_	_	
+22-2	624-626	no	BC[4]	_	weakly\_rising	no,	_	_	21-1	_	_	
+22-3	627-632	certo	BC[4]	_	weakly\_rising	\[certo,	_	_	21-2	*->44-1	*[44]	
+22-4	633-637	dico	_	_	_	dico	_	_	21-3	*->44-2	*[44]	
+22-5	638-641	hai	_	_	_	hai	_	_	21-4	*->44-3	*[44]	
+22-6	642-647	fatto	_	_	_	fatto	_	_	21-5	*->44-4	*[44]	
+22-7	648-651	sia	_	_	_	sia	_	_	21-6	*->44-5	*[44]	
+22-8	652-653	i	_	_	_	i	_	_	21-7	*->44-6	*[44]	
+22-9	654-659	libri	_	_	_	li\]bri	_	_	21-8	_	_	
+22-9.1	654-656	li	_	_	_	_	_	_	_	*->44-7	*[44]	
+22-10	660-663	che	_	_	_	che	_	_	21-9	_	_	
+22-11	664-666	le	_	_	_	le	_	_	21-10	_	_	
+22-12	667-672	slide	_	_	weakly\_rising	sl\[ide,	_	_	21-11	_	_	
+22-12.1	669-672	ide	_	_	_	_	_	_	_	*->62-1	*[62]	
+22-13	673-678	tutt'	_	_	_	tutt'	_	_	21-12	*->62-2	*[62]	
+22-13.1	673-674	t	_	_	_	_	_	_	_	*->62-1	*[62]	
+22-14	679-680	e	_	_	_	e	_	_	21-13	*->62-3	*[62]	
+22-15	681-684	due	_	_	Falling	due\].	_	_	21-14	*->62-4	*[62]	
+
+#Text=x ah [PAUSE] okay
+23-1	685-686	x	_	_	_	\[xx	_	BO144	22-0	*->44-8	*[44]	
+23-2	687-689	ah	BC[5]	_	_	ah	_	_	22-1	*->44-9	*[44]	
+23-2.1	687-687		_	_	_	_	_	_	_	*->44-8	*[44]	
+23-3	690-697	[PAUSE]	BC[5]	_	_	(.)	_	_	22-2	_	_	
+23-3.1	690-693	[PA	_	_	_	_	_	_	_	*->44-10	*[44]	
+23-4	698-702	okay	BC[5]	_	Falling	okay\].	_	_	22-3	*->44-11	*[44]	
+
+#Text=sì sì sì okay okay okay
+24-1	703-705	sì	BC[6]	_	_	\[sì	_	BO144	23-0	*->62-5	*[62]	
+24-2	706-708	sì	BC[6]	_	_	sì	_	_	23-1	*->62-6	*[62]	
+24-3	709-711	sì	BC[6]	_	weakly\_rising	s\]ì,	_	_	23-2	_	_	
+24-3.1	709-710	s	_	_	_	_	_	_	_	*->62-7	*[62]	
+24-4	712-716	okay	BC[7]	_	_	okay	_	_	23-3	_	_	
+24-5	717-721	okay	BC[7]	_	_	okay	_	_	23-4	_	_	
+24-6	722-726	okay	BC[7]	_	Falling	okay.	_	_	23-5	_	_	
+
+#Text=bene [PAUSE] allora qua è l~ [PAUSE] il tema che ti è interessato di più [PAUSE] nel secondo modulo
+25-1	727-731	bene	_	_	_	bene	_	BO104	24-0	_	_	
+25-2	732-739	[PAUSE]	_	_	_	(.)	_	_	24-1	_	_	
+25-3	740-746	allora	_	_	_	allora	_	_	24-2	_	_	
+25-4	747-750	qua	_	_	_	qua	_	_	24-3	_	_	
+25-5	751-752	è	_	_	_	è	_	_	24-4	_	_	
+25-6	753-755	l~	_	_	_	l~	_	_	24-5	_	_	
+25-7	756-763	[PAUSE]	_	_	_	(.)	_	_	24-6	_	_	
+25-8	764-766	il	_	_	_	il	_	_	24-7	_	_	
+25-9	767-771	tema	_	_	_	tema	_	_	24-8	_	_	
+25-10	772-775	che	_	_	_	che	_	_	24-9	_	_	
+25-11	776-778	ti	_	_	_	ti	_	_	24-10	_	_	
+25-12	779-780	è	_	_	_	è	_	_	24-11	_	_	
+25-13	781-792	interessato	_	_	_	interessato	_	_	24-12	_	_	
+25-14	793-795	di	_	_	_	di	_	_	24-13	_	_	
+25-15	796-799	più	_	_	weakly\_rising	più,	_	_	24-14	_	_	
+25-16	800-807	[PAUSE]	_	_	_	(.)	_	_	24-15	_	_	
+25-17	808-811	nel	_	_	_	nel	_	_	24-16	_	_	
+25-18	812-819	secondo	_	_	_	secondo	_	_	24-17	_	_	
+25-19	820-826	modulo	_	_	Rising	modulo?	_	_	24-18	_	_	
+
+#Text=allora
+26-1	827-833	allora	_	_	weakly\_rising	allo::ra:,	_	BO144	25-0	_	_	
+
+#Text=mh [PAUSE] che mi ha
+27-1	834-836	mh	_	FP	_	m:::h	_	BO144	26-0	_	_	
+27-2	837-844	[PAUSE]	_	_	_	(.)	_	_	26-1	_	_	
+27-3	845-848	che	_	_	_	che	_	_	26-2	_	_	
+27-4	849-851	mi	_	_	_	mi	_	_	26-3	_	_	
+27-5	852-854	ha	_	_	weakly\_rising	ha::,	_	_	26-4	_	_	
+
+#Text=che mi è particolarmente piaciuto
+28-1	855-858	che	_	_	_	che	_	BO144	27-0	_	_	
+28-2	859-861	mi	_	_	_	mi	_	_	27-1	_	_	
+28-3	862-863	è	_	_	_	è	_	_	27-2	_	_	
+28-4	864-879	particolarmente	_	_	_	particolarmente	_	_	27-3	_	_	
+28-5	880-888	piaciuto	_	_	weakly\_rising	piaciu:to:,	_	_	27-4	_	_	
+
+#Text=mh [PAUSE] la valutazione e il testing
+29-1	889-891	mh	_	FP	_	m::::h	_	BO144	28-0	_	_	
+29-2	892-899	[PAUSE]	_	_	_	(.)	_	_	28-1	_	_	
+29-3	900-902	la	_	_	_	la	_	_	28-2	_	_	
+29-4	903-914	valutazione	_	_	_	valutazione	_	_	28-3	_	_	
+29-5	915-916	e	_	_	_	e	_	_	28-4	_	_	
+29-6	917-919	il	_	_	_	il	_	_	28-5	_	_	
+29-7	920-927	testing	_	_	weakly\_rising	testing,	_	_	28-6	_	_	
+
+#Text=mh mh
+30-1	928-930	mh	BC[8]	_	_	mh	_	BO104	29-0	_	_	
+30-2	931-933	mh	BC[8]	_	weakly\_rising	mh,	_	_	29-1	_	_	
+
+#Text=e mh il discorso riguardante [PAUSE] eh mh
+31-1	934-935	e	_	_	_	e:::	_	BO144	30-0	_	_	
+31-2	936-938	mh	_	FP	_	m:::h	_	_	30-1	_	_	
+31-3	939-941	il	_	_	_	il	_	_	30-2	_	_	
+31-4	942-950	discorso	_	_	_	discorso	_	_	30-3	_	_	
+31-5	951-962	riguardante	_	_	weakly\_rising	riguardante,	_	_	30-4	_	_	
+31-6	963-970	[PAUSE]	_	_	_	(.)	_	_	30-5	_	_	
+31-7	971-973	eh	_	FP[20]	_	e::h	_	_	30-6	_	_	
+31-8	974-976	mh	_	FP[20]	weakly\_rising	m::h,	_	_	30-7	_	_	
+
+#Text=il [PAUSE] laboratorio linguistico
+32-1	977-979	il	_	_	weakly\_rising	il,	_	BO144	31-0	_	_	
+32-2	980-987	[PAUSE]	_	_	_	(.)	_	_	31-1	_	_	
+32-3	988-999	laboratorio	_	_	_	laboratorio	_	_	31-2	_	_	
+32-4	1000-1011	linguistico	_	_	weakly\_rising	linguistico:,	_	_	31-3	_	_	
+
+#Text=il passagggio da [PAUSE] eh [PAUSE] alt er
+33-1	1012-1014	il	_	_	_	il	_	BO144	32-0	_	_	
+33-2	1015-1025	passagggio	_	_	_	passagggio	_	_	32-1	_	_	
+33-3	1026-1028	da	_	_	weakly\_rising	da:,	_	_	32-2	_	_	
+33-4	1029-1036	[PAUSE]	_	_	_	(.)	_	_	32-3	_	_	
+33-5	1037-1039	eh	_	FP	weakly\_rising	eh,	_	_	32-4	_	_	
+33-6	1040-1047	[PAUSE]	_	_	_	(.)	_	_	32-5	_	_	
+33-7	1048-1051	alt	_	_	_	alt	_	_	32-6	_	_	
+33-8	1052-1054	er	_	_	weakly\_rising	er,	_	_	32-7	_	_	
+
+#Text=er [PAUSE] e il dalia
+34-1	1055-1057	er	_	_	weakly\_rising	e:r,	_	BO144	33-0	_	_	
+34-2	1058-1065	[PAUSE]	_	_	_	(.)	_	_	33-1	_	_	
+34-3	1066-1067	e	_	_	_	e	_	_	33-2	_	_	
+34-4	1068-1070	il	_	_	_	il	_	_	33-3	_	_	
+34-5	1071-1076	dalia	_	_	weakly\_rising	dalia,	_	_	33-4	_	_	
+
+#Text=ah il mio articolo [PAUSE] quello [PAUSE] ah d' accordo
+35-1	1077-1079	ah	BC	_	_	ah	_	BO104	34-0	_	_	
+35-2	1080-1082	il	_	_	_	il	_	_	34-1	_	_	
+35-3	1083-1086	mio	_	_	_	mio	_	_	34-2	_	_	
+35-4	1087-1095	articolo	_	_	Rising	articolo?	_	_	34-3	_	_	
+35-5	1096-1103	[PAUSE]	_	_	_	(.)	_	_	34-4	_	_	
+35-6	1104-1110	quello	_	_	_	\[quello:	_	_	34-5	*->31-1	*[31]	
+35-7	1111-1118	[PAUSE]	_	_	_	(.)	_	_	34-6	_	_	
+35-7.1	1111-1114	[PA	_	_	_	_	_	_	_	*->31-2	*[31]	
+35-8	1119-1121	ah	BC[9]	_	weakly\_rising	ah\],	_	_	34-7	*->31-3	*[31]	
+35-9	1122-1124	d'	BC[9]	_	_	d'	_	_	34-8	_	_	
+35-10	1125-1132	accordo	BC[9]	_	Falling	accordo.	_	_	34-9	_	_	
+
+#Text=sì [PAUSE] sì
+36-1	1133-1135	sì	BC	_	weakly\_rising	\[sì,	_	BO144	35-0	*->31-4	*[31]	
+36-2	1136-1143	[PAUSE]	_	_	_	(.)	_	_	35-1	_	_	
+36-2.1	1136-1139	[PA	_	_	_	_	_	_	_	*->31-5	*[31]	
+36-3	1144-1146	sì	BC	_	Falling	sì\].	_	_	35-2	*->31-6	*[31]	
+
+#Text=va bene [PAUSE] senti parliamo un attimo di valutazione
+37-1	1147-1149	va	_	_	_	va	_	BO104	36-0	_	_	
+37-2	1150-1154	bene	_	_	_	bene	_	_	36-1	_	_	
+37-3	1155-1162	[PAUSE]	_	_	_	(.)	_	_	36-2	_	_	
+37-4	1163-1168	senti	_	_	weakly\_rising	senti,	_	_	36-3	_	_	
+37-5	1169-1177	parliamo	_	_	_	parliamo	_	_	36-4	_	_	
+37-6	1178-1180	un	_	_	_	un	_	_	36-5	_	_	
+37-7	1181-1187	attimo	_	_	_	attimo	_	_	36-6	_	_	
+37-8	1188-1190	di	_	_	_	di	_	_	36-7	_	_	
+37-9	1191-1202	valutazione	_	_	Falling	valutazione.	_	_	36-8	_	_	
+
+#Text=che cosa si intende
+38-1	1203-1206	che	_	_	_	che	_	BO104	37-0	_	_	
+38-2	1207-1211	cosa	_	_	_	cosa	_	_	37-1	_	_	
+38-3	1212-1214	si	_	_	_	si	_	_	37-2	_	_	
+38-4	1215-1222	intende	_	_	weakly\_rising	intende,	_	_	37-3	_	_	
+
+#Text=c' è questo concetto più recente
+39-1	1223-1225	c'	_	_	_	c'	_	BO104	38-0	_	_	
+39-2	1226-1227	è	_	_	_	è	_	_	38-1	_	_	
+39-3	1228-1234	questo	_	_	_	questo	_	_	38-2	_	_	
+39-4	1235-1243	concetto	_	_	_	concetto	_	_	38-3	_	_	
+39-5	1244-1247	più	_	_	_	più	_	_	38-4	_	_	
+39-6	1248-1255	recente	_	_	weakly\_rising	recente:,	_	_	38-5	_	_	
+
+#Text=di [PAUSE] utilità
+40-1	1256-1258	di	_	_	weakly\_rising	di:,	_	BO104	39-0	_	_	
+40-2	1259-1266	[PAUSE]	_	_	_	(.)	_	_	39-1	_	_	
+40-3	1267-1274	utilità	_	_	Falling	utilità.	_	_	39-2	_	_	
+
+#Text=del [PAUSE] testing linguistico allora intanto che cos' è un test di lingue
+41-1	1275-1278	del	_	_	_	del	_	BO104	40-0	_	_	
+41-2	1279-1286	[PAUSE]	_	_	_	(.)	_	_	40-1	_	_	
+41-3	1287-1294	testing	_	_	_	testing	_	_	40-2	_	_	
+41-4	1295-1306	linguistico	_	_	_	linguistico	_	_	40-3	_	_	
+41-5	1307-1313	allora	_	_	_	>allora<	_	_	40-4	_	_	
+41-6	1314-1321	intanto	_	_	_	intanto	_	_	40-5	_	_	
+41-7	1322-1325	che	_	_	_	che	_	_	40-6	_	_	
+41-8	1326-1330	cos'	_	_	_	cos'	_	_	40-7	_	_	
+41-9	1331-1332	è	_	_	_	è	_	_	40-8	_	_	
+41-10	1333-1335	un	_	_	_	un	_	_	40-9	_	_	
+41-11	1336-1340	test	_	_	_	test	_	_	40-10	_	_	
+41-12	1341-1343	di	_	_	_	di	_	_	40-11	_	_	
+41-13	1344-1350	lingue	_	_	weakly\_rising	lingue:,	_	_	40-12	_	_	
+
+#Text=qual è la sua [PAUSE] il suo ruolo la sua funzione
+42-1	1351-1355	qual	_	_	_	qual	_	BO104	41-0	_	_	
+42-2	1356-1357	è	_	_	_	è	_	_	41-1	_	_	
+42-3	1358-1360	la	_	_	_	la	_	_	41-2	_	_	
+42-4	1361-1364	sua	_	_	_	sua:	_	_	41-3	_	_	
+42-5	1365-1372	[PAUSE]	_	_	_	(.)	_	_	41-4	_	_	
+42-6	1373-1375	il	_	_	_	il	_	_	41-5	_	_	
+42-7	1376-1379	suo	_	_	_	suo	_	_	41-6	_	_	
+42-8	1380-1385	ruolo	_	_	_	ruolo	_	_	41-7	_	_	
+42-9	1386-1388	la	_	_	_	la	_	_	41-8	_	_	
+42-10	1389-1392	sua	_	_	_	sua	_	_	41-9	_	_	
+42-11	1393-1401	funzione	_	_	weakly\_rising	funzione,	_	_	41-10	_	_	
+
+#Text=nel processo didattico
+43-1	1402-1405	nel	_	_	_	nel	_	BO104	42-0	_	_	
+43-2	1406-1414	processo	_	_	_	processo	_	_	42-1	_	_	
+43-3	1415-1424	didattico	_	_	weakly\_rising	didattico,	_	_	42-2	_	_	
+
+#Text=e [PAUSE] eh mh
+44-1	1425-1426	e	_	_	weakly\_rising	e:,	_	BO104	43-0	_	_	
+44-2	1427-1434	[PAUSE]	_	_	_	(.)	_	_	43-1	_	_	
+44-3	1435-1437	eh	_	FP[21]	_	e:h	_	_	43-2	_	_	
+44-4	1438-1440	mh	_	FP[21]	weakly\_rising	m::h,	_	_	43-3	_	_	
+
+#Text=eh mh [PAUSE] che cosa si intende
+45-1	1441-1443	eh	_	FP[22]	_	e:::h	_	BO104	44-0	_	_	
+45-2	1444-1446	mh	_	FP[22]	_	mh	_	_	44-1	_	_	
+45-3	1447-1454	[PAUSE]	_	_	_	(.)	_	_	44-2	_	_	
+45-4	1455-1458	che	_	_	_	che	_	_	44-3	_	_	
+45-5	1459-1463	cosa	_	_	_	cosa	_	_	44-4	_	_	
+45-6	1464-1466	si	_	_	_	si	_	_	44-5	_	_	
+45-7	1467-1474	intende	_	_	weakly\_rising	intende,	_	_	44-6	_	_	
+
+#Text=con il concetto di utilità
+46-1	1475-1478	con	_	_	_	con	_	BO104	45-0	_	_	
+46-2	1479-1481	il	_	_	_	il	_	_	45-1	_	_	
+46-3	1482-1490	concetto	_	_	_	concetto	_	_	45-2	_	_	
+46-4	1491-1493	di	_	_	_	di	_	_	45-3	_	_	
+46-5	1494-1501	utilità	_	_	Falling	utilità.	_	_	45-4	_	_	
+
+#Text=di un [PAUSE] di un test
+47-1	1502-1504	di	_	_	_	di	_	BO104	46-0	_	_	
+47-2	1505-1507	un	_	_	weakly\_rising	un:,	_	_	46-1	_	_	
+47-3	1508-1515	[PAUSE]	_	_	_	(.)	_	_	46-2	_	_	
+47-4	1516-1518	di	_	_	_	di	_	_	46-3	_	_	
+47-5	1519-1521	un	_	_	_	un	_	_	46-4	_	_	
+47-6	1522-1526	test	_	_	Falling	test.	_	_	46-5	_	_	
+
+#Text=okayi allora [PAUSE] innanzitutto [PAUSE] un eh [PAUSE] un eh
+48-1	1527-1532	okayi	_	_	_	okayi	_	BO144	47-0	_	_	
+48-2	1533-1539	allora	_	_	_	allora	_	_	47-1	_	_	
+48-3	1540-1547	[PAUSE]	_	_	_	(.)	_	_	47-2	_	_	
+48-4	1548-1560	innanzitutto	_	_	weakly\_rising	innanzitutto,	_	_	47-3	_	_	
+48-5	1561-1568	[PAUSE]	_	_	_	(.)	_	_	47-4	_	_	
+48-6	1569-1571	un	_	_	_	un	_	_	47-5	_	_	
+48-7	1572-1574	eh	_	FP	_	e::h	_	_	47-6	_	_	
+48-8	1575-1582	[PAUSE]	_	_	_	(.)	_	_	47-7	_	_	
+48-9	1583-1585	un	_	_	_	un	_	_	47-8	_	_	
+48-10	1586-1588	eh	_	FP	weakly\_rising	e::h,	_	_	47-9	_	_	
+
+#Text=un tes~ [PAUSE] un language testing cioè una [PAUSE] una valutazione di lingue
+49-1	1589-1591	un	_	_	_	un	SR[60]	BO144	48-0	_	_	
+49-2	1592-1596	tes~	_	_	_	tes~	SR[60]	_	48-1	_	_	
+49-3	1597-1604	[PAUSE]	_	_	_	(.)	SR[60]	_	48-2	_	_	
+49-4	1605-1607	un	_	_	_	un	SR[60]	_	48-3	_	_	
+49-5	1608-1616	language	_	_	_	language	SR[60]	_	48-4	_	_	
+49-6	1617-1624	testing	_	_	weakly\_rising	testing,	SR[60]	_	48-5	_	_	
+49-7	1625-1629	cioè	_	_	_	cioè	_	_	48-6	_	_	
+49-8	1630-1633	una	_	_	_	una::	_	_	48-7	_	_	
+49-9	1634-1641	[PAUSE]	_	_	_	(.)	_	_	48-8	_	_	
+49-10	1642-1645	una	_	_	_	un:a	_	_	48-9	_	_	
+49-11	1646-1657	valutazione	_	_	_	valutazione	_	_	48-10	_	_	
+49-12	1658-1660	di	_	_	_	di	_	_	48-11	_	_	
+49-13	1661-1667	lingue	_	_	weakly\_rising	lingue,	_	_	48-12	_	_	
+
+#Text=è una mh
+50-1	1668-1669	è	_	_	_	è::	_	BO144	49-0	_	_	
+50-2	1670-1673	una	_	_	_	una:::	_	_	49-1	_	_	
+50-3	1674-1676	mh	_	FP	weakly\_rising	mh,	_	_	49-2	_	_	
+
+#Text=una valutazione [PAUSE] della competenza comunicativa che si è raggiunta in quella determinata [PAUSE] lingua
+51-1	1677-1680	una	_	_	_	una	_	BO144	50-0	_	_	
+51-2	1681-1692	valutazione	_	_	weakly\_rising	valutazione,	_	_	50-1	_	_	
+51-3	1693-1700	[PAUSE]	_	_	_	(.)	_	_	50-2	_	_	
+51-4	1701-1706	della	_	_	_	della	_	_	50-3	_	_	
+51-5	1707-1717	competenza	_	_	_	competenza	_	_	50-4	_	_	
+51-6	1718-1730	comunicativa	_	_	_	comunicativa	_	_	50-5	_	_	
+51-7	1731-1734	che	_	_	_	che	_	_	50-6	_	_	
+51-8	1735-1737	si	_	_	_	si	_	_	50-7	_	_	
+51-9	1738-1739	è	_	_	_	è	_	_	50-8	_	_	
+51-10	1740-1749	raggiunta	_	_	_	raggiunta	_	_	50-9	_	_	
+51-11	1750-1752	in	_	_	_	in	_	_	50-10	_	_	
+51-12	1753-1759	quella	_	_	_	quella	_	_	50-11	_	_	
+51-13	1760-1771	determinata	_	_	_	determinata:	_	_	50-12	_	_	
+51-14	1772-1779	[PAUSE]	_	_	_	(.)	_	_	50-13	_	_	
+51-15	1780-1786	lingua	_	_	Falling	lingua.	_	_	50-14	_	_	
+
+#Text=per forza la competenza comunicativa
+52-1	1787-1790	per	_	_	_	per	_	BO104	51-0	_	_	
+52-2	1791-1796	forza	_	_	_	forza	_	_	51-1	_	_	
+52-3	1797-1799	la	_	_	_	la	_	_	51-2	_	_	
+52-4	1800-1810	competenza	_	_	_	competenza	_	_	51-3	_	_	
+52-5	1811-1823	comunicativa	_	_	Rising	comunica\[tiva\]?	_	_	51-4	_	_	
+52-5.1	1819-1823	tiva	_	_	_	_	_	_	_	*->38-1	*[38]	
+
+#Text=no [PAUSE] può essere anche la competenza linguistica solo che la competenza linguistica viene intesa proprio come l' apprendimento
+53-1	1824-1826	no	_	_	weakly\_rising	\[no::\],	_	BO144	52-0	*->38-1|*->38-2	*[38]|*[38]	
+53-2	1827-1834	[PAUSE]	_	_	_	(.)	_	_	52-1	_	_	
+53-2.1	1827-1831	[PAU	_	_	_	_	_	_	_	*->38-1	*[38]	
+53-3	1835-1838	può	_	_	_	può	_	_	52-2	_	_	
+53-4	1839-1845	essere	_	_	_	essere	_	_	52-3	_	_	
+53-5	1846-1851	anche	_	_	_	anche	_	_	52-4	_	_	
+53-6	1852-1854	la	_	_	_	la	_	_	52-5	_	_	
+53-7	1855-1865	competenza	_	_	_	competenza:	_	_	52-6	_	_	
+53-8	1866-1877	linguistica	_	_	weakly\_rising	linguistica,	_	_	52-7	_	_	
+53-9	1878-1882	solo	_	_	_	solo	_	_	52-8	_	_	
+53-10	1883-1886	che	_	_	_	che	_	_	52-9	_	_	
+53-11	1887-1889	la	_	_	_	la	_	_	52-10	_	_	
+53-12	1890-1900	competenza	_	_	_	competenza	_	_	52-11	_	_	
+53-13	1901-1912	linguistica	_	_	_	linguistica	_	_	52-12	_	_	
+53-14	1913-1918	viene	_	_	_	viene	_	_	52-13	_	_	
+53-15	1919-1925	intesa	_	_	_	intesa	_	_	52-14	_	_	
+53-16	1926-1933	proprio	_	_	_	proprio	_	_	52-15	_	_	
+53-17	1934-1938	come	_	_	_	come	_	_	52-16	_	_	
+53-18	1939-1941	l'	_	_	_	l'	_	_	52-17	_	_	
+53-19	1942-1955	apprendimento	_	_	weakly\_rising	apprendimento:,	_	_	52-18	_	_	
+
+#Text=e [PAUSE] delle regole [PAUSE] grammaticali
+54-1	1956-1957	e	_	_	_	e:	_	BO144	53-0	_	_	
+54-2	1958-1965	[PAUSE]	_	_	_	(.)	_	_	53-1	_	_	
+54-3	1966-1971	delle	_	_	_	delle	_	_	53-2	_	_	
+54-4	1972-1978	regole	_	_	weakly\_rising	regole,	_	_	53-3	_	_	
+54-5	1979-1986	[PAUSE]	_	_	_	(.)	_	_	53-4	_	_	
+54-6	1987-1999	grammaticali	_	_	Falling	grammaticali.	_	_	53-5	_	_	
+
+#Text=mentre la competenza comunicativa
+55-1	2000-2006	mentre	_	_	_	mentre	_	BO144	54-0	_	_	
+55-2	2007-2009	la	_	_	_	la	_	_	54-1	_	_	
+55-3	2010-2020	competenza	_	_	_	competenza	_	_	54-2	_	_	
+55-4	2021-2033	comunicativa	_	_	weakly\_rising	comunicativa:,	_	_	54-3	_	_	
+
+#Text=mh si organizza su un contesto più ampio
+56-1	2034-2036	mh	_	FP	_	m::h	_	BO144	55-0	_	_	
+56-2	2037-2039	si	_	_	_	si	_	_	55-1	_	_	
+56-3	2040-2049	organizza	_	_	_	organizza	_	_	55-2	_	_	
+56-4	2050-2052	su	_	_	_	su	_	_	55-3	_	_	
+56-5	2053-2055	un	_	_	_	un	_	_	55-4	_	_	
+56-6	2056-2064	contesto	_	_	_	contesto	_	_	55-5	_	_	
+56-7	2065-2068	più	_	_	_	più	_	_	55-6	_	_	
+56-8	2069-2074	ampio	_	_	weakly\_rising	ampio,	_	_	55-7	_	_	
+
+#Text=quindi inserisce la competenza linguistica al suo interno
+57-1	2075-2081	quindi	_	_	_	quindi	_	BO144	56-0	_	_	
+57-2	2082-2091	inserisce	_	_	_	inserisce	_	_	56-1	_	_	
+57-3	2092-2094	la	_	_	_	la	_	_	56-2	_	_	
+57-4	2095-2105	competenza	_	_	_	competenza	_	_	56-3	_	_	
+57-5	2106-2117	linguistica	_	_	_	linguistica	_	_	56-4	_	_	
+57-6	2118-2120	al	_	_	_	al	_	_	56-5	_	_	
+57-7	2121-2124	suo	_	_	_	suo	_	_	56-6	_	_	
+57-8	2125-2132	interno	_	_	weakly\_rising	interno,	_	_	56-7	_	_	
+
+#Text=e indica la capacità che l' apprendente ha [PAUSE] di saper utilizzare
+58-1	2133-2134	e	_	_	_	e	_	BO144	57-0	_	_	
+58-2	2135-2141	indica	_	_	_	indica	_	_	57-1	_	_	
+58-3	2142-2144	la	_	_	_	la	_	_	57-2	_	_	
+58-4	2145-2153	capacità	_	_	_	capacità	_	_	57-3	_	_	
+58-5	2154-2157	che	_	_	_	che	_	_	57-4	_	_	
+58-6	2158-2160	l'	_	_	_	l'	_	_	57-5	_	_	
+58-7	2161-2172	apprendente	_	_	_	apprendente	_	_	57-6	_	_	
+58-8	2173-2175	ha	_	_	weakly\_rising	ha,	_	_	57-7	_	_	
+58-9	2176-2183	[PAUSE]	_	_	_	(.)	_	_	57-8	_	_	
+58-10	2184-2186	di	_	_	_	di	_	_	57-9	_	_	
+58-11	2187-2192	saper	_	_	_	saper	_	_	57-10	_	_	
+58-12	2193-2203	utilizzare	_	_	weakly\_rising	utilizza:re,	_	_	57-11	_	_	
+
+#Text=la lingua [PAUSE] che ha appreso
+59-1	2204-2206	la	_	_	_	la	_	BO144	58-0	_	_	
+59-2	2207-2213	lingua	_	_	_	lingua	_	_	58-1	_	_	
+59-3	2214-2221	[PAUSE]	_	_	_	(.)	_	_	58-2	_	_	
+59-4	2222-2225	che	_	_	_	che	_	_	58-3	_	_	
+59-5	2226-2228	ha	_	_	_	ha	_	_	58-4	_	_	
+59-6	2229-2236	appreso	_	_	weakly\_rising	appreso,	_	_	58-5	_	_	
+
+#Text=all' interno del contesto e della società nel modo più adeguato
+60-1	2237-2241	all'	_	_	_	all'	_	BO144	59-0	_	_	
+60-2	2242-2249	interno	_	_	_	interno	_	_	59-1	_	_	
+60-3	2250-2253	del	_	_	_	del	_	_	59-2	_	_	
+60-4	2254-2262	contesto	_	_	weakly\_rising	contesto,	_	_	59-3	_	_	
+60-5	2263-2264	e	_	_	_	e	_	_	59-4	_	_	
+60-6	2265-2270	della	_	_	_	della	_	_	59-5	_	_	
+60-7	2271-2278	società	_	_	weakly\_rising	società,	_	_	59-6	_	_	
+60-8	2279-2282	nel	_	_	_	nel	_	_	59-7	_	_	
+60-9	2283-2287	modo	_	_	_	modo	_	_	59-8	_	_	
+60-10	2288-2291	più	_	_	_	più	_	_	59-9	_	_	
+60-11	2292-2300	adeguato	_	_	weakly\_rising	adeguato:,	_	_	59-10	_	_	
+
+#Text=possibile
+61-1	2301-2310	possibile	_	_	Falling	possibile.	_	BO144	60-0	_	_	
+
+#Text=e quindi [PAUSE] mh [PAUSE] con il testing
+62-1	2311-2312	e	_	_	_	e	_	BO144	61-0	_	_	
+62-2	2313-2319	quindi	_	_	weakly\_rising	quindi,	_	_	61-1	_	_	
+62-3	2320-2327	[PAUSE]	_	_	_	(.)	_	_	61-2	_	_	
+62-4	2328-2330	mh	_	FP	weakly\_rising	m::h,	_	_	61-3	_	_	
+62-5	2331-2338	[PAUSE]	_	_	_	(.)	_	_	61-4	_	_	
+62-6	2339-2342	con	_	_	_	con	_	_	61-5	_	_	
+62-7	2343-2345	il	_	_	_	il	_	_	61-6	_	_	
+62-8	2346-2353	testing	_	_	weakly\_rising	testing,	_	_	61-7	_	_	
+
+#Text=eh si vogliono [PAUSE] misurare
+63-1	2354-2356	eh	_	FP	_	e:h	_	BO144	62-0	_	_	
+63-2	2357-2359	si	_	_	_	si	_	_	62-1	_	_	
+63-3	2360-2368	vogliono	_	_	weakly\_rising	vogliono,	_	_	62-2	_	_	
+63-4	2369-2376	[PAUSE]	_	_	_	(.)	_	_	62-3	_	_	
+63-5	2377-2385	misurare	_	_	weakly\_rising	misurare,	_	_	62-4	_	_	
+
+#Text=le [PAUSE] e infatti si parla mh [PAUSE] al spesso di misurazione proprio
+64-1	2386-2388	le	_	_	_	le:::	_	BO144	63-0	_	_	
+64-2	2389-2396	[PAUSE]	_	_	_	(.)	_	_	63-1	_	_	
+64-3	2397-2398	e	_	_	_	e	_	_	63-2	_	_	
+64-4	2399-2406	infatti	_	_	_	infatti	_	_	63-3	_	_	
+64-5	2407-2409	si	_	_	_	si	_	_	63-4	_	_	
+64-6	2410-2415	parla	_	_	_	parla	_	_	63-5	_	_	
+64-7	2416-2418	mh	_	FP	_	m:h	_	_	63-6	_	_	
+64-8	2419-2426	[PAUSE]	_	_	_	(.)	_	_	63-7	_	_	
+64-9	2427-2429	al	_	_	_	al	_	_	63-8	_	_	
+64-10	2430-2436	spesso	_	_	_	spesso	_	_	63-9	_	_	
+64-11	2437-2439	di	_	_	_	di	_	_	63-10	_	_	
+64-12	2440-2451	misurazione	_	_	weakly\_rising	<misurazione>,	_	_	63-11	_	_	
+64-13	2452-2459	proprio	_	_	weakly\_rising	proprio,	_	_	63-12	_	_	
+
+#Text=perché si vogliono misurare [PAUSE] le competenze raggiunte dall eh [PAUSE] dall' allievo
+65-1	2460-2466	perché	_	_	_	perché	_	BO144	64-0	_	_	
+65-2	2467-2469	si	_	_	_	si	_	_	64-1	_	_	
+65-3	2470-2478	vogliono	_	_	_	vogliono	_	_	64-2	_	_	
+65-4	2479-2487	misurare	_	_	weakly\_rising	misurare,	_	_	64-3	_	_	
+65-5	2488-2495	[PAUSE]	_	_	_	(.)	_	_	64-4	_	_	
+65-6	2496-2498	le	_	_	_	le	_	_	64-5	_	_	
+65-7	2499-2509	competenze	_	_	_	competenze	_	_	64-6	_	_	
+65-8	2510-2519	raggiunte	_	_	_	raggiunte::	_	_	64-7	_	_	
+65-9	2520-2524	dall	_	_	_	dall	_	_	64-8	_	_	
+65-10	2525-2527	eh	_	FP	_	e:h	_	_	64-9	_	_	
+65-11	2528-2535	[PAUSE]	_	_	_	(.)	_	_	64-10	_	_	
+65-12	2536-2541	dall'	_	_	_	dall'	_	_	64-11	_	_	
+65-13	2542-2549	allievo	_	_	Falling	allievo.	_	_	64-12	_	_	
+
+#Text=e mh
+66-1	2550-2551	e	_	FP[23]	_	e::	_	BO144	65-0	_	_	
+66-2	2552-2554	mh	_	FP[23]	weakly\_rising	m:::h,	_	_	65-1	_	_	
+
+#Text=ovviamente
+67-1	2555-2565	ovviamente	_	_	weakly\_rising	ovviamente:,	_	BO144	66-0	_	_	
+
+#Text=mh [PAUSE] si sono sviluppati diversi tipi di test
+68-1	2566-2568	mh	_	FP	weakly\_rising	m::h,	_	BO144	67-0	_	_	
+68-2	2569-2576	[PAUSE]	_	_	_	(.)	_	_	67-1	_	_	
+68-3	2577-2579	si	_	_	_	si	_	_	67-2	_	_	
+68-4	2580-2584	sono	_	_	_	sono	_	_	67-3	_	_	
+68-5	2585-2595	sviluppati	_	_	_	sviluppati	_	_	67-4	_	_	
+68-6	2596-2603	diversi	_	_	weakly\_rising	diversi,	_	_	67-5	_	_	
+68-7	2604-2608	tipi	_	_	_	<tipi	_	_	67-6	_	_	
+68-8	2609-2611	di	_	_	_	di	_	_	67-7	_	_	
+68-9	2612-2616	test	_	_	Falling	test>.	_	_	67-8	_	_	
+
+#Text=eh mh [PAUSE] anche in base alle competenze che vogliono dimostra~ [PAUSE] che vogliono verificare
+69-1	2617-2619	eh	_	FP[24]	_	e:::h	_	BO144	68-0	_	_	
+69-2	2620-2622	mh	_	FP[24]	weakly\_rising	mh,	_	_	68-1	_	_	
+69-3	2623-2630	[PAUSE]	_	_	_	(.)	_	_	68-2	_	_	
+69-4	2631-2636	anche	_	_	_	anche	_	_	68-3	_	_	
+69-5	2637-2639	in	_	_	_	in	_	_	68-4	_	_	
+69-6	2640-2644	base	_	_	_	base	_	_	68-5	_	_	
+69-7	2645-2649	alle	_	_	_	alle	_	_	68-6	_	_	
+69-8	2650-2660	competenze	_	_	_	competenze	_	_	68-7	_	_	
+69-9	2661-2664	che	_	_	_	che	SR[61]	_	68-8	_	_	
+69-10	2665-2673	vogliono	_	_	_	vogliono::	SR[61]	_	68-9	_	_	
+69-11	2674-2683	dimostra~	_	_	weakly\_rising	dimostra~,	SR[61]	_	68-10	_	_	
+69-12	2684-2691	[PAUSE]	_	_	_	(.)	SR[61]	_	68-11	_	_	
+69-13	2692-2695	che	_	_	_	che	SR[61]	_	68-12	_	_	
+69-14	2696-2704	vogliono	_	_	_	vogliono::	SR[61]	_	68-13	_	_	
+69-15	2705-2715	verificare	_	_	Falling	verificare.	SR[61]	_	68-14	_	_	
+
+#Text=e infatti mh [PAUSE] vediamo anche ad esempio per eh mh
+70-1	2716-2717	e	_	_	_	e::	_	BO144	69-0	_	_	
+70-2	2718-2725	infatti	_	_	_	infatti::	_	_	69-1	_	_	
+70-3	2726-2728	mh	_	FP	weakly\_rising	mh,	_	_	69-2	_	_	
+70-4	2729-2736	[PAUSE]	_	_	_	(.)	_	_	69-3	_	_	
+70-5	2737-2744	vediamo	_	_	_	vediamo	_	_	69-4	_	_	
+70-6	2745-2750	anche	_	_	_	anche	_	_	69-5	_	_	
+70-7	2751-2753	ad	_	_	_	ad	_	_	69-6	_	_	
+70-8	2754-2761	esempio	_	_	_	esempio	_	_	69-7	_	_	
+70-9	2762-2765	per	_	_	_	per	_	_	69-8	_	_	
+70-10	2766-2768	eh	_	FP[25]	_	e::h	_	_	69-9	_	_	
+70-11	2769-2771	mh	_	FP[25]	weakly\_rising	mh,	_	_	69-10	_	_	
+
+#Text=quando si arriva all' università
+71-1	2772-2778	quando	_	_	_	quando	_	BO144	70-0	_	_	
+71-2	2779-2781	si	_	_	_	si	_	_	70-1	_	_	
+71-3	2782-2788	arriva	_	_	_	arriva	_	_	70-2	_	_	
+71-4	2789-2793	all'	_	_	_	all'	_	_	70-3	_	_	
+71-5	2794-2804	università	_	_	weakly\_rising	università:,	_	_	70-4	_	_	
+
+#Text=o si terminano le scuole superiori
+72-1	2805-2806	o	_	_	_	o	_	BO144	71-0	_	_	
+72-2	2807-2809	si	_	_	_	si	_	_	71-1	_	_	
+72-3	2810-2819	terminano	_	_	_	terminano	_	_	71-2	_	_	
+72-4	2820-2822	le	_	_	_	le	_	_	71-3	_	_	
+72-5	2823-2829	scuole	_	_	_	scuole	_	_	71-4	_	_	
+72-6	2830-2839	superiori	_	_	weakly\_rising	superiori,	_	_	71-5	_	_	
+
+#Text=di si secondarie di secondo grado
+73-1	2840-2842	di	_	_	_	di	_	BO144	72-0	_	_	
+73-2	2843-2845	si	_	_	_	si:	_	_	72-1	_	_	
+73-3	2846-2856	secondarie	_	_	_	secondarie	_	_	72-2	_	_	
+73-4	2857-2859	di	_	_	_	di	_	_	72-3	_	_	
+73-5	2860-2867	secondo	_	_	_	secondo	_	_	72-4	_	_	
+73-6	2868-2873	grado	_	_	weakly\_rising	grado:,	_	_	72-5	_	_	
+
+#Text=abbiamo le mh [PAUSE] ad esempio il test di livello
+74-1	2874-2881	abbiamo	_	_	_	abbiamo:	_	BO144	73-0	_	_	
+74-2	2882-2884	le	_	_	_	le::	_	_	73-1	_	_	
+74-3	2885-2887	mh	_	FP	weakly\_rising	m::h,	_	_	73-2	_	_	
+74-4	2888-2895	[PAUSE]	_	_	_	(.)	_	_	73-3	_	_	
+74-5	2896-2898	ad	_	_	_	ad	_	_	73-4	_	_	
+74-6	2899-2906	esempio	_	_	_	esempio	_	_	73-5	_	_	
+74-7	2907-2909	il	_	_	_	il	_	_	73-6	_	_	
+74-8	2910-2914	test	_	_	_	test	_	_	73-7	_	_	
+74-9	2915-2917	di	_	_	_	di	_	_	73-8	_	_	
+74-10	2918-2925	livello	_	_	weakly\_rising	livello,	_	_	73-9	_	_	
+
+#Text=il [PAUSE] quello che è cosiddetto
+75-1	2926-2928	il	_	_	weakly\_rising	il,	_	BO144	74-0	_	_	
+75-2	2929-2936	[PAUSE]	_	_	_	(.)	_	_	74-1	_	_	
+75-3	2937-2943	quello	_	_	_	quello	_	_	74-2	_	_	
+75-4	2944-2947	che	_	_	_	che	_	_	74-3	_	_	
+75-5	2948-2949	è	_	_	_	è	_	_	74-4	_	_	
+75-6	2950-2960	cosiddetto	_	_	weakly\_rising	\[cosiddetto\],	_	_	74-5	*->12-1	*[12]	
+
+#Text=il test di livello lo puoi fare anche alle scuole medie [PAUSE] mh
+76-1	2961-2963	il	_	_	_	\[il	_	BO104	75-0	*->12-2	*[12]	
+76-2	2964-2968	test	_	_	_	test	_	_	75-1	*->12-3	*[12]	
+76-3	2969-2971	di	_	_	_	di	_	_	75-2	*->12-4	*[12]	
+76-4	2972-2979	livello	_	_	_	livello\]	_	_	75-3	*->12-5	*[12]	
+76-5	2980-2982	lo	_	_	_	lo	_	_	75-4	_	_	
+76-6	2983-2987	puoi	_	_	_	puoi	_	_	75-5	_	_	
+76-7	2988-2992	fare	_	_	_	fare	_	_	75-6	_	_	
+76-8	2993-2998	anche	_	_	_	anche	_	_	75-7	_	_	
+76-9	2999-3003	alle	_	_	_	alle	_	_	75-8	_	_	
+76-10	3004-3010	scuole	_	_	_	scuole	_	_	75-9	_	_	
+76-11	3011-3016	medie	_	_	_	medie	_	_	75-10	_	_	
+76-12	3017-3024	[PAUSE]	_	_	_	(.)	_	_	75-11	_	_	
+76-13	3025-3027	mh	_	_	Falling	\[m:h\].	_	_	75-12	*->14-1	*[14]	
+
+#Text=che è il cosiddetto mh [PAUSE] il [PAUSE] il placement che vuole
+77-1	3028-3031	che	_	_	_	\[che	_	BO144	76-0	*->14-2	*[14]	
+77-2	3032-3033	è	_	_	_	è\]	_	_	76-1	*->14-3	*[14]	
+77-3	3034-3036	il	_	_	_	il	_	_	76-2	_	_	
+77-4	3037-3047	cosiddetto	_	_	_	cosiddetto:::	_	_	76-3	_	_	
+77-5	3048-3050	mh	_	FP	weakly\_rising	m::h,	_	_	76-4	_	_	
+77-6	3051-3058	[PAUSE]	_	_	_	(.)	_	_	76-5	_	_	
+77-7	3059-3061	il	_	_	_	il	_	_	76-6	_	_	
+77-8	3062-3069	[PAUSE]	_	_	_	(.)	_	_	76-7	_	_	
+77-9	3070-3072	il	_	_	_	il	_	_	76-8	_	_	
+77-10	3073-3082	placement	_	_	weakly\_rising	placement,	_	_	76-9	_	_	
+77-11	3083-3086	che	_	_	_	che	_	_	76-10	_	_	
+77-12	3087-3092	vuole	_	_	weakly\_rising	vuole:,	_	_	76-11	_	_	
+
+#Text=mh diciamo [PAUSE] valutare
+78-1	3093-3095	mh	_	FP	_	m:::h	_	BO144	77-0	_	_	
+78-2	3096-3103	diciamo	_	_	weakly\_rising	diciamo,	_	_	77-1	_	_	
+78-3	3104-3111	[PAUSE]	_	_	_	(.)	_	_	77-2	_	_	
+78-4	3112-3120	valutare	_	_	weakly\_rising	valuta:re,	_	_	77-3	_	_	
+
+#Text=il livello linguistico [PAUSE] prima di iniziare un determinato corso di studi
+79-1	3121-3123	il	_	_	_	il:	_	BO144	78-0	_	_	
+79-2	3124-3131	livello	_	_	_	livello	_	_	78-1	_	_	
+79-3	3132-3143	linguistico	_	_	weakly\_rising	linguistico,	_	_	78-2	_	_	
+79-4	3144-3151	[PAUSE]	_	_	_	(.)	_	_	78-3	_	_	
+79-5	3152-3157	prima	_	_	_	PRI:MA	_	_	78-4	_	_	
+79-6	3158-3160	di	_	_	_	di	_	_	78-5	_	_	
+79-7	3161-3169	iniziare	_	_	_	iniziare	_	_	78-6	_	_	
+79-8	3170-3172	un	_	_	_	un	_	_	78-7	_	_	
+79-9	3173-3184	determinato	_	_	_	determinato	_	_	78-8	_	_	
+79-10	3185-3190	corso	_	_	_	corso	_	_	78-9	_	_	
+79-11	3191-3193	di	_	_	_	di	_	_	78-10	_	_	
+79-12	3194-3199	studi	_	_	Falling	studi.	_	_	78-11	_	_	
+
+#Text=mentre
+80-1	3200-3206	mentre	_	_	weakly\_rising	mentre,	_	BO144	79-0	_	_	
+
+#Text=ma no non è detto che sia così il test di piazzamento lo fai anche banalmente se vai a fare un corso di lingue straniere all' etestero
+81-1	3207-3209	ma	_	_	_	\[ma	_	BO104	80-0	*->25-1	*[25]	
+81-2	3210-3212	no	_	_	weakly\_rising	no:\],	_	_	80-1	*->25-2	*[25]	
+81-3	3213-3216	non	_	_	_	non	_	_	80-2	_	_	
+81-4	3217-3218	è	_	_	_	è	_	_	80-3	_	_	
+81-5	3219-3224	detto	_	_	_	detto	_	_	80-4	_	_	
+81-6	3225-3228	che	_	_	_	che	_	_	80-5	_	_	
+81-7	3229-3232	sia	_	_	_	sia	_	_	80-6	_	_	
+81-8	3233-3237	così	_	_	weakly\_rising	così,	_	_	80-7	_	_	
+81-9	3238-3240	il	_	_	_	il	_	_	80-8	_	_	
+81-10	3241-3245	test	_	_	_	test	_	_	80-9	_	_	
+81-11	3246-3248	di	_	_	_	di	_	_	80-10	_	_	
+81-12	3249-3260	piazzamento	_	_	_	piazzamento	_	_	80-11	_	_	
+81-13	3261-3263	lo	_	_	_	lo	_	_	80-12	_	_	
+81-14	3264-3267	fai	_	_	_	fai	_	_	80-13	_	_	
+81-15	3268-3273	anche	_	_	_	anche	_	_	80-14	_	_	
+81-16	3274-3284	banalmente	_	_	_	banalmente	_	_	80-15	_	_	
+81-17	3285-3287	se	_	_	_	se	_	_	80-16	_	_	
+81-18	3288-3291	vai	_	_	_	vai	_	_	80-17	_	_	
+81-19	3292-3293	a	_	_	_	a	_	_	80-18	_	_	
+81-20	3294-3298	fare	_	_	_	fare	_	_	80-19	_	_	
+81-21	3299-3301	un	_	_	_	un	_	_	80-20	_	_	
+81-22	3302-3307	corso	_	_	_	corso	_	_	80-21	_	_	
+81-23	3308-3310	di	_	_	_	di	_	_	80-22	_	_	
+81-24	3311-3317	lingue	_	_	_	lingue	_	_	80-23	_	_	
+81-25	3318-3327	straniere	_	_	_	straniere	_	_	80-24	_	_	
+81-26	3328-3332	all'	_	_	_	all'	_	_	80-25	_	_	
+81-27	3333-3341	etestero	_	_	Falling	etestero.	_	_	80-26	_	_	
+
+#Text=il
+82-1	3342-3344	il	_	_	weakly\_rising	\[il\],	_	BO144	81-0	*->25-3	*[25]	
+
+#Text=è un test di posizionamento per creare dei gruppi classe
+83-1	3345-3346	è	_	_	_	è	_	BO104	82-0	_	_	
+83-2	3347-3349	un	_	_	_	un	_	_	82-1	_	_	
+83-3	3350-3354	test	_	_	_	test	_	_	82-2	_	_	
+83-4	3355-3357	di	_	_	_	di	_	_	82-3	_	_	
+83-5	3358-3372	posizionamento	_	_	_	posizionamento	_	_	82-4	_	_	
+83-6	3373-3376	per	_	_	_	per	_	_	82-5	_	_	
+83-7	3377-3383	creare	_	_	_	\[creare	_	_	82-6	*->32-1	*[32]	
+83-8	3384-3387	dei	_	_	_	dei	_	_	82-7	*->32-2	*[32]	
+83-9	3388-3394	gruppi	_	_	_	gruppi	_	_	82-8	*->32-3	*[32]	
+83-10	3395-3401	classe	_	_	Falling	class\]e.	_	_	82-9	_	_	
+83-10.1	3395-3400	class	_	_	_	_	_	_	_	*->32-4	*[32]	
+
+#Text=all' interno di un determi~
+84-1	3402-3406	all'	_	_	_	\[all'	_	BO144	83-0	*->32-5	*[32]	
+84-2	3407-3414	interno	_	_	_	interno	_	_	83-1	*->32-6	*[32]	
+84-3	3415-3417	di	_	_	_	di	_	_	83-2	*->32-7	*[32]	
+84-4	3418-3420	un	_	_	_	un	_	_	83-3	*->32-8	*[32]	
+84-5	3421-3429	determi~	_	_	weakly\_rising	determi~\],	_	_	83-4	*->32-9	*[32]	
+
+#Text=all' indet~ [PAUSE] all' interno di un determinato livello
+85-1	3430-3434	all'	_	_	_	all'	SR[62]	BO144	84-0	_	_	
+85-2	3435-3441	indet~	_	_	_	indet~	SR[62]	_	84-1	_	_	
+85-3	3442-3449	[PAUSE]	_	_	_	(.)	SR[62]	_	84-2	_	_	
+85-4	3450-3454	all'	_	_	_	all'	SR[62]	_	84-3	_	_	
+85-5	3455-3462	interno	_	_	_	interno	SR[62]	_	84-4	_	_	
+85-6	3463-3465	di	_	_	_	di	SR[62]	_	84-5	_	_	
+85-7	3466-3468	un	_	_	_	un	SR[62]	_	84-6	_	_	
+85-8	3469-3480	determinato	_	_	_	determinato	SR[62]	_	84-7	_	_	
+85-9	3481-3488	livello	_	_	weakly\_rising	livello,	_	_	84-8	_	_	
+
+#Text=in modo da indirizzare [PAUSE] mh [PAUSE] alla classe più appropriata
+86-1	3489-3491	in	_	_	_	in	_	BO144	85-0	_	_	
+86-2	3492-3496	modo	_	_	_	modo	_	_	85-1	_	_	
+86-3	3497-3499	da	_	_	_	da	_	_	85-2	_	_	
+86-4	3500-3511	indirizzare	_	_	weakly\_rising	indirizzare,	_	_	85-3	_	_	
+86-5	3512-3519	[PAUSE]	_	_	_	(.)	_	_	85-4	_	_	
+86-6	3520-3522	mh	_	FP	weakly\_rising	m::h,	_	_	85-5	_	_	
+86-7	3523-3530	[PAUSE]	_	_	_	(.)	_	_	85-6	_	_	
+86-8	3531-3535	alla	_	_	_	alla	_	_	85-7	_	_	
+86-9	3536-3542	classe	_	_	_	classe	_	_	85-8	_	_	
+86-10	3543-3546	più	_	_	_	più	_	_	85-9	_	_	
+86-11	3547-3558	appropriata	_	_	weakly\_rising	appropriata,	_	_	85-10	_	_	
+
+#Text=mh
+87-1	3559-3561	mh	BC	_	weakly\_rising	m:h,	_	BO104	86-0	_	_	
+
+#Text=il eh [PAUSE] l' allievo che è so~ [PAUSE] che è stato sottoposto a quel test e evitare di inserirlo magari [PAUSE] all' interno di una classe dove il livello
+88-1	3562-3564	il	_	_	_	il	_	BO144	87-0	_	_	
+88-2	3565-3567	eh	_	FP	_	e::h	_	_	87-1	_	_	
+88-3	3568-3575	[PAUSE]	_	_	_	(.)	_	_	87-2	_	_	
+88-4	3576-3578	l'	_	_	_	l'	_	_	87-3	_	_	
+88-5	3579-3586	allievo	_	_	_	allievo	_	_	87-4	_	_	
+88-6	3587-3590	che	_	_	_	che	SR[63]	_	87-5	_	_	
+88-7	3591-3592	è	_	_	_	è	SR[63]	_	87-6	_	_	
+88-8	3593-3596	so~	_	_	_	so~	SR[63]	_	87-7	_	_	
+88-9	3597-3604	[PAUSE]	_	_	_	(.)	SR[63]	_	87-8	_	_	
+88-10	3605-3608	che	_	_	_	che	SR[63]	_	87-9	_	_	
+88-11	3609-3610	è	_	_	_	è	SR[63]	_	87-10	_	_	
+88-12	3611-3616	stato	_	_	_	stato	SR[63]	_	87-11	_	_	
+88-13	3617-3627	sottoposto	_	_	_	sottoposto	SR[63]	_	87-12	_	_	
+88-14	3628-3629	a	_	_	_	a	_	_	87-13	_	_	
+88-15	3630-3634	quel	_	_	_	quel	_	_	87-14	_	_	
+88-16	3635-3639	test	_	_	weakly\_rising	test,	_	_	87-15	_	_	
+88-17	3640-3641	e	_	_	_	e	_	_	87-16	_	_	
+88-18	3642-3649	evitare	_	_	_	evitare	_	_	87-17	_	_	
+88-19	3650-3652	di	_	_	_	di	_	_	87-18	_	_	
+88-20	3653-3662	inserirlo	_	_	_	inserirlo	_	_	87-19	_	_	
+88-21	3663-3669	magari	_	_	weakly\_rising	magari,	_	_	87-20	_	_	
+88-22	3670-3677	[PAUSE]	_	_	_	(.)	_	_	87-21	_	_	
+88-23	3678-3682	all'	_	_	_	all'	_	_	87-22	_	_	
+88-24	3683-3690	interno	_	_	_	interno	_	_	87-23	_	_	
+88-25	3691-3693	di	_	_	_	di	_	_	87-24	_	_	
+88-26	3694-3697	una	_	_	_	una	_	_	87-25	_	_	
+88-27	3698-3704	classe	_	_	weakly\_rising	classe,	_	_	87-26	_	_	
+88-28	3705-3709	dove	_	_	_	dove	_	_	87-27	_	_	
+88-29	3710-3712	il	_	_	_	il	_	_	87-28	_	_	
+88-30	3713-3720	livello	_	_	weakly\_rising	livello,	_	_	87-29	_	_	
+
+#Text=che viene trattato
+89-1	3721-3724	che	_	_	_	che	_	BO144	88-0	_	_	
+89-2	3725-3730	viene	_	_	_	viene	_	_	88-1	_	_	
+89-3	3731-3739	trattato	_	_	weakly\_rising	trattato,	_	_	88-2	_	_	
+
+#Text=è troppo [PAUSE] semplice [PAUSE] o magari è troppo [PAUSE] difficile per le sue competenze
+90-1	3740-3741	è	_	_	_	è	_	BO144	89-0	_	_	
+90-2	3742-3748	troppo	_	_	weakly\_rising	troppo,	_	_	89-1	_	_	
+90-3	3749-3756	[PAUSE]	_	_	_	(.)	_	_	89-2	_	_	
+90-4	3757-3765	semplice	_	_	weakly\_rising	semplice,	_	_	89-3	_	_	
+90-5	3766-3773	[PAUSE]	_	_	_	(.)	_	_	89-4	_	_	
+90-6	3774-3775	o	_	_	_	o	_	_	89-5	_	_	
+90-7	3776-3782	magari	_	_	_	magari	_	_	89-6	_	_	
+90-8	3783-3784	è	_	_	_	è	_	_	89-7	_	_	
+90-9	3785-3791	troppo	_	_	weakly\_rising	troppo,	_	_	89-8	_	_	
+90-10	3792-3799	[PAUSE]	_	_	_	(.)	_	_	89-9	_	_	
+90-11	3800-3809	difficile	_	_	_	\[diffi\]cile	_	_	89-10	_	_	
+90-11.1	3800-3805	diffi	_	_	_	_	_	_	_	*->43-1	*[43]	
+90-12	3810-3813	per	_	_	_	per	_	_	89-11	_	_	
+90-13	3814-3816	le	_	_	_	le	_	_	89-12	_	_	
+90-14	3817-3820	sue	_	_	_	sue	_	_	89-13	_	_	
+90-15	3821-3831	competenze	_	_	_	competen\[ze\]	_	_	89-14	_	_	
+90-15.1	3829-3831	ze	_	_	_	_	_	_	_	*->3-1	*[3]	
+
+#Text=sì
+91-1	3832-3834	sì	BC	_	weakly\_rising	\[sì\],	_	BO104	90-0	*->3-1|*->43-2	*[3]|*[43]	
+
+#Text=mh
+92-1	3835-3837	mh	BC	_	weakly\_rising	\[m:h\],	_	BO104	91-0	*->3-1|*->3-2	*[3]|*[3]	
+
+#Text=e poi abbiamo il eh mh [PAUSE] il livello che [PAUSE] mh [PAUSE] il eh mh test che
+93-1	3838-3839	e	_	_	_	e::	_	BO144	92-0	*->3-1	*[3]	
+93-2	3840-3843	poi	_	_	_	poi	_	_	92-1	_	_	
+93-3	3844-3851	abbiamo	_	_	_	abbiamo	_	_	92-2	_	_	
+93-4	3852-3854	il	_	_	_	il	_	_	92-3	_	_	
+93-5	3855-3857	eh	_	FP[26]	_	e:h	_	_	92-4	_	_	
+93-6	3858-3860	mh	_	FP[26]	weakly\_rising	m::h,	_	_	92-5	_	_	
+93-7	3861-3868	[PAUSE]	_	_	_	(.)	_	_	92-6	_	_	
+93-8	3869-3871	il	_	_	_	il	SR[64]	_	92-7	_	_	
+93-9	3872-3879	livello	_	_	_	livello:	SR[64]	_	92-8	_	_	
+93-10	3880-3883	che	_	_	weakly\_rising	che:,	SR[64]	_	92-9	_	_	
+93-11	3884-3891	[PAUSE]	_	_	_	(.)	SR[64]	_	92-10	_	_	
+93-12	3892-3894	mh	_	FP	_	m::h	SR[64]	_	92-11	_	_	
+93-13	3895-3902	[PAUSE]	_	_	_	(.)	SR[64]	_	92-12	_	_	
+93-14	3903-3905	il	_	_	_	il	SR[64]	_	92-13	_	_	
+93-15	3906-3908	eh	_	FP[27]	_	eh	SR[64]	_	92-14	_	_	
+93-16	3909-3911	mh	_	FP[27]	_	mh	SR[64]	_	92-15	_	_	
+93-17	3912-3916	test	_	_	_	test	SR[64]	_	92-16	_	_	
+93-18	3917-3920	che	_	_	weakly\_rising	che::,	SR[64]	_	92-17	_	_	
+
+#Text=diciamo [PAUSE] verifica le competenze
+94-1	3921-3928	diciamo	_	_	weakly\_rising	diciamo,	_	BO144	93-0	_	_	
+94-2	3929-3936	[PAUSE]	_	_	_	(.)	_	_	93-1	_	_	
+94-3	3937-3945	verifica	_	_	_	verifica	_	_	93-2	_	_	
+94-4	3946-3948	le	_	_	_	le	_	_	93-3	_	_	
+94-5	3949-3959	competenze	_	_	weakly\_rising	competenze:,	_	_	93-4	_	_	
+
+#Text=proprio [PAUSE] acquisite nel corso
+95-1	3960-3967	proprio	_	_	_	proprio	_	BO144	94-0	_	_	
+95-2	3968-3975	[PAUSE]	_	_	_	(.)	_	_	94-1	_	_	
+95-3	3976-3985	acquisite	_	_	_	acquisite	_	_	94-2	_	_	
+95-4	3986-3989	nel	_	_	_	nel	_	_	94-3	_	_	
+95-5	3990-3995	corso	_	_	weakly\_rising	corso:,	_	_	94-4	_	_	
+
+#Text=e che quindi [PAUSE] è
+96-1	3996-3997	e	_	_	_	e	_	BO144	95-0	_	_	
+96-2	3998-4001	che	_	_	_	che	_	_	95-1	_	_	
+96-3	4002-4008	quindi	_	_	weakly\_rising	quindi,	_	_	95-2	_	_	
+96-4	4009-4016	[PAUSE]	_	_	_	(.)	_	_	95-3	_	_	
+96-5	4017-4018	è	_	_	weakly\_rising	è::,	_	_	95-4	_	_	
+
+#Text=può essere sia una verifica finale
+97-1	4019-4022	può	_	_	_	può	_	BO144	96-0	_	_	
+97-2	4023-4029	essere	_	_	_	essere	_	_	96-1	_	_	
+97-3	4030-4033	sia	_	_	_	sia	_	_	96-2	_	_	
+97-4	4034-4037	una	_	_	_	una	_	_	96-3	_	_	
+97-5	4038-4046	verifica	_	_	_	verifica	_	_	96-4	_	_	
+97-6	4047-4053	finale	_	_	weakly\_rising	finale,	_	_	96-5	_	_	
+
+#Text=al termine di quel corso
+98-1	4054-4056	al	_	_	_	al	_	BO144	97-0	_	_	
+98-2	4057-4064	termine	_	_	_	termine	_	_	97-1	_	_	
+98-3	4065-4067	di	_	_	_	di	_	_	97-2	_	_	
+98-4	4068-4072	quel	_	_	_	quel	_	_	97-3	_	_	
+98-5	4073-4078	corso	_	_	weakly\_rising	corso,	_	_	97-4	_	_	
+
+#Text=o una verifica [PAUSE] in itinere [PAUSE] che [PAUSE] però si concentra in tal caso solo su [PAUSE] un determinato argomento del corso
+99-1	4079-4080	o	_	_	_	o	_	BO144	98-0	_	_	
+99-2	4081-4084	una	_	_	_	una	_	_	98-1	_	_	
+99-3	4085-4093	verifica	_	_	_	verifica	_	_	98-2	_	_	
+99-4	4094-4101	[PAUSE]	_	_	_	(.)	_	_	98-3	_	_	
+99-5	4102-4104	in	_	_	_	in	_	_	98-4	_	_	
+99-6	4105-4112	itinere	_	_	weakly\_rising	itinere,	_	_	98-5	_	_	
+99-7	4113-4120	[PAUSE]	_	_	_	(.)	_	_	98-6	_	_	
+99-8	4121-4124	che	_	_	_	che	_	_	98-7	_	_	
+99-9	4125-4132	[PAUSE]	_	_	_	(.)	_	_	98-8	_	_	
+99-10	4133-4137	però	_	_	_	però	_	_	98-9	_	_	
+99-11	4138-4140	si	_	_	_	si	_	_	98-10	_	_	
+99-12	4141-4150	concentra	_	_	_	concentra	_	_	98-11	_	_	
+99-13	4151-4153	in	_	_	_	in	_	_	98-12	_	_	
+99-14	4154-4157	tal	_	_	_	tal	_	_	98-13	_	_	
+99-15	4158-4162	caso	_	_	weakly\_rising	caso,	_	_	98-14	_	_	
+99-16	4163-4167	solo	_	_	_	solo	_	_	98-15	_	_	
+99-17	4168-4170	su	_	_	_	su	_	_	98-16	_	_	
+99-18	4171-4178	[PAUSE]	_	_	_	(.)	_	_	98-17	_	_	
+99-19	4179-4181	un	_	_	_	un	_	_	98-18	_	_	
+99-20	4182-4193	determinato	_	_	_	determinato	_	_	98-19	_	_	
+99-21	4194-4203	argomento	_	_	_	argomento	_	_	98-20	_	_	
+99-22	4204-4207	del	_	_	_	del	_	_	98-21	_	_	
+99-23	4208-4213	corso	_	_	weakly\_rising	corso,	_	_	98-22	_	_	
+
+#Text=solo su una parte
+100-1	4214-4218	solo	_	_	_	solo	_	BO144	99-0	_	_	
+100-2	4219-4221	su	_	_	_	su	_	_	99-1	_	_	
+100-3	4222-4225	una	_	_	_	una	_	_	99-2	_	_	
+100-4	4226-4231	parte	_	_	weakly\_rising	parte,	_	_	99-3	_	_	
+
+#Text=della [PAUSE] della mh [PAUSE] del programma affrontato
+101-1	4232-4237	della	_	_	_	della::	_	BO144	100-0	_	_	
+101-2	4238-4245	[PAUSE]	_	_	_	(.)	_	_	100-1	_	_	
+101-3	4246-4251	della	_	_	_	della:::	SR[65]	_	100-2	_	_	
+101-4	4252-4254	mh	_	FP	_	m:h	SR[65]	_	100-3	_	_	
+101-5	4255-4262	[PAUSE]	_	_	_	(.)	SR[65]	_	100-4	_	_	
+101-6	4263-4266	del	_	_	_	del	SR[65]	_	100-5	_	_	
+101-7	4267-4276	programma	_	_	_	programma	SR[65]	_	100-6	_	_	
+101-8	4277-4287	affrontato	_	_	Falling	affrontato.	_	_	100-7	_	_	
+
+#Text=e poi [PAUSE] c' è il eh mh [PAUSE] il livello [PAUSE] il test di competenze
+102-1	4288-4289	e	_	_	_	e	_	BO144	101-0	_	_	
+102-2	4290-4293	poi	_	_	weakly\_rising	poi,	_	_	101-1	_	_	
+102-3	4294-4301	[PAUSE]	_	_	_	(.)	_	_	101-2	_	_	
+102-4	4302-4304	c'	_	_	_	c'	_	_	101-3	_	_	
+102-5	4305-4306	è	_	_	_	è	_	_	101-4	_	_	
+102-6	4307-4309	il	_	_	_	il	_	_	101-5	_	_	
+102-7	4310-4312	eh	_	FP[28]	_	e::h	_	_	101-6	_	_	
+102-8	4313-4315	mh	_	FP[28]	_	m::h	_	_	101-7	_	_	
+102-9	4316-4323	[PAUSE]	_	_	_	(.)	_	_	101-8	_	_	
+102-10	4324-4326	il	_	_	_	il	_	_	101-9	_	_	
+102-11	4327-4334	livello	_	_	_	livello	_	_	101-10	_	_	
+102-12	4335-4342	[PAUSE]	_	_	_	(.)	_	_	101-11	_	_	
+102-13	4343-4345	il	_	_	_	il	_	_	101-12	_	_	
+102-14	4346-4350	test	_	_	weakly\_rising	test,	_	_	101-13	_	_	
+102-15	4351-4353	di	_	_	_	di	_	_	101-14	_	_	
+102-16	4354-4364	competenze	_	_	weakly\_rising	competenze,	_	_	101-15	_	_	
+
+#Text=invece che [PAUSE] è proprio quello che [PAUSE] mh solitamente
+103-1	4365-4371	invece	_	_	_	invece	_	BO144	102-0	_	_	
+103-2	4372-4375	che	_	_	_	che:	_	_	102-1	_	_	
+103-3	4376-4383	[PAUSE]	_	_	_	(.)	_	_	102-2	_	_	
+103-4	4384-4385	è	_	_	_	è	_	_	102-3	_	_	
+103-5	4386-4393	proprio	_	_	_	proprio	_	_	102-4	_	_	
+103-6	4394-4400	quello	_	_	_	quello	_	_	102-5	_	_	
+103-7	4401-4404	che	_	_	weakly\_rising	che,	_	_	102-6	_	_	
+103-8	4405-4412	[PAUSE]	_	_	_	(.)	_	_	102-7	_	_	
+103-9	4413-4415	mh	_	FP	_	m:h	_	_	102-8	_	_	
+103-10	4416-4427	solitamente	_	_	weakly\_rising	solitamente:,	_	_	102-9	_	_	
+
+#Text=si effettua
+104-1	4428-4430	si	_	_	_	si	_	BO144	103-0	_	_	
+104-2	4431-4439	effettua	_	_	weakly\_rising	effettua:,	_	_	103-1	_	_	
+
+#Text=quando si vuole mh
+105-1	4440-4446	quando	_	_	_	quando	_	BO144	104-0	_	_	
+105-2	4447-4449	si	_	_	_	si	_	_	104-1	_	_	
+105-3	4450-4455	vuole	_	_	_	vuole:::	_	_	104-2	_	_	
+105-4	4456-4458	mh	_	FP	weakly\_rising	m:h,	_	_	104-3	_	_	
+
+#Text=iniziare un certo tipo di lavoro perché può essere richiesto di dimostrare di avere una certa competenza
+106-1	4459-4467	iniziare	_	_	_	iniziare	_	BO144	105-0	_	_	
+106-2	4468-4470	un	_	_	_	un	_	_	105-1	_	_	
+106-3	4471-4476	certo	_	_	_	certo	_	_	105-2	_	_	
+106-4	4477-4481	tipo	_	_	_	tipo	_	_	105-3	_	_	
+106-5	4482-4484	di	_	_	_	di	_	_	105-4	_	_	
+106-6	4485-4491	lavoro	_	_	weakly\_rising	lavoro,	_	_	105-5	_	_	
+106-7	4492-4498	perché	_	_	_	perché	_	_	105-6	_	_	
+106-8	4499-4502	può	_	_	_	può	_	_	105-7	_	_	
+106-9	4503-4509	essere	_	_	_	essere	_	_	105-8	_	_	
+106-10	4510-4519	richiesto	_	_	weakly\_rising	richiesto,	_	_	105-9	_	_	
+106-11	4520-4522	di	_	_	_	di	_	_	105-10	_	_	
+106-12	4523-4533	dimostrare	_	_	weakly\_rising	dimostrare,	_	_	105-11	_	_	
+106-13	4534-4536	di	_	_	_	di	_	_	105-12	_	_	
+106-14	4537-4542	avere	_	_	_	avere	_	_	105-13	_	_	
+106-15	4543-4546	una	_	_	_	una	_	_	105-14	_	_	
+106-16	4547-4552	certa	_	_	_	certa	_	_	105-15	_	_	
+106-17	4553-4563	competenza	_	_	weakly\_rising	competen\[za\],	_	_	105-16	_	_	
+106-17.1	4561-4563	za	_	_	_	_	_	_	_	*->60-1	*[60]	
+
+#Text=cioè il test di padronanza
+107-1	4564-4568	cioè	_	_	_	\[cioè\]	OR[66]	BO104	106-0	*->60-1|*->60-2	*[60]|*[60]	
+107-2	4569-4571	il	_	_	_	il	OR[66]	_	106-1	*->60-1	*[60]	
+107-3	4572-4576	test	_	_	_	test	OR[66]	_	106-2	_	_	
+107-4	4577-4579	di	_	_	_	di	OR[66]	_	106-3	_	_	
+107-5	4580-4590	padronanza	_	_	Falling	padronanza.	OR[66]	_	106-4	_	_	
+
+#Text=sì
+108-1	4591-4593	sì	_	_	Falling	sì.	_	BO144	107-0	_	_	
+
+#Text=di avere una [PAUSE] determinata competenza
+109-1	4594-4596	di	_	_	_	di	_	BO144	108-0	_	_	
+109-2	4597-4602	avere	_	_	_	avere:	_	_	108-1	_	_	
+109-3	4603-4606	una	_	_	_	una:	_	_	108-2	_	_	
+109-4	4607-4614	[PAUSE]	_	_	_	(.)	_	_	108-3	_	_	
+109-5	4615-4626	determinata	_	_	_	determinata	_	_	108-4	_	_	
+109-6	4627-4637	competenza	_	_	weakly\_rising	competenza,	_	_	108-5	_	_	
+
+#Text=a lavoro
+110-1	4638-4639	a	_	_	_	a	_	BO144	109-0	_	_	
+110-2	4640-4646	lavoro	_	_	weakly\_rising	lavo:ro,	_	_	109-1	_	_	
+
+#Text=ti [PAUSE] quindi [PAUSE] devi [PAUSE] proprio [PAUSE] sottoporti a questo tipo di test
+111-1	4647-4649	ti	_	_	weakly\_rising	ti:,	_	BO144	110-0	_	_	
+111-2	4650-4657	[PAUSE]	_	_	_	(.)	_	_	110-1	_	_	
+111-3	4658-4664	quindi	_	_	weakly\_rising	quindi,	_	_	110-2	_	_	
+111-4	4665-4672	[PAUSE]	_	_	_	(.)	_	_	110-3	_	_	
+111-5	4673-4677	devi	_	_	weakly\_rising	devi,	_	_	110-4	_	_	
+111-6	4678-4685	[PAUSE]	_	_	_	(.)	_	_	110-5	_	_	
+111-7	4686-4693	proprio	_	_	weakly\_rising	proprio,	_	_	110-6	_	_	
+111-8	4694-4701	[PAUSE]	_	_	_	(.)	_	_	110-7	_	_	
+111-9	4702-4712	sottoporti	_	_	weakly\_rising	sottoporti,	_	_	110-8	_	_	
+111-10	4713-4714	a	_	_	_	a	_	_	110-9	_	_	
+111-11	4715-4721	questo	_	_	_	questo	_	_	110-10	_	_	
+111-12	4722-4726	tipo	_	_	_	tipo	_	_	110-11	_	_	
+111-13	4727-4729	di	_	_	_	di	_	_	110-12	_	_	
+111-14	4730-4734	test	_	_	Falling	test.	_	_	110-13	_	_	
+
+#Text=che è [PAUSE] è un test
+112-1	4735-4738	che	_	_	_	che	_	BO144	111-0	_	_	
+112-2	4739-4740	è	_	_	weakly\_rising	è,	_	_	111-1	_	_	
+112-3	4741-4748	[PAUSE]	_	_	_	(.)	_	_	111-2	_	_	
+112-4	4749-4750	è	_	_	_	è	_	_	111-3	_	_	
+112-5	4751-4753	un	_	_	_	un	_	_	111-4	_	_	
+112-6	4754-4758	test	_	_	weakly\_rising	test,	_	_	111-5	_	_	
+
+#Text=mh
+113-1	4759-4761	mh	_	FP	weakly\_rising	\[m:h\],	_	BO144	112-0	*->59-1	*[59]	
+
+#Text=cioè [PAUSE] banalmente sono le certificazioni linguistiche [PAUSE] sì
+114-1	4762-4766	cioè	_	_	weakly\_rising	\[cioè\],	_	BO104	113-0	*->59-2	*[59]	
+114-2	4767-4774	[PAUSE]	_	_	_	(.)	_	_	113-1	_	_	
+114-3	4775-4785	banalmente	_	_	weakly\_rising	banalmente,	_	_	113-2	_	_	
+114-4	4786-4790	sono	_	_	_	sono	_	_	113-3	_	_	
+114-5	4791-4793	le	_	_	_	le	_	_	113-4	_	_	
+114-6	4794-4808	certificazioni	_	_	_	certificazioni	_	_	113-5	_	_	
+114-7	4809-4821	linguistiche	_	_	_	\[linguis\]tiche	_	_	113-6	_	_	
+114-7.1	4809-4816	linguis	_	_	_	_	_	_	_	*->37-1	*[37]	
+114-8	4822-4829	[PAUSE]	_	_	_	(.)	_	_	113-7	_	_	
+114-9	4830-4832	sì	_	_	Falling	\[sì\].	_	_	113-8	*->55-1	*[55]	
+
+#Text=esatto
+115-1	4833-4839	esatto	BC	_	_	\[esatto\]	_	BO144	114-0	*->37-2	*[37]	
+
+#Text=esatto
+116-1	4840-4846	esatto	BC	_	Falling	\[esa\]tto.	_	BO144	115-0	_	_	
+116-1.1	4840-4843	esa	_	_	_	_	_	_	_	*->55-2	*[55]	
+
+#Text=comunque ritorna alla mia domanda [PAUSE] la mia domanda era [PAUSE] il concetto di utilità
+117-1	4847-4855	comunque	_	_	_	comunque	_	BO104	116-0	_	_	
+117-2	4856-4863	ritorna	_	_	_	ritorna	_	_	116-1	_	_	
+117-3	4864-4868	alla	_	_	_	alla	_	_	116-2	_	_	
+117-4	4869-4872	mia	_	_	_	mia	_	_	116-3	_	_	
+117-5	4873-4880	domanda	_	_	weakly\_rising	domanda,	_	_	116-4	_	_	
+117-6	4881-4888	[PAUSE]	_	_	_	(.)	_	_	116-5	_	_	
+117-7	4889-4891	la	_	_	_	la	_	_	116-6	_	_	
+117-8	4892-4895	mia	_	_	_	mia	_	_	116-7	_	_	
+117-9	4896-4903	domanda	_	_	_	domanda	_	_	116-8	_	_	
+117-10	4904-4907	era	_	_	weakly\_rising	e:ra,	_	_	116-9	_	_	
+117-11	4908-4915	[PAUSE]	_	_	_	(.)	_	_	116-10	_	_	
+117-12	4916-4918	il	_	_	_	il	_	_	116-11	_	_	
+117-13	4919-4927	concetto	_	_	_	concetto	_	_	116-12	_	_	
+117-14	4928-4930	di	_	_	_	di	_	_	116-13	_	_	
+117-15	4931-4938	utilità	_	_	Falling	utilità.	_	_	116-14	_	_	
+
+#Text=quello di bachman e palmer [PAUSE] nel testing linguistico
+118-1	4939-4945	quello	_	_	_	quello	_	BO104	117-0	_	_	
+118-2	4946-4948	di	_	_	_	di	_	_	117-1	_	_	
+118-3	4949-4956	bachman	_	_	_	bachman	_	_	117-2	_	_	
+118-4	4957-4958	e	_	_	_	e	_	_	117-3	_	_	
+118-5	4959-4965	palmer	_	_	weakly\_rising	palme:r,	_	_	117-4	_	_	
+118-6	4966-4973	[PAUSE]	_	_	_	(.)	_	_	117-5	_	_	
+118-7	4974-4977	nel	_	_	_	nel	_	_	117-6	_	_	
+118-8	4978-4985	testing	_	_	_	testing	_	_	117-7	_	_	
+118-9	4986-4997	linguistico	_	_	Falling	linguistico.	_	_	117-8	_	_	
+
+#Text=eh mh [PAUSE] perché mh
+119-1	4998-5000	eh	_	FP[29]	_	e::h	_	BO144	118-0	_	_	
+119-2	5001-5003	mh	_	FP[29]	weakly\_rising	m:::h,	_	_	118-1	_	_	
+119-3	5004-5011	[PAUSE]	_	_	_	(.)	_	_	118-2	_	_	
+119-4	5012-5018	perché	_	_	_	perché::	_	_	118-3	_	_	
+119-5	5019-5021	mh	_	FP	weakly\_rising	m:::h,	_	_	118-4	_	_	
+
+#Text=per essere
+120-1	5022-5025	per	_	_	_	per	_	BO144	119-0	_	_	
+120-2	5026-5032	essere	_	_	weakly\_rising	essere:,	_	_	119-1	_	_	
+
+#Text=un test
+121-1	5033-5035	un	_	_	_	un	_	BO144	120-0	_	_	
+121-2	5036-5040	test	_	_	weakly\_rising	test,	_	_	120-1	_	_	
+
+#Text=deve avere diverse caratteristiche
+122-1	5041-5045	deve	_	_	_	deve	_	BO144	121-0	_	_	
+122-2	5046-5051	avere	_	_	_	avere	_	_	121-1	_	_	
+122-3	5052-5059	diverse	_	_	_	diverse	_	_	121-2	_	_	
+122-4	5060-5075	caratteristiche	_	_	Falling	caratteristiche.	_	_	121-3	_	_	
+
+#Text=tra cui quella dell' utilità cioè dev' essere [PAUSE] eh
+123-1	5076-5079	tra	_	_	_	tra	_	BO144	122-0	_	_	
+123-2	5080-5083	cui	_	_	_	cui	_	_	122-1	_	_	
+123-3	5084-5090	quella	_	_	_	quella	_	_	122-2	_	_	
+123-4	5091-5096	dell'	_	_	_	dell'	_	_	122-3	_	_	
+123-5	5097-5104	utilità	_	_	weakly\_rising	utilità,	_	_	122-4	_	_	
+123-6	5105-5109	cioè	_	_	_	cioè	_	_	122-5	_	_	
+123-7	5110-5114	dev'	_	_	_	dev'	_	_	122-6	_	_	
+123-8	5115-5121	essere	_	_	weakly\_rising	essere,	_	_	122-7	_	_	
+123-9	5122-5129	[PAUSE]	_	_	_	(.)	_	_	122-8	_	_	
+123-10	5130-5132	eh	_	FP	weakly\_rising	e:::h,	_	_	122-9	_	_	
+
+#Text=utile
+124-1	5133-5138	utile	_	_	Falling	utile.	_	BO144	123-0	_	_	
+
+#Text=sia
+125-1	5139-5142	sia	_	_	weakly\_rising	sia:,	_	BO144	124-0	_	_	
+
+#Text=all eh mh
+126-1	5143-5146	all	_	_	_	all	_	BO144	125-0	_	_	
+126-2	5147-5149	eh	_	FP[30]	_	e:::h	_	_	125-1	_	_	
+126-3	5150-5152	mh	_	FP[30]	weakly\_rising	m::h,	_	_	125-2	_	_	
+
+#Text=all' apprendente
+127-1	5153-5157	all'	_	_	_	all'	_	BO144	126-0	_	_	
+127-2	5158-5169	apprendente	_	_	weakly\_rising	apprendente,	_	_	126-1	_	_	
+
+#Text=per verificare il livello [PAUSE] che ha raggiunto [PAUSE] e
+128-1	5170-5173	per	_	_	_	per	_	BO144	127-0	_	_	
+128-2	5174-5184	verificare	_	_	_	verificare	_	_	127-1	_	_	
+128-3	5185-5187	il	_	_	_	il	_	_	127-2	_	_	
+128-4	5188-5195	livello	_	_	_	livello	_	_	127-3	_	_	
+128-5	5196-5203	[PAUSE]	_	_	_	(.)	_	_	127-4	_	_	
+128-6	5204-5207	che	_	_	_	che	_	_	127-5	_	_	
+128-7	5208-5210	ha	_	_	_	ha::	_	_	127-6	_	_	
+128-8	5211-5220	raggiunto	_	_	weakly\_rising	raggiunto,	_	_	127-7	_	_	
+128-9	5221-5228	[PAUSE]	_	_	_	(.)	_	_	127-8	_	_	
+128-10	5229-5230	e	_	_	weakly\_rising	e,	_	_	127-9	_	_	
+
+#Text=gli argomenti che ha meglio capito
+129-1	5231-5234	gli	_	_	_	gli	_	BO144	128-0	_	_	
+129-2	5235-5244	argomenti	_	_	_	argomenti	_	_	128-1	_	_	
+129-3	5245-5248	che	_	_	_	che	_	_	128-2	_	_	
+129-4	5249-5251	ha	_	_	_	ha	_	_	128-3	_	_	
+129-5	5252-5258	meglio	_	_	_	meglio	_	_	128-4	_	_	
+129-6	5259-5265	capito	_	_	weakly\_rising	capito:,	_	_	128-5	_	_	
+
+#Text=in cui ha bisogno di potenziamento
+130-1	5266-5268	in	_	_	_	in	_	BO144	129-0	_	_	
+130-2	5269-5272	cui	_	_	_	cui	_	_	129-1	_	_	
+130-3	5273-5275	ha	_	_	_	ha	_	_	129-2	_	_	
+130-4	5276-5283	bisogno	_	_	_	bisogno	_	_	129-3	_	_	
+130-5	5284-5286	di	_	_	_	di	_	_	129-4	_	_	
+130-6	5287-5300	potenziamento	_	_	weakly\_rising	potenziamento,	_	_	129-5	_	_	
+
+#Text=in cui ha bisogno magari delle spieg~ [PAUSE] di ulteriori spegazioni [PAUSE] ma [PAUSE] è deve essere anche utile [PAUSE] al eh all' insegnante
+131-1	5301-5303	in	_	_	_	in	_	BO144	130-0	_	_	
+131-2	5304-5307	cui	_	_	_	cui	_	_	130-1	_	_	
+131-3	5308-5310	ha	_	_	_	ha	_	_	130-2	_	_	
+131-4	5311-5318	bisogno	_	_	_	bisogno	_	_	130-3	_	_	
+131-5	5319-5325	magari	_	_	_	magari	_	_	130-4	_	_	
+131-6	5326-5331	delle	_	_	_	delle	SR[67]	_	130-5	_	_	
+131-7	5332-5338	spieg~	_	_	_	spieg~	SR[67]	_	130-6	_	_	
+131-8	5339-5346	[PAUSE]	_	_	_	(.)	SR[67]	_	130-7	_	_	
+131-9	5347-5349	di	_	_	_	di	SR[67]	_	130-8	_	_	
+131-10	5350-5359	ulteriori	_	_	_	ulteriori	SR[67]	_	130-9	_	_	
+131-11	5360-5370	spegazioni	_	_	_	spegazioni	SR[67]	_	130-10	_	_	
+131-12	5371-5378	[PAUSE]	_	_	_	(.)	_	_	130-11	_	_	
+131-13	5379-5381	ma	_	_	weakly\_rising	ma,	_	_	130-12	_	_	
+131-14	5382-5389	[PAUSE]	_	_	_	(.)	_	_	130-13	_	_	
+131-15	5390-5391	è	_	_	_	è	_	_	130-14	_	_	
+131-16	5392-5396	deve	_	_	_	deve	_	_	130-15	_	_	
+131-17	5397-5403	essere	_	_	_	essere	_	_	130-16	_	_	
+131-18	5404-5409	anche	_	_	_	anche	_	_	130-17	_	_	
+131-19	5410-5415	utile	_	_	_	utile	_	_	130-18	_	_	
+131-20	5416-5423	[PAUSE]	_	_	_	(.)	_	_	130-19	_	_	
+131-21	5424-5426	al	_	_	_	al	_	_	130-20	_	_	
+131-22	5427-5429	eh	_	FP	_	e:h	_	_	130-21	_	_	
+131-23	5430-5434	all'	_	_	_	all'	_	_	130-22	_	_	
+131-24	5435-5445	insegnante	_	_	weakly\_rising	insegna:nte,	_	_	130-23	_	_	
+
+#Text=perché [PAUSE] deve mh
+132-1	5446-5452	perché	_	_	weakly\_rising	perché,	_	BO144	131-0	_	_	
+132-2	5453-5460	[PAUSE]	_	_	_	(.)	_	_	131-1	_	_	
+132-3	5461-5465	deve	_	_	_	deve::	_	_	131-2	_	_	
+132-4	5466-5468	mh	_	FP	weakly\_rising	m:h,	_	_	131-3	_	_	
+
+#Text=mh
+133-1	5469-5471	mh	_	FP	weakly\_rising	m:::h,	_	BO144	132-0	_	_	
+
+#Text=è una prova sia [PAUSE] per se stesso
+134-1	5472-5473	è	_	_	_	è	_	BO144	133-0	_	_	
+134-2	5474-5477	una	_	_	_	una	_	_	133-1	_	_	
+134-3	5478-5483	prova	_	_	_	prova	_	_	133-2	_	_	
+134-4	5484-5487	sia	_	_	weakly\_rising	sia,	_	_	133-3	_	_	
+134-5	5488-5495	[PAUSE]	_	_	_	(.)	_	_	133-4	_	_	
+134-6	5496-5499	per	_	_	_	per	_	_	133-5	_	_	
+134-7	5500-5502	se	_	_	_	se	_	_	133-6	_	_	
+134-8	5503-5509	stesso	_	_	weakly\_rising	stesso,	_	_	133-7	_	_	
+
+#Text=quindi per verificare se gli insegnamenti
+135-1	5510-5516	quindi	_	_	_	quindi	_	BO144	134-0	_	_	
+135-2	5517-5520	per	_	_	_	per	_	_	134-1	_	_	
+135-3	5521-5531	verificare	_	_	_	verificare	_	_	134-2	_	_	
+135-4	5532-5534	se	_	_	_	se	_	_	134-3	_	_	
+135-5	5535-5538	gli	_	_	_	gli	_	_	134-4	_	_	
+135-6	5539-5551	insegnamenti	_	_	weakly\_rising	insegnamenti,	_	_	134-5	_	_	
+
+#Text=e le lezioni che sono state sostenute
+136-1	5552-5553	e	_	_	_	e	_	BO144	135-0	_	_	
+136-2	5554-5556	le	_	_	_	le	_	_	135-1	_	_	
+136-3	5557-5564	lezioni	_	_	_	lezioni	_	_	135-2	_	_	
+136-4	5565-5568	che	_	_	_	che	_	_	135-3	_	_	
+136-5	5569-5573	sono	_	_	_	sono	_	_	135-4	_	_	
+136-6	5574-5579	state	_	_	_	state	_	_	135-5	_	_	
+136-7	5580-5589	sostenute	_	_	weakly\_rising	sostenute:,	_	_	135-6	_	_	
+
+#Text=e che sono state svolte sono state comprese
+137-1	5590-5591	e	_	_	_	e	_	BO144	136-0	_	_	
+137-2	5592-5595	che	_	_	_	che	_	_	136-1	_	_	
+137-3	5596-5600	sono	_	_	_	sono	_	_	136-2	_	_	
+137-4	5601-5606	state	_	_	_	state	_	_	136-3	_	_	
+137-5	5607-5613	svolte	_	_	weakly\_rising	svolte,	_	_	136-4	_	_	
+137-6	5614-5618	sono	_	_	_	sono	_	_	136-5	_	_	
+137-7	5619-5624	state	_	_	_	state	_	_	136-6	_	_	
+137-8	5625-5633	comprese	_	_	Falling	comprese.	_	_	136-7	_	_	
+
+#Text=dagli [PAUSE] dagli apprendenti
+138-1	5634-5639	dagli	_	_	_	dagli::	_	BO144	137-0	_	_	
+138-2	5640-5647	[PAUSE]	_	_	_	(.)	_	_	137-1	_	_	
+138-3	5648-5653	dagli	_	_	_	dagli	_	_	137-2	_	_	
+138-4	5654-5665	apprendenti	_	_	weakly\_rising	apprendenti,	_	_	137-3	_	_	
+
+#Text=ma al tempo stesso se il suo insegnamento è un insegnamento valido
+139-1	5666-5668	ma	_	_	_	ma	_	BO144	138-0	_	_	
+139-2	5669-5671	al	_	_	_	al	_	_	138-1	_	_	
+139-3	5672-5677	tempo	_	_	_	tempo	_	_	138-2	_	_	
+139-4	5678-5684	stesso	_	_	_	stesso	_	_	138-3	_	_	
+139-5	5685-5687	se	_	_	_	se	_	_	138-4	_	_	
+139-6	5688-5690	il	_	_	_	il	_	_	138-5	_	_	
+139-7	5691-5694	suo	_	_	_	suo	_	_	138-6	_	_	
+139-8	5695-5707	insegnamento	_	_	_	insegnamento	_	_	138-7	_	_	
+139-9	5708-5709	è	_	_	_	è	_	_	138-8	_	_	
+139-10	5710-5712	un	_	_	_	un	_	_	138-9	_	_	
+139-11	5713-5725	insegnamento	_	_	_	insegnamento	_	_	138-10	_	_	
+139-12	5726-5732	valido	_	_	weakly\_rising	valido,	_	_	138-11	_	_	
+
+#Text=cioè [PAUSE] si sta [PAUSE] mh [PAUSE] sta veramente facendo [PAUSE] apprendere qualcosa agli allievi
+140-1	5733-5737	cioè	_	_	weakly\_rising	cioè,	_	BO144	139-0	_	_	
+140-2	5738-5745	[PAUSE]	_	_	_	(.)	_	_	139-1	_	_	
+140-3	5746-5748	si	_	_	_	si	_	_	139-2	_	_	
+140-4	5749-5752	sta	_	_	weakly\_rising	sta,	_	_	139-3	_	_	
+140-5	5753-5760	[PAUSE]	_	_	_	(.)	_	_	139-4	_	_	
+140-6	5761-5763	mh	_	FP	_	m:::h	_	_	139-5	_	_	
+140-7	5764-5771	[PAUSE]	_	_	_	(.)	_	_	139-6	_	_	
+140-8	5772-5775	sta	_	_	_	sta	_	_	139-7	_	_	
+140-9	5776-5785	veramente	_	_	_	veramente	_	_	139-8	_	_	
+140-10	5786-5793	facendo	_	_	weakly\_rising	facendo,	_	_	139-9	_	_	
+140-11	5794-5801	[PAUSE]	_	_	_	(.)	_	_	139-10	_	_	
+140-12	5802-5812	apprendere	_	_	_	apprendere	_	_	139-11	_	_	
+140-13	5813-5821	qualcosa	_	_	weakly\_rising	qualcosa,	_	_	139-12	_	_	
+140-14	5822-5826	agli	_	_	_	agli	_	_	139-13	_	_	
+140-15	5827-5834	allievi	_	_	Falling	all\[ievi\].	_	_	139-14	_	_	
+140-15.1	5830-5834	ievi	_	_	_	_	_	_	_	*->33-1	*[33]	
+
+#Text=ma [PAUSE] noi l' utilità noi l' abbiamo affrontata in modo abbastanza tecnico diciamo perché è un concetto tecnico
+141-1	5835-5837	ma	_	_	weakly\_rising	\[ma\],	_	BO104	140-0	*->33-1|*->33-2	*[33]|*[33]	
+141-2	5838-5845	[PAUSE]	_	_	_	(.)	_	_	140-1	_	_	
+141-3	5846-5849	noi	_	_	_	noi	_	_	140-2	_	_	
+141-4	5850-5852	l'	_	_	_	l'	_	_	140-3	_	_	
+141-5	5853-5860	utilità	_	_	_	utilità	_	_	140-4	_	_	
+141-6	5861-5864	noi	_	_	_	noi	_	_	140-5	_	_	
+141-7	5865-5867	l'	_	_	_	l'	_	_	140-6	_	_	
+141-8	5868-5875	abbiamo	_	_	_	abbiamo	_	_	140-7	_	_	
+141-9	5876-5886	affrontata	_	_	_	affrontata	_	_	140-8	_	_	
+141-10	5887-5889	in	_	_	_	in	_	_	140-9	_	_	
+141-11	5890-5894	modo	_	_	_	modo	_	_	140-10	_	_	
+141-12	5895-5905	abbastanza	_	_	_	abbastanza	_	_	140-11	_	_	
+141-13	5906-5913	tecnico	_	_	weakly\_rising	tecnico,	_	_	140-12	_	_	
+141-14	5914-5921	diciamo	_	_	_	diciamo	_	_	140-13	_	_	
+141-15	5922-5928	perché	_	_	_	perché	_	_	140-14	_	_	
+141-16	5929-5930	è	_	_	_	è	_	_	140-15	_	_	
+141-17	5931-5933	un	_	_	_	un	_	_	140-16	_	_	
+141-18	5934-5942	concetto	_	_	_	concetto	_	_	140-17	_	_	
+141-19	5943-5950	tecnico	_	_	Falling	tecnico.	_	_	140-18	_	_	
+
+#Text=nel testing si compone di diverse componenti no
+142-1	5951-5954	nel	_	_	_	nel	_	BO104	141-0	_	_	
+142-2	5955-5962	testing	_	_	Falling	testing.	_	_	141-1	_	_	
+142-3	5963-5965	si	_	_	_	si	_	_	141-2	_	_	
+142-4	5966-5973	compone	_	_	_	compone	_	_	141-3	_	_	
+142-5	5974-5976	di	_	_	_	di	_	_	141-4	_	_	
+142-6	5977-5984	diverse	_	_	_	diverse	_	_	141-5	_	_	
+142-7	5985-5995	componenti	_	_	_	componenti	_	_	141-6	_	_	
+142-8	5996-5998	no	_	_	weakly\_rising	no,	_	_	141-7	_	_	
+
+#Text=si compone di diverse parti
+143-1	5999-6001	si	_	_	_	si	_	BO104	142-0	_	_	
+143-2	6002-6009	compone	_	_	_	compone	_	_	142-1	_	_	
+143-3	6010-6012	di	_	_	_	di	_	_	142-2	_	_	
+143-4	6013-6020	diverse	_	_	_	diverse	_	_	142-3	_	_	
+143-5	6021-6026	parti	_	_	Falling	pa:rti.	_	_	142-4	_	_	
+
+#Text=quindi [PAUSE] un test viene eh reputato e [PAUSE] soprattutto in ambito di certificazione quindi di test ad alto impatto
+144-1	6027-6033	quindi	_	_	weakly\_rising	quindi,	_	BO104	143-0	_	_	
+144-2	6034-6041	[PAUSE]	_	_	_	(.)	_	_	143-1	_	_	
+144-3	6042-6044	un	_	_	_	un	_	_	143-2	_	_	
+144-4	6045-6049	test	_	_	weakly\_rising	test,	_	_	143-3	_	_	
+144-5	6050-6055	viene	_	_	_	viene	_	_	143-4	_	_	
+144-6	6056-6058	eh	_	FP	_	eh	_	_	143-5	_	_	
+144-7	6059-6067	reputato	_	_	_	reputa:to	_	_	143-6	_	_	
+144-8	6068-6069	e	_	_	_	e::	_	_	143-7	_	_	
+144-9	6070-6077	[PAUSE]	_	_	_	(.)	_	_	143-8	_	_	
+144-10	6078-6089	soprattutto	_	_	_	soprattutto	_	_	143-9	_	_	
+144-11	6090-6092	in	_	_	_	in	_	_	143-10	_	_	
+144-12	6093-6099	ambito	_	_	_	ambito	_	_	143-11	_	_	
+144-13	6100-6102	di	_	_	_	di	_	_	143-12	_	_	
+144-14	6103-6117	certificazione	_	_	weakly\_rising	certificazio:ne,	_	_	143-13	_	_	
+144-15	6118-6124	quindi	_	_	_	quindi	_	_	143-14	_	_	
+144-16	6125-6127	di	_	_	_	di	_	_	143-15	_	_	
+144-17	6128-6132	test	_	_	_	test	_	_	143-16	_	_	
+144-18	6133-6135	ad	_	_	_	ad	_	_	143-17	_	_	
+144-19	6136-6140	alto	_	_	_	alto	_	_	143-18	_	_	
+144-20	6141-6148	impatto	_	_	weakly\_rising	impatto,	_	_	143-19	_	_	
+
+#Text=utile [PAUSE] se risponde ad una serie di requistiti
+145-1	6149-6154	utile	_	_	weakly\_rising	utile,	_	BO104	144-0	_	_	
+145-2	6155-6162	[PAUSE]	_	_	_	(.)	_	_	144-1	_	_	
+145-3	6163-6165	se	_	_	_	se	_	_	144-2	_	_	
+145-4	6166-6174	risponde	_	_	_	risponde	_	_	144-3	_	_	
+145-5	6175-6177	ad	_	_	_	ad	_	_	144-4	_	_	
+145-6	6178-6181	una	_	_	_	una	_	_	144-5	_	_	
+145-7	6182-6187	serie	_	_	_	serie	_	_	144-6	_	_	
+145-8	6188-6190	di	_	_	_	di	_	_	144-7	_	_	
+145-9	6191-6201	requistiti	_	_	Falling	requistiti.	_	_	144-8	_	_	
+
+#Text=e sono dei requitisiti che ci riportanto anche verso gli aspetti etico etici e sociali
+146-1	6202-6203	e	_	_	_	e	_	BO104	145-0	_	_	
+146-2	6204-6208	sono	_	_	_	sono	_	_	145-1	_	_	
+146-3	6209-6212	dei	_	_	_	dei	_	_	145-2	_	_	
+146-4	6213-6224	requitisiti	_	_	_	requitisiti	_	_	145-3	_	_	
+146-5	6225-6228	che	_	_	_	che	_	_	145-4	_	_	
+146-6	6229-6231	ci	_	_	_	ci	_	_	145-5	_	_	
+146-7	6232-6242	riportanto	_	_	_	riportanto	_	_	145-6	_	_	
+146-8	6243-6248	anche	_	_	_	anche	_	_	145-7	_	_	
+146-9	6249-6254	verso	_	_	_	verso	_	_	145-8	_	_	
+146-10	6255-6258	gli	_	_	_	gli	_	_	145-9	_	_	
+146-11	6259-6266	aspetti	_	_	_	aspetti	_	_	145-10	_	_	
+146-12	6267-6272	etico	_	_	_	etico	_	_	145-11	_	_	
+146-13	6273-6278	etici	_	_	_	etici	_	_	145-12	_	_	
+146-14	6279-6280	e	_	_	_	e	_	_	145-13	_	_	
+146-15	6281-6288	sociali	_	_	weakly\_rising	socia:li,	_	_	145-14	_	_	
+
+#Text=della valutazione no [PAUSE] quindi abbiamo parlato dell' affidabilità della validità teorica
+147-1	6289-6294	della	_	_	_	della	_	BO104	146-0	_	_	
+147-2	6295-6306	valutazione	_	_	weakly\_rising	valutazione,	_	_	146-1	_	_	
+147-3	6307-6309	no	_	_	_	no	_	_	146-2	_	_	
+147-4	6310-6317	[PAUSE]	_	_	_	(.)	_	_	146-3	_	_	
+147-5	6318-6324	quindi	_	_	_	quindi	_	_	146-4	_	_	
+147-6	6325-6332	abbiamo	_	_	_	abbiamo	_	_	146-5	_	_	
+147-7	6333-6340	parlato	_	_	_	parlato	_	_	146-6	_	_	
+147-8	6341-6346	dell'	_	_	_	dell'	_	_	146-7	_	_	
+147-9	6347-6359	affidabilità	_	_	weakly\_rising	affidabilità,	_	_	146-8	_	_	
+147-10	6360-6365	della	_	_	_	della	_	_	146-9	_	_	
+147-11	6366-6374	validità	_	_	_	validità	_	_	146-10	_	_	
+147-12	6375-6382	teorica	_	_	weakly\_rising	teorica,	_	_	146-11	_	_	
+
+#Text=dell' autenticità
+148-1	6383-6388	dell'	_	_	_	dell'	_	BO104	147-0	_	_	
+148-2	6389-6400	autenticità	_	_	weakly\_rising	autenticità,	_	_	147-1	_	_	
+
+#Text=eccetera eccetera
+149-1	6401-6409	eccetera	_	_	_	eccetera	_	BO104	148-0	_	_	
+149-2	6410-6418	eccetera	_	_	Falling	eccetera.	_	_	148-1	_	_	
+
+#Text=quindi
+150-1	6419-6425	quindi	_	_	weakly\_rising	quindi,	_	BO104	149-0	_	_	
+
+#Text=riesci ad argomentarmi questo concetto in modo
+151-1	6426-6432	riesci	_	_	_	riesci	_	BO104	150-0	_	_	
+151-2	6433-6435	ad	_	_	_	ad	_	_	150-1	_	_	
+151-3	6436-6448	argomentarmi	_	_	weakly\_rising	argomenta:rmi,	_	_	150-2	_	_	
+151-4	6449-6455	questo	_	_	_	questo	_	_	150-3	_	_	
+151-5	6456-6464	concetto	_	_	weakly\_rising	concetto,	_	_	150-4	_	_	
+151-6	6465-6467	in	_	_	_	in	_	_	150-5	_	_	
+151-7	6468-6472	modo	_	_	weakly\_rising	modo:::,	_	_	150-6	_	_	
+
+#Text=sì [PAUSE] allora [PAUSE] eh per essere utile un test deve essere [PAUSE] innanzitutto
+152-1	6473-6475	sì	BC	_	Falling	sì.	_	BO144	151-0	_	_	
+152-2	6476-6483	[PAUSE]	_	_	_	(.)	_	_	151-1	_	_	
+152-3	6484-6490	allora	_	_	weakly\_rising	\[allora,	_	_	151-2	*->24-1	*[24]	
+152-4	6491-6498	[PAUSE]	_	_	_	(.)	_	_	151-3	_	_	
+152-4.1	6491-6494	[PA	_	_	_	_	_	_	_	*->24-2	*[24]	
+152-5	6499-6501	eh	_	FP	_	e:h\]	_	_	151-4	*->24-3	*[24]	
+152-6	6502-6505	per	_	_	_	per	_	_	151-5	_	_	
+152-7	6506-6512	essere	_	_	_	essere	_	_	151-6	_	_	
+152-8	6513-6518	utile	_	_	_	utile	_	_	151-7	_	_	
+152-9	6519-6521	un	_	_	_	un	_	_	151-8	_	_	
+152-10	6522-6526	test	_	_	_	test	_	_	151-9	_	_	
+152-11	6527-6531	deve	_	_	_	deve	_	_	151-10	_	_	
+152-12	6532-6538	essere	_	_	_	essere	_	_	151-11	_	_	
+152-13	6539-6546	[PAUSE]	_	_	_	(.)	_	_	151-12	_	_	
+152-14	6547-6559	innanzitutto	_	_	weakly\_rising	innanzitutto,	_	_	151-13	_	_	
+
+#Text=preciso
+153-1	6560-6567	preciso	_	_	Falling	\[preci:so\].	_	BO104	152-0	*->24-4	*[24]	
+
+#Text=valido
+154-1	6568-6574	valido	_	_	Falling	valido.	_	BO144	153-0	_	_	
+
+#Text=cioè [PAUSE] deve mh [PAUSE] mh [PAUSE] misurare
+155-1	6575-6579	cioè	_	_	weakly\_rising	cioè,	_	BO144	154-0	_	_	
+155-2	6580-6587	[PAUSE]	_	_	_	(.)	_	_	154-1	_	_	
+155-3	6588-6592	deve	_	_	_	deve:::	_	_	154-2	_	_	
+155-4	6593-6595	mh	_	FP	weakly\_rising	m::::h,	_	_	154-3	_	_	
+155-5	6596-6603	[PAUSE]	_	_	_	(.)	_	_	154-4	_	_	
+155-6	6604-6606	mh	_	FP	_	m:h	_	_	154-5	_	_	
+155-7	6607-6614	[PAUSE]	_	_	_	(.)	_	_	154-6	_	_	
+155-8	6615-6623	misurare	_	_	weakly\_rising	misurare,	_	_	154-7	_	_	
+
+#Text=la compe~ [PAUSE] mh [PAUSE] quello che deve misurare e nulla di più
+156-1	6624-6626	la	_	_	_	la:	SR[68]	BO144	155-0	_	_	
+156-2	6627-6633	compe~	_	_	weakly\_rising	compe~,	SR[68]	_	155-1	_	_	
+156-3	6634-6641	[PAUSE]	_	_	_	(.)	SR[68]	_	155-2	_	_	
+156-4	6642-6644	mh	_	FP	_	m:h	SR[68]	_	155-3	_	_	
+156-5	6645-6652	[PAUSE]	_	_	_	(.)	SR[68]	_	155-4	_	_	
+156-6	6653-6659	quello	_	_	weakly\_rising	quello,	SR[68]	_	155-5	_	_	
+156-7	6660-6663	che	_	_	_	che	SR[68]	_	155-6	_	_	
+156-8	6664-6668	deve	_	_	_	deve	SR[68]	_	155-7	_	_	
+156-9	6669-6677	misurare	_	_	_	misurare	SR[68]	_	155-8	_	_	
+156-10	6678-6679	e	_	_	_	e	SR[68]	_	155-9	_	_	
+156-11	6680-6685	nulla	_	_	_	nulla	SR[68]	_	155-10	_	_	
+156-12	6686-6688	di	_	_	_	di	SR[68]	_	155-11	_	_	
+156-13	6689-6692	più	_	_	Falling	più.	SR[68]	_	155-12	_	_	
+
+#Text=so~ [PAUSE] sostanzialmente
+157-1	6693-6696	so~	_	_	_	so~	_	BO144	156-0	_	_	
+157-2	6697-6704	[PAUSE]	_	_	_	(.)	_	_	156-1	_	_	
+157-3	6705-6720	sostanzialmente	_	_	weakly\_rising	sostanzialmente,	_	_	156-2	_	_	
+
+#Text=eh [PAUSE] un test ad esempio [PAUSE] eh di ascolto [PAUSE] che vuole [PAUSE] verificare la capacità di comprensione orale di un allievo
+158-1	6721-6723	eh	_	FP	Falling	e::h.	_	BO144	157-0	_	_	
+158-2	6724-6731	[PAUSE]	_	_	_	(.)	_	_	157-1	_	_	
+158-3	6732-6734	un	_	_	_	un	_	_	157-2	_	_	
+158-4	6735-6739	test	_	_	_	test	_	_	157-3	_	_	
+158-5	6740-6742	ad	_	_	_	ad	_	_	157-4	_	_	
+158-6	6743-6750	esempio	_	_	weakly\_rising	esempio,	_	_	157-5	_	_	
+158-7	6751-6758	[PAUSE]	_	_	_	(.)	_	_	157-6	_	_	
+158-8	6759-6761	eh	_	FP	_	e:h	_	_	157-7	_	_	
+158-9	6762-6764	di	_	_	_	di	_	_	157-8	_	_	
+158-10	6765-6772	ascolto	_	_	weakly\_rising	ascolto,	_	_	157-9	_	_	
+158-11	6773-6780	[PAUSE]	_	_	_	(.)	_	_	157-10	_	_	
+158-12	6781-6784	che	_	_	_	che	_	_	157-11	_	_	
+158-13	6785-6790	vuole	_	_	weakly\_rising	vuole,	_	_	157-12	_	_	
+158-14	6791-6798	[PAUSE]	_	_	_	(.)	_	_	157-13	_	_	
+158-15	6799-6809	verificare	_	_	_	verificare	_	_	157-14	_	_	
+158-16	6810-6812	la	_	_	_	la	_	_	157-15	_	_	
+158-17	6813-6821	capacità	_	_	_	capacità	_	_	157-16	_	_	
+158-18	6822-6824	di	_	_	_	di	_	_	157-17	_	_	
+158-19	6825-6837	comprensione	_	_	_	comprensione	_	_	157-18	_	_	
+158-20	6838-6843	orale	_	_	_	orale	_	_	157-19	_	_	
+158-21	6844-6846	di	_	_	_	di	_	_	157-20	_	_	
+158-22	6847-6849	un	_	_	_	un	_	_	157-21	_	_	
+158-23	6850-6857	allievo	_	_	weakly\_rising	allievo,	_	_	157-22	_	_	
+
+#Text=e misura
+159-1	6858-6859	e	_	_	_	e	SR[69]	BO144	158-0	_	_	
+159-2	6860-6866	misura	_	_	weakly\_rising	misura,	SR[69]	_	158-1	_	_	
+
+#Text=in realtà e si concentra
+160-1	6867-6869	in	_	_	_	in	SR[69]	BO144	159-0	_	_	
+160-2	6870-6876	realtà	_	_	weakly\_rising	realtà,	SR[69]	_	159-1	_	_	
+160-3	6877-6878	e	_	_	_	e	SR[69]	_	159-2	_	_	
+160-4	6879-6881	si	_	_	_	si	SR[69]	_	159-3	_	_	
+160-5	6882-6891	concentra	_	_	weakly\_rising	concentra,	SR[69]	_	159-4	_	_	
+
+#Text=maggiormente sulla sua capacità
+161-1	6892-6904	maggiormente	_	_	_	maggiormente	_	BO144	160-0	_	_	
+161-2	6905-6910	sulla	_	_	_	sulla	_	_	160-1	_	_	
+161-3	6911-6914	sua	_	_	_	sua	_	_	160-2	_	_	
+161-4	6915-6923	capacità	_	_	weakly\_rising	capacità,	_	_	160-3	_	_	
+
+#Text=eh di produzione scritta non è ritenuto un test valido
+162-1	6924-6926	eh	_	FP	_	eh	_	BO144	161-0	_	_	
+162-2	6927-6929	di	_	_	_	di	_	_	161-1	_	_	
+162-3	6930-6940	produzione	_	_	_	produzione	_	_	161-2	_	_	
+162-4	6941-6948	scritta	_	_	weakly\_rising	scritta,	_	_	161-3	_	_	
+162-5	6949-6952	non	_	_	_	non	_	_	161-4	_	_	
+162-6	6953-6954	è	_	_	_	è	_	_	161-5	_	_	
+162-7	6955-6963	ritenuto	_	_	_	ritenuto	_	_	161-6	_	_	
+162-8	6964-6966	un	_	_	_	un	_	_	161-7	_	_	
+162-9	6967-6971	test	_	_	_	test	_	_	161-8	_	_	
+162-10	6972-6978	valido	_	_	Falling	valido.	_	_	161-9	_	_	
+
+#Text=perché non sta valutando [PAUSE] quello che
+163-1	6979-6985	perché	_	_	_	perché	_	BO144	162-0	_	_	
+163-2	6986-6989	non	_	_	_	non	_	_	162-1	_	_	
+163-3	6990-6993	sta	_	_	_	sta	_	_	162-2	_	_	
+163-4	6994-7003	valutando	_	_	weakly\_rising	valutando,	_	_	162-3	_	_	
+163-5	7004-7011	[PAUSE]	_	_	_	(.)	_	_	162-4	_	_	
+163-6	7012-7018	quello	_	_	_	quello	_	_	162-5	_	_	
+163-7	7019-7022	che	_	_	weakly\_rising	che,	_	_	162-6	_	_	
+
+#Text=mh
+164-1	7023-7025	mh	_	FP	weakly\_rising	m:::h,	_	BO144	163-0	_	_	
+
+#Text=si era prefissato di valutare
+165-1	7026-7028	si	_	_	_	si	_	BO144	164-0	_	_	
+165-2	7029-7032	era	_	_	_	era	_	_	164-1	_	_	
+165-3	7033-7043	prefissato	_	_	_	prefissato	_	_	164-2	_	_	
+165-4	7044-7046	di	_	_	_	di	_	_	164-3	_	_	
+165-5	7047-7055	valutare	_	_	Falling	valuta:re.	_	_	164-4	_	_	
+
+#Text=mh mh
+166-1	7056-7058	mh	BC[10]	_	_	mh	_	BO104	165-0	_	_	
+166-2	7059-7061	mh	BC[10]	_	weakly\_rising	m:h,	_	_	165-1	_	_	
+
+#Text=e poi deve essere anche un test [PAUSE] affidabile
+167-1	7062-7063	e	_	_	_	e	_	BO144	166-0	_	_	
+167-2	7064-7067	poi	_	_	_	poi	_	_	166-1	_	_	
+167-3	7068-7072	deve	_	_	_	deve	_	_	166-2	_	_	
+167-4	7073-7079	essere	_	_	_	essere	_	_	166-3	_	_	
+167-5	7080-7085	anche	_	_	_	anche	_	_	166-4	_	_	
+167-6	7086-7088	un	_	_	_	un	_	_	166-5	_	_	
+167-7	7089-7093	test	_	_	weakly\_rising	test,	_	_	166-6	_	_	
+167-8	7094-7101	[PAUSE]	_	_	_	(.)	_	_	166-7	_	_	
+167-9	7102-7112	affidabile	_	_	Falling	affidabile.	_	_	166-8	_	_	
+
+#Text=eh mh
+168-1	7113-7115	eh	_	FP[31]	_	e::h	_	BO144	167-0	_	_	
+168-2	7116-7118	mh	_	FP[31]	weakly\_rising	\[m::h\],	_	_	167-1	*->54-1	*[54]	
+
+#Text=ti ricordi qualche riferimento teorico per il concetto di validità
+169-1	7119-7121	ti	_	_	_	\[ti\]	_	BO104	168-0	*->54-2	*[54]	
+169-2	7122-7129	ricordi	_	_	_	ricordi	_	_	168-1	_	_	
+169-3	7130-7137	qualche	_	_	_	qualche	_	_	168-2	_	_	
+169-4	7138-7149	riferimento	_	_	_	riferimento	_	_	168-3	_	_	
+169-5	7150-7157	teorico	_	_	_	teo:rico	_	_	168-4	_	_	
+169-6	7158-7161	per	_	_	_	per	_	_	168-5	_	_	
+169-7	7162-7164	il	_	_	_	il	_	_	168-6	_	_	
+169-8	7165-7173	concetto	_	_	_	concetto	_	_	168-7	_	_	
+169-9	7174-7176	di	_	_	_	di	_	_	168-8	_	_	
+169-10	7177-7185	validità	_	_	Rising	validità?	_	_	168-9	_	_	
+
+#Text=mh
+170-1	7186-7188	mh	_	FP	weakly\_rising	m::::h,	_	BO144	169-0	_	_	
+
+#Text=chi l' ha studiato chi l' ha schematizzato
+171-1	7189-7192	chi	_	_	_	chi	_	BO104	170-0	_	_	
+171-2	7193-7195	l'	_	_	_	l'	_	_	170-1	_	_	
+171-3	7196-7198	ha	_	_	_	ha	_	_	170-2	_	_	
+171-4	7199-7207	studiato	_	_	weakly\_rising	studiato,	_	_	170-3	_	_	
+171-5	7208-7211	chi	_	_	_	chi	_	_	170-4	_	_	
+171-6	7212-7214	l'	_	_	_	l'	_	_	170-5	_	_	
+171-7	7215-7217	ha	_	_	_	ha::	_	_	170-6	_	_	
+171-8	7218-7231	schematizzato	_	_	weakly\_rising	schematizzato::,	_	_	170-7	_	_	
+
+#Text=mh
+172-1	7232-7234	mh	_	FP	weakly\_rising	m:::h,	_	BO144	171-0	_	_	
+
+#Text=abbiamo visto lo schema di wear
+173-1	7235-7242	abbiamo	_	_	_	abbiamo	_	BO104	172-0	_	_	
+173-2	7243-7248	visto	_	_	_	visto	_	_	172-1	_	_	
+173-3	7249-7251	lo	_	_	_	lo	_	_	172-2	_	_	
+173-4	7252-7258	schema	_	_	_	schema	_	_	172-3	_	_	
+173-5	7259-7261	di	_	_	_	di:	_	_	172-4	_	_	
+173-6	7262-7266	wear	_	_	Falling	wear.	_	_	172-5	_	_	
+
+#Text=nel duemila e sette sulla [PAUSE] sulla validità poi abbiamo visto la validità nel ciclo del testing
+174-1	7267-7270	nel	_	_	_	nel	_	BO104	173-0	_	_	
+174-2	7271-7278	duemila	_	_	_	duemila	_	_	173-1	_	_	
+174-3	7279-7280	e	_	_	_	e	_	_	173-2	_	_	
+174-4	7281-7286	sette	_	_	weakly\_rising	sette,	_	_	173-3	_	_	
+174-5	7287-7292	sulla	_	_	_	sulla::	_	_	173-4	_	_	
+174-6	7293-7300	[PAUSE]	_	_	_	(.)	_	_	173-5	_	_	
+174-7	7301-7306	sulla	_	_	_	sulla	_	_	173-6	_	_	
+174-8	7307-7315	validità	_	_	weakly\_rising	validità:,	_	_	173-7	_	_	
+174-9	7316-7319	poi	_	_	_	poi	_	_	173-8	_	_	
+174-10	7320-7327	abbiamo	_	_	_	abbiamo	_	_	173-9	_	_	
+174-11	7328-7333	visto	_	_	_	visto	_	_	173-10	_	_	
+174-12	7334-7336	la	_	_	_	la	_	_	173-11	_	_	
+174-13	7337-7345	validità	_	_	_	validità	_	_	173-12	_	_	
+174-14	7346-7349	nel	_	_	_	nel	_	_	173-13	_	_	
+174-15	7350-7355	ciclo	_	_	_	ciclo	_	_	173-14	_	_	
+174-16	7356-7359	del	_	_	_	del	_	_	173-15	_	_	
+174-17	7360-7367	testing	_	_	Falling	testing.	_	_	173-16	_	_	
+
+#Text=nel manuale alté
+175-1	7368-7371	nel	_	_	_	nel	_	BO104	174-0	_	_	
+175-2	7372-7379	manuale	_	_	_	manuale	_	_	174-1	_	_	
+175-3	7380-7384	alté	_	_	Falling	alté.	_	_	174-2	_	_	
+
+#Text=va bene vai avanti
+176-1	7385-7387	va	_	_	_	va	_	BO104	175-0	_	_	
+176-2	7388-7392	bene	_	_	_	bene	_	_	175-1	_	_	
+176-3	7393-7396	vai	_	_	_	vai	_	_	175-2	_	_	
+176-4	7397-7403	avanti	_	_	weakly\_rising	avanti,	_	_	175-3	_	_	
+
+#Text=e mh
+177-1	7404-7405	e	_	FP[32]	_	e:::	_	BO144	176-0	_	_	
+177-2	7406-7408	mh	_	FP[32]	weakly\_rising	m:::h,	_	_	176-1	_	_	
+
+#Text=ah [PAUSE] sì dev' essere affidabile
+178-1	7409-7411	ah	_	_	weakly\_rising	ah,	_	BO144	177-0	_	_	
+178-2	7412-7419	[PAUSE]	_	_	_	(.)	_	_	177-1	_	_	
+178-3	7420-7422	sì	_	_	_	sì	_	_	177-2	_	_	
+178-4	7423-7427	dev'	_	_	_	dev'	_	_	177-3	_	_	
+178-5	7428-7434	essere	_	_	_	essere	_	_	177-4	_	_	
+178-6	7435-7445	affidabile	_	_	weakly\_rising	affidabile,	_	_	177-5	_	_	
+
+#Text=mh [PAUSE] perché
+179-1	7446-7448	mh	_	FP	weakly\_rising	m:::h,	_	BO144	178-0	_	_	
+179-2	7449-7456	[PAUSE]	_	_	_	(.)	_	_	178-1	_	_	
+179-3	7457-7463	perché	_	_	weakly\_rising	perché::,	_	_	178-2	_	_	
+
+#Text=allora l' affidabilità si articola [PAUSE] in due modi [PAUSE] nel senso che
+180-1	7464-7470	allora	_	_	_	allora	_	BO144	179-0	_	_	
+180-2	7471-7473	l'	_	_	_	l'	_	_	179-1	_	_	
+180-3	7474-7486	affidabilità	_	_	_	affidabilità	_	_	179-2	_	_	
+180-4	7487-7489	si	_	_	_	si	_	_	179-3	_	_	
+180-5	7490-7498	articola	_	_	_	articola	_	_	179-4	_	_	
+180-6	7499-7506	[PAUSE]	_	_	_	(.)	_	_	179-5	_	_	
+180-7	7507-7509	in	_	_	_	<in	_	_	179-6	_	_	
+180-8	7510-7513	due	_	_	_	due	_	_	179-7	_	_	
+180-9	7514-7518	modi	_	_	_	modi>	_	_	179-8	_	_	
+180-10	7519-7526	[PAUSE]	_	_	_	(.)	_	_	179-9	_	_	
+180-11	7527-7530	nel	_	_	_	nel	_	_	179-10	_	_	
+180-12	7531-7536	senso	_	_	_	senso	_	_	179-11	_	_	
+180-13	7537-7540	che	_	_	weakly\_rising	che,	_	_	179-12	_	_	
+
+#Text=mh dev' essere affidabile perché [PAUSE] i dati
+181-1	7541-7543	mh	_	FP	_	m::h	_	BO144	180-0	_	_	
+181-2	7544-7548	dev'	_	_	_	dev'	_	_	180-1	_	_	
+181-3	7549-7555	essere	_	_	_	essere	_	_	180-2	_	_	
+181-4	7556-7566	affidabile	_	_	_	affidabile	_	_	180-3	_	_	
+181-5	7567-7573	perché	_	_	_	perché	_	_	180-4	_	_	
+181-6	7574-7581	[PAUSE]	_	_	_	(.)	_	_	180-5	_	_	
+181-7	7582-7583	i	_	_	_	i	_	_	180-6	_	_	
+181-8	7584-7588	dati	_	_	weakly\_rising	da:ti:,	_	_	180-7	_	_	
+
+#Text=che io posso estrarre dai miei risultati
+182-1	7589-7592	che	_	_	_	che	_	BO144	181-0	_	_	
+182-2	7593-7595	io	_	_	_	io	_	_	181-1	_	_	
+182-3	7596-7601	posso	_	_	_	posso	_	_	181-2	_	_	
+182-4	7602-7610	estrarre	_	_	_	estrarre	_	_	181-3	_	_	
+182-5	7611-7614	dai	_	_	_	dai	_	_	181-4	_	_	
+182-6	7615-7619	miei	_	_	_	miei	_	_	181-5	_	_	
+182-7	7620-7629	risultati	_	_	weakly\_rising	risultati,	_	_	181-6	_	_	
+
+#Text=devono essere
+183-1	7630-7636	devono	_	_	_	devono	_	BO144	182-0	_	_	
+183-2	7637-7643	essere	_	_	weakly\_rising	essere:,	_	_	182-1	_	_	
+
+#Text=mh [PAUSE] ripetibili
+184-1	7644-7646	mh	_	FP	weakly\_rising	m::h,	_	BO144	183-0	_	_	
+184-2	7647-7654	[PAUSE]	_	_	_	(.)	_	_	183-1	_	_	
+184-3	7655-7665	ripetibili	_	_	weakly\_rising	ripetibili,	_	_	183-2	_	_	
+
+#Text=se il test viene sottoposto ad esempio in un momento successivo
+185-1	7666-7668	se	_	_	_	se	_	BO144	184-0	_	_	
+185-2	7669-7671	il	_	_	_	il	_	_	184-1	_	_	
+185-3	7672-7676	test	_	_	_	test	_	_	184-2	_	_	
+185-4	7677-7682	viene	_	_	_	viene	_	_	184-3	_	_	
+185-5	7683-7693	sottoposto	_	_	_	sottoposto	_	_	184-4	_	_	
+185-6	7694-7696	ad	_	_	_	ad	_	_	184-5	_	_	
+185-7	7697-7704	esempio	_	_	_	esempio	_	_	184-6	_	_	
+185-8	7705-7707	in	_	_	_	in	_	_	184-7	_	_	
+185-9	7708-7710	un	_	_	_	un	_	_	184-8	_	_	
+185-10	7711-7718	momento	_	_	_	momento	_	_	184-9	_	_	
+185-11	7719-7729	successivo	_	_	weakly\_rising	successivo,	_	_	184-10	_	_	
+
+#Text=in più momenti differenti
+186-1	7730-7732	in	_	_	_	in	_	BO144	185-0	_	_	
+186-2	7733-7736	più	_	_	_	più	_	_	185-1	_	_	
+186-3	7737-7744	momenti	_	_	_	momenti	_	_	185-2	_	_	
+186-4	7745-7755	differenti	_	_	weakly\_rising	differenti,	_	_	185-3	_	_	
+
+#Text=e [PAUSE] soprattutto s~ quando è [PAUSE] eh mh
+187-1	7756-7757	e	_	_	weakly\_rising	e,	_	BO144	186-0	_	_	
+187-2	7758-7765	[PAUSE]	_	_	_	(.)	_	_	186-1	_	_	
+187-3	7766-7777	soprattutto	_	_	_	soprattutto	_	_	186-2	_	_	
+187-4	7778-7780	s~	_	_	_	s~	SR[70]	_	186-3	_	_	
+187-5	7781-7787	quando	_	_	_	quando	SR[70]	_	186-4	_	_	
+187-6	7788-7789	è	_	_	weakly\_rising	è,	SR[70]	_	186-5	_	_	
+187-7	7790-7797	[PAUSE]	_	_	_	(.)	_	_	186-6	_	_	
+187-8	7798-7800	eh	_	FP[33]	_	e:h	_	_	186-7	_	_	
+187-9	7801-7803	mh	_	FP[33]	weakly\_rising	m::h,	_	_	186-8	_	_	
+
+#Text=sottoposto da valutatori differenti
+188-1	7804-7814	sottoposto	_	_	_	sottoposto	_	BO144	187-0	_	_	
+188-2	7815-7817	da	_	_	_	da	_	_	187-1	_	_	
+188-3	7818-7828	valutatori	_	_	weakly\_rising	valutato:ri,	_	_	187-2	_	_	
+188-4	7829-7839	differenti	_	_	Falling	differenti.	_	_	187-3	_	_	
+
+#Text=nel casto di test [PAUSE] oggettivi
+189-1	7840-7843	nel	_	_	_	nel	_	BO144	188-0	_	_	
+189-2	7844-7849	casto	_	_	_	casto	_	_	188-1	_	_	
+189-3	7850-7852	di	_	_	_	di	_	_	188-2	_	_	
+189-4	7853-7857	test	_	_	weakly\_rising	test,	_	_	188-3	_	_	
+189-5	7858-7865	[PAUSE]	_	_	_	(.)	_	_	188-4	_	_	
+189-6	7866-7875	oggettivi	_	_	weakly\_rising	oggettivi,	_	_	188-5	_	_	
+
+#Text=infatti soprattutto in questo caso in cui non si richiede una vera e propria partecipazione
+190-1	7876-7883	infatti	_	_	weakly\_rising	infatti,	_	BO144	189-0	_	_	
+190-2	7884-7895	soprattutto	_	_	weakly\_rising	soprattutto,	_	_	189-1	_	_	
+190-3	7896-7898	in	_	_	_	in	_	_	189-2	_	_	
+190-4	7899-7905	questo	_	_	_	questo	_	_	189-3	_	_	
+190-5	7906-7910	caso	_	_	weakly\_rising	caso,	_	_	189-4	_	_	
+190-6	7911-7913	in	_	_	_	in	_	_	189-5	_	_	
+190-7	7914-7917	cui	_	_	_	cui	_	_	189-6	_	_	
+190-8	7918-7921	non	_	_	_	non	_	_	189-7	_	_	
+190-9	7922-7924	si	_	_	_	si	_	_	189-8	_	_	
+190-10	7925-7933	richiede	_	_	_	richiede	_	_	189-9	_	_	
+190-11	7934-7937	una	_	_	_	una	_	_	189-10	_	_	
+190-12	7938-7942	vera	_	_	_	vera	_	_	189-11	_	_	
+190-13	7943-7944	e	_	_	_	e	_	_	189-12	_	_	
+190-14	7945-7952	propria	_	_	_	propria	_	_	189-13	_	_	
+190-15	7953-7967	partecipazione	_	_	weakly\_rising	partecipazio:ne,	_	_	189-14	_	_	
+
+#Text=eh [PAUSE] del valutatore il quale solitamente
+191-1	7968-7970	eh	_	FP	_	e:::h	_	BO144	190-0	_	_	
+191-2	7971-7978	[PAUSE]	_	_	_	(.)	_	_	190-1	_	_	
+191-3	7979-7982	del	_	_	_	del	_	_	190-2	_	_	
+191-4	7983-7993	valutatore	_	_	weakly\_rising	valutato:re,	_	_	190-3	_	_	
+191-5	7994-7996	il	_	_	_	il	_	_	190-4	_	_	
+191-6	7997-8002	quale	_	_	_	quale	_	_	190-5	_	_	
+191-7	8003-8014	solitamente	_	_	weakly\_rising	s:olitame:nte,	_	_	190-6	_	_	
+
+#Text=si attiene [PAUSE] a delle griglie di valutazione che sono state [PAUSE] mh prefissate
+192-1	8015-8017	si	_	_	_	si	_	BO144	191-0	_	_	
+192-2	8018-8025	attiene	_	_	weakly\_rising	attiene,	_	_	191-1	_	_	
+192-3	8026-8033	[PAUSE]	_	_	_	(.)	_	_	191-2	_	_	
+192-4	8034-8035	a	_	_	_	a	_	_	191-3	_	_	
+192-5	8036-8041	delle	_	_	_	delle	_	_	191-4	_	_	
+192-6	8042-8049	griglie	_	_	_	griglie	_	_	191-5	_	_	
+192-7	8050-8052	di	_	_	_	di	_	_	191-6	_	_	
+192-8	8053-8064	valutazione	_	_	weakly\_rising	valutazione,	_	_	191-7	_	_	
+192-9	8065-8068	che	_	_	_	che	_	_	191-8	_	_	
+192-10	8069-8073	sono	_	_	_	sono	_	_	191-9	_	_	
+192-11	8074-8079	state	_	_	_	state	_	_	191-10	_	_	
+192-12	8080-8087	[PAUSE]	_	_	_	(.)	_	_	191-11	_	_	
+192-13	8088-8090	mh	_	FP	_	mh	_	_	191-12	_	_	
+192-14	8091-8101	prefissate	_	_	weakly\_rising	prefissate,	_	_	191-13	_	_	
+
+#Text=o dal grupo di docenti
+193-1	8102-8103	o	_	_	_	o	_	BO144	192-0	_	_	
+193-2	8104-8107	dal	_	_	_	dal	_	_	192-1	_	_	
+193-3	8108-8113	grupo	_	_	_	grupo	_	_	192-2	_	_	
+193-4	8114-8116	di	_	_	_	di	_	_	192-3	_	_	
+193-5	8117-8124	docenti	_	_	weakly\_rising	doce:nti,	_	_	192-4	_	_	
+
+#Text=o da colui che ha co~ [PAUSE] insomma composto proprio quel test creato quel tipo di prova
+194-1	8125-8126	o	_	_	_	o:	_	BO144	193-0	_	_	
+194-2	8127-8129	da	_	_	_	da	_	_	193-1	_	_	
+194-3	8130-8135	colui	_	_	_	colui	_	_	193-2	_	_	
+194-4	8136-8139	che	_	_	_	che	_	_	193-3	_	_	
+194-5	8140-8142	ha	_	_	_	ha	_	_	193-4	_	_	
+194-6	8143-8146	co~	_	_	weakly\_rising	co~,	SR[71]	_	193-5	_	_	
+194-7	8147-8154	[PAUSE]	_	_	_	(.)	SR[71]	_	193-6	_	_	
+194-8	8155-8162	insomma	_	_	_	insomma	SR[71]	_	193-7	_	_	
+194-9	8163-8171	composto	_	_	_	composto	SR[71]	_	193-8	_	_	
+194-10	8172-8179	proprio	_	_	_	proprio	_	_	193-9	_	_	
+194-11	8180-8184	quel	_	_	_	quel	_	_	193-10	_	_	
+194-12	8185-8189	test	_	_	weakly\_rising	test,	_	_	193-11	_	_	
+194-13	8190-8196	creato	_	_	_	creato	_	_	193-12	_	_	
+194-14	8197-8201	quel	_	_	_	quel	_	_	193-13	_	_	
+194-15	8202-8206	tipo	_	_	_	tipo	_	_	193-14	_	_	
+194-16	8207-8209	di	_	_	_	di	_	_	193-15	_	_	
+194-17	8210-8215	prova	_	_	Falling	prova.	_	_	193-16	_	_	
+
+#Text=è in questo caso quindi in questi test [PAUSE] più [PAUSE] oggettivi
+195-1	8216-8217	è	_	_	_	è	_	BO144	194-0	_	_	
+195-2	8218-8220	in	_	_	_	in	_	_	194-1	_	_	
+195-3	8221-8227	questo	_	_	_	questo	_	_	194-2	_	_	
+195-4	8228-8232	caso	_	_	weakly\_rising	ca:so,	_	_	194-3	_	_	
+195-5	8233-8239	quindi	_	_	_	quindi	_	_	194-4	_	_	
+195-6	8240-8242	in	_	_	_	in	_	_	194-5	_	_	
+195-7	8243-8249	questi	_	_	_	questi	_	_	194-6	_	_	
+195-8	8250-8254	test	_	_	_	test	_	_	194-7	_	_	
+195-9	8255-8262	[PAUSE]	_	_	_	(.)	_	_	194-8	_	_	
+195-10	8263-8266	più	_	_	_	più	_	_	194-9	_	_	
+195-11	8267-8274	[PAUSE]	_	_	_	(.)	_	_	194-10	_	_	
+195-12	8275-8284	oggettivi	_	_	weakly\_rising	oggettivi,	_	_	194-11	_	_	
+
+#Text=che [PAUSE] eh mh
+196-1	8285-8288	che	_	_	weakly\_rising	che,	_	BO144	195-0	_	_	
+196-2	8289-8296	[PAUSE]	_	_	_	(.)	_	_	195-1	_	_	
+196-3	8297-8299	eh	_	FP[34]	_	e:::h	_	_	195-2	_	_	
+196-4	8300-8302	mh	_	FP[34]	weakly\_rising	m:::h,	_	_	195-3	_	_	
+
+#Text=i dati dovrebbero [PAUSE] coincidere
+197-1	8303-8304	i	_	_	_	i	_	BO144	196-0	_	_	
+197-2	8305-8309	dati	_	_	_	da:ti	_	_	196-1	_	_	
+197-3	8310-8320	dovrebbero	_	_	weakly\_rising	dovrebbero,	_	_	196-2	_	_	
+197-4	8321-8328	[PAUSE]	_	_	_	(.)	_	_	196-3	_	_	
+197-5	8329-8339	coincidere	_	_	Falling	coincidere.	_	_	196-4	_	_	
+
+#Text=perché [PAUSE] il valutatore non interviene
+198-1	8340-8346	perché	_	_	_	perché	_	BO144	197-0	_	_	
+198-2	8347-8354	[PAUSE]	_	_	_	(.)	_	_	197-1	_	_	
+198-3	8355-8357	il	_	_	_	il	_	_	197-2	_	_	
+198-4	8358-8368	valutatore	_	_	_	valutatore	_	_	197-3	_	_	
+198-5	8369-8372	non	_	_	_	non	_	_	197-4	_	_	
+198-6	8373-8383	interviene	_	_	weakly\_rising	interviene,	_	_	197-5	_	_	
+
+#Text=con [PAUSE] la sua esperienza con una sua valutazione soggettiva
+199-1	8384-8387	con	_	_	weakly\_rising	con,	_	BO144	198-0	_	_	
+199-2	8388-8395	[PAUSE]	_	_	_	(.)	_	_	198-1	_	_	
+199-3	8396-8398	la	_	_	_	la	_	_	198-2	_	_	
+199-4	8399-8402	sua	_	_	_	sua	_	_	198-3	_	_	
+199-5	8403-8413	esperienza	_	_	weakly\_rising	esperienza,	_	_	198-4	_	_	
+199-6	8414-8417	con	_	_	_	con	_	_	198-5	_	_	
+199-7	8418-8421	una	_	_	_	una	_	_	198-6	_	_	
+199-8	8422-8425	sua	_	_	_	sua	_	_	198-7	_	_	
+199-9	8426-8437	valutazione	_	_	_	valutazione	_	_	198-8	_	_	
+199-10	8438-8448	soggettiva	_	_	weakly\_rising	soggettiva:,	_	_	198-9	_	_	
+
+#Text=al [PAUSE] nel risultato della [PAUSE] della prova
+200-1	8449-8451	al	_	_	_	al:	SR[72]	BO144	199-0	_	_	
+200-2	8452-8459	[PAUSE]	_	_	_	(.)	SR[72]	_	199-1	_	_	
+200-3	8460-8463	nel	_	_	_	nel	SR[72]	_	199-2	_	_	
+200-4	8464-8473	risultato	_	_	_	risultato	SR[72]	_	199-3	_	_	
+200-5	8474-8479	della	_	_	_	della:	_	_	199-4	_	_	
+200-6	8480-8487	[PAUSE]	_	_	_	(.)	_	_	199-5	_	_	
+200-7	8488-8493	della	_	_	_	della	_	_	199-6	_	_	
+200-8	8494-8499	prova	_	_	Falling	prova.	_	_	199-7	_	_	
+
+#Text=e quindi devono essere affidabili [PAUSE] perché i dati che si riportano
+201-1	8500-8501	e	_	_	_	e	_	BO144	200-0	_	_	
+201-2	8502-8508	quindi	_	_	_	quindi	_	_	200-1	_	_	
+201-3	8509-8515	devono	_	_	_	devono	_	_	200-2	_	_	
+201-4	8516-8522	essere	_	_	_	essere	_	_	200-3	_	_	
+201-5	8523-8533	affidabili	_	_	weakly\_rising	affidabili,	_	_	200-4	_	_	
+201-6	8534-8541	[PAUSE]	_	_	_	(.)	_	_	200-5	_	_	
+201-7	8542-8548	perché	_	_	_	perché	_	_	200-6	_	_	
+201-8	8549-8550	i	_	_	_	i	_	_	200-7	_	_	
+201-9	8551-8555	dati	_	_	_	dati	_	_	200-8	_	_	
+201-10	8556-8559	che	_	_	_	che	_	_	200-9	_	_	
+201-11	8560-8562	si	_	_	_	si	_	_	200-10	_	_	
+201-12	8563-8572	riportano	_	_	weakly\_rising	riportano,	_	_	200-11	_	_	
+
+#Text=dovrebbero coincidere
+202-1	8573-8583	dovrebbero	_	_	_	dovrebbero	_	BO144	201-0	_	_	
+202-2	8584-8594	coincidere	_	_	weakly\_rising	coincidere,	_	_	201-1	_	_	
+
+#Text=e soprattutto dovrebbero coincidere anche
+203-1	8595-8596	e	_	_	_	e	_	BO144	202-0	_	_	
+203-2	8597-8608	soprattutto	_	_	_	soprattutto	_	_	202-1	_	_	
+203-3	8609-8619	dovrebbero	_	_	_	dovrebbero	_	_	202-2	_	_	
+203-4	8620-8630	coincidere	_	_	_	coincidere	_	_	202-3	_	_	
+203-5	8631-8636	anche	_	_	weakly\_rising	anche,	_	_	202-4	_	_	
+
+#Text=nel caso in cui [PAUSE] un [PAUSE] un test venga sottoposto in momenti differenti
+204-1	8637-8640	nel	_	_	_	nel	_	BO144	203-0	_	_	
+204-2	8641-8645	caso	_	_	_	caso	_	_	203-1	_	_	
+204-3	8646-8648	in	_	_	_	in	_	_	203-2	_	_	
+204-4	8649-8652	cui	_	_	weakly\_rising	cui,	_	_	203-3	_	_	
+204-5	8653-8660	[PAUSE]	_	_	_	(.)	_	_	203-4	_	_	
+204-6	8661-8663	un	_	_	_	un	_	_	203-5	_	_	
+204-7	8664-8671	[PAUSE]	_	_	_	(.)	_	_	203-6	_	_	
+204-8	8672-8674	un	_	_	_	un	_	_	203-7	_	_	
+204-9	8675-8679	test	_	_	_	test	_	_	203-8	_	_	
+204-10	8680-8685	venga	_	_	_	venga	_	_	203-9	_	_	
+204-11	8686-8696	sottoposto	_	_	_	sottoposto	_	_	203-10	_	_	
+204-12	8697-8699	in	_	_	_	in	_	_	203-11	_	_	
+204-13	8700-8707	momenti	_	_	_	momenti	_	_	203-12	_	_	
+204-14	8708-8718	differenti	_	_	Falling	differ\[enti\].	_	_	203-13	_	_	
+204-14.1	8714-8718	enti	_	_	_	_	_	_	_	*->45-1	*[45]	
+
+#Text=mh [PAUSE] come si chiamano queste [PAUSE] prove
+205-1	8719-8721	mh	BC	_	weakly\_rising	\[mh,	_	BO104	204-0	*->45-1|*->45-2	*[45]|*[45]	
+205-2	8722-8729	[PAUSE]	_	_	_	(.)	_	_	204-1	_	_	
+205-2.1	8722-8724	[P	_	_	_	_	_	_	_	*->45-1	*[45]	
+205-2.2	8722-8725	[PA	_	_	_	_	_	_	_	*->45-3	*[45]	
+205-3	8730-8734	come	_	_	_	co\]me	_	_	204-2	_	_	
+205-3.1	8730-8732	co	_	_	_	_	_	_	_	*->45-4	*[45]	
+205-4	8735-8737	si	_	_	_	si	_	_	204-3	_	_	
+205-5	8738-8746	chiamano	_	_	_	chiamano	_	_	204-4	_	_	
+205-6	8747-8753	queste	_	_	_	queste::	_	_	204-5	_	_	
+205-7	8754-8761	[PAUSE]	_	_	_	(.)	_	_	204-6	_	_	
+205-8	8762-8767	prove	_	_	Rising	prove?	_	_	204-7	_	_	
+
+#Text=diciamo per verificare l' affidabilità
+206-1	8768-8775	diciamo	_	_	_	diciamo	_	BO104	205-0	_	_	
+206-2	8776-8779	per	_	_	_	per	_	_	205-1	_	_	
+206-3	8780-8790	verificare	_	_	_	verificare	_	_	205-2	_	_	
+206-4	8791-8793	l'	_	_	_	l'	_	_	205-3	_	_	
+206-5	8794-8806	affidabilità	_	_	Falling	affidabilità.	_	_	205-4	_	_	
+
+#Text=quella che hai detto
+207-1	8807-8813	quella	_	_	_	quella	_	BO104	206-0	_	_	
+207-2	8814-8817	che	_	_	_	che	_	_	206-1	_	_	
+207-3	8818-8821	hai	_	_	_	hai	_	_	206-2	_	_	
+207-4	8822-8827	detto	_	_	weakly\_rising	detto:::,	_	_	206-3	_	_	
+
+#Text=quelle che hai descritto diciamo
+208-1	8828-8834	quelle	_	_	_	quelle	_	BO104	207-0	_	_	
+208-2	8835-8838	che	_	_	_	che	_	_	207-1	_	_	
+208-3	8839-8842	hai	_	_	_	hai	_	_	207-2	_	_	
+208-4	8843-8852	descritto	_	_	weakly\_rising	descritto,	_	_	207-3	_	_	
+208-5	8853-8860	diciamo	_	_	Falling	diciamo.	_	_	207-4	_	_	
+
+#Text=hanno dei [PAUSE] dei nomi no
+209-1	8861-8866	hanno	_	_	_	hanno	_	BO104	208-0	_	_	
+209-2	8867-8870	dei	_	_	_	dei	_	_	208-1	_	_	
+209-3	8871-8878	[PAUSE]	_	_	_	(.)	_	_	208-2	_	_	
+209-4	8879-8882	dei	_	_	_	dei	_	_	208-3	_	_	
+209-5	8883-8887	nomi	_	_	_	nomi	_	_	208-4	_	_	
+209-6	8888-8890	no	_	_	Rising	no?	_	_	208-5	_	_	
+
+#Text=l' affidabilità
+210-1	8891-8893	l'	_	_	_	l'	_	BO104	209-0	_	_	
+210-2	8894-8906	affidabilità	_	_	weakly\_rising	affidabilità:,	_	_	209-1	_	_	
+
+#Text=eh mh [PAUSE] la terminologia che abbiamo visto era [PAUSE] interrate reliability
+211-1	8907-8909	eh	_	FP[35]	_	e:::h	_	BO104	210-0	_	_	
+211-2	8910-8912	mh	_	FP[35]	_	m::h	_	_	210-1	_	_	
+211-3	8913-8920	[PAUSE]	_	_	_	(.)	_	_	210-2	_	_	
+211-4	8921-8923	la	_	_	_	la	_	_	210-3	_	_	
+211-5	8924-8936	terminologia	_	_	_	terminologia	_	_	210-4	_	_	
+211-6	8937-8940	che	_	_	_	che	_	_	210-5	_	_	
+211-7	8941-8948	abbiamo	_	_	_	abbiamo	_	_	210-6	_	_	
+211-8	8949-8954	visto	_	_	_	visto	_	_	210-7	_	_	
+211-9	8955-8958	era	_	_	weakly\_rising	era,	_	_	210-8	_	_	
+211-10	8959-8966	[PAUSE]	_	_	_	(.)	_	_	210-9	_	_	
+211-11	8967-8976	interrate	_	_	_	interrate	_	_	210-10	_	_	
+211-12	8977-8988	reliability	_	_	weakly\_rising	reliability,	_	_	210-11	_	_	
+
+#Text=quindi l' affidabilità [PAUSE] tra valutatori
+212-1	8989-8995	quindi	_	_	_	quindi	_	BO104	211-0	_	_	
+212-2	8996-8998	l'	_	_	_	l'	_	_	211-1	_	_	
+212-3	8999-9011	affidabilità	_	_	_	affidabilità	_	_	211-2	_	_	
+212-4	9012-9019	[PAUSE]	_	_	_	(.)	_	_	211-3	_	_	
+212-5	9020-9023	tra	_	_	_	tra	_	_	211-4	_	_	
+212-6	9024-9034	valutatori	_	_	weakly\_rising	valutatori,	_	_	211-5	_	_	
+
+#Text=sì [PAUSE] e tra mh
+213-1	9035-9037	sì	BC	_	weakly\_rising	sì,	_	BO144	212-0	_	_	
+213-2	9038-9045	[PAUSE]	_	_	_	(.)	_	_	212-1	_	_	
+213-3	9046-9047	e	_	_	_	e::	_	_	212-2	_	_	
+213-4	9048-9051	tra	_	_	_	tra:::	_	_	212-3	_	_	
+213-5	9052-9054	mh	_	FP	weakly\_rising	m::h,	_	_	212-4	_	_	
+
+#Text=e tra
+214-1	9055-9056	e	_	_	_	e	_	BO144	213-0	_	_	
+214-2	9057-9060	tra	_	_	weakly\_rising	tra:::,	_	_	213-1	_	_	
+
+#Text=tra [PAUSE] mh
+215-1	9061-9064	tra	_	_	_	tra	_	BO144	214-0	_	_	
+215-2	9065-9072	[PAUSE]	_	_	_	(.)	_	_	214-1	_	_	
+215-3	9073-9075	mh	_	FP	Falling	m:h.	_	_	214-2	_	_	
+
+#Text=momenti di [PAUSE] di
+216-1	9076-9083	momenti	_	_	_	momenti	_	BO144	215-0	_	_	
+216-2	9084-9086	di	_	_	weakly\_rising	di::,	_	_	215-1	_	_	
+216-3	9087-9094	[PAUSE]	_	_	_	(.)	_	_	215-2	_	_	
+216-4	9095-9097	di	_	_	weakly\_rising	d\[i:::\],	_	_	215-3	_	_	
+216-4.1	9096-9097	i	_	_	_	_	_	_	_	*->21-1	*[21]	
+
+#Text=e l' altra era [PAUSE] test retest
+217-1	9098-9099	e	_	_	_	\[e	_	BO104	216-0	*->21-2	*[21]	
+217-1.1	9098-9098		_	_	_	_	_	_	_	*->21-1	*[21]	
+217-2	9100-9102	l'	_	_	_	l'	_	_	216-1	*->21-3	*[21]	
+217-3	9103-9108	altra	_	_	_	a\]ltra	_	_	216-2	_	_	
+217-3.1	9103-9104	a	_	_	_	_	_	_	_	*->21-4	*[21]	
+217-4	9109-9112	era	_	_	_	era	_	_	216-3	_	_	
+217-5	9113-9120	[PAUSE]	_	_	_	(.)	_	_	216-4	_	_	
+217-6	9121-9125	test	_	_	weakly\_rising	test,	_	_	216-5	_	_	
+217-7	9126-9132	retest	_	_	weakly\_rising	retest,	_	_	216-6	_	_	
+
+#Text=reliability quindi l' affidabilità del test del
+218-1	9133-9144	reliability	_	_	weakly\_rising	reliability,	_	BO104	217-0	_	_	
+218-2	9145-9151	quindi	_	_	_	quindi	_	_	217-1	_	_	
+218-3	9152-9154	l'	_	_	_	l'	_	_	217-2	_	_	
+218-4	9155-9167	affidabilità	_	_	_	affidabilità	_	_	217-3	_	_	
+218-5	9168-9171	del	_	_	_	del	_	_	217-4	_	_	
+218-6	9172-9176	test	_	_	weakly\_rising	test,	_	_	217-5	_	_	
+218-7	9177-9180	del	_	_	Falling	del.	_	_	217-6	_	_	
+
+#Text=esatto
+219-1	9181-9187	esatto	BC	_	weakly\_rising	es\[atto\],	_	BO144	218-0	_	_	
+219-1.1	9183-9187	atto	_	_	_	_	_	_	_	*->26-1	*[26]	
+
+#Text=del test
+220-1	9188-9191	del	_	_	_	\[del\]	_	BO104	219-0	*->26-2	*[26]	
+220-1.1	9188-9189	d	_	_	_	_	_	_	_	*->26-1	*[26]	
+220-2	9192-9196	test	_	_	weakly\_rising	test,	_	_	219-1	_	_	
+
+#Text=e poi [PAUSE] la [PAUSE] quella tra
+221-1	9197-9198	e	_	_	_	e	_	BO104	220-0	_	_	
+221-2	9199-9202	poi	_	_	weakly\_rising	poi,	_	_	220-1	_	_	
+221-3	9203-9210	[PAUSE]	_	_	_	(.)	_	_	220-2	_	_	
+221-4	9211-9213	la	_	_	weakly\_rising	la,	_	_	220-3	_	_	
+221-5	9214-9221	[PAUSE]	_	_	_	(.)	_	_	220-4	_	_	
+221-6	9222-9228	quella	_	_	_	quella	_	_	220-5	_	_	
+221-7	9229-9232	tra	_	_	weakly\_rising	tra:,	_	_	220-6	_	_	
+
+#Text=forme parallele
+222-1	9233-9238	forme	_	_	_	forme	_	BO104	221-0	_	_	
+222-2	9239-9248	parallele	_	_	weakly\_rising	paralle:le,	_	_	221-1	_	_	
+
+#Text=quindi pensa ai test certificativi che vengono diciamo somministrati in [PAUSE] numerose migliaia centinaia eccetera
+223-1	9249-9255	quindi	_	_	_	quindi	_	BO104	222-0	_	_	
+223-2	9256-9261	pensa	_	_	_	pensa	_	_	222-1	_	_	
+223-3	9262-9264	ai	_	_	_	ai	_	_	222-2	_	_	
+223-4	9265-9269	test	_	_	_	test	_	_	222-3	_	_	
+223-5	9270-9283	certificativi	_	_	weakly\_rising	certificati:vi,	_	_	222-4	_	_	
+223-6	9284-9287	che	_	_	_	che	_	_	222-5	_	_	
+223-7	9288-9295	vengono	_	_	_	vengono:::	_	_	222-6	_	_	
+223-8	9296-9303	diciamo	_	_	_	diciamo	_	_	222-7	_	_	
+223-9	9304-9317	somministrati	_	_	_	somministrati	_	_	222-8	_	_	
+223-10	9318-9320	in	_	_	_	in:	_	_	222-9	_	_	
+223-11	9321-9328	[PAUSE]	_	_	_	(.)	_	_	222-10	_	_	
+223-12	9329-9337	numerose	_	_	_	numerose	_	_	222-11	_	_	
+223-13	9338-9346	migliaia	_	_	weakly\_rising	migliaia,	_	_	222-12	_	_	
+223-14	9347-9356	centinaia	_	_	_	centinaia	_	_	222-13	_	_	
+223-15	9357-9365	eccetera	_	_	weakly\_rising	eccetera,	_	_	222-14	_	_	
+
+#Text=quindi
+224-1	9366-9372	quindi	_	_	weakly\_rising	quindi,	_	BO104	223-0	_	_	
+
+#Text=mh [PAUSE] queste [PAUSE] certificazioni devono essere comparabili fra loro
+225-1	9373-9375	mh	_	*	_	m:::h	_	BO104	224-0	_	_	
+225-2	9376-9383	[PAUSE]	_	_	_	(.)	_	_	224-1	_	_	
+225-3	9384-9390	queste	_	_	_	queste::	_	_	224-2	_	_	
+225-4	9391-9398	[PAUSE]	_	_	_	(.)	_	_	224-3	_	_	
+225-5	9399-9413	certificazioni	_	_	weakly\_rising	certificazioni,	_	_	224-4	_	_	
+225-6	9414-9420	devono	_	_	_	devono	_	_	224-5	_	_	
+225-7	9421-9427	essere	_	_	_	essere	_	_	224-6	_	_	
+225-8	9428-9439	comparabili	_	_	weakly\_rising	comparabili,	_	_	224-7	_	_	
+225-9	9440-9443	fra	_	_	_	fra	_	_	224-8	_	_	
+225-10	9444-9448	loro	_	_	Falling	lo:ro.	_	_	224-9	_	_	
+
+#Text=sì
+226-1	9449-9451	sì	BC	_	Falling	sì.	_	BO144	225-0	_	_	
+
+#Text=mh
+227-1	9452-9454	mh	BC	_	Rising	m:h?	_	BO104	226-0	_	_	
+
+#Text=sì sì
+228-1	9455-9457	sì	BC[11]	_	_	sì	_	BO144	227-0	_	_	
+228-2	9458-9460	sì	BC[11]	_	Falling	sì.	_	_	227-1	_	_	
+
+#Text=perché [PAUSE] il livello di mh [PAUSE] il livello di competenza che viene richiesto
+229-1	9461-9467	perché	_	_	_	perché	_	BO144	228-0	_	_	
+229-2	9468-9475	[PAUSE]	_	_	_	(.)	_	_	228-1	_	_	
+229-3	9476-9478	il	_	_	_	il	_	_	228-2	_	_	
+229-4	9479-9486	livello	_	_	_	livello	_	_	228-3	_	_	
+229-5	9487-9489	di	_	_	_	di:::	_	_	228-4	_	_	
+229-6	9490-9492	mh	_	FP	_	m:::h	_	_	228-5	_	_	
+229-7	9493-9500	[PAUSE]	_	_	_	(.)	_	_	228-6	_	_	
+229-8	9501-9503	il	_	_	_	il	_	_	228-7	_	_	
+229-9	9504-9511	livello	_	_	_	livello	_	_	228-8	_	_	
+229-10	9512-9514	di	_	_	_	di	_	_	228-9	_	_	
+229-11	9515-9525	competenza	_	_	_	competenza	_	_	228-10	_	_	
+229-12	9526-9529	che	_	_	_	che	_	_	228-11	_	_	
+229-13	9530-9535	viene	_	_	_	viene	_	_	228-12	_	_	
+229-14	9536-9545	richiesto	_	_	weakly\_rising	richiesto,	_	_	228-13	_	_	
+
+#Text=dev' essere
+230-1	9546-9550	dev'	_	_	_	dev'	_	BO144	229-0	_	_	
+230-2	9551-9557	essere	_	_	weakly\_rising	essere:,	_	_	229-1	_	_	
+
+#Text=cioè
+231-1	9558-9562	cioè	_	_	weakly\_rising	>cioè<,	_	BO144	230-0	_	_	
+
+#Text=io [PAUSE] come qualsiasi altro apprendente
+232-1	9563-9565	io	_	_	weakly\_rising	IO,	_	BO144	231-0	_	_	
+232-2	9566-9573	[PAUSE]	_	_	_	(.)	_	_	231-1	_	_	
+232-3	9574-9578	come	_	_	_	come	_	_	231-2	_	_	
+232-4	9579-9588	qualsiasi	_	_	_	qualsiasi	_	_	231-3	_	_	
+232-5	9589-9594	altro	_	_	_	altro	_	_	231-4	_	_	
+232-6	9595-9606	apprendente	_	_	weakly\_rising	apprendente,	_	_	231-5	_	_	
+
+#Text=dobbiamo raggiungere lo stesso livello dal momento in cui raggiungiamo quel livello di competenza è riconoscibile
+233-1	9607-9615	dobbiamo	_	_	_	dobbiamo	_	BO144	232-0	_	_	
+233-2	9616-9627	raggiungere	_	_	_	raggiungere	_	_	232-1	_	_	
+233-3	9628-9630	lo	_	_	_	lo	_	_	232-2	_	_	
+233-4	9631-9637	stesso	_	_	_	stesso	_	_	232-3	_	_	
+233-5	9638-9645	livello	_	_	weakly\_rising	livello,	_	_	232-4	_	_	
+233-6	9646-9649	dal	_	_	_	dal	_	_	232-5	_	_	
+233-7	9650-9657	momento	_	_	_	momento	_	_	232-6	_	_	
+233-8	9658-9660	in	_	_	_	in	_	_	232-7	_	_	
+233-9	9661-9664	cui	_	_	_	cui	_	_	232-8	_	_	
+233-10	9665-9677	raggiungiamo	_	_	_	raggiungiamo	_	_	232-9	_	_	
+233-11	9678-9682	quel	_	_	_	quel	_	_	232-10	_	_	
+233-12	9683-9690	livello	_	_	_	livello	_	_	232-11	_	_	
+233-13	9691-9693	di	_	_	_	di	_	_	232-12	_	_	
+233-14	9694-9704	competenza	_	_	weakly\_rising	competenza,	_	_	232-13	_	_	
+233-15	9705-9706	è	_	_	_	è	_	_	232-14	_	_	
+233-16	9707-9720	riconoscibile	_	_	weakly\_rising	riconoscibile,	_	_	232-15	_	_	
+
+#Text=no è molto più [PAUSE] banale la cosa
+234-1	9721-9723	no	_	_	_	no	_	BO104	233-0	_	_	
+234-2	9724-9725	è	_	_	_	è	_	_	233-1	_	_	
+234-3	9726-9731	molto	_	_	_	molto	_	_	233-2	_	_	
+234-4	9732-9735	più	_	_	_	più::	_	_	233-3	_	_	
+234-5	9736-9743	[PAUSE]	_	_	_	(.)	_	_	233-4	_	_	
+234-6	9744-9750	banale	_	_	weakly\_rising	banale,	_	_	233-5	_	_	
+234-7	9751-9753	la	_	_	_	la	_	_	233-6	_	_	
+234-8	9754-9758	cosa	_	_	Falling	\[co:sa\].	_	_	233-7	*->22-1	*[22]	
+
+#Text=ovunque
+235-1	9759-9766	ovunque	_	_	Falling	\[ovunque\].	_	BO144	234-0	*->22-2	*[22]	
+
+#Text=cioè [PAUSE] io ho una certificazione che è il toefl [PAUSE] no
+236-1	9767-9771	cioè	_	_	weakly\_rising	\[cioè\],	_	BO104	235-0	*->8-1	*[8]	
+236-2	9772-9779	[PAUSE]	_	_	_	(.)	_	_	235-1	_	_	
+236-3	9780-9782	io	_	_	_	io	_	_	235-2	_	_	
+236-4	9783-9785	ho	_	_	_	ho	_	_	235-3	_	_	
+236-5	9786-9789	una	_	_	_	una	_	_	235-4	_	_	
+236-6	9790-9804	certificazione	_	_	weakly\_rising	certificazione,	_	_	235-5	_	_	
+236-7	9805-9808	che	_	_	_	che	_	_	235-6	_	_	
+236-8	9809-9810	è	_	_	_	è	_	_	235-7	_	_	
+236-9	9811-9813	il	_	_	_	il	_	_	235-8	_	_	
+236-10	9814-9819	toefl	_	_	_	toefl	_	_	235-9	_	_	
+236-11	9820-9827	[PAUSE]	_	_	_	(.)	_	_	235-10	_	_	
+236-12	9828-9830	no	_	_	Rising	no?	_	_	235-11	_	_	
+
+#Text=mh mh
+237-1	9831-9833	mh	BC[12]	_	_	\[mh	_	BO144	236-0	*->17-1	*[17]	
+237-2	9834-9836	mh	BC[12]	_	weakly\_rising	mh\],	_	_	236-1	*->17-2	*[17]	
+
+#Text=x certificazione ne avrò [PAUSE] cento versioni
+238-1	9837-9838	x	_	_	_	\[x	_	BO104	237-0	*->17-3	*[17]	
+238-2	9839-9853	certificazione	_	_	_	certi\]ficazione	_	_	237-1	_	_	
+238-2.1	9839-9844	certi	_	_	_	_	_	_	_	*->17-4	*[17]	
+238-3	9854-9856	ne	_	_	_	ne	_	_	237-2	_	_	
+238-4	9857-9861	avrò	_	_	weakly\_rising	avrò::,	_	_	237-3	_	_	
+238-5	9862-9869	[PAUSE]	_	_	_	(.)	_	_	237-4	_	_	
+238-6	9870-9875	cento	_	_	_	cento	_	_	237-5	_	_	
+238-7	9876-9884	versioni	_	_	weakly\_rising	versioni,	_	_	237-6	_	_	
+
+#Text=la cer~ [PAUSE] la certificazione toefl o un' altra certificazione pari ad un livello b due c uno eccetera
+239-1	9885-9887	la	_	_	_	la	_	BO104	238-0	_	_	
+239-2	9888-9892	cer~	_	_	_	cer~	_	_	238-1	_	_	
+239-3	9893-9900	[PAUSE]	_	_	_	(.)	_	_	238-2	_	_	
+239-4	9901-9903	la	_	_	_	la	_	_	238-3	_	_	
+239-5	9904-9918	certificazione	_	_	_	certificazione	_	_	238-4	_	_	
+239-6	9919-9924	toefl	_	_	weakly\_rising	toefl,	_	_	238-5	_	_	
+239-7	9925-9926	o	_	_	_	o	_	_	238-6	_	_	
+239-8	9927-9930	un'	_	_	_	un'	_	_	238-7	_	_	
+239-9	9931-9936	altra	_	_	_	altra	_	_	238-8	_	_	
+239-10	9937-9951	certificazione	_	_	_	certificazione	_	_	238-9	_	_	
+239-11	9952-9956	pari	_	_	_	pari	_	_	238-10	_	_	
+239-12	9957-9959	ad	_	_	_	ad	_	_	238-11	_	_	
+239-13	9960-9962	un	_	_	_	un	_	_	238-12	_	_	
+239-14	9963-9970	livello	_	_	_	livello	_	_	238-13	_	_	
+239-15	9971-9972	b	_	_	_	b	_	_	238-14	_	_	
+239-16	9973-9976	due	_	_	weakly\_rising	due,	_	_	238-15	_	_	
+239-17	9977-9978	c	_	_	_	c	_	_	238-16	_	_	
+239-18	9979-9982	uno	_	_	_	uno	_	_	238-17	_	_	
+239-19	9983-9991	eccetera	_	_	Falling	eccetera.	_	_	238-18	_	_	
+
+#Text=queste diverse prove [PAUSE] che sono in diverse centinaia perché vengono somministrate in tutto il mondo
+240-1	9992-9998	queste	_	_	_	queste	_	BO104	239-0	_	_	
+240-2	9999-10006	diverse	_	_	_	diverse	_	_	239-1	_	_	
+240-3	10007-10012	prove	_	_	weakly\_rising	pro:ve,	_	_	239-2	_	_	
+240-4	10013-10020	[PAUSE]	_	_	_	(.)	_	_	239-3	_	_	
+240-5	10021-10024	che	_	_	_	che	_	_	239-4	_	_	
+240-6	10025-10029	sono	_	_	_	sono	_	_	239-5	_	_	
+240-7	10030-10032	in	_	_	_	in	_	_	239-6	_	_	
+240-8	10033-10040	diverse	_	_	_	diverse	_	_	239-7	_	_	
+240-9	10041-10050	centinaia	_	_	weakly\_rising	centinaia,	_	_	239-8	_	_	
+240-10	10051-10057	perché	_	_	_	perché	_	_	239-9	_	_	
+240-11	10058-10065	vengono	_	_	_	vengono	_	_	239-10	_	_	
+240-12	10066-10079	somministrate	_	_	_	so\[mministrate	_	_	239-11	_	_	
+240-12.1	10068-10079	mministrate	_	_	_	_	_	_	_	*->23-1	*[23]	
+240-13	10080-10082	in	_	_	_	in	_	_	239-12	*->23-2	*[23]	
+240-13.1	10080-10081	i	_	_	_	_	_	_	_	*->23-1	*[23]	
+240-14	10083-10088	tutto	_	_	_	tutto	_	_	239-13	*->23-3	*[23]	
+240-15	10089-10091	il	_	_	_	il	_	_	239-14	*->23-4	*[23]	
+240-16	10092-10097	mondo	_	_	weakly\_rising	mondo\],	_	_	239-15	*->23-5	*[23]	
+
+#Text=sì [PAUSE] sì sì sì
+241-1	10098-10100	sì	BC[13]	_	_	\[sì	_	BO144	240-0	*->23-6	*[23]	
+241-2	10101-10108	[PAUSE]	BC[13]	_	_	(.)	_	_	240-1	_	_	
+241-2.1	10101-10104	[PA	_	_	_	_	_	_	_	*->23-7	*[23]	
+241-3	10109-10111	sì	BC[13]	_	_	sì	_	_	240-2	*->23-8	*[23]	
+241-4	10112-10114	sì	BC[13]	_	_	sì	_	_	240-3	*->23-9	*[23]	
+241-5	10115-10117	sì	BC[13]	_	weakly\_rising	sì\],	_	_	240-4	*->23-10	*[23]	
+
+#Text=devono essere fra loro [PAUSE] comparabili cioè produrre dei risultati comparabili
+242-1	10118-10124	devono	_	_	_	devono	_	BO104	241-0	_	_	
+242-2	10125-10131	essere	_	_	_	essere	_	_	241-1	_	_	
+242-3	10132-10135	fra	_	_	_	fra	_	_	241-2	_	_	
+242-4	10136-10140	loro	_	_	weakly\_rising	loro,	_	_	241-3	_	_	
+242-5	10141-10148	[PAUSE]	_	_	_	(.)	_	_	241-4	_	_	
+242-6	10149-10160	comparabili	_	_	weakly\_rising	compara:bili,	_	_	241-5	_	_	
+242-7	10161-10165	cioè	_	_	_	cioè	_	_	241-6	_	_	
+242-8	10166-10174	produrre	_	_	_	produrre	_	_	241-7	_	_	
+242-9	10175-10178	dei	_	_	_	dei	_	_	241-8	_	_	
+242-10	10179-10188	risultati	_	_	_	risultati	_	_	241-9	_	_	
+242-11	10189-10200	comparabili	_	_	Falling	comparabili.	_	_	241-10	_	_	
+
+#Text=okay
+243-1	10201-10205	okay	_	_	Falling	okay.	_	BO144	242-0	_	_	
+
+#Text=bene [PAUSE] quindi la [PAUSE] allora l' affidabilità la validità
+244-1	10206-10210	bene	_	_	weakly\_rising	bene,	_	BO104	243-0	_	_	
+244-2	10211-10218	[PAUSE]	_	_	_	(.)	_	_	243-1	_	_	
+244-3	10219-10225	quindi	_	_	_	quindi	_	_	243-2	_	_	
+244-4	10226-10228	la	_	_	_	la	_	_	243-3	_	_	
+244-5	10229-10236	[PAUSE]	_	_	_	(.)	_	_	243-4	_	_	
+244-6	10237-10243	allora	_	_	_	allora	_	_	243-5	_	_	
+244-7	10244-10246	l'	_	_	_	l'	_	_	243-6	_	_	
+244-8	10247-10259	affidabilità	_	_	weakly\_rising	affidabilità,	_	_	243-7	_	_	
+244-9	10260-10262	la	_	_	_	la	_	_	243-8	_	_	
+244-10	10263-10271	validità	_	_	weakly\_rising	validità,	_	_	243-9	_	_	
+
+#Text=e poi
+245-1	10272-10273	e	_	_	_	e	_	BO104	244-0	_	_	
+245-2	10274-10277	poi	_	_	weakly\_rising	poi:,	_	_	244-1	_	_	
+
+#Text=eh mh [PAUSE] e poi abbiamo la [PAUSE] la pertinenza
+246-1	10278-10280	eh	_	FP[36]	_	e:::h	_	BO144	245-0	_	_	
+246-2	10281-10283	mh	_	FP[36]	weakly\_rising	m::::h,	_	_	245-1	_	_	
+246-3	10284-10291	[PAUSE]	_	_	_	(.)	_	_	245-2	_	_	
+246-4	10292-10293	e	_	_	_	e	_	_	245-3	_	_	
+246-5	10294-10297	poi	_	_	_	poi	_	_	245-4	_	_	
+246-6	10298-10305	abbiamo	_	_	_	abbiamo	_	_	245-5	_	_	
+246-7	10306-10308	la	_	_	_	la::	_	_	245-6	_	_	
+246-8	10309-10316	[PAUSE]	_	_	_	(.)	_	_	245-7	_	_	
+246-9	10317-10319	la	_	_	_	la	_	_	245-8	_	_	
+246-10	10320-10330	pertinenza	_	_	weakly\_rising	pertinenza,	_	_	245-9	_	_	
+
+#Text=di un test
+247-1	10331-10333	di	_	_	_	di	_	BO144	246-0	_	_	
+247-2	10334-10336	un	_	_	_	un	_	_	246-1	_	_	
+247-3	10337-10341	test	_	_	weakly\_rising	test,	_	_	246-2	_	_	
+
+#Text=è quello che [PAUSE] mh [PAUSE] porcelli sul manuale definiva con l' a mh [PAUSE] l' acronimo di pace
+248-1	10342-10343	è	_	_	_	è	_	BO144	247-0	_	_	
+248-2	10344-10350	quello	_	_	_	quello	_	_	247-1	_	_	
+248-3	10351-10354	che	_	_	weakly\_rising	che,	_	_	247-2	_	_	
+248-4	10355-10362	[PAUSE]	_	_	_	(.)	_	_	247-3	_	_	
+248-5	10363-10365	mh	_	FP	_	m:h	_	_	247-4	_	_	
+248-6	10366-10373	[PAUSE]	_	_	_	(.)	_	_	247-5	_	_	
+248-7	10374-10382	porcelli	_	_	weakly\_rising	porcelli,	_	_	247-6	_	_	
+248-8	10383-10386	sul	_	_	_	sul	_	_	247-7	_	_	
+248-9	10387-10394	manuale	_	_	weakly\_rising	manuale,	_	_	247-8	_	_	
+248-10	10395-10403	definiva	_	_	_	definiva	_	_	247-9	_	_	
+248-11	10404-10407	con	_	_	_	con	_	_	247-10	_	_	
+248-12	10408-10410	l'	_	_	_	l'	_	_	247-11	_	_	
+248-13	10411-10412	a	_	_	_	a:	_	_	247-12	_	_	
+248-14	10413-10415	mh	_	FP	_	m:h	_	_	247-13	_	_	
+248-15	10416-10423	[PAUSE]	_	_	_	(.)	_	_	247-14	_	_	
+248-16	10424-10426	l'	_	_	_	l'	_	_	247-15	_	_	
+248-17	10427-10435	acronimo	_	_	_	acronimo	_	_	247-16	_	_	
+248-18	10436-10438	di	_	_	_	di	_	_	247-17	_	_	
+248-19	10439-10443	pace	_	_	Falling	pace.	_	_	247-18	_	_	
+
+#Text=cioè [PAUSE] quello che un test deve possedere [PAUSE] è la pertinenza
+249-1	10444-10448	cioè	_	_	weakly\_rising	cioè,	_	BO144	248-0	_	_	
+249-2	10449-10456	[PAUSE]	_	_	_	(.)	_	_	248-1	_	_	
+249-3	10457-10463	quello	_	_	_	quello	_	_	248-2	_	_	
+249-4	10464-10467	che	_	_	_	che	_	_	248-3	_	_	
+249-5	10468-10470	un	_	_	_	un	_	_	248-4	_	_	
+249-6	10471-10475	test	_	_	_	test	_	_	248-5	_	_	
+249-7	10476-10480	deve	_	_	_	deve	_	_	248-6	_	_	
+249-8	10481-10490	possedere	_	_	weakly\_rising	possedere,	_	_	248-7	_	_	
+249-9	10491-10498	[PAUSE]	_	_	_	(.)	_	_	248-8	_	_	
+249-10	10499-10500	è	_	_	_	è	_	_	248-9	_	_	
+249-11	10501-10503	la	_	_	_	la	_	_	248-10	_	_	
+249-12	10504-10514	pertinenza	_	_	weakly\_rising	pertinenza,	_	_	248-11	_	_	
+
+#Text=eh [PAUSE] dei contenuti
+250-1	10515-10517	eh	_	FP	_	e::h	_	BO144	249-0	_	_	
+250-2	10518-10525	[PAUSE]	_	_	_	(.)	_	_	249-1	_	_	
+250-3	10526-10529	dei	_	_	_	dei	_	_	249-2	_	_	
+250-4	10530-10539	contenuti	_	_	weakly\_rising	contenuti,	_	_	249-3	_	_	
+
+#Text=perché ovviamente quello che dev' essere
+251-1	10540-10546	perché	_	_	_	perché	_	BO144	250-0	_	_	
+251-2	10547-10557	ovviamente	_	_	_	ovviamente	_	_	250-1	_	_	
+251-3	10558-10564	quello	_	_	_	quello	_	_	250-2	_	_	
+251-4	10565-10568	che	_	_	_	che	_	_	250-3	_	_	
+251-5	10569-10573	dev'	_	_	_	dev'	_	_	250-4	_	_	
+251-6	10574-10580	essere	_	_	weakly\_rising	essere,	_	_	250-5	_	_	
+
+#Text=mh [PAUSE] domandato nel test deve essere stato prima
+252-1	10581-10583	mh	_	FP	weakly\_rising	m:h,	_	BO144	251-0	_	_	
+252-2	10584-10591	[PAUSE]	_	_	_	(.)	_	_	251-1	_	_	
+252-3	10592-10601	domandato	_	_	_	domandato	_	_	251-2	_	_	
+252-4	10602-10605	nel	_	_	_	nel	_	_	251-3	_	_	
+252-5	10606-10610	test	_	_	weakly\_rising	test,	_	_	251-4	_	_	
+252-6	10611-10615	deve	_	_	_	deve	_	_	251-5	_	_	
+252-7	10616-10622	essere	_	_	_	essere	_	_	251-6	_	_	
+252-8	10623-10628	stato	_	_	_	stato	_	_	251-7	_	_	
+252-9	10629-10634	prima	_	_	weakly\_rising	prima,	_	_	251-8	_	_	
+
+#Text=spiegato [PAUSE] o comunque [PAUSE] dichiarato
+253-1	10635-10643	spiegato	_	_	weakly\_rising	spiegato,	_	BO144	252-0	_	_	
+253-2	10644-10651	[PAUSE]	_	_	_	(.)	_	_	252-1	_	_	
+253-3	10652-10653	o	_	_	_	o	_	_	252-2	_	_	
+253-4	10654-10662	comunque	_	_	_	comunque	_	_	252-3	_	_	
+253-5	10663-10670	[PAUSE]	_	_	_	(.)	_	_	252-4	_	_	
+253-6	10671-10681	dichiarato	_	_	Falling	dichiara:to.	_	_	252-5	_	_	
+
+#Text=dev' essere [PAUSE] accettabile
+254-1	10682-10686	dev'	_	_	_	dev'	_	BO144	253-0	_	_	
+254-2	10687-10693	essere	_	_	weakly\_rising	essere,	_	_	253-1	_	_	
+254-3	10694-10701	[PAUSE]	_	_	_	(.)	_	_	253-2	_	_	
+254-4	10702-10713	accettabile	_	_	weakly\_rising	accettabile,	_	_	253-3	_	_	
+
+#Text=e deve essere [PAUSE] comparabile
+255-1	10714-10715	e	_	_	_	e::	_	BO144	254-0	_	_	
+255-2	10716-10720	deve	_	_	_	deve	_	_	254-1	_	_	
+255-3	10721-10727	essere	_	_	_	essere::	_	_	254-2	_	_	
+255-4	10728-10735	[PAUSE]	_	_	_	(.)	_	_	254-3	_	_	
+255-5	10736-10747	comparabile	_	_	weakly\_rising	comparabile,	_	_	254-4	_	_	
+
+#Text=cioè i dati [PAUSE] che io ottengo appunto da [PAUSE] da questi test devono essere comparabili con quelli altri che magari già possiede l' insegnante
+256-1	10748-10752	cioè	_	_	_	cioè	_	BO144	255-0	_	_	
+256-2	10753-10754	i	_	_	_	i	_	_	255-1	_	_	
+256-3	10755-10759	dati	_	_	weakly\_rising	dati,	_	_	255-2	_	_	
+256-4	10760-10767	[PAUSE]	_	_	_	(.)	_	_	255-3	_	_	
+256-5	10768-10771	che	_	_	_	che	_	_	255-4	_	_	
+256-6	10772-10774	io	_	_	_	io	_	_	255-5	_	_	
+256-7	10775-10782	ottengo	_	_	_	ottengo	_	_	255-6	_	_	
+256-8	10783-10790	appunto	_	_	_	appunto	_	_	255-7	_	_	
+256-9	10791-10793	da	_	_	_	da:	_	_	255-8	_	_	
+256-10	10794-10801	[PAUSE]	_	_	_	(.)	_	_	255-9	_	_	
+256-11	10802-10804	da	_	_	_	da	_	_	255-10	_	_	
+256-12	10805-10811	questi	_	_	_	questi	_	_	255-11	_	_	
+256-13	10812-10816	test	_	_	_	test	_	_	255-12	_	_	
+256-14	10817-10823	devono	_	_	_	devono	_	_	255-13	_	_	
+256-15	10824-10830	essere	_	_	_	essere	_	_	255-14	_	_	
+256-16	10831-10842	comparabili	_	_	_	comparabili	_	_	255-15	_	_	
+256-17	10843-10846	con	_	_	_	con	_	_	255-16	_	_	
+256-18	10847-10853	quelli	_	_	_	quelli	_	_	255-17	_	_	
+256-19	10854-10859	altri	_	_	_	altri	_	_	255-18	_	_	
+256-20	10860-10863	che	_	_	_	che	_	_	255-19	_	_	
+256-21	10864-10870	magari	_	_	_	magari	_	_	255-20	_	_	
+256-22	10871-10874	già	_	_	_	già	_	_	255-21	_	_	
+256-23	10875-10883	possiede	_	_	_	possiede	_	_	255-22	_	_	
+256-24	10884-10886	l'	_	_	_	l'	_	_	255-23	_	_	
+256-25	10887-10897	insegnante	_	_	weakly\_rising	insegnante,	_	_	255-24	_	_	
+
+#Text=e soprattutto [PAUSE] eh mh porcelli parla di economia
+257-1	10898-10899	e	_	_	_	e	_	BO144	256-0	_	_	
+257-2	10900-10911	soprattutto	_	_	weakly\_rising	soprattutto,	_	_	256-1	_	_	
+257-3	10912-10919	[PAUSE]	_	_	_	(.)	_	_	256-2	_	_	
+257-4	10920-10922	eh	_	FP[37]	_	e::h	_	_	256-3	_	_	
+257-5	10923-10925	mh	_	FP[37]	_	m::h	_	_	256-4	_	_	
+257-6	10926-10934	porcelli	_	_	_	porcelli	_	_	256-5	_	_	
+257-7	10935-10940	parla	_	_	_	parla	_	_	256-6	_	_	
+257-8	10941-10943	di	_	_	_	di	_	_	256-7	_	_	
+257-9	10944-10952	economia	_	_	weakly\_rising	economia,	_	_	256-8	_	_	
+
+#Text=di un test cioè
+258-1	10953-10955	di	_	_	_	di	_	BO144	257-0	_	_	
+258-2	10956-10958	un	_	_	_	un	_	_	257-1	_	_	
+258-3	10959-10963	test	_	_	weakly\_rising	test,	_	_	257-2	_	_	
+258-4	10964-10968	cioè	_	_	weakly\_rising	cioè:,	_	_	257-3	_	_	
+
+#Text=la mh [PAUSE] il rapporto tra
+259-1	10969-10971	la	_	_	_	la:::	SR[73]	BO144	258-0	_	_	
+259-2	10972-10974	mh	_	FP	weakly\_rising	mh,	SR[73]	_	258-1	_	_	
+259-3	10975-10982	[PAUSE]	_	_	_	(.)	SR[73]	_	258-2	_	_	
+259-4	10983-10985	il	_	_	_	il	SR[73]	_	258-3	_	_	
+259-5	10986-10994	rapporto	_	_	_	rapporto	SR[73]	_	258-4	_	_	
+259-6	10995-10998	tra	_	_	weakly\_rising	tra,	_	_	258-5	_	_	
+
+#Text=quanto il testi mi risulta effettivamente utile
+260-1	10999-11005	quanto	_	_	_	quanto	_	BO144	259-0	_	_	
+260-2	11006-11008	il	_	_	_	il	_	_	259-1	_	_	
+260-3	11009-11014	testi	_	_	_	testi	_	_	259-2	_	_	
+260-4	11015-11017	mi	_	_	_	mi	_	_	259-3	_	_	
+260-5	11018-11025	risulta	_	_	_	risulta	_	_	259-4	_	_	
+260-6	11026-11040	effettivamente	_	_	_	effettivamente	_	_	259-5	_	_	
+260-7	11041-11046	utile	_	_	weakly\_rising	utile,	_	_	259-6	_	_	
+
+#Text=e [PAUSE] il tempo
+261-1	11047-11048	e	_	_	_	e	_	BO144	260-0	_	_	
+261-2	11049-11056	[PAUSE]	_	_	_	(.)	_	_	260-1	_	_	
+261-3	11057-11059	il	_	_	_	il	_	_	260-2	_	_	
+261-4	11060-11065	tempo	_	_	weakly\_rising	tempo:,	_	_	260-3	_	_	
+
+#Text=la fatica e l' impegno che il test eh mi richiede
+262-1	11066-11068	la	_	_	_	la	_	BO144	261-0	_	_	
+262-2	11069-11075	fatica	_	_	_	fatica	_	_	261-1	_	_	
+262-3	11076-11077	e	_	_	_	e	_	_	261-2	_	_	
+262-4	11078-11080	l'	_	_	_	l'	_	_	261-3	_	_	
+262-5	11081-11088	impegno	_	_	weakly\_rising	impegno,	_	_	261-4	_	_	
+262-6	11089-11092	che	_	_	_	che	_	_	261-5	_	_	
+262-7	11093-11095	il	_	_	_	il	_	_	261-6	_	_	
+262-8	11096-11100	test	_	_	_	test	_	_	261-7	_	_	
+262-9	11101-11103	eh	_	FP	_	e:h	_	_	261-8	_	_	
+262-10	11104-11106	mi	_	_	_	mi	_	_	261-9	_	_	
+262-11	11107-11115	richiede	_	_	Falling	richiede.	_	_	261-10	_	_	
+
+#Text=mh mh
+263-1	11116-11118	mh	BC[14]	_	_	mh	_	BO104	262-0	_	_	
+263-2	11119-11121	mh	BC[14]	_	weakly\_rising	mh,	_	_	262-1	_	_	
+
+#Text=per realizzarlo sia proprio [PAUSE] mh concretamente
+264-1	11122-11125	per	_	_	_	per	_	BO144	263-0	_	_	
+264-2	11126-11137	realizzarlo	_	_	_	realizzarlo	_	_	263-1	_	_	
+264-3	11138-11141	sia	_	_	_	sia	_	_	263-2	_	_	
+264-4	11142-11149	proprio	_	_	weakly\_rising	proprio,	_	_	263-3	_	_	
+264-5	11150-11157	[PAUSE]	_	_	_	(.)	_	_	263-4	_	_	
+264-6	11158-11160	mh	_	FP	_	mh	_	_	263-5	_	_	
+264-7	11161-11174	concretamente	_	_	weakly\_rising	concretamente,	_	_	263-6	_	_	
+
+#Text=sia invece [PAUSE] sottopon~ [PAUSE] il tempo che invece mi richiede in classe per spiegarlo e poi sottoporlo
+265-1	11175-11178	sia	_	_	_	sia	_	BO144	264-0	_	_	
+265-2	11179-11185	invece	_	_	_	invece::	_	_	264-1	_	_	
+265-3	11186-11193	[PAUSE]	_	_	_	(.)	_	_	264-2	_	_	
+265-4	11194-11203	sottopon~	_	_	_	sottopon~	SR[74]	_	264-3	_	_	
+265-5	11204-11211	[PAUSE]	_	_	_	(.)	SR[74]	_	264-4	_	_	
+265-6	11212-11214	il	_	_	_	il	SR[74]	_	264-5	_	_	
+265-7	11215-11220	tempo	_	_	_	tempo	SR[74]	_	264-6	_	_	
+265-8	11221-11224	che	_	_	_	che	SR[74]	_	264-7	_	_	
+265-9	11225-11231	invece	_	_	_	invece	SR[74]	_	264-8	_	_	
+265-10	11232-11234	mi	_	_	_	mi	SR[74]	_	264-9	_	_	
+265-11	11235-11243	richiede	_	_	_	richiede	SR[74]	_	264-10	_	_	
+265-12	11244-11246	in	_	_	_	in	SR[74]	_	264-11	_	_	
+265-13	11247-11253	classe	_	_	weakly\_rising	classe,	SR[74]	_	264-12	_	_	
+265-14	11254-11257	per	_	_	_	per	SR[74]	_	264-13	_	_	
+265-15	11258-11267	spiegarlo	_	_	_	spieg\[arlo	SR[74]	_	264-14	_	_	
+265-15.1	11263-11267	arlo	_	_	_	_	_	_	_	*->11-1	*[11]	
+265-16	11268-11269	e	_	_	_	e	SR[74]	_	264-15	*->11-1|*->11-2	*[11]|*[11]	
+265-17	11270-11273	poi	_	_	_	p\]oi	SR[74]	_	264-16	_	_	
+265-17.1	11270-11272	po	_	_	_	_	_	_	_	*->11-1	*[11]	
+265-17.2	11270-11271	p	_	_	_	_	_	_	_	*->11-3	*[11]	
+265-18	11274-11284	sottoporlo	_	_	weakly\_rising	sottoporlo:,	SR[74]	_	264-17	_	_	
+
+#Text=mh
+266-1	11285-11287	mh	BC	_	weakly\_rising	\[mh\],	_	BO104	265-0	*->11-4	*[11]	
+
+#Text=agli mh [PAUSE] agli mh [PAUSE] allievi
+267-1	11288-11292	agli	_	_	_	agli	_	BO144	266-0	_	_	
+267-2	11293-11295	mh	_	FP	weakly\_rising	m::h,	_	_	266-1	_	_	
+267-3	11296-11303	[PAUSE]	_	_	_	(.)	_	_	266-2	_	_	
+267-4	11304-11308	agli	_	_	_	agli	_	_	266-3	_	_	
+267-5	11309-11311	mh	_	FP	_	m:h	_	_	266-4	_	_	
+267-6	11312-11319	[PAUSE]	_	_	_	(.)	_	_	266-5	_	_	
+267-7	11320-11327	allievi	_	_	weakly\_rising	\[allie\]vi,	_	_	266-6	_	_	
+267-7.1	11320-11325	allie	_	_	_	_	_	_	_	*->41-1	*[41]	
+
+#Text=mh
+268-1	11328-11330	mh	BC	_	weakly\_rising	m:h\],	_	BO104	267-0	_	_	
+
+#Text=sì nella diciamo [PAUSE] nella mh
+269-1	11331-11333	sì	_	_	weakly\_rising	sì,	_	BO104	268-0	_	_	
+269-2	11334-11339	nella	_	_	_	nella	_	_	268-1	_	_	
+269-3	11340-11347	diciamo	_	_	_	diciamo	_	_	268-2	_	_	
+269-4	11348-11355	[PAUSE]	_	_	_	(.)	_	_	268-3	_	_	
+269-5	11356-11361	nella	_	_	_	nella::	_	_	268-4	_	_	
+269-6	11362-11364	mh	_	FP	weakly\_rising	m::h,	_	_	268-5	_	_	
+
+#Text=analisi di bachman e palmer si parla anche di autenticità e di [PAUSE] interattività
+270-1	11365-11372	analisi	_	_	_	analisi	_	BO104	269-0	_	_	
+270-2	11373-11375	di	_	_	_	di	_	_	269-1	_	_	
+270-3	11376-11383	bachman	_	_	_	bachman	_	_	269-2	_	_	
+270-4	11384-11385	e	_	_	_	e	_	_	269-3	_	_	
+270-5	11386-11392	palmer	_	_	weakly\_rising	palmer,	_	_	269-4	_	_	
+270-6	11393-11395	si	_	_	_	si	_	_	269-5	_	_	
+270-7	11396-11401	parla	_	_	_	parla	_	_	269-6	_	_	
+270-8	11402-11407	anche	_	_	_	anche	_	_	269-7	_	_	
+270-9	11408-11410	di	_	_	_	di	_	_	269-8	_	_	
+270-10	11411-11422	autenticità	_	_	weakly\_rising	<autenticità>,	_	_	269-9	_	_	
+270-11	11423-11424	e	_	_	_	e	_	_	269-10	_	_	
+270-12	11425-11427	di	_	_	_	di	_	_	269-11	_	_	
+270-13	11428-11435	[PAUSE]	_	_	_	(.)	_	_	269-12	_	_	
+270-14	11436-11449	interattività	_	_	Falling	interattività.	_	_	269-13	_	_	
+
+#Text=eh mh [PAUSE] allora
+271-1	11450-11452	eh	_	FP[38]	_	e::h	_	BO144	270-0	_	_	
+271-2	11453-11455	mh	_	FP[38]	weakly\_rising	m:::h,	_	_	270-1	_	_	
+271-3	11456-11463	[PAUSE]	_	_	_	(.)	_	_	270-2	_	_	
+271-4	11464-11470	allora	_	_	weakly\_rising	allora,	_	_	270-3	_	_	
+
+#Text=per quanto riguarda l' interattività
+272-1	11471-11474	per	_	_	_	per	_	BO144	271-0	_	_	
+272-2	11475-11481	quanto	_	_	_	quanto	_	_	271-1	_	_	
+272-3	11482-11490	riguarda	_	_	_	riguarda	_	_	271-2	_	_	
+272-4	11491-11493	l'	_	_	_	l'	_	_	271-3	_	_	
+272-5	11494-11507	interattività	_	_	weakly\_rising	interattività:,	_	_	271-4	_	_	
+
+#Text=eh mh
+273-1	11508-11510	eh	_	FP[39]	_	e::h	_	BO144	272-0	_	_	
+273-2	11511-11513	mh	_	FP[39]	weakly\_rising	m:::h,	_	_	272-1	_	_	
+
+#Text=è un termine un po' fuorivante interattività però è il termine che utilizzano loro
+274-1	11514-11515	è	_	_	_	è	_	BO104	273-0	_	_	
+274-2	11516-11518	un	_	_	_	un	_	_	273-1	_	_	
+274-3	11519-11526	termine	_	_	_	termine	_	_	273-2	_	_	
+274-4	11527-11529	un	_	_	_	un	_	_	273-3	_	_	
+274-5	11530-11533	po'	_	_	_	po':	_	_	273-4	_	_	
+274-6	11534-11544	fuorivante	_	_	weakly\_rising	fuorivante,	_	_	273-5	_	_	
+274-7	11545-11558	interattività	_	_	_	interattività	_	_	273-6	_	_	
+274-8	11559-11563	però	_	_	_	però	_	_	273-7	_	_	
+274-9	11564-11565	è	_	_	_	è	_	_	273-8	_	_	
+274-10	11566-11568	il	_	_	_	il	_	_	273-9	_	_	
+274-11	11569-11576	termine	_	_	_	termine	_	_	273-10	_	_	
+274-12	11577-11580	che	_	_	_	che	_	_	273-11	_	_	
+274-13	11581-11591	utilizzano	_	_	_	utilizzano	_	_	273-12	_	_	
+274-14	11592-11596	loro	_	_	weakly\_rising	lo:ro,	_	_	273-13	_	_	
+
+#Text=cioè
+275-1	11597-11601	cioè	_	_	weakly\_rising	cioè,	_	BO104	274-0	_	_	
+
+#Text=eh non non si non non non ci si riferisce alla valutazione delle capacità interazionali
+276-1	11602-11604	eh	_	FP	_	e::h	_	BO104	275-0	_	_	
+276-2	11605-11608	non	_	_	_	non	_	_	275-1	_	_	
+276-3	11609-11612	non	_	_	_	non	_	_	275-2	_	_	
+276-4	11613-11615	si	_	_	_	si	_	_	275-3	_	_	
+276-5	11616-11619	non	_	_	_	non:	_	_	275-4	_	_	
+276-6	11620-11623	non	_	_	_	non::	_	_	275-5	_	_	
+276-7	11624-11627	non	_	_	_	non	_	_	275-6	_	_	
+276-8	11628-11630	ci	_	_	_	ci	_	_	275-7	_	_	
+276-9	11631-11633	si	_	_	_	si	_	_	275-8	_	_	
+276-10	11634-11643	riferisce	_	_	_	riferisce	_	_	275-9	_	_	
+276-11	11644-11648	alla	_	_	_	alla	_	_	275-10	_	_	
+276-12	11649-11660	valutazione	_	_	_	valutazione	_	_	275-11	_	_	
+276-13	11661-11666	delle	_	_	_	delle	_	_	275-12	_	_	
+276-14	11667-11675	capacità	_	_	_	capacità	_	_	275-13	_	_	
+276-15	11676-11689	interazionali	_	_	weakly\_rising	interazionali,	_	_	275-14	_	_	
+
+#Text=quindi
+277-1	11690-11696	quindi	_	_	weakly\_rising	quindi:,	_	BO104	276-0	_	_	
+
+#Text=sì sì s~
+278-1	11697-11699	sì	BC[15]	_	_	sì	_	BO144	277-0	_	_	
+278-2	11700-11702	sì	BC[15]	_	_	sì	_	_	277-1	_	_	
+278-3	11703-11705	s~	BC[15]	_	weakly\_rising	\[s~\],	_	_	277-2	*->27-1	*[27]	
+
+#Text=l' interazione orale dei candidati
+279-1	11706-11708	l'	_	_	_	\[l'	_	BO104	278-0	*->27-2	*[27]	
+279-2	11709-11720	interazione	_	_	_	i\]nterazione	_	_	278-1	_	_	
+279-2.1	11709-11710	i	_	_	_	_	_	_	_	*->27-3	*[27]	
+279-3	11721-11726	orale	_	_	_	ora:le	_	_	278-2	_	_	
+279-4	11727-11730	dei	_	_	_	dei	_	_	278-3	_	_	
+279-5	11731-11740	candidati	_	_	Falling	candidati.	_	_	278-4	_	_	
+
+#Text=ci si riferisce [PAUSE] alla
+280-1	11741-11743	ci	_	_	_	ci	_	BO104	279-0	_	_	
+280-2	11744-11746	si	_	_	_	si	_	_	279-1	_	_	
+280-3	11747-11756	riferisce	_	_	weakly\_rising	riferisce:,	_	_	279-2	_	_	
+280-4	11757-11764	[PAUSE]	_	_	_	(.)	_	_	279-3	_	_	
+280-5	11765-11769	alla	_	_	weakly\_rising	alla,	_	_	279-4	_	_	
+
+#Text=eh [PAUSE] come dire all' effi~ [PAUSE] alla flessibilità
+281-1	11770-11772	eh	_	FP	_	e::::h	_	BO104	280-0	_	_	
+281-2	11773-11780	[PAUSE]	_	_	_	(.)	_	_	280-1	_	_	
+281-3	11781-11785	come	_	_	_	come	_	_	280-2	_	_	
+281-4	11786-11790	dire	_	_	_	dire	_	_	280-3	_	_	
+281-5	11791-11795	all'	_	_	_	all'	SR[75]	_	280-4	_	_	
+281-6	11796-11801	effi~	_	_	_	effi~	SR[75]	_	280-5	_	_	
+281-7	11802-11809	[PAUSE]	_	_	_	(.)	SR[75]	_	280-6	_	_	
+281-8	11810-11814	alla	_	_	_	alla	SR[75]	_	280-7	_	_	
+281-9	11815-11827	flessibilità	_	_	weakly\_rising	flessibilità,	SR[75]	_	280-8	_	_	
+
+#Text=delle domande delle caresti~ x [PAUSE] caratteristiche del test rispetto alle caratteristiche del candidato
+282-1	11828-11833	delle	_	_	_	delle	_	BO104	281-0	_	_	
+282-2	11834-11841	domande	_	_	_	domande	_	_	281-1	_	_	
+282-3	11842-11847	delle	_	_	_	delle	SR[76]	_	281-2	_	_	
+282-4	11848-11856	caresti~	_	_	_	caresti~	SR[76]	_	281-3	_	_	
+282-5	11857-11858	x	_	_	_	xxx	SR[76]	_	281-4	_	_	
+282-6	11859-11866	[PAUSE]	_	_	_	(.)	SR[76]	_	281-5	_	_	
+282-7	11867-11882	caratteristiche	_	_	_	caratteristiche	SR[76]	_	281-6	_	_	
+282-8	11883-11886	del	_	_	_	del	_	_	281-7	_	_	
+282-9	11887-11891	test	_	_	weakly\_rising	test,	_	_	281-8	_	_	
+282-10	11892-11900	rispetto	_	_	_	rispetto	_	_	281-9	_	_	
+282-11	11901-11905	alle	_	_	_	alle	_	_	281-10	_	_	
+282-12	11906-11921	caratteristiche	_	_	_	caratteristiche	_	_	281-11	_	_	
+282-13	11922-11925	del	_	_	_	del	_	_	281-12	_	_	
+282-14	11926-11935	candidato	_	_	Falling	candida:to:.	_	_	281-13	_	_	
+
+#Text=perché soprattutto per i test
+283-1	11936-11942	perché	_	_	_	perché	_	BO144	282-0	_	_	
+283-2	11943-11954	soprattutto	_	_	_	soprattutto	_	_	282-1	_	_	
+283-3	11955-11958	per	_	_	_	per	_	_	282-2	_	_	
+283-4	11959-11960	i	_	_	_	i	_	_	282-3	_	_	
+283-5	11961-11965	test	_	_	weakly\_rising	test,	_	_	282-4	_	_	
+
+#Text=eh mh
+284-1	11966-11968	eh	_	FP[40]	_	e::h	_	BO144	283-0	_	_	
+284-2	11969-11971	mh	_	FP[40]	weakly\_rising	m::h,	_	_	283-1	_	_	
+
+#Text=che valutano la competenza raggiunta nel corso del eh mh
+285-1	11972-11975	che	_	_	_	che	_	BO144	284-0	_	_	
+285-2	11976-11984	valutano	_	_	weakly\_rising	valutano,	_	_	284-1	_	_	
+285-3	11985-11987	la	_	_	_	la	_	_	284-2	_	_	
+285-4	11988-11998	competenza	_	_	_	competenza	_	_	284-3	_	_	
+285-5	11999-12008	raggiunta	_	_	_	raggiunta	_	_	284-4	_	_	
+285-6	12009-12012	nel	_	_	_	nel	_	_	284-5	_	_	
+285-7	12013-12018	corso	_	_	_	corso	_	_	284-6	_	_	
+285-8	12019-12022	del	_	_	_	del	_	_	284-7	_	_	
+285-9	12023-12025	eh	_	FP[41]	_	e:h	_	_	284-8	_	_	
+285-10	12026-12028	mh	_	FP[41]	weakly\_rising	mh,	_	_	284-9	_	_	
+
+#Text=del corso
+286-1	12029-12032	del	_	_	_	del	_	BO144	285-0	_	_	
+286-2	12033-12038	corso	_	_	weakly\_rising	corso,	_	_	285-1	_	_	
+
+#Text=sono solitamente test che vengono creati dai gli mh dai [PAUSE] docenti
+287-1	12039-12043	sono	_	_	_	sono	_	BO144	286-0	_	_	
+287-2	12044-12055	solitamente	_	_	_	solitamente	_	_	286-1	_	_	
+287-3	12056-12060	test	_	_	_	test	_	_	286-2	_	_	
+287-4	12061-12064	che	_	_	_	che	_	_	286-3	_	_	
+287-5	12065-12072	vengono	_	_	_	vengono	_	_	286-4	_	_	
+287-6	12073-12079	creati	_	_	_	creati	_	_	286-5	_	_	
+287-7	12080-12083	dai	_	_	_	dai	_	_	286-6	_	_	
+287-8	12084-12087	gli	_	_	_	gli	_	_	286-7	_	_	
+287-9	12088-12090	mh	_	FP	_	m:h	_	_	286-8	_	_	
+287-10	12091-12094	dai	_	_	weakly\_rising	dai,	_	_	286-9	_	_	
+287-11	12095-12102	[PAUSE]	_	_	_	(.)	_	_	286-10	_	_	
+287-12	12103-12110	docenti	_	_	weakly\_rising	docenti,	_	_	286-11	_	_	
+
+#Text=e che quindi sono testi più [PAUSE] soggettivi perché conscono
+288-1	12111-12112	e	_	_	_	e	_	BO144	287-0	_	_	
+288-2	12113-12116	che	_	_	_	che	_	_	287-1	_	_	
+288-3	12117-12123	quindi	_	_	_	quindi	_	_	287-2	_	_	
+288-4	12124-12128	sono	_	_	_	sono	_	_	287-3	_	_	
+288-5	12129-12134	testi	_	_	_	testi	_	_	287-4	_	_	
+288-6	12135-12138	più	_	_	weakly\_rising	più,	_	_	287-5	_	_	
+288-7	12139-12146	[PAUSE]	_	_	_	(.)	_	_	287-6	_	_	
+288-8	12147-12157	soggettivi	_	_	_	soggettivi	_	_	287-7	_	_	
+288-9	12158-12164	perché	_	_	_	perché	_	_	287-8	_	_	
+288-10	12165-12173	conscono	_	_	weakly\_rising	conscono:,	_	_	287-9	_	_	
+
+#Text=o perlomeno hanno
+289-1	12174-12175	o	_	_	_	o	_	BO144	288-0	_	_	
+289-2	12176-12185	perlomeno	_	_	weakly\_rising	perlomeno,	_	_	288-1	_	_	
+289-3	12186-12191	hanno	_	_	weakly\_rising	hanno,	_	_	288-2	_	_	
+
+#Text=un' idea generale del candidato a cui verrà sottoposto
+290-1	12192-12195	un'	_	_	_	un'	_	BO144	289-0	_	_	
+290-2	12196-12200	idea	_	_	_	idea	_	_	289-1	_	_	
+290-3	12201-12209	generale	_	_	weakly\_rising	generale,	_	_	289-2	_	_	
+290-4	12210-12213	del	_	_	_	del	_	_	289-3	_	_	
+290-5	12214-12223	candidato	_	_	_	candidato	_	_	289-4	_	_	
+290-6	12224-12225	a	_	_	_	a	_	_	289-5	_	_	
+290-7	12226-12229	cui	_	_	_	cui	_	_	289-6	_	_	
+290-8	12230-12235	verrà	_	_	_	verrà	_	_	289-7	_	_	
+290-9	12236-12246	sottoposto	_	_	Falling	sottoposto.	_	_	289-8	_	_	
+
+#Text=mentre ad esempio nei test delle cer~ [PAUSE] per le certificazioni
+291-1	12247-12253	mentre	_	_	_	mentre	_	BO144	290-0	_	_	
+291-2	12254-12256	ad	_	_	_	ad	_	_	290-1	_	_	
+291-3	12257-12264	esempio	_	_	_	esempio	_	_	290-2	_	_	
+291-4	12265-12268	nei	_	_	_	nei	_	_	290-3	_	_	
+291-5	12269-12273	test	_	_	_	test	_	_	290-4	_	_	
+291-6	12274-12279	delle	_	_	_	delle	SR[77]	_	290-5	_	_	
+291-7	12280-12284	cer~	_	_	_	cer~	SR[77]	_	290-6	_	_	
+291-8	12285-12292	[PAUSE]	_	_	_	(.)	SR[77]	_	290-7	_	_	
+291-9	12293-12296	per	_	_	_	per	SR[77]	_	290-8	_	_	
+291-10	12297-12299	le	_	_	_	le	SR[77]	_	290-9	_	_	
+291-11	12300-12314	certificazioni	_	_	weakly\_rising	certificazioni:,	SR[77]	_	290-10	_	_	
+
+#Text=chi crea il test [PAUSE] non sa
+292-1	12315-12318	chi	_	_	_	chi	_	BO144	291-0	_	_	
+292-2	12319-12323	crea	_	_	_	crea	_	_	291-1	_	_	
+292-3	12324-12326	il	_	_	_	il	_	_	291-2	_	_	
+292-4	12327-12331	test	_	_	_	test	_	_	291-3	_	_	
+292-5	12332-12339	[PAUSE]	_	_	_	(.)	_	_	291-4	_	_	
+292-6	12340-12343	non	_	_	_	non	_	_	291-5	_	_	
+292-7	12344-12346	sa	_	_	weakly\_rising	sa,	_	_	291-6	_	_	
+
+#Text=quali competenze ha effettivamente raggiunto quante ore ha dedicato allo studio l' allievo
+293-1	12347-12352	quali	_	_	_	quali	_	BO144	292-0	_	_	
+293-2	12353-12363	competenze	_	_	_	competenze	_	_	292-1	_	_	
+293-3	12364-12366	ha	_	_	_	ha	_	_	292-2	_	_	
+293-4	12367-12381	effettivamente	_	_	_	effettivamente	_	_	292-3	_	_	
+293-5	12382-12391	raggiunto	_	_	weakly\_rising	raggiunto,	_	_	292-4	_	_	
+293-6	12392-12398	quante	_	_	_	quante	_	_	292-5	_	_	
+293-7	12399-12402	ore	_	_	_	ore	_	_	292-6	_	_	
+293-8	12403-12405	ha	_	_	_	ha	_	_	292-7	_	_	
+293-9	12406-12414	dedicato	_	_	_	dedicato	_	_	292-8	_	_	
+293-10	12415-12419	allo	_	_	_	allo	_	_	292-9	_	_	
+293-11	12420-12426	studio	_	_	_	studio	_	_	292-10	_	_	
+293-12	12427-12429	l'	_	_	_	l'	_	_	292-11	_	_	
+293-13	12430-12437	allievo	_	_	weakly\_rising	allievo,	_	_	292-12	_	_	
+
+#Text=quel tipo di programma affrontato
+294-1	12438-12442	quel	_	_	_	quel	_	BO144	293-0	_	_	
+294-2	12443-12447	tipo	_	_	_	tipo	_	_	293-1	_	_	
+294-3	12448-12450	di	_	_	_	di	_	_	293-2	_	_	
+294-4	12451-12460	programma	_	_	_	programma	_	_	293-3	_	_	
+294-5	12461-12471	affrontato	_	_	weakly\_rising	affronta:to,	_	_	293-4	_	_	
+
+#Text=l' allievo
+295-1	12472-12474	l'	_	_	_	l'	_	BO144	294-0	_	_	
+295-2	12475-12482	allievo	_	_	Falling	allievo.	_	_	294-1	_	_	
+
+#Text=e quindi
+296-1	12483-12484	e	_	_	_	e	_	BO144	295-0	_	_	
+296-2	12485-12491	quindi	_	_	weakly\_rising	quindi,	_	_	295-1	_	_	
+
+#Text=mh non [PAUSE] non c' è proprio questa interazione
+297-1	12492-12494	mh	_	FP	_	m::h	_	BO144	296-0	_	_	
+297-2	12495-12498	non	_	_	_	non::	_	_	296-1	_	_	
+297-3	12499-12506	[PAUSE]	_	_	_	(.)	_	_	296-2	_	_	
+297-4	12507-12510	non	_	_	_	non	_	_	296-3	_	_	
+297-5	12511-12513	c'	_	_	_	c'	_	_	296-4	_	_	
+297-6	12514-12515	è	_	_	_	è	_	_	296-5	_	_	
+297-7	12516-12523	proprio	_	_	_	proprio	_	_	296-6	_	_	
+297-8	12524-12530	questa	_	_	_	questa	_	_	296-7	_	_	
+297-9	12531-12542	interazione	_	_	Falling	interazione.	_	_	296-8	_	_	
+
+#Text=mah [PAUSE] nella visione di bachman e palmer
+298-1	12543-12546	mah	_	_	weakly\_rising	mah,	_	BO104	297-0	_	_	
+298-2	12547-12554	[PAUSE]	_	_	_	(.)	_	_	297-1	_	_	
+298-3	12555-12560	nella	_	_	_	nella	_	_	297-2	_	_	
+298-4	12561-12568	visione	_	_	_	visione	_	_	297-3	_	_	
+298-5	12569-12571	di	_	_	_	di	_	_	297-4	_	_	
+298-6	12572-12579	bachman	_	_	_	bachman	_	_	297-5	_	_	
+298-7	12580-12581	e	_	_	_	e	_	_	297-6	_	_	
+298-8	12582-12588	palmer	_	_	weakly\_rising	palmer,	_	_	297-7	_	_	
+
+#Text=è [PAUSE] quel concetto di interattività è molto legato a quello di affidabilità
+299-1	12589-12590	è	_	_	weakly\_rising	è:,	_	BO104	298-0	_	_	
+299-2	12591-12598	[PAUSE]	_	_	_	(.)	_	_	298-1	_	_	
+299-3	12599-12603	quel	_	_	_	quel	_	_	298-2	_	_	
+299-4	12604-12612	concetto	_	_	_	concetto	_	_	298-3	_	_	
+299-5	12613-12615	di	_	_	_	di:	_	_	298-4	_	_	
+299-6	12616-12629	interattività	_	_	weakly\_rising	interattività,	_	_	298-5	_	_	
+299-7	12630-12631	è	_	_	_	è	_	_	298-6	_	_	
+299-8	12632-12637	molto	_	_	_	molto	_	_	298-7	_	_	
+299-9	12638-12644	legato	_	_	_	legato	_	_	298-8	_	_	
+299-10	12645-12646	a	_	_	_	a	_	_	298-9	_	_	
+299-11	12647-12653	quello	_	_	_	quello	_	_	298-10	_	_	
+299-12	12654-12656	di	_	_	_	di	_	_	298-11	_	_	
+299-13	12657-12669	affidabilità	_	_	weakly\_rising	affidabilità:,	_	_	298-12	_	_	
+
+#Text=sulle caratteristiche del candidato
+300-1	12670-12675	sulle	_	_	_	sulle	_	BO104	299-0	_	_	
+300-2	12676-12691	caratteristiche	_	_	_	caratteristiche	_	_	299-1	_	_	
+300-3	12692-12695	del	_	_	_	del	_	_	299-2	_	_	
+300-4	12696-12705	candidato	_	_	weakly\_rising	candida:to:,	_	_	299-3	_	_	
+
+#Text=mh mh
+301-1	12706-12708	mh	BC[16]	_	_	\[mh	_	BO144	300-0	*->34-1	*[34]	
+301-2	12709-12711	mh	BC[16]	_	weakly\_rising	mh\],	_	_	300-1	*->34-2	*[34]	
+
+#Text=cioè
+302-1	12712-12716	cioè	_	_	weakly\_rising	\[cioè:\],	_	BO104	301-0	*->34-3	*[34]	
+
+#Text=non dev' essere un test [PAUSE] che in qualche modo discrimina
+303-1	12717-12720	non	_	_	_	non	_	BO104	302-0	_	_	
+303-2	12721-12725	dev'	_	_	_	dev'	_	_	302-1	_	_	
+303-3	12726-12732	essere	_	_	_	essere	_	_	302-2	_	_	
+303-4	12733-12735	un	_	_	_	un	_	_	302-3	_	_	
+303-5	12736-12740	test	_	_	weakly\_rising	test,	_	_	302-4	_	_	
+303-6	12741-12748	[PAUSE]	_	_	_	(.)	_	_	302-5	_	_	
+303-7	12749-12752	che	_	_	_	che	_	_	302-6	_	_	
+303-8	12753-12755	in	_	_	_	in	_	_	302-7	_	_	
+303-9	12756-12763	qualche	_	_	_	qualche	_	_	302-8	_	_	
+303-10	12764-12768	modo	_	_	_	modo	_	_	302-9	_	_	
+303-11	12769-12779	discrimina	_	_	weakly\_rising	discrimina,	_	_	302-10	_	_	
+
+#Text=eh tan~
+304-1	12780-12782	eh	_	FP	_	\[e::h	_	BO104	303-0	*->2-1	*[2]	
+304-2	12783-12787	tan~	_	_	weakly\_rising	tan~\],	_	_	303-1	*->2-2	*[2]	
+
+#Text=o [PAUSE] o favorisce magari
+305-1	12788-12789	o	_	_	_	\[o	_	BO144	304-0	*->2-3	*[2]	
+305-2	12790-12797	[PAUSE]	_	_	_	(.)	_	_	304-1	_	_	
+305-2.1	12790-12793	[PA	_	_	_	_	_	_	_	*->2-4	*[2]	
+305-3	12798-12799	o	_	_	_	o	_	_	304-2	*->2-5	*[2]	
+305-4	12800-12809	favorisce	_	_	weakly\_rising	favori\]sce,	_	_	304-3	_	_	
+305-4.1	12800-12806	favori	_	_	_	_	_	_	_	*->2-6	*[2]	
+305-5	12810-12816	magari	_	_	weakly\_rising	magari,	_	_	304-4	_	_	
+
+#Text=mh n so un tipo di test
+306-1	12817-12819	mh	_	FP	_	m:h	_	BO144	305-0	_	_	
+306-2	12820-12821	n	_	_	_	n	_	_	305-1	_	_	
+306-3	12822-12824	so	_	_	_	so	_	_	305-2	_	_	
+306-4	12825-12827	un	_	_	_	\[un	_	_	305-3	*->6-1	*[6]	
+306-5	12828-12832	tipo	_	_	_	tipo	_	_	305-4	*->6-2	*[6]	
+306-6	12833-12835	di	_	_	_	di	_	_	305-5	*->6-3	*[6]	
+306-7	12836-12840	test	_	_	weakly\_rising	test\],	_	_	305-6	*->6-4	*[6]	
+
+#Text=candidati che abbiano delle caratteriatiche diverse sì
+307-1	12841-12850	candidati	_	_	_	\[candidati	_	BO104	306-0	*->6-5	*[6]	
+307-2	12851-12854	che	_	_	_	che	_	_	306-1	*->6-6	*[6]	
+307-3	12855-12862	abbiano	_	_	_	abbiano	_	_	306-2	*->6-7	*[6]	
+307-4	12863-12868	delle	_	_	_	de\]lle	_	_	306-3	_	_	
+307-4.1	12863-12865	de	_	_	_	_	_	_	_	*->6-8	*[6]	
+307-5	12869-12884	caratteriatiche	_	_	_	caratteriatiche	_	_	306-4	_	_	
+307-6	12885-12892	diverse	_	_	_	diverse	_	_	306-5	_	_	
+307-7	12893-12895	sì	BC	_	Falling	\[sì\].	_	_	306-6	*->5-1	*[5]	
+
+#Text=esatto
+308-1	12896-12902	esatto	BC	_	Falling	\[esa\]tto.	_	BO144	307-0	_	_	
+308-1.1	12896-12899	esa	_	_	_	_	_	_	_	*->5-2	*[5]	
+
+#Text=eh mh [PAUSE] senti rispetto invece [PAUSE] a mh
+309-1	12903-12905	eh	_	FP[42]	_	e::h	_	BO104	308-0	_	_	
+309-2	12906-12908	mh	_	FP[42]	weakly\_rising	mh,	_	_	308-1	_	_	
+309-3	12909-12916	[PAUSE]	_	_	_	(.)	_	_	308-2	_	_	
+309-4	12917-12922	senti	_	_	_	senti	_	_	308-3	_	_	
+309-5	12923-12931	rispetto	_	_	weakly\_rising	rispetto,	_	_	308-4	_	_	
+309-6	12932-12938	invece	_	_	_	invece	_	_	308-5	_	_	
+309-7	12939-12946	[PAUSE]	_	_	_	(.)	_	_	308-6	_	_	
+309-8	12947-12948	a	_	_	_	a::	_	_	308-7	_	_	
+309-9	12949-12951	mh	_	FP	weakly\_rising	mh,	_	_	308-8	_	_	
+
+#Text=ai periodi [PAUSE] eh storici
+310-1	12952-12954	ai	_	_	_	ai	_	BO104	309-0	_	_	
+310-2	12955-12962	periodi	_	_	_	periodi::	_	_	309-1	_	_	
+310-3	12963-12970	[PAUSE]	_	_	_	(.)	_	_	309-2	_	_	
+310-4	12971-12973	eh	_	FP	_	e:h	_	_	309-3	_	_	
+310-5	12974-12981	storici	_	_	weakly\_rising	storici,	_	_	309-4	_	_	
+
+#Text=quindi all' evoluzione del eh [PAUSE] del call del computer assistent language learning
+311-1	12982-12988	quindi	_	_	_	quindi	_	BO104	310-0	_	_	
+311-2	12989-12993	all'	_	_	_	all'	_	_	310-1	_	_	
+311-3	12994-13004	evoluzione	_	_	weakly\_rising	evoluzio:ne,	_	_	310-2	_	_	
+311-4	13005-13008	del	_	_	_	del	_	_	310-3	_	_	
+311-5	13009-13011	eh	_	FP	_	e::h	_	_	310-4	_	_	
+311-6	13012-13019	[PAUSE]	_	_	_	(.)	_	_	310-5	_	_	
+311-7	13020-13023	del	_	_	_	del	_	_	310-6	_	_	
+311-8	13024-13028	call	_	_	weakly\_rising	call,	_	_	310-7	_	_	
+311-9	13029-13032	del	_	_	_	del	_	_	310-8	_	_	
+311-10	13033-13041	computer	_	_	_	computer	_	_	310-9	_	_	
+311-11	13042-13051	assistent	_	_	_	assistent	_	_	310-10	_	_	
+311-12	13052-13060	language	_	_	_	language	_	_	310-11	_	_	
+311-13	13061-13069	learning	_	_	weakly\_rising	learning,	_	_	310-12	_	_	
+
+#Text=sì
+312-1	13070-13072	sì	BC	_	Falling	sì.	_	BO144	311-0	_	_	
+
+#Text=eh mh
+313-1	13073-13075	eh	_	FP[43]	_	e:::h	_	BO144	312-0	_	_	
+313-2	13076-13078	mh	_	FP[43]	weakly\_rising	m:::h,	_	_	312-1	_	_	
+
+#Text=allora innanzitutto bisogna dire che
+314-1	13079-13085	allora	_	_	_	allora	_	BO144	313-0	_	_	
+314-2	13086-13098	innanzitutto	_	_	weakly\_rising	innanzitutto,	_	_	313-1	_	_	
+314-3	13099-13106	bisogna	_	_	_	bisogna	_	_	313-2	_	_	
+314-4	13107-13111	dire	_	_	_	dire	_	_	313-3	_	_	
+314-5	13112-13115	che	_	_	weakly\_rising	che,	_	_	313-4	_	_	
+
+#Text=eh mh
+315-1	13116-13118	eh	_	FP[44]	_	e::h	_	BO144	314-0	_	_	
+315-2	13119-13121	mh	_	FP[44]	weakly\_rising	m:h,	_	_	314-1	_	_	
+
+#Text=all' interno della glottodidattica
+316-1	13122-13126	all'	_	_	_	all'	_	BO144	315-0	_	_	
+316-2	13127-13134	interno	_	_	_	interno	_	_	315-1	_	_	
+316-3	13135-13140	della	_	_	_	della	_	_	315-2	_	_	
+316-4	13141-13156	glottodidattica	_	_	weakly\_rising	glottodidattica,	_	_	315-3	_	_	
+
+#Text=eh
+317-1	13157-13159	eh	_	FP	weakly\_rising	e::::h,	_	BO144	316-0	_	_	
+
+#Text=l' intervento o meglio l' interazione con le tecnologie [PAUSE] è diventato [PAUSE] inevitabile
+318-1	13160-13162	l'	_	_	_	l'	_	BO144	317-0	_	_	
+318-2	13163-13173	intervento	_	_	_	intervento	_	_	317-1	_	_	
+318-3	13174-13175	o	_	_	_	o	_	_	317-2	_	_	
+318-4	13176-13182	meglio	_	_	_	meglio	_	_	317-3	_	_	
+318-5	13183-13185	l'	_	_	_	l'	_	_	317-4	_	_	
+318-6	13186-13197	interazione	_	_	_	interazione	_	_	317-5	_	_	
+318-7	13198-13201	con	_	_	_	con	_	_	317-6	_	_	
+318-8	13202-13204	le	_	_	_	le	_	_	317-7	_	_	
+318-9	13205-13215	tecnologie	_	_	weakly\_rising	tecnologie,	_	_	317-8	_	_	
+318-10	13216-13223	[PAUSE]	_	_	_	(.)	_	_	317-9	_	_	
+318-11	13224-13225	è	_	_	_	è	_	_	317-10	_	_	
+318-12	13226-13235	diventato	_	_	weakly\_rising	diventato,	_	_	317-11	_	_	
+318-13	13236-13243	[PAUSE]	_	_	_	(.)	_	_	317-12	_	_	
+318-14	13244-13255	inevitabile	_	_	Falling	inevitabile.	_	_	317-13	_	_	
+
+#Text=soprattutto negli ultimi eh
+319-1	13256-13267	soprattutto	_	_	_	soprattutto	_	BO144	318-0	_	_	
+319-2	13268-13273	negli	_	_	_	negli	_	_	318-1	_	_	
+319-3	13274-13280	ultimi	_	_	_	ultimi	_	_	318-2	_	_	
+319-4	13281-13283	eh	_	FP	weakly\_rising	eh,	_	_	318-3	_	_	
+
+#Text=venti trent' anni in cui i computer si sono diffusi non solo
+320-1	13284-13289	venti	_	_	weakly\_rising	venti,	_	BO144	319-0	_	_	
+320-2	13290-13296	trent'	_	_	_	trent'	_	_	319-1	_	_	
+320-3	13297-13301	anni	_	_	_	anni	_	_	319-2	_	_	
+320-4	13302-13304	in	_	_	_	in	_	_	319-3	_	_	
+320-5	13305-13308	cui	_	_	_	cui	_	_	319-4	_	_	
+320-6	13309-13310	i	_	_	_	i	_	_	319-5	_	_	
+320-7	13311-13319	computer	_	_	_	computer	_	_	319-6	_	_	
+320-8	13320-13322	si	_	_	_	si	_	_	319-7	_	_	
+320-9	13323-13327	sono	_	_	_	sono	_	_	319-8	_	_	
+320-10	13328-13335	diffusi	_	_	_	diffusi	_	_	319-9	_	_	
+320-11	13336-13339	non	_	_	_	non	_	_	319-10	_	_	
+320-12	13340-13344	solo	_	_	weakly\_rising	solo,	_	_	319-11	_	_	
+
+#Text=nelle case di ognuno
+321-1	13345-13350	nelle	_	_	_	nelle	_	BO144	320-0	_	_	
+321-2	13351-13355	case	_	_	_	ca:se	_	_	320-1	_	_	
+321-3	13356-13358	di	_	_	_	di	_	_	320-2	_	_	
+321-4	13359-13365	ognuno	_	_	weakly\_rising	ognuno,	_	_	320-3	_	_	
+
+#Text=ma anche proprio all' interno
+322-1	13366-13368	ma	_	_	_	ma	_	BO144	321-0	_	_	
+322-2	13369-13374	anche	_	_	_	anche	_	_	321-1	_	_	
+322-3	13375-13382	proprio	_	_	_	proprio	_	_	321-2	_	_	
+322-4	13383-13387	all'	_	_	_	all'	_	_	321-3	_	_	
+322-5	13388-13395	interno	_	_	weakly\_rising	interno,	_	_	321-4	_	_	
+
+#Text=dell' ambiente [PAUSE] scolastico o comunque universitario
+323-1	13396-13401	dell'	_	_	_	dell'	_	BO144	322-0	_	_	
+323-2	13402-13410	ambiente	_	_	_	ambiente	_	_	322-1	_	_	
+323-3	13411-13418	[PAUSE]	_	_	_	(.)	_	_	322-2	_	_	
+323-4	13419-13429	scolastico	_	_	weakly\_rising	scolastico,	_	_	322-3	_	_	
+323-5	13430-13431	o	_	_	_	o	_	_	322-4	_	_	
+323-6	13432-13440	comunque	_	_	weakly\_rising	comunque,	_	_	322-5	_	_	
+323-7	13441-13454	universitario	_	_	Falling	universitario.	_	_	322-6	_	_	
+
+#Text=è diventato uno strumento fondamentale sia per l' allievo che per il docente
+324-1	13455-13456	è	_	_	_	è	_	BO144	323-0	_	_	
+324-2	13457-13466	diventato	_	_	weakly\_rising	diventato,	_	_	323-1	_	_	
+324-3	13467-13470	uno	_	_	_	uno	_	_	323-2	_	_	
+324-4	13471-13480	strumento	_	_	weakly\_rising	strumento,	_	_	323-3	_	_	
+324-5	13481-13493	fondamentale	_	_	weakly\_rising	fondamentale,	_	_	323-4	_	_	
+324-6	13494-13497	sia	_	_	_	sia	_	_	323-5	_	_	
+324-7	13498-13501	per	_	_	_	per	_	_	323-6	_	_	
+324-8	13502-13504	l'	_	_	_	l'	_	_	323-7	_	_	
+324-9	13505-13512	allievo	_	_	_	allievo	_	_	323-8	_	_	
+324-10	13513-13516	che	_	_	_	che	_	_	323-9	_	_	
+324-11	13517-13520	per	_	_	_	per	_	_	323-10	_	_	
+324-12	13521-13523	il	_	_	_	il	_	_	323-11	_	_	
+324-13	13524-13531	docente	_	_	weakly\_rising	docente,	_	_	323-12	_	_	
+
+#Text=per [PAUSE] interagire
+325-1	13532-13535	per	_	_	weakly\_rising	per,	_	BO144	324-0	_	_	
+325-2	13536-13543	[PAUSE]	_	_	_	(.)	_	_	324-1	_	_	
+325-3	13544-13554	interagire	_	_	weakly\_rising	interagi:re,	_	_	324-2	_	_	
+
+#Text=ma anche per [PAUSE] mh [PAUSE] permettere una [PAUSE] mh
+326-1	13555-13557	ma	_	_	_	ma	_	BO144	325-0	_	_	
+326-2	13558-13563	anche	_	_	_	anche	_	_	325-1	_	_	
+326-3	13564-13567	per	_	_	weakly\_rising	per,	_	_	325-2	_	_	
+326-4	13568-13575	[PAUSE]	_	_	_	(.)	_	_	325-3	_	_	
+326-5	13576-13578	mh	_	FP	_	m::h	_	_	325-4	_	_	
+326-6	13579-13586	[PAUSE]	_	_	_	(.)	_	_	325-5	_	_	
+326-7	13587-13597	permettere	_	_	_	permettere	_	_	325-6	_	_	
+326-8	13598-13601	una	_	_	weakly\_rising	una,	_	_	325-7	_	_	
+326-9	13602-13609	[PAUSE]	_	_	_	(.)	_	_	325-8	_	_	
+326-10	13610-13612	mh	_	FP	weakly\_rising	m:::h,	_	_	325-9	_	_	
+
+#Text=moltiplicazione dei mezzi [PAUSE] e degli strumenti con cui favorire l' apprendimento
+327-1	13613-13628	moltiplicazione	_	_	weakly\_rising	moltiplicazione,	_	BO144	326-0	_	_	
+327-2	13629-13632	dei	_	_	_	dei	_	_	326-1	_	_	
+327-3	13633-13638	mezzi	_	_	weakly\_rising	mezzi,	_	_	326-2	_	_	
+327-4	13639-13646	[PAUSE]	_	_	_	(.)	_	_	326-3	_	_	
+327-5	13647-13648	e	_	_	_	e	_	_	326-4	_	_	
+327-6	13649-13654	degli	_	_	_	degli	_	_	326-5	_	_	
+327-7	13655-13664	strumenti	_	_	weakly\_rising	strumenti,	_	_	326-6	_	_	
+327-8	13665-13668	con	_	_	_	con	_	_	326-7	_	_	
+327-9	13669-13672	cui	_	_	_	cui	_	_	326-8	_	_	
+327-10	13673-13681	favorire	_	_	_	favorire	_	_	326-9	_	_	
+327-11	13682-13684	l'	_	_	_	l'	_	_	326-10	_	_	
+327-12	13685-13698	apprendimento	_	_	Falling	apprendimento.	_	_	326-11	_	_	
+
+#Text=è una diversificazione proprio delle metolo~ [PAUSE] x [PAUSE] delle metodologie
+328-1	13699-13700	è	_	_	_	è	_	BO144	327-0	_	_	
+328-2	13701-13704	una	_	_	_	una	_	_	327-1	_	_	
+328-3	13705-13721	diversificazione	_	_	weakly\_rising	diversificazione,	_	_	327-2	_	_	
+328-4	13722-13729	proprio	_	_	_	proprio	_	_	327-3	_	_	
+328-5	13730-13735	delle	_	_	_	delle	SR[78]	_	327-4	_	_	
+328-6	13736-13743	metolo~	_	_	_	metolo~	SR[78]	_	327-5	_	_	
+328-7	13744-13751	[PAUSE]	_	_	_	(.)	SR[78]	_	327-6	_	_	
+328-8	13752-13753	x	_	_	_	xx	SR[78]	_	327-7	_	_	
+328-9	13754-13761	[PAUSE]	_	_	_	(.)	SR[78]	_	327-8	_	_	
+328-10	13762-13767	delle	_	_	_	delle	SR[78]	_	327-9	_	_	
+328-11	13768-13779	metodologie	_	_	weakly\_rising	metodologie,	SR[78]	_	327-10	_	_	
+
+#Text=eh mh
+329-1	13780-13782	eh	_	FP[45]	_	e::h	_	BO144	328-0	_	_	
+329-2	13783-13785	mh	_	FP[45]	weakly\_rising	m:::h,	_	_	328-1	_	_	
+
+#Text=che si pos~
+330-1	13786-13789	che	_	_	_	che	SR[79]	BO144	329-0	_	_	
+330-2	13790-13792	si	_	_	_	si	SR[79]	_	329-1	_	_	
+330-3	13793-13797	pos~	_	_	weakly\_rising	pos~,	SR[79]	_	329-2	_	_	
+
+#Text=che [PAUSE] il docente può offrire può utilizzare
+331-1	13798-13801	che	_	_	_	che	SR[79]	BO144	330-0	_	_	
+331-2	13802-13809	[PAUSE]	_	_	_	(.)	SR[79]	_	330-1	_	_	
+331-3	13810-13812	il	_	_	_	il	SR[79]	_	330-2	_	_	
+331-4	13813-13820	docente	_	_	_	docente	SR[79]	_	330-3	_	_	
+331-5	13821-13824	può	_	_	_	può	SR[79]	_	330-4	_	_	
+331-6	13825-13832	offrire	_	_	weakly\_rising	offrire,	SR[79]	_	330-5	_	_	
+331-7	13833-13836	può	_	_	_	può	_	_	330-6	_	_	
+331-8	13837-13847	utilizzare	_	_	weakly\_rising	utilizzare,	_	_	330-7	_	_	
+
+#Text=eh mh
+332-1	13848-13850	eh	_	FP[46]	_	e:::h	_	BO144	331-0	_	_	
+332-2	13851-13853	mh	_	FP[46]	weakly\_rising	m:h,	_	_	331-1	_	_	
+
+#Text=per favorire l' apprendimento [PAUSE] in questo caso il computer
+333-1	13854-13857	per	_	_	_	per	_	BO144	332-0	_	_	
+333-2	13858-13866	favorire	_	_	_	favorire	_	_	332-1	_	_	
+333-3	13867-13869	l'	_	_	_	l'	_	_	332-2	_	_	
+333-4	13870-13883	apprendimento	_	_	_	apprendimento	_	_	332-3	_	_	
+333-5	13884-13891	[PAUSE]	_	_	_	(.)	_	_	332-4	_	_	
+333-6	13892-13894	in	_	_	_	in	_	_	332-5	_	_	
+333-7	13895-13901	questo	_	_	_	questo	_	_	332-6	_	_	
+333-8	13902-13906	caso	_	_	_	caso	_	_	332-7	_	_	
+333-9	13907-13909	il	_	_	_	il	_	_	332-8	_	_	
+333-10	13910-13918	computer	_	_	weakly\_rising	computer,	_	_	332-9	_	_	
+
+#Text=eh mh
+334-1	13919-13921	eh	_	FP[47]	_	e:::h	_	BO144	333-0	_	_	
+334-2	13922-13924	mh	_	FP[47]	weakly\_rising	m::h,	_	_	333-1	_	_	
+
+#Text=che per noi oggi sembra
+335-1	13925-13928	che	_	_	_	che	_	BO144	334-0	_	_	
+335-2	13929-13932	per	_	_	_	per	_	_	334-1	_	_	
+335-3	13933-13936	noi	_	_	_	noi	_	_	334-2	_	_	
+335-4	13937-13941	oggi	_	_	_	oggi	_	_	334-3	_	_	
+335-5	13942-13948	sembra	_	_	weakly\_rising	sembra,	_	_	334-4	_	_	
+
+#Text=mh
+336-1	13949-13951	mh	_	FP	weakly\_rising	m:::h,	_	BO144	335-0	_	_	
+
+#Text=banale
+337-1	13952-13958	banale	_	_	weakly\_rising	bana:le,	_	BO144	336-0	_	_	
+
+#Text=all' inizio [PAUSE] era [PAUSE] mh [PAUSE] aveva provocato un po' di diffidenza
+338-1	13959-13963	all'	_	_	_	all'	_	BO144	337-0	_	_	
+338-2	13964-13970	inizio	_	_	weakly\_rising	inizio,	_	_	337-1	_	_	
+338-3	13971-13978	[PAUSE]	_	_	_	(.)	_	_	337-2	_	_	
+338-4	13979-13982	era	_	_	weakly\_rising	era:,	_	_	337-3	_	_	
+338-5	13983-13990	[PAUSE]	_	_	_	(.)	_	_	337-4	_	_	
+338-6	13991-13993	mh	_	FP	weakly\_rising	m:h,	_	_	337-5	_	_	
+338-7	13994-14001	[PAUSE]	_	_	_	(.)	_	_	337-6	_	_	
+338-8	14002-14007	aveva	_	_	_	aveva	_	_	337-7	_	_	
+338-9	14008-14017	provocato	_	_	_	provocato	_	_	337-8	_	_	
+338-10	14018-14020	un	_	_	_	un	_	_	337-9	_	_	
+338-11	14021-14024	po'	_	_	_	po'	_	_	337-10	_	_	
+338-12	14025-14027	di	_	_	_	di	_	_	337-11	_	_	
+338-13	14028-14038	diffidenza	_	_	weakly\_rising	diffidenza,	_	_	337-12	_	_	
+
+#Text=soprattutto nel contesto italiano
+339-1	14039-14050	soprattutto	_	_	_	soprattutto	_	BO144	338-0	_	_	
+339-2	14051-14054	nel	_	_	_	nel	_	_	338-1	_	_	
+339-3	14055-14063	contesto	_	_	_	contesto	_	_	338-2	_	_	
+339-4	14064-14072	italiano	_	_	weakly\_rising	italia:no,	_	_	338-3	_	_	
+
+#Text=in cui [PAUSE] mh si cerca di [PAUSE] incentrare diciamo l' argomento su più monolinguismo
+340-1	14073-14075	in	_	_	_	in	_	BO144	339-0	_	_	
+340-2	14076-14079	cui	_	_	weakly\_rising	cui:,	_	_	339-1	_	_	
+340-3	14080-14087	[PAUSE]	_	_	_	(.)	_	_	339-2	_	_	
+340-4	14088-14090	mh	_	FP	weakly\_rising	m::h,	_	_	339-3	_	_	
+340-5	14091-14093	si	_	_	_	si	_	_	339-4	_	_	
+340-6	14094-14099	cerca	_	_	_	cerca	_	_	339-5	_	_	
+340-7	14100-14102	di	_	_	weakly\_rising	di,	_	_	339-6	_	_	
+340-8	14103-14110	[PAUSE]	_	_	_	(.)	_	_	339-7	_	_	
+340-9	14111-14121	incentrare	_	_	_	incentra:re	_	_	339-8	_	_	
+340-10	14122-14129	diciamo	_	_	_	diciamo	_	_	339-9	_	_	
+340-11	14130-14132	l'	_	_	_	l'	_	_	339-10	_	_	
+340-12	14133-14142	argomento	_	_	weakly\_rising	argomento,	_	_	339-11	_	_	
+340-13	14143-14145	su	_	_	_	su	_	_	339-12	_	_	
+340-14	14146-14149	più	_	_	_	più	_	_	339-13	_	_	
+340-15	14150-14163	monolinguismo	_	_	Falling	monolinguismo.	_	_	339-14	_	_	
+
+#Text=che
+341-1	14164-14167	che	_	_	weakly\_rising	che,	_	BO144	340-0	_	_	
+
+#Text=mh
+342-1	14168-14170	mh	_	FP	weakly\_rising	m:::h,	_	BO144	341-0	_	_	
+
+#Text=favorire
+343-1	14171-14179	favorire	_	_	weakly\_rising	favori:re,	_	BO144	342-0	_	_	
+
+#Text=un plurilinguismo autonomo di ogni cittadino
+344-1	14180-14182	un	_	_	_	un	_	BO144	343-0	_	_	
+344-2	14183-14197	plurilinguismo	_	_	_	plurilinguismo	_	_	343-1	_	_	
+344-3	14198-14206	autonomo	_	_	_	autonomo	_	_	343-2	_	_	
+344-4	14207-14209	di	_	_	_	di	_	_	343-3	_	_	
+344-5	14210-14214	ogni	_	_	_	ogni	_	_	343-4	_	_	
+344-6	14215-14224	cittadino	_	_	weakly\_rising	cittadino,	_	_	343-5	_	_	
+
+#Text=eh mh
+345-1	14225-14227	eh	_	FP[48]	_	e::h	_	BO144	344-0	_	_	
+345-2	14228-14230	mh	_	FP[48]	weakly\_rising	m:h,	_	_	344-1	_	_	
+
+#Text=eh mh [PAUSE] proviamo a rimanere di più sui testi [PAUSE] più [PAUSE] mh allora ti ho [PAUSE] la mia domanda era [PAUSE] il call
+346-1	14231-14233	eh	_	FP[49]	_	e::h	_	BO104	345-0	_	_	
+346-2	14234-14236	mh	_	FP[49]	_	m::h	_	_	345-1	_	_	
+346-3	14237-14244	[PAUSE]	_	_	_	(.)	_	_	345-2	_	_	
+346-4	14245-14253	proviamo	_	_	_	proviamo	_	_	345-3	_	_	
+346-5	14254-14255	a	_	_	_	a	_	_	345-4	_	_	
+346-6	14256-14264	rimanere	_	_	_	rimanere	_	_	345-5	_	_	
+346-7	14265-14267	di	_	_	_	di	_	_	345-6	_	_	
+346-8	14268-14271	più	_	_	_	più	_	_	345-7	_	_	
+346-9	14272-14275	sui	_	_	_	sui	_	_	345-8	_	_	
+346-10	14276-14281	testi	_	_	weakly\_rising	te:sti,	_	_	345-9	_	_	
+346-11	14282-14289	[PAUSE]	_	_	_	(.)	_	_	345-10	_	_	
+346-12	14290-14293	più	_	_	_	più	_	_	345-11	_	_	
+346-13	14294-14301	[PAUSE]	_	_	_	(.)	_	_	345-12	_	_	
+346-14	14302-14304	mh	_	FP	_	m::h	_	_	345-13	_	_	
+346-15	14305-14311	allora	_	_	_	allora	_	_	345-14	_	_	
+346-16	14312-14314	ti	_	_	_	ti	_	_	345-15	_	_	
+346-17	14315-14317	ho	_	_	weakly\_rising	ho,	_	_	345-16	_	_	
+346-18	14318-14325	[PAUSE]	_	_	_	(.)	_	_	345-17	_	_	
+346-19	14326-14328	la	_	_	_	la	_	_	345-18	_	_	
+346-20	14329-14332	mia	_	_	_	mia	_	_	345-19	_	_	
+346-21	14333-14340	domanda	_	_	_	domanda	_	_	345-20	_	_	
+346-22	14341-14344	era	_	_	weakly\_rising	era:,	_	_	345-21	_	_	
+346-23	14345-14352	[PAUSE]	_	_	_	(.)	_	_	345-22	_	_	
+346-24	14353-14355	il	_	_	_	il	_	_	345-23	_	_	
+346-25	14356-14360	call	_	_	weakly\_rising	call,	_	_	345-24	_	_	
+
+#Text=mh mh mh
+347-1	14361-14363	mh	BC[17]	_	_	mh	_	BO144	346-0	_	_	
+347-2	14364-14366	mh	BC[17]	_	_	\[mh	_	_	346-1	*->64-1	*[64]	
+347-3	14367-14369	mh	BC[17]	_	weakly\_rising	mh\],	_	_	346-2	*->64-2	*[64]	
+
+#Text=computer assistent language learning
+348-1	14370-14378	computer	_	_	_	\[computer	_	BO104	347-0	*->64-3	*[64]	
+348-2	14379-14388	assistent	_	_	_	ass\]istent	_	_	347-1	_	_	
+348-2.1	14379-14382	ass	_	_	_	_	_	_	_	*->64-4	*[64]	
+348-3	14389-14397	language	_	_	_	language	_	_	347-2	_	_	
+348-4	14398-14406	learning	_	_	weakly\_rising	learning,	_	_	347-3	_	_	
+
+#Text=eh
+349-1	14407-14409	eh	_	FP	weakly\_rising	e::::h,	_	BO104	348-0	_	_	
+
+#Text=trasformazioni
+350-1	14410-14424	trasformazioni	_	_	weakly\_rising	trasformazio:ni:,	_	BO104	349-0	_	_	
+
+#Text=eh mh
+351-1	14425-14427	eh	_	FP[50]	_	e:::h	_	BO104	350-0	_	_	
+351-2	14428-14430	mh	_	FP[50]	weakly\_rising	m::h,	_	_	350-1	_	_	
+
+#Text=diversi periodi
+352-1	14431-14438	diversi	_	_	_	diversi	_	BO104	351-0	_	_	
+352-2	14439-14446	periodi	_	_	weakly\_rising	periodi,	_	_	351-1	_	_	
+
+#Text=storici cioè come si è traformato ed evoluto
+353-1	14447-14454	storici	_	_	weakly\_rising	storici,	_	BO104	352-0	_	_	
+353-2	14455-14459	cioè	_	_	_	cioè	_	_	352-1	_	_	
+353-3	14460-14464	come	_	_	_	come	_	_	352-2	_	_	
+353-4	14465-14467	si	_	_	_	si	_	_	352-3	_	_	
+353-5	14468-14469	è	_	_	_	è	_	_	352-4	_	_	
+353-6	14470-14480	traformato	_	_	_	traformato	_	_	352-5	_	_	
+353-7	14481-14483	ed	_	_	_	ed	_	_	352-6	_	_	
+353-8	14484-14491	evoluto	_	_	weakly\_rising	evoluto:,	_	_	352-7	_	_	
+
+#Text=il call quindi l' uso delle tecnologie
+354-1	14492-14494	il	_	_	_	il	_	BO104	353-0	_	_	
+354-2	14495-14499	call	_	_	weakly\_rising	call,	_	_	353-1	_	_	
+354-3	14500-14506	quindi	_	_	_	quindi	_	_	353-2	_	_	
+354-4	14507-14509	l'	_	_	_	l'	_	_	353-3	_	_	
+354-5	14510-14513	uso	_	_	_	uso	_	_	353-4	_	_	
+354-6	14514-14519	delle	_	_	_	delle	_	_	353-5	_	_	
+354-7	14520-14530	tecnologie	_	_	weakly\_rising	tecnologie,	_	_	353-6	_	_	
+
+#Text=nella didattica delle [PAUSE] delle lingue
+355-1	14531-14536	nella	_	_	_	nella	_	BO104	354-0	_	_	
+355-2	14537-14546	didattica	_	_	_	didattica	_	_	354-1	_	_	
+355-3	14547-14552	delle	_	_	weakly\_rising	delle:,	_	_	354-2	_	_	
+355-4	14553-14560	[PAUSE]	_	_	_	(.)	_	_	354-3	_	_	
+355-5	14561-14566	delle	_	_	_	delle	_	_	354-4	_	_	
+355-6	14567-14573	lingue	_	_	Falling	lingue.	_	_	354-5	_	_	
+
+#Text=ah [PAUSE] eh allora quindi [PAUSE] inizialmente [PAUSE] mh
+356-1	14574-14576	ah	BC	_	weakly\_rising	ah,	_	BO144	355-0	_	_	
+356-2	14577-14584	[PAUSE]	_	_	_	(.)	_	_	355-1	_	_	
+356-3	14585-14587	eh	_	FP	_	eh	_	_	355-2	_	_	
+356-4	14588-14594	allora	_	_	_	allora	_	_	355-3	_	_	
+356-5	14595-14601	quindi	_	_	_	quindi	_	_	355-4	_	_	
+356-6	14602-14609	[PAUSE]	_	_	_	(.)	_	_	355-5	_	_	
+356-7	14610-14622	inizialmente	_	_	weakly\_rising	inizialmente,	_	_	355-6	_	_	
+356-8	14623-14630	[PAUSE]	_	_	_	(.)	_	_	355-7	_	_	
+356-9	14631-14633	mh	_	FP	weakly\_rising	m:::h,	_	_	355-8	_	_	
+
+#Text=ini~ [PAUSE] mh
+357-1	14634-14638	ini~	_	_	weakly\_rising	ini~,	_	BO144	356-0	_	_	
+357-2	14639-14646	[PAUSE]	_	_	_	(.)	_	_	356-1	_	_	
+357-3	14647-14649	mh	_	FP	weakly\_rising	m:h,	_	_	356-2	_	_	
+
+#Text=inizialmente
+358-1	14650-14662	inizialmente	_	_	weakly\_rising	inizialmente:,	_	BO144	357-0	_	_	
+
+#Text=mh
+359-1	14663-14665	mh	_	FP	weakly\_rising	m:::h,	_	BO144	358-0	_	_	
+
+#Text=questa diffidenza di cui parlavo prima provoca
+360-1	14666-14672	questa	_	_	_	questa	_	BO144	359-0	_	_	
+360-2	14673-14683	diffidenza	_	_	weakly\_rising	diffidenza,	_	_	359-1	_	_	
+360-3	14684-14686	di	_	_	_	di	_	_	359-2	_	_	
+360-4	14687-14690	cui	_	_	_	cui	_	_	359-3	_	_	
+360-5	14691-14698	parlavo	_	_	_	parlavo	_	_	359-4	_	_	
+360-6	14699-14704	prima	_	_	weakly\_rising	prima,	_	_	359-5	_	_	
+360-7	14705-14712	provoca	_	_	weakly\_rising	provoca,	_	_	359-6	_	_	
+
+#Text=un [PAUSE] distacco e quindi
+361-1	14713-14715	un	_	_	_	un:	_	BO144	360-0	_	_	
+361-2	14716-14723	[PAUSE]	_	_	_	(.)	_	_	360-1	_	_	
+361-3	14724-14732	distacco	_	_	weakly\_rising	distacco,	_	_	360-2	_	_	
+361-4	14733-14734	e	_	_	_	e	_	_	360-3	_	_	
+361-5	14735-14741	quindi	_	_	weakly\_rising	quindi,	_	_	360-4	_	_	
+
+#Text=ci si [PAUSE] limita
+362-1	14742-14744	ci	_	_	_	ci	_	BO144	361-0	_	_	
+362-2	14745-14747	si	_	_	weakly\_rising	si,	_	_	361-1	_	_	
+362-3	14748-14755	[PAUSE]	_	_	_	(.)	_	_	361-2	_	_	
+362-4	14756-14762	limita	_	_	_	limita	_	_	361-3	_	_	
+
+#Text=tra virgolette
+363-1	14763-14766	tra	_	_	_	tra	_	BO144	362-0	_	_	
+363-2	14767-14777	virgolette	_	_	weakly\_rising	virgolette,	_	_	362-1	_	_	
+
+#Text=a [PAUSE] un eh [PAUSE] a un utilizzo [PAUSE] del computer
+364-1	14778-14779	a	_	_	weakly\_rising	a:,	_	BO144	363-0	_	_	
+364-2	14780-14787	[PAUSE]	_	_	_	(.)	_	_	363-1	_	_	
+364-3	14788-14790	un	_	_	_	un	_	_	363-2	_	_	
+364-4	14791-14793	eh	_	FP	_	e:::h	_	_	363-3	_	_	
+364-5	14794-14801	[PAUSE]	_	_	_	(.)	_	_	363-4	_	_	
+364-6	14802-14803	a	_	_	_	a	_	_	363-5	_	_	
+364-7	14804-14806	un	_	_	_	un	_	_	363-6	_	_	
+364-8	14807-14815	utilizzo	_	_	weakly\_rising	utilizzo,	_	_	363-7	_	_	
+364-9	14816-14823	[PAUSE]	_	_	_	(.)	_	_	363-8	_	_	
+364-10	14824-14827	del	_	_	_	del	_	_	363-9	_	_	
+364-11	14828-14836	computer	_	_	weakly\_rising	computer,	_	_	363-10	_	_	
+
+#Text=mh [PAUSE] in misura molto minore a [PAUSE] insomma a come viene utilizzato anche adesso
+365-1	14837-14839	mh	_	FP	_	m::h	_	BO144	364-0	_	_	
+365-2	14840-14847	[PAUSE]	_	_	_	(.)	_	_	364-1	_	_	
+365-3	14848-14850	in	_	_	_	in	_	_	364-2	_	_	
+365-4	14851-14857	misura	_	_	_	misura	_	_	364-3	_	_	
+365-5	14858-14863	molto	_	_	_	molto	_	_	364-4	_	_	
+365-6	14864-14870	minore	_	_	_	minore	_	_	364-5	_	_	
+365-7	14871-14872	a	_	_	weakly\_rising	a,	_	_	364-6	_	_	
+365-8	14873-14880	[PAUSE]	_	_	_	(.)	_	_	364-7	_	_	
+365-9	14881-14888	insomma	_	_	_	insomma	_	_	364-8	_	_	
+365-10	14889-14890	a	_	_	_	a:	_	_	364-9	_	_	
+365-11	14891-14895	come	_	_	_	come	_	_	364-10	_	_	
+365-12	14896-14901	viene	_	_	_	viene	_	_	364-11	_	_	
+365-13	14902-14912	utilizzato	_	_	_	utilizzato	_	_	364-12	_	_	
+365-14	14913-14918	anche	_	_	_	anche	_	_	364-13	_	_	
+365-15	14919-14925	adesso	_	_	Falling	adesso.	_	_	364-14	_	_	
+
+#Text=perché
+366-1	14926-14932	perché	_	_	weakly\_rising	perché,	_	BO144	365-0	_	_	
+
+#Text=al giorno d' oggi [PAUSE] e quindi soprattutto negli ultimi
+367-1	14933-14935	al	_	_	_	al	_	BO144	366-0	_	_	
+367-2	14936-14942	giorno	_	_	_	giorno	_	_	366-1	_	_	
+367-3	14943-14945	d'	_	_	_	d'	_	_	366-2	_	_	
+367-4	14946-14950	oggi	_	_	weakly\_rising	oggi,	_	_	366-3	_	_	
+367-5	14951-14958	[PAUSE]	_	_	_	(.)	_	_	366-4	_	_	
+367-6	14959-14960	e	_	_	_	e	_	_	366-5	_	_	
+367-7	14961-14967	quindi	_	_	_	quindi	_	_	366-6	_	_	
+367-8	14968-14979	soprattutto	_	_	_	soprattutto	_	_	366-7	_	_	
+367-9	14980-14985	negli	_	_	_	negli	_	_	366-8	_	_	
+367-10	14986-14992	ultimi	_	_	Falling	ultimi:.	_	_	366-9	_	_	
+
+#Text=anni
+368-1	14993-14997	anni	_	_	weakly\_rising	anni,	_	BO144	367-0	_	_	
+
+#Text=essendo [PAUSE] una [PAUSE] la glottodidattica
+369-1	14998-15005	essendo	_	_	_	essendo	_	BO144	368-0	_	_	
+369-2	15006-15013	[PAUSE]	_	_	_	(.)	_	_	368-1	_	_	
+369-3	15014-15017	una	_	_	weakly\_rising	una,	_	_	368-2	_	_	
+369-4	15018-15025	[PAUSE]	_	_	_	(.)	_	_	368-3	_	_	
+369-5	15026-15028	la	_	_	_	la	_	_	368-4	_	_	
+369-6	15029-15044	glottodidattica	_	_	weakly\_rising	glottodidattica,	_	_	368-5	_	_	
+
+#Text=molto recente
+370-1	15045-15050	molto	_	_	_	molto	_	BO144	369-0	_	_	
+370-2	15051-15058	recente	_	_	weakly\_rising	recente,	_	_	369-1	_	_	
+
+#Text=si parla proprio di un lasso temporale
+371-1	15059-15061	si	_	_	_	si	_	BO144	370-0	_	_	
+371-2	15062-15067	parla	_	_	_	parla	_	_	370-1	_	_	
+371-3	15068-15075	proprio	_	_	_	proprio	_	_	370-2	_	_	
+371-4	15076-15078	di	_	_	_	di	_	_	370-3	_	_	
+371-5	15079-15081	un	_	_	_	un	_	_	370-4	_	_	
+371-6	15082-15087	lasso	_	_	_	lasso	_	_	370-5	_	_	
+371-7	15088-15097	temporale	_	_	weakly\_rising	temporale,	_	_	370-6	_	_	
+
+#Text=molto recente anche per noi ed è quindi quello in cui stiamo vivendo
+372-1	15098-15103	molto	_	_	_	mo:lto	_	BO144	371-0	_	_	
+372-2	15104-15111	recente	_	_	_	recente	_	_	371-1	_	_	
+372-3	15112-15117	anche	_	_	_	anche	_	_	371-2	_	_	
+372-4	15118-15121	per	_	_	_	per	_	_	371-3	_	_	
+372-5	15122-15125	noi	_	_	weakly\_rising	noi,	_	_	371-4	_	_	
+372-6	15126-15128	ed	_	_	_	ed	_	_	371-5	_	_	
+372-7	15129-15130	è	_	_	_	è	_	_	371-6	_	_	
+372-8	15131-15137	quindi	_	_	_	quindi	_	_	371-7	_	_	
+372-9	15138-15144	quello	_	_	_	quello	_	_	371-8	_	_	
+372-10	15145-15147	in	_	_	_	in	_	_	371-9	_	_	
+372-11	15148-15151	cui	_	_	_	cui	_	_	371-10	_	_	
+372-12	15152-15158	stiamo	_	_	_	stiamo	_	_	371-11	_	_	
+372-13	15159-15166	vivendo	_	_	weakly\_rising	vivendo,	_	_	371-12	_	_	
+
+#Text=cioè molto recente in che senso
+373-1	15167-15171	cioè	_	_	_	>cioè<	OR[80]	BO104	372-0	_	_	
+373-2	15172-15177	molto	_	_	_	molto	OR[80]	_	372-1	_	_	
+373-3	15178-15185	recente	_	_	_	recente	OR[80]	_	372-2	_	_	
+373-4	15186-15188	in	_	_	_	in	OR[80]	_	372-3	_	_	
+373-5	15189-15192	che	_	_	_	che	OR[80]	_	372-4	_	_	
+373-6	15193-15198	senso	_	_	Rising	senso?	OR[80]	_	372-5	_	_	
+
+#Text=mh [PAUSE] che è una [PAUSE] che è una disciplina che si è
+374-1	15199-15201	mh	_	FP	_	m::h	_	BO144	373-0	_	_	
+374-2	15202-15209	[PAUSE]	_	_	_	(.)	_	_	373-1	_	_	
+374-3	15210-15213	che	_	_	_	che	_	_	373-2	_	_	
+374-4	15214-15215	è	_	_	_	è	_	_	373-3	_	_	
+374-5	15216-15219	una	_	_	_	una:::	_	_	373-4	_	_	
+374-6	15220-15227	[PAUSE]	_	_	_	(.)	_	_	373-5	_	_	
+374-7	15228-15231	che	_	_	_	che	_	_	373-6	_	_	
+374-8	15232-15233	è	_	_	_	è	_	_	373-7	_	_	
+374-9	15234-15237	una	_	_	_	una	_	_	373-8	_	_	
+374-10	15238-15248	disciplina	_	_	_	disciplina	_	_	373-9	_	_	
+374-11	15249-15252	che	_	_	_	che	_	_	373-10	_	_	
+374-12	15253-15255	si	_	_	_	si	_	_	373-11	_	_	
+374-13	15256-15257	è	_	_	weakly\_rising	è,	_	_	373-12	_	_	
+
+#Text=sviluppata dalla metà del eh [PAUSE] del del novecento
+375-1	15258-15268	sviluppata	_	_	weakly\_rising	sviluppata,	_	BO144	374-0	_	_	
+375-2	15269-15274	dalla	_	_	_	dalla	_	_	374-1	_	_	
+375-3	15275-15279	metà	_	_	weakly\_rising	metà,	_	_	374-2	_	_	
+375-4	15280-15283	del	_	_	_	del	_	_	374-3	_	_	
+375-5	15284-15286	eh	_	FP	_	e::h	_	_	374-4	_	_	
+375-6	15287-15294	[PAUSE]	_	_	_	(.)	_	_	374-5	_	_	
+375-7	15295-15298	del	_	_	_	del	_	_	374-6	_	_	
+375-8	15299-15302	del	_	_	_	del	_	_	374-7	_	_	
+375-9	15303-15312	novecento	_	_	weakly\_rising	novecento,	_	_	374-8	_	_	
+
+#Text=mh
+376-1	15313-15315	mh	BC	_	weakly\_rising	m:h,	_	BO104	375-0	_	_	
+
+#Text=e quindi [PAUSE] è una vicinanza temporale a noi molto prossima
+377-1	15316-15317	e	_	_	_	e	_	BO144	376-0	_	_	
+377-2	15318-15324	quindi	_	_	_	quindi	_	_	376-1	_	_	
+377-3	15325-15332	[PAUSE]	_	_	_	(.)	_	_	376-2	_	_	
+377-4	15333-15334	è	_	_	_	è	_	_	376-3	_	_	
+377-5	15335-15338	una	_	_	_	una:	_	_	376-4	_	_	
+377-6	15339-15348	vicinanza	_	_	_	vicinanza	_	_	376-5	_	_	
+377-7	15349-15358	temporale	_	_	_	temporale	_	_	376-6	_	_	
+377-8	15359-15360	a	_	_	_	a	_	_	376-7	_	_	
+377-9	15361-15364	noi	_	_	_	noi	_	_	376-8	_	_	
+377-10	15365-15370	molto	_	_	_	mo:lto	_	_	376-9	_	_	
+377-11	15371-15379	prossima	_	_	Falling	prossima.	_	_	376-10	_	_	
+
+#Text=e quindi [PAUSE] mh [PAUSE] abbiamo proprio vissuto questo [PAUSE] sviluppo
+378-1	15380-15381	e	_	_	_	e	_	BO144	377-0	_	_	
+378-2	15382-15388	quindi	_	_	weakly\_rising	quindi,	_	_	377-1	_	_	
+378-3	15389-15396	[PAUSE]	_	_	_	(.)	_	_	377-2	_	_	
+378-4	15397-15399	mh	_	FP	_	mh	_	_	377-3	_	_	
+378-5	15400-15407	[PAUSE]	_	_	_	(.)	_	_	377-4	_	_	
+378-6	15408-15415	abbiamo	_	_	_	abbiamo	_	_	377-5	_	_	
+378-7	15416-15423	proprio	_	_	_	proprio	_	_	377-6	_	_	
+378-8	15424-15431	vissuto	_	_	_	vissuto	_	_	377-7	_	_	
+378-9	15432-15438	questo	_	_	_	questo::	_	_	377-8	_	_	
+378-10	15439-15446	[PAUSE]	_	_	_	(.)	_	_	377-9	_	_	
+378-11	15447-15455	sviluppo	_	_	Falling	sviluppo.	_	_	377-10	_	_	
+
+#Text=e questo [PAUSE] eh e questa diffusione
+379-1	15456-15457	e	_	_	_	e	_	BO144	378-0	_	_	
+379-2	15458-15464	questo	_	_	_	questo	_	_	378-1	_	_	
+379-3	15465-15472	[PAUSE]	_	_	_	(.)	_	_	378-2	_	_	
+379-4	15473-15475	eh	_	FP	_	e::h	_	_	378-3	_	_	
+379-5	15476-15477	e	_	_	_	e	_	_	378-4	_	_	
+379-6	15478-15484	questa	_	_	_	questa	_	_	378-5	_	_	
+379-7	15485-15495	diffusione	_	_	Falling	diffusione.	_	_	378-6	_	_	
+
+#Text=in questo caso del computer
+380-1	15496-15498	in	_	_	_	in	_	BO144	379-0	_	_	
+380-2	15499-15505	questo	_	_	_	questo	_	_	379-1	_	_	
+380-3	15506-15510	caso	_	_	_	caso	_	_	379-2	_	_	
+380-4	15511-15514	del	_	_	_	del	_	_	379-3	_	_	
+380-5	15515-15523	computer	_	_	Falling	\[compute\]r.	_	_	379-4	_	_	
+380-5.1	15515-15522	compute	_	_	_	_	_	_	_	*->63-1	*[63]	
+
+#Text=mh mh
+381-1	15524-15526	mh	BC[18]	_	_	\[mh	_	BO104	380-0	*->63-2	*[63]	
+381-2	15527-15529	mh	BC[18]	_	weakly\_rising	mh\],	_	_	380-1	*->63-3	*[63]	
+
+#Text=e che quindi ha favorito da una parte
+382-1	15530-15531	e	_	_	_	e	_	BO144	381-0	_	_	
+382-2	15532-15535	che	_	_	_	che	_	_	381-1	_	_	
+382-3	15536-15542	quindi	_	_	_	quindi	_	_	381-2	_	_	
+382-4	15543-15545	ha	_	_	_	ha	_	_	381-3	_	_	
+382-5	15546-15554	favorito	_	_	_	favorito	_	_	381-4	_	_	
+382-6	15555-15557	da	_	_	_	da	_	_	381-5	_	_	
+382-7	15558-15561	una	_	_	_	una	_	_	381-6	_	_	
+382-8	15562-15567	parte	_	_	weakly\_rising	parte:,	_	_	381-7	_	_	
+
+#Text=mh [PAUSE] la [PAUSE] la diversificazione degli strumenti e dall' altra
+383-1	15568-15570	mh	_	FP	weakly\_rising	m:::h,	_	BO144	382-0	_	_	
+383-2	15571-15578	[PAUSE]	_	_	_	(.)	_	_	382-1	_	_	
+383-3	15579-15581	la	_	_	weakly\_rising	la:::,	_	_	382-2	_	_	
+383-4	15582-15589	[PAUSE]	_	_	_	(.)	_	_	382-3	_	_	
+383-5	15590-15592	la	_	_	_	la	_	_	382-4	_	_	
+383-6	15593-15609	diversificazione	_	_	_	diversificazione	_	_	382-5	_	_	
+383-7	15610-15615	degli	_	_	_	degli	_	_	382-6	_	_	
+383-8	15616-15625	strumenti	_	_	_	strumenti	_	_	382-7	_	_	
+383-9	15626-15627	e	_	_	_	e	_	_	382-8	_	_	
+383-10	15628-15633	dall'	_	_	_	dall'	_	_	382-9	_	_	
+383-11	15634-15639	altra	_	_	weakly\_rising	altra:,	_	_	382-10	_	_	
+
+#Text=invece
+384-1	15640-15646	invece	_	_	weakly\_rising	invece,	_	BO144	383-0	_	_	
+
+#Text=eh mh
+385-1	15647-15649	eh	_	FP[51]	_	e:::h	_	BO144	384-0	_	_	
+385-2	15650-15652	mh	_	FP[51]	weakly\_rising	m::h,	_	_	384-1	_	_	
+
+#Text=ed [PAUSE] eh mh
+386-1	15653-15655	ed	_	_	_	ed	_	BO144	385-0	_	_	
+386-2	15656-15663	[PAUSE]	_	_	_	(.)	_	_	385-1	_	_	
+386-3	15664-15666	eh	_	FP[52]	_	e:h	_	_	385-2	_	_	
+386-4	15667-15669	mh	_	FP[52]	weakly\_rising	mh,	_	_	385-3	_	_	
+
+#Text=è diventato proprio un [PAUSE] uno strumento esso stesso facente parte della [PAUSE] della glottodidattica
+387-1	15670-15671	è	_	_	_	è	_	BO144	386-0	_	_	
+387-2	15672-15681	diventato	_	_	_	diventato	_	_	386-1	_	_	
+387-3	15682-15689	proprio	_	_	_	proprio	_	_	386-2	_	_	
+387-4	15690-15692	un	_	_	_	un	_	_	386-3	_	_	
+387-5	15693-15700	[PAUSE]	_	_	_	(.)	_	_	386-4	_	_	
+387-6	15701-15704	uno	_	_	_	uno	_	_	386-5	_	_	
+387-7	15705-15714	strumento	_	_	_	strumento	_	_	386-6	_	_	
+387-8	15715-15719	esso	_	_	_	esso	_	_	386-7	_	_	
+387-9	15720-15726	stesso	_	_	weakly\_rising	stesso,	_	_	386-8	_	_	
+387-10	15727-15734	facente	_	_	_	facente	_	_	386-9	_	_	
+387-11	15735-15740	parte	_	_	_	pa:rte	_	_	386-10	_	_	
+387-12	15741-15746	della	_	_	_	della:	_	_	386-11	_	_	
+387-13	15747-15754	[PAUSE]	_	_	_	(.)	_	_	386-12	_	_	
+387-14	15755-15760	della	_	_	_	della	_	_	386-13	_	_	
+387-15	15761-15776	glottodidattica	_	_	Falling	glottodidattica.	_	_	386-14	_	_	
+
+#Text=perché se prima le tecnologie venivano viste con [PAUSE] appunto quella diffidenza
+388-1	15777-15783	perché	_	_	_	perché	_	BO144	387-0	_	_	
+388-2	15784-15786	se	_	_	_	se	_	_	387-1	_	_	
+388-3	15787-15792	prima	_	_	_	prima	_	_	387-2	_	_	
+388-4	15793-15795	le	_	_	_	le	_	_	387-3	_	_	
+388-5	15796-15806	tecnologie	_	_	_	tecnologie	_	_	387-4	_	_	
+388-6	15807-15815	venivano	_	_	_	venivano	_	_	387-5	_	_	
+388-7	15816-15821	viste	_	_	_	viste	_	_	387-6	_	_	
+388-8	15822-15825	con	_	_	weakly\_rising	con,	_	_	387-7	_	_	
+388-9	15826-15833	[PAUSE]	_	_	_	(.)	_	_	387-8	_	_	
+388-10	15834-15841	appunto	_	_	_	appunto	_	_	387-9	_	_	
+388-11	15842-15848	quella	_	_	_	quella	_	_	387-10	_	_	
+388-12	15849-15859	diffidenza	_	_	weakly\_rising	diffidenza:,	_	_	387-11	_	_	
+
+#Text=adesso
+389-1	15860-15866	adesso	_	_	weakly\_rising	adesso:,	_	BO144	388-0	_	_	
+
+#Text=mh
+390-1	15867-15869	mh	_	FP	weakly\_rising	m::h,	_	BO144	389-0	_	_	
+
+#Text=è proprio [PAUSE] uno degli strumenti che vengono utilizzati per
+391-1	15870-15871	è	_	_	_	è	_	BO144	390-0	_	_	
+391-2	15872-15879	proprio	_	_	_	proprio	_	_	390-1	_	_	
+391-3	15880-15887	[PAUSE]	_	_	_	(.)	_	_	390-2	_	_	
+391-4	15888-15891	uno	_	_	_	uno	_	_	390-3	_	_	
+391-5	15892-15897	degli	_	_	_	degli	_	_	390-4	_	_	
+391-6	15898-15907	strumenti	_	_	weakly\_rising	strume:nti,	_	_	390-5	_	_	
+391-7	15908-15911	che	_	_	_	che	_	_	390-6	_	_	
+391-8	15912-15919	vengono	_	_	_	vengono	_	_	390-7	_	_	
+391-9	15920-15930	utilizzati	_	_	_	utilizz\[ati	_	_	390-8	_	_	
+391-9.1	15927-15930	ati	_	_	_	_	_	_	_	*->65-1	*[65]	
+391-10	15931-15934	per	_	_	weakly\_rising	per\],	_	_	390-9	*->65-1|*->65-2	*[65]|*[65]	
+
+#Text=mh [PAUSE] eh [PAUSE] però
+392-1	15935-15937	mh	BC	_	weakly\_rising	\[mh,	_	BO104	391-0	*->65-1|*->65-3	*[65]|*[65]	
+392-2	15938-15945	[PAUSE]	_	_	_	(.)	_	_	391-1	_	_	
+392-2.1	15938-15941	[PA	_	_	_	_	_	_	_	*->65-4	*[65]	
+392-3	15946-15948	eh	_	_	_	eh	_	_	391-2	*->65-5	*[65]	
+392-4	15949-15956	[PAUSE]	_	_	_	(.)	_	_	391-3	_	_	
+392-4.1	15949-15952	[PA	_	_	_	_	_	_	_	*->65-6	*[65]	
+392-5	15957-15961	però	_	_	weakly\_rising	però\],	_	_	391-4	*->65-7	*[65]	
+
+#Text=ritorno [PAUSE] alla domanda ((ride))
+393-1	15962-15969	ritorno	_	_	_	ritorno	_	BO104	392-0	_	_	
+393-2	15970-15977	[PAUSE]	_	_	_	(.)	_	_	392-1	_	_	
+393-3	15978-15982	alla	_	_	_	alla	_	_	392-2	_	_	
+393-4	15983-15990	domanda	_	_	_	domanda	_	_	392-3	_	_	
+393-5	15991-15999	((ride))	_	_	_	((ride))	_	_	392-4	_	_	
+
+#Text=quindi
+394-1	16000-16006	quindi	_	_	weakly\_rising	quindi,	_	BO104	393-0	_	_	
+
+#Text=d' accordo tu mi stai parlando del eh [PAUSE] come dire dell' impatto sociale che le tecnologie hanno avuto sull' insegnamento linguistico
+395-1	16007-16009	d'	_	_	_	d'	_	BO104	394-0	_	_	
+395-2	16010-16017	accordo	_	_	_	accordo	_	_	394-1	_	_	
+395-3	16018-16020	tu	_	_	_	tu	_	_	394-2	_	_	
+395-4	16021-16023	mi	_	_	_	mi	_	_	394-3	_	_	
+395-5	16024-16028	stai	_	_	_	stai	_	_	394-4	_	_	
+395-6	16029-16037	parlando	_	_	_	parlando	_	_	394-5	_	_	
+395-7	16038-16041	del	_	_	_	del	_	_	394-6	_	_	
+395-8	16042-16044	eh	_	FP	_	e:h	_	_	394-7	_	_	
+395-9	16045-16052	[PAUSE]	_	_	_	(.)	_	_	394-8	_	_	
+395-10	16053-16057	come	_	_	_	come	_	_	394-9	_	_	
+395-11	16058-16062	dire	_	_	_	dire	_	_	394-10	_	_	
+395-12	16063-16068	dell'	_	_	_	dell'	_	_	394-11	_	_	
+395-13	16069-16076	impatto	_	_	_	impatto	_	_	394-12	_	_	
+395-14	16077-16084	sociale	_	_	weakly\_rising	sociale,	_	_	394-13	_	_	
+395-15	16085-16088	che	_	_	_	che	_	_	394-14	_	_	
+395-16	16089-16091	le	_	_	_	le	_	_	394-15	_	_	
+395-17	16092-16102	tecnologie	_	_	_	tecn\[ologi\]e	_	_	394-16	_	_	
+395-17.1	16096-16102	ologie	_	_	_	_	_	_	_	*->46-1	*[46]	
+395-18	16103-16108	hanno	_	_	_	hanno	_	_	394-17	_	_	
+395-18.1	16103-16105	ha	_	_	_	_	_	_	_	*->46-1	*[46]	
+395-19	16109-16114	avuto	_	_	weakly\_rising	avuto,	_	_	394-18	_	_	
+395-20	16115-16120	sull'	_	_	_	sull'	_	_	394-19	_	_	
+395-21	16121-16133	insegnamento	_	_	_	insegnamento	_	_	394-20	_	_	
+395-22	16134-16145	linguistico	_	_	Falling	linguistico.	_	_	394-21	_	_	
+
+#Text=sì
+396-1	16146-16148	sì	BC	_	weakly\_rising	\[sì\],	_	BO144	395-0	*->46-2	*[46]	
+
+#Text=io però ti sto chiedendo concretamente
+397-1	16149-16151	io	_	_	_	io	_	BO104	396-0	_	_	
+397-2	16152-16156	però	_	_	_	però	_	_	396-1	_	_	
+397-3	16157-16159	ti	_	_	_	ti	_	_	396-2	_	_	
+397-4	16160-16163	sto	_	_	_	sto	_	_	396-3	_	_	
+397-5	16164-16173	chiedendo	_	_	_	chiedendo	_	_	396-4	_	_	
+397-6	16174-16187	concretamente	_	_	weakly\_rising	concretamente,	_	_	396-5	_	_	
+
+#Text=come
+398-1	16188-16192	come	_	_	weakly\_rising	co:me,	_	BO104	397-0	_	_	
+
+#Text=si sono trasformate queste tecnologie
+399-1	16193-16195	si	_	_	_	si	_	BO104	398-0	_	_	
+399-2	16196-16200	sono	_	_	_	sono	_	_	398-1	_	_	
+399-3	16201-16212	trasformate	_	_	_	trasformate	_	_	398-2	_	_	
+399-4	16213-16219	queste	_	_	_	queste	_	_	398-3	_	_	
+399-5	16220-16230	tecnologie	_	_	weakly\_rising	tecnologie,	_	_	398-4	_	_	
+
+#Text=come si è trasformata la didattica
+400-1	16231-16235	come	_	_	_	come	_	BO104	399-0	_	_	
+400-2	16236-16238	si	_	_	_	si	_	_	399-1	_	_	
+400-3	16239-16240	è	_	_	_	è	_	_	399-2	_	_	
+400-4	16241-16252	trasformata	_	_	_	trasformata	_	_	399-3	_	_	
+400-5	16253-16255	la	_	_	_	la	_	_	399-4	_	_	
+400-6	16256-16265	didattica	_	_	weakly\_rising	didattica,	_	_	399-5	_	_	
+
+#Text=delle lingue
+401-1	16266-16271	delle	_	_	_	delle	_	BO104	400-0	_	_	
+401-2	16272-16278	lingue	_	_	weakly\_rising	lingue,	_	_	400-1	_	_	
+
+#Text=con le tecnologie
+402-1	16279-16282	con	_	_	_	con	_	BO104	401-0	_	_	
+402-2	16283-16285	le	_	_	_	le	_	_	401-1	_	_	
+402-3	16286-16296	tecnologie	_	_	weakly\_rising	tecnologie,	_	_	401-2	_	_	
+
+#Text=cioè [PAUSE] parliamo di periodi diversi no il primo periodo negli anni [PAUSE] ottanta novanta
+403-1	16297-16301	cioè	_	_	weakly\_rising	cioè,	_	BO104	402-0	_	_	
+403-2	16302-16309	[PAUSE]	_	_	_	(.)	_	_	402-1	_	_	
+403-3	16310-16318	parliamo	_	_	_	parliamo	_	_	402-2	_	_	
+403-4	16319-16321	di	_	_	_	di	_	_	402-3	_	_	
+403-5	16322-16329	periodi	_	_	_	periodi	_	_	402-4	_	_	
+403-6	16330-16337	diversi	_	_	_	dive:rsi	_	_	402-5	_	_	
+403-7	16338-16340	no	_	_	weakly\_rising	no,	_	_	402-6	_	_	
+403-8	16341-16343	il	_	_	_	il	_	_	402-7	_	_	
+403-9	16344-16349	primo	_	_	_	primo	_	_	402-8	_	_	
+403-10	16350-16357	periodo	_	_	_	periodo	_	_	402-9	_	_	
+403-11	16358-16363	negli	_	_	_	negli	_	_	402-10	_	_	
+403-12	16364-16368	anni	_	_	_	anni	_	_	402-11	_	_	
+403-13	16369-16376	[PAUSE]	_	_	_	(.)	_	_	402-12	_	_	
+403-14	16377-16384	ottanta	_	_	_	ottanta	_	_	402-13	_	_	
+403-15	16385-16392	novanta	_	_	weakly\_rising	novanta,	_	_	402-14	_	_	
+
+#Text=periodo degli anni duemila
+404-1	16393-16400	periodo	_	_	_	periodo	_	BO104	403-0	_	_	
+404-2	16401-16406	degli	_	_	_	degli	_	_	403-1	_	_	
+404-3	16407-16411	anni	_	_	_	anni	_	_	403-2	_	_	
+404-4	16412-16419	duemila	_	_	weakly\_rising	duemi:la,	_	_	403-3	_	_	
+
+#Text=inizio del duemila eccetera e il periodo attuale
+405-1	16420-16426	inizio	_	_	_	inizio	_	BO104	404-0	_	_	
+405-2	16427-16430	del	_	_	_	del	_	_	404-1	_	_	
+405-3	16431-16438	duemila	_	_	_	duemila	_	_	404-2	_	_	
+405-4	16439-16447	eccetera	_	_	weakly\_rising	>eccetera<,	_	_	404-3	_	_	
+405-5	16448-16449	e	_	_	_	e	_	_	404-4	_	_	
+405-6	16450-16452	il	_	_	_	il	_	_	404-5	_	_	
+405-7	16453-16460	periodo	_	_	_	periodo	_	_	404-6	_	_	
+405-8	16461-16468	attuale	_	_	Falling	attua:le.	_	_	404-7	_	_	
+
+#Text=che tecnologie venivano utilizzate quali erano le riflessioni glottodidattiche sull' uso delle tecnologie
+406-1	16469-16472	che	_	_	_	che	_	BO104	405-0	_	_	
+406-2	16473-16483	tecnologie	_	_	_	tecnologie	_	_	405-1	_	_	
+406-3	16484-16492	venivano	_	_	_	venivano	_	_	405-2	_	_	
+406-4	16493-16503	utilizzate	_	_	weakly\_rising	utilizzate,	_	_	405-3	_	_	
+406-5	16504-16509	quali	_	_	_	quali	_	_	405-4	_	_	
+406-6	16510-16515	erano	_	_	_	erano	_	_	405-5	_	_	
+406-7	16516-16518	le	_	_	_	le	_	_	405-6	_	_	
+406-8	16519-16530	riflessioni	_	_	_	riflessioni	_	_	405-7	_	_	
+406-9	16531-16547	glottodidattiche	_	_	_	glottodidattiche	_	_	405-8	_	_	
+406-10	16548-16553	sull'	_	_	_	sull'	_	_	405-9	_	_	
+406-11	16554-16557	uso	_	_	_	uso	_	_	405-10	_	_	
+406-12	16558-16563	delle	_	_	_	delle	_	_	405-11	_	_	
+406-13	16564-16574	tecnologie	_	_	weakly\_rising	tecnologie:,	_	_	405-12	_	_	
+
+#Text=nella didattica della [PAUSE] della lingua
+407-1	16575-16580	nella	_	_	_	nella	_	BO104	406-0	_	_	
+407-2	16581-16590	didattica	_	_	_	didattica	_	_	406-1	_	_	
+407-3	16591-16596	della	_	_	_	della::	_	_	406-2	_	_	
+407-4	16597-16604	[PAUSE]	_	_	_	(.)	_	_	406-3	_	_	
+407-5	16605-16610	della	_	_	_	della	_	_	406-4	_	_	
+407-6	16611-16617	lingua	_	_	Falling	lingua.	_	_	406-5	_	_	
+
+#Text=legate
+408-1	16618-16624	legate	_	_	weakly\_rising	lega:te:,	_	BO104	407-0	_	_	
+
+#Text=anche proprio al
+409-1	16625-16630	anche	_	_	_	anche	_	BO104	408-0	_	_	
+409-2	16631-16638	proprio	_	_	_	proprio	_	_	408-1	_	_	
+409-3	16639-16641	al	_	_	weakly\_rising	al,	_	_	408-2	_	_	
+
+#Text=ai diversi tipi di strumenti che venivano [PAUSE] appunto proposti
+410-1	16642-16644	ai	_	_	_	ai	_	BO104	409-0	_	_	
+410-2	16645-16652	diversi	_	_	weakly\_rising	diversi,	_	_	409-1	_	_	
+410-3	16653-16657	tipi	_	_	_	tipi	_	_	409-2	_	_	
+410-4	16658-16660	di	_	_	_	di	_	_	409-3	_	_	
+410-5	16661-16670	strumenti	_	_	_	strumenti	_	_	409-4	_	_	
+410-6	16671-16674	che	_	_	_	che	_	_	409-5	_	_	
+410-7	16675-16683	venivano	_	_	_	venivano	_	_	409-6	_	_	
+410-8	16684-16691	[PAUSE]	_	_	_	(.)	_	_	409-7	_	_	
+410-9	16692-16699	appunto	_	_	_	appunto	_	_	409-8	_	_	
+410-10	16700-16708	proposti	_	_	weakly\_rising	proposti,	_	_	409-9	_	_	
+
+#Text=e anche all' evoluzione delle metodologie glottodidattiche
+411-1	16709-16710	e	_	_	_	e	_	BO104	410-0	_	_	
+411-2	16711-16716	anche	_	_	weakly\_rising	anche,	_	_	410-1	_	_	
+411-3	16717-16721	all'	_	_	_	all'	_	_	410-2	_	_	
+411-4	16722-16732	evoluzione	_	_	_	evoluzione	_	_	410-3	_	_	
+411-5	16733-16738	delle	_	_	_	delle	_	_	410-4	_	_	
+411-6	16739-16750	metodologie	_	_	_	metodologie	_	_	410-5	_	_	
+411-7	16751-16767	glottodidattiche	_	_	weakly\_rising	glottodidattiche,	_	_	410-6	_	_	
+
+#Text=quindi dagli approcci grammaticali traduttivi agli approcci
+412-1	16768-16774	quindi	_	_	_	quindi	_	BO104	411-0	_	_	
+412-2	16775-16780	dagli	_	_	_	dagli	_	_	411-1	_	_	
+412-3	16781-16789	approcci	_	_	_	approcci	_	_	411-2	_	_	
+412-4	16790-16802	grammaticali	_	_	_	grammaticali	_	_	411-3	_	_	
+412-5	16803-16813	traduttivi	_	_	weakly\_rising	traduttivi,	_	_	411-4	_	_	
+412-6	16814-16818	agli	_	_	_	agli	_	_	411-5	_	_	
+412-7	16819-16827	approcci	_	_	weakly\_rising	approcci::,	_	_	411-6	_	_	
+
+#Text=eh comunicativi attuali azionali eccetera attuali
+413-1	16828-16830	eh	_	FP	_	e::h	_	BO104	412-0	_	_	
+413-2	16831-16843	comunicativi	_	_	_	comunicativi::	_	_	412-1	_	_	
+413-3	16844-16851	attuali	_	_	weakly\_rising	attua:li,	_	_	412-2	_	_	
+413-4	16852-16860	azionali	_	_	weakly\_rising	azionali,	_	_	412-3	_	_	
+413-5	16861-16869	eccetera	_	_	_	eccetera	_	_	412-4	_	_	
+413-6	16870-16877	attuali	_	_	Falling	attuali.	_	_	412-5	_	_	
+
+#Text=okay [PAUSE] allora [PAUSE] eh mh
+414-1	16878-16882	okay	BC	_	weakly\_rising	okay,	_	BO144	413-0	_	_	
+414-2	16883-16890	[PAUSE]	_	_	_	(.)	_	_	413-1	_	_	
+414-3	16891-16897	allora	_	_	_	allora	_	_	413-2	_	_	
+414-4	16898-16905	[PAUSE]	_	_	_	(.)	_	_	413-3	_	_	
+414-5	16906-16908	eh	_	FP[53]	_	e:::h	_	_	413-4	_	_	
+414-6	16909-16911	mh	_	FP[53]	weakly\_rising	mh,	_	_	413-5	_	_	
+
+#Text=negli anni ottanta e novanta
+415-1	16912-16917	negli	_	_	_	negli	_	BO144	414-0	_	_	
+415-2	16918-16922	anni	_	_	_	anni	_	_	414-1	_	_	
+415-3	16923-16930	ottanta	_	_	_	ottanta	_	_	414-2	_	_	
+415-4	16931-16932	e	_	_	_	e	_	_	414-3	_	_	
+415-5	16933-16940	novanta	_	_	weakly\_rising	nova:nta:,	_	_	414-4	_	_	
+
+#Text=eh mh
+416-1	16941-16943	eh	_	FP[54]	_	e:::h	_	BO144	415-0	_	_	
+416-2	16944-16946	mh	_	FP[54]	weakly\_rising	m:h,	_	_	415-1	_	_	
+
+#Text=premesso che negli anni ottanta in italia probabilmente nessuno aveva il computer [PAUSE] quindi [PAUSE] si parla [PAUSE] degli stati uniti eccetera
+417-1	16947-16955	premesso	_	_	_	premesso	_	BO104	416-0	_	_	
+417-2	16956-16959	che	_	_	_	che	_	_	416-1	_	_	
+417-3	16960-16965	negli	_	_	_	negli	_	_	416-2	_	_	
+417-4	16966-16970	anni	_	_	_	anni	_	_	416-3	_	_	
+417-5	16971-16978	ottanta	_	_	_	ottanta	_	_	416-4	_	_	
+417-6	16979-16981	in	_	_	_	in	_	_	416-5	_	_	
+417-7	16982-16988	italia	_	_	_	italia	_	_	416-6	_	_	
+417-8	16989-17002	probabilmente	_	_	_	probabilmente	_	_	416-7	_	_	
+417-9	17003-17010	nessuno	_	_	_	nessuno	_	_	416-8	_	_	
+417-10	17011-17016	aveva	_	_	_	aveva	_	_	416-9	_	_	
+417-11	17017-17019	il	_	_	_	il	_	_	416-10	_	_	
+417-12	17020-17028	computer	_	_	_	computer	_	_	416-11	_	_	
+417-13	17029-17036	[PAUSE]	_	_	_	(.)	_	_	416-12	_	_	
+417-14	17037-17043	quindi	_	_	_	quindi	_	_	416-13	_	_	
+417-15	17044-17051	[PAUSE]	_	_	_	(.)	_	_	416-14	_	_	
+417-16	17052-17054	si	_	_	_	si	_	_	416-15	_	_	
+417-17	17055-17060	parla	_	_	weakly\_rising	parla,	_	_	416-16	_	_	
+417-18	17061-17068	[PAUSE]	_	_	_	(.)	_	_	416-17	_	_	
+417-19	17069-17074	degli	_	_	_	degli	_	_	416-18	_	_	
+417-20	17075-17080	stati	_	_	_	stati	_	_	416-19	_	_	
+417-21	17081-17086	uniti	_	_	weakly\_rising	uni:t\[i::,	_	_	416-20	_	_	
+417-21.1	17085-17086	i	_	_	_	_	_	_	_	*->4-1	*[4]	
+417-22	17087-17095	eccetera	_	_	weakly\_rising	ecce\]tera,	_	_	416-21	_	_	
+417-22.1	17087-17090	ecc	_	_	_	_	_	_	_	*->4-1	*[4]	
+417-22.2	17087-17091	ecce	_	_	_	_	_	_	_	*->4-2	*[4]	
+
+#Text=esatto
+418-1	17096-17102	esatto	BC	_	Falling	\[esatto\].	_	BO144	417-0	*->4-3	*[4]	
+
+#Text=okay
+419-1	17103-17107	okay	BC	_	Falling	okay.	_	BO104	418-0	_	_	
+
+#Text=eh mh
+420-1	17108-17110	eh	_	FP[55]	_	e:::h	_	BO144	419-0	_	_	
+420-2	17111-17113	mh	_	FP[55]	weakly\_rising	m:::h,	_	_	419-1	_	_	
+
+#Text=al computer vengono vengono affiancati strumenti come la registrazione audio [PAUSE] la registrazione video
+421-1	17114-17116	al	_	_	_	al	_	BO144	420-0	_	_	
+421-2	17117-17125	computer	_	_	_	computer	_	_	420-1	_	_	
+421-3	17126-17133	vengono	_	_	_	vengono	_	_	420-2	_	_	
+421-4	17134-17141	vengono	_	_	_	vengono	_	_	420-3	_	_	
+421-5	17142-17152	affiancati	_	_	_	affiancati	_	_	420-4	_	_	
+421-6	17153-17162	strumenti	_	_	_	strumenti	_	_	420-5	_	_	
+421-7	17163-17167	come	_	_	_	come	_	_	420-6	_	_	
+421-8	17168-17170	la	_	_	_	la	_	_	420-7	_	_	
+421-9	17171-17184	registrazione	_	_	_	registrazione	_	_	420-8	_	_	
+421-10	17185-17190	audio	_	_	weakly\_rising	audio,	_	_	420-9	_	_	
+421-11	17191-17198	[PAUSE]	_	_	_	(.)	_	_	420-10	_	_	
+421-12	17199-17201	la	_	_	_	la	_	_	420-11	_	_	
+421-13	17202-17215	registrazione	_	_	_	registrazione	_	_	420-12	_	_	
+421-14	17216-17221	video	_	_	weakly\_rising	video:,	_	_	420-13	_	_	
+
+#Text=eh mh
+422-1	17222-17224	eh	_	FP[56]	_	e:::h	_	BO144	421-0	_	_	
+422-2	17225-17227	mh	_	FP[56]	weakly\_rising	m::h,	_	_	421-1	_	_	
+
+#Text=e si favorisce
+423-1	17228-17229	e	_	_	_	e	_	BO144	422-0	_	_	
+423-2	17230-17232	si	_	_	_	si	_	_	422-1	_	_	
+423-3	17233-17242	favorisce	_	_	weakly\_rising	favori:sce:,	_	_	422-2	_	_	
+
+#Text=appunto
+424-1	17243-17250	appunto	_	_	weakly\_rising	appunto,	_	BO144	423-0	_	_	
+
+#Text=una una [PAUSE] un tipo di didattica
+425-1	17251-17254	una	_	_	_	una:::	_	BO144	424-0	_	_	
+425-2	17255-17258	una	_	_	_	una	_	_	424-1	_	_	
+425-3	17259-17266	[PAUSE]	_	_	_	(.)	_	_	424-2	_	_	
+425-4	17267-17269	un	_	_	_	un	_	_	424-3	_	_	
+425-5	17270-17274	tipo	_	_	_	tipo	_	_	424-4	_	_	
+425-6	17275-17277	di	_	_	_	di	_	_	424-5	_	_	
+425-7	17278-17287	didattica	_	_	weakly\_rising	didattica,	_	_	424-6	_	_	
+
+#Text=che non sia incentrato solo sullo strumento tecnologico ma piuttosto sulla
+426-1	17288-17291	che	_	_	_	che	_	BO144	425-0	_	_	
+426-2	17292-17295	non	_	_	_	non	_	_	425-1	_	_	
+426-3	17296-17299	sia	_	_	_	sia	_	_	425-2	_	_	
+426-4	17300-17310	incentrato	_	_	_	incentrato	_	_	425-3	_	_	
+426-5	17311-17315	solo	_	_	_	solo	_	_	425-4	_	_	
+426-6	17316-17321	sullo	_	_	_	sullo	_	_	425-5	_	_	
+426-7	17322-17331	strumento	_	_	_	strumento	_	_	425-6	_	_	
+426-8	17332-17343	tecnologico	_	_	weakly\_rising	tecnologico,	_	_	425-7	_	_	
+426-9	17344-17346	ma	_	_	_	ma	_	_	425-8	_	_	
+426-10	17347-17356	piuttosto	_	_	_	piuttosto	_	_	425-9	_	_	
+426-11	17357-17362	sulla	_	_	weakly\_rising	sulla::,	_	_	425-10	_	_	
+
+#Text=mh
+427-1	17363-17365	mh	_	FP	weakly\_rising	m::h,	_	BO144	426-0	_	_	
+
+#Text=sulla mh
+428-1	17366-17371	sulla	_	_	_	sulla::	_	BO144	427-0	_	_	
+428-2	17372-17374	mh	_	FP	weakly\_rising	m:h,	_	_	427-1	_	_	
+
+#Text=sulla
+429-1	17375-17380	sulla	_	_	weakly\_rising	sulla,	_	BO144	428-0	_	_	
+
+#Text=competenza
+430-1	17381-17391	competenza	_	_	weakly\_rising	compete:nza,	_	BO144	429-0	_	_	
+
+#Text=che si riesce a raggiugnere grazie [PAUSE] alla grammatica alla traduzione integrando questa competenza
+431-1	17392-17395	che	_	_	_	che	_	BO144	430-0	_	_	
+431-2	17396-17398	si	_	_	_	si	_	_	430-1	_	_	
+431-3	17399-17405	riesce	_	_	_	riesce	_	_	430-2	_	_	
+431-4	17406-17407	a	_	_	_	a	_	_	430-3	_	_	
+431-5	17408-17419	raggiugnere	_	_	_	raggiugnere	_	_	430-4	_	_	
+431-6	17420-17426	grazie	_	_	_	grazie	_	_	430-5	_	_	
+431-7	17427-17434	[PAUSE]	_	_	_	(.)	_	_	430-6	_	_	
+431-8	17435-17439	alla	_	_	_	alla	_	_	430-7	_	_	
+431-9	17440-17450	grammatica	_	_	_	grammatica	_	_	430-8	_	_	
+431-10	17451-17455	alla	_	_	_	alla	_	_	430-9	_	_	
+431-11	17456-17466	traduzione	_	_	weakly\_rising	traduzione,	_	_	430-10	_	_	
+431-12	17467-17477	integrando	_	_	_	integrando	_	_	430-11	_	_	
+431-13	17478-17484	questa	_	_	_	questa	_	_	430-12	_	_	
+431-14	17485-17495	competenza	_	_	weakly\_rising	competenza,	_	_	430-13	_	_	
+
+#Text=con [PAUSE] ad esempio [PAUSE] eh [PAUSE] le proiezioni video alla televisione oppure le cassette di registrazione
+432-1	17496-17499	con	_	_	_	con	_	BO144	431-0	_	_	
+432-2	17500-17507	[PAUSE]	_	_	_	(.)	_	_	431-1	_	_	
+432-3	17508-17510	ad	_	_	_	ad	_	_	431-2	_	_	
+432-4	17511-17518	esempio	_	_	_	esempio	_	_	431-3	_	_	
+432-5	17519-17526	[PAUSE]	_	_	_	(.)	_	_	431-4	_	_	
+432-6	17527-17529	eh	_	FP	_	e:::h	_	_	431-5	_	_	
+432-7	17530-17537	[PAUSE]	_	_	_	(.)	_	_	431-6	_	_	
+432-8	17538-17540	le	_	_	_	le	_	_	431-7	_	_	
+432-9	17541-17551	proiezioni	_	_	_	proiezioni	_	_	431-8	_	_	
+432-10	17552-17557	video	_	_	_	video	_	_	431-9	_	_	
+432-11	17558-17562	alla	_	_	_	alla	_	_	431-10	_	_	
+432-12	17563-17574	televisione	_	_	weakly\_rising	televisio:ne,	_	_	431-11	_	_	
+432-13	17575-17581	oppure	_	_	_	oppure	_	_	431-12	_	_	
+432-14	17582-17584	le	_	_	_	le	_	_	431-13	_	_	
+432-15	17585-17593	cassette	_	_	_	cassette	_	_	431-14	_	_	
+432-16	17594-17596	di	_	_	_	di	_	_	431-15	_	_	
+432-17	17597-17610	registrazione	_	_	weakly\_rising	registrazio:ne,	_	_	431-16	_	_	
+
+#Text=per poi passare [PAUSE] mh [PAUSE] a cavallo degli anni duemila
+433-1	17611-17614	per	_	_	_	per	_	BO144	432-0	_	_	
+433-2	17615-17618	poi	_	_	_	poi	_	_	432-1	_	_	
+433-3	17619-17626	passare	_	_	weakly\_rising	passare,	_	_	432-2	_	_	
+433-4	17627-17634	[PAUSE]	_	_	_	(.)	_	_	432-3	_	_	
+433-5	17635-17637	mh	_	FP	_	m:h	_	_	432-4	_	_	
+433-6	17638-17645	[PAUSE]	_	_	_	(.)	_	_	432-5	_	_	
+433-7	17646-17647	a	_	_	_	a	_	_	432-6	_	_	
+433-8	17648-17655	cavallo	_	_	_	cavallo	_	_	432-7	_	_	
+433-9	17656-17661	degli	_	_	_	degli	_	_	432-8	_	_	
+433-10	17662-17666	anni	_	_	_	anni	_	_	432-9	_	_	
+433-11	17667-17674	duemila	_	_	weakly\_rising	duemila,	_	_	432-10	_	_	
+
+#Text=invece [PAUSE] ad [PAUSE] una maggiore diffusione innanzitutto del computer
+434-1	17675-17681	invece	_	_	weakly\_rising	invece,	_	BO144	433-0	_	_	
+434-2	17682-17689	[PAUSE]	_	_	_	(.)	_	_	433-1	_	_	
+434-3	17690-17692	ad	_	_	_	ad	_	_	433-2	_	_	
+434-4	17693-17700	[PAUSE]	_	_	_	(.)	_	_	433-3	_	_	
+434-5	17701-17704	una	_	_	_	una	_	_	433-4	_	_	
+434-6	17705-17713	maggiore	_	_	_	maggiore	_	_	433-5	_	_	
+434-7	17714-17724	diffusione	_	_	_	diffusione	_	_	433-6	_	_	
+434-8	17725-17737	innanzitutto	_	_	_	innanzitutto	_	_	433-7	_	_	
+434-9	17738-17741	del	_	_	_	del	_	_	433-8	_	_	
+434-10	17742-17750	computer	_	_	weakly\_rising	computer,	_	_	433-9	_	_	
+
+#Text=e
+435-1	17751-17752	e	_	_	weakly\_rising	e:::,	_	BO144	434-0	_	_	
+
+#Text=eh mh [PAUSE] all' integrazione
+436-1	17753-17755	eh	_	FP[57]	_	e::h	_	BO144	435-0	_	_	
+436-2	17756-17758	mh	_	FP[57]	_	mh	_	_	435-1	_	_	
+436-3	17759-17766	[PAUSE]	_	_	_	(.)	_	_	435-2	_	_	
+436-4	17767-17771	all'	_	_	_	all'	_	_	435-3	_	_	
+436-5	17772-17784	integrazione	_	_	weakly\_rising	integrazio:ne,	_	_	435-4	_	_	
+
+#Text=dei mezzi quindi [PAUSE] del eh sito web
+437-1	17785-17788	dei	_	_	_	dei	_	BO144	436-0	_	_	
+437-2	17789-17794	mezzi	_	_	weakly\_rising	mezzi,	_	_	436-1	_	_	
+437-3	17795-17801	quindi	_	_	_	quindi	_	_	436-2	_	_	
+437-4	17802-17809	[PAUSE]	_	_	_	(.)	_	_	436-3	_	_	
+437-5	17810-17813	del	_	_	_	del	_	_	436-4	_	_	
+437-6	17814-17816	eh	_	FP	_	e::h	_	_	436-5	_	_	
+437-7	17817-17821	sito	_	_	_	sito	_	_	436-6	_	_	
+437-8	17822-17825	web	_	_	weakly\_rising	web,	_	_	436-7	_	_	
+
+#Text=eh dei siti dove
+438-1	17826-17828	eh	_	FP	_	e:::h	_	BO144	437-0	_	_	
+438-2	17829-17832	dei	_	_	_	dei	_	_	437-1	_	_	
+438-3	17833-17837	siti	_	_	_	siti:	_	_	437-2	_	_	
+438-4	17838-17842	dove	_	_	weakly\_rising	dove,	_	_	437-3	_	_	
+
+#Text=fino a raggiungere i giorni nostri
+439-1	17843-17847	fino	_	_	_	fino	_	BO144	438-0	_	_	
+439-2	17848-17849	a	_	_	_	a	_	_	438-1	_	_	
+439-3	17850-17861	raggiungere	_	_	_	raggiungere	_	_	438-2	_	_	
+439-4	17862-17863	i	_	_	_	i	_	_	438-3	_	_	
+439-5	17864-17870	giorni	_	_	_	giorni	_	_	438-4	_	_	
+439-6	17871-17877	nostri	_	_	weakly\_rising	nostri,	_	_	438-5	_	_	
+
+#Text=dove appunto [PAUSE] si possono [PAUSE] mh
+440-1	17878-17882	dove	_	_	_	dove	_	BO144	439-0	_	_	
+440-2	17883-17890	appunto	_	_	_	appunto	_	_	439-1	_	_	
+440-3	17891-17898	[PAUSE]	_	_	_	(.)	_	_	439-2	_	_	
+440-4	17899-17901	si	_	_	_	si	_	_	439-3	_	_	
+440-5	17902-17909	possono	_	_	_	possono	_	_	439-4	_	_	
+440-6	17910-17917	[PAUSE]	_	_	_	(.)	_	_	439-5	_	_	
+440-7	17918-17920	mh	_	FP	weakly\_rising	m::h,	_	_	439-6	_	_	
+
+#Text=crea~ [PAUSE] si creano proprio dei siti
+441-1	17921-17926	crea~	_	_	weakly\_rising	crea~,	SR[81]	BO144	440-0	_	_	
+441-2	17927-17934	[PAUSE]	_	_	_	(.)	SR[81]	_	440-1	_	_	
+441-3	17935-17937	si	_	_	_	si	SR[81]	_	440-2	_	_	
+441-4	17938-17944	creano	_	_	_	creano	SR[81]	_	440-3	_	_	
+441-5	17945-17952	proprio	_	_	_	proprio	_	_	440-4	_	_	
+441-6	17953-17956	dei	_	_	_	dei	_	_	440-5	_	_	
+441-7	17957-17961	siti	_	_	weakly\_rising	si:ti,	_	_	440-6	_	_	
+
+#Text=in cui si possono
+442-1	17962-17964	in	_	_	_	in	_	BO144	441-0	_	_	
+442-2	17965-17968	cui	_	_	_	cui	_	_	441-1	_	_	
+442-3	17969-17971	si	_	_	_	si	_	_	441-2	_	_	
+442-4	17972-17979	possono	_	_	weakly\_rising	possono,	_	_	441-3	_	_	
+
+#Text=fare questi esercizi
+443-1	17980-17984	fare	_	_	_	fare	_	BO144	442-0	_	_	
+443-2	17985-17991	questi	_	_	_	questi	_	_	442-1	_	_	
+443-3	17992-18000	esercizi	_	_	Falling	esercizi.	_	_	442-2	_	_	
+
+#Text=che prima magari erano sottoposti
+444-1	18001-18004	che	_	_	_	che	_	BO144	443-0	_	_	
+444-2	18005-18010	prima	_	_	_	prima	_	_	443-1	_	_	
+444-3	18011-18017	magari	_	_	_	magari	_	_	443-2	_	_	
+444-4	18018-18023	erano	_	_	_	erano	_	_	443-3	_	_	
+444-5	18024-18034	sottoposti	_	_	weakly\_rising	sottoposti,	_	_	443-4	_	_	
+
+#Text=mh [PAUSE] in modo cartaceo
+445-1	18035-18037	mh	_	FP	_	m:h	_	BO144	444-0	_	_	
+445-2	18038-18045	[PAUSE]	_	_	_	(.)	_	_	444-1	_	_	
+445-3	18046-18048	in	_	_	_	in	_	_	444-2	_	_	
+445-4	18049-18053	modo	_	_	_	modo	_	_	444-3	_	_	
+445-5	18054-18062	cartaceo	_	_	weakly\_rising	cartaceo,	_	_	444-4	_	_	
+
+#Text=ma dal punto di vista del processo didattico
+446-1	18063-18065	ma	_	_	_	ma	_	BO104	445-0	_	_	
+446-2	18066-18069	dal	_	_	_	dal	_	_	445-1	_	_	
+446-3	18070-18075	punto	_	_	_	punto	_	_	445-2	_	_	
+446-4	18076-18078	di	_	_	_	di	_	_	445-3	_	_	
+446-5	18079-18084	vista	_	_	_	vista	_	_	445-4	_	_	
+446-6	18085-18088	del	_	_	_	del	_	_	445-5	_	_	
+446-7	18089-18097	processo	_	_	_	proce:sso	_	_	445-6	_	_	
+446-8	18098-18107	didattico	_	_	weakly\_rising	didattico,	_	_	445-7	_	_	
+
+#Text=quindi [PAUSE] appunto negli anni
+447-1	18108-18114	quindi	_	_	weakly\_rising	quindi,	_	BO104	446-0	_	_	
+447-2	18115-18122	[PAUSE]	_	_	_	(.)	_	_	446-1	_	_	
+447-3	18123-18130	appunto	_	_	_	appunto	_	_	446-2	_	_	
+447-4	18131-18136	negli	_	_	_	negli	_	_	446-3	_	_	
+447-5	18137-18141	anni	_	_	weakly\_rising	anni:::,	_	_	446-4	_	_	
