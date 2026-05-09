@@ -1,0 +1,864 @@
+{
+  "speaker": "SPEAKER_A",
+  "audio_duration": 524.778,
+  "segments": [
+    {
+      "speaker": "SPEAKER_A",
+      "start": 4.48596875,
+      "end": 15.08396875,
+      "text": "Sì, l'avevano sotto casa una tipografia, andavano insomma... E a chi l'hanno venduta? No, ci hanno fatto un'altra casa adesso, hanno chiuso proprio...",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 4.48596875,
+          "end": 9.52596875,
+          "text": "Sì, l'avevano sotto casa una tipografia, andavano insomma...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 9.52596875,
+          "end": 10.54596875,
+          "text": "E a chi l'hanno venduta?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 11.04596875,
+          "end": 14.46596875,
+          "text": "No, ci hanno fatto un'altra casa adesso, hanno chiuso proprio...",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 18.03659375,
+      "end": 24.02759375,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 26.11971875,
+      "end": 26.96371875,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 33.96659375,
+      "end": 47.06159375,
+      "text": "Comunque ero piccolina, eravamo quasi alla fine. 40 anni fa. Anni 70, 80 credo. Vessi in fuori. Magari le dicono che hanno messo in una casa di campagna.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 33.96659375,
+          "end": 37.52659375,
+          "text": "Comunque ero piccolina, eravamo quasi alla fine.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 38.32659375,
+          "end": 39.58659375,
+          "text": "40 anni fa.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 39.58659375,
+          "end": 42.78659375,
+          "text": "Anni 70, 80 credo.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 43.20659375,
+          "end": 46.70659375,
+          "text": "Vessi in fuori. Magari le dicono che hanno messo in una casa di campagna.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 49.50846875,
+      "end": 52.866468749999996,
+      "text": "Quindi il tipografo, l'original tipografo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 49.50846875,
+          "end": 52.36846875,
+          "text": "Quindi il tipografo, l'original tipografo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 65.23596875,
+      "end": 65.79296875,
+      "text": "Mm-hmm.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 65.23596875,
+          "end": 65.73596875,
+          "text": "Mm-hmm.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 68.47596875,
+      "end": 70.58596875,
+      "text": "Sì, no, certo, c'era un'antipogono.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 68.47596875,
+          "end": 70.47596875,
+          "text": "Sì, no, certo, c'era un'antipogono.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 77.97659375,
+      "end": 79.02259375000001,
+      "text": "Quindi il deposito è visto.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 77.97659375,
+          "end": 79.02259375000001,
+          "text": "Quindi il deposito è visto.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 83.52846875,
+      "end": 84.91246875,
+      "text": "Ehm...",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 83.52846875,
+          "end": 84.91246875,
+          "text": "Ehm...",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 94.39596875,
+      "end": 98.36196874999999,
+      "text": "Non ce l'ho dietro il manuale. Internazionale.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 94.39596875,
+          "end": 95.87596875,
+          "text": "Non ce l'ho dietro il manuale.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 97.23596875,
+          "end": 97.89596875,
+          "text": "Internazionale.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 105.21284375,
+      "end": 112.73984375,
+      "text": "No, parliamo di bibliografia, non di catalogo, quindi... Brava!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 105.21284375,
+          "end": 111.25284375000001,
+          "text": "No, parliamo di bibliografia, non di catalogo, quindi...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 111.25284375000001,
+          "end": 111.75284375000001,
+          "text": "Brava!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 117.56534375,
+      "end": 119.32034374999999,
+      "text": "Un esempio proprio devo fare.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 117.56534375,
+          "end": 119.18534375,
+          "text": "Un esempio proprio devo fare.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 122.35784375,
+      "end": 123.37084375,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 122.35784375,
+          "end": 123.37084375,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 125.53034375,
+      "end": 139.68834375,
+      "text": "Non so, la stessa bibliografia delle opere italiane tradotte in cinese, pubblicate in Cina, quindi relative a una lingua comunque straniera, diversa dalla lingua cinese.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 125.53034375,
+          "end": 139.63034375,
+          "text": "Non so, la stessa bibliografia delle opere italiane tradotte in cinese, pubblicate in Cina, quindi relative a una lingua comunque straniera, diversa dalla lingua cinese.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 155.46659375,
+      "end": 169.65859375,
+      "text": "Che non è in Cina? Sì, sì, sì. Ma cioè che non è autonoma? No, è stata riassorbita? Era a Taiwan forse. Ah, a Taiwan? A Taiwan. A Taiwan è ancora autonoma? Credo di no. E' stata assorbita da Cina? Sì, sì.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 155.62659374999998,
+          "end": 156.46659375,
+          "text": "Che non è in Cina?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 156.80659375,
+          "end": 157.84659374999998,
+          "text": "Sì, sì, sì.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 157.92659375,
+          "end": 158.92659375,
+          "text": "Ma cioè che non è autonoma?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 159.16659374999998,
+          "end": 160.24659375,
+          "text": "No, è stata riassorbita?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 160.40659374999998,
+          "end": 161.82659375,
+          "text": "Era a Taiwan forse.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 161.98659375,
+          "end": 162.48659375,
+          "text": "Ah, a Taiwan?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 162.56659374999998,
+          "end": 163.02659375,
+          "text": "A Taiwan.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 163.14659375,
+          "end": 164.14659375,
+          "text": "A Taiwan è ancora autonoma?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 164.76659375,
+          "end": 165.52659375,
+          "text": "Credo di no.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 166.52659375,
+          "end": 168.46659375,
+          "text": "E' stata assorbita da Cina?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 169.20659375,
+          "end": 169.62659374999998,
+          "text": "Sì, sì.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 172.47659375,
+      "end": 178.02859375,
+      "text": "Sì, Giappone forse. Giappone, Giappone. Corea del Nord.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 172.47659375,
+          "end": 174.65659375,
+          "text": "Sì, Giappone forse.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 174.83659375000002,
+          "end": 176.09659375,
+          "text": "Giappone, Giappone.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 176.75659375,
+          "end": 178.02859375,
+          "text": "Corea del Nord.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 183.10784375,
+      "end": 208.25184375,
+      "text": "Il locale ad esempio le bibliografie che abbiamo nel XVII secolo tipo relative all'area romana di Allacci, alpisturbana e drammaturgia, e di Toppi invece, Toppi, la biblioteca napoletana. Brava, molto brava.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 183.10784375,
+          "end": 196.14784375,
+          "text": "Il locale ad esempio le bibliografie che abbiamo nel XVII secolo tipo relative all'area romana di Allacci, alpisturbana e drammaturgia,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 196.64784375,
+          "end": 205.76784375,
+          "text": "e di Toppi invece, Toppi, la biblioteca napoletana.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 205.94784375,
+          "end": 207.48784375,
+          "text": "Brava, molto brava.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 225.80159375,
+      "end": 313.41659375,
+      "text": "Sì, allora, l'OPAC praticamente è un, letteralmente significa Online Public Access Catalog ed è un servizio che viene offerto dalle biblioteche per poter ricercare documenti attraverso la compilazione di vari filtri che possono permettere una serie di ricerche serie di ricerche che rientrano nel mi ritorno al nome in inglese le varie metodologie di ricerca per parole scorrimento di liste alfabetiche information retrieval vari sistemi Sì, vari sistemi. È formato da tutte quelle che sono le registrazioni bibliografiche dei vari documenti, quindi vari records, che sono caratterizzati da vari campi, vari fields. quindi autore, titolo dell'opera, anno di pubblicazione, soggetto eccetera, luogo di pubblicazione e che l'insieme di questi record danno vita alla banca dati.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 225.80159375,
+          "end": 235.30159375,
+          "text": "Sì, allora, l'OPAC praticamente è un, letteralmente significa Online Public Access Catalog",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 235.30159375,
+          "end": 242.36159375,
+          "text": "ed è un servizio che viene offerto dalle biblioteche per poter ricercare documenti",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 242.36159375,
+          "end": 251.36159375,
+          "text": "attraverso la compilazione di vari filtri che possono permettere una serie di ricerche",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 251.36159375,
+          "end": 256.10159375,
+          "text": "serie di ricerche che rientrano nel",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 256.10159375,
+          "end": 260.40159375,
+          "text": "mi ritorno al nome in inglese",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 260.40159375,
+          "end": 266.30159375,
+          "text": "le varie metodologie di ricerca",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 266.30159375,
+          "end": 267.48159375,
+          "text": "per parole",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 267.48159375,
+          "end": 270.70159375,
+          "text": "scorrimento di liste alfabetiche",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 270.70159375,
+          "end": 275.32159375,
+          "text": "information retrieval",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 275.32159375,
+          "end": 276.28159375,
+          "text": "vari sistemi",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 276.28159375,
+          "end": 299.02159374999997,
+          "text": "Sì, vari sistemi. È formato da tutte quelle che sono le registrazioni bibliografiche dei vari documenti, quindi vari records, che sono caratterizzati da vari campi, vari fields.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 299.02159374999997,
+          "end": 311.96159375,
+          "text": "quindi autore, titolo dell'opera, anno di pubblicazione, soggetto eccetera, luogo di pubblicazione e che l'insieme di questi record danno vita alla banca dati.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 320.60534375,
+      "end": 320.95934374999996,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 320.60534375,
+          "end": 320.95934374999996,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 324.11534375,
+      "end": 326.24134375,
+      "text": "permette di",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 324.11534375,
+          "end": 325.45534375,
+          "text": "permette di",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 328.48596875,
+      "end": 335.52296874999996,
+      "text": "Eh... No. No. Va bene. Potrei venire in piazza.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 328.48596875,
+          "end": 335.44596874999996,
+          "text": "Eh... No. No. Va bene. Potrei venire in piazza.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 356.27909375,
+      "end": 357.13909375000003,
+      "text": "Certo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 356.27909375,
+          "end": 357.03909375,
+          "text": "Certo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 372.19221875,
+      "end": 372.69821874999997,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 372.19221875,
+          "end": 372.69821874999997,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 379.54971875,
+      "end": 395.73271875,
+      "text": "Non l'ho mai fatto forse perché nel mio ambito di studio non ho mai avuto bisogno di andare a ricercare pubblicazioni tanto datate.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 379.54971875,
+          "end": 394.48971875,
+          "text": "Non l'ho mai fatto forse perché nel mio ambito di studio non ho mai avuto bisogno di andare a ricercare pubblicazioni tanto datate.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 402.22971875,
+      "end": 408.76071875,
+      "text": "Ma sì, sì ci sono, però non risalce.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 402.22971875,
+          "end": 408.52971875000003,
+          "text": "Ma sì, sì ci sono, però non risalce.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 412.94534375,
+      "end": 414.91934375,
+      "text": "Non te li, ok",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 412.94534375,
+          "end": 414.36534375,
+          "text": "Non te li, ok",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 424.50471875,
+      "end": 440.68771875,
+      "text": "Sì infatti non è che ho trovato molto, c'era una bibliografia su studi orientali ma vecchissima, ci erano veramente pochissime cose.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 424.50471875,
+          "end": 440.64471875,
+          "text": "Sì infatti non è che ho trovato molto, c'era una bibliografia su studi orientali ma vecchissima, ci erano veramente pochissime cose.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 443.45534375,
+      "end": 443.91034375,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 443.45534375,
+          "end": 443.91034375,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 446.93159375,
+      "end": 447.85959375,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 446.93159375,
+          "end": 447.63159375,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 460.70159375,
+      "end": 461.76459374999996,
+      "text": "dei cataloghi",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 460.70159375,
+          "end": 461.42159375,
+          "text": "dei cataloghi",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 465.98346875,
+      "end": 467.58646875,
+      "text": "non la sapeva",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 465.98346875,
+          "end": 467.18346875,
+          "text": "non la sapeva",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 473.40846875,
+      "end": 476.96946875,
+      "text": "Ah no, ma ne sono consapevole.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 473.40846875,
+          "end": 476.74846875,
+          "text": "Ah no, ma ne sono consapevole.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 484.24221875,
+      "end": 484.68021875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 484.24221875,
+          "end": 484.68021875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 489.50721875,
+      "end": 493.27021874999997,
+      "text": "No, ma va bene, almeno li imparo, che mi servirà.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 489.50721875,
+          "end": 493.16721875,
+          "text": "No, ma va bene, almeno li imparo, che mi servirà.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 506.06159375,
+      "end": 506.53459375,
+      "text": "Ma no.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 506.06159375,
+          "end": 506.44159375,
+          "text": "Ma no.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_A",
+      "start": 522.36284375,
+      "end": 523.98284375,
+      "text": "arrivederci grazie",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_A",
+          "start": 522.36284375,
+          "end": 523.14284375,
+          "text": "arrivederci",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_A",
+          "start": 523.14284375,
+          "end": 523.6828437500001,
+          "text": "grazie",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    }
+  ]
+}

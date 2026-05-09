@@ -1,0 +1,14 @@
+{
+  "source_file": "audio_from20/subset_A/PTD003_from20.wav",
+  "wav_file": "configuration_results/A/PTD003_from20_A/audio_converted.wav",
+  "total_duration": 723.904,
+  "block_duration": 1800.0,
+  "num_blocks": 1,
+  "total_segments": 221,
+  "processing_time": -1769104423.61535,
+  "exclusive_mode": true,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    722.17971875
+  ]
+}

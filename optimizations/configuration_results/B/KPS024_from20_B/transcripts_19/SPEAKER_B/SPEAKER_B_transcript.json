@@ -1,0 +1,3763 @@
+{
+  "speaker": "SPEAKER_B",
+  "audio_duration": 1489.895,
+  "segments": [
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1.09409375,
+      "end": 10.79709375,
+      "text": "è vero è vero come? come? come che oggi è scuola",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1.09409375,
+          "end": 2.59409375,
+          "text": "è vero",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 2.59409375,
+          "end": 4.59409375,
+          "text": "è vero",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 4.59409375,
+          "end": 6.59409375,
+          "text": "come?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 6.59409375,
+          "end": 8.59409375,
+          "text": "come?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 8.59409375,
+          "end": 10.59409375,
+          "text": "come che oggi è scuola",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 14.64471875,
+      "end": 17.74971875,
+      "text": "A scuola questi mi chiedevano delle cose facciò Come?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 14.64471875,
+          "end": 16.62471875,
+          "text": "A scuola questi mi chiedevano delle cose facciò",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 16.62471875,
+          "end": 17.42471875,
+          "text": "Come?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 20.07846875,
+      "end": 22.356468749999998,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 28.04346875,
+      "end": 31.38446875,
+      "text": "io faccio film per",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 28.04346875,
+          "end": 31.30346875,
+          "text": "io faccio film per",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 34.01721875,
+      "end": 35.451218749999995,
+      "text": "al momento dai",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 34.01721875,
+          "end": 35.15721875,
+          "text": "al momento dai",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 37.69596875,
+      "end": 38.45596875,
+      "text": "C'è un po' di lato.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 37.69596875,
+          "end": 38.33596875,
+          "text": "C'è un po' di lato.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 42.89346875,
+      "end": 51.68546875,
+      "text": "Dai, a quanto pare domani dovrò fare anche i bambini piccoli. Piccoli quanti? Eh, pre starters, quindi 6-7 anni.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 42.89346875,
+          "end": 47.39346875,
+          "text": "Dai, a quanto pare domani dovrò fare anche i bambini piccoli.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 47.39346875,
+          "end": 49.39346875,
+          "text": "Piccoli quanti?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 49.39346875,
+          "end": 51.39346875,
+          "text": "Eh, pre starters, quindi 6-7 anni.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 54.09846875,
+      "end": 57.27046875,
+      "text": "Comunque dagli 8 ai 18",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 54.09846875,
+          "end": 57.03846875,
+          "text": "Comunque dagli 8 ai 18",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 64.47659375,
+      "end": 74.65259375000001,
+      "text": "E poi questi bambini piccoli, cioè mo' quando avevo iniziato, prima che me ne andavo a Bologna, comunque tanti sono rimasti.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 64.47659375,
+          "end": 73.99659375,
+          "text": "E poi questi bambini piccoli, cioè mo' quando avevo iniziato, prima che me ne andavo a Bologna, comunque tanti sono rimasti.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 76.94721875,
+      "end": 88.28721875000001,
+      "text": "e sono cresciuti quindi quelli che tipo quando ero entrato stavano in cui deve andare ma sono in terza media qualcuno deve andare agli superiori ero scioccato E' scandalo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 76.94721875,
+          "end": 84.50721875,
+          "text": "e sono cresciuti quindi quelli che tipo quando ero entrato stavano in cui deve andare ma sono in terza media qualcuno deve andare agli superiori ero scioccato",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 86.90721875,
+          "end": 88.28721875000001,
+          "text": "E' scandalo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 95.02034375,
+      "end": 95.96534374999999,
+      "text": "Ciò è un po' basigliato.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 95.02034375,
+          "end": 95.90034374999999,
+          "text": "Ciò è un po' basigliato.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 98.80034375,
+      "end": 100.65634374999999,
+      "text": "mmm, ma non ti piace il tè personalizzato?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 98.80034375,
+          "end": 100.65634374999999,
+          "text": "mmm, ma non ti piace il tè personalizzato?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 108.38534375,
+      "end": 111.82734375000001,
+      "text": "Ma guarda che bello!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 108.38534375,
+          "end": 111.60534375,
+          "text": "Ma guarda che bello!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 119.37096875,
+      "end": 126.67796875,
+      "text": "C'è saurito? No. Ma che c'è saurito su sta? Non c'è parlare qua di giù.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 119.37096875,
+          "end": 120.87096875,
+          "text": "C'è saurito?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 121.63096875000001,
+          "end": 122.17096875,
+          "text": "No.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 122.17096875,
+          "end": 124.17096875,
+          "text": "Ma che c'è saurito su sta?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 124.17096875,
+          "end": 126.17096875,
+          "text": "Non c'è parlare qua di giù.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 135.99284375,
+      "end": 141.15684374999998,
+      "text": "è bambino, ma tipo vuoi entrare nel campo, vuoi conoscere i trucchi del mestiere",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 135.99284375,
+          "end": 140.99284375,
+          "text": "è bambino, ma tipo vuoi entrare nel campo, vuoi conoscere i trucchi del mestiere",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 146.57346875,
+      "end": 146.89446875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 146.57346875,
+          "end": 146.87346875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 158.85846875,
+      "end": 159.17946874999998,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 158.85846875,
+          "end": 159.17846874999998,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 172.27409375,
+      "end": 174.02909375,
+      "text": "Grazie a tutti.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 172.27409375,
+          "end": 174.02909375,
+          "text": "Grazie a tutti.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 176.27346875,
+      "end": 176.83046875,
+      "text": "Perchè?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 176.27346875,
+          "end": 176.61346875,
+          "text": "Perchè?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 182.77034375,
+      "end": 183.91734375,
+      "text": "Rettamente zile.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 182.77034375,
+          "end": 183.69034374999998,
+          "text": "Rettamente zile.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 186.97221875,
+      "end": 195.59521875,
+      "text": "Eh, poi veniamo a sfruttare. Vabbè, tanto la matematica dell'alimentare diceva che si vuole. La tua è fariandola.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 186.97221875,
+          "end": 190.39221874999998,
+          "text": "Eh, poi veniamo a sfruttare.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 190.89221874999998,
+          "end": 193.43221875,
+          "text": "Vabbè, tanto la matematica dell'alimentare diceva che si vuole.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 194.37221875,
+          "end": 195.31221875,
+          "text": "La tua è fariandola.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 199.29096875,
+      "end": 199.94996874999998,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 206.20971875,
+      "end": 212.67271875,
+      "text": "Ah, non ti hanno pigiato a te no? No A lei sì? No Ho fatto visto la vista",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 206.20971875,
+          "end": 208.02971875,
+          "text": "Ah, non ti hanno pigiato a te no?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 208.52971875,
+          "end": 208.82971875,
+          "text": "No",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 208.82971875,
+          "end": 209.86971875,
+          "text": "A lei sì?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 210.04971875,
+          "end": 210.30971875,
+          "text": "No",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 210.30971875,
+          "end": 212.42971875,
+          "text": "Ho fatto visto la vista",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 214.79909375,
+      "end": 229.39509375,
+      "text": "io sto inserito da quando avevo 18 anni non mi hanno mai chiamato quando mi chiamano quando non ci sto cioè guarda una cosa c'è anche c'è anche come sostituta però",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 214.79909375,
+          "end": 219.93909374999998,
+          "text": "io sto inserito da quando avevo 18 anni",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 219.93909374999998,
+          "end": 222.39909375,
+          "text": "non mi hanno mai chiamato",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 222.39909375,
+          "end": 223.63909375,
+          "text": "quando mi chiamano",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 223.63909375,
+          "end": 224.53909375,
+          "text": "quando non ci sto",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 224.53909375,
+          "end": 225.59909375,
+          "text": "cioè guarda una cosa",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 225.59909375,
+          "end": 226.05909375,
+          "text": "c'è anche",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 226.05909375,
+          "end": 227.61909375,
+          "text": "c'è anche",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 227.61909375,
+          "end": 229.39509375,
+          "text": "come sostituta però",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 236.88846875,
+      "end": 237.88446875,
+      "text": "E ma quale sei già?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 236.88846875,
+          "end": 237.74846875,
+          "text": "E ma quale sei già?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 244.60034375,
+      "end": 246.23734375,
+      "text": "Voi vedete che è spettante.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 244.60034375,
+          "end": 246.06034375000002,
+          "text": "Voi vedete che è spettante.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 249.76409375,
+      "end": 254.77509375,
+      "text": "a questo punto abbiamo avviato il gioco quei castellani malefici",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 249.76409375,
+          "end": 251.24409375,
+          "text": "a questo punto abbiamo avviato il gioco",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 251.24409375,
+          "end": 254.74409375,
+          "text": "quei castellani malefici",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 259.80471875,
+      "end": 261.96471875000003,
+      "text": "Se ne vedi più tanti anni che vanno a pescare loro.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 259.80471875,
+          "end": 261.86471875,
+          "text": "Se ne vedi più tanti anni che vanno a pescare loro.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 266.79096875,
+      "end": 268.54596875,
+      "text": "A genere che sotto di me questo è il luogo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 266.79096875,
+          "end": 268.49096875,
+          "text": "A genere che sotto di me questo è il luogo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 276.71346875,
+      "end": 278.35046875,
+      "text": "c'è anche",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 276.71346875,
+          "end": 278.19346875,
+          "text": "c'è anche",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 286.87221875,
+      "end": 287.85021875,
+      "text": "Come sostituta?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 286.87221875,
+          "end": 287.65221875,
+          "text": "Come sostituta?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 292.23846875,
+      "end": 299.47746874999996,
+      "text": "C'è rimasto un po' male, sta cercando lavoro come l'animale, non trova niente. Almeno se stavo là mi pigliavo questi 200 euro.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 292.23846875,
+          "end": 296.71846875,
+          "text": "C'è rimasto un po' male, sta cercando lavoro come l'animale, non trova niente.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 297.09846875,
+          "end": 299.37846874999997,
+          "text": "Almeno se stavo là mi pigliavo questi 200 euro.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 302.68409375,
+      "end": 307.71209375,
+      "text": "che per realtà non è per il referendum ma forse per le regionali pure, quindi sono pure più soldi.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 302.68409375,
+          "end": 307.60409375,
+          "text": "che per realtà non è per il referendum ma forse per le regionali pure, quindi sono pure più soldi.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 312.23534375,
+      "end": 312.58934375,
+      "text": "Buono.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 312.23534375,
+          "end": 312.53534375000004,
+          "text": "Buono.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 314.76659375,
+      "end": 315.50959375,
+      "text": "Perchè non è?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 314.76659375,
+          "end": 315.50959375,
+          "text": "Perchè non è?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 322.56284375,
+      "end": 329.68484375,
+      "text": "Ma io sono un po' confuso, sai? Cioè per il referendum l'ho capito che io devo votare, ma devo votare proprio il Presidente di Regione?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 322.56284375,
+          "end": 324.82284375,
+          "text": "Ma io sono un po' confuso, sai?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 325.32284375,
+          "end": 329.48284375000003,
+          "text": "Cioè per il referendum l'ho capito che io devo votare, ma devo votare proprio il Presidente di Regione?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 332.29971875,
+      "end": 335.18571875000004,
+      "text": "Io non sto carendo che devo votare ancora.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 332.29971875,
+          "end": 334.97971875,
+          "text": "Io non sto carendo che devo votare ancora.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 339.94409375,
+      "end": 340.78709375,
+      "text": "È partito.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 339.94409375,
+          "end": 340.58409374999997,
+          "text": "È partito.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 349.29284375,
+      "end": 349.69784374999995,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 349.29284375,
+          "end": 349.69284374999995,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 352.98846875,
+      "end": 353.39346874999995,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 352.98846875,
+          "end": 353.39346874999995,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 356.22846875,
+      "end": 356.56546875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 356.22846875,
+          "end": 356.56546875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 360.49784375,
+      "end": 361.05484375000003,
+      "text": "Grazie a te.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 360.49784375,
+          "end": 360.91784375000003,
+          "text": "Grazie a te.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 364.02471875,
+      "end": 369.89771874999997,
+      "text": "l'ho capito fai che non lo so non lo so",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 364.02471875,
+          "end": 365.66471874999996,
+          "text": "l'ho capito",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 365.66471874999996,
+          "end": 368.54471874999996,
+          "text": "fai che non lo so",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 368.54471874999996,
+          "end": 369.78471874999997,
+          "text": "non lo so",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 376.71471875,
+      "end": 382.28371875,
+      "text": "No, proprio questa storia del presidente di regione io non l'ho mai capito.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 376.71471875,
+          "end": 382.17471874999995,
+          "text": "No, proprio questa storia del presidente di regione io non l'ho mai capito.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 388.72971875,
+      "end": 399.27671875000004,
+      "text": "De Luca, non lo so, ti è piaciuto De Luca nel suo mandato? Cosa che ha fatto, che ha detto? A parte lanciafiamme Questa è divertita, iconic",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 388.72971875,
+          "end": 392.18971875,
+          "text": "De Luca, non lo so, ti è piaciuto De Luca nel suo mandato?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 392.90971875,
+          "end": 393.98971875,
+          "text": "Cosa che ha fatto, che ha detto?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 394.82971875000004,
+          "end": 396.16971875,
+          "text": "A parte lanciafiamme",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 396.16971875,
+          "end": 398.88971875000004,
+          "text": "Questa è divertita, iconic",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 403.37721875,
+      "end": 407.17421875,
+      "text": "è una cosa che non è ha detto non faccio un po' di",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 403.37721875,
+          "end": 404.67721875,
+          "text": "è una cosa che non è",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 404.67721875,
+          "end": 405.79721875,
+          "text": "ha detto",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 405.79721875,
+          "end": 406.93721875,
+          "text": "non faccio un po' di",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 416.03346875,
+      "end": 418.75046875,
+      "text": "Un po' di provarana.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 416.03346875,
+          "end": 418.25346875,
+          "text": "Un po' di provarana.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 422.05784375,
+      "end": 428.41984375000004,
+      "text": "E quindi che ti ha detto no? Ma se lo resta facendo le ripetizioni al momento va Ah no?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 422.05784375,
+          "end": 423.55784375,
+          "text": "E quindi che ti ha detto no?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 424.43784375,
+          "end": 426.65784375000004,
+          "text": "Ma se lo resta facendo le ripetizioni al momento va",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 426.65784375000004,
+          "end": 428.13784375,
+          "text": "Ah no?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 432.62159375,
+      "end": 434.93359375,
+      "text": "quelle matematiche la si che chiedono tanto",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 432.62159375,
+          "end": 433.74159375,
+          "text": "quelle matematiche la si",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 433.74159375,
+          "end": 434.82159375,
+          "text": "che chiedono tanto",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 441.07596875,
+      "end": 445.34596875,
+      "text": "Eh, l'ha fatto la Gina. Era pure brava perché quella era soggetta, no?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 441.07596875,
+          "end": 442.41596875,
+          "text": "Eh, l'ha fatto la Gina.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 443.23596875000004,
+          "end": 445.19596875,
+          "text": "Era pure brava perché quella era soggetta, no?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 451.97721875,
+      "end": 455.18321875000004,
+      "text": "Ma c'è molto una villaggio al Casalono?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 451.97721875,
+          "end": 455.01721875000004,
+          "text": "Ma c'è molto una villaggio al Casalono?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 458.44034375,
+      "end": 462.69234375,
+      "text": "Ma chi aveva come paesista? Non mi capiva la stessa mia!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 458.44034375,
+          "end": 459.56034375,
+          "text": "Ma chi aveva come paesista?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 460.98034375000003,
+          "end": 462.54034375000003,
+          "text": "Non mi capiva la stessa mia!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 470.11784375,
+      "end": 472.26084375,
+      "text": "di latino latino",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 470.11784375,
+          "end": 470.63784375,
+          "text": "di latino",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 470.63784375,
+          "end": 472.15784375000004,
+          "text": "latino",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 477.71159375,
+      "end": 478.15059375000004,
+      "text": "Buon appetito!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 477.71159375,
+          "end": 478.15059375000004,
+          "text": "Buon appetito!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 489.62534375,
+      "end": 492.61234375000004,
+      "text": "non ci interessa del resto c'è una formica schiattata nel pane",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 489.62534375,
+          "end": 490.72534375000004,
+          "text": "non ci interessa del resto",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 490.72534375000004,
+          "end": 492.44534375,
+          "text": "c'è una formica schiattata nel pane",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 496.69596875,
+      "end": 497.06796875000003,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 496.69596875,
+          "end": 497.05596875000003,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 506.16284375,
+      "end": 511.34384374999996,
+      "text": "Vap challenge Ma dove si intuisce? Non lo so",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 506.16284375,
+          "end": 507.10284375,
+          "text": "Vap challenge",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 507.10284375,
+          "end": 508.54284375,
+          "text": "Ma dove si intuisce?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 508.92284374999997,
+          "end": 509.52284375,
+          "text": "Non lo so",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 519.94971875,
+      "end": 522.02571875,
+      "text": "No, poi nella traccia devo scrivere tutta.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 519.94971875,
+          "end": 521.92971875,
+          "text": "No, poi nella traccia devo scrivere tutta.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 524.21909375,
+      "end": 525.73709375,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 531.94784375,
+      "end": 532.58984375,
+      "text": "Non mi va.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 531.94784375,
+          "end": 532.38784375,
+          "text": "Non mi va.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 537.63471875,
+      "end": 538.27571875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 537.63471875,
+          "end": 538.13471875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 545.54909375,
+      "end": 546.49409375,
+      "text": "Quale alcol?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 545.54909375,
+          "end": 546.28909375,
+          "text": "Quale alcol?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 548.60346875,
+      "end": 552.2654687500001,
+      "text": "Ah, pensavo alla vodka nell'armadio.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 548.60346875,
+          "end": 552.12346875,
+          "text": "Ah, pensavo alla vodka nell'armadio.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 556.21409375,
+      "end": 556.63509375,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 556.21409375,
+          "end": 556.59409375,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 563.77409375,
+      "end": 564.1950937500001,
+      "text": "Sì.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 563.77409375,
+          "end": 564.03409375,
+          "text": "Sì.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 568.54971875,
+      "end": 573.52771875,
+      "text": "e al comprare mi hanno regalato queste due bottiglie di vodka che ancora devo bere perché non esco sono vent'al mese",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 568.54971875,
+          "end": 572.22971875,
+          "text": "e al comprare mi hanno regalato queste due bottiglie di vodka che ancora devo bere perché non esco",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 572.22971875,
+          "end": 573.32971875,
+          "text": "sono vent'al mese",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 578.89409375,
+      "end": 584.71509375,
+      "text": "Come? Non ho capito nulla della sequenza fonica che ha appena messo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 578.89409375,
+          "end": 584.4740937500001,
+          "text": "Come? Non ho capito nulla della sequenza fonica che ha appena messo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 592.19159375,
+      "end": 593.18759375,
+      "text": "Certo, certo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 592.19159375,
+          "end": 592.97159375,
+          "text": "Certo, certo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 596.59596875,
+      "end": 599.49896875,
+      "text": "Voi siete bambini, io non me la faccio con i bambini.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 596.59596875,
+          "end": 599.43596875,
+          "text": "Voi siete bambini, io non me la faccio con i bambini.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 605.69159375,
+      "end": 608.91459375,
+      "text": "che faccia quella proprio impazzita",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 605.69159375,
+          "end": 606.83159375,
+          "text": "che faccia quella",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 606.83159375,
+          "end": 608.7715937500001,
+          "text": "proprio impazzita",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 613.31909375,
+      "end": 617.3690937499999,
+      "text": "Bellino Sta facendo gli incivici E' amore però",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 613.31909375,
+          "end": 613.77909375,
+          "text": "Bellino",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 613.77909375,
+          "end": 616.7390937499999,
+          "text": "Sta facendo gli incivici",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 616.7390937499999,
+          "end": 617.27909375,
+          "text": "E' amore però",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 620.87909375,
+      "end": 622.65009375,
+      "text": "si sta vedendo con un uomo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 620.87909375,
+          "end": 622.41909375,
+          "text": "si sta vedendo con un uomo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 627.07221875,
+      "end": 634.64921875,
+      "text": "Non è un mezzo casino, semplicemente Alex fa le lezioni da lei e lei è ancora innamorata.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 627.07221875,
+          "end": 634.13221875,
+          "text": "Non è un mezzo casino, semplicemente Alex fa le lezioni da lei e lei è ancora innamorata.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 642.98534375,
+      "end": 644.38534375,
+      "text": "No, aspetta, questa è nuova.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 642.98534375,
+          "end": 644.24534375,
+          "text": "No, aspetta, questa è nuova.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 648.36846875,
+      "end": 649.04346875,
+      "text": "Ma ieri...",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 648.36846875,
+          "end": 649.04346875,
+          "text": "Ma ieri...",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 652.06409375,
+      "end": 660.13009375,
+      "text": "No ma tu stai parlando dell'ex di Giovanni Ah no questa è un'altra storia Ah no queste storie qua non le so neanche io",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 652.06409375,
+          "end": 655.72409375,
+          "text": "No ma tu stai parlando dell'ex di Giovanni",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 655.72409375,
+          "end": 657.4840937499999,
+          "text": "Ah no questa è un'altra storia",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 657.4840937499999,
+          "end": 660.06409375,
+          "text": "Ah no queste storie qua non le so neanche io",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 662.67846875,
+      "end": 665.3104687499999,
+      "text": "non ne so neanche io il retro scena proprio",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 662.67846875,
+          "end": 663.57846875,
+          "text": "non ne so neanche io",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 663.57846875,
+          "end": 665.03846875,
+          "text": "il retro scena proprio",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 668.95596875,
+      "end": 671.28496875,
+      "text": "Eh sì, questo si sapeva, questo è il giallano.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 668.95596875,
+          "end": 671.07596875,
+          "text": "Eh sì, questo si sapeva, questo è il giallano.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 675.90846875,
+      "end": 677.61246875,
+      "text": "Poi si è messo con un'altra",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 675.90846875,
+          "end": 677.40846875,
+          "text": "Poi si è messo con un'altra",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 691.53471875,
+      "end": 691.99071875,
+      "text": "Eh.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 691.53471875,
+          "end": 691.77471875,
+          "text": "Eh.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 714.41721875,
+      "end": 724.20421875,
+      "text": "Madonna, è impazzito, ma io l'ho sempre odiato a quello del personaggio perché è sempre stato abbastanza disturbato, senza contare che era abbastanza antipatico.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 714.41721875,
+          "end": 724.15721875,
+          "text": "Madonna, è impazzito, ma io l'ho sempre odiato a quello del personaggio perché è sempre stato abbastanza disturbato, senza contare che era abbastanza antipatico.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 728.38971875,
+      "end": 731.9847187500001,
+      "text": "Mamma mia. Poverino.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 728.38971875,
+          "end": 728.92971875,
+          "text": "Mamma mia.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 730.06971875,
+          "end": 731.02971875,
+          "text": "Poverino.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 735.51096875,
+      "end": 739.44296875,
+      "text": "Ma lei ma quella stava persa acquisto da... E' ora che stiamo entrando con l'altro",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 735.51096875,
+          "end": 738.0509687499999,
+          "text": "Ma lei ma quella stava persa acquisto da...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 738.0509687499999,
+          "end": 739.1709687499999,
+          "text": "E' ora che stiamo entrando con l'altro",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 744.92721875,
+      "end": 770.2562187499999,
+      "text": "Non fa infantile perché ha avuto poche esperienze fondamentalmente Beh anche io ho avuto poche esperienze Però devo dire la verità Non è Cioè nel senso non è la tipa che Ma ho capito se c'ha questo tipo in mente Con cui se li sta provando Lo sta facendo e c'è uscito Non è che è detto è il mio ex capito Cioè mi piace tanto che non è la tipa che si perde Molte ragioni a me Cioè si perde però Le fa le cose capito",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 744.92721875,
+          "end": 747.9672187499999,
+          "text": "Non fa infantile perché ha avuto poche esperienze fondamentalmente",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 747.9672187499999,
+          "end": 749.6072187499999,
+          "text": "Beh anche io ho avuto poche esperienze",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 749.6072187499999,
+          "end": 751.62721875,
+          "text": "Però devo dire la verità",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 751.62721875,
+          "end": 753.28721875,
+          "text": "Non è",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 753.28721875,
+          "end": 755.26721875,
+          "text": "Cioè nel senso non è la tipa che",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 755.26721875,
+          "end": 758.0672187499999,
+          "text": "Ma ho capito se c'ha questo tipo in mente",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 758.0672187499999,
+          "end": 759.4672187499999,
+          "text": "Con cui se li sta provando",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 759.4672187499999,
+          "end": 761.04721875,
+          "text": "Lo sta facendo e c'è uscito",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 761.04721875,
+          "end": 762.8272187499999,
+          "text": "Non è che è detto è il mio ex capito",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 762.8272187499999,
+          "end": 765.64721875,
+          "text": "Cioè mi piace tanto che non è la tipa che si perde",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 765.64721875,
+          "end": 766.6072187499999,
+          "text": "Molte ragioni a me",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 766.6072187499999,
+          "end": 767.6072187499999,
+          "text": "Cioè si perde però",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 767.6072187499999,
+          "end": 770.2562187499999,
+          "text": "Le fa le cose capito",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 774.35721875,
+      "end": 775.23421875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 774.35721875,
+          "end": 774.57721875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 778.40721875,
+      "end": 795.75421875,
+      "text": "non ha questa personalità diciamo esuberante sai che però si fa volere bene per la sua dolcezza c'è una persona che veramente non ho mai sentito negativa mai che ti mette proprio ansia addosso",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 778.40721875,
+          "end": 790.10721875,
+          "text": "non ha questa personalità diciamo esuberante sai che però si fa volere bene per la sua dolcezza",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 790.10721875,
+          "end": 795.50721875,
+          "text": "c'è una persona che veramente non ho mai sentito negativa mai che ti mette proprio ansia addosso",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 797.93159375,
+      "end": 808.6135937500001,
+      "text": "Cioè mi credi proprio... Io comunque la conosco da poco eh No ma è così, io tutto il liceo cose veramente non... Ma hai visto una persona così... Equilibrata",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 797.93159375,
+          "end": 798.69159375,
+          "text": "Cioè mi credi proprio...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 798.69159375,
+          "end": 800.4115937500001,
+          "text": "Io comunque la conosco da poco eh",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 800.4115937500001,
+          "end": 804.47159375,
+          "text": "No ma è così, io tutto il liceo cose veramente non...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 804.47159375,
+          "end": 806.59159375,
+          "text": "Ma hai visto una persona così...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 806.59159375,
+          "end": 807.9115937500001,
+          "text": "Equilibrata",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 811.68471875,
+      "end": 817.08471875,
+      "text": "La mamma e il padre. La mamma per esempio è schizzata, non è così, ma pure il padre è tranquillo per esempio.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 811.68471875,
+          "end": 816.96471875,
+          "text": "La mamma e il padre. La mamma per esempio è schizzata, non è così, ma pure il padre è tranquillo per esempio.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 822.24846875,
+      "end": 828.64446875,
+      "text": "Un giorno vennero a mare Mamma mia E' proprio una",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 822.24846875,
+          "end": 825.52846875,
+          "text": "Un giorno vennero a mare",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 825.52846875,
+          "end": 827.10846875,
+          "text": "Mamma mia",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 827.10846875,
+          "end": 828.02846875,
+          "text": "E' proprio una",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 830.68596875,
+      "end": 833.4199687500001,
+      "text": "Mi ricordo anche le sue opinioni molto controverse.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 830.68596875,
+          "end": 833.22596875,
+          "text": "Mi ricordo anche le sue opinioni molto controverse.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 837.08159375,
+      "end": 838.0605937500001,
+      "text": "Macchi!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 837.08159375,
+          "end": 837.48159375,
+          "text": "Macchi!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 842.44784375,
+      "end": 847.03784375,
+      "text": "C'è chi vi chiama il bambino?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 842.44784375,
+          "end": 846.8678437499999,
+          "text": "C'è chi vi chiama il bambino?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 849.13034375,
+      "end": 853.33234375,
+      "text": "Ah pensavo loro, pensavo i genitori, infatti ho detto ma nonno queste cose no",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 849.13034375,
+          "end": 853.25034375,
+          "text": "Ah pensavo loro, pensavo i genitori, infatti ho detto ma nonno queste cose no",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 858.14159375,
+      "end": 859.22159375,
+      "text": "Eh, no no no",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 858.14159375,
+          "end": 859.22159375,
+          "text": "Eh, no no no",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 862.47846875,
+      "end": 869.11046875,
+      "text": "Si sa, su quelle famiglie napoletane molto generose, calorose, molto carine.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 862.47846875,
+          "end": 869.01846875,
+          "text": "Si sa, su quelle famiglie napoletane molto generose, calorose, molto carine.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 872.23221875,
+      "end": 875.2352187500001,
+      "text": "il fratello tu non la mai conosciuto",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 872.23221875,
+          "end": 874.97221875,
+          "text": "il fratello tu non la mai conosciuto",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 886.94721875,
+      "end": 894.16921875,
+      "text": "Ma si vede ancora con... Ha proprio schifato. Ma lui l'ha lasciata.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 886.94721875,
+          "end": 889.68721875,
+          "text": "Ma si vede ancora con...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 889.68721875,
+          "end": 892.68721875,
+          "text": "Ha proprio schifato.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 893.08721875,
+          "end": 893.98721875,
+          "text": "Ma lui l'ha lasciata.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 896.43096875,
+      "end": 897.3429687500001,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 896.43096875,
+          "end": 897.29096875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 902.55659375,
+      "end": 906.4205937500001,
+      "text": "Eh beh, però lo s*****o non sa di questa cosa. Sì, lo sa. Ah, lo sa?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 902.55659375,
+          "end": 904.81659375,
+          "text": "Eh beh, però lo s*****o non sa di questa cosa.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 904.93659375,
+          "end": 905.47659375,
+          "text": "Sì, lo sa.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 905.73659375,
+          "end": 906.21659375,
+          "text": "Ah, lo sa?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 917.57534375,
+      "end": 920.66334375,
+      "text": "Eh vabbè comunque, vabbè però insomma si impara Un momento",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 917.57534375,
+          "end": 920.13534375,
+          "text": "Eh vabbè comunque, vabbè però insomma si impara",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 920.13534375,
+          "end": 920.65534375,
+          "text": "Un momento",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 924.00471875,
+      "end": 934.0797187500001,
+      "text": "Ah ma lei dopo lui subito si è messo a fare lo scemo con lei o nel frattempo della relazione? Ah vabbè dai allora ok lo puoi comprendere",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 924.00471875,
+          "end": 929.52471875,
+          "text": "Ah ma lei dopo lui subito si è messo a fare lo scemo con lei o nel frattempo della relazione?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 930.4647187500001,
+          "end": 933.80471875,
+          "text": "Ah vabbè dai allora ok lo puoi comprendere",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 944.87909375,
+      "end": 949.55309375,
+      "text": "faceva proprio... un play... voleva fare proprio là il toro",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 944.87909375,
+          "end": 949.55309375,
+          "text": "faceva proprio... un play... voleva fare proprio là il toro",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 956.06721875,
+      "end": 959.0702187500001,
+      "text": "E' m***a, giustamente era d'accordo perché era innamorata.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 956.06721875,
+          "end": 958.9272187500001,
+          "text": "E' m***a, giustamente era d'accordo perché era innamorata.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 962.31096875,
+      "end": 963.2229687500001,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 962.31096875,
+          "end": 962.81096875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 978.35909375,
+      "end": 980.4340937500001,
+      "text": "cosa? c'è qualcosa che non va",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 978.35909375,
+          "end": 980.2190937500001,
+          "text": "cosa? c'è qualcosa che non va",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1011.70409375,
+      "end": 1011.97409375,
+      "text": "Ciao.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1011.70409375,
+          "end": 1011.92409375,
+          "text": "Ciao.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1020.51284375,
+      "end": 1022.26784375,
+      "text": "Ma no, non è violenza!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1020.51284375,
+          "end": 1021.67284375,
+          "text": "Ma no, non è violenza!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1026.62159375,
+      "end": 1036.74659375,
+      "text": "è un assurdo è un massimo ecco qua è divertentissimo madonna hai capito non l'avrei mai non l'avrei mai immaginato",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1026.62159375,
+          "end": 1027.3015937500002,
+          "text": "è un assurdo",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1027.3015937500002,
+          "end": 1027.98159375,
+          "text": "è un massimo",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1027.98159375,
+          "end": 1029.18159375,
+          "text": "ecco qua",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1029.18159375,
+          "end": 1031.14159375,
+          "text": "è divertentissimo",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1031.14159375,
+          "end": 1032.5215937500002,
+          "text": "madonna",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1032.5215937500002,
+          "end": 1033.3015937500002,
+          "text": "hai capito",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1033.3015937500002,
+          "end": 1034.86159375,
+          "text": "non l'avrei mai",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1034.86159375,
+          "end": 1036.36159375,
+          "text": "non l'avrei mai immaginato",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1047.91784375,
+      "end": 1050.51684375,
+      "text": "Ecco qua",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1047.91784375,
+          "end": 1050.41784375,
+          "text": "Ecco qua",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1053.16596875,
+      "end": 1056.49096875,
+      "text": "Vabbè si ha molto la pill da ragazza a buon tono",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1053.16596875,
+          "end": 1056.40596875,
+          "text": "Vabbè si ha molto la pill da ragazza a buon tono",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1058.80221875,
+      "end": 1065.11321875,
+      "text": "ma da sempre, voglio dire, già da quando ero piccolo si vedeva che voleva fare un po' la Winx nella situazione",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1058.80221875,
+          "end": 1064.9822187500001,
+          "text": "ma da sempre, voglio dire, già da quando ero piccolo si vedeva che voleva fare un po' la Winx nella situazione",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1069.97346875,
+      "end": 1089.4474687499999,
+      "text": "e poi era tecna delle Wings anche se lei diceva che era Bloom vabbè tutti volevano essere Bloom per un motivo io volevo essere Aisha Aisha qual era quella nera? vabbè giustamente la presentation nera poi, mamma mia mulatta mulatta",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1069.97346875,
+          "end": 1071.5734687499998,
+          "text": "e poi era tecna delle Wings",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1071.5734687499998,
+          "end": 1073.75346875,
+          "text": "anche se lei diceva che era Bloom",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1073.75346875,
+          "end": 1077.21346875,
+          "text": "vabbè tutti volevano essere Bloom per un motivo",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1077.21346875,
+          "end": 1078.5734687499998,
+          "text": "io volevo essere Aisha",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1078.5734687499998,
+          "end": 1080.43346875,
+          "text": "Aisha qual era quella nera?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1080.65346875,
+          "end": 1083.3134687499999,
+          "text": "vabbè giustamente la presentation",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1083.3134687499999,
+          "end": 1086.91346875,
+          "text": "nera poi, mamma mia",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1086.91346875,
+          "end": 1087.7934687499999,
+          "text": "mulatta",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1087.7934687499999,
+          "end": 1089.21346875,
+          "text": "mulatta",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1097.74971875,
+      "end": 1104.21271875,
+      "text": "Non era uno tipo quello dell'acqua no? No ma quale acqua? No Con le pozzioni",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1097.74971875,
+          "end": 1099.54971875,
+          "text": "Non era uno tipo quello dell'acqua no?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1099.60971875,
+          "end": 1101.26971875,
+          "text": "No ma quale acqua?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1101.50971875,
+          "end": 1101.78971875,
+          "text": "No",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1101.78971875,
+          "end": 1104.20971875,
+          "text": "Con le pozzioni",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1107.67221875,
+      "end": 1119.65321875,
+      "text": "lei era avanti in quei tempi del resto Isha e quella c'era una, Blum del resto che faceva? il fuoco il fuoco? poi c'era Musa con la musica, Tecna con la tecnologia",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1107.67221875,
+          "end": 1110.17221875,
+          "text": "lei era avanti in quei tempi del resto Isha",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1110.17221875,
+          "end": 1113.17221875,
+          "text": "e quella c'era una, Blum del resto che faceva?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1113.17221875,
+          "end": 1114.17221875,
+          "text": "il fuoco",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1114.17221875,
+          "end": 1116.17221875,
+          "text": "il fuoco?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1116.17221875,
+          "end": 1119.17221875,
+          "text": "poi c'era Musa con la musica, Tecna con la tecnologia",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1123.90596875,
+      "end": 1128.98596875,
+      "text": "Flora la natura Ma lo fa ancora Super Tori Ma è finito per sempre Ma no",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1123.90596875,
+          "end": 1125.48596875,
+          "text": "Flora la natura",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1125.48596875,
+          "end": 1127.24596875,
+          "text": "Ma lo fa ancora Super Tori",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1127.24596875,
+          "end": 1128.50596875,
+          "text": "Ma è finito per sempre",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1128.50596875,
+          "end": 1128.92596875,
+          "text": "Ma no",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1131.11159375,
+      "end": 1154.31459375,
+      "text": "è bruttissimo, si, ce l'hanno fatto tipo moderno, moderno, brutto, quello già non è che era un po' strano come forma fisica quelli di Winx c'erano quelli polpacci grossi, tipo delle modelle con i polpacci grossi, come erano? ora devo vedere, una bassa stazione della modella di Gucci musica",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1131.11159375,
+          "end": 1142.37159375,
+          "text": "è bruttissimo, si, ce l'hanno fatto tipo moderno, moderno, brutto, quello già non è che era un po' strano come forma fisica quelli di Winx",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1142.37159375,
+          "end": 1149.5715937500001,
+          "text": "c'erano quelli polpacci grossi, tipo delle modelle con i polpacci grossi, come erano?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1149.5715937500001,
+          "end": 1154.19159375,
+          "text": "ora devo vedere, una bassa stazione della modella di Gucci",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1154.19159375,
+          "end": 1154.31459375,
+          "text": "musica",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1156.50846875,
+      "end": 1157.35246875,
+      "text": "Secondo me no.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1156.50846875,
+          "end": 1157.20846875,
+          "text": "Secondo me no.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1160.65971875,
+      "end": 1167.22471875,
+      "text": "Il mio tomosquish E modella Gucci Wings",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1160.65971875,
+          "end": 1162.63971875,
+          "text": "Il mio tomosquish",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1162.63971875,
+          "end": 1165.83971875,
+          "text": "E modella Gucci",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1165.83971875,
+          "end": 1167.07971875,
+          "text": "Wings",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1175.98221875,
+      "end": 1179.7452187499998,
+      "text": "Cioè perché avevano questi polpacci grossi? Le ginocchia",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1175.98221875,
+          "end": 1178.1022187499998,
+          "text": "Cioè perché avevano questi polpacci grossi?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1178.94221875,
+          "end": 1179.7452187499998,
+          "text": "Le ginocchia",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1188.04784375,
+      "end": 1192.4858437500002,
+      "text": "scusa non è questa con i capelli biondi Aisha",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1188.04784375,
+          "end": 1192.04784375,
+          "text": "scusa non è questa con i capelli biondi Aisha",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1197.78471875,
+      "end": 1200.0967187499998,
+      "text": "Questa qua con il vestitino rosa.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1197.78471875,
+          "end": 1199.8847187499998,
+          "text": "Questa qua con il vestitino rosa.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1208.19659375,
+      "end": 1214.7275937499999,
+      "text": "Ah vabbè era abbastanza nera Era un nero accettabile",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1208.19659375,
+          "end": 1211.91659375,
+          "text": "Ah vabbè era abbastanza nera",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1211.91659375,
+          "end": 1214.57659375,
+          "text": "Era un nero accettabile",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1217.44409375,
+      "end": 1226.16809375,
+      "text": "Che poi è arrivata dopo però Sì E poi questa qua era tipo cinese però in realtà Se ci pensi bene Questa con i codini",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1217.44409375,
+          "end": 1218.80409375,
+          "text": "Che poi è arrivata dopo però",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1218.80409375,
+          "end": 1219.3840937500001,
+          "text": "Sì",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1219.3840937500001,
+          "end": 1222.8640937500002,
+          "text": "E poi questa qua era tipo cinese però in realtà",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1222.8640937500002,
+          "end": 1224.94409375,
+          "text": "Se ci pensi bene",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1224.94409375,
+          "end": 1226.04409375,
+          "text": "Questa con i codini",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1229.08784375,
+      "end": 1230.96084375,
+      "text": "Musa. Cosa, veli blu? Eh.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1229.08784375,
+          "end": 1229.4878437500001,
+          "text": "Musa.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1229.64784375,
+          "end": 1230.34784375,
+          "text": "Cosa, veli blu?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1230.62784375,
+          "end": 1230.80784375,
+          "text": "Eh.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1233.25596875,
+      "end": 1236.20996875,
+      "text": "C'erano 7 mie? Cinesi e asiatica",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1233.25596875,
+          "end": 1234.15596875,
+          "text": "C'erano 7 mie?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1234.81596875,
+          "end": 1235.99596875,
+          "text": "Cinesi e asiatica",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1240.79909375,
+      "end": 1243.6500937500002,
+      "text": "Cerchiamo di essere abbastanza politicamente corretti stasera.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1240.79909375,
+          "end": 1243.5390937500001,
+          "text": "Cerchiamo di essere abbastanza politicamente corretti stasera.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1246.03034375,
+      "end": 1249.0343437499998,
+      "text": "Vabbè non ci interessa Cresci son fa",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1246.03034375,
+          "end": 1247.1103437499999,
+          "text": "Vabbè non ci interessa",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1247.1103437499999,
+          "end": 1248.8903437499998,
+          "text": "Cresci son fa",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1254.11346875,
+      "end": 1258.16346875,
+      "text": "andiamoci a fumare la sigaretta aspetta che sparirò qua",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1254.11346875,
+          "end": 1255.71346875,
+          "text": "andiamoci a fumare la sigaretta",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1255.71346875,
+          "end": 1257.95346875,
+          "text": "aspetta che sparirò qua",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1260.34034375,
+      "end": 1261.70734375,
+      "text": "finisco di bere il vino",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1260.34034375,
+          "end": 1261.5003437500002,
+          "text": "finisco di bere il vino",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1268.23784375,
+      "end": 1277.8568437499998,
+      "text": "Le ripetizioni? Ma non hai visto qualcosa per fare il servizio civile di queste cose qua? No? E non tu come la fai il servizio civile se devi fare la scuola?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1268.23784375,
+          "end": 1269.73784375,
+          "text": "Le ripetizioni?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1269.73784375,
+          "end": 1273.73784375,
+          "text": "Ma non hai visto qualcosa per fare il servizio civile di queste cose qua?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1273.73784375,
+          "end": 1274.73784375,
+          "text": "No?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1274.73784375,
+          "end": 1277.73784375,
+          "text": "E non tu come la fai il servizio civile se devi fare la scuola?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1282.85159375,
+      "end": 1290.8845937499998,
+      "text": "no niente una cosa che non potrei fare il servizio civile tu fai un bando",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1282.85159375,
+          "end": 1285.51159375,
+          "text": "no niente una cosa che non potrei fare",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1285.51159375,
+          "end": 1287.4115937499998,
+          "text": "il servizio civile",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1287.4115937499998,
+          "end": 1290.6315937499999,
+          "text": "tu fai un bando",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1301.24534375,
+      "end": 1313.37834375,
+      "text": "fai un bando che devi vincere, ti devono raccomandare praticamente perché non vinci mai cioè chiunque ho parlato che ha fatto la servizia civile ha avuto una buttata, almeno al sud in campagna",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1301.24534375,
+          "end": 1307.4253437500001,
+          "text": "fai un bando che devi vincere, ti devono raccomandare praticamente perché non vinci mai",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1307.4253437500001,
+          "end": 1313.34534375,
+          "text": "cioè chiunque ho parlato che ha fatto la servizia civile ha avuto una buttata, almeno al sud in campagna",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1315.38659375,
+      "end": 1346.99359375,
+      "text": "e niente ti mettono a fare delle cose nei servizi civili del servizio civile puoi lavorare con i vecchi puoi lavorare con gli immigrati puoi lavorare puoi spazzare a terra puoi fare varie cose insomma dai ma Ma il topo squiscia quanto è bello questo topo squiscia Odora anche di vaniglia",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1315.38659375,
+          "end": 1322.4865937499999,
+          "text": "e niente ti mettono a fare delle cose nei servizi civili del servizio civile puoi lavorare con i vecchi puoi lavorare con",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1323.10659375,
+          "end": 1325.10659375,
+          "text": "gli immigrati puoi lavorare",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1325.62659375,
+          "end": 1328.76659375,
+          "text": "puoi spazzare a terra puoi fare varie cose insomma dai",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1329.5065937499999,
+          "end": 1331.5065937499999,
+          "text": "ma",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1331.5065937499999,
+          "end": 1342.66659375,
+          "text": "Ma il topo squiscia quanto è bello questo topo squiscia",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1345.26659375,
+          "end": 1346.99359375,
+          "text": "Odora anche di vaniglia",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1350.60471875,
+      "end": 1368.01971875,
+      "text": "Ma a me sai che sembra sto coso? Hai presente quei dolci di coniglietti dal cinese? Non hai mai mangiato i dolci di coniglietti? No! Che succede? Veramente! Scrivi su Google dolci di coniglietti",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1350.60471875,
+          "end": 1352.3047187500001,
+          "text": "Ma a me sai che sembra sto coso?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1352.42471875,
+          "end": 1355.40471875,
+          "text": "Hai presente quei dolci di coniglietti dal cinese?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1356.88471875,
+          "end": 1358.82471875,
+          "text": "Non hai mai mangiato i dolci di coniglietti?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1361.16471875,
+          "end": 1361.8047187500001,
+          "text": "No!",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1361.9847187500002,
+          "end": 1362.68471875,
+          "text": "Che succede?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1364.0447187500001,
+          "end": 1364.66471875,
+          "text": "Veramente!",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1365.0247187500001,
+          "end": 1367.84471875,
+          "text": "Scrivi su Google dolci di coniglietti",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1373.03159375,
+      "end": 1398.49559375,
+      "text": "così gli ha detto sì immagino i conigli che impastano no sono dei conigli praticamente presente quella pasta di riso il pane di riso sai quel tipo pane che è scritto dolci di conigli vedo un dolce di coniglietti che tra l'altro fanno schifissimo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1373.03159375,
+          "end": 1375.6115937499999,
+          "text": "così gli ha detto",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1375.6115937499999,
+          "end": 1378.27159375,
+          "text": "sì immagino i conigli che impastano",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1378.27159375,
+          "end": 1380.21159375,
+          "text": "no sono dei conigli",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1380.21159375,
+          "end": 1383.3915937499999,
+          "text": "praticamente presente quella pasta di riso",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1383.3915937499999,
+          "end": 1384.71159375,
+          "text": "il pane di riso sai",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1384.71159375,
+          "end": 1385.99159375,
+          "text": "quel tipo pane",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1385.99159375,
+          "end": 1389.03159375,
+          "text": "che è scritto dolci di conigli",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1389.03159375,
+          "end": 1392.35159375,
+          "text": "vedo un dolce di coniglietti",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1392.35159375,
+          "end": 1397.01159375,
+          "text": "che tra l'altro",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1397.01159375,
+          "end": 1398.1315937499999,
+          "text": "fanno schifissimo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1401.22971875,
+      "end": 1420.34971875,
+      "text": "si è una specie di immagina questo è un coniglietto commestibile tipo di pane di riso e dentro c'è tipo marmellata e hanno proprio gli occhietti così colorati rossi dolci di coniglietti però non li vedi sempre ma è una vita che non parlo del cinese",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1401.22971875,
+          "end": 1402.56971875,
+          "text": "si è una specie di",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1402.56971875,
+          "end": 1404.80971875,
+          "text": "immagina questo è un coniglietto commestibile",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1404.80971875,
+          "end": 1406.1097187500002,
+          "text": "tipo di pane di riso",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1406.1097187500002,
+          "end": 1408.1697187500001,
+          "text": "e dentro c'è tipo marmellata",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1408.1697187500001,
+          "end": 1410.3897187500002,
+          "text": "e hanno proprio gli occhietti così colorati",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1410.3897187500002,
+          "end": 1411.6097187500002,
+          "text": "rossi",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1411.6097187500002,
+          "end": 1412.98971875,
+          "text": "dolci di coniglietti",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1412.98971875,
+          "end": 1417.1097187500002,
+          "text": "però non li vedi sempre",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1417.1097187500002,
+          "end": 1420.20971875,
+          "text": "ma è una vita che non parlo del cinese",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1422.40784375,
+      "end": 1433.30984375,
+      "text": "Ma dal giapponese o dal cinese? Dal giapponese Ma tu sei mai andato da quel cinese? Tipo a Pozzuoli Non ci siamo mai portati Forse una volta ci andammo Ti ricordo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1422.40784375,
+          "end": 1424.34784375,
+          "text": "Ma dal giapponese o dal cinese?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1424.44784375,
+          "end": 1425.48784375,
+          "text": "Dal giapponese",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1425.48784375,
+          "end": 1427.62784375,
+          "text": "Ma tu sei mai andato da quel cinese?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1427.70784375,
+          "end": 1428.92784375,
+          "text": "Tipo a Pozzuoli",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1428.92784375,
+          "end": 1431.22784375,
+          "text": "Non ci siamo mai portati",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1431.22784375,
+          "end": 1432.5278437499999,
+          "text": "Forse una volta ci andammo",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1432.5278437499999,
+          "end": 1432.90784375,
+          "text": "Ti ricordo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1436.43096875,
+      "end": 1438.18596875,
+      "text": "Forza",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1436.43096875,
+          "end": 1437.93096875,
+          "text": "Forza",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1440.44721875,
+      "end": 1443.19721875,
+      "text": "Si sian lan damo, dal mio cinese preferito.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1440.44721875,
+          "end": 1443.0872187500001,
+          "text": "Si sian lan damo, dal mio cinese preferito.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1446.18471875,
+      "end": 1462.89071875,
+      "text": "Cin Dan Cin Dan Ni Hao Questo si chiama Arco Felice Ah Arco Felice, si Quello era buono, però l'hanno chiuso tipo 10 volte perchè era sporco Ma quello era troppo buono, mi credo è uno dei cinesi proprio più buoni",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1446.18471875,
+          "end": 1447.68471875,
+          "text": "Cin Dan",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1447.68471875,
+          "end": 1449.68471875,
+          "text": "Cin Dan",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1449.68471875,
+          "end": 1451.68471875,
+          "text": "Ni Hao",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1451.68471875,
+          "end": 1453.68471875,
+          "text": "Questo si chiama Arco Felice",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1453.68471875,
+          "end": 1455.68471875,
+          "text": "Ah Arco Felice, si",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1455.68471875,
+          "end": 1457.68471875,
+          "text": "Quello era buono, però l'hanno chiuso tipo 10 volte",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1457.68471875,
+          "end": 1459.68471875,
+          "text": "perchè era sporco",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1459.68471875,
+          "end": 1461.68471875,
+          "text": "Ma quello era troppo buono, mi credo è uno dei cinesi",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1461.68471875,
+          "end": 1462.89071875,
+          "text": "proprio più buoni",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1468.45971875,
+      "end": 1469.26971875,
+      "text": "Grazie.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1468.45971875,
+          "end": 1468.95971875,
+          "text": "Grazie.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1473.01596875,
+      "end": 1476.76296875,
+      "text": "Spesso me lo dicono, tra l'altro futuro insegnante d'italiano.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1473.01596875,
+          "end": 1476.53596875,
+          "text": "Spesso me lo dicono, tra l'altro futuro insegnante d'italiano.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1479.59721875,
+      "end": 1482.0442187499998,
+      "text": "Ma perché sono grammaticalmente scote?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1479.59721875,
+          "end": 1481.81721875,
+          "text": "Ma perché sono grammaticalmente scote?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 1486.21221875,
+      "end": 1489.06421875,
+      "text": "Già? Vabbè, dei ristoranti cinese.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1486.21221875,
+          "end": 1486.39221875,
+          "text": "Già?",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1486.87221875,
+          "end": 1488.95221875,
+          "text": "Vabbè, dei ristoranti cinese.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    }
+  ]
+}

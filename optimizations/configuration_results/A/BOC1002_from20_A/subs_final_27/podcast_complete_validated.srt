@@ -1,0 +1,227 @@
+1
+00:00:00,030 --> 00:00:04,485
+[SPEAKER_B] sono un dispiacere avevano proprio loro una loro tipografia
+
+2
+00:00:04,485 --> 00:00:15,083
+[SPEAKER_A] Si, l'avevano sotto casa, una tipografia andava insomma... E a chi l'hanno venduta? No, ci hanno fatto un'altra casa adesso, hanno chiuso proprio...
+
+3
+00:00:09,497 --> 00:00:10,679
+[SPEAKER_B] e a chi l'hanno venduta.
+
+4
+00:00:13,615 --> 00:00:33,966
+[SPEAKER_B] hanno chiuso proprio... i materiali di tipografia che non sono finiti? no, non ne ho idea le sinfori, si formano dalla teoria si forma dalla teoria e dice che il Titti che è un appassionato della tipografia vuole sapere dove sono finite le sue materiali va bene, glielo chiederò se sono in un magazzino
+
+5
+00:00:18,036 --> 00:00:24,027
+[SPEAKER_A] Non ne ho idea. Adesso le sinfo, non si dà un'attenzione. Va bene. Grazie.
+
+6
+00:00:26,119 --> 00:00:26,963
+[SPEAKER_A] Comunque...
+
+7
+00:00:33,966 --> 00:00:47,061
+[SPEAKER_A] perché comunque ero piccolina, erano quasi alla fine si si 40 anni fa o anni 70, 80 credo messi in fuori, magari le dicono che hanno messo in una casa di campagna
+
+8
+00:00:38,640 --> 00:00:40,362
+[SPEAKER_B] 40 anni fa...
+
+9
+00:00:43,214 --> 00:01:16,204
+[SPEAKER_B] messo in fuori, magari le dicono che hanno messo in una casa di campagna sono materiali importanti quindi tipografo, in origine al tipografo, fondamentale al tipografo doveva stampato il libro, andare a portarlo anche perché quando le tue stampa nasce, lei non lo sa ma nasce intorno al XVI secolo in Francia gli ha detto che non c'erano ancora tipografi sì, no, c'erano i tipografi e oggi vi aspetta l'editore, oggi si chiama Deposito Legale
+
+10
+00:00:49,508 --> 00:00:52,866
+[SPEAKER_A] Quindi è tipografo, è un original tipografo.
+
+11
+00:01:05,235 --> 00:01:05,792
+[SPEAKER_A] Mm-hm.
+
+12
+00:01:08,475 --> 00:01:10,585
+[SPEAKER_A] Sì, certo, c'erano anche i pograppi.
+
+13
+00:01:17,976 --> 00:01:19,022
+[SPEAKER_A] Quindi il deposito...
+
+14
+00:01:19,022 --> 00:01:22,752
+[SPEAKER_B] di bibliografia internazionale.
+
+15
+00:01:23,528 --> 00:01:24,912
+[SPEAKER_A] eeeemmmmm
+
+16
+00:01:29,468 --> 00:01:31,544
+[SPEAKER_B] Può anche prendere il manuale e sfogliarlo.
+
+17
+00:01:34,395 --> 00:01:38,361
+[SPEAKER_A] Non ce l'ho dietro, no. Internazionale...
+
+18
+00:01:45,212 --> 00:01:52,739
+[SPEAKER_A] No, parliamo di bibliografia, non di catalogo.
+
+19
+00:01:57,565 --> 00:01:59,320
+[SPEAKER_A] un esempio proprio devo fare
+
+20
+00:02:00,197 --> 00:02:01,210
+[SPEAKER_B] mi piacerebbe
+
+21
+00:02:05,530 --> 00:02:19,688
+[SPEAKER_A] Non so, la stessa bibliografia delle opere italiane tradotte in cinese, pubblicate in Cina, quindi relative a una lingua straniera diversa dalla lingua cinese.
+
+22
+00:02:20,852 --> 00:02:36,377
+[SPEAKER_B] Giusto, poiché siano stampate e pubblicate in tanti paesi diversi, in Cina, dove si stampa cinese, oltre che in Cina, Shanghain, che non è in Cina.
+
+23
+00:02:35,466 --> 00:02:49,658
+[SPEAKER_A] che non è in Cina? Sì, sì sì. Ma non è autonoma? No, è stata riassorbita. Era Taiwan forse. Ah Taiwan, Taiwan è ancora autonoma. Credo di no. Anche è stata assorbita da Cina. Sì sì.
+
+24
+00:02:38,892 --> 00:02:42,503
+[SPEAKER_B] No, è stata riassorbita. Era a Taiwan forse.
+
+25
+00:02:46,452 --> 00:02:53,421
+[SPEAKER_B] Anche lei è stata assorbita dal cinero. Sì, sì. Beh, forse magari, non so, in India si stampa pure cinese. Sì. Non è def...
+
+26
+00:02:52,476 --> 00:02:58,028
+[SPEAKER_A] Sì, Giappone forse anche. Giappone, Giappone. Corea del Nord.
+
+27
+00:03:03,107 --> 00:03:28,251
+[SPEAKER_A] Locale, ad esempio, le bibliografie che abbiamo nel XVII secolo, relative all'area romana, di Allacci, a Bressi Urbana e Dramaturgia, e di Topi, invece... Topi? Topi, o personal P per strada, nella Biblioteca Napoletana. Brava, molto brava.
+
+28
+00:03:20,657 --> 00:03:22,497
+[SPEAKER_B] o per su una pietra strada
+
+29
+00:03:25,922 --> 00:03:44,417
+[SPEAKER_B] Brava, molto brava. Ultima domanda, Guerrini spiega agli studenti universitari la biblioteca e spiega la differenza tra il catalogo tradizionale e l'opac, cioè l'opac, quali sono i suoi orizzonti, i suoi vantaggi e anche i suoi limiti.
+
+30
+00:03:45,801 --> 00:05:13,416
+[SPEAKER_A] L'OPAC significa online public access catalog ed è un servizio che viene offerto dalle biblioteche per poter ricercare documenti attraverso la compilazione di vari filtri che possono permettere una serie di ricerche che rientrano nel...mi ritorno al nome in inglese...le varie metodologie di ricerca per parole, scorrimento di liste alfabetiche, information retrieval, vari sistemi...e è formato da tutte quelle registrazioni bibliografiche dei vari documenti, quindi dei vari records, che sono caratterizzati da vari campi, vari fields, quindi autore, titolo dell'opera, mano di pubblicazione, soggetto, eccetera, luogo di pubblicazione, e che l'insieme di questi records danno vita alla banca dati.
+
+31
+00:05:13,416 --> 00:05:23,558
+[SPEAKER_B] rispetto al catalogo tradizionale, che era più un catalogo a schede mobili, lasciando perdere i cataloghi a volume, qual è il vantaggio del LogoPak?
+
+32
+00:05:24,115 --> 00:05:26,241
+[SPEAKER_A] permette di...
+
+33
+00:05:28,485 --> 00:05:35,522
+[SPEAKER_A] eeeh no no va bene potrei finirmi
+
+34
+00:05:35,522 --> 00:06:19,549
+[SPEAKER_B] Per due motivi, primo perché così capisci la differenza tra un catalogo tradizionale Secondo, così è un po' più finalizzato a superare l'esame di biografia, quindi ha un valore meno importante Invece è molto importante perché soltanto una minuta parte delle notizie bibliografiche sono oggi consultabili attraverso l'opac Certo L'opac cumulano normalmente più cataloghi, alle volte centinaia di cataloghi, intanto vita a milioni di reprobibliografici materializzanti in decine di milioni di esemplari In realtà non documentano più il tuo matrimonio librario in biblioteche, anche solo italiane, quindi una buona ricerca deve essere fatta
+
+35
+00:05:56,279 --> 00:05:57,139
+[SPEAKER_A] Certo.
+
+36
+00:06:19,549 --> 00:06:35,732
+[SPEAKER_A] Non l'ho mai fatto, forse, perché nel mio ambito di studio non ho mai avuto bisogno di andare a ricercare pubblicazioni tanto datate.
+
+37
+00:06:34,821 --> 00:06:42,229
+[SPEAKER_B] Autori dell'800 che siamo sempre nati in Italia, autori cinesi dell'800 che siamo sempre nati in Italia, non ce ne sono.
+
+38
+00:06:42,229 --> 00:06:48,760
+[SPEAKER_A] Ma le... Sì, sì ci sono, però non risalce.
+
+39
+00:06:48,760 --> 00:06:52,945
+[SPEAKER_B] non li trova nelle banche dati, le trova nei cataloghi a schede
+
+40
+00:06:55,611 --> 00:07:05,348
+[SPEAKER_B] Già credo che poi l'elettratura, cioè i testi che hanno a che fare con altre lingue, non sono mica tanto trattati, i capelli opac.
+
+41
+00:07:04,504 --> 00:07:20,687
+[SPEAKER_A] Non degli opac, eh? Sì, infatti non è che ho trovato molto. È un grande limite questo dell'opac, proprio perché... C'era una bibliografia sui studi orientali, ma vecchissima. Sì, sì, sì, non si può dare ancora contattarmi cartace.
+
+42
+00:07:07,913 --> 00:07:10,174
+[SPEAKER_B] ...un grande limite questo dell'opac... ...sì...
+
+43
+00:07:17,464 --> 00:07:18,544
+[SPEAKER_B] Sì, sì, sì.
+
+44
+00:07:20,687 --> 00:07:26,931
+[SPEAKER_B] per cercare bibliografia e per cercare testi. Va bene, sono contento e le dò 3.
+
+45
+00:07:23,455 --> 00:07:23,910
+[SPEAKER_A] Grazie.
+
+46
+00:07:26,931 --> 00:07:27,859
+[SPEAKER_A] Grazie
+
+47
+00:07:38,119 --> 00:07:40,634
+[SPEAKER_B] Non le do la laurea per la questione del...
+
+48
+00:07:40,701 --> 00:07:41,764
+[SPEAKER_A] di catalogli
+
+49
+00:07:42,844 --> 00:07:48,750
+[SPEAKER_B] No, no, è la questione della numerazione dei periodi. Cioè lei non la sapeva, si, quella che doveva lei non la sapeva.
+
+50
+00:07:45,983 --> 00:07:47,586
+[SPEAKER_A] Non ci vedrei, non la sapeva
+
+51
+00:07:50,843 --> 00:07:52,362
+[SPEAKER_B] anche per la sua onestanza
+
+52
+00:07:53,408 --> 00:07:56,969
+[SPEAKER_A] Ah no, no. Mi sono consapevole.
+
+53
+00:07:56,969 --> 00:08:09,507
+[SPEAKER_B] perché no mi ha fatto l'intervento delle bibliografie locali passando diciamo dalla prospettiva della storia della bibliografia che mi è piaciuto molto quindi la volevo dare ma poi ho ripensato
+
+54
+00:08:04,242 --> 00:08:04,680
+[SPEAKER_A] Grazie.
+
+55
+00:08:09,507 --> 00:08:13,270
+[SPEAKER_A] No, ma va bene, almeno l'imparo, che mi servirà.
+
+56
+00:08:18,872 --> 00:08:26,922
+[SPEAKER_B] Allora le chiedo la sua password senza digitare il bio però. Ok. Mettete che anche qua, ecco. Vado? Sì.
+
+57
+00:08:42,362 --> 00:08:43,982
+[SPEAKER_A] Arrivederci, grazie.

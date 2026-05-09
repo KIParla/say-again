@@ -1,0 +1,14 @@
+{
+  "source_file": "audio_from20/subset_A/TOA3010_from20.wav",
+  "wav_file": "configuration_results/A/TOA3010_from20_A/audio_converted.wav",
+  "total_duration": 433.897,
+  "block_duration": 1800.0,
+  "num_blocks": 1,
+  "total_segments": 128,
+  "processing_time": -1769104432.1318893,
+  "exclusive_mode": true,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    426.56346875
+  ]
+}

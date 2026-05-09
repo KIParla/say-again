@@ -1,0 +1,29 @@
+######################################################################
+# MAPPA SPEAKER - ISTRUZIONI
+######################################################################
+# PyAnnote riconosce gli speaker indipendentemente per ogni blocco.
+# Questa mappa serve per associarli a quelli reali in modo univoco.
+# 
+# FORMATO: BLOCK_BB.SPEAKER_NN => NOME_UNIVOCO
+# 
+# ESEMPI:
+#   BLOCK_03.SPEAKER_00 => INTERVISTATORE_1
+#   BLOCK_03.SPEAKER_01 => SIGLA_MUSICALE
+#   BLOCK_03.SPEAKER_02 => INTERVISTATO_1
+#   BLOCK_03.SPEAKER_03 => OSPITE_SPECIALE
+# 
+# CONSIGLI:
+# - Usa nomi che siano sensati per te, senza spazi. 
+#   Esempio: INTERV_1, Ospite, SIGLA, SCARTA
+# - Lo stesso speaker in blocchi diversi deve avere lo stesso nome
+# - Ascolta i campioni audio per identificare gli speaker
+# - Tutte le voci DEVONO essere mappate per proseguire alla fase 2
+# 
+# NOTA: I campioni audio sono disponibili nelle cartelle BLOCK_XX/
+######################################################################
+
+# BLOCCO 00 (0.0s - 685.8s)
+BLOCK_00.SPEAKER_00 => SPEAKER_A
+BLOCK_00.SPEAKER_01 => SPEAKER_B
+
+# DOPO AVER COMPILATO, SALVA IL FILE E PROSEGUI CON FASE 1

@@ -1,0 +1,14 @@
+{
+  "source_file": "audio_from20/subset_A/KPS023_from20.wav",
+  "wav_file": "configuration_results/B/KPS023_from20_B/audio_converted.wav",
+  "total_duration": 1032.543,
+  "block_duration": 1800.0,
+  "num_blocks": 1,
+  "total_segments": 365,
+  "processing_time": -1769104413.4100573,
+  "exclusive_mode": false,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    1029.55784375
+  ]
+}

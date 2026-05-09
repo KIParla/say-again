@@ -1,0 +1,11 @@
+{
+  "temperature": 0.14282519530947102,
+  "beam_size": 3,
+  "best_of": 6,
+  "no_speech_threshold": 0.20280013533411262,
+  "compression_ratio_threshold": 2.1213700150686146,
+  "model": "large-v3",
+  "condition_on_previous_text": true,
+  "patience": 0.5918160131213562,
+  "length_penalty": 0.4794822535554773
+}

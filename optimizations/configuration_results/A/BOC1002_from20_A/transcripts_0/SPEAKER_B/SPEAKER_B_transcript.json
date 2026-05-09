@@ -1,0 +1,796 @@
+{
+  "speaker": "SPEAKER_B",
+  "audio_duration": 524.778,
+  "segments": [
+    {
+      "speaker": "SPEAKER_B",
+      "start": 0.03096875,
+      "end": 4.4859687500000005,
+      "text": "Mi pensavo un mass piacere Ah, vedono proprio loro una loro tipografia",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 0.03096875,
+          "end": 1.53096875,
+          "text": "Mi pensavo un mass piacere",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 1.53096875,
+          "end": 4.4859687500000005,
+          "text": "Ah, vedono proprio loro una loro tipografia",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 9.49784375,
+      "end": 10.67984375,
+      "text": "e a chi l'hanno in tutta.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 9.49784375,
+          "end": 10.67984375,
+          "text": "e a chi l'hanno in tutta.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 13.61534375,
+      "end": 33.96634375,
+      "text": "hanno chiuso proprio va bene e dice che il tite che è appassionato in tipografia vuol sapere dove sono finite le sfosso ai materiali se sono in un magazzino",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 13.61534375,
+          "end": 20.11534375,
+          "text": "hanno chiuso proprio",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 20.11534375,
+          "end": 24.11534375,
+          "text": "va bene",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 24.11534375,
+          "end": 29.11534375,
+          "text": "e dice che il tite che è appassionato in tipografia",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 29.11534375,
+          "end": 32.11534375,
+          "text": "vuol sapere dove sono finite le sfosso ai materiali",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 32.11534375,
+          "end": 33.96634375,
+          "text": "se sono in un magazzino",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 36.07596875,
+      "end": 36.39696875,
+      "text": "tu mera",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 36.07596875,
+          "end": 36.39696875,
+          "text": "tu mera",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 38.64096875,
+      "end": 40.36296875,
+      "text": "Quantanissapo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 38.64096875,
+          "end": 40.14096875,
+          "text": "Quantanissapo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 43.21409375,
+      "end": 76.20409375,
+      "text": "vessi in foro, magari le dicono che hanno messo in una casa di campagna e sono materiali importanti, quindi il tipografo, in originale tipografo, è stato scappato il libro a dare, a portarlo, altrimenti perché quando il dito di stampa nasce, lei non lo sa, ma nasce intorno al XVI secolo in Francia, gli dito che non c'erano ancora un tipografo. C'erano niente pore. Oggi c'è spettale dittore, oggi si chiama Teposito Legale.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 43.21409375,
+          "end": 47.71409375,
+          "text": "vessi in foro, magari le dicono che hanno messo in una casa di campagna",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 47.71409375,
+          "end": 53.71409375,
+          "text": "e sono materiali importanti, quindi il tipografo, in originale tipografo,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 53.71409375,
+          "end": 57.71409375,
+          "text": "è stato scappato il libro a dare, a portarlo,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 57.71409375,
+          "end": 61.71409375,
+          "text": "altrimenti perché quando il dito di stampa nasce,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 61.71409375,
+          "end": 66.71409375,
+          "text": "lei non lo sa, ma nasce intorno al XVI secolo in Francia,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 66.71409375,
+          "end": 69.71409375,
+          "text": "gli dito che non c'erano ancora un tipografo.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 69.71409375,
+          "end": 71.71409375,
+          "text": "C'erano niente pore.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 71.71409375,
+          "end": 75.71409375,
+          "text": "Oggi c'è spettale dittore, oggi si chiama Teposito Legale.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 79.02284375,
+      "end": 82.75284375000001,
+      "text": "questa pentitipografia di bibliografia internazionale",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 79.02284375,
+          "end": 82.52284375,
+          "text": "questa pentitipografia di bibliografia internazionale",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 89.46846875,
+      "end": 91.54446875,
+      "text": "Può anche prendere il manuale e spogliarlo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 89.46846875,
+          "end": 91.54446875,
+          "text": "Può anche prendere il manuale e spogliarlo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 111.06846875,
+      "end": 111.96246875,
+      "text": "Brava!",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 111.06846875,
+          "end": 111.96246875,
+          "text": "Brava!",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 120.19784375,
+      "end": 121.21084375000001,
+      "text": "Mi piacere?",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 120.19784375,
+          "end": 121.21084375000001,
+          "text": "Mi piacere?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 140.85284375,
+      "end": 156.37784375,
+      "text": "Giusto, perché siamo stampate pubblicate in tante paesi diverse. Cina, dove si stampa cinesa, oltre che in cina. Ciangani, che non è in cina.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 140.85284375,
+          "end": 146.35284375,
+          "text": "Giusto, perché siamo stampate pubblicate in tante paesi diverse.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 146.35284375,
+          "end": 154.35284375,
+          "text": "Cina, dove si stampa cinesa, oltre che in cina.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 154.35284375,
+          "end": 156.35284375,
+          "text": "Ciangani, che non è in cina.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 158.89221875,
+      "end": 162.50321875,
+      "text": "no è stata riasorbita era taiwan forse",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 158.89221875,
+          "end": 160.39221875,
+          "text": "no è stata riasorbita",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 160.39221875,
+          "end": 162.39221875,
+          "text": "era taiwan forse",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 166.45221875,
+      "end": 173.42121874999998,
+      "text": "E anche l'è stata assorbita dal signor. Sì, sì. Beh, forse magari, non so, in India si stampa pure cinese. Sì.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 166.45221875,
+          "end": 168.95221875,
+          "text": "E anche l'è stata assorbita dal signor.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 168.95221875,
+          "end": 169.95221875,
+          "text": "Sì, sì.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 169.95221875,
+          "end": 172.95221875,
+          "text": "Beh, forse magari, non so, in India si stampa pure cinese.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 172.95221875,
+          "end": 173.42121874999998,
+          "text": "Sì.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 175.44659375,
+      "end": 183.00659375,
+      "text": "Corea del Nort! Corea del Nort! Corea del Nort! Per esempio di bibliografia invece locale...",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 175.44659375,
+          "end": 178.22659375,
+          "text": "Corea del Nort!",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 178.22659375,
+          "end": 179.22659375,
+          "text": "Corea del Nort!",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 179.22659375,
+          "end": 180.22659375,
+          "text": "Corea del Nort!",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 180.22659375,
+          "end": 182.82659375,
+          "text": "Per esempio di bibliografia invece locale...",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 200.65784375,
+      "end": 202.49784375000002,
+      "text": "ho perso una piccola estrada",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 200.65784375,
+          "end": 202.15784375,
+          "text": "ho perso una piccola estrada",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 205.92284375,
+      "end": 224.41784375,
+      "text": "Brava, molto brava. Quindi... Ultima domanda. Guerrini spiega agli studenti universitari la biblioteca. Sì. E spiega la differenza tra il catalogo tradizionale e l'Opac. L'Opac, quali sono i suoi vantaggi, anche i suoi limiti.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 205.92284375,
+          "end": 207.42284375,
+          "text": "Brava, molto brava.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 207.42284375,
+          "end": 208.42284375,
+          "text": "Quindi...",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 208.42284375,
+          "end": 210.42284375,
+          "text": "Ultima domanda.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 210.42284375,
+          "end": 214.42284375,
+          "text": "Guerrini spiega agli studenti universitari la biblioteca.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 214.42284375,
+          "end": 215.42284375,
+          "text": "Sì.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 215.42284375,
+          "end": 219.42284375,
+          "text": "E spiega la differenza tra il catalogo tradizionale e l'Opac.",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 219.42284375,
+          "end": 224.41784375,
+          "text": "L'Opac, quali sono i suoi vantaggi, anche i suoi limiti.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 263.29784375,
+      "end": 264.05784375,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 275.54909375,
+      "end": 278.02909375,
+      "text": "Qua risistere.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 275.54909375,
+          "end": 278.02909375,
+          "text": "Qua risistere.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 313.41659375,
+      "end": 323.55859375,
+      "text": "Rispetto al catalogo tradizionale che era per lo più un catalogo a schede mobili, lasciando perdere i cataloghi a volume, che non registravano, quale è il vantaggio del lobo.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 313.41659375,
+          "end": 319.91659375,
+          "text": "Rispetto al catalogo tradizionale che era per lo più un catalogo a schede mobili, lasciando perdere i cataloghi a volume,",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 319.91659375,
+          "end": 323.55859375,
+          "text": "che non registravano, quale è il vantaggio del lobo.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 326.24159375,
+      "end": 327.67559375,
+      "text": "",
+      "confidence": null,
+      "whisper_segments": []
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 335.52284375,
+      "end": 379.54984375,
+      "text": "di bibliografici materializzanti in decine di milioni di esemplari, in realtà non documentano tutto il patrimonio librario di biblioteche anche solo italiane, quindi una buona ricerca cosa deve essere fatto.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 365.02284375,
+          "end": 372.02284375,
+          "text": "di bibliografici materializzanti in decine di milioni di esemplari, in realtà non documentano",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 372.02284375,
+          "end": 378.02284375,
+          "text": "tutto il patrimonio librario di biblioteche anche solo italiane, quindi una buona ricerca",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 378.02284375,
+          "end": 379.02284375,
+          "text": "cosa deve essere fatto.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 394.82159375,
+      "end": 402.22959375,
+      "text": "La mano.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 394.82159375,
+          "end": 396.32159375,
+          "text": "La mano.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 408.76034375,
+      "end": 412.94534375,
+      "text": "non ritrova nelle banche dati, non ritrova le cataloghie a schede",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 408.76034375,
+          "end": 412.86034375,
+          "text": "non ritrova nelle banche dati, non ritrova le cataloghie a schede",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 415.61159375,
+      "end": 425.34859375,
+      "text": "Già credo che poi l'elettratura, cioè i testi che hanno a cui fare con altre lingue, non sono mica tanto trattati, è meglio appacca.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 415.61159375,
+          "end": 425.11159375,
+          "text": "Già credo che poi l'elettratura, cioè i testi che hanno a cui fare con altre lingue, non sono mica tanto trattati, è meglio appacca.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 427.91346875,
+      "end": 430.17446875,
+      "text": "un grande limite questo del lato",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 427.91346875,
+          "end": 429.41346875,
+          "text": "un grande limite questo del lato",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 437.46471875,
+      "end": 438.54471874999996,
+      "text": "S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 437.46471875,
+          "end": 438.54471874999996,
+          "text": "S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S-S",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 440.68784375,
+      "end": 446.93184375,
+      "text": "per cercare bibliografia e per cercare testi. Va bene, sono contento e vedo attraverso.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 440.68784375,
+          "end": 446.93184375,
+          "text": "per cercare bibliografia e per cercare testi. Va bene, sono contento e vedo attraverso.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 458.11971875,
+      "end": 460.63471875,
+      "text": "Non le dono l'ode per la questione del...",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 458.11971875,
+          "end": 460.61971875,
+          "text": "Non le dono l'ode per la questione del...",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 462.84471875,
+      "end": 468.75071875000003,
+      "text": "No, no, per la questione della numerazione dei periodi, per lei non la sapeva, per la che devo dire non la sapeva.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 462.84471875,
+          "end": 468.75071875000003,
+          "text": "No, no, per la questione della numerazione dei periodi, per lei non la sapeva, per la che devo dire non la sapeva.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 470.84346875,
+      "end": 472.36246875,
+      "text": "anche per la suona è stanzo",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 470.84346875,
+          "end": 472.34346875,
+          "text": "anche per la suona è stanzo",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 476.96909375,
+      "end": 489.50709375,
+      "text": "Perché no, mi ha fatto l'intervento delle bibliografie locali passando, diciamo, dalla prospettiva della storia della bibliografia, che mi è piaciuto molto, quindi la volevo dare, ma poi ho ripensato.",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 476.96909375,
+          "end": 488.46909375,
+          "text": "Perché no, mi ha fatto l'intervento delle bibliografie locali passando, diciamo, dalla prospettiva della storia della bibliografia, che mi è piaciuto molto, quindi la volevo dare, ma poi ho ripensato.",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    },
+    {
+      "speaker": "SPEAKER_B",
+      "start": 498.87284375,
+      "end": 506.92284375,
+      "text": "Allora ne chiedo la sua password senza digitare un video però eh Ok Pettete anche qua, ecco Ma non? Sì",
+      "confidence": null,
+      "whisper_segments": [
+        {
+          "speaker": "SPEAKER_B",
+          "start": 498.87284375,
+          "end": 503.37284375,
+          "text": "Allora ne chiedo la sua password senza digitare un video però eh",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 503.37284375,
+          "end": 504.37284375,
+          "text": "Ok",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 504.37284375,
+          "end": 506.37284375,
+          "text": "Pettete anche qua, ecco",
+          "confidence": 0.0,
+          "words": []
+        },
+        {
+          "speaker": "SPEAKER_B",
+          "start": 506.37284375,
+          "end": 506.92284375,
+          "text": "Ma non?",
+          "confidence": 0.0,
+          "words": []
+        }
+      ]
+    }
+  ]
+}

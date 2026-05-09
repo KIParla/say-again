@@ -1,0 +1,14 @@
+{
+  "source_file": "audio_from20/subset_A/BOC1002_from20.wav",
+  "wav_file": "configuration_results/B/BOC1002_from20_B/audio_converted.wav",
+  "total_duration": 524.778,
+  "block_duration": 1800.0,
+  "num_blocks": 1,
+  "total_segments": 191,
+  "processing_time": -1769104429.6473124,
+  "exclusive_mode": false,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    522.51471875
+  ]
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "trial": 0,
+    "value": 0.903871054542241,
+    "params": {
+      "temperature": 0.2615402870913811,
+      "beam_size": 8,
+      "best_of": 10,
+      "no_speech_threshold": 0.4670071894260581,
+      "compression_ratio_threshold": 1.9887858168543089,
+      "model": "small",
+      "condition_on_previous_text": true,
+      "patience": 0.3803991703973417,
+      "length_penalty": 0.2144854683262284
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 1,
+    "value": 0.602600882295172,
+    "params": {
+      "temperature": 0.6248591121378884,
+      "beam_size": 3,
+      "best_of": 5,
+      "no_speech_threshold": 0.2574406608570196,
+      "compression_ratio_threshold": 2.5586213581801864,
+      "model": "small",
+      "condition_on_previous_text": false,
+      "patience": 0.2284070492412205,
+      "length_penalty": 0.5622164436813492
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 2,
+    "value": 0.3804040109544227,
+    "params": {
+      "temperature": 0.7208104450739191,
+      "beam_size": 7,
+      "best_of": 2,
+      "no_speech_threshold": 0.6262190203504693,
+      "compression_ratio_threshold": 1.7503399446580985,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.29612187005678525,
+      "length_penalty": 0.5974410473944025
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 3,
+    "value": 0.40150332111332937,
+    "params": {
+      "temperature": 0.3341273215587237,
+      "beam_size": 9,
+      "best_of": 8,
+      "no_speech_threshold": 0.7191341344045501,
+      "compression_ratio_threshold": 2.2764893880246664,
+      "model": "turbo",
+      "condition_on_previous_text": true,
+      "patience": 0.3705533785239987,
+      "length_penalty": 0.5685948098893999
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 4,
+    "value": 0.38018011413983516,
+    "params": {
+      "temperature": 0.6714018745340957,
+      "beam_size": 6,
+      "best_of": 8,
+      "no_speech_threshold": 0.7488718696164434,
+      "compression_ratio_threshold": 2.1181285446436138,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.38618465320375595,
+      "length_penalty": 0.7483415561399478
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 5,
+    "value": 0.36169558116714806,
+    "params": {
+      "temperature": 0.2390219115791672,
+      "beam_size": 4,
+      "best_of": 7,
+      "no_speech_threshold": 0.21220846112983796,
+      "compression_ratio_threshold": 2.485904942367454,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.3589708483980425,
+      "length_penalty": 0.23400135595109348
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 6,
+    "value": 0.5051507381519932,
+    "params": {
+      "temperature": 0.7435872353319375,
+      "beam_size": 7,
+      "best_of": 1,
+      "no_speech_threshold": 0.2313309895660647,
+      "compression_ratio_threshold": 2.361230485082661,
+      "model": "medium",
+      "condition_on_previous_text": true,
+      "patience": 0.42961409562011404,
+      "length_penalty": 0.5757535407943921
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 7,
+    "value": 0.6894084112039227,
+    "params": {
+      "temperature": 0.06125549981132927,
+      "beam_size": 4,
+      "best_of": 10,
+      "no_speech_threshold": 0.7558982018624982,
+      "compression_ratio_threshold": 1.9560304590689475,
+      "model": "small",
+      "condition_on_previous_text": true,
+      "patience": 0.7119077122386772,
+      "length_penalty": 0.7293165644780444
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 8,
+    "value": 0.4789563235517085,
+    "params": {
+      "temperature": 0.7746318447397278,
+      "beam_size": 4,
+      "best_of": 10,
+      "no_speech_threshold": 0.5447526030150015,
+      "compression_ratio_threshold": 2.7711577061355444,
+      "model": "medium",
+      "condition_on_previous_text": false,
+      "patience": 0.7379031383920223,
+      "length_penalty": 0.4623135703188315
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 9,
+    "value": 0.3852292975291253,
+    "params": {
+      "temperature": 0.4400224690988056,
+      "beam_size": 9,
+      "best_of": 5,
+      "no_speech_threshold": 0.2737105408478169,
+      "compression_ratio_threshold": 1.9218637259320859,
+      "model": "turbo",
+      "condition_on_previous_text": true,
+      "patience": 0.46501335347174827,
+      "length_penalty": 0.7187262839947945
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 10,
+    "value": 0.39120816445349377,
+    "params": {
+      "temperature": 0.9619765487999411,
+      "beam_size": 1,
+      "best_of": 7,
+      "no_speech_threshold": 0.4145818496201487,
+      "compression_ratio_threshold": 1.5849733203231358,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.6213927042000322,
+      "length_penalty": 0.20169040689986212
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 11,
+    "value": 0.3730120522766934,
+    "params": {
+      "temperature": 0.10286252137074903,
+      "beam_size": 5,
+      "best_of": 7,
+      "no_speech_threshold": 0.3791180595353701,
+      "compression_ratio_threshold": 2.432459685884678,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5266982833197636,
+      "length_penalty": 0.34309749199294304
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 12,
+    "value": 0.37310607583288036,
+    "params": {
+      "temperature": 0.0027596164264491185,
+      "beam_size": 2,
+      "best_of": 6,
+      "no_speech_threshold": 0.36199540114312995,
+      "compression_ratio_threshold": 2.530743612697556,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5712003079117784,
+      "length_penalty": 0.342877982013022
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 13,
+    "value": 0.3609805537799093,
+    "params": {
+      "temperature": 0.180250306990386,
+      "beam_size": 5,
+      "best_of": 3,
+      "no_speech_threshold": 0.33768506389328745,
+      "compression_ratio_threshold": 2.504382243358143,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5292091740724261,
+      "length_penalty": 0.3368179812690472
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 14,
+    "value": 0.3737185646355982,
+    "params": {
+      "temperature": 0.19343679044840015,
+      "beam_size": 5,
+      "best_of": 3,
+      "no_speech_threshold": 0.3005156454787065,
+      "compression_ratio_threshold": 2.76543735118785,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.6378469820333089,
+      "length_penalty": 0.31405536414898055
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 15,
+    "value": 0.37168390852817934,
+    "params": {
+      "temperature": 0.3937633200415731,
+      "beam_size": 4,
+      "best_of": 4,
+      "no_speech_threshold": 0.21102049311112983,
+      "compression_ratio_threshold": 2.6246171687353774,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.3126787875123189,
+      "length_penalty": 0.418165566897694
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 16,
+    "value": 0.37813695415749976,
+    "params": {
+      "temperature": 0.18744944037319433,
+      "beam_size": 2,
+      "best_of": 3,
+      "no_speech_threshold": 0.32977085240961584,
+      "compression_ratio_threshold": 2.2537332333389104,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5115855084081598,
+      "length_penalty": 0.2751032426029743
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 17,
+    "value": 0.372353318355995,
+    "params": {
+      "temperature": 0.5521974432801696,
+      "beam_size": 6,
+      "best_of": 1,
+      "no_speech_threshold": 0.45867008648180935,
+      "compression_ratio_threshold": 2.441362206177352,
+      "model": "turbo",
+      "condition_on_previous_text": true,
+      "patience": 0.3089958957844803,
+      "length_penalty": 0.3834692913219835
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 18,
+    "value": 0.4688435374966516,
+    "params": {
+      "temperature": 0.3016036175294463,
+      "beam_size": 10,
+      "best_of": 4,
+      "no_speech_threshold": 0.5500746545830114,
+      "compression_ratio_threshold": 2.6502886809804984,
+      "model": "medium",
+      "condition_on_previous_text": false,
+      "patience": 0.23199461696752494,
+      "length_penalty": 0.26576010778170445
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 19,
+    "value": 0.3676996412446314,
+    "params": {
+      "temperature": 0.1709670383932827,
+      "beam_size": 3,
+      "best_of": 6,
+      "no_speech_threshold": 0.2051590860583113,
+      "compression_ratio_threshold": 2.1499911204246906,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5884339238475074,
+      "length_penalty": 0.4439202510622099
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 20,
+    "value": 0.36883552397849734,
+    "params": {
+      "temperature": 0.410494942125441,
+      "beam_size": 7,
+      "best_of": 8,
+      "no_speech_threshold": 0.32207787283010714,
+      "compression_ratio_threshold": 2.2810395003075836,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.4703576895080537,
+      "length_penalty": 0.2620712048997782
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 21,
+    "value": 0.35731480364108176,
+    "params": {
+      "temperature": 0.14282519530947102,
+      "beam_size": 3,
+      "best_of": 6,
+      "no_speech_threshold": 0.20280013533411262,
+      "compression_ratio_threshold": 2.1213700150686146,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5918160131213562,
+      "length_penalty": 0.4794822535554773
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 22,
+    "value": 0.37916503856580236,
+    "params": {
+      "temperature": 0.11273744506106884,
+      "beam_size": 3,
+      "best_of": 7,
+      "no_speech_threshold": 0.2812418677673889,
+      "compression_ratio_threshold": 2.086022934013608,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.67429157264476,
+      "length_penalty": 0.49488631260209537
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 23,
+    "value": 0.3897886000365467,
+    "params": {
+      "temperature": 0.26800874434593003,
+      "beam_size": 5,
+      "best_of": 4,
+      "no_speech_threshold": 0.20053345044302046,
+      "compression_ratio_threshold": 1.8054559003076758,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5518062991320429,
+      "length_penalty": 0.3709360857929399
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 24,
+    "value": 0.3802685880719041,
+    "params": {
+      "temperature": 0.004853272448171381,
+      "beam_size": 1,
+      "best_of": 6,
+      "no_speech_threshold": 0.4011163936714822,
+      "compression_ratio_threshold": 2.402222088385654,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.44613008940372945,
+      "length_penalty": 0.30251939853189713
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 25,
+    "value": 0.38484336833323257,
+    "params": {
+      "temperature": 0.4957434256700489,
+      "beam_size": 4,
+      "best_of": 9,
+      "no_speech_threshold": 0.2562058679036946,
+      "compression_ratio_threshold": 2.233551114552197,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.6310366195883113,
+      "length_penalty": 0.6334283559424374
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 26,
+    "value": 0.4095630562582316,
+    "params": {
+      "temperature": 0.22947933122643024,
+      "beam_size": 3,
+      "best_of": 5,
+      "no_speech_threshold": 0.3265731737241466,
+      "compression_ratio_threshold": 2.670991172058704,
+      "model": "turbo",
+      "condition_on_previous_text": false,
+      "patience": 0.7940127723724455,
+      "length_penalty": 0.5006201214929852
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 27,
+    "value": 0.4041366976357837,
+    "params": {
+      "temperature": 0.12013520397314073,
+      "beam_size": 2,
+      "best_of": 3,
+      "no_speech_threshold": 0.25806053515767846,
+      "compression_ratio_threshold": 2.4968622051356184,
+      "model": "medium",
+      "condition_on_previous_text": true,
+      "patience": 0.5011991303567918,
+      "length_penalty": 0.40137306920903787
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 28,
+    "value": 0.6207668285362652,
+    "params": {
+      "temperature": 0.3400979721738381,
+      "beam_size": 6,
+      "best_of": 2,
+      "no_speech_threshold": 0.36696481471164016,
+      "compression_ratio_threshold": 2.044983739077449,
+      "model": "small",
+      "condition_on_previous_text": true,
+      "patience": 0.40850340266904295,
+      "length_penalty": 0.23569385979915272
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 29,
+    "value": 0.7629034619292613,
+    "params": {
+      "temperature": 0.2566920037242886,
+      "beam_size": 5,
+      "best_of": 7,
+      "no_speech_threshold": 0.44635353150440826,
+      "compression_ratio_threshold": 2.354173552020176,
+      "model": "small",
+      "condition_on_previous_text": true,
+      "patience": 0.3455198295170217,
+      "length_penalty": 0.6767863371618875
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 30,
+    "value": 0.38214820865782434,
+    "params": {
+      "temperature": 0.05717974177413515,
+      "beam_size": 4,
+      "best_of": 9,
+      "no_speech_threshold": 0.5208970435573154,
+      "compression_ratio_threshold": 2.205784041831613,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5846057889952063,
+      "length_penalty": 0.21658447948521603
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 31,
+    "value": 0.41196132500317456,
+    "params": {
+      "temperature": 0.18248951597344606,
+      "beam_size": 3,
+      "best_of": 6,
+      "no_speech_threshold": 0.20819476298616854,
+      "compression_ratio_threshold": 2.163530998290228,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5883033020882161,
+      "length_penalty": 0.4463281416693312
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 32,
+    "value": 0.3964415781572577,
+    "params": {
+      "temperature": 0.15797775873304265,
+      "beam_size": 3,
+      "best_of": 6,
+      "no_speech_threshold": 0.24097016104089802,
+      "compression_ratio_threshold": 1.8878910635847757,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.5467517350877157,
+      "length_penalty": 0.5214613233040744
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 33,
+    "value": 0.3851139780889557,
+    "params": {
+      "temperature": 0.23856998856702688,
+      "beam_size": 2,
+      "best_of": 5,
+      "no_speech_threshold": 0.291574912151259,
+      "compression_ratio_threshold": 2.02611635413846,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.6069874309304364,
+      "length_penalty": 0.44077275113645953
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 34,
+    "value": 0.3653170082035249,
+    "params": {
+      "temperature": 0.34970444551384433,
+      "beam_size": 3,
+      "best_of": 5,
+      "no_speech_threshold": 0.24351180417644805,
+      "compression_ratio_threshold": 2.3184035698805614,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.4831157080087638,
+      "length_penalty": 0.5278550703830377
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 35,
+    "value": 0.36187863442510054,
+    "params": {
+      "temperature": 0.33775178388393384,
+      "beam_size": 4,
+      "best_of": 4,
+      "no_speech_threshold": 0.6666845735453111,
+      "compression_ratio_threshold": 2.3229713073620575,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.2625822924141876,
+      "length_penalty": 0.6283385159579322
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 36,
+    "value": 0.593530882723721,
+    "params": {
+      "temperature": 0.29504038294176743,
+      "beam_size": 5,
+      "best_of": 2,
+      "no_speech_threshold": 0.6742057159923613,
+      "compression_ratio_threshold": 2.5766120952593607,
+      "model": "small",
+      "condition_on_previous_text": false,
+      "patience": 0.23989579784411996,
+      "length_penalty": 0.6246054768834053
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 37,
+    "value": 0.37170756893382256,
+    "params": {
+      "temperature": 0.4741842581561895,
+      "beam_size": 6,
+      "best_of": 4,
+      "no_speech_threshold": 0.5993338489460032,
+      "compression_ratio_threshold": 2.5351797745761364,
+      "model": "large-v3",
+      "condition_on_previous_text": true,
+      "patience": 0.2654257644457124,
+      "length_penalty": 0.6598098873501992
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 38,
+    "value": 0.3650794386438408,
+    "params": {
+      "temperature": 0.565007597848564,
+      "beam_size": 4,
+      "best_of": 3,
+      "no_speech_threshold": 0.693444480941863,
+      "compression_ratio_threshold": 2.470635695119366,
+      "model": "turbo",
+      "condition_on_previous_text": true,
+      "patience": 0.3712213473496059,
+      "length_penalty": 0.7795947107279191
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 39,
+    "value": 0.4551474212910444,
+    "params": {
+      "temperature": 0.33760477743498507,
+      "beam_size": 8,
+      "best_of": 4,
+      "no_speech_threshold": 0.7950116053049114,
+      "compression_ratio_threshold": 2.3857577771720924,
+      "model": "medium",
+      "condition_on_previous_text": true,
+      "patience": 0.2661790652319725,
+      "length_penalty": 0.3150198425789648
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 40,
+    "value": 0.35873275747558564,
+    "params": {
+      "temperature": 0.4022683941589776,
+      "beam_size": 4,
+      "best_of": 8,
+      "no_speech_threshold": 0.6305394874469998,
+      "compression_ratio_threshold": 2.582813956527768,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.3375886976476543,
+      "length_penalty": 0.5813860696643361
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 41,
+    "value": 0.377529127112566,
+    "params": {
+      "temperature": 0.40194602443249344,
+      "beam_size": 4,
+      "best_of": 8,
+      "no_speech_threshold": 0.646596758957906,
+      "compression_ratio_threshold": 2.698173327508303,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.20342006335660495,
+      "length_penalty": 0.5817205716674295
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 42,
+    "value": 0.39264538566527435,
+    "params": {
+      "temperature": 0.2301448236002468,
+      "beam_size": 5,
+      "best_of": 9,
+      "no_speech_threshold": 0.6082619079945173,
+      "compression_ratio_threshold": 2.5898424273443656,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.3378690953245369,
+      "length_penalty": 0.55627198668183
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 43,
+    "value": 0.3710191116697825,
+    "params": {
+      "temperature": 0.06693461500095542,
+      "beam_size": 4,
+      "best_of": 7,
+      "no_speech_threshold": 0.585229763100361,
+      "compression_ratio_threshold": 2.319876577353173,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.40732117948565155,
+      "length_penalty": 0.6042137357439742
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 44,
+    "value": 0.37692956766470637,
+    "params": {
+      "temperature": 0.894247830282973,
+      "beam_size": 6,
+      "best_of": 8,
+      "no_speech_threshold": 0.5024571331233556,
+      "compression_ratio_threshold": 2.499161788577886,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.2785949823597894,
+      "length_penalty": 0.6767895560166863
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 45,
+    "value": 0.3853044313786984,
+    "params": {
+      "temperature": 0.3018953060459423,
+      "beam_size": 4,
+      "best_of": 7,
+      "no_speech_threshold": 0.7183800722440863,
+      "compression_ratio_threshold": 2.7916147068841535,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.34097986432232963,
+      "length_penalty": 0.5579311146948943
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 46,
+    "value": 0.6329186880194159,
+    "params": {
+      "temperature": 0.4423335795077733,
+      "beam_size": 5,
+      "best_of": 5,
+      "no_speech_threshold": 0.649620303428249,
+      "compression_ratio_threshold": 2.427865729306419,
+      "model": "small",
+      "condition_on_previous_text": true,
+      "patience": 0.657573770679073,
+      "length_penalty": 0.7070477959872923
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 47,
+    "value": 0.3654755890423405,
+    "params": {
+      "temperature": 0.5474948664111051,
+      "beam_size": 7,
+      "best_of": 9,
+      "no_speech_threshold": 0.5553913114133204,
+      "compression_ratio_threshold": 1.5121596119022844,
+      "model": "large-v3",
+      "condition_on_previous_text": false,
+      "patience": 0.20319473917986075,
+      "length_penalty": 0.6097614385784715
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 48,
+    "value": 0.392691458947614,
+    "params": {
+      "temperature": 0.6418713207471995,
+      "beam_size": 3,
+      "best_of": 8,
+      "no_speech_threshold": 0.7262634984657252,
+      "compression_ratio_threshold": 2.7119962875533097,
+      "model": "turbo",
+      "condition_on_previous_text": true,
+      "patience": 0.4287598693301996,
+      "length_penalty": 0.3468937366846525
+    },
+    "state": "COMPLETE"
+  },
+  {
+    "trial": 49,
+    "value": 0.40993600615033876,
+    "params": {
+      "temperature": 0.3672385876221418,
+      "beam_size": 2,
+      "best_of": 1,
+      "no_speech_threshold": 0.34699074158896237,
+      "compression_ratio_threshold": 2.603185671515239,
+      "model": "medium",
+      "condition_on_previous_text": true,
+      "patience": 0.5358724783704016,
+      "length_penalty": 0.49336412569441224
+    },
+    "state": "COMPLETE"
+  }
+]

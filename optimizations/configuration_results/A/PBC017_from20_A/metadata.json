@@ -1,0 +1,14 @@
+{
+  "source_file": "audio_from20/subset_A/PBC017_from20.wav",
+  "wav_file": "configuration_results/A/PBC017_from20_A/audio_converted.wav",
+  "total_duration": 1886.016,
+  "block_duration": 1800.0,
+  "num_blocks": 1,
+  "total_segments": 508,
+  "processing_time": -1769104373.7467647,
+  "exclusive_mode": true,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    1884.10784375
+  ]
+}

@@ -1,0 +1,45 @@
+=== REPORT ANALISI COMPLETO ===
+Speaker rilevati: 2
+Segmenti totali: 218
+
+Lunghezze segmenti:
+- <5s: 197 segmenti
+- 5-20s: 20 segmenti
+- 20s-1m: 1 segmenti
+- 1m-2m: 0 segmenti
+- >2m: 0 segmenti
+
+Tipi di segmento:
+- normal: 218 segmenti
+
+=== STATISTICHE PER SPEAKER ===
+
+Speaker: SPEAKER_00
+- Segmenti: 107
+- Durata minima: 0.02s
+- Durata massima: 20.72s
+- Durata media: 2.05s
+- Durata totale: 219.41s
+- Confidenza media: 0.700
+- Confidenza minima: 0.700
+- Confidenza massima: 0.700
+- Frammentazione: 29.3 seg/min
+- Segmenti sovrapposti: 0.0%
+- Pausa media tra interventi: 2.8s
+- Tipi di segmento:
+  * normal: 107
+
+Speaker: SPEAKER_01
+- Segmenti: 111
+- Durata minima: 0.02s
+- Durata massima: 11.31s
+- Durata media: 1.81s
+- Durata totale: 201.00s
+- Confidenza media: 0.700
+- Confidenza minima: 0.700
+- Confidenza massima: 0.700
+- Frammentazione: 33.1 seg/min
+- Segmenti sovrapposti: 0.0%
+- Pausa media tra interventi: 2.8s
+- Tipi di segmento:
+  * normal: 111

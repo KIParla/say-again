@@ -1,0 +1,20 @@
+######################################################################
+# MAPPA SPEAKER AUTOMATICA - GENERATA DA ANALISI EMBEDDING
+######################################################################
+# Questa mappatura è generata automaticamente analizzando la similarità
+# vocale tra i campioni speaker. VERIFICARE MANUALMENTE se necessario.
+# 
+# CLUSTER TROVATI:
+# SPEAKER_A: 2 speaker -> BLOCK_0.SPEAKER_00, BLOCK_1.SPEAKER_00
+# SPEAKER_B: 2 speaker -> BLOCK_0.SPEAKER_01, BLOCK_1.SPEAKER_01
+# 
+######################################################################
+
+# BLOCCO 0
+BLOCK_0.SPEAKER_00 => SPEAKER_A
+BLOCK_0.SPEAKER_01 => SPEAKER_B
+
+# BLOCCO 1
+BLOCK_1.SPEAKER_00 => SPEAKER_A
+BLOCK_1.SPEAKER_01 => SPEAKER_B
+

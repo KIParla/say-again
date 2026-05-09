@@ -1,0 +1,15 @@
+{
+  "source_file": "audio_from20/subset_A/PTA018_from20.wav",
+  "wav_file": "configuration_results/A/PTA018_from20_A/audio_converted.wav",
+  "total_duration": 2247.173,
+  "block_duration": 1800.0,
+  "num_blocks": 2,
+  "total_segments": 813,
+  "processing_time": -1769104366.4004245,
+  "exclusive_mode": true,
+  "residual_threshold": 5,
+  "actual_block_durations": [
+    1796.52659375,
+    444.97409374999984
+  ]
+}
